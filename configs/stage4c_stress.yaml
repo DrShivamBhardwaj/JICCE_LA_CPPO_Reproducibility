@@ -1,0 +1,92 @@
+seed: 19
+network:
+  n_nodes: 100
+  area_m: [150.0, 150.0]
+  sink_xy: [75.0, 75.0]
+  initial_energy_j: 0.5
+  radio_range_m: 50.0
+  round_duration_s: 1.0
+  packet_bits: 4000
+  data_rate_bps: 250000
+radio:
+  e_elec_j_per_bit: 5.0e-8
+  eps_fs_j_per_bit_m2: 1.0e-11
+  eps_mp_j_per_bit_m4: 1.3e-15
+  e_da_j_per_bit: 5.0e-9
+  tx_power_dbm: 0.0
+  pl0_db: 40.0
+  path_loss_exponent: 2.9
+  noise_floor_dbm: -100.0
+  shadowing_sigma_db: 3.0
+  pdr_mid_snr_db: 6.0
+  pdr_slope_db: 2.0
+mac:
+  max_retries: 3
+traffic:
+  generation_prob: 0.30
+  class_probs: [0.35, 0.45, 0.20]
+  deadlines_ms: [90.0, 350.0, 1500.0]
+  pdr_targets: [0.985, 0.96, 0.90]
+  delay_violation_budgets: [0.015, 0.04, 0.10]
+attack:
+  malicious_ratio: 0.25
+  selective_drop_prob: 0.65
+  flooding_queue_add: 0.50
+clustering:
+  ch_fraction: 0.10
+  min_ch: 6
+  roa_population: 14
+  roa_iterations: 10
+  remora_factor_c: 0.1
+  weights:
+    energy: 0.18
+    intracluster_distance: 0.15
+    queue: 0.14
+    security_risk: 0.20
+    load_balance: 0.09
+    backbone_disconnect: 0.18
+    reconfiguration: 0.06
+  qos_conditioning:
+    enabled: true
+    weight: 0.75
+    delay_debt_weight: 0.60
+    loss_debt_weight: 0.40
+    deadline_weight: 0.55
+    reliability_weight: 0.45
+    priority_power: 0.75
+    criticality_gain: 1.50
+    max_penalty: 2.50
+trigger:
+  threshold: 0.46
+  stress_threshold: 0.46
+  persistence: 3
+  stress_persistence: 3
+  debt_enabled: true
+  debt_threshold: 0.22
+  debt_persistence: 2
+  cooldown_rounds: 10
+  weights:
+    energy_imbalance: 0.16
+    queue_pressure: 0.18
+    link_degradation: 0.18
+    security_risk: 0.18
+    qos_violation: 0.30
+simulation:
+  rounds: 120
+  router: energy_risk_etx
+  max_hops: 22
+rl:
+  top_k_neighbors: 8
+  hidden: 96
+  learning_rate: 0.0003
+  ppo_clip: 0.20
+  entropy_coef: 0.01
+  gamma: 0.99
+  gae_lambda: 0.95
+  lagrange_lr: 0.03
+  dynamic_update_every_packets: 6
+  shield_risk_ucb_max: 0.84
+  shield_pdr_margin: 0.08
+  shield_deadline_margin: 1.08
+  min_progress_m: 0.15
+

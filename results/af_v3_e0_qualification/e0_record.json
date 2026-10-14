@@ -1,0 +1,13 @@
+{
+  "stage": "AF-v3-E0",
+  "freeze_id": "AF-2026-09-08-v3",
+  "status": "PASS",
+  "run_id": 34175979426,
+  "qualified_source_commit": "ddbc2bfc02bb2032daa6f1167f2dc9483f0b8cac",
+  "artifact_id": 10037284950,
+  "artifact_name": "af-v3-e0-structural",
+  "artifact_digest": "sha256:6163910111d9db09a52766d398c2a6a245458e6226558ffbfaa68ed2246b974e",
+  "qualified_branch": "freeze/af-2026-09-08-v3-e0-qualified",
+  "interpretation": "structural qualification only; no efficacy evidence"
+}
+

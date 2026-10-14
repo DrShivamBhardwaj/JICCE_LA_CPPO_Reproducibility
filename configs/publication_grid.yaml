@@ -1,0 +1,31 @@
+# Frozen experimental design. Do not interpret as completed experiments.
+seeds: [11, 23, 37, 41, 53, 67, 79, 83, 97, 101, 113, 127, 139, 149, 163, 179, 191, 211, 223, 239, 251, 263, 277, 293, 307, 317, 331, 347, 359, 373]
+node_counts: [100, 200, 300, 500, 750, 1000]
+malicious_ratios: [0.0, 0.05, 0.10, 0.20, 0.30]
+traffic_regimes: [periodic, mixed, event_burst]
+dynamic_regimes: [stable, transient_interference, churn, mixed_dynamic]
+qos_classes:
+  emergency: {deadline_ms: 120, pdr_target: 0.98, delay_violation_budget: 0.02}
+  monitoring: {deadline_ms: 500, pdr_target: 0.95, delay_violation_budget: 0.05}
+  best_effort: {deadline_ms: 2000, pdr_target: 0.90, delay_violation_budget: 0.10}
+attacks: [none, selective_forwarding, blackhole, flooding]
+algorithms:
+  - shortest_etx
+  - energy_risk_etx
+  - periodic_roa_energy_risk_etx
+  - woa_d3qn_reimplementation_after_source_audit
+  - roa_reward_only_ppo
+  - roa_crosslayer_attention_ppo
+  - roa_constrained_attention_ppo_no_debt_trigger
+  - full_debt_triggered_roa_shielded_attention_cppo
+ablations:
+  - no_debt_trigger
+  - no_risk_uncertainty
+  - no_feasibility_shield
+  - mlp_instead_of_local_attention
+  - reward_only_no_lagrange_constraints
+  - no_roa_clustering
+scaling_modes:
+  - fixed_area_density_stress
+  - constant_density_area_scaling
+

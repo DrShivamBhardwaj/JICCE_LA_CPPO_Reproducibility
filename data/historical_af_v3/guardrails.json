@@ -1,0 +1,14 @@
+{
+  "delivery": {
+    "margin_absolute": -0.01,
+    "mean_difference": 0.03152777777777777,
+    "one_sided_95_lower_bound": 0.02157511632939375,
+    "pass": true
+  },
+  "energy": {
+    "margin_ratio": 1.05,
+    "geometric_mean_ratio": 0.9718013026553419,
+    "one_sided_95_upper_ratio": 1.0004049882699377,
+    "pass": true
+  }
+}

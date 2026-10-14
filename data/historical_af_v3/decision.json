@@ -1,0 +1,16 @@
+{
+  "stage": "AF-v3-E1",
+  "freeze_id": "AF-2026-09-08-v3",
+  "primary_comparison": "af_v3_attention_cppp vs af_v3_mlp_cppp",
+  "n_matched_seeds": 30,
+  "co_primary_endpoints": [
+    "class_0_mean_delay_ms",
+    "class_0_delay_violation_rate"
+  ],
+  "multiplicity": "Holm family-wise alpha=0.05",
+  "delivery_noninferiority_margin": -0.01,
+  "energy_noninferiority_ratio_margin": 1.05,
+  "strict_pass": false,
+  "verdict": "FAIL_OR_INCONCLUSIVE_AF_V3_E1",
+  "protocol_deviation": false
+}

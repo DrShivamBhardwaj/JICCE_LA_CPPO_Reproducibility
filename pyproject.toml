@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wsn-stage2-simulator"
+version = "0.1.0"
+description = "Research simulator scaffold for event-triggered ROA clustering and constrained cross-layer DRL routing in IoT WSNs"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
