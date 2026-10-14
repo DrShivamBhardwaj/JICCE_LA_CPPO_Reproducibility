@@ -1,0 +1,3 @@
+comparison,metric,n,mean_difference,ci95_low,ci95_high,paired_t_p_value,wilcoxon_p_value,cohen_dz,direction_favorable,holm_adjusted_p,holm_significant_0_05
+af_v3_attention_cppp_minus_af_v3_mlp_cppp,class_0_mean_delay_ms,30,1.0157582026520597,-0.5039123339122207,2.53542873921634,0.1821152725039721,0.19807579927146435,0.24958722118161777,False,0.1821152725039721,False
+af_v3_attention_cppp_minus_af_v3_mlp_cppp,class_0_delay_violation_rate,30,-0.03125377801474814,-0.051601064306851935,-0.010906491722644351,0.0038513864285779336,0.003475155681371689,-0.573558180685317,True,0.007702772857155867,True

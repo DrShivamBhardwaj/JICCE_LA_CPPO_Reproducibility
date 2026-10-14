@@ -1,0 +1,838 @@
+{
+  "README.md": {
+    "sha256": "fd8e0c8ea44943793334a370388660268f69c8b2d5e84115b1731be766c5ea54",
+    "size": 4005
+  },
+  "requirements.txt": {
+    "sha256": "743ea6acb78589d363449f083bf36d1fbf355fd849c12c8683204714db77055c",
+    "size": 90
+  },
+  ".gitignore": {
+    "sha256": "88e2955e59619c0b62b2fa6d7a08f41de2e822815ba8e2a7ce9b98fb33a8fe8f",
+    "size": 86
+  },
+  "pyproject.toml": {
+    "sha256": "846770922a4e909c2844cde69a2892b9a958660b5e2ef4052051b2359aa8d0f2",
+    "size": 407
+  },
+  "requirements-lock.txt": {
+    "sha256": "4390761ce8c86cbd0f0a103da9a499f2b7cc041da4614458d15f70e58d02277a",
+    "size": 211
+  },
+  "publication/JICCE_Resubmission_Evidence_Record.docx": {
+    "sha256": "3bdb9461c27e5a9f7056ee043f1c5f7b563636deaf6d24be940c14546b040fbc",
+    "size": 38809
+  },
+  "publication/JICCE_LA_CPPO_Revised_Manuscript.pdf": {
+    "sha256": "1aee831746cdf8024cf3ee7f3c8fd3ff1afd9bb5c22e5da83dce740807a785b9",
+    "size": 1432985
+  },
+  "publication/JICCE_Resubmission_Evidence_Record.pdf": {
+    "sha256": "a5d17634cfd514e731bb9c13880cd520df0265ea0ebf71adce2721f317ab76aa",
+    "size": 44352
+  },
+  "publication/JICCE_LA_CPPO_Revised_Manuscript.docx": {
+    "sha256": "266e280c1943b4f79981d6e6ee47d079920d6d63e2a3e38645372750015763fd",
+    "size": 3040536
+  },
+  "publication/Editor_Note_Draft.md": {
+    "sha256": "27c2a2156b8d6dedddbb73cb1db826dfe4b3fb01a4e50cdffaa290e6278298c0",
+    "size": 1769
+  },
+  "scripts/run_jicce_validation.py": {
+    "sha256": "baacc86762c7bfac2550783ccedf93eb893f4ed1d696d723e078de26c2d3687c",
+    "size": 5267
+  },
+  "scripts/run_af_v3_e1_confirmatory.py": {
+    "sha256": "c01aa2dc8fb1dc7d3c24bbb78811a832768cf7529a9a5a5d259766ddfeb50282",
+    "size": 15306
+  },
+  "scripts/build_jicce_publication.py": {
+    "sha256": "119fbb9524edaca9e2362648cdb92351f86f4a39b3a490a103a529b2b91d8986",
+    "size": 19495
+  },
+  "scripts/verify_results.py": {
+    "sha256": "7c1029d02e5a49a16547396fafb8b8f3c332174f866dafcf317085a4d70a7964",
+    "size": 1256
+  },
+  ".pytest_cache/README.md": {
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "size": 302
+  },
+  "docs/PAPER_EVIDENCE_FREEZE_2026-09-08.md": {
+    "sha256": "5e0158253b4b407f4896627792386c23675335f089af9d086178a297860826a8",
+    "size": 7372
+  },
+  "docs/JICCE_VALIDATION_PROTOCOL.md": {
+    "sha256": "e7e8eb9900514aeca65bb5e91ef4c5b74352c53b05a06a263a21d362c17c6434",
+    "size": 2309
+  },
+  "docs/SUBMISSION_STATUS.md": {
+    "sha256": "afcbfb8ad03ac7d9f6260c0c60cd8300b93ee6d789e1c68ae262286f36bd3f7d",
+    "size": 1366
+  },
+  "docs/reference_metadata_audit.json": {
+    "sha256": "0156dd7957d9c84e9b4a52d860e9862a4f8362629704b2f9187402a492c5d061",
+    "size": 5773
+  },
+  "experiments/AF_V3_E1_CONFIRMATORY_PROTOCOL.md": {
+    "sha256": "1a024ec63e86363863ad04ee64448ce50c8d727947b87c27da63e3cd8ea5348b",
+    "size": 6357
+  },
+  "configs/stage4g1_5_clusteraware.yaml": {
+    "sha256": "a462061a70c482dca15ad65eec1c5883d21cd5da381a011edc0e0c63d75ab33a",
+    "size": 2288
+  },
+  "configs/publication_grid.yaml": {
+    "sha256": "497cba29232ac37a3730afe23742848b488e5905d3d00ec60cefc8d74e673ce0",
+    "size": 1299
+  },
+  "configs/stage4b_stress.yaml": {
+    "sha256": "9d36d6a5bd113245a73159a7e301685dd3020bb91757fbb750833e51924d03a6",
+    "size": 1738
+  },
+  "configs/af_v1_primary.yaml": {
+    "sha256": "3d2837f62c8cd7ada9c3f0c06d13c0c6daae3d3bf313a9bedda344592e266b59",
+    "size": 2785
+  },
+  "configs/trigger_validation.yaml": {
+    "sha256": "6b61ce15c076583147e1131021e06f073a5444be6918ab25f0d6539795f1f663",
+    "size": 1258
+  },
+  "configs/stage4g3_proposalaware.yaml": {
+    "sha256": "a462061a70c482dca15ad65eec1c5883d21cd5da381a011edc0e0c63d75ab33a",
+    "size": 2288
+  },
+  "configs/stage4c_stress.yaml": {
+    "sha256": "95980358bfe0d8db8e116f93a5e382b36c8c5bafd5fb9ff893f265bbcb3090de",
+    "size": 1977
+  },
+  "configs/smoke.yaml": {
+    "sha256": "421b822f55c31c4c157132c5d67767909beeea584a2c94b2b50439f7ef688e9f",
+    "size": 1255
+  },
+  "configs/stage4f_frozen.yaml": {
+    "sha256": "822f4ab178dd9628f97d0dd6658cb177180b22661a9f49af830cf0195b8dfccf",
+    "size": 2055
+  },
+  "configs/af_v3_final.yaml": {
+    "sha256": "d4344585bb17adfe39e0d73b9e42665a98a13d90e0af7be312591f62a4460ff5",
+    "size": 2926
+  },
+  "configs/pilot_train.yaml": {
+    "sha256": "c66f17349be5390f245b6a91dfcfd2ce13803d17bc651e36cf19c538b243aee5",
+    "size": 1620
+  },
+  "tests/test_core.py": {
+    "sha256": "088c7d3b6968529ce58b960664e16b96b918b6b82e935d11093e4df8821cc9b6",
+    "size": 6068
+  },
+  "tests/test_af_v4_development.py": {
+    "sha256": "e70ad072031e48a5d0e8c8cb07abb63cd178e7eb43af7844f07ed84ae00b493f",
+    "size": 2841
+  },
+  "tests/test_e0_freeze.py": {
+    "sha256": "6bd7be35d6f8bd760f6be7159f6bf488f14b3e8d408e5351f39be5e408c585e2",
+    "size": 7372
+  },
+  "tests/test_af_v3_e1_preflight.py": {
+    "sha256": "aa796c89cd6c3116af4b43fd162de9db872306f45f8b9bc3640ac94b602b308e",
+    "size": 1822
+  },
+  "tests/test_af_v3_e0.py": {
+    "sha256": "bec2d157e3208ad640038d1a682ac1dd354078c691bb01eccbed79a6bc107ba6",
+    "size": 6443
+  },
+  "tests/test_counterfactual.py": {
+    "sha256": "685b0e6a5ba5bc2b12461e4f51cc1547f0de00bfcb3da788fef3a3a37b2f5c4f",
+    "size": 2906
+  },
+  "tests/test_jicce_validation.py": {
+    "sha256": "bcdb8749d8264ab3f7e5282e54a7a665e32b0e4ed85f463cb1b3a247e416dbfb",
+    "size": 940
+  },
+  "tests/test_cluster_aware_routing.py": {
+    "sha256": "d92df8e27377c91766f72b6e4a20dde68017e834c8b9c3e1e62a6ff86ec824f7",
+    "size": 3193
+  },
+  "data/historical_af_v3/protocol_snapshot.json": {
+    "sha256": "caadae608f9079cc914c95ce9e7bbc9070f3c429a7c62ebecc6e4e38af08e0ba",
+    "size": 1842
+  },
+  "data/historical_af_v3/runtime_provenance.json": {
+    "sha256": "deb2a9bef689c6c29b6967f1ccfc44ec7da5c9e83ce697631836e2f09846a728",
+    "size": 198
+  },
+  "data/historical_af_v3/primary_analysis.csv": {
+    "sha256": "4e89386d2699bb617bca7c554e3a5ae27fe3ca5f5415cae238e9f2b6196c202f",
+    "size": 601
+  },
+  "data/historical_af_v3/guardrails.json": {
+    "sha256": "fb261988312e1d5459770243d945730898f684a8f5f6262d3256716157f0c9e3",
+    "size": 329
+  },
+  "data/historical_af_v3/decision.json": {
+    "sha256": "1d85ec84c9b7f1227edfdca29f4d74199800c57be0322160114de4875b193b42",
+    "size": 487
+  },
+  "data/historical_af_v3/episode_metrics.csv": {
+    "sha256": "01431b05a12cb27f2f9f6c9f5859d034e0d7bd0ffe168e411776ff9b39830737",
+    "size": 3030719
+  },
+  "data/historical_af_v3/training_log.csv": {
+    "sha256": "c9e34af8a1b88343b2e8ac582bc37050a311e91cb6b2e05b1f346df916e74fcd",
+    "size": 147308
+  },
+  "data/historical_af_v3/seed_summary.csv": {
+    "sha256": "7898cee8b89a2cf0c27b5792508449b903cf83bc5373fcd2fdfa430f35a148d9",
+    "size": 92383
+  },
+  "data/historical_af_v3/secondary_comparisons.csv": {
+    "sha256": "331dd7bbdad320855c242b4031aa7cc28816b6855515895d84de706a5c5da7bc",
+    "size": 5985
+  },
+  "data/historical_af_v4/selection_decision.json": {
+    "sha256": "92177badfaa2aeb5450ef90e20498c57a0d87747328e8383e7a3e9e361429a87",
+    "size": 7161
+  },
+  "data/historical_af_v4/protocol_snapshot.json": {
+    "sha256": "7236e3d0f3629e382f0155296a697e136c0b3761dd84645b0f1237d278224a96",
+    "size": 1222
+  },
+  "data/historical_af_v4/runtime_provenance.json": {
+    "sha256": "2b98dba57f4d1affba3cf76f6e73697e5b831e86fa3c118a67f2dbabac62f624",
+    "size": 198
+  },
+  "data/historical_af_v4/development_comparisons.csv": {
+    "sha256": "8d3c7a0e1de8362f67fec77455c9f3a47b60f158a839fa61b81171c38fbfa44a",
+    "size": 8122
+  },
+  "data/historical_af_v4/episode_metrics.csv": {
+    "sha256": "f752e57a192dffb20a72c9f45ef432a9c237dc0ac5f4d3f62f194ff3d269c9a0",
+    "size": 2168836
+  },
+  "data/historical_af_v4/training_log.csv": {
+    "sha256": "5641460872863c3e7105efda303ca82ff4f54813fc0e8b344bdda535b3bd109f",
+    "size": 198776
+  },
+  "data/historical_af_v4/seed_summary.csv": {
+    "sha256": "110865da1d554591cb27230d183dfeac15e0d5310cd0f1bb6be1aa1f9c4260ec",
+    "size": 62105
+  },
+  "publication/source/Author_Integrated_Input.docx": {
+    "sha256": "060d304bd99faeb360f47de9649393198273edf81ede0d6aebf1000b0fc77a8a",
+    "size": 3142260
+  },
+  "publication/figures/image1.png": {
+    "sha256": "45e2b5ccbb10fe9f49db8c3a5af964c9fa1ea1077a7bccd1b57dbcdb6305f442",
+    "size": 1130684
+  },
+  "publication/figures/image3.png": {
+    "sha256": "46c6c72e7e2e9bd5e62c6a2643aef92350e31745780c7a042e6e0295fc9bf11f",
+    "size": 567202
+  },
+  "publication/figures/image5.png": {
+    "sha256": "d32b48321b20268755b8bb8a3cf123d2e70064f3e198237555becbc5a302222b",
+    "size": 338635
+  },
+  "publication/figures/fig6.svg": {
+    "sha256": "b2684301faea5a03a60122a96c23f6bbe5a846a751be35a5ba844dda4025fbda",
+    "size": 49382
+  },
+  "publication/figures/image2.png": {
+    "sha256": "33455a7991a4d2ded112b214989e5194a65554add12ae07f55a42f4ebc03daa9",
+    "size": 362760
+  },
+  "publication/figures/image4.png": {
+    "sha256": "61ac8a83fe53fcd3811ddfd0dd94c22a0666ddfd506ba3ea534b3c47b538afa2",
+    "size": 675822
+  },
+  "publication/figures/fig6.eps": {
+    "sha256": "830edfe58dc4dbf90c9b12543f78ae75ca2b415180b86109176b3df2ca3463b6",
+    "size": 38962
+  },
+  "publication/figures/fig6.pdf": {
+    "sha256": "a393e0de286589981345b6e89b046316db66e0bb0eb21aa69d0dc9abcab5fb94",
+    "size": 18085
+  },
+  "publication/figures/fig6.png": {
+    "sha256": "c35117f31a6419a16a30ff662f41f27ae7b6e3b5792d056385d5a64e392f69e0",
+    "size": 131216
+  },
+  "src/wsn_sim/security.py": {
+    "sha256": "1861926df182dad103dd41c93b7653716a3be25e08323489ec025ae005afaae2",
+    "size": 2331
+  },
+  "src/wsn_sim/rl.py": {
+    "sha256": "b9f767c410f84054f70bb1d4cc1f22411ccbfae2f753acf8e83a37485f721fd0",
+    "size": 6692
+  },
+  "src/wsn_sim/counterfactual.py": {
+    "sha256": "6780615952fe04c1a4a8af4279ffa5c693c6dde22d1a992fbdfd32490d4a302b",
+    "size": 9712
+  },
+  "src/wsn_sim/clustering.py": {
+    "sha256": "969d46ed0b5907861ce12b12065cfe2180b6145e9c979c2fb6270002bdc02a31",
+    "size": 12743
+  },
+  "src/wsn_sim/observation.py": {
+    "sha256": "a5e2ee45876273d8b6c5a9f12e93c7bb0b0a2a6f5109b66d8e15fbf27b4cefe2",
+    "size": 13649
+  },
+  "src/wsn_sim/network.py": {
+    "sha256": "8168e78f94a5611928d13e238553872bccfc04f5f1a8ba3f974a371198ae1c6d",
+    "size": 4826
+  },
+  "src/wsn_sim/routing.py": {
+    "sha256": "c019d2a8c1529c8378195d299352b63cc04462ef6cedd2cb46e4a965715254b4",
+    "size": 812
+  },
+  "src/wsn_sim/af_v4.py": {
+    "sha256": "2dae73f94a44b227a02cf508d183b043e1cc8036010b2f3c18209315247d0dec",
+    "size": 4971
+  },
+  "src/wsn_sim/qos.py": {
+    "sha256": "5f84a2ca99fd2f6cfdd3b31990c83755aa756aa718954fd7726148624b9b3c49",
+    "size": 3958
+  },
+  "src/wsn_sim/simulator.py": {
+    "sha256": "281960c7c657aefe34ec925c5e105be6a58795c0b60e4758ede399e3f4ccb0b4",
+    "size": 6328
+  },
+  "src/wsn_sim/__init__.py": {
+    "sha256": "39f53b783f70812236d4089dc6286897fa2a9be7b15159763616be4c68071fb7",
+    "size": 44
+  },
+  "src/wsn_sim/config.py": {
+    "sha256": "338e5eb0ecb0a4b1787706e2ae4ae94fe99ea75813da9c014f06704d715de0c0",
+    "size": 200
+  },
+  "src/wsn_sim/baselines.py": {
+    "sha256": "67a7c40b5e64041da5238cf470af6113f9038715182157d8b0045a62f477a152",
+    "size": 1778
+  },
+  "src/wsn_sim/evaluation.py": {
+    "sha256": "c9d2956e029bf5f8b9b15bdbafd788b9f495ce27c4078abeaf05f74c9cdb20e6",
+    "size": 4794
+  },
+  "src/wsn_sim/training.py": {
+    "sha256": "28bd2946d1a152fec395a24a66e3725ea3559b5c89217c35a54757ca8586ec43",
+    "size": 7348
+  },
+  "src/wsn_sim/env.py": {
+    "sha256": "51967d71b6b6e21fc27b88d74c5f6d5960bb7da4d2e722a3f2b23a326bb1f469",
+    "size": 19593
+  },
+  "src/wsn_sim/trigger.py": {
+    "sha256": "ee7d4b49d53b2ffdd8e61f0b0dcb39ab21314954290a29b03a5eca7e27620c32",
+    "size": 3220
+  },
+  "src/wsn_sim/radio.py": {
+    "sha256": "5dfa739fc576279e0f8a079de8b731891d092fe30af1c1e10373fbc8d2593c7a",
+    "size": 3590
+  },
+  "outputs/jicce_validation/paired_analysis.csv": {
+    "sha256": "cb561d99011406bead09298a06dc42dba70b7e53d4fb7180837fa4f6d5ded10d",
+    "size": 7545
+  },
+  "outputs/jicce_validation/episode_metrics.csv.gz": {
+    "sha256": "43be47ce03d59a4a68b415e6f3c98739d462bcc8675babb1e1dfc2a432e7337c",
+    "size": 2881667
+  },
+  "outputs/jicce_validation/training_log.csv": {
+    "sha256": "a00bb25c6ad1cf2de40a248f820d77aff1f10b626ca281a7c9b7d071b242e6ba",
+    "size": 279514
+  },
+  "outputs/jicce_validation/execution_status.json": {
+    "sha256": "63cf65a314b5c35be564da78fa7f0e539845e7ba399e3d90e44c87b19e92973a",
+    "size": 1018
+  },
+  "outputs/jicce_validation/seed_summary.csv": {
+    "sha256": "b8e27bb8033384d58cfe0c9ade6fb5565e971ca9b957c1cf992f3e34209bc5b0",
+    "size": 324193
+  },
+  "outputs/jicce_validation/checkpoints/attention_41003.pt": {
+    "sha256": "8124348b3f13065e09ad4320408d9fcd2c0f059852436ba435627b3376315af0",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41029.pt": {
+    "sha256": "615b48fcb087ab20aeceb42052ad1d2723a447e06d3576bb52081cbf80c08461",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41006.pt": {
+    "sha256": "a195c9ae783f4f355670eddcbbf7379ca08c73b3bcef8a5052f6fa0ebcdc57df",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41002.pt": {
+    "sha256": "5922f15f80db28b7a36d939bbe2ef047a6af123ff8a67b196daed5631fbfdb98",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41010.pt": {
+    "sha256": "24062cc19e49c589a07ed74845d88dd38d4a4b1f67dbeeedda24bec462e8a68a",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41014.pt": {
+    "sha256": "e9c06cfb76764ef04ab6991bc35e0e5618878aacc9dfaf6a1ec7d7ef54d5bc52",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41017.pt": {
+    "sha256": "3c06416d4d563cb4b06b3e720a5b47706696c8e9276d6e100e7237e009759c4f",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_41009.pt": {
+    "sha256": "1f8af4f2586820a34fa1a48f9732cfce65f01f895ea18fa96081e18ee4df27a3",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41025.pt": {
+    "sha256": "9abc5b8201ca82a9f7a7ddec43bcce41d5abcd0be3f27acd8d2c7c0e770c1265",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41022.pt": {
+    "sha256": "baa0d34f5bb1e30b2e269ea83dbb45ee1c98531719e986165a1f5d9db5b04378",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41021.pt": {
+    "sha256": "701df40c641241ba3265b5fe8058b69dc313f7de9677ed5c2754763b6109b6ad",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41020.pt": {
+    "sha256": "86837220e080c9183f4372545bfaf8cfcad817e2c449c3fbd510a42f850c3790",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41007.pt": {
+    "sha256": "bc78466b1cf0af81f1ac204cdbe5e4d3c3caba466e6e39e2c57ac2d521bab1eb",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41005.pt": {
+    "sha256": "971c8e37208d3579683f73013f36e25fc50110ea317ce689fb069ba67c481482",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41019.pt": {
+    "sha256": "fe971b7c574b4a0cb4963728443af99f745f68004b38aaeefb51a701064a391c",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41005.pt": {
+    "sha256": "1e1210a47082139fdaa455b76861bdb17ee1729b83874b7ceb7f2f7695233b2e",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41004.pt": {
+    "sha256": "fcdfbaeeb29eab98a28992478594c247b700b2a7b0f3652dac13fc7c5c565f35",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41023.pt": {
+    "sha256": "1430f506c643795091f3ed88739cc06ceb6018701110ebc92834b9a5347f55fa",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41028.pt": {
+    "sha256": "664c2a761d2979b1a65d8b1a9e615668ce870aa0aa4604cae8bf96e3778bf297",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41011.pt": {
+    "sha256": "afb4880fdbcc7812081fbdc0b8310b577d20b4eaafac0bcdf291dd0dec5f25af",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41011.pt": {
+    "sha256": "6cd30bf802bfb3389fe540ef9f267652eecd3cb92bb64719d642899b0535e3ba",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_41026.pt": {
+    "sha256": "48ec54c6a6db3a22944458abb91456a8725e42e41d04d26898f31e01a89f4abe",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41005.pt": {
+    "sha256": "41414d48234e3a6aae30361b4000228d7ddbb915837965ffb0360a60894e1691",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41021.pt": {
+    "sha256": "2425ab05c7d33d317ba73a11dfc8af74c511e1c636b0a32ef814c7344310093b",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41025.pt": {
+    "sha256": "e226ace181581bf0875c831f118c0385407e272ced3f29b590dc4dfc66c22d37",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41004.pt": {
+    "sha256": "d7972a68fcfe0918f667f72eb52ff7ad65e620c2f0b1f1190fb1e6051f92867f",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41001.pt": {
+    "sha256": "51f680a66c337a7ba3cbb7bbb65ef0316c82fe7b6484de6fca0dabb61464d85d",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_41001.pt": {
+    "sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41003.pt": {
+    "sha256": "ae7b6dedd5e924c8849c1aec6b22a9722ccdd4108ee7eef454d394b4cf001f72",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41008.pt": {
+    "sha256": "b92a29d0b5d7353615dada15fe5ab2381be9533221a4aa049ae2271309064378",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41017.pt": {
+    "sha256": "ad57c4c8ed234e11c647a78f0821bd020cfae04b1c7f203f265a06fdffb58009",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41008.pt": {
+    "sha256": "1bb5a83ae2fb939f2d1db3465d0f5d5b75e00273b9b6760eb0c438e4889aebe4",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_41004.pt": {
+    "sha256": "b74c24289ff6385a41c2f4f3097e2b1b4fba4f533d074979f5c01b718653bd8b",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41023.pt": {
+    "sha256": "349025745d01ea63f11f67a7342f5997a713f9ca542cac4d284b9b17138cd237",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41021.pt": {
+    "sha256": "a8218a330a73ac6f22460492c1f04808615f1b21916363060f7c1628a3bdec30",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41015.pt": {
+    "sha256": "587d2a0cee0e8e36822ae19bfd84494a38e7ea0143415f0944a05312714fc846",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41016.pt": {
+    "sha256": "1c5bc5ae33b157a85b867a487a25fc0f47d5c80c83850fdf9c98382a6bcea514",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_41028.pt": {
+    "sha256": "23ca1c773c525d1c22ba55b1878e01a9ff8428be5856ea467cda3a7391bfd61e",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41002.pt": {
+    "sha256": "7a857c4a468551fbbad7054b2afee518d1dde48ca8505db9410b6d72cc5b4282",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41018.pt": {
+    "sha256": "bcb20e81c9f09ce2d65db80213aaaa5b1f95afc96601a0d6e05640468ed2b056",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41029.pt": {
+    "sha256": "c03755d9357ad27f1eadc6543a4dd672574e675f91c8462ce4da233cdc67d480",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41020.pt": {
+    "sha256": "6a38bbb2f38186cb2c63be763f31cec71299728420bc20d81a2ef5273c1e4ada",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41006.pt": {
+    "sha256": "02a0e59c94c2fe29925cb7c922c1a00b56fac82f96bb8307410a4e506bff357a",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41017.pt": {
+    "sha256": "30fbf264649f77de65e02163c07d84f0c494cfe9624e0328bb55ffb0734d97b1",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41030.pt": {
+    "sha256": "d999ef5df6b94cc6a874be9cd621fe926a73a398f4e25ce2749ed75a77602e2a",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41001.pt": {
+    "sha256": "856e01eb7adf58570d4373b0451eb8511b4a176524634e53ee8a30fe367f685f",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41009.pt": {
+    "sha256": "10caba50a2c8d37f3f4bdf4d656802cb3a6a238cbfcfc6cdbf70c46be59db3a1",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41006.pt": {
+    "sha256": "ebc759941df87eceb2891ad08ffa77ba12465a59c071f26dac9c5bd2d3a69910",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41015.pt": {
+    "sha256": "36564036788ca428720f32af857746c6c3346c7ab41de505f022ca072b7f17f5",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41015.pt": {
+    "sha256": "e59178f7330b7ed3b02ce1a17e4f1f006efadd88d5db110d9f8a41849d5d006c",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41007.pt": {
+    "sha256": "b5e5b95d330e2b49e73ffe81584740853401417d02519024518b6f4fc36069d8",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41010.pt": {
+    "sha256": "c6d4cf09106a9657f6f94b55e645c48b384299c2a1adcf4fdd56fc59fb72398f",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_41027.pt": {
+    "sha256": "f03121ccee82fc3040bd899d44199b6a4b7096809f56452c2ab462cd5c9f43be",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41027.pt": {
+    "sha256": "c693a15f9fbe972f9d15ec25bce02018bfb60e957330f8df07a27e66a9eba50d",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41028.pt": {
+    "sha256": "e96bdd2acc05b7d61bb683e9f49165bdbbb26259f4647421dd7cbba63752d69b",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41018.pt": {
+    "sha256": "d388fe7dd9aa59cc64b8cdbbf998d2945a17b70e106eb6d7389074246cf4bba7",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41012.pt": {
+    "sha256": "970348bfc835d347fd1abd50b0d953f543fb5aea108ac5637062730b143a974e",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41020.pt": {
+    "sha256": "9d55ee4242b862e61784dff3d68a2f3ff93babc7c78537d823734101864079de",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41026.pt": {
+    "sha256": "26ddd5b756685d8d6935f05d8d174be010228015bbf273b5348085e38b803ee7",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41017.pt": {
+    "sha256": "16c2299e01c23fa865947fe4569e92a8905aae24692f4b823c9849b0c98220e1",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41021.pt": {
+    "sha256": "410edf40384f1ec6c4b89f43d658b553a6b3cddc4191f9332d4432ea1665723c",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_41016.pt": {
+    "sha256": "8ee040b11967303f7dc0cd0d76d119062dd93b639be7280699260d9f7bf4135e",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41028.pt": {
+    "sha256": "c9e7094b79e6782c55623bf33a0c7d38f70a3b96160eb2036ac05a0d7ad3b0bc",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41007.pt": {
+    "sha256": "a9eac339f37c7db2a17e22c98b702f1ac176a79abea5dc1dfc48b0e058a4a99d",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41009.pt": {
+    "sha256": "7ed6fede4d7a531896b2a6673e6773cd897a49fe3770df32cc7070b4a6c05aa9",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41003.pt": {
+    "sha256": "2d5649b4c1cfb86843fd1ea7821985314b626036a796b038ca8bea07518725d2",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_41029.pt": {
+    "sha256": "423b5b3b4b68ce6cb11a54c275888ef081f4e918bfaca8247a7e0e906a340626",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41020.pt": {
+    "sha256": "99c85f8141f93406385bced8d3263817b8ad5a50e30a72e3f7165175a53f8035",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41002.pt": {
+    "sha256": "74394b16ab2efb5fd4aee3ed23c9317fb8c8e84e76ac5d78232aa3cae8b55468",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_41008.pt": {
+    "sha256": "6769980b20cfc62f5fa575a306bae6b654ea01c3e29fae971cf59d14bea1206c",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41002.pt": {
+    "sha256": "846ee55996bec715feecdbbd0f4283d18f490a0cadaf5b1544b03b70bd289a56",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41027.pt": {
+    "sha256": "8a980385a71bb52bc82b33cd72734ed5cba4b2a264cd2b3cb5d75b0e9d66c436",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41010.pt": {
+    "sha256": "b7c3a32e12051b9411939226cf46fe51b8d1a6b59e6c84df94ccd2360bee4d08",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41030.pt": {
+    "sha256": "7168b00e95f6234f1a6161db2a3c28536d7ad21d84945e3fe967cec59dcff1b3",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41022.pt": {
+    "sha256": "eb8c59bc32c08989160dece3232d2c366747d2fc05e33061e150d1c3b83e910d",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41026.pt": {
+    "sha256": "58eb13a1c0101eb1bf4bb50e95d038932c801484355184cdc318c4ce4e7dd863",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41025.pt": {
+    "sha256": "9fbe55c9193c974a52f7f5dc139624d359fccb7b353d443054f4c8a258bd8b98",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_41019.pt": {
+    "sha256": "df748e2e16c386140f02b25588c12e2dfd4cf29a3d26b0601a50db69d6201bc2",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41016.pt": {
+    "sha256": "ad67e22f0f874e82b537adb84e2d4efbe8ac135f7c490a6d84a909cf7e004f54",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41014.pt": {
+    "sha256": "156e51cc6686766531e4cd55b32f0c45a061b8c6cf06ed5bf667f61589cb7aae",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41007.pt": {
+    "sha256": "49a943d67136aacb440e8787cf697da0417052f526ac9d0988eb63446fc2916f",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41024.pt": {
+    "sha256": "5d80040c6a137a273d7f8fddf6706b6bac9dfe6ec0d24d38f97164bb73d4c3c8",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41013.pt": {
+    "sha256": "ea10d234987bff3b1c4ffccfb43ac271756d43c2b75b6712438bc86e656f9f8a",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41018.pt": {
+    "sha256": "0aafcab12b7243079b118a40faf9543b30da65c25e1a496194064643dc81a729",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41012.pt": {
+    "sha256": "542130a0292854ed4903e1d727c574eda95f477e460c3c4cdd406b570bf74f61",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41023.pt": {
+    "sha256": "65a6cdcab8c2f5dddc906cb83fb10ac70448e05905c124cc033b7ddab41b8024",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41008.pt": {
+    "sha256": "c9cced01f743756dd073090459fbf2cf7e5d886bb1bceb2abb3bb14d6875847d",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41005.pt": {
+    "sha256": "bcfc83b62a2e6f04954ff6f12ed81ca490710662914a1c4a88612e05dcdb04c9",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41003.pt": {
+    "sha256": "d2972472b0584dc4f75dbff4177ae68b9bbf355d35c4bc881ac90d8d2c064ad6",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41006.pt": {
+    "sha256": "941fc4919ef7e13aba4fc9016ad974621e750fc788828a85c5981405f9084ea0",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41030.pt": {
+    "sha256": "4ee62e292a24502b6fdd1df7efcbc62fdaf0df6933d5484afb53f251093a6f79",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41012.pt": {
+    "sha256": "1e955dd496b86757c081a73ab7e001ed8e1cc48804c4fd7bd55c9ac825b79f41",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_41014.pt": {
+    "sha256": "ec13678ec757c4a109f2f1c9b3e536e8af1387b25e511ce25470dee2655e2a2d",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41025.pt": {
+    "sha256": "d0d1948a238f5837add0b1671df22de47d3a2444604eee1c7e8612e2d8e485c2",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41001.pt": {
+    "sha256": "9b70d2590cf45579709456e7964d02c2e82eae8344177cce4576d6245fddf1ae",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41011.pt": {
+    "sha256": "3660dad928d91f1c0b84f1f9300cf023e1c0c783b4a8b187aec2c8e293e79ecd",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41024.pt": {
+    "sha256": "6cd14383956639ea50bebe75d16ed21119064c6144e8705cea3244bb2bfc5c70",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41011.pt": {
+    "sha256": "641f92cc15f00bd6ed087c7e3c0720667a8f32b019f63efc58bc5ed882e5799e",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41030.pt": {
+    "sha256": "431142003062fb3924f8c03a218ceec2f5f4eb1901b54c1361b7f87dd35f10c8",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41015.pt": {
+    "sha256": "4ac4f6cec98436ccbec0740e93443deaf9a7306e09f4e84417231a318acf32cb",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41016.pt": {
+    "sha256": "660a4df6c030f2301dd2ac899865c421f8eb808c33dda98c4669fb1ecf653f69",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41022.pt": {
+    "sha256": "6da62bf42165991f732611d979da9d8e1eb7740699f92ba2d7c094caa5282622",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_41012.pt": {
+    "sha256": "a49275ea058adafdf966c804b5b7bbdd47cd34e7c5c6fb4fca7c7db9831d41c2",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41023.pt": {
+    "sha256": "2389c9ae7d8906a5563e252a4c89670154f2b0e6501e4b936012b8bcbcdd1665",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41009.pt": {
+    "sha256": "ab5a6def178d087e3bb7326fe785b4e3fe2cc7f5ce29531c9288a09eb82bd79a",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41010.pt": {
+    "sha256": "4b8b557ae49a1d6ecae36a8647386c52677fb1aa0c049f41763381a0d3cc7574",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41026.pt": {
+    "sha256": "1fc1399fe13b263e566d7a9dd9c28ce7415d1cf1cd4a7f0de1899ab23f9c769a",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41029.pt": {
+    "sha256": "e28dd80aac70fd55932312a4986b3f350a6938b9c4a1eef02f5f338b6c9481ab",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41013.pt": {
+    "sha256": "8e0d0e9a8b1eea87aae8741f6d461860d500448a8e9217a687ff24d8e6df76a7",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41018.pt": {
+    "sha256": "180651578b37ce94d7af39a2b7a081d1fc60b64146b0354fedf89effd249c383",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41019.pt": {
+    "sha256": "8b4e2e05c0b89776997b984887ba2322e47da34d2ba5dda2b8dd69b78c3e368b",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41019.pt": {
+    "sha256": "24df5af4fce3add107bdff4eb4edb066c2f53d3103f74ef6c8c04b09989c7cdf",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41013.pt": {
+    "sha256": "1bfb207579277e975a69f1ee06f00594eba8c0de3cce09c061aaec4613c8b9e0",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/capacity_mlp_41027.pt": {
+    "sha256": "28aff21c4e442240b8e3a952fe71bf1232af0bf9ff8e282ac814a568bcba09fd",
+    "size": 258101
+  },
+  "outputs/jicce_validation/checkpoints/attention_41022.pt": {
+    "sha256": "56decc9b4e3dc6a12563f8ce986d23e09d3eb2940356ec56cc0b842614d6e693",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_41024.pt": {
+    "sha256": "4e5bd8619c1faddd59a6cb9a5f2acc6e75a0620c8d8ea5b26ade717904ac0a0d",
+    "size": 260279
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41013.pt": {
+    "sha256": "e48a0f115330e203672995b061126adb4ddbf95c1fc9238b26999c4d47671368",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_feedback80_41024.pt": {
+    "sha256": "e60d470ab2d0586ef8015338a5b9ca3ede60620ada4704787a0e62bd56bf617f",
+    "size": 260629
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41014.pt": {
+    "sha256": "9899db51d54c8022101b19e7d85c86be0b30a902ae6564b258d000900ecfb06c",
+    "size": 260551
+  },
+  "outputs/jicce_validation/checkpoints/attention_no_risk_41004.pt": {
+    "sha256": "b9fbf49713f5fbf24af4a53a1cd7709e741f9a6aa962d430937ccb98d933de05",
+    "size": 260551
+  },
+  "results/af_v3_e0_qualification/e0_record.json": {
+    "sha256": "3e2d0dca93a6af94d76d54e6258421d8e00ba63ff0d4d4b75c8ad46727406616",
+    "size": 485
+  }
+}

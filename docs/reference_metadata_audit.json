@@ -1,0 +1,246 @@
+[
+  {
+    "doi": "10.1016/S1389-1286(01)00302-4",
+    "title": [
+      "Wireless sensor networks: a survey"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2002,
+          3
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1109/MWC.2004.1368893",
+    "title": [
+      "Routing techniques in wireless sensor networks: a survey"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          12
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1109/HICSS.2000.926982",
+    "title": [
+      "Energy-efficient communication protocol for wireless microsensor networks"
+    ],
+    "published": null,
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1145/938985.939000",
+    "title": [
+      "A high-throughput path metric for multi-hop wireless routing"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2003,
+          9,
+          14
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.17487/RFC6550",
+    "status": "bibliographic record found; full citation-content verification not certified",
+    "error": "HTTP Error 429: Too Many Requests",
+    "fallback_bibliography_source": "https://www.rfc-editor.org/info/rfc6550/"
+  },
+  {
+    "doi": "10.1016/j.neucom.2025.132263",
+    "status": "bibliographic record found; full citation-content verification not certified",
+    "error": "<urlopen error timed out>",
+    "fallback_bibliography_source": "https://www.sciencedirect.com/science/article/abs/pii/S0925231225029352"
+  },
+  {
+    "doi": "10.3390/s19040970",
+    "status": "unverified",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "doi": "10.1016/j.adhoc.2025.103914",
+    "status": "bibliographic record found; full citation-content verification not certified",
+    "error": "<urlopen error timed out>",
+    "fallback_bibliography_source": "https://www.sciencedirect.com/science/article/abs/pii/S1570870525001623"
+  },
+  {
+    "doi": "10.3390/s25103084",
+    "status": "bibliographic record found; full citation-content verification not certified",
+    "error": "<urlopen error timed out>",
+    "fallback_bibliography_source": "https://www.mdpi.com/1424-8220/25/10/3084"
+  },
+  {
+    "doi": "10.3390/s25144416",
+    "status": "bibliographic record found; full citation-content verification not certified",
+    "error": "<urlopen error timed out>",
+    "fallback_bibliography_source": "https://www.mdpi.com/1424-8220/25/14/4416"
+  },
+  {
+    "doi": "10.1109/TCCN.2025.3544276",
+    "title": [
+      "Enabling Robust and Generalized DRL-Driven Routing Optimization Via Exploration of Graph Neural Networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1145/3704413.3764422",
+    "title": [
+      "Generalizable Policy Learning using Graph Neural Networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          23
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1038/s41598-025-34588-x",
+    "title": [
+      "AI-enhanced routing and slicing strategy for QoS-aware mobile ad hoc networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          28
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1038/s41598-026-61080-x",
+    "title": [
+      "A dynamic reward framework for scalable and efficient IoT-WSN routing using deep reinforcement learning"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          11
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.3390/electronics15050910",
+    "title": [
+      "RLFS-OR: Reinforcement Learning-Based Forwarder Selection for Opportunistic Routing in Wireless Sensor Networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.32604/cmc.2026.084851",
+    "title": [
+      "Feasibility-Aware Reinforcement Learning for Reliable Hop-Constrained Routing in Wireless Sensor Networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1007/s12083-026-02236-4",
+    "title": [
+      "Federated deep reinforcement Q-learning for secure and energy-efficient data routing in internet of things networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1038/s41598-026-62519-x",
+    "title": [
+      "Adaptive deep reinforcement learning\u2013based secure routing for wireless sensor networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          27
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1016/j.suscom.2026.101427",
+    "title": [
+      "Coordinate attention-driven multi-agent adaptive deep reinforcement learning model for resilient and energy-efficient routing in WSNs"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  },
+  {
+    "doi": "10.1016/j.rineng.2025.104732",
+    "title": [
+      "Real-time multi-level trust-based secure routing for improved QoS in WSN using blockchain"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "status": "metadata retrieved"
+  }
+]
