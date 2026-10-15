@@ -1,0 +1,13 @@
+{
+  "src/ns3_bridge/bridge.cc": "b6cc071f29ef7ac1d4bf3dd082acf4f49e2c070e89503b0d99e89232796e152b",
+  "scripts/build_ns3_bridge.py": "c2220adf5663f790a4fb4e619653a1243709e01b2af64eafe945a931dec7b103",
+  "scripts/run_ns3_multihop.py": "69895d8879f8c6944d8fa4820f61db831f7f8879df377ff32eb2312ad5e47719",
+  "scripts/test_ns3_bridge.py": "69b45daedb6d9336d407ba7df2c15f81fe19caecd8ec7f173e1856561fe6fc83",
+  "scripts/verify_ns3_multihop.py": "a713621b60f3bb473016d1cdcbda609ed785a47bb7db01e68008dd843abbbb06",
+  "scripts/analyse_ns3_multihop.py": "e772852c255357c41dfa627e3185f892be59cab15e0fc48562d962b92f2378e8",
+  "docs/NS3_VALIDATION_ADDENDUM.md": "cd75d217ae76e600727177a8cd5c41bb8c0c316f16c20fff2bb608e1bd3517e5",
+  "outputs/ns3_multihop/paired_analysis.json": "46401d9084e34fe4362577aa0a12c71288e013d6422768f4be7fc3ad5baa3308",
+  "outputs/ns3_multihop/verification.json": "6e9f3f57fa61abff5e824d7c14b34947843e7b87d8d7ef111791884fe24b534d",
+  "outputs/ns3_multihop/summary.json": "6302660fc551796c88980cba88db548775bac6b4bc3424d45ccf4d7d9391fcde",
+  "outputs/ns3_multihop/trace.jsonl.gz": "69df75f41d270c012041cff1acee8a41ff157e3ac2c37b0cfa1042fa46fbb01c"
+}

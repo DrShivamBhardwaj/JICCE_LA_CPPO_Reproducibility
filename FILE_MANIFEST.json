@@ -8,8 +8,8 @@
     "size": 302
   },
   "README.md": {
-    "sha256": "fac43d7dc9ece19f30ebf6cfd3533ad12f218b83d89162a5b777418c395ca08c",
-    "size": 5177
+    "sha256": "e4d5567d1197f76515d55a23cd6bf2817c66b9f3aeb7e613a195b80fd85af922",
+    "size": 5384
   },
   "configs/af_v1_primary.yaml": {
     "sha256": "3d2837f62c8cd7ada9c3f0c06d13c0c6daae3d3bf313a9bedda344592e266b59",
@@ -128,16 +128,16 @@
     "size": 2309
   },
   "docs/NETWORK_VALIDATION_REQUIREMENTS.md": {
-    "sha256": "dbdc489e02d5ea76efbd882f66ef01f8f5ececc33bac98af430f390f8c222588",
-    "size": 1949
+    "sha256": "3a453b311bb770d3bc5fdce8dd328758a1cf006c04da3154b7cc79b86030d445",
+    "size": 2420
   },
   "docs/PAPER_EVIDENCE_FREEZE_2026-09-08.md": {
     "sha256": "5e0158253b4b407f4896627792386c23675335f089af9d086178a297860826a8",
     "size": 7372
   },
   "docs/REVIEWER_CONCERN_RESOLUTION.md": {
-    "sha256": "3eea4d326e6ed15f0a5bb2422dcb5db57bab87ed95d89f6f11cc9705959279c2",
-    "size": 2888
+    "sha256": "4f1d9ed7b757324722542aab849f9576d7c5f52e0ba19f85ae2df224207beff3",
+    "size": 3359
   },
   "docs/SUBMISSION_STATUS.md": {
     "sha256": "4b2add5d9b7857f6059b10891773e9798b67efa9ed6e26c15aa0164e35f48116",
@@ -1098,5 +1098,57 @@
   "tests/test_packet_feedback.py": {
     "sha256": "2ca13e4e5a501e615451147659ff519fc2be118373c8545b478a3587f1d20ced",
     "size": 1993
+  },
+  "src/ns3_bridge/bridge.cc": {
+    "sha256": "b6cc071f29ef7ac1d4bf3dd082acf4f49e2c070e89503b0d99e89232796e152b",
+    "size": 3698
+  },
+  "scripts/build_ns3_bridge.py": {
+    "sha256": "c2220adf5663f790a4fb4e619653a1243709e01b2af64eafe945a931dec7b103",
+    "size": 609
+  },
+  "scripts/run_ns3_multihop.py": {
+    "sha256": "69895d8879f8c6944d8fa4820f61db831f7f8879df377ff32eb2312ad5e47719",
+    "size": 5524
+  },
+  "scripts/test_ns3_bridge.py": {
+    "sha256": "69b45daedb6d9336d407ba7df2c15f81fe19caecd8ec7f173e1856561fe6fc83",
+    "size": 1208
+  },
+  "scripts/verify_ns3_multihop.py": {
+    "sha256": "a713621b60f3bb473016d1cdcbda609ed785a47bb7db01e68008dd843abbbb06",
+    "size": 2751
+  },
+  "scripts/analyse_ns3_multihop.py": {
+    "sha256": "e772852c255357c41dfa627e3185f892be59cab15e0fc48562d962b92f2378e8",
+    "size": 1387
+  },
+  "docs/NS3_VALIDATION_ADDENDUM.md": {
+    "sha256": "cd75d217ae76e600727177a8cd5c41bb8c0c316f16c20fff2bb608e1bd3517e5",
+    "size": 5454
+  },
+  "outputs/ns3_multihop/paired_analysis.json": {
+    "sha256": "46401d9084e34fe4362577aa0a12c71288e013d6422768f4be7fc3ad5baa3308",
+    "size": 1186
+  },
+  "outputs/ns3_multihop/verification.json": {
+    "sha256": "6e9f3f57fa61abff5e824d7c14b34947843e7b87d8d7ef111791884fe24b534d",
+    "size": 290
+  },
+  "outputs/ns3_multihop/summary.json": {
+    "sha256": "6302660fc551796c88980cba88db548775bac6b4bc3424d45ccf4d7d9391fcde",
+    "size": 43260
+  },
+  "outputs/ns3_multihop/trace.jsonl.gz": {
+    "sha256": "69df75f41d270c012041cff1acee8a41ff157e3ac2c37b0cfa1042fa46fbb01c",
+    "size": 2665843
+  },
+  "outputs/ns3_multihop/SHA256SUMS.json": {
+    "sha256": "8198e0c19887c500e48cb62536dc5de9fdf78e9de0880190ee3b7958aa8efefe",
+    "size": 1159
+  },
+  "outputs/ns3_multihop/protocol.json": {
+    "sha256": "c4a4ad7e1f471a98a408fcf0ccab372c73cc3c76deb775b6804c144f63d8037d",
+    "size": 1558
   }
 }

@@ -1,3 +1,5 @@
+> Update, 15 October 2026: [ns-3 validation addendum](NS3_VALIDATION_ADDENDUM.md) reports 120 exploratory topology-constrained LR-WPAN runs and verified forwarding-proof frames. This partially addresses the network-validation requirement below. Local telemetry acquisition, control/listening energy, benign-loss stress, authentication and hardware/live-IDS validation remain open. Earlier statements about unavailable network simulation describe the pre-addendum state.
+
 # Required experiment to close practical integration evidence
 
 The completed localhost diagnostic is insufficient to close Reviewer A's practical traffic-integration objection. No physical testbed or validated wireless emulator was available for this work. This document specifies the required next experiment; it is not a completed result.

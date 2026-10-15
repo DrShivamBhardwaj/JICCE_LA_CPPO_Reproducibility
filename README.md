@@ -1,3 +1,5 @@
+> New: [ns-3 packet-level validation addendum](docs/NS3_VALIDATION_ADDENDUM.md). 120 exploratory runs with topology-constrained radio feedback; manuscript integration and deployment validation remain open.
+
 # JICCE LA-CPPO reproducibility package
 
 This repository accompanies a substantially redesigned IoT-WSN routing study

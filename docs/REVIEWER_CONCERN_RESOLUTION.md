@@ -1,3 +1,5 @@
+> Update, 15 October 2026: [ns-3 validation addendum](NS3_VALIDATION_ADDENDUM.md) reports 120 exploratory topology-constrained LR-WPAN runs and verified forwarding-proof frames. This partially addresses the network-validation requirement below. Local telemetry acquisition, control/listening energy, benign-loss stress, authentication and hardware/live-IDS validation remain open. Earlier statements about unavailable network simulation describe the pre-addendum state.
+
 # Reviewer concern resolution record
 
 The latest manuscript is publication/updated_evidence/JICCE_LA_CPPO_Integrated_Review_Draft.docx. Earlier publication files remain historical drafts. This is a review draft, not a certification of submission readiness.

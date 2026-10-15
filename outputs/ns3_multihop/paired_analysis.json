@@ -1,0 +1,58 @@
+[
+  {
+    "attack": false,
+    "endpoint": "delivery",
+    "n": 30,
+    "attention_mean": 1.0,
+    "capacity_mlp_mean": 1.0,
+    "paired_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "holm_p": 1
+  },
+  {
+    "attack": false,
+    "endpoint": "critical_violation_rate",
+    "n": 30,
+    "attention_mean": 0.0,
+    "capacity_mlp_mean": 0.0,
+    "paired_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "holm_p": 1
+  },
+  {
+    "attack": true,
+    "endpoint": "delivery",
+    "n": 30,
+    "attention_mean": 0.9188888888888888,
+    "capacity_mlp_mean": 0.8744444444444444,
+    "paired_difference": 0.04444444444444443,
+    "ci95": [
+      0.019054903110916933,
+      0.06983398577797192
+    ],
+    "p": 0.0012339278557496457,
+    "holm_p": 0.004935711422998583
+  },
+  {
+    "attack": true,
+    "endpoint": "critical_violation_rate",
+    "n": 30,
+    "attention_mean": 0.055138393741334925,
+    "capacity_mlp_mean": 0.0921667820197232,
+    "paired_difference": -0.03702838827838827,
+    "ci95": [
+      -0.06433947301147652,
+      -0.009717303545300024
+    ],
+    "p": 0.009608484521846336,
+    "holm_p": 0.028825453565539005
+  }
+]

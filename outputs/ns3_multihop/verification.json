@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "runs": 120,
+  "decisions": 5840,
+  "received_data": 5840,
+  "received_proofs": 2240,
+  "timeouts": 186,
+  "multihop_deliveries": 2102,
+  "scope": "trace consistency and frozen-action reconstruction; no external packet capture or full observation reconstruction"
+}
