@@ -1,23 +1,9 @@
 # JICCE submission status
 
-Completed: new public repository; frozen validation protocol; 42 implementation
-tests; 30 seeds × four arms × four settings; 115,200 evaluation packet records;
-120 checkpoints; preserved historical negative outcomes; revised author
-manuscript and reviewer evidence record; reproducibility scripts and checksums.
+Latest documents: publication/updated_evidence/. Verified UDP results are integrated. The manuscript has 65 unchanged native equations, seven figures, 27 references, Roman main/table numbering and separately restarted algorithms. Statistical plots are regenerated from raw data as vector artwork and 900-dpi PNG. Full test suite: 47 passed.
 
-The current scientific conclusion is risk-feedback benefit under simulated
-conditions, without corrected-significant attention superiority over the
-capacity-matched MLP on either co-primary endpoint. Do not submit as a superior
-ROA–Maxout IDS or state that the original live-integration concern is solved.
+The original tiny ROA effect is retired rather than enlarged. Nominal capacity-matched co-primary superiority remains unestablished. The shared-target localhost diagnostic is positive but does not establish realistic multihop wireless performance, live intrusion classification or measured feedback overhead. These substantive evidence limits remain open.
 
-Remaining checks before formal submission:
-- Author approval of the redesigned scope, result interpretation and AI-use declaration.
-- Current JICCE portal formatting, submission type, special-issue availability,
-  required forms and full corresponding-author contact fields. The society's
-  accessible template bundle is dated 2019 and its instruction PDF is older.
-- Full citation-content audit beyond bibliography/DOI metadata checks.
-- Decide whether the editor considers a simulation-based risk-feedback study
-  appropriate despite the absence of live telemetry validation.
+Formatting follows the accessible society bundle. Current author pages could not be retrieved; current portal submission type, special-issue availability, forms and full contact fields remain to be checked. Recent literature claims were checked at publisher summary level; unverified evaluation-detail cells were removed. This is not an independent full-text replication of every cited study.
 
-No email, manuscript submission or acceptance claim is made. The repository can
-already be shared for transparent editorial assessment.
+The package is reviewable and reproducible. It is not certified submission-ready. No email or journal submission has been sent.

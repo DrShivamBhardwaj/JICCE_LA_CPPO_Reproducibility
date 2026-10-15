@@ -5,6 +5,14 @@ prepared after JICCE-26-0057 was rejected with an invitation to submit new work.
 It is public so editors and reviewers can inspect the implementation and outputs.
 No submission or email has been sent by this package-building workflow.
 
+## Latest integrated review draft
+
+Use [the updated manuscript](publication/updated_evidence/JICCE_LA_CPPO_Integrated_Review_Draft.docx) and [PDF](publication/updated_evidence/JICCE_LA_CPPO_Integrated_Review_Draft.pdf). The [updated reviewer evidence record](publication/updated_evidence/JICCE_Updated_Reviewer_Evidence_Record.pdf) maps completed actions and remaining limits. Older publication files remain historical drafts.
+
+The new matched-capacity UDP diagnostic contains 3,600 attempts across 30 fixture-level pairs: attention delivery 85.39%, MLP 32.22%, difference +53.17 percentage points (95% CI +35.31 to +71.02). This is targeted localhost software evidence. It does not establish physical wireless effectiveness or supersede the failed nominal co-primary superiority result. Twenty-six fixtures have identical fault targets in their two strata.
+
+See [concern resolution](docs/REVIEWER_CONCERN_RESOLUTION.md), [raw diagnostic data](outputs/udp_matched_comparison/), and [required network validation](docs/NETWORK_VALIDATION_REQUIREMENTS.md). All 47 tests pass; 65 native equations and 7 figures are retained. The manuscript is not certified submission-ready.
+
 ## Scientific status
 
 The historical AF-v3 joint superiority test failed. Those results are preserved.

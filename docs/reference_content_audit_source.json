@@ -1,0 +1,1307 @@
+[
+  {
+    "reference": "[1] Akyildiz IF, Su W, Sankarasubramaniam Y, Cayirci E. Wireless sensor networks: a survey. Computer Networks. 2002;38(4):393-422. doi:10.1016/S1389-1286(01)00302-4.",
+    "doi": "10.1016/S1389-1286(01)00302-4",
+    "status": "retrieved",
+    "title": [
+      "Wireless sensor networks: a survey"
+    ],
+    "author": [
+      {
+        "given": "I.F.",
+        "family": "Akyildiz",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "W.",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Y.",
+        "family": "Sankarasubramaniam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E.",
+        "family": "Cayirci",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Computer Networks"
+    ],
+    "volume": "38",
+    "issue": "4",
+    "page": "393-422",
+    "article-number": null,
+    "abstract": null,
+    "URL": "https://doi.org/10.1016/s1389-1286(01)00302-4",
+    "published": {
+      "date-parts": [
+        [
+          2002,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[2] Al-Karaki JN, Kamal AE. Routing techniques in wireless sensor networks: a survey. IEEE Wireless Communications. 2004;11(6):6-28. doi:10.1109/MWC.2004.1368893.",
+    "doi": "10.1109/MWC.2004.1368893",
+    "status": "retrieved",
+    "title": [
+      "Routing techniques in wireless sensor networks: a survey"
+    ],
+    "author": [
+      {
+        "given": "J.N.",
+        "family": "Al-Karaki",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.E.",
+        "family": "Kamal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Wireless Communications"
+    ],
+    "volume": "11",
+    "issue": "6",
+    "page": "6-28",
+    "article-number": null,
+    "abstract": null,
+    "URL": "https://doi.org/10.1109/mwc.2004.1368893",
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[3] Heinzelman WR, Chandrakasan A, Balakrishnan H. Energy-efficient communication protocol for wireless microsensor networks. In: Proceedings of HICSS. 2000. doi:10.1109/HICSS.2000.926982.",
+    "doi": "10.1109/HICSS.2000.926982",
+    "status": "retrieved",
+    "title": [
+      "Energy-efficient communication protocol for wireless microsensor networks"
+    ],
+    "author": [
+      {
+        "given": "W.R.",
+        "family": "Heinzelman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Chandrakasan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Balakrishnan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the 33rd Annual Hawaii International Conference on System Sciences"
+    ],
+    "volume": "vol.1",
+    "issue": null,
+    "page": "10",
+    "article-number": null,
+    "abstract": null,
+    "URL": "https://doi.org/10.1109/hicss.2000.926982",
+    "published": null
+  },
+  {
+    "reference": "[4] De Couto DSJ, Aguayo D, Bicket J, Morris R. A high-throughput path metric for multi-hop wireless routing. In: Proceedings of MobiCom. 2003:134-146. doi:10.1145/938985.939000.",
+    "doi": "10.1145/938985.939000",
+    "status": "retrieved",
+    "title": [
+      "A high-throughput path metric for multi-hop wireless routing"
+    ],
+    "author": [
+      {
+        "given": "Douglas S. J.",
+        "family": "De Couto",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "M.I.T., Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Aguayo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "M.I.T., Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John",
+        "family": "Bicket",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "M.I.T., Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Morris",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "M.I.T., Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the 9th annual international conference on Mobile computing and networking"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "134-146",
+    "article-number": null,
+    "abstract": null,
+    "URL": "https://doi.org/10.1145/938985.939000",
+    "published": {
+      "date-parts": [
+        [
+          2003,
+          9,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[5] Winter T, Thubert P, Brandt A, et al. RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks. RFC 6550. IETF; 2012. doi:10.17487/RFC6550.",
+    "doi": "10.17487/RFC6550",
+    "status": "retrieved",
+    "title": [
+      "RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks"
+    ],
+    "author": [
+      {
+        "given": "A.",
+        "family": "Brandt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Hui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Kelsey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Levis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.",
+        "family": "Pister",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Struik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "JP. Vasseur",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Alexander",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "abstract": null,
+    "URL": "https://doi.org/10.17487/rfc6550",
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[6] Song Y, Ni M, Liu J. Deep reinforcement learning for network routing optimization: A systematic survey. Neurocomputing. 2026;666:132263. doi:10.1016/j.neucom.2025.132263.",
+    "doi": "10.1016/j.neucom.2025.132263",
+    "status": "retrieved",
+    "title": [
+      "Deep reinforcement learning for network routing optimization: A systematic survey"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8495-3487",
+        "authenticated-orcid": false,
+        "given": "Yuqian",
+        "family": "Song",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mao",
+        "family": "Ni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Neurocomputing"
+    ],
+    "volume": "666",
+    "issue": null,
+    "page": "132263",
+    "article-number": "132263",
+    "abstract": null,
+    "URL": "https://doi.org/10.1016/j.neucom.2025.132263",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[7] Sutton RS, Barto AG. Reinforcement Learning: An Introduction. 2nd ed. MIT Press; 2018.",
+    "status": "no DOI"
+  },
+  {
+    "reference": "[8] Schulman J, Wolski F, Dhariwal P, Radford A, Klimov O. Proximal Policy Optimization Algorithms. arXiv:1707.06347; 2017.",
+    "status": "no DOI"
+  },
+  {
+    "reference": "[9] Schulman J, Moritz P, Levine S, Jordan M, Abbeel P. High-dimensional continuous control using generalized advantage estimation. In: ICLR; 2016. arXiv:1506.02438.",
+    "status": "no DOI"
+  },
+  {
+    "reference": "[10] Achiam J, Held D, Tamar A, Abbeel P. Constrained policy optimization. Proceedings of Machine Learning Research. 2017;70:22-31.",
+    "status": "no DOI"
+  },
+  {
+    "reference": "[11] Vaswani A, Shazeer N, Parmar N, et al. Attention is all you need. Advances in Neural Information Processing Systems. 2017;30:5998-6008.",
+    "status": "no DOI"
+  },
+  {
+    "reference": "[12] Zaheer M, Kottur S, Ravanbakhsh S, Poczos B, Salakhutdinov R, Smola AJ. Deep Sets. Advances in Neural Information Processing Systems. 2017;30:3391-3401.",
+    "status": "no DOI"
+  },
+  {
+    "reference": "[13] Neely MJ. Stochastic Network Optimization with Application to Communication and Queueing Systems. Morgan & Claypool; 2010.",
+    "status": "no DOI"
+  },
+  {
+    "reference": "[14] Yang J, He S, Xu Y, Chen L, Ren J. A trusted routing scheme using blockchain and reinforcement learning for wireless sensor networks. Sensors. 2019;19(4):970. doi:10.3390/s19040970.",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "reference": "[15] Wang C, Hu H, Fan X. Intelligent clustering and routing protocol for wireless sensor networks using quantum inspired Harris Hawk optimizer and deep reinforcement learning. Ad Hoc Networks. 2025;178:103914. doi:10.1016/j.adhoc.2025.103914.",
+    "doi": "10.1016/j.adhoc.2025.103914",
+    "status": "retrieved",
+    "title": [
+      "Intelligent clustering and routing protocol for wireless sensor networks using quantum inspired Harris Hawk optimizer and deep reinforcement learning"
+    ],
+    "author": [
+      {
+        "given": "Chuhang",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huangshui",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinji",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Ad Hoc Networks"
+    ],
+    "volume": "178",
+    "issue": null,
+    "page": "103914",
+    "article-number": "103914",
+    "abstract": null,
+    "URL": "https://doi.org/10.1016/j.adhoc.2025.103914",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[16] Manogaran N, Raphael MTM, Raja R, Jayakumar AK, Nandagopal M, Balusamy B, Ghinea G. Developing a novel adaptive double deep Q-learning-based routing strategy for IoT-based wireless sensor network with federated learning. Sensors. 2025;25(10):3084. doi:10.3390/s25103084.",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "reference": "[17] Tao S, Tang H, Wang J, Li B. A failure risk-aware multi-hop routing protocol in LPWANs using deep Q-network. Sensors. 2025;25(14):4416. doi:10.3390/s25144416.",
+    "doi": "10.3390/s25144416",
+    "status": "retrieved",
+    "title": [
+      "A Failure Risk-Aware Multi-Hop Routing Protocol in LPWANs Using Deep Q-Network"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-2284-401X",
+        "authenticated-orcid": false,
+        "given": "Shaojun",
+        "family": "Tao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Science and Technology on Micro-System Laboratory, Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences, Shanghai 200050, China"
+          },
+          {
+            "name": "University of Chinese Academy of Sciences, Beijing 100049, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongying",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Science and Technology on Micro-System Laboratory, Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences, Shanghai 200050, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Science and Technology on Micro-System Laboratory, Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences, Shanghai 200050, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7243-9229",
+        "authenticated-orcid": false,
+        "given": "Baoqing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Science and Technology on Micro-System Laboratory, Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences, Shanghai 200050, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Sensors"
+    ],
+    "volume": "25",
+    "issue": "14",
+    "page": "4416",
+    "article-number": null,
+    "abstract": "<jats:p>Multi-hop routing over low-power wide-area networks (LPWANs) has emerged as a promising technology for extending network coverage. However, existing protocols face high transmission disruption risks due to factors such as dynamic topology driven by stochastic events, dynamic link quality, and coverage holes induced by imbalanced energy consumption. To address this issue, we propose a failure risk-aware deep Q-network-based multi-hop routing (FRDR) protocol, aiming to reduce transmission disruption probability. First, we design a power regulation mechanism (PRM) that works in conjunction with pre-selection rules to optimize end-device node (EN) activations and candidate relay selection. Second, we introduce the concept of routing failure risk value (RFRV) to quantify the potential failure risk posed by each candidate next-hop EN, which correlates with its neighborhood state characteristics (i.e., the number of neighbors, the residual energy level, and link quality). Third, a deep Q-network (DQN)-based routing decision mechanism is proposed, where a multi-objective reward function incorporating RFRV, residual energy, distance to the gateway, and transmission hops is utilized to determine the optimal next-hop. Simulation results demonstrate that FRDR outperforms existing protocols in terms of packet delivery rate and network lifetime while maintaining comparable transmission delay.</jats:p>",
+    "URL": "https://doi.org/10.3390/s25144416",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[18] Song Y, Zhou J, Li X, Liu J. Enabling robust and generalized DRL-driven routing optimization via exploration of graph neural networks. IEEE Transactions on Cognitive Communications and Networking. 2025;11(6):4281-4298. doi:10.1109/TCCN.2025.3544276.",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "reference": "[19] Wigmore J, Modiano E. Generalizable policy learning using graph neural networks. In: Proceedings of MobiHoc 2025. 2025:251-260. doi:10.1145/3704413.3764422.",
+    "doi": "10.1145/3704413.3764422",
+    "status": "retrieved",
+    "title": [
+      "Generalizable Policy Learning using Graph Neural Networks"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6814-1959",
+        "authenticated-orcid": false,
+        "given": "Jerrod",
+        "family": "Wigmore",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Laboratory for Information and Decision Systems (LIDS), MIT, Cambridge, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8238-8130",
+        "authenticated-orcid": false,
+        "given": "Eytan",
+        "family": "Modiano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laboratory for Information and Decision Systems (LIDS), MIT, Cambridge, Massachusetts, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Proceedings of the Twenty-sixth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "251-260",
+    "article-number": null,
+    "abstract": null,
+    "URL": "https://doi.org/10.1145/3704413.3764422",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          23
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[20] Venkatesan C, Al-Otaibi S, Vijayan BV, Sathiya T, Jamjoom MM, Surendiran J. AI-enhanced routing and slicing strategy for QoS-aware mobile ad hoc networks. Scientific Reports. 2026;16:4468. doi:10.1038/s41598-025-34588-x.",
+    "doi": "10.1038/s41598-025-34588-x",
+    "status": "retrieved",
+    "title": [
+      "AI-enhanced routing and slicing strategy for QoS-aware mobile ad hoc networks"
+    ],
+    "author": [
+      {
+        "given": "Venkatesan",
+        "family": "C.",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shaha",
+        "family": "Al-Otaibi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Balaji Vijayan",
+        "family": "V.",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sathiya",
+        "family": "T.",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mona M.",
+        "family": "Jamjoom",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Surendiran",
+        "family": "J.",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "volume": "16",
+    "issue": "1",
+    "page": null,
+    "article-number": "4468",
+    "abstract": null,
+    "URL": "https://doi.org/10.1038/s41598-025-34588-x",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[21] Betam S, Nagendram S, Kumar BP, Chennaiah MB, Aravinth SS, Rafi M, Naveed QN, Islam S, Assefa BG. A dynamic reward framework for scalable and efficient IoT-WSN routing using deep reinforcement learning. Scientific Reports. 2026. doi:10.1038/s41598-026-61080-x.",
+    "doi": "10.1038/s41598-026-61080-x",
+    "status": "retrieved",
+    "title": [
+      "A dynamic reward framework for scalable and efficient IoT-WSN routing using deep reinforcement learning"
+    ],
+    "author": [
+      {
+        "given": "Suresh",
+        "family": "Betam",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sanam",
+        "family": "Nagendram",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bathula Prasanna",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mallapuram Bala",
+        "family": "Chennaiah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. S.",
+        "family": "Aravinth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mudassir",
+        "family": "Rafi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Quadri Noorulhasan",
+        "family": "Naveed",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Saiful",
+        "family": "Islam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Beakal Gizachew",
+        "family": "Assefa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "volume": "16",
+    "issue": "1",
+    "page": null,
+    "article-number": "31920",
+    "abstract": null,
+    "URL": "https://doi.org/10.1038/s41598-026-61080-x",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[22] Lata AA, Kang M. RLFS-OR: Reinforcement learning-based forwarder selection for opportunistic routing in wireless sensor networks. Electronics. 2026;15(5):910. doi:10.3390/electronics15050910.",
+    "doi": "10.3390/electronics15050910",
+    "status": "retrieved",
+    "title": [
+      "RLFS-OR: Reinforcement Learning-Based Forwarder Selection for Opportunistic Routing in Wireless Sensor Networks"
+    ],
+    "author": [
+      {
+        "given": "Ayesha Akter",
+        "family": "Lata",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Engineering, Chosun University, Gwangju 501-759, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Moonsoo",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Engineering, Chosun University, Gwangju 501-759, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Electronics"
+    ],
+    "volume": "15",
+    "issue": "5",
+    "page": "910",
+    "article-number": null,
+    "abstract": "<jats:p>This paper introduces RLFS-OR, a reinforcement learning-based opportunistic routing protocol designed for energy-constrained and duty-cycled wireless sensor networks (WSNs). Unlike traditional opportunistic routing, which either relies on static metrics or requires nodes to remain continuously active, RLFS-OR integrates a Deep Q-Network (DQN) to dynamically select the most energy-efficient forwarder based on residual energy, hop distance, wake-up timing, and link quality. A realistic Castalia-derived radio model is incorporated, accounting for transmission, reception, idle listening, and path loss-dependent energy consumption. Through coordinated learning and asynchronous duty-cycle integration, RLFS-OR minimizes overhearing and unnecessary wake-ups. Simulation results demonstrate that RLFS-OR significantly outperforms two established protocols\u2014ORW and FCM-OR\u2014achieving 10\u201330% lower energy consumption and 10\u201345% longer network lifetime under diverse network densities and traffic loads. RLFS-OR also provides smoother node-death dynamics and optimal performance at low duty cycles. The findings confirm RLFS-OR as an efficient and scalable solution for long-lived WSN deployments.</jats:p>",
+    "URL": "https://doi.org/10.3390/electronics15050910",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[23] Iqbal A, Siddiqui MF. Feasibility-aware reinforcement learning for reliable hop-constrained routing in wireless sensor networks. Computers, Materials & Continua. 2026;89(1):Article 85. doi:10.32604/cmc.2026.084851.",
+    "status": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "reference": "[24] Bala K, Venu D, Dudi BP, Nirmala V, Kumar KA, Manohara M. Federated deep reinforcement Q-learning for secure and energy-efficient data routing in Internet of Things networks. Peer-to-Peer Networking and Applications. 2026;19:88. doi:10.1007/s12083-026-02236-4.",
+    "doi": "10.1007/s12083-026-02236-4",
+    "status": "retrieved",
+    "title": [
+      "Federated deep reinforcement Q-learning for secure and energy-efficient data routing in internet of things networks"
+    ],
+    "author": [
+      {
+        "given": "K.",
+        "family": "Bala",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Venu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bhanu Prakash",
+        "family": "Dudi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "Nirmala",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. Ashok",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Manohara",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Peer-to-Peer Networking and Applications"
+    ],
+    "volume": "19",
+    "issue": "3",
+    "page": null,
+    "article-number": "88",
+    "abstract": null,
+    "URL": "https://doi.org/10.1007/s12083-026-02236-4",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[25] Gupta R, Gupta SK, Singh SB, Kumar R, Muthukkumar R. Adaptive deep reinforcement learning-based secure routing for wireless sensor networks. Scientific Reports. 2026. doi:10.1038/s41598-026-62519-x.",
+    "doi": "10.1038/s41598-026-62519-x",
+    "status": "retrieved",
+    "title": [
+      "Adaptive deep reinforcement learning\u2013based secure routing for wireless sensor networks"
+    ],
+    "author": [
+      {
+        "given": "Ramji",
+        "family": "Gupta",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shashi Kant",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Swati B.",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ramesh",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Muthukkumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "abstract": null,
+    "URL": "https://doi.org/10.1038/s41598-026-62519-x",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[26] Mercy SS. Coordinate attention-driven multi-agent adaptive deep reinforcement learning model for resilient and energy-efficient routing in WSNs. Sustainable Computing: Informatics and Systems. 2026;51:101427. doi:10.1016/j.suscom.2026.101427.",
+    "doi": "10.1016/j.suscom.2026.101427",
+    "status": "retrieved",
+    "title": [
+      "Coordinate attention-driven multi-agent adaptive deep reinforcement learning model for resilient and energy-efficient routing in WSNs"
+    ],
+    "author": [
+      {
+        "given": "S. Sudha",
+        "family": "Mercy",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Sustainable Computing: Informatics and Systems"
+    ],
+    "volume": "51",
+    "issue": null,
+    "page": "101427",
+    "article-number": "101427",
+    "abstract": null,
+    "URL": "https://doi.org/10.1016/j.suscom.2026.101427",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "reference": "[27] Ramachandra S, Baskar M. Real-time multi-level trust-based secure routing for improved QoS in WSN using blockchain. Results in Engineering. 2025;26:104732. doi:10.1016/j.rineng.2025.104732.",
+    "doi": "10.1016/j.rineng.2025.104732",
+    "status": "retrieved",
+    "title": [
+      "Real-time multi-level trust-based secure routing for improved QoS in WSN using blockchain"
+    ],
+    "author": [
+      {
+        "given": "S.",
+        "family": "Ramachandra",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4655-7667",
+        "authenticated-orcid": false,
+        "given": "M.",
+        "family": "Baskar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Results in Engineering"
+    ],
+    "volume": "26",
+    "issue": null,
+    "page": "104732",
+    "article-number": "104732",
+    "abstract": null,
+    "URL": "https://doi.org/10.1016/j.rineng.2025.104732",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    }
+  }
+]

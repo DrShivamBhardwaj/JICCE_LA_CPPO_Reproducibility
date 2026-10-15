@@ -1,0 +1,9 @@
+# Required experiment to close practical integration evidence
+
+The completed localhost diagnostic is insufficient to close Reviewer A's practical traffic-integration objection. No physical testbed or validated wireless emulator was available for this work. This document specifies the required next experiment; it is not a completed result.
+
+Use a network emulator with explicitly configured IEEE 802.15.4 behavior or a physical multihop WSN. Enforce per-edge radio reachability so a relay cannot bypass the topology and directly access the sink. Collect time-stamped application send/receive, forwarding, MAC retry and feedback records at each observer. Candidate features must come from available local telemetry, with a recorded acquisition delay and normalization contract. Authenticate feedback or evaluate spoofing as a separate threat condition. Distinguish link acknowledgment, downstream forwarding witness and final delivery receipt; declare exactly which node each observation updates.
+
+Freeze the trained checkpoint, calibration, source traffic, independent run units, attack schedule, link-loss schedule and analysis before outcomes. Use both controllers on policy-independent exogenous schedules, include risk-disabled and feedback-overhead controls, and retain unsuccessful runs. Match application payloads, not just the number of packets. Charge control messages, listening and retries to energy and deadline accounting. Report delivery, deadline violation, energy per delivered application byte, feedback loss and route adaptation. Include benign fading and congestion to measure the extent to which ordinary packet loss is mistaken for malicious forwarding.
+
+Do not select node count, timeout, target relay or channel conditions after observing which settings favor attention. A failed confirmatory result remains a failed result. The current positive targeted diagnostic may motivate this experiment but cannot substitute for it.
