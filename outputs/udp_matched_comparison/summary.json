@@ -1,0 +1,11 @@
+{
+  "scope": "functional localhost UDP integration; synthetic candidate features",
+  "checkpoint_sha256": "per-run hashes recorded in trace",
+  "runs": 120,
+  "packets": 3600,
+  "acknowledgments": 2117,
+  "sink_witness_mismatches": 0,
+  "changed_probability_vectors": 3600,
+  "changed_next_hop_argmax": 67,
+  "conclusion": "Symmetric shared-target diagnostic; no physical WSN performance claim"
+}
