@@ -1,0 +1,13 @@
+{
+  "n_fixtures": 30,
+  "attention_delivery": 0.8538888888888887,
+  "mlp_delivery": 0.32222222222222224,
+  "mean_difference": 0.5316666666666667,
+  "ci95": [
+    0.3531000938794304,
+    0.710233239453903
+  ],
+  "paired_t_p": 1.2463795282816034e-06,
+  "attention_parameters": 63368,
+  "mlp_parameters": 63554
+}
