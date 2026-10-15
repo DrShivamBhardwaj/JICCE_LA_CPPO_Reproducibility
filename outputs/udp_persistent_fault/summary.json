@@ -1,0 +1,12 @@
+{
+  "scope": "functional localhost UDP integration; synthetic candidate features",
+  "checkpoint_sha256": "per-run hashes recorded in trace",
+  "runs": 30,
+  "packets": 900,
+  "acknowledgments": 718,
+  "sink_witness_mismatches": 0,
+  "changed_probability_vectors": 900,
+  "changed_next_hop_argmax": 25,
+  "runs_with_failover": 25,
+  "conclusion": "Persistent targeted fixture fault; no physical WSN performance or attention superiority claim"
+}
