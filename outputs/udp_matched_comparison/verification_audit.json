@@ -1,0 +1,39 @@
+{
+  "packets": 3600,
+  "runs": 120,
+  "all_runs_30_packets": true,
+  "delivery": {
+    "attention": 0.8538888888888887,
+    "capacity_mlp": 0.32222222222222224
+  },
+  "paired_mean_difference": 0.5316666666666667,
+  "ci95": [
+    0.3531000938794304,
+    0.710233239453903
+  ],
+  "paired_t_p": 1.2463795282816034e-06,
+  "exploratory_sign_flip_p_200000": 1.9999900000499998e-05,
+  "initial_fault_exposure_by_arm": {
+    "attention": 56,
+    "capacity_mlp": 56
+  },
+  "fixed_initial_action_counterfactual_delivery": {
+    "attention": 0.06666666666666667,
+    "capacity_mlp": 0.06666666666666667
+  },
+  "duplicate_fault_target_fixtures": 26,
+  "attention_win_tie_loss": [
+    21,
+    8,
+    1
+  ],
+  "checksum_files_passed": [
+    "trace.jsonl.gz",
+    "summary.json",
+    "run_summary.csv",
+    "paired_seed_summary.csv",
+    "paired_analysis.json",
+    "paired_delivery.svg",
+    "paired_delivery.png"
+  ]
+}
