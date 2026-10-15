@@ -1,0 +1,10 @@
+{
+  "scope": "functional localhost UDP integration; synthetic candidate features",
+  "checkpoint_sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+  "runs": 30,
+  "packets": 360,
+  "acknowledgments": 240,
+  "sink_witness_mismatches": 0,
+  "changed_probability_vectors": 360,
+  "conclusion": "No physical WSN performance or attention superiority claim"
+}
