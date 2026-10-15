@@ -1,0 +1,9 @@
+# Persistent forwarding-fault diagnostic protocol
+
+Frozen before execution, 2026-10-15. Follow-up diagnostic motivated by zero argmax changes in the earlier periodic-fault fixture. It is exploratory and is not an untouched confirmatory efficacy study.
+
+Use 30 fresh topology seeds 72001–72030 and all 30 previously trained attention checkpoints, paired in numerical order. No retraining or checkpoint selection. Choose a source uniformly among nodes outside direct sink range with at least two physical neighbors, using a generator seeded by topology seed. Before any feedback, identify the frozen policy's first selected relay. That relay persistently drops all packets throughout the fixture. All other relays forward to the independent UDP sink and acknowledge only after sink acknowledgment. The selection of the fault target deliberately stresses the initial route; it is not a random attack-population model.
+
+Make 30 successive class-0 decisions per fixture. Fixed synthetic network state; risk alone updates from actual UDP ACK/timeout. Timeout is 20 ms, a software-harness waiting parameter, not a WSN deadline. There is no hardware validation. Do not change settings after examining outcomes. Archive failures and successful failovers alike. Report failover runs, complete traces, per-checkpoint hashes and ACK/witness concordance. Describe any switching as behavior of the complete candidate-selection/shield/policy pipeline; do not attribute it solely to the learned attention model.
+
+Repeatable verification reconstructs observations and actions from original fixtures and accumulated posteriors. The expected PDR remains model-derived. No attack labels or fixture target are passed to the observation builder or risk estimator. If no switching occurs, record that result without tuning the shield or retraining.
