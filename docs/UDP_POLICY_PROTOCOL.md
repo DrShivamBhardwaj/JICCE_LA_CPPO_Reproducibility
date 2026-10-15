@@ -1,0 +1,7 @@
+# Frozen policy / UDP integration protocol
+
+Frozen before execution on 2026-10-15. Functional software-in-loop study, not an efficacy comparison. Load attention_41001.pt unchanged. Generate 30 independent synthetic network fixtures with seeds 71001–71030. For each, choose the first node outside direct sink range with at least two feasible neighbors; make 12 deterministic decisions at that same source with class 0 and fixed network/queue/energy/QoS state. Only risk posteriors change. Candidate link PDR and all non-security features remain model-derived, not UDP measurements.
+
+Selected non-sink candidates map to localhost UDP relay threads. For every third packet the relay drops the packet (fixture fault schedule, independent of node identity). Otherwise it forwards to a separate sink socket. Relay acknowledges only after sink acknowledgment. The independent sink receipt is recorded and matched to the adapter result. This schedule is functional fault injection, not a malicious-node experiment. No attack labels reach the policy or estimator.
+
+Log full pre/post observation, candidate IDs/masks, policy probabilities, chosen node, adapter sequence, posterior update, sink witness, and inference/feedback elapsed time. Recompute pre/post masked logits using the frozen checkpoint. Count probability changes descriptively; a changed probability need not change argmax. Assert unchanged checkpoint hash, matching witness and adapter outcome, and risk feature changes following UDP feedback. Do not report localhost elapsed times as WSN latency or energy.
