@@ -1,0 +1,63 @@
+"""Integrate qualified simulator-transfer evidence, preserving native equations."""
+from pathlib import Path
+from copy import deepcopy
+import json,zipfile
+from lxml import etree
+from docx import Document
+from docx.shared import Cm,Pt
+from docx.enum.text import WD_BREAK
+ROOT=Path(__file__).resolve().parents[1];out=ROOT/'publication/ns3_evidence';out.mkdir(parents=True,exist_ok=True)
+rows=json.loads((ROOT/'outputs/ns3_telemetry/summary.json').read_text());analysis=json.loads((ROOT/'outputs/ns3_telemetry/paired_analysis.json').read_text());assert len(rows)==600
+source=ROOT/'publication/updated_evidence/JICCE_LA_CPPO_Integrated_Review_Draft.docx';doc=Document(source)
+def find(text):return next(p for p in doc.paragraphs if p.text.startswith(text))
+def before(anchor,text,style='Normal'):
+ p=anchor.insert_paragraph_before(text);p.style=doc.styles[style]
+ if style.startswith('Heading'):
+  for run in p.runs:run.font.name='Times New Roman'
+ return p
+def pair(setting,comp,endpoint):return next(x for x in analysis if x['setting']==setting and x['comparator']==comp and x['endpoint']==endpoint)
+anchor=find('X. Discussion')
+before(anchor,'D. Topology constrained radio feedback','Heading 2')
+before(anchor,'An initial ns-3.44 LR-WPAN transfer used 30 new fixtures, seeds 75001–75030, and both frozen architectures under benign and 25% blackhole conditions. All selected hops obeyed a 50 m radio range. Forwarding proofs were separate reverse radio frames emitted after downstream MAC success. Across 120 runs and 3,600 packets, the trace verifier reconstructed 5,840 actions and checked 2,240 received proofs. Under blackholes, delivery was 91.89% for attention and 87.44% for the capacity MLP, a paired gain of 4.44 percentage points (95% CI 1.91–6.98; four-test Holm p=0.00494). Both delivered all benign packets. This first transfer retained synthetic candidate features and did not integrate radio energy; it is exploratory evidence from a clean, low-load setting.')
+before(anchor,'E. Local telemetry and radio overhead controls','Heading 2')
+before(anchor,'A subsequent transfer replaced synthetic observations with local measurements and delayed neighbour reports. Thirty disjoint fixtures, seeds 76001–76030, each paired the corresponding checkpoints trained on seeds 41001–41030. The 600 runs cross five conditions with attention, the capacity MLP, attention with risk disabled, and attention with forwarding proofs disabled. Each run generates 60 packets. Source schedules, traffic classes and uniform blackhole sets are policy independent. The high-load condition compresses the source interval from 20 ms to 2 ms; the weak-link condition increases reference propagation loss from 40 to 54 dB. Technical pilot seed 75901 is excluded. The configuration was fixed before these evaluation outcomes, but this program is an exploratory transfer rather than a preregistered confirmatory study.')
+before(anchor,'Each node maintains its own risk posterior, link-success counts and service-time estimate. Untried links use a declared Beta(9,1) prior. Energy and queue reports arrive through 64-byte radio beacons every 500 ms, staggered across nodes, and expire after 750 ms. Unknown neighbours are unavailable to the policy. Candidate geometry is configured in advance. The former RSSI-proxy slot now contains received LQI divided by 255; this semantic change and the new telemetry distribution make the experiment a frozen-policy transfer, not an exact reproduction of the training observation model. Queue occupancy is pending MAC requests divided by 32. A source updates service debt from radio delivery receipts relayed along the reverse path, or from a 1.5 s receipt timeout; the controller does not receive sink-delivery ground truth for that update.')
+before(anchor,'All radios are integrated over a common four-second horizon. The assumed current model uses 3 V, 17.4 mA during transmission, 18.8 mA during reception or listening, and 20 microampere during the off state. These are explicit simulation assumptions, not hardware measurements. PHY state residence times include data, proof and beacon frames, reverse delivery receipts, MAC acknowledgments and retransmissions. Sensor-radio energy excludes the sink, which is reported separately. Each 64-byte application frame contains 12 identifier bytes and 52 payload bytes. CPU inference, cryptography and physical sensor energy remain uncharged. The payload differs from the historical 4,000-bit packet; cross-program energy values are not directly comparable.')
+before(anchor,'F. Telemetry transfer results and interpretation','Heading 2')
+before(anchor,'Table XII reports the paired architecture comparison. The inferential unit is the independent fixture, n=30. One 45-test Holm family covers five conditions, three comparators and three endpoints: delivery, critical-class total violation and radio energy per delivered payload byte. Unadjusted 95% paired t intervals accompany each effect. All contrasts, including unsuccessful ablations and undefined energy ratios, remain in the machine-readable results. The proof-disabled arm removes both proof traffic and proof-driven risk updates; it is a joint feedback-cost control, not a pure airtime intervention.')
+for setting in ['benign','blackhole','congested_benign','congested_blackhole','weaklink_benign']:
+ a=pair(setting,'capacity_mlp','delivery');v=pair(setting,'capacity_mlp','critical_violation')
+ before(anchor,f"In {setting.replace('_',' ')} conditions, attention delivery was {100*a['attention_mean']:.2f}% and capacity-MLP delivery was {100*a['comparator_mean']:.2f}%. The paired delivery difference was {100*a['difference']:+.2f} percentage points (95% CI {100*a['ci95'][0]:+.2f} to {100*a['ci95'][1]:+.2f}; Holm p={a['holm_p']:.4g}). The critical-violation difference was {100*v['difference']:+.2f} percentage points (Holm p={v['holm_p']:.4g}).")
+before(anchor,'The feedback control exposes a practical cost. Disabling forwarding proofs increased delivery by 5.06 percentage points in benign traffic, 7.50 points under blackholes and 6.89 points in the weak-link setting (Holm p=0.00444, 0.00222 and 0.03060). Under blackholes, enabling proofs increased critical violations by 8.95 points (Holm p=0.00947) and energy per delivered byte by 0.001158 J/B (Holm p=0.02322). No capacity-MLP contrast survived the 45-test correction. These results do not support a net benefit from the evaluated proof-driven risk mechanism. Because proof removal also disables its risk updates, the comparison does not isolate whether traffic overhead or changed routing decisions caused the difference.')
+benign=[r for r in rows if r['arm']=='attention' and r['setting'] in ['benign','congested_benign','weaklink_benign']]
+before(anchor,f"Across the 90 attack-free attention runs, {sum(r['benign_relay_timeouts'] for r in benign)} forwarding timeouts occurred at benign relays. Missing forwarding evidence therefore cannot be interpreted as an attack label. Beacon contention, incomplete neighbour caches and receipt loss alter the available action set and service debt. The verifier reconstructs the complete recorded feature vectors and frozen actions, replays local risk updates, checks valid data/proof paths, and verifies the state-time energy identity for every node. Cache snapshots are linked to transmitted beacon values; raw beacon-reception callbacks and QoS/link-history updates are not independently replayed. This is an internal reproducibility audit, not an external capture or intrusion-detection validation.")
+find('Routing decisions in wireless sensor networks').text='Routing under deadlines depends on energy, uncertain links and evidence of forwarding. We evaluate a local-attention constrained PPO router through historical confirmation, capacity-matched validation and packet-level transfer. The historical joint superiority gate failed; neither nominal capacity-matched co-primary contrast survived Holm correction. Targeted localhost and clean-radio diagnostics showed delivery gains, but retained restricted traffic or synthetic features. A separate 600-run ns-3 study used 30 new fixtures, local radio beacons, observer-specific risk, reverse delivery receipts, PHY state energy and matched risk/feedback controls. Congestion and weak links exposed missing reports and benign forwarding timeouts. No architecture contrast survived Holm correction. Disabling forwarding proofs improved delivery in three settings. These results do not establish live intrusion detection, hardware energy savings or satisfaction of absolute service budgets.'
+find('Historical AF-v3 transfer and overhead experiments').text='Historical AF-v3 transfer and overhead experiments were not run after its failed gate. The later packet-level studies provide bounded simulator-transfer evidence. The final study charges all simulated PHY radio states, including control traffic, but uses assumed currents and excludes CPU, cryptographic and sensing costs. No physical hardware benchmark has been performed.'
+find('We use the Beta model').text='The Beta model supplies forwarding-risk context rather than a validated intrusion detector. The radio study explicitly measures timeouts at benign relays. Feedback and telemetry producers are trusted under a non-forging blackhole threat model. Authentication, spoofing, malicious beacons, collusion and calibrated IDS accuracy remain outside the evaluated claims.'
+find('The public package contains').text='The public package contains source code, configurations, historical results, frozen checkpoints, UDP traces, both ns-3 transfer programs, PHY energy totals, paired analyses and verification scripts. Distinct seed ranges and protocol snapshots separate the programs. Exact historical training requires its original commit and environment; the later programs do not claim bitwise equivalence.'
+find('LA-CPPO combines shared candidate scoring').text='LA-CPPO combines candidate scoring, invariant critics, service debt and forwarding-risk context. Historical confirmation failed its joint gate, and nominal capacity matching did not establish either co-primary improvement after Holm correction. Positive targeted diagnostics motivated packet-level evaluation. The final ns-3 transfer makes neighbour reports, local risk, reverse receipts and radio overhead explicit, revealing practical losses and benign timeout ambiguity. The proof-disabled control outperformed the full feedback mechanism in several conditions. Its results support a bounded analysis of frozen-policy transfer under the stated conditions. They do not establish general attention superiority, live intrusion detection, hardware energy savings or satisfaction of the original absolute service budgets.'
+p=doc.add_paragraph();p.add_run().add_break(WD_BREAK.PAGE);doc.add_paragraph('Table XII. Local telemetry transfer effects for attention minus the capacity MLP.')
+t=doc.add_table(rows=1,cols=4);headers=['Condition','Delivery difference pp','Critical violation difference pp','Energy per delivered byte difference J/B']
+for c,txt in zip(t.rows[0].cells,headers):
+ c.text=txt
+ for run in c.paragraphs[0].runs:run.bold=True
+for setting in ['benign','blackhole','congested_benign','congested_blackhole','weaklink_benign']:
+ cells=t.add_row().cells;cells[0].text=setting.replace('_',' ')
+ for cell,ep,scale in zip(cells[1:],['delivery','critical_violation','energy_per_delivered_byte'],[100,100,1]):
+  a=pair(setting,'capacity_mlp',ep);cell.text='Undefined' if 'difference' not in a else f"{scale*a['difference']:+.4g}\n[{scale*a['ci95'][0]:+.4g}, {scale*a['ci95'][1]:+.4g}]\np={a['holm_p']:.3g}"
+t.autofit=False
+for row in t.rows:
+ for cell in row.cells:
+  cell.width=Cm(4)
+  for p in cell.paragraphs:
+   p.paragraph_format.space_after=Pt(4);p.paragraph_format.line_spacing=1.15
+   for run in p.runs:run.font.size=Pt(9);run.font.name='Times New Roman'
+# Copy the existing journal table border treatment; preserve text and widths.
+if len(doc.tables)>1:
+ old=doc.tables[0]._tbl.tblPr.find('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}tblBorders')
+ if old is not None:t._tbl.tblPr.append(deepcopy(old))
+dest=out/'JICCE_LA_CPPO_Telemetry_Review_Draft.docx';doc.save(dest)
+def eq(path):
+ with zipfile.ZipFile(path) as z:r=etree.fromstring(z.read('word/document.xml'));return [etree.tostring(x) for x in r.xpath('//m:oMath',namespaces={'m':'http://schemas.openxmlformats.org/officeDocument/2006/math'})]
+assert eq(source)==eq(dest)
+(out/'document_checks.json').write_text(json.dumps({'native_equations_preserved':len(eq(dest)),'telemetry_runs':len(rows),'source':str(source.name),'submission_ready':False},indent=2));print(dest)

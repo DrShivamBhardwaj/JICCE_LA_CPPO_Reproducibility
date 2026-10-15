@@ -8,8 +8,8 @@
     "size": 302
   },
   "README.md": {
-    "sha256": "e4d5567d1197f76515d55a23cd6bf2817c66b9f3aeb7e613a195b80fd85af922",
-    "size": 5384
+    "size": 5727,
+    "sha256": "59a4612d2afc59e5e4231c0ba1409935e6113e89672928ec62603a2b2ab215e6"
   },
   "configs/af_v1_primary.yaml": {
     "sha256": "3d2837f62c8cd7ada9c3f0c06d13c0c6daae3d3bf313a9bedda344592e266b59",
@@ -128,20 +128,20 @@
     "size": 2309
   },
   "docs/NETWORK_VALIDATION_REQUIREMENTS.md": {
-    "sha256": "3a453b311bb770d3bc5fdce8dd328758a1cf006c04da3154b7cc79b86030d445",
-    "size": 2420
+    "size": 2844,
+    "sha256": "3ce7042860b7c8e94e33911ddebcde44f7fae9ee19ad740dd4819ae4b2357dd2"
   },
   "docs/PAPER_EVIDENCE_FREEZE_2026-09-08.md": {
     "sha256": "5e0158253b4b407f4896627792386c23675335f089af9d086178a297860826a8",
     "size": 7372
   },
   "docs/REVIEWER_CONCERN_RESOLUTION.md": {
-    "sha256": "4f1d9ed7b757324722542aab849f9576d7c5f52e0ba19f85ae2df224207beff3",
-    "size": 3359
+    "size": 3783,
+    "sha256": "83bddef571ca4d92eda9bd79941865713e357c4137d855147bf13f738a1601cf"
   },
   "docs/SUBMISSION_STATUS.md": {
-    "sha256": "4b2add5d9b7857f6059b10891773e9798b67efa9ed6e26c15aa0164e35f48116",
-    "size": 1248
+    "size": 1672,
+    "sha256": "a5bf4c3b916a0afebf4a2b8efa226abb3da3308f8082f3afbc48d79b9635593d"
   },
   "docs/UDP_FEEDBACK_STATUS.md": {
     "sha256": "cc45b53f1ec35a857a001435b14c0274b4be93f0dceea3ca8fabb606435e39d2",
@@ -1150,5 +1150,201 @@
   "outputs/ns3_multihop/protocol.json": {
     "sha256": "c4a4ad7e1f471a98a408fcf0ccab372c73cc3c76deb775b6804c144f63d8037d",
     "size": 1558
+  },
+  "docs/NS3_TELEMETRY_RESULTS.md": {
+    "size": 5783,
+    "sha256": "c9fe5819af408ae741651299d148ca796b2b224c40c4f9a410edddc0fb71efd6"
+  },
+  "configs/ns3_telemetry_protocol.json": {
+    "size": 1370,
+    "sha256": "9b938cd1e35b5a315cc769d17e38b8432c8d6830b64554199f3bb23956f6720c"
+  },
+  "src/ns3_bridge/telemetry_bridge.cc": {
+    "size": 5417,
+    "sha256": "79f68ca187cb1b283588b139fb782d442e4200566a4eab134707058d29260dc5"
+  },
+  "src/wsn_sim/ns3_telemetry.py": {
+    "size": 1900,
+    "sha256": "b3b46aa11efff62c0105913c75ddbe30bd1d2d76c365cb6d3ec5666dee628fa7"
+  },
+  "scripts/build_ns3_telemetry.py": {
+    "size": 629,
+    "sha256": "ac3d1906fb81bf26bc5bdb265c4f8f44edc2d48fd8de8b88399bd13c56c0b04e"
+  },
+  "scripts/run_ns3_telemetry.py": {
+    "size": 9150,
+    "sha256": "486c330c2d6856c6b6f195b74ad63e28188b7218282f076bad8c5c3484759cf0"
+  },
+  "scripts/test_ns3_telemetry.py": {
+    "size": 1816,
+    "sha256": "7f76a752dea79314a69d7460a78957728ffb95aebd93d3ce25debd336152deb2"
+  },
+  "scripts/verify_ns3_telemetry.py": {
+    "size": 4645,
+    "sha256": "56fe731839ac888ade3dddf3748342610d7684101efa420cfa3581945c904d72"
+  },
+  "scripts/analyse_ns3_telemetry.py": {
+    "size": 1589,
+    "sha256": "e6fe094c7ac856bad5e3c8c351ca1107fc1a1e65e77f924fcdf263ec30832afd"
+  },
+  "scripts/integrate_ns3_manuscript.py": {
+    "size": 12675,
+    "sha256": "891f76cc31226077eb5873681855ee323d349c76bebfee31a0ae552553939132"
+  },
+  "publication/ns3_evidence/JICCE_LA_CPPO_Telemetry_Review_Draft.docx": {
+    "size": 3285619,
+    "sha256": "7ac5163d34d4bb087f398512a1d74abb1a9eea2881a514bd8c2b65bebe13cbd4"
+  },
+  "publication/ns3_evidence/document_checks.json": {
+    "size": 346,
+    "sha256": "6511481934ba5dc256f51c8a4eac6f9b4c5558897d9141c0926555581651659f"
+  },
+  "publication/ns3_evidence/JICCE_LA_CPPO_Telemetry_Review_Draft.pdf": {
+    "size": 1383949,
+    "sha256": "6bf0c28dafa82c3ece1ab9140ffe0d53895644dc81ed80437de668a2b1b059bc"
+  },
+  "outputs/ns3_telemetry/protocol.json": {
+    "size": 1605,
+    "sha256": "0ae7f8ae6b6296240cf938be1f39a7564b66c233a9f752716b662097b1c986f9"
+  },
+  "outputs/ns3_telemetry/summary.json": {
+    "size": 437759,
+    "sha256": "9a249db3b9b5ce8f1f2caf9adc93337ee8093ed9b97646fd9ce7d102e5dfc3f4"
+  },
+  "outputs/ns3_telemetry/paired_analysis.json": {
+    "size": 17212,
+    "sha256": "1fdfc29194b9643245e64d5f502cf0013ac60be376bbd4a292dff1f36dd3ebf9"
+  },
+  "outputs/ns3_telemetry/verification.json": {
+    "size": 266,
+    "sha256": "4504fe14f20febc04eda4ac7f801a6920ebbdd7571f35cd3b57948ad10cd4654"
+  },
+  "outputs/ns3_telemetry/runtime_and_checks.json": {
+    "size": 833,
+    "sha256": "f26f9d845d35d27558323a2b9c00613eaae76a139de160ef66fc3374c75f8c94"
+  },
+  "outputs/ns3_telemetry/trace_76001.jsonl.gz": {
+    "size": 1202996,
+    "sha256": "b334b5695d8f723eab4214275ce01a284777ff2ae4f625ca7f5ec715a0495922"
+  },
+  "outputs/ns3_telemetry/trace_76002.jsonl.gz": {
+    "size": 1226401,
+    "sha256": "791ecfa384e20423991f998964d29bd0e748e4b218d61569db0345e58b97ca6b"
+  },
+  "outputs/ns3_telemetry/trace_76003.jsonl.gz": {
+    "size": 1160921,
+    "sha256": "9706cfff42a67d67a4295880b5d0ea3fcc39f5eb6142c64a8ffee191035cd414"
+  },
+  "outputs/ns3_telemetry/trace_76004.jsonl.gz": {
+    "size": 1152587,
+    "sha256": "9bd359b7525a01703981214bff41ebd42bf84c4ed49ddb2113ad77c8f55816b1"
+  },
+  "outputs/ns3_telemetry/trace_76005.jsonl.gz": {
+    "size": 1215657,
+    "sha256": "50dac551297a40efa053f983f0e2e34d1f26ce5fe5554a014bf9003d24ff9b79"
+  },
+  "outputs/ns3_telemetry/trace_76006.jsonl.gz": {
+    "size": 1203449,
+    "sha256": "3de7c132a47a104a82fec96f1d4c658cf6d5248a72ec708815656624bd631a7f"
+  },
+  "outputs/ns3_telemetry/trace_76007.jsonl.gz": {
+    "size": 1206198,
+    "sha256": "eb354c5c33c48c21dc4294239952ed800a4bbcdecbe02e69367b64ba4d391993"
+  },
+  "outputs/ns3_telemetry/trace_76008.jsonl.gz": {
+    "size": 1144043,
+    "sha256": "cca01ca4fc335adc07c41b2b81a0b5bde78ef32dfaafcfede2b17993ae3990a1"
+  },
+  "outputs/ns3_telemetry/trace_76009.jsonl.gz": {
+    "size": 1253058,
+    "sha256": "9234b965aa2eb802ebd05449011f13c8ed58f1fdfa8a5ab1b26331060c2542b6"
+  },
+  "outputs/ns3_telemetry/trace_76010.jsonl.gz": {
+    "size": 1288755,
+    "sha256": "f257c5cd2c45dbf03c4b4cf98ac350c86a3d102027b7f52cd630c87d8106f7d7"
+  },
+  "outputs/ns3_telemetry/trace_76011.jsonl.gz": {
+    "size": 1212346,
+    "sha256": "9d982f354e127bcc9ab993cf83d40424121c2af86eec16a51ed6a1c6100a0742"
+  },
+  "outputs/ns3_telemetry/trace_76012.jsonl.gz": {
+    "size": 1374478,
+    "sha256": "54c65c6ac35888fef55e4240bee753f1b0f2a63519e5d4f011691567a4c9ccf1"
+  },
+  "outputs/ns3_telemetry/trace_76013.jsonl.gz": {
+    "size": 1185571,
+    "sha256": "493b28edaceb2685cc270000caffd21a623a23f8ca9fdbdd68f660460ebadbb8"
+  },
+  "outputs/ns3_telemetry/trace_76014.jsonl.gz": {
+    "size": 1327862,
+    "sha256": "e1b00b6415df0576376f40e61e618727aa3d7b694291bbdd1a71d160eb1f86f3"
+  },
+  "outputs/ns3_telemetry/trace_76015.jsonl.gz": {
+    "size": 1184634,
+    "sha256": "6e0e7ffce4547f25ff52250af7cab3c4947b4c6509debaf907b8cc10faf04070"
+  },
+  "outputs/ns3_telemetry/trace_76016.jsonl.gz": {
+    "size": 1212305,
+    "sha256": "8e0ceddd8e50c18614d0343a8ccb356072648358280b6d763382a52b41a5bdd0"
+  },
+  "outputs/ns3_telemetry/trace_76017.jsonl.gz": {
+    "size": 1181893,
+    "sha256": "7f3998541d8995cd2a0e700e68cf3eb26d1f70363fc2118a722b116d77b4a2b3"
+  },
+  "outputs/ns3_telemetry/trace_76018.jsonl.gz": {
+    "size": 1213539,
+    "sha256": "4f8126a9034f4d1d97ba602eb337c7b8239f6287854dee668f195293708002ae"
+  },
+  "outputs/ns3_telemetry/trace_76019.jsonl.gz": {
+    "size": 1171154,
+    "sha256": "9b3f5f5d0440a27acaad485976f6bd5eebf667ea27dce403f07bb1c693365bd1"
+  },
+  "outputs/ns3_telemetry/trace_76020.jsonl.gz": {
+    "size": 1208797,
+    "sha256": "210a32139bd468659781340bbc7768bcaaf9886f0102308b1e4221241985d8ce"
+  },
+  "outputs/ns3_telemetry/trace_76021.jsonl.gz": {
+    "size": 1124961,
+    "sha256": "914349ba3dc80a4203da699c1ad549054e659a94e35d5e11e013b902d7e12e1c"
+  },
+  "outputs/ns3_telemetry/trace_76022.jsonl.gz": {
+    "size": 1198637,
+    "sha256": "5d101953d97e59ad07b5946a5ed008bdef962510bb11fcd8712da485717d5c9d"
+  },
+  "outputs/ns3_telemetry/trace_76023.jsonl.gz": {
+    "size": 1200124,
+    "sha256": "f24d2ae8649ff8db1005494262262671158736883c1bb14dd75ff0869034c0e7"
+  },
+  "outputs/ns3_telemetry/trace_76024.jsonl.gz": {
+    "size": 1276569,
+    "sha256": "67d89842855dcea257916d94fa486535758208a4d5f6e9bf4d1112a0beb533e3"
+  },
+  "outputs/ns3_telemetry/trace_76025.jsonl.gz": {
+    "size": 1222262,
+    "sha256": "62c3cc92da595b79b25cc05cb115857e9b86335dcec8565466748f17fead6345"
+  },
+  "outputs/ns3_telemetry/trace_76026.jsonl.gz": {
+    "size": 1201312,
+    "sha256": "f5d4c884dd7487c5fba0f6e5727b9aa3f1355d81b85dc04ae630fa5f98a51c88"
+  },
+  "outputs/ns3_telemetry/trace_76027.jsonl.gz": {
+    "size": 1250959,
+    "sha256": "efe9bef8c5c2158de0c2c9039bb53057c7fff0b2e6734babb90c5d529e2e4d05"
+  },
+  "outputs/ns3_telemetry/trace_76028.jsonl.gz": {
+    "size": 1162200,
+    "sha256": "23683b9d71e69c714f310ae51245ea9dd2585290e1eab6edbc48b76abd95c29c"
+  },
+  "outputs/ns3_telemetry/trace_76029.jsonl.gz": {
+    "size": 1158583,
+    "sha256": "c51911a30837844bc340d5b8de6e10f33d321f83121971c13f8cf075616736b8"
+  },
+  "outputs/ns3_telemetry/trace_76030.jsonl.gz": {
+    "size": 1218723,
+    "sha256": "6c4d1e94f6f76fb79bf03acf137c8966106b6272ff2c268d6e29e1f0357820ff"
+  },
+  "outputs/ns3_telemetry/SHA256SUMS.json": {
+    "size": 5901,
+    "sha256": "3d71b5ec44c2d72334a2968a79da60b554dcb693d60f4436bc47264ec0e6ec39"
   }
 }

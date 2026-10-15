@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "runs": 600,
+  "decisions": 53664,
+  "energy_identities": 60600,
+  "proofs": 9770,
+  "timeouts": 11612,
+  "limits": "Internal trace reconstruction, not independent capture; QoS debt snapshots and link telemetry not independently replayed"
+}

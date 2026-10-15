@@ -1,0 +1,62 @@
+{
+  "status": "frozen before evaluation; exploratory frozen-weight transfer",
+  "seeds": [
+    76001,
+    76030
+  ],
+  "pilot_seed": 75901,
+  "packets": 60,
+  "horizon_s": 4.0,
+  "warmup_s": 0.4,
+  "beacon_period_s": 0.5,
+  "cache_ttl_s": 0.75,
+  "proof_timeout_s": 0.15,
+  "poll_s": 0.001,
+  "application_frame_bytes": 64,
+  "application_payload_bytes": 52,
+  "radio_voltage": 3.0,
+  "tx_current_a": 0.0174,
+  "rx_current_a": 0.0188,
+  "off_current_a": 2e-05,
+  "current_model": "explicit assumed currents; not calibrated hardware",
+  "arms": [
+    "attention",
+    "capacity_mlp",
+    "attention_no_risk",
+    "attention_no_proof"
+  ],
+  "settings": [
+    {
+      "name": "benign",
+      "attack": 0.0,
+      "interval_s": 0.02,
+      "reference_loss_db": 40.0
+    },
+    {
+      "name": "blackhole",
+      "attack": 0.25,
+      "interval_s": 0.02,
+      "reference_loss_db": 40.0
+    },
+    {
+      "name": "congested_benign",
+      "attack": 0.0,
+      "interval_s": 0.002,
+      "reference_loss_db": 40.0
+    },
+    {
+      "name": "congested_blackhole",
+      "attack": 0.25,
+      "interval_s": 0.002,
+      "reference_loss_db": 40.0
+    },
+    {
+      "name": "weaklink_benign",
+      "attack": 0.0,
+      "interval_s": 0.02,
+      "reference_loss_db": 54.0
+    }
+  ],
+  "analysis": "fixture paired differences, 95% t intervals, 45-test Holm family: 5 settings x 3 contrasts x 3 endpoints (delivery, critical violation, radio energy per delivered payload byte)",
+  "threat_scope": "non-forging blackhole forwarding faults; trusted telemetry and receipt producers; authentication not established"
+}

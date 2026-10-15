@@ -1,0 +1,30 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "ns3": "3.44.post0",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "networkx": "3.6.1",
+    "PyYAML": "6.0.3"
+  },
+  "legacy_tests": {
+    "passed": 47,
+    "failed": 0
+  },
+  "bridge_controls": "passed range, beacons, two-hop delivery, reverse receipts, proof on/off frames, state-time energy identity",
+  "technical_trace_repairs": [
+    76004,
+    76017,
+    76021,
+    76023,
+    76026
+  ],
+  "trace_repair_metrics": "all 600 regenerated final records match original summary metrics exactly",
+  "complete_trace_files": 30,
+  "raw_trace_crc": "all passed",
+  "all_source_packets": 36000,
+  "scientific_status": "no corrected architecture superiority; several proof-off controls better",
+  "physical_validation": false,
+  "authenticated_feedback": false
+}

@@ -1,3 +1,5 @@
+> Latest status: see [telemetry validation results](NS3_TELEMETRY_RESULTS.md). Local beacon acquisition, observer-specific risk, modeled PHY state energy, radio delivery receipts, risk-off and proof-off controls, congestion and weak-link tests are now implemented. The experiment does not establish practical superiority, hardware validation, authentication or live IDS accuracy. Earlier status notes below are historical.
+
 > Update, 15 October 2026: [ns-3 validation addendum](NS3_VALIDATION_ADDENDUM.md) reports 120 exploratory topology-constrained LR-WPAN runs and verified forwarding-proof frames. This partially addresses the network-validation requirement below. Local telemetry acquisition, control/listening energy, benign-loss stress, authentication and hardware/live-IDS validation remain open. Earlier statements about unavailable network simulation describe the pre-addendum state.
 
 # Reviewer concern resolution record

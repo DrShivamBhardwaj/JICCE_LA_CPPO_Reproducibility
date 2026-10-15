@@ -1,3 +1,5 @@
+> Latest evidence: [local telemetry and radio overhead results](docs/NS3_TELEMETRY_RESULTS.md). The 600-run study found no corrected architecture advantage and adverse feedback-control results. Use [the revised manuscript](publication/ns3_evidence/JICCE_LA_CPPO_Telemetry_Review_Draft.docx). Earlier documents are historical evidence stages.
+
 > New: [ns-3 packet-level validation addendum](docs/NS3_VALIDATION_ADDENDUM.md). 120 exploratory runs with topology-constrained radio feedback; manuscript integration and deployment validation remain open.
 
 # JICCE LA-CPPO reproducibility package

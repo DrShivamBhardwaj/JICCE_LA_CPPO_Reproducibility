@@ -1,3 +1,5 @@
+> Latest status: see [telemetry validation results](NS3_TELEMETRY_RESULTS.md). Local beacon acquisition, observer-specific risk, modeled PHY state energy, radio delivery receipts, risk-off and proof-off controls, congestion and weak-link tests are now implemented. The experiment does not establish practical superiority, hardware validation, authentication or live IDS accuracy. Earlier status notes below are historical.
+
 # JICCE submission status
 
 Latest documents: publication/updated_evidence/. Verified UDP results are integrated. The manuscript has 65 unchanged native equations, seven figures, 27 references, Roman main/table numbering and separately restarted algorithms. Statistical plots are regenerated from raw data as vector artwork and 900-dpi PNG. Full test suite: 47 passed.
