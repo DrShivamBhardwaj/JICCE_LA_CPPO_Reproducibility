@@ -1,4 +1,4 @@
-> Latest: [Array manuscript and virtual validation](docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md). 180 separate policy-transfer runs audited; 73 tests pass; corrected four-port virtual serial control delivers 10/10. No physical or MCU firmware validation.
+> Current: [Array manuscript and validation status](docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md). 180 authenticated policy-transfer runs audited; 83 tests pass. Four Renode CC2538 MCUs execute compiled bridge firmware. Strict attention/MLP/greedy controls each deliver 10/10 packets with ten accepted source receipts. Physical RF/current and embedded inference/crypto remain unvalidated.
 
 > New: [distributed authenticated transport](docs/DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
 

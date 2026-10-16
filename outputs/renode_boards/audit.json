@@ -3,29 +3,38 @@
   "runs": [
     {
       "policy": "attention",
+      "folder": "outputs/renode_boards/attention_strict_20261016",
+      "expected_packets": 10,
       "received_frames": 130,
       "public_signatures": 30,
       "sink_unique_packets": 10,
       "source_verified_receipts": 10,
+      "runtime_accepted_source_receipts": 10,
       "firmware_probes": 5
     },
     {
       "policy": "mlp",
-      "received_frames": 132,
+      "folder": "outputs/renode_boards/mlp_strict_20261016",
+      "expected_packets": 10,
+      "received_frames": 129,
       "public_signatures": 30,
       "sink_unique_packets": 10,
       "source_verified_receipts": 10,
+      "runtime_accepted_source_receipts": 10,
       "firmware_probes": 5
     },
     {
       "policy": "greedy",
+      "folder": "outputs/renode_boards/greedy_strict_20261016",
+      "expected_packets": 10,
       "received_frames": 132,
       "public_signatures": 30,
       "sink_unique_packets": 10,
       "source_verified_receipts": 10,
+      "runtime_accepted_source_receipts": 10,
       "firmware_probes": 5
     }
   ],
   "physical_validation": false,
-  "limits": "Checks MCU UART byte provenance, public sink signatures and identities. Secret hop/source HMACs remain runtime checks. No measured RF, hardware energy or embedded policy/crypto claim."
+  "limits": "MCU UART provenance, packet identities and public signatures audited. Secret HMACs are runtime checks. No physical RF/power or embedded inference/crypto claim."
 }

@@ -1,0 +1,26 @@
+Author confirmation sheet
+
+Manuscript: Receipt Assisted Feedback and Authenticated Policy Transfer for Wireless Sensor Routing
+Target: Array
+
+The following manuscript statements require confirmation by all authors before submission:
+
+Funding: No external funding was received. Confirm or provide funder names, grant identifiers and sponsor roles.
+
+Competing interests: Confirm the separate draft declaration or provide actual disclosures.
+
+Contributions retained from the existing source: Shivam Bhardwaj — conceptualization, methodology, software, investigation and original draft; Jitendra Nath Srivastava — validation and review; Akash Sanghi — supervision and review. Confirm that these roles accurately describe work performed.
+
+Author information: Confirm names, order, Invertis University affiliation, postal details and all email addresses exactly as shown in the Word manuscript. Do not infer affiliation from other manuscripts.
+
+AI assistance: ChatGPT assisted drafting, code preparation, analysis scripts and programmatic plotting. Human authors must review the outputs and accept responsibility before submission. Do not attest that this final review has occurred until it has.
+
+Data and code: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility
+Frozen 750-run source: 4027f071322cb5682f39329f656d76df3b68ff62
+Frozen authenticated-transfer source: 5f06b9213e73206aad11ec8f3a96079a17011a20
+
+Exclusivity and related work: Confirm that this manuscript is not under consideration elsewhere. Identify overlapping publications, submissions or preprints. Prior JICCE manuscript JICCE-26-0057 was rejected with resubmission encouraged; no acceptance or transfer is implied.
+
+Ethics: This study reports simulation and firmware emulation. No human or animal experiment is reported. Physical radio/current measurements and embedded inference/crypto execution have not been performed.
+
+Approval status: Unconfirmed. No author signature, coauthor consent or editorial portal declaration has been supplied by this checklist.

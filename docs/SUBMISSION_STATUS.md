@@ -1,19 +1,9 @@
-> Latest: [Array manuscript and virtual validation](ARRAY_TARGET_AND_VIRTUAL_STATUS.md). Policy transfer evaluated in 180 separate runs; virtual serial interface checked. Compiled MCU firmware now executes in Renode; physical board and calibrated power validation remain unperformed.
+# Current submission status
 
-> New: [distributed authenticated transport](DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
+The active target is Array. Read [the consolidated current status](ARRAY_TARGET_AND_VIRTUAL_STATUS.md) and [submission checks](ARRAY_SUBMISSION_CHECKLIST.md).
 
-> Current focused manuscript: publication/redesigned/. JICCE author instructions were retrieved on 16 October 2026 and applied to review-text formatting, abstract length and Arabic table numbering. Deployment/authentication, original QoS compliance and novel architecture superiority remain open; see IMPLEMENTATION_REVIEW_2026_10_16.md. Author contact fields, forms and final approvals remain to be completed before submission.
+The original 750-run feedback study and the separate 180-run authenticated transfer remain unchanged. Four Renode CC2538 boards execute compiled radio-interface firmware; routing and cryptography remain on the host. Physical board, embedded inference/crypto and calibrated power validation are not complete. No attention superiority or live intrusion detector claim is supported.
 
-> Current evidence: [750-run frozen holdout and limits](CENSORED_FEEDBACK_RESULTS.md). The incremental mechanism gate passed; architecture superiority, original absolute QoS budgets, live IDS, authenticated feedback and hardware validation remain unestablished. Current manuscript: publication/censored_feedback/ (67 native equations, eight figures, 28 references). Full suite: 51 tests passed. Earlier status records below are historical.
+The stricter runner requires ten offered packets, ten unique sink deliveries, ten runtime-accepted source receipts, complete source/relay final records, five probes and a public capture audit before it writes passed. The new audit supports --run PATH and fails on missing evidence. Historical captures are retained unchanged, including an incomplete greedy relay-final log discovered by the stricter audit.
 
-> Latest status: see [telemetry validation results](NS3_TELEMETRY_RESULTS.md). Local beacon acquisition, observer-specific risk, modeled PHY state energy, radio delivery receipts, risk-off and proof-off controls, congestion and weak-link tests are now implemented. The experiment does not establish practical superiority, hardware validation, authentication or live IDS accuracy. Earlier status notes below are historical.
-
-# JICCE submission status
-
-Latest documents: publication/updated_evidence/. Verified UDP results are integrated. The manuscript has 65 unchanged native equations, seven figures, 27 references, Roman main/table numbering and separately restarted algorithms. Statistical plots are regenerated from raw data as vector artwork and 900-dpi PNG. Full test suite: 47 passed.
-
-The original tiny ROA effect is retired rather than enlarged. Nominal capacity-matched co-primary superiority remains unestablished. The shared-target localhost diagnostic is positive but does not establish realistic multihop wireless performance, live intrusion classification or measured feedback overhead. These substantive evidence limits remain open.
-
-Formatting follows the accessible society bundle. Current author pages could not be retrieved; current portal submission type, special-issue availability, forms and full contact fields remain to be checked. Recent literature claims were checked at publisher summary level; unverified evaluation-detail cells were removed. This is not an independent full-text replication of every cited study.
-
-The package is reviewable and reproducible. It is not certified submission-ready. No email or journal submission has been sent.
+Earlier stages are preserved in [the historical record](HISTORICAL_SUBMISSION_STATUS.md); their old test totals and pending statements do not describe the current implementation.

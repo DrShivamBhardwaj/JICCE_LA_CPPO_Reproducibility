@@ -22,7 +22,7 @@ def main():
     # An exclusive persistent marker prevents replay-window reset with a reused
     # session. It is intentionally not removed on exit or after a crash.
     marker=args.config.with_suffix('.used');fd=os.open(marker,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600);os.close(fd)
-    start=time.monotonic();pending={};token=0;pid=0;next_beacon=0.;next_data=2.
+    start=time.monotonic();pending={};accepted_source_receipts=set();token=0;pid=0;next_beacon=0.;next_data=2.
     with serial.Serial(args.port,115200,timeout=.01) as port,args.capture.open('x') as capture:
         def log(event,**fields):capture.write(json.dumps(dict(event=event,host_monotonic_s=time.monotonic(),node=node.id,**fields))+'\n');capture.flush()
         def send(peer,wire):
@@ -47,6 +47,8 @@ def main():
                 r=json.loads(line);kind=r.get('event');log('board',record=r)
                 if kind=='rx':
                     actions=node.receive_with_lqi(bytes.fromhex(r['wire']),int(r['peer']),now,int(r.get('lqi',0))) if hasattr(node,'receive_with_lqi') else node.receive(bytes.fromhex(r['wire']),int(r['peer']),now)
+                    for key,record in node.pending.items():
+                        if key[0]==node.id and record.receipt:accepted_source_receipts.add(key)
                     for peer,wire in actions:send(peer,wire)
                 elif kind=='ack':
                     old=pending.pop(int(r['token']),None)
@@ -58,5 +60,5 @@ def main():
             node.expire(now)
             for handle,(_,_,expiry) in list(pending.items()):
                 if now>=expiry:del pending[handle];log("missing_mac_confirm",token=handle)
-        log('final',sink_delivered=node.delivered_total,settlements=node.settlements,debts=node.debts,rejects=node.rejects,max_pending=node.max_pending)
+        log('final',sink_delivered=node.delivered_total,settlements=node.settlements,debts=node.debts,rejects=node.rejects,max_pending=node.max_pending,accepted_source_receipts=len(accepted_source_receipts),offered_packets=pid)
 if __name__=='__main__':main()

@@ -1,0 +1,34 @@
+[10:08:07.5821] [INFO] Loaded monitor commands from: /workspace/scratch/cf161f382c3a/emulator_runtime/renode_1.17.0-portable/scripts/monitor.py
+[10:08:07.6233] [INFO] Including script(s): /workspace/scratch/cf161f382c3a/jicce_work/outputs/renode_boards/greedy_strict_20261016/chain.resc
+[10:08:07.8681] [INFO] System bus created.
+[10:08:08.6479] [INFO] sysbus: Loading block of 64 bytes length at 0x200000.
+[10:08:08.6513] [INFO] sysbus: Loading block of 1989 bytes length at 0x200040.
+[10:08:08.6514] [INFO] sysbus: Loading block of 2069 bytes length at 0x20000000.
+[10:08:09.2861] [INFO] System bus created.
+[10:08:09.3788] [INFO] node1/sysbus: Loading block of 64 bytes length at 0x200000.
+[10:08:09.3788] [INFO] node1/sysbus: Loading block of 1989 bytes length at 0x200040.
+[10:08:09.3788] [INFO] node1/sysbus: Loading block of 2069 bytes length at 0x20000000.
+[10:08:09.3839] [INFO] System bus created.
+[10:08:09.4757] [INFO] node2/sysbus: Loading block of 64 bytes length at 0x200000.
+[10:08:09.4758] [INFO] node2/sysbus: Loading block of 1989 bytes length at 0x200040.
+[10:08:09.4758] [INFO] node2/sysbus: Loading block of 2069 bytes length at 0x20000000.
+[10:08:09.4846] [INFO] System bus created.
+[10:08:09.5988] [INFO] node3/sysbus: Loading block of 64 bytes length at 0x200000.
+[10:08:09.5989] [INFO] node3/sysbus: Loading block of 1989 bytes length at 0x200040.
+[10:08:09.5989] [INFO] node3/sysbus: Loading block of 2069 bytes length at 0x20000000.
+[10:08:09.6103] [INFO] node0/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[10:08:09.6128] [INFO] node0: Machine started.
+[10:08:09.6133] [INFO] node1/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[10:08:09.6146] [INFO] node1: Machine started.
+[10:08:09.6148] [INFO] node2/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[10:08:09.6158] [INFO] node2: Machine started.
+[10:08:09.6159] [INFO] node3/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[10:08:09.6171] [INFO] node3: Machine started.
+[10:08:18.0222] [INFO] node0: Machine paused.
+[10:08:18.0223] [INFO] node1: Machine paused.
+[10:08:18.0223] [INFO] node2: Machine paused.
+[10:08:18.0223] [INFO] node3: Machine paused.
+[10:08:18.0426] [INFO] node0: Disposed.
+[10:08:18.0517] [INFO] node1: Disposed.
+[10:08:18.0605] [INFO] node2: Disposed.
+[10:08:18.0733] [INFO] node3: Disposed.

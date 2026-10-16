@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "error": "AuditError: Node 1 final record missing/duplicated",
+  "physical_validation": false
+}

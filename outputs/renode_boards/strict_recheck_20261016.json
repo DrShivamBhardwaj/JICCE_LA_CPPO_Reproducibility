@@ -1,0 +1,58 @@
+{
+  "status": "passed_with_open_physical_and_author_gates",
+  "tests": {
+    "passed": 83,
+    "seconds": 5.19,
+    "new_regression_cases": 10
+  },
+  "strict_mcu_audit": {
+    "status": "passed",
+    "runs": [
+      {
+        "policy": "attention",
+        "folder": "outputs/renode_boards/attention_strict_20261016",
+        "expected_packets": 10,
+        "received_frames": 130,
+        "public_signatures": 30,
+        "sink_unique_packets": 10,
+        "source_verified_receipts": 10,
+        "runtime_accepted_source_receipts": 10,
+        "firmware_probes": 5
+      },
+      {
+        "policy": "mlp",
+        "folder": "outputs/renode_boards/mlp_strict_20261016",
+        "expected_packets": 10,
+        "received_frames": 129,
+        "public_signatures": 30,
+        "sink_unique_packets": 10,
+        "source_verified_receipts": 10,
+        "runtime_accepted_source_receipts": 10,
+        "firmware_probes": 5
+      },
+      {
+        "policy": "greedy",
+        "folder": "outputs/renode_boards/greedy_strict_20261016",
+        "expected_packets": 10,
+        "received_frames": 132,
+        "public_signatures": 30,
+        "sink_unique_packets": 10,
+        "source_verified_receipts": 10,
+        "runtime_accepted_source_receipts": 10,
+        "firmware_probes": 5
+      }
+    ],
+    "physical_validation": false,
+    "limits": "MCU UART provenance, packet identities and public signatures audited. Secret HMACs are runtime checks. No physical RF/power or embedded inference/crypto claim."
+  },
+  "historical_greedy_audit": {
+    "status": "failed",
+    "error": "AuditError: Node 1 final record missing/duplicated",
+    "physical_validation": false
+  },
+  "hardware_energy_validation": false,
+  "physical_rf_validation": false,
+  "embedded_policy_crypto_validation": false,
+  "authenticated_submission_portal_checked": false,
+  "author_confirmations_received": false
+}

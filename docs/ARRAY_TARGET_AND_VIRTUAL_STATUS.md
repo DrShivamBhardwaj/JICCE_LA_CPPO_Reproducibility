@@ -61,12 +61,7 @@ received LQI, raw MAC pending-request counts instead of normalized training
 queue pressure, MAC-derived reliability, local debt and positive-only signed
 receipt evidence; this is a declared distribution shift from training.
 
-Virtual UART/API execution is not MCU instruction emulation or execution of a
-compiled board image. There are no real boards, calibrated current captures,
-physical antenna/channel measurements or board-specific firmware here. The
-hardware adapter's learned-policy option is supplied but has not been validated
-on hardware. Key provisioning remains out of band with per-peer state and
-network-wide provisioning cost; compromised peers can still lie in telemetry.
+The original PTY/ns-3 backend emulates a firmware API without MCU execution. The separate Renode backend executes compiled CC2538 Cortex-M3 firmware for UART parsing, bounded frames, radio FIFO handling and MAC acknowledgments. Routing inference and cryptography execute on the host. Neither backend validates physical RF or calibrated current. Key provisioning is out of band; compromised key holders can still lie in telemetry.
 
 ## Reproduce
 
@@ -89,6 +84,14 @@ cryptographic bytes differ while fixtures and frozen policy mapping are fixed.
 
 ## Compiled MCU extension, 16 October 2026
 
-The prior UART/API boundary above describes the original ns-3/PT Y interface model. A separate Renode 1.17.0 backend now executes compiled CC2538/Cortex-M3 radio-interface firmware on four emulated boards. Greedy, MLP and attention host controls each deliver 10/10 packets and pass five probes. The independent audit validates UART byte provenance, sink signatures and identities. See [reproduction and complete limits](../hardware/renode_cc2538/README.md). Physical RF/current, physical board initialization, embedded inference and embedded cryptography remain unvalidated. The Array manuscript now has 27 rendered pages, including the revised architecture figure.
+The prior UART/API boundary above describes the original ns-3/PTY interface model. A separate Renode 1.17.0 backend now executes compiled CC2538/Cortex-M3 radio-interface firmware on four emulated boards. Greedy, MLP and attention host controls each deliver 10/10 packets and pass five probes. The independent audit validates UART byte provenance, sink signatures and identities. See [reproduction and complete limits](../hardware/renode_cc2538/README.md). Physical RF/current, physical board initialization, embedded inference and embedded cryptography remain unvalidated. The Array manuscript now has 27 rendered pages, including the revised architecture figure.
 
 The fresh CPU audit retains exact argmax identity for all 27,240 authenticated policy decisions. Probability replay uses atol=rtol=1e-6 (maximum observed difference 1.7881393432617188e-7); this accommodates numerical backend variation without changing any recorded choice. A broad pytest recheck initially found stale/missing local ns-3 libraries after environment renewal. Rebuilding all three historical bridge libraries resolved collection; 73 tests then passed in 5.05 s. No frozen outcomes or checkpoints changed.
+
+## Strict acceptance correction
+
+A later evidence audit found that the archived greedy_20261016/node_1.jsonl lacks its final record, although verification.json contains a relay summary. The stronger audit rejects this incomplete capture; no missing record was fabricated or inserted. Its failed strict audit is retained in outputs/renode_boards/legacy_greedy_strict_audit.json. Fresh *_strict_20261016 fixtures use explicit accepted-receipt logging and automatic per-run audit. The default audit checks this named strict suite; --run PATH checks any new run. See the retained run folders for actual outcomes.
+
+## Current submission checks
+
+See ARRAY_SUBMISSION_CHECKLIST.md for verified public requirements, prepared files, and author-only confirmations. A blocked public author-guide fetch and an uninspected authenticated portal are not represented as a completed portal check.

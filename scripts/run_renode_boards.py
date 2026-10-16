@@ -6,6 +6,7 @@ range medium is an abstraction, not an ns3-equivalent PHY or a power instrument.
 """
 import argparse,hashlib,json,os,subprocess,sys,tempfile,time,uuid
 from pathlib import Path
+from audit_renode_boards import audit_run, require
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
@@ -70,17 +71,27 @@ def main():
         for i in range(4):
             records=[json.loads(x) for x in (out/f'node_{i}.jsonl').read_text().splitlines()]
             finals.append(next(r for r in records if r['event']=='final'))
-        assert finals[3]['sink_delivered']>0 and all(f['settlements']>0 for f in finals[:3]),finals
+        require(finals[0]['offered_packets']==10,'Source did not offer ten packets')
+        require(finals[3]['sink_delivered']==10,'Sink did not deliver all ten packets')
+        require(finals[0]['accepted_source_receipts']==10,'Source did not accept all ten receipts')
+        require(all(f['settlements']==10 for f in finals[:3]),'Incomplete source/transit service')
+        require(all(not f['rejects'] for f in finals),'Protocol rejection present')
         (out/'probes.json').write_text(json.dumps(probes,indent=2))
-        report=dict(status='passed',policy=args.policy,virtual_mcus=4,emulated_cpu='ARM Cortex-M3 / CC2538',compiled_firmware_executed=True,
+        report=dict(status='pending_audit',policy=args.policy,virtual_mcus=4,emulated_cpu='ARM Cortex-M3 / CC2538',compiled_firmware_executed=True,
             host_policy_and_crypto=True,physical_validation=False,physical_firmware_flash_ready=False,energy_validation=False,
             radio_model='Renode range medium: deterministic reachability; no calibrated RF or power model',
             offered=10,sink_delivered=finals[3]['sink_delivered'],final_records=finals,firmware_probes=len(probes),
             firmware_source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),firmware_elf_sha256=hashlib.sha256(elf.read_bytes()).hexdigest(),
             checkpoint_sha256=hashlib.sha256(checkpoint.read_bytes()).hexdigest() if checkpoint else None,sink_public_key=sink_public,renode_version=version.strip(),
             zig_version=subprocess.run([sys.executable,'-m','ziglang','version'],capture_output=True,text=True,check=True).stdout.strip())
+        (out/'verification.json').write_text(json.dumps(report,indent=2))
+        audited=audit_run(out,expected_packets=10)
+        (out/'audit.json').write_text(json.dumps(dict(status='passed',run=audited,physical_validation=False),indent=2)+'\n')
+        report.update(status='passed',acceptance=dict(expected_packets=10,required_sink_delivery=10,required_source_receipts=10,required_transit_settlements_per_node=10,required_probes=5,public_capture_audit='passed'))
         (out/'verification.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))
       except Exception as error:
+        if (out/'verification.json').exists():
+            rejected=json.loads((out/'verification.json').read_text());rejected.update(status='failed',audit_error=str(error));(out/'verification.json').write_text(json.dumps(rejected,indent=2))
         (out/'failed.json').write_text(json.dumps(dict(status='failed',error=str(error),policy=args.policy,probes=probes),indent=2));raise
       finally:
         for child in children:

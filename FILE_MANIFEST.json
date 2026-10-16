@@ -8,8 +8,8 @@
     "size": 302
   },
   "README.md": {
-    "sha256": "de8cd73ca1b3ef51c4bf9fc0c952fc707ffb9a7df8da89c5879926687a009d89",
-    "size": 8055
+    "sha256": "d1986d785f856ea3129658b82ce9ae64c6a8683d54a454b630713aff90c890a9",
+    "size": 8188
   },
   "configs/af_v1_primary.yaml": {
     "sha256": "3d2837f62c8cd7ada9c3f0c06d13c0c6daae3d3bf313a9bedda344592e266b59",
@@ -131,9 +131,13 @@
     "sha256": "5641460872863c3e7105efda303ca82ff4f54813fc0e8b344bdda535b3bd109f",
     "size": 198776
   },
+  "docs/ARRAY_SUBMISSION_CHECKLIST.md": {
+    "sha256": "5a99387c6a078ae69e65c75f11a2b2ae498a3f7695e96e65b682b9d976ff2ac0",
+    "size": 3923
+  },
   "docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md": {
-    "sha256": "1f9010169c74fa561ce8278cd2b1f768dbd2e25da0c2c7d7745383a0d01ab3d0",
-    "size": 5744
+    "sha256": "847675c3fa93940565e928ba5fd30c7ad635c4fa1c5f03eb28462a5d7984b6a5",
+    "size": 6592
   },
   "docs/CENSORED_FEEDBACK_PROTOCOL.md": {
     "sha256": "e915f629f68abe3524f149ed5d1e6d37585ddf83042d29d2dbca3159f1226c5c",
@@ -144,12 +148,20 @@
     "size": 5003
   },
   "docs/DISTRIBUTED_AUTH_STATUS.md": {
-    "sha256": "082022a4a12036b6aaa21e427db523b6068b7871c0d6c8a6ab141578c3068199",
-    "size": 5780
+    "sha256": "69bd795e56048757f23bf211d4593593e5ce8243b9e5f4e68bec7bf55e75d1c9",
+    "size": 5928
   },
   "docs/FINAL_DOCUMENT_CHECKS.json": {
     "sha256": "469edecdd650db9b02a66347787f28eba43da0c4faee6e134e6ccf9cbca08950",
     "size": 228
+  },
+  "docs/HISTORICAL_REVIEWER_CONCERN_RESOLUTION.md": {
+    "sha256": "9b9fe4fd14a92a3398a48b497621bb74fafa2d6a36a28d6556c951d6835e0b40",
+    "size": 6261
+  },
+  "docs/HISTORICAL_SUBMISSION_STATUS.md": {
+    "sha256": "2c1967bac28988c36a5439844535e62bdbaa2a304f1eb572460a3fa4620863ce",
+    "size": 3170
   },
   "docs/IMPLEMENTATION_REVIEW_2026_10_16.md": {
     "sha256": "9e9db99894053d44559281b37021204e5899d247d4d4e2a295d92cdd020967c6",
@@ -175,13 +187,17 @@
     "sha256": "5e0158253b4b407f4896627792386c23675335f089af9d086178a297860826a8",
     "size": 7372
   },
+  "docs/PENDING_WORK_RESOLUTION_20261016.md": {
+    "sha256": "ae8441c8a41fe47c476cb392703f4180b080d7fda67ec6a65b16600956f4aeba",
+    "size": 3679
+  },
   "docs/REVIEWER_CONCERN_RESOLUTION.md": {
-    "sha256": "169f9c06770c939b708e91b5fd93b62e3d059d3a17ff02569dafdfb7e785c58c",
-    "size": 6228
+    "sha256": "fc7212feb6e64c250b9aa93d269518a41eee5456362c230b560574074f0a84d4",
+    "size": 1177
   },
   "docs/SUBMISSION_STATUS.md": {
-    "sha256": "92fcbeeb3adbb77834d2f42c265a8ed77a4a01946ef707f41f014af051b80999",
-    "size": 3137
+    "sha256": "050a3967253344d5b01a25ad02cc50e51014e4daf37fbdac41bb957e235dff23",
+    "size": 1157
   },
   "docs/UDP_FEEDBACK_STATUS.md": {
     "sha256": "cc45b53f1ec35a857a001435b14c0274b4be93f0dceea3ca8fabb606435e39d2",
@@ -235,6 +251,10 @@
     "sha256": "79f3e0553e8f411187e2272f3b00cd7b08afbc7a7aa16df2bd3af8d99f6143d8",
     "size": 3418
   },
+  "hardware/PHYSICAL_VALIDATION_PROTOCOL.md": {
+    "sha256": "b67e6213bd2e242683048dd0353f487bc2d7e9975b9d060205ca4092e0b60139",
+    "size": 2179
+  },
   "hardware/README.md": {
     "sha256": "ca03b7afe0a4d3e1b84845a98615a0e5a9f2d7ca045c3d3f7ca2e3b6a54ee4c3",
     "size": 5352
@@ -244,8 +264,8 @@
     "size": 1615
   },
   "hardware/renode_cc2538/README.md": {
-    "sha256": "6a4b221b3595de0fbe45e8254a3f9ecc084bbe6d8d575d897f7517a237d50cd7",
-    "size": 3891
+    "sha256": "e036f0069a0f2c6d463ea28cfc552fec7c1dadfc93e12f5c0f99e1bd7aaa102d",
+    "size": 5015
   },
   "hardware/renode_cc2538/bridge.c": {
     "sha256": "f8d9b2ab0d61691852288a991b5ac90a39aecdac63b368a1c4b9738d3cd78272",
@@ -256,8 +276,8 @@
     "size": 368
   },
   "hardware/serial_adapter.py": {
-    "sha256": "592939d0fc94e5619b6dec8f3b669281c1f7214fcce489582511c3d2db5fc42a",
-    "size": 4856
+    "sha256": "c2a326412a420fe55cef9bdf31131b867d6009f956d62bd8756e68af7057acfd",
+    "size": 5118
   },
   "hardware/validate_measurements.py": {
     "sha256": "10e1d3cfba577bbbfd2fcc948477e041ef50240dcaaa7a1f500f7b01eb3fd6bf",
@@ -1535,9 +1555,85 @@
     "sha256": "e55c5d8dc468b6bf78c9d7de42583108ac4b8273f310df897629c7e75f5f10a7",
     "size": 1954
   },
+  "outputs/renode_boards/attention_strict_20261016/audit.json": {
+    "sha256": "212099305b3a6d0500b74fbdb760948682ae97822243dd283033e8c3d9ca4d32",
+    "size": 386
+  },
+  "outputs/renode_boards/attention_strict_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_strict_20261016/cc2538_bridge.elf": {
+    "sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+    "size": 139940
+  },
+  "outputs/renode_boards/attention_strict_20261016/chain.resc": {
+    "sha256": "286c152057a7b660845d707315ebb080162afe78fbd190ae7acf9b167782a620",
+    "size": 3044
+  },
+  "outputs/renode_boards/attention_strict_20261016/firmware_uart_0.jsonl": {
+    "sha256": "f2626cc11711a8be7384879e283bb90284ee29530f7ed1f749b9e10d58d837df",
+    "size": 6840
+  },
+  "outputs/renode_boards/attention_strict_20261016/firmware_uart_1.jsonl": {
+    "sha256": "3811ddb25196e5c8a2c572fcba941753270341d4038f46fd174d1df433a4bb55",
+    "size": 12154
+  },
+  "outputs/renode_boards/attention_strict_20261016/firmware_uart_2.jsonl": {
+    "sha256": "01e129371f0976817405c3efe4e68e9525bba64508c671b742d602bff29fd781",
+    "size": 11882
+  },
+  "outputs/renode_boards/attention_strict_20261016/firmware_uart_3.jsonl": {
+    "sha256": "1615819d4e788e694845aca534e6f5ec4c0f2c7e7922f2e84f9709379126b4cb",
+    "size": 6428
+  },
+  "outputs/renode_boards/attention_strict_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_strict_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_strict_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_strict_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_strict_20261016/node_0.jsonl": {
+    "sha256": "c3d15239a4c559a534bbace1fd5424a09882198376aa883b669d331b26142b9c",
+    "size": 17110
+  },
+  "outputs/renode_boards/attention_strict_20261016/node_1.jsonl": {
+    "sha256": "6e0a69094e7a16b4ab6079c32767663fece51beae61b14ab04caa176a81486f2",
+    "size": 32149
+  },
+  "outputs/renode_boards/attention_strict_20261016/node_2.jsonl": {
+    "sha256": "7bb14eec77959c6d8020d29115082917e5322ea46c6b738fad4a35b19a4450d1",
+    "size": 31888
+  },
+  "outputs/renode_boards/attention_strict_20261016/node_3.jsonl": {
+    "sha256": "fadbef206d0e23f8ba3a3d0c946234f9718efac1ce8ca491aa699d22f908894d",
+    "size": 17334
+  },
+  "outputs/renode_boards/attention_strict_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/attention_strict_20261016/renode.log": {
+    "sha256": "7a19d3d0d56621e372de588e87788b5648c04e5e870d809309ee5657db938eaf",
+    "size": 2356
+  },
+  "outputs/renode_boards/attention_strict_20261016/verification.json": {
+    "sha256": "b231fd697bee144aef22320be896a5270bcb09a2ad2c6c7849f80db680ac4dab",
+    "size": 2552
+  },
   "outputs/renode_boards/audit.json": {
-    "sha256": "cd882b5ceedd20b6aa99cef2deef55f8d05af6b0f23c0f0b6c30519f8e87dc87",
-    "size": 865
+    "sha256": "2f027231787c45e02fd67c38bae263c6646cde0c845864631251ef395e3cc18c",
+    "size": 1262
   },
   "outputs/renode_boards/greedy_20261016/build.log": {
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -1611,6 +1707,86 @@
     "sha256": "e77bb9f8326efabcf75bcbf3903d48cf9c257f4bf9bedbc2420e5bf567ade2ac",
     "size": 1979
   },
+  "outputs/renode_boards/greedy_strict_20261016/audit.json": {
+    "sha256": "4b8b337a4f2554912a71d2903042ac5fe0329d763f318c7971a01dfda31c7ad7",
+    "size": 380
+  },
+  "outputs/renode_boards/greedy_strict_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_strict_20261016/cc2538_bridge.elf": {
+    "sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+    "size": 139940
+  },
+  "outputs/renode_boards/greedy_strict_20261016/chain.resc": {
+    "sha256": "a4c3987fc0539f50528babad4b77c0f727df0ddfb9f48d965510dc5ebfd4fe69",
+    "size": 3020
+  },
+  "outputs/renode_boards/greedy_strict_20261016/firmware_uart_0.jsonl": {
+    "sha256": "7c45859b7de4856fc66a047fce426379fea8f5b96e6f5084ec64e80ae1ff20a8",
+    "size": 6840
+  },
+  "outputs/renode_boards/greedy_strict_20261016/firmware_uart_1.jsonl": {
+    "sha256": "688580dfd2d07d21d8cdb595e5bca3632ef8a49f6f72b5bc801b6c61cdf4143d",
+    "size": 12154
+  },
+  "outputs/renode_boards/greedy_strict_20261016/firmware_uart_2.jsonl": {
+    "sha256": "40cdfa80f8738626b5b55f614a34db3b4ee4b37c58706ec775bb6e44151dbc8c",
+    "size": 11882
+  },
+  "outputs/renode_boards/greedy_strict_20261016/firmware_uart_3.jsonl": {
+    "sha256": "0b1f945d5a63c726e3a3b30e00919784a41b50d3df3c0407829f52e1b166e55a",
+    "size": 6428
+  },
+  "outputs/renode_boards/greedy_strict_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_strict_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_strict_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_strict_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_strict_20261016/node_0.jsonl": {
+    "sha256": "1eadb078b9b551ee6e4eda8ee898209be9aaaa592e333c2dc2f0d5d6e75906c4",
+    "size": 17358
+  },
+  "outputs/renode_boards/greedy_strict_20261016/node_1.jsonl": {
+    "sha256": "60ee2ba293adddab164857729f75666b5b06020ebb4c4322bc12c76cd29850d4",
+    "size": 32131
+  },
+  "outputs/renode_boards/greedy_strict_20261016/node_2.jsonl": {
+    "sha256": "21e79f3090fa07098507ff44f27f406ed5b3b21b412996a2065123e979d9ce4e",
+    "size": 32129
+  },
+  "outputs/renode_boards/greedy_strict_20261016/node_3.jsonl": {
+    "sha256": "35247234145490f735ea1c920fcab63319a39a4754de95d95af37c0adf4af786",
+    "size": 17341
+  },
+  "outputs/renode_boards/greedy_strict_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/greedy_strict_20261016/renode.log": {
+    "sha256": "3a3223292e110fe29ea61c6c2f1d0fec1e7901e1857f253ad60d4098123035bd",
+    "size": 2353
+  },
+  "outputs/renode_boards/greedy_strict_20261016/verification.json": {
+    "sha256": "f46d54187a39ff6998b7b367305afbc722f79f8eccaf57f7f15a2797b59d3029",
+    "size": 2471
+  },
+  "outputs/renode_boards/legacy_greedy_strict_audit.json": {
+    "sha256": "7c887399a6a90b212f7c61e26a430c69fded100d127222eab9807778ec92b665",
+    "size": 122
+  },
   "outputs/renode_boards/mlp_20261016/build.log": {
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "size": 0
@@ -1683,9 +1859,89 @@
     "sha256": "c07bde9e805b40d937f833949998761f9dca0ce18dbe9baebcfbbb1d70a6ca10",
     "size": 2023
   },
+  "outputs/renode_boards/mlp_strict_20261016/audit.json": {
+    "sha256": "92f293dcfa19995a0af133cf771a91e1617e896bd9700f0c0f190c8c5699112b",
+    "size": 374
+  },
+  "outputs/renode_boards/mlp_strict_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_strict_20261016/cc2538_bridge.elf": {
+    "sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+    "size": 139940
+  },
+  "outputs/renode_boards/mlp_strict_20261016/chain.resc": {
+    "sha256": "a5a639e433ae978c2a4287359c85fed233f68bff2bd75c3be460ec473fd7f934",
+    "size": 2996
+  },
+  "outputs/renode_boards/mlp_strict_20261016/firmware_uart_0.jsonl": {
+    "sha256": "02529251a8afd329ea359be6d6cb62f3ac3447e745c1b7c9311ae49c07ebb43c",
+    "size": 6840
+  },
+  "outputs/renode_boards/mlp_strict_20261016/firmware_uart_1.jsonl": {
+    "sha256": "267273ec88f206a52f4e3d59029ed8b85aa53f988382ddbdf17f4141dbeaeb1a",
+    "size": 12154
+  },
+  "outputs/renode_boards/mlp_strict_20261016/firmware_uart_2.jsonl": {
+    "sha256": "b717b35c1086140a1e39618800d33474d1ff4282c579cc0bcbf3adbccaa69a73",
+    "size": 11882
+  },
+  "outputs/renode_boards/mlp_strict_20261016/firmware_uart_3.jsonl": {
+    "sha256": "9afa3ee74204c57b7cf711bff248cc77046481583f67bbe8f673ea300704c305",
+    "size": 6428
+  },
+  "outputs/renode_boards/mlp_strict_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_strict_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_strict_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_strict_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_strict_20261016/node_0.jsonl": {
+    "sha256": "6cecbc11d139578c7ae4d1827de7939e141bde0319ffaba2a7f29f91b4f8e5dc",
+    "size": 17352
+  },
+  "outputs/renode_boards/mlp_strict_20261016/node_1.jsonl": {
+    "sha256": "acc5d5f4d6917598f804c3234cb8effe7fff37a4f8bc6560e17cf1626eb9f9a5",
+    "size": 31888
+  },
+  "outputs/renode_boards/mlp_strict_20261016/node_2.jsonl": {
+    "sha256": "d4ecd8b1c253764fd64a9e24c9f0b2f6cc605d0ca7009f1983c5003676818c6b",
+    "size": 31643
+  },
+  "outputs/renode_boards/mlp_strict_20261016/node_3.jsonl": {
+    "sha256": "fa7a567490ca3c91bee98f34ad11866e07a03aba580facf9f324cd876c67a3a8",
+    "size": 17341
+  },
+  "outputs/renode_boards/mlp_strict_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/mlp_strict_20261016/renode.log": {
+    "sha256": "a893f0f4399908c41370ff8a228906a02d26b2f8b41e9f9cd45cc078cff0d0cd",
+    "size": 2350
+  },
+  "outputs/renode_boards/mlp_strict_20261016/verification.json": {
+    "sha256": "418df6b5c422572f788370f5624feedc04b160fad7166aa9d91c79111006df35",
+    "size": 2532
+  },
   "outputs/renode_boards/recheck_20261016.json": {
     "sha256": "cedce3baaa51530a33a605ec61c22dca7213d3eae393440797dd5fd74d25e5b8",
     "size": 7975
+  },
+  "outputs/renode_boards/strict_recheck_20261016.json": {
+    "sha256": "9d1c097ad4f09ac64bfd12b6f4a22a5d19e821062fb9dee1bf944cedb2dc3f45",
+    "size": 1886
   },
   "outputs/udp_matched_comparison/SHA256SUMS": {
     "sha256": "5a0e959f88dcf4bf06267417d5b04b669b2e3048af5a9b4c0763bddf08c0834f",
@@ -1892,32 +2148,44 @@
     "size": 44352
   },
   "publication/array/Array_Manuscript.docx": {
-    "sha256": "3212613a2cbeb272483de7578b125c6aab819c8fe7960fa4c7551b45854952d4",
-    "size": 4164018
+    "sha256": "877b052d248d098a2cf56378640c2eb54edee1e0e6c9cb95fb72be21e1aeac48",
+    "size": 4164162
   },
   "publication/array/Array_Manuscript.md": {
-    "sha256": "b169edbc4e31934ee44b4a4d298e11308af6df65d390f8bbceb8f5d8fbed54c0",
-    "size": 40752
+    "sha256": "e9f771238b64825f970f60f3e62c66e0e8e8c2505a5cab9208a892e99e3f68bd",
+    "size": 41120
   },
   "publication/array/Array_Manuscript.pdf": {
-    "sha256": "0d06e7ba7848d8cea47a4f99fd9dd237c8ac8348eefe969778549d2bb9a67529",
-    "size": 1724728
+    "sha256": "719723f702025d22b0370489e8769c27c19369e608e5a4a99b53d9b6d06289b3",
+    "size": 1725037
+  },
+  "publication/array/Author_declarations_REVIEW.txt": {
+    "sha256": "134e56bde4325d0ed71dc7e9db9aed87160734fcb12facca6db70264087b34d7",
+    "size": 2043
+  },
+  "publication/array/Cover_letter_DRAFT.txt": {
+    "sha256": "084e99e1ecfdf5b21fd6654e5e06202251acb8d4c4aec538df22ad776cf6fd07",
+    "size": 1880
+  },
+  "publication/array/Declaration_of_interests_DRAFT.txt": {
+    "sha256": "0de7f49ccd640949cfb4bee1b589984aee3614a3ac4d326ad198b2bfcc064e56",
+    "size": 286
   },
   "publication/array/Highlights.txt": {
     "sha256": "2a7bcf12fec2473e93375c8923410208fedd4d8b69deb5a76177829a0e3035d6",
     "size": 286
   },
   "publication/array/README.md": {
-    "sha256": "3efc0d3d04242e7065b66d500b69634a6301b7353d1a7456b0a2e78cd540a8e4",
-    "size": 987
+    "sha256": "8aa4266863efb11005b316ce1606012348aa8703644926e6dbdd3bd6e350626a",
+    "size": 1015
   },
   "publication/array/SHA256SUMS": {
-    "sha256": "ee67989830caa789c2e6a1f7de44ed4771b97fe2a5ec3ca022154dff40711353",
-    "size": 19792
+    "sha256": "42d951f376b0a2d11009b83aec2a3e71b9e2e7c20b9ed63ea51a8eac012402e6",
+    "size": 28146
   },
   "publication/array/document_checks.json": {
-    "sha256": "04a8387a4feecc403a5ff0960246f83c95739ae542856cae8e1f271d6d1c66ff",
-    "size": 531
+    "sha256": "1243375a299772cd025cb8b520720007ca826c503bdd80f24eac95f992a8cd1b",
+    "size": 622
   },
   "publication/array/figures/fig7_authenticated_virtual.pdf": {
     "sha256": "c8b092c2c34999220cb613b027af9a9b480b1b07f4aa0a61a66249faf3063fd6",
@@ -2296,16 +2564,16 @@
     "size": 5279
   },
   "scripts/audit_renode_boards.py": {
-    "sha256": "c410983b0fd81dbc5a50cdd034b62d82d6c40cc2637c1434710191bd34c99874",
-    "size": 3376
+    "sha256": "e1d1530676441e6a8af9ae53ca697c380980f4a1517936a9128f20f4242f5c21",
+    "size": 7803
   },
   "scripts/build_array_figures.py": {
     "sha256": "a15b761645d70faef365a718346bc21b0af7e65f049ea252637f9fa803bd3e68",
     "size": 4505
   },
   "scripts/build_array_manuscript.py": {
-    "sha256": "ea32ca922ed56f9e9dd4f174b09a6d16afa06a0559399240e6ddcc9c7e3a5efb",
-    "size": 18749
+    "sha256": "de6bffccd5df2ac813e2e001d598cd3fc80e9388e268e07485db9cf98dc1659b",
+    "size": 19117
   },
   "scripts/build_censored_figure.py": {
     "sha256": "18d166752087c6e56c0818e3c6780ab9457549ae05f40dc294fdc2ae084d6994",
@@ -2388,8 +2656,8 @@
     "size": 9150
   },
   "scripts/run_renode_boards.py": {
-    "sha256": "8e8886943d5ade99c24127296d4111a0b7629b28457b14d45759c0c23399d119",
-    "size": 7443
+    "sha256": "a092d1f6b8ef9bff734bb0fb4a10a432f8ab8f6a61458e41fec0c48ca6fdd6a9",
+    "size": 8568
   },
   "scripts/run_udp_matched_comparison.py": {
     "sha256": "0bea7d5ae4725f6b7c6f30b0cece5be53db8bc3a77bdaf054021b323b6c45e95",
@@ -2618,5 +2886,9 @@
   "tests/test_packet_feedback.py": {
     "sha256": "2ca13e4e5a501e615451147659ff519fc2be118373c8545b478a3587f1d20ced",
     "size": 1993
+  },
+  "tests/test_renode_audit.py": {
+    "sha256": "0a13c08b91d832d637daa49f9c9902559aa98fc1e2c9da51c9dd8cf6c4c99b2d",
+    "size": 3699
   }
 }

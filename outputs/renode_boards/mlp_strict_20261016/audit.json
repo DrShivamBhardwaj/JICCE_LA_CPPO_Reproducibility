@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "run": {
+    "policy": "mlp",
+    "folder": "outputs/renode_boards/mlp_strict_20261016",
+    "expected_packets": 10,
+    "received_frames": 129,
+    "public_signatures": 30,
+    "sink_unique_packets": 10,
+    "source_verified_receipts": 10,
+    "runtime_accepted_source_receipts": 10,
+    "firmware_probes": 5
+  },
+  "physical_validation": false
+}

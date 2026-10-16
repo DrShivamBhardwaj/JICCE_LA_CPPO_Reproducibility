@@ -1,4 +1,4 @@
-> Latest: [Array manuscript and virtual validation](ARRAY_TARGET_AND_VIRTUAL_STATUS.md). Policy transfer evaluated in 180 separate runs; virtual serial interface checked. Physical and MCU firmware validation remain unperformed.
+> Latest: [Array manuscript and virtual validation](ARRAY_TARGET_AND_VIRTUAL_STATUS.md). Policy transfer evaluated in 180 separate runs; virtual serial interface checked. Compiled radio-interface firmware now executes on emulated CC2538 MCUs; physical board/current and embedded inference/crypto validation remain unperformed. Earlier stage descriptions below are historical.
 
 # Post holdout distributed authentication extension
 
