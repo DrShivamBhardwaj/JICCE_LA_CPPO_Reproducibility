@@ -160,6 +160,11 @@ for number,name,caption in [(7,'fig7_authenticated_virtual','Authenticated state
 from array_inline_layout import apply_revision,place_exhibits
 revised_paragraphs=apply_revision(d,ROOT)
 layout_report=place_exhibits(d)
+from array_peer_review_revision import apply
+apply(d)
+from array_review_exhibits import apply as add_review_exhibits
+add_review_exhibits(d,ROOT)
+layout_report.update(figures_in_body=10,tables_in_body=7)
 abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
 assert len(abstract.split())<=250
 dest=out/'Array_Manuscript.docx';d.save(dest)
@@ -172,5 +177,5 @@ highlights=['A frozen 750-run study isolates feedback replacement effects.',
 'Virtual serial devices expose and correct a receive-time freshness defect.']
 assert all(len(x)<=85 for x in highlights)
 (out/'Highlights.txt').write_text('\n'.join(highlights)+'\n')
-(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=8,tables=6,references=21,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
+(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=10,tables=7,references=22,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
 print(dest)

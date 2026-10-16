@@ -1,0 +1,27 @@
+{
+  "base_commit": "ea747d8a86aa8f848002d3101adf58e30270f0b2",
+  "purpose": "post-review exploratory diagnostics",
+  "long_seeds": [
+    84001,
+    84002,
+    84003
+  ],
+  "sensitivity_seeds": [
+    85001,
+    85002,
+    85003
+  ],
+  "checkpoint_seeds": [
+    41001,
+    41002,
+    41003
+  ],
+  "source_sha256": {
+    "scripts/run_review_long_horizon.py": "ec43f37bff2c709d85922899cd13f9248635b284fe851b5647d16621d7ef6c8a",
+    "scripts/run_review_sensitivity.py": "9344f0930cef4c63123216a5acce11bb5bc52c1a46659812e4c1736f42624c2b",
+    "src/wsn_sim/ns3_telemetry.py": "b3b46aa11efff62c0105913c75ddbe30bd1d2d76c365cb6d3ec5666dee628fa7",
+    "src/wsn_sim/censored_feedback.py": "fff88085aa71ddaf61867affadc27a1e5d48ac7aa466c9fc638c9312005fd5a0",
+    "src/ns3_bridge/passive_bridge.cc": "76380b6d2defcf76b42983012d8efeef73dd438436479418354faa5de83c87b9",
+    "configs/af_v3_final.yaml": "d4344585bb17adfe39e0d73b9e42665a98a13d90e0af7be312591f62a4460ff5"
+  }
+}

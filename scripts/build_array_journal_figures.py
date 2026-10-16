@@ -1,6 +1,6 @@
 """Array vector artwork from frozen observations; no fabricated/smoothed data."""
 from pathlib import Path
-import json,hashlib
+import json,hashlib,io,os
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -17,7 +17,12 @@ INK='#243746';MUTED='#617382';GRID='#E3E9ED';TEAL='#E7F3F3';BLUE='#EAF1F8';SAND=
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'axes.labelsize':11,'axes.titlesize':12,'axes.titleweight':'bold','axes.labelcolor':INK,'text.color':INK,'xtick.color':MUTED,'ytick.color':INK,'axes.spines.top':False,'axes.spines.right':False,'axes.edgecolor':'#AAB7C1','axes.linewidth':.8,'lines.linewidth':2,'svg.fonttype':'none','pdf.fonttype':42,'savefig.facecolor':'white'})
 exhibits={}
 def save(fig,name):
- for ext in ['svg','pdf','png']:fig.savefig(OUT/f'{name}.{ext}',dpi=600,bbox_inches='tight',pad_inches=.13)
+ for ext in ['svg','pdf','png']:
+  buffer=io.BytesIO();fig.savefig(buffer,format=ext,dpi=600,bbox_inches='tight',pad_inches=.13)
+  target=OUT/f'{name}.{ext}';tmp=target.with_suffix('.tmp');tmp.write_bytes(buffer.getvalue());os.replace(tmp,target)
+  if ext=='png':
+   from PIL import Image
+   Image.open(target).verify()
  fig.savefig(QA/f'{name}.png',dpi=150,bbox_inches='tight',pad_inches=.13);plt.close(fig)
 def canvas(h=6.2):
  f,ax=plt.subplots(figsize=(9.2,h));ax.set(xlim=(0,100),ylim=(-8,100));ax.axis('off');return f,ax
@@ -79,7 +84,7 @@ arrow(ax,(42.5,55),(42.5,49))
 box(ax,18,24,49,25,'750 retained holdout runs','30 new fixtures: 77001–77030\n× 5 settings × 5 feedback / policy arms\n45,000 source packets',TEAL,11)
 box(ax,73,28,26,17,'Frozen inference','60-test Holm family\n4 required gate checks',PURPLE,10);arrow(ax,(67,36.5),(73,36.5))
 arrow(ax,(42.5,24),(42.5,19));box(ax,18,1,81,18,'Trace and endpoint reconciliation','30 compressed streams · all 750 runs retained · no holdout run exclusions',TEAL)
-ax.text(50,-5,'PRISMA-inspired experimental accounting; this is not a literature-screening diagram.',ha='center',fontsize=9,color=MUTED)
+ax.text(50,-5,'Experimental protocol pipeline · source freeze and complete run accounting.',ha='center',fontsize=9,color=MUTED)
 save(f,'fig3_evaluation_flow')
 # 4 — separate comparison panels with exact estimates and intervals.
 f,axes=plt.subplots(1,2,figsize=(9.2,4.9),sharey=True);exhibits['fig4']=[]
@@ -89,10 +94,10 @@ for j,comp in enumerate(['active_proof','frozen_prior']):
  for y,(v,(lo,hi)) in enumerate(zip(means,cis)):
   ax.errorbar(v,y,xerr=[[v-lo],[hi-v]],fmt='o' if j==0 else 's',color=C[comp],capsize=4,ms=7,elinewidth=2,zorder=3)
   ax.annotate(f'{v:+.2f}',(v,y),xytext=(0,11),textcoords='offset points',ha='center',fontsize=9,color=C[comp])
- ax.set_title(f'({chr(97+j)}) Versus {L[comp].lower()}',loc='left',pad=17);ax.set_xlabel('Delivery difference (percentage points)');null(ax);ax.set_ylim(4.55,-.65);ax.locator_params(axis='x',nbins=4)
+ ax.set_title(f'({chr(97+j)}) Versus {L[comp].lower()}',loc='left',pad=17);ax.set_xlabel('Delivery difference (percentage points)');null(ax);ax.set_ylim(4.55,-.65);ax.set_xlim(-2,9);ax.locator_params(axis='x',nbins=4)
  exhibits['fig4'] += [dict(setting=s,comparator=comp,mean_pp=float(v),ci95_pp=[float(x) for x in ci]) for s,v,ci in zip(SETS,means,cis)]
 axes[0].set_yticks(range(5),SL);f.subplots_adjust(left=.24,right=.98,wspace=.24,bottom=.22,top=.82)
-f.text(.59,.035,'Censored passive − comparator  |  paired t intervals, 30 fixtures per setting; horizontal ranges differ',ha='center',fontsize=9,color=MUTED)
+f.text(.59,.035,'Censored passive − comparator  |  paired t intervals, 30 fixtures per setting; identical horizontal scales',ha='center',fontsize=9,color=MUTED)
 save(f,'fig4_delivery_effects')
 # 5 — paired observations and all blackhole control contrasts, no density smoothing.
 f,axes=plt.subplots(1,2,figsize=(9.2,5.0),gridspec_kw={'width_ratios':[1,1.65]})
@@ -112,7 +117,7 @@ f.subplots_adjust(left=.08,right=.72,bottom=.21,top=.82,wspace=.85);f.text(.76,.
 save(f,'fig5_blackhole_estimation')
 # 6 — preserve the distinction between total energy, efficiency and traffic.
 f,axes=plt.subplots(1,3,figsize=(9.2,4.8),sharey=True);exhibits['fig6']=[]
-for ax,metric,scale,title,label in zip(axes,['radio_energy_j','energy_per_delivered_byte','phy_tx_frames'],[1000,1000,1],['(a) Total radio\nenergy','(b) Energy per\ndelivered byte','(c) PHY\ntransmissions'],['Difference (mJ)','Difference (mJ/byte)','Difference (frames)']):
+for ax,metric,scale,title,label in zip(axes,['radio_energy_j','energy_per_delivered_byte','phy_tx_frames'],[1000,1000,1],['(a) Total radio\nenergy (mJ)','(b) Energy per\ndelivered byte (mJ/byte)','(c) PHY\ntransmissions (frames)'],['Difference (mJ)','Difference (mJ/byte)','Difference (frames)']):
  zz=[next(x for x in audit['contrasts'] if x['setting']==s and x['metric']==metric) for s in SETS]
  for y,z in enumerate(zz):
   v=z['difference']*scale;lo,hi=np.array(z['ci95'])*scale;ax.errorbar(v,y,xerr=[[v-lo],[hi-v]],fmt='o',color=C['censored_passive'],capsize=4,ms=6,elinewidth=2)
@@ -130,8 +135,8 @@ ax.text(50,69,'DATA: source HMAC + hop tag   |   RECEIPT: sink Ed25519 signature
 heading(ax,59,'(b) Virtual API backend: no MCU instruction execution')
 for x,title,detail in [(1,'Host adapter','Actual Python process'),(35,'PTY serial interface','TX / RX / ACK / telemetry'),(69,'ns-3.44 radio','Byte-serialized frames')]:box(ax,x,39,30,15,title,detail,BLUE,10.5)
 arrow(ax,(31,46.5),(35,46.5));arrow(ax,(65,46.5),(69,46.5))
-heading(ax,29,'(c) Compiled firmware backend: Renode 1.17.0')
-for x,title,detail,col in [(1,'Host adapter','Routing inference + crypto',BLUE),(35,'CC2538 / Cortex-M3','Compiled C · UART + radio FIFO\nMAC ACK correlation',TEAL),(69,'802.15.4 range model','Four virtual boards\ndeterministic reachability',SAND)]:box(ax,x,8,30,16,title,detail,col,10.5)
+heading(ax,29,'(c) Host-controlled radio bridge · Renode 1.17.0')
+for x,title,detail,col in [(1,'HOST PC','PyTorch inference · HMAC\nEd25519 signing / verification',BLUE),(35,'EMULATED MCU','C UART / radio FIFO bridge\nNo inference or crypto',TEAL),(69,'802.15.4 range model','Four virtual boards\ndeterministic reachability',SAND)]:box(ax,x,8,30,16,title,detail,col,10.5)
 arrow(ax,(31,16),(35,16));arrow(ax,(65,16),(69,16))
 ax.text(50,0,'Strict controls: 10/10 delivery + 10 accepted source receipts for each policy; five probes per run.',ha='center',fontsize=10,color=C['censored_passive'])
 ax.text(50,-5,'No embedded inference/crypto, calibrated current or physical RF claim.',ha='center',fontsize=10,color=MUTED)
@@ -156,5 +161,5 @@ f.text(.5,.015,'Every delivery-effect interval crosses zero; no attention-superi
 save(f,'fig8_policy_transfer')
 # Exact numbers and source fingerprints make visual editing auditable.
 (OUT/'plotted_values.json').write_text(json.dumps(exhibits,indent=2)+'\n')
-(OUT/'figure_provenance.json').write_text(json.dumps({'inputs':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in INPUTS},'figures':8,'formats':['svg','pdf','png'],'png_dpi':600,'style':'Vector diagrams and exact paired observations/intervals. No bitmap generative images, fabricated observations or data smoothing.','statistics':'Figures 4–6: retained unadjusted paired t intervals; original Holm decision rule unchanged. Figure 8: retained exploratory paired percentile bootstrap intervals. No new tests.','figure3':'PRISMA-inspired experimental accounting, not systematic-review screening.','literature_review':'SciSpace search and limitations extraction informed the separation of modeled energy and emulated execution; external studies are not used as baseline data.'},indent=2)+'\n')
+(OUT/'figure_provenance.json').write_text(json.dumps({'inputs':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in INPUTS},'figures':8,'formats':['svg','pdf','png'],'png_dpi':600,'style':'Vector diagrams and exact paired observations/intervals. No bitmap generative images, fabricated observations or data smoothing.','statistics':'Figures 4–6: retained unadjusted paired t intervals; original Holm decision rule unchanged. Figure 8: retained exploratory paired percentile bootstrap intervals. No new tests.','figure3':'Experimental protocol pipeline with complete retained-run accounting.','literature_review':'SciSpace search and limitations extraction informed the separation of modeled energy and emulated execution; external studies are not used as baseline data.'},indent=2)+'\n')
 print(OUT)

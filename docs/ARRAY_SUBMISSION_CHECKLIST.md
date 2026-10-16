@@ -6,7 +6,7 @@ Status: technical package prepared; author confirmations and authenticated porta
 
 | Requirement | Source and access | Package check |
 |---|---|---|
-| Abstract no more than 250 words | Array Guide for Authors, current publisher-indexed text | 195 words |
+| Abstract no more than 250 words | Array Guide for Authors, current publisher-indexed text | 215 words |
 | Highlights: 3–5 items; up to 85 characters each | Array indexed guide plus Elsevier author support | Four separate editable highlights, maximum 75 characters |
 | Single anonymized review | Array current publisher-indexed guide | Author-bearing manuscript provided |
 | Disclose generative AI use | Array current publisher-indexed guide | Separate disclosure immediately before references; assistance with code/plots is disclosed |

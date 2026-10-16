@@ -84,7 +84,7 @@ cryptographic bytes differ while fixtures and frozen policy mapping are fixed.
 
 ## Compiled MCU extension, 16 October 2026
 
-The prior UART/API boundary above describes the original ns-3/PTY interface model. A separate Renode 1.17.0 backend now executes compiled CC2538/Cortex-M3 radio-interface firmware on four emulated boards. Greedy, MLP and attention host controls each deliver 10/10 packets and pass five probes. The independent audit validates UART byte provenance, sink signatures and identities. See [reproduction and complete limits](../hardware/renode_cc2538/README.md). Physical RF/current, physical board initialization, embedded inference and embedded cryptography remain unvalidated. The Array manuscript now has 20 rendered pages with inline figures and tables, including the revised architecture figure.
+The prior UART/API boundary above describes the original ns-3/PTY interface model. A separate Renode 1.17.0 backend now executes compiled CC2538/Cortex-M3 radio-interface firmware on four emulated boards. Greedy, MLP and attention host controls each deliver 10/10 packets and pass five probes. The independent audit validates UART byte provenance, sink signatures and identities. See [reproduction and complete limits](../hardware/renode_cc2538/README.md). Physical RF/current, physical board initialization, embedded inference and embedded cryptography remain unvalidated. The Array manuscript now has 22 rendered pages with inline figures and tables, including the revised architecture figure.
 
 The fresh CPU audit retains exact argmax identity for all 27,240 authenticated policy decisions. Probability replay uses atol=rtol=1e-6 (maximum observed difference 1.7881393432617188e-7); this accommodates numerical backend variation without changing any recorded choice. A broad pytest recheck initially found stale/missing local ns-3 libraries after environment renewal. Rebuilding all three historical bridge libraries resolved collection; 73 tests then passed in 5.05 s. No frozen outcomes or checkpoints changed.
 
@@ -95,3 +95,5 @@ A later evidence audit found that the archived greedy_20261016/node_1.jsonl lack
 ## Current submission checks
 
 See ARRAY_SUBMISSION_CHECKLIST.md for verified public requirements, prepared files, and author-only confirmations. A blocked public author-guide fetch and an uninspected authenticated portal are not represented as a completed portal check.
+
+Post-review revision adds 18 long-horizon and 33 coefficient-sensitivity runs, 10 figures and 7 tables. Long runs expose energy-gated routing failure, increasing source debt and persistent watch records; they do not establish steady operation. See PEER_REVIEW_RESOLUTION_20261016.md.

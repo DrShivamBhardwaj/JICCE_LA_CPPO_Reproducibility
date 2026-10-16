@@ -1,0 +1,5186 @@
+[
+  {
+    "seed": 84001,
+    "setting": "blackhole",
+    "arm": "active_proof",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 34,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.84,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636537779199999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 3,
+        "delivered": 8,
+        "generated": 8,
+        "energy_j": 11.27398955520001,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 6,
+        "delivered": 13,
+        "generated": 13,
+        "energy_j": 16.911443616000042,
+        "debt_max": 0.0
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 15,
+        "generated": 18,
+        "energy_j": 22.548888268800084,
+        "debt_max": 0.0
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 16,
+        "delivered": 19,
+        "generated": 23,
+        "energy_j": 28.186330636800108,
+        "debt_max": 0.985
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 18,
+        "delivered": 24,
+        "generated": 28,
+        "energy_j": 33.823838323200135,
+        "debt_max": 0.985
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 22,
+        "delivered": 29,
+        "generated": 33,
+        "energy_j": 39.46122706560016,
+        "debt_max": 0.985
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 28,
+        "delivered": 31,
+        "generated": 38,
+        "energy_j": 45.098646048000184,
+        "debt_max": 0.985
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 43,
+        "energy_j": 50.7359509248002,
+        "debt_max": 0.985
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 48,
+        "energy_j": 56.373612364799996,
+        "debt_max": 0.985
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 53,
+        "energy_j": 62.01127380479978,
+        "debt_max": 0.985
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 58,
+        "energy_j": 67.64893524479956,
+        "debt_max": 0.985
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 63,
+        "energy_j": 73.28659668479935,
+        "debt_max": 0.985
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 68,
+        "energy_j": 78.92425812479912,
+        "debt_max": 0.985
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 73,
+        "energy_j": 84.56191956479893,
+        "debt_max": 0.985
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 78,
+        "energy_j": 90.19958100479872,
+        "debt_max": 0.985
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 83,
+        "energy_j": 95.83724244479848,
+        "debt_max": 0.985
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 88,
+        "energy_j": 101.47490388479835,
+        "debt_max": 1.92
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 93,
+        "energy_j": 107.1125653247986,
+        "debt_max": 1.92
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 98,
+        "energy_j": 112.7502384575989,
+        "debt_max": 1.92
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 103,
+        "energy_j": 118.38789989759917,
+        "debt_max": 1.92
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 108,
+        "energy_j": 124.02556133759947,
+        "debt_max": 1.92
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 113,
+        "energy_j": 129.6632227775997,
+        "debt_max": 1.92
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 118,
+        "energy_j": 135.30088421760001,
+        "debt_max": 1.97
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 123,
+        "energy_j": 140.93854565760032,
+        "debt_max": 1.97
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 128,
+        "energy_j": 146.57620709760056,
+        "debt_max": 1.97
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 133,
+        "energy_j": 152.21386853760083,
+        "debt_max": 1.97
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 138,
+        "energy_j": 157.8515299776011,
+        "debt_max": 1.97
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 143,
+        "energy_j": 163.48919141760143,
+        "debt_max": 1.97
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 148,
+        "energy_j": 169.12685285760168,
+        "debt_max": 1.97
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 153,
+        "energy_j": 174.76451429760198,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 158,
+        "energy_j": 180.40217573760222,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 163,
+        "energy_j": 186.03983717760255,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 168,
+        "energy_j": 191.67749861760282,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 173,
+        "energy_j": 197.3151600576031,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 178,
+        "energy_j": 202.95282149760334,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 183,
+        "energy_j": 208.59048293760358,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 188,
+        "energy_j": 214.22814437760385,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 193,
+        "energy_j": 219.86580581760407,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 198,
+        "energy_j": 225.50346725760426,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 203,
+        "energy_j": 231.1411286976045,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 208,
+        "energy_j": 236.77879013760474,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 213,
+        "energy_j": 242.41645157760496,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 218,
+        "energy_j": 248.05411301760515,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 223,
+        "energy_j": 253.6917744576054,
+        "debt_max": 3.84
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 228,
+        "energy_j": 259.3294358976056,
+        "debt_max": 3.84
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 233,
+        "energy_j": 264.9670973376059,
+        "debt_max": 3.84
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 238,
+        "energy_j": 270.6047587776061,
+        "debt_max": 3.84
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 243,
+        "energy_j": 276.2424202176063,
+        "debt_max": 3.84
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 248,
+        "energy_j": 281.88008165760647,
+        "debt_max": 3.84
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 253,
+        "energy_j": 287.51774309760674,
+        "debt_max": 3.84
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 258,
+        "energy_j": 293.15540453760696,
+        "debt_max": 3.84
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 263,
+        "energy_j": 298.7930659776072,
+        "debt_max": 3.84
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 268,
+        "energy_j": 304.4307274176075,
+        "debt_max": 3.84
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 273,
+        "energy_j": 310.0683888576077,
+        "debt_max": 3.84
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 278,
+        "energy_j": 315.70605029760793,
+        "debt_max": 3.84
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 283,
+        "energy_j": 321.3437117376081,
+        "debt_max": 3.84
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 288,
+        "energy_j": 326.9813731776083,
+        "debt_max": 3.84
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 36,
+        "generated": 290,
+        "energy_j": 332.6190346176086,
+        "debt_max": 3.84
+      }
+    ],
+    "packets": 290,
+    "delivered": 36,
+    "delivery": 0.12413793103448276,
+    "critical_packets": 92,
+    "critical_violation": 0.8804347826086957,
+    "radio_energy_j": 338.25669605760885,
+    "energy_per_delivered_byte": 0.18069267951795345,
+    "sink_energy_j": 3.381989310720117,
+    "phy_tx_frames": 12463,
+    "phy_tx_bytes": 923525,
+    "proof_requests": 27,
+    "data_requests": 70,
+    "beacon_requests": 12120,
+    "beacon_receptions": 278666,
+    "positive_updates": 27,
+    "negative_updates": 7,
+    "censored_events": 0,
+    "timeouts": 7,
+    "benign_relay_timeouts": 0,
+    "data_mac_failures": 0,
+    "decisions": 70,
+    "source_receipts": 36,
+    "mean_delivered_delay_s": 0.007661931999999909
+  },
+  {
+    "seed": 84001,
+    "setting": "blackhole",
+    "arm": "censored_passive",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 33,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.84,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636537779199999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 3,
+        "delivered": 8,
+        "generated": 8,
+        "energy_j": 11.274057158400009,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 6,
+        "delivered": 13,
+        "generated": 13,
+        "energy_j": 16.91155315200004,
+        "debt_max": 0.0
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 17,
+        "generated": 18,
+        "energy_j": 22.54901662080008,
+        "debt_max": 0.0
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 16,
+        "delivered": 20,
+        "generated": 23,
+        "energy_j": 28.18654056960011,
+        "debt_max": 0.0
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 18,
+        "delivered": 25,
+        "generated": 28,
+        "energy_j": 33.824064518400135,
+        "debt_max": 0.985
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 22,
+        "delivered": 29,
+        "generated": 33,
+        "energy_j": 39.46157220480016,
+        "debt_max": 0.985
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 27,
+        "delivered": 32,
+        "generated": 38,
+        "energy_j": 45.099054220800184,
+        "debt_max": 0.985
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 43,
+        "energy_j": 50.73649430400021,
+        "debt_max": 0.985
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 48,
+        "energy_j": 56.374155743999985,
+        "debt_max": 0.985
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 53,
+        "energy_j": 62.01181718399979,
+        "debt_max": 0.985
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 58,
+        "energy_j": 67.64947862399958,
+        "debt_max": 0.985
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 63,
+        "energy_j": 73.28714006399935,
+        "debt_max": 1.92
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 68,
+        "energy_j": 78.92480150399912,
+        "debt_max": 1.92
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 73,
+        "energy_j": 84.56246294399892,
+        "debt_max": 1.92
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 78,
+        "energy_j": 90.2001243839987,
+        "debt_max": 1.92
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 83,
+        "energy_j": 95.83778582399847,
+        "debt_max": 1.92
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 88,
+        "energy_j": 101.47544726399833,
+        "debt_max": 1.92
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 93,
+        "energy_j": 107.1131087039986,
+        "debt_max": 1.92
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 98,
+        "energy_j": 112.75077014399889,
+        "debt_max": 1.92
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 103,
+        "energy_j": 118.38843158399918,
+        "debt_max": 1.92
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 108,
+        "energy_j": 124.02609302399947,
+        "debt_max": 1.97
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 113,
+        "energy_j": 129.66375446399974,
+        "debt_max": 1.97
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 118,
+        "energy_j": 135.301415904,
+        "debt_max": 1.97
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 123,
+        "energy_j": 140.9390890368003,
+        "debt_max": 1.97
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 128,
+        "energy_j": 146.57675047680056,
+        "debt_max": 1.97
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 133,
+        "energy_j": 152.21441191680083,
+        "debt_max": 1.97
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 138,
+        "energy_j": 157.85207335680113,
+        "debt_max": 1.97
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 143,
+        "energy_j": 163.48973479680143,
+        "debt_max": 1.97
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 148,
+        "energy_j": 169.1273962368017,
+        "debt_max": 1.97
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 153,
+        "energy_j": 174.765057676802,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 158,
+        "energy_j": 180.40271911680222,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 163,
+        "energy_j": 186.04038055680255,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 168,
+        "energy_j": 191.6780419968028,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 173,
+        "energy_j": 197.31570343680306,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 178,
+        "energy_j": 202.9533648768033,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 183,
+        "energy_j": 208.59102631680358,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 188,
+        "energy_j": 214.2286877568038,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 193,
+        "energy_j": 219.866349196804,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 198,
+        "energy_j": 225.50401063680425,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 203,
+        "energy_j": 231.14167207680453,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 208,
+        "energy_j": 236.7793335168047,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 213,
+        "energy_j": 242.41699495680496,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 218,
+        "energy_j": 248.05466808960514,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 223,
+        "energy_j": 253.6923295296054,
+        "debt_max": 3.84
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 228,
+        "energy_j": 259.3299909696056,
+        "debt_max": 3.84
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 233,
+        "energy_j": 264.9676641024059,
+        "debt_max": 3.84
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 238,
+        "energy_j": 270.60532554240615,
+        "debt_max": 3.84
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 243,
+        "energy_j": 276.2429869824063,
+        "debt_max": 3.84
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 248,
+        "energy_j": 281.88064842240647,
+        "debt_max": 3.84
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 253,
+        "energy_j": 287.51830986240674,
+        "debt_max": 3.84
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 258,
+        "energy_j": 293.155971302407,
+        "debt_max": 3.84
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 263,
+        "energy_j": 298.7936327424072,
+        "debt_max": 3.84
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 268,
+        "energy_j": 304.4312941824075,
+        "debt_max": 3.84
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 273,
+        "energy_j": 310.06895562240766,
+        "debt_max": 3.84
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 278,
+        "energy_j": 315.7066170624079,
+        "debt_max": 3.84
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 283,
+        "energy_j": 321.34429019520815,
+        "debt_max": 3.84
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 288,
+        "energy_j": 326.98195163520836,
+        "debt_max": 3.84
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 290,
+        "energy_j": 332.6196130752086,
+        "debt_max": 3.84
+      }
+    ],
+    "packets": 290,
+    "delivered": 36,
+    "delivery": 0.12413793103448276,
+    "critical_packets": 92,
+    "critical_violation": 0.8695652173913043,
+    "radio_energy_j": 338.2572745152089,
+    "energy_per_delivered_byte": 0.1806929885230817,
+    "sink_energy_j": 3.382001003520113,
+    "phy_tx_frames": 12390,
+    "phy_tx_bytes": 920010,
+    "proof_requests": 0,
+    "data_requests": 69,
+    "beacon_requests": 12120,
+    "beacon_receptions": 278778,
+    "positive_updates": 49,
+    "negative_updates": 0,
+    "censored_events": 7,
+    "timeouts": 7,
+    "benign_relay_timeouts": 0,
+    "data_mac_failures": 0,
+    "decisions": 69,
+    "source_receipts": 36,
+    "mean_delivered_delay_s": 0.008479052722222158
+  },
+  {
+    "seed": 84001,
+    "setting": "blackhole",
+    "arm": "frozen_prior",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 33,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.84,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636537779199999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 3,
+        "delivered": 8,
+        "generated": 8,
+        "energy_j": 11.274057158400009,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 6,
+        "delivered": 13,
+        "generated": 13,
+        "energy_j": 16.91155315200004,
+        "debt_max": 0.0
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 17,
+        "generated": 18,
+        "energy_j": 22.54901662080008,
+        "debt_max": 0.0
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 16,
+        "delivered": 20,
+        "generated": 23,
+        "energy_j": 28.18654056960011,
+        "debt_max": 0.0
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 18,
+        "delivered": 25,
+        "generated": 28,
+        "energy_j": 33.824064518400135,
+        "debt_max": 0.985
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 22,
+        "delivered": 29,
+        "generated": 33,
+        "energy_j": 39.46157220480016,
+        "debt_max": 0.985
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 27,
+        "delivered": 32,
+        "generated": 38,
+        "energy_j": 45.099054220800184,
+        "debt_max": 0.985
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 43,
+        "energy_j": 50.73649430400021,
+        "debt_max": 0.985
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 48,
+        "energy_j": 56.374155743999985,
+        "debt_max": 0.985
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 53,
+        "energy_j": 62.01181718399979,
+        "debt_max": 0.985
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 58,
+        "energy_j": 67.64947862399958,
+        "debt_max": 0.985
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 63,
+        "energy_j": 73.28714006399935,
+        "debt_max": 1.92
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 68,
+        "energy_j": 78.92480150399912,
+        "debt_max": 1.92
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 73,
+        "energy_j": 84.56246294399892,
+        "debt_max": 1.92
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 78,
+        "energy_j": 90.2001243839987,
+        "debt_max": 1.92
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 83,
+        "energy_j": 95.83778582399847,
+        "debt_max": 1.92
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 88,
+        "energy_j": 101.47544726399833,
+        "debt_max": 1.92
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 93,
+        "energy_j": 107.1131087039986,
+        "debt_max": 1.92
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 98,
+        "energy_j": 112.75077014399889,
+        "debt_max": 1.92
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 103,
+        "energy_j": 118.38843158399918,
+        "debt_max": 1.92
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 108,
+        "energy_j": 124.02609302399947,
+        "debt_max": 1.97
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 113,
+        "energy_j": 129.66375446399974,
+        "debt_max": 1.97
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 118,
+        "energy_j": 135.301415904,
+        "debt_max": 1.97
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 123,
+        "energy_j": 140.9390890368003,
+        "debt_max": 1.97
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 128,
+        "energy_j": 146.57675047680056,
+        "debt_max": 1.97
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 133,
+        "energy_j": 152.21441191680083,
+        "debt_max": 1.97
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 138,
+        "energy_j": 157.85207335680113,
+        "debt_max": 1.97
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 143,
+        "energy_j": 163.48973479680143,
+        "debt_max": 1.97
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 148,
+        "energy_j": 169.1273962368017,
+        "debt_max": 1.97
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 153,
+        "energy_j": 174.765057676802,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 158,
+        "energy_j": 180.40271911680222,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 163,
+        "energy_j": 186.04038055680255,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 168,
+        "energy_j": 191.6780419968028,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 173,
+        "energy_j": 197.31570343680306,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 178,
+        "energy_j": 202.9533648768033,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 183,
+        "energy_j": 208.59102631680358,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 188,
+        "energy_j": 214.2286877568038,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 193,
+        "energy_j": 219.866349196804,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 198,
+        "energy_j": 225.50401063680425,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 203,
+        "energy_j": 231.14167207680453,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 208,
+        "energy_j": 236.7793335168047,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 213,
+        "energy_j": 242.41699495680496,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 218,
+        "energy_j": 248.05466808960514,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 223,
+        "energy_j": 253.6923295296054,
+        "debt_max": 3.84
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 228,
+        "energy_j": 259.3299909696056,
+        "debt_max": 3.84
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 233,
+        "energy_j": 264.9676641024059,
+        "debt_max": 3.84
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 238,
+        "energy_j": 270.60532554240615,
+        "debt_max": 3.84
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 243,
+        "energy_j": 276.2429869824063,
+        "debt_max": 3.84
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 248,
+        "energy_j": 281.88064842240647,
+        "debt_max": 3.84
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 253,
+        "energy_j": 287.51830986240674,
+        "debt_max": 3.84
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 258,
+        "energy_j": 293.155971302407,
+        "debt_max": 3.84
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 263,
+        "energy_j": 298.7936327424072,
+        "debt_max": 3.84
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 268,
+        "energy_j": 304.4312941824075,
+        "debt_max": 3.84
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 273,
+        "energy_j": 310.06895562240766,
+        "debt_max": 3.84
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 278,
+        "energy_j": 315.7066170624079,
+        "debt_max": 3.84
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 283,
+        "energy_j": 321.34429019520815,
+        "debt_max": 3.84
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 288,
+        "energy_j": 326.98195163520836,
+        "debt_max": 3.84
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 33,
+        "delivered": 36,
+        "generated": 290,
+        "energy_j": 332.6196130752086,
+        "debt_max": 3.84
+      }
+    ],
+    "packets": 290,
+    "delivered": 36,
+    "delivery": 0.12413793103448276,
+    "critical_packets": 92,
+    "critical_violation": 0.8695652173913043,
+    "radio_energy_j": 338.2572745152089,
+    "energy_per_delivered_byte": 0.1806929885230817,
+    "sink_energy_j": 3.382001003520113,
+    "phy_tx_frames": 12390,
+    "phy_tx_bytes": 920010,
+    "proof_requests": 0,
+    "data_requests": 69,
+    "beacon_requests": 12120,
+    "beacon_receptions": 278778,
+    "positive_updates": 0,
+    "negative_updates": 0,
+    "censored_events": 7,
+    "timeouts": 7,
+    "benign_relay_timeouts": 0,
+    "data_mac_failures": 0,
+    "decisions": 69,
+    "source_receipts": 36,
+    "mean_delivered_delay_s": 0.008479052722222158
+  },
+  {
+    "seed": 84002,
+    "setting": "blackhole",
+    "arm": "active_proof",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 40,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.9399999999999995,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 4,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636358355199999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 8,
+        "delivered": 8,
+        "generated": 8,
+        "energy_j": 11.273758790400013,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 13,
+        "generated": 13,
+        "energy_j": 16.911184896000048,
+        "debt_max": 0.0
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 16,
+        "delivered": 17,
+        "generated": 18,
+        "energy_j": 22.54858049280009,
+        "debt_max": 0.0
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 21,
+        "delivered": 21,
+        "generated": 23,
+        "energy_j": 28.18598092800012,
+        "debt_max": 0.97
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 26,
+        "delivered": 26,
+        "generated": 28,
+        "energy_j": 33.82333943040014,
+        "debt_max": 0.97
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 30,
+        "delivered": 31,
+        "generated": 33,
+        "energy_j": 39.460751558400176,
+        "debt_max": 0.97
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 36,
+        "generated": 38,
+        "energy_j": 45.098110060800195,
+        "debt_max": 0.97
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 43,
+        "energy_j": 50.73546856320023,
+        "debt_max": 0.97
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 48,
+        "energy_j": 56.373130003199975,
+        "debt_max": 0.97
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 53,
+        "energy_j": 62.01079144319976,
+        "debt_max": 0.985
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 58,
+        "energy_j": 67.64845288319951,
+        "debt_max": 0.985
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 63,
+        "energy_j": 73.28611432319929,
+        "debt_max": 0.985
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 68,
+        "energy_j": 78.92377576319905,
+        "debt_max": 0.985
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 73,
+        "energy_j": 84.56143720319879,
+        "debt_max": 0.985
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 78,
+        "energy_j": 90.19909864319857,
+        "debt_max": 0.985
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 83,
+        "energy_j": 95.83676008319831,
+        "debt_max": 1.7999999999999998
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 88,
+        "energy_j": 101.47443321599816,
+        "debt_max": 1.97
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 93,
+        "energy_j": 107.11210634879845,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 98,
+        "energy_j": 112.74976778879876,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 103,
+        "energy_j": 118.38742922879908,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 108,
+        "energy_j": 124.02509066879938,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 113,
+        "energy_j": 129.66275210879968,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 118,
+        "energy_j": 135.30041354879995,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 123,
+        "energy_j": 140.9380749888003,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 128,
+        "energy_j": 146.57573642880058,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 133,
+        "energy_j": 152.2133978688009,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 138,
+        "energy_j": 157.85107100160124,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 143,
+        "energy_j": 163.48873244160154,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 148,
+        "energy_j": 169.12639388160184,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 153,
+        "energy_j": 174.76405532160211,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 158,
+        "energy_j": 180.40171676160244,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 163,
+        "energy_j": 186.03937820160274,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 168,
+        "energy_j": 191.67703964160302,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 173,
+        "energy_j": 197.31471277440335,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 178,
+        "energy_j": 202.95237421440365,
+        "debt_max": 3.84
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 183,
+        "energy_j": 208.5900356544039,
+        "debt_max": 3.84
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 188,
+        "energy_j": 214.22769709440414,
+        "debt_max": 3.84
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 193,
+        "energy_j": 219.8653585344044,
+        "debt_max": 3.84
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 198,
+        "energy_j": 225.50301997440465,
+        "debt_max": 3.84
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 203,
+        "energy_j": 231.14069310720487,
+        "debt_max": 3.84
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 208,
+        "energy_j": 236.7783662400052,
+        "debt_max": 3.84
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 213,
+        "energy_j": 242.4160276800054,
+        "debt_max": 3.84
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 218,
+        "energy_j": 248.05368912000563,
+        "debt_max": 3.84
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 223,
+        "energy_j": 253.6913505600059,
+        "debt_max": 3.84
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 228,
+        "energy_j": 259.3290120000062,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 233,
+        "energy_j": 264.96667344000645,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 238,
+        "energy_j": 270.6043348800067,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 243,
+        "energy_j": 276.241996320007,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 248,
+        "energy_j": 281.87965776000726,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 253,
+        "energy_j": 287.51733089280754,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 258,
+        "energy_j": 293.15499233280775,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 263,
+        "energy_j": 298.792653772808,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 268,
+        "energy_j": 304.43031521280824,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 273,
+        "energy_j": 310.0679766528085,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 278,
+        "energy_j": 315.70563809280884,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 283,
+        "energy_j": 321.3432995328091,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 288,
+        "energy_j": 326.98097266560933,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 40,
+        "delivered": 41,
+        "generated": 290,
+        "energy_j": 332.6186457984096,
+        "debt_max": 3.9399999999999995
+      }
+    ],
+    "packets": 290,
+    "delivered": 41,
+    "delivery": 0.1413793103448276,
+    "critical_packets": 108,
+    "critical_violation": 0.8611111111111112,
+    "radio_energy_j": 338.2563072384098,
+    "energy_per_delivered_byte": 0.1586568045208301,
+    "sink_energy_j": 3.3818960371201396,
+    "phy_tx_frames": 12534,
+    "phy_tx_bytes": 926260,
+    "proof_requests": 38,
+    "data_requests": 81,
+    "beacon_requests": 12120,
+    "beacon_receptions": 302171,
+    "positive_updates": 38,
+    "negative_updates": 2,
+    "censored_events": 0,
+    "timeouts": 2,
+    "benign_relay_timeouts": 0,
+    "data_mac_failures": 0,
+    "decisions": 81,
+    "source_receipts": 40,
+    "mean_delivered_delay_s": 0.012712173999999923
+  },
+  {
+    "seed": 84002,
+    "setting": "blackhole",
+    "arm": "censored_passive",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 39,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.9399999999999995,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 4,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636414265599999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 8,
+        "delivered": 8,
+        "generated": 8,
+        "energy_j": 11.273835532800012,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 12,
+        "generated": 13,
+        "energy_j": 16.911319833600047,
+        "debt_max": 0.0
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 16,
+        "delivered": 16,
+        "generated": 18,
+        "energy_j": 22.548780748800088,
+        "debt_max": 0.96
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 21,
+        "delivered": 20,
+        "generated": 23,
+        "energy_j": 28.18622540160012,
+        "debt_max": 0.97
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 25,
+        "delivered": 24,
+        "generated": 28,
+        "energy_j": 33.82370970240014,
+        "debt_max": 0.97
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 29,
+        "delivered": 29,
+        "generated": 33,
+        "energy_j": 39.461142662400164,
+        "debt_max": 0.97
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 34,
+        "generated": 38,
+        "energy_j": 45.09855936000019,
+        "debt_max": 0.97
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 43,
+        "energy_j": 50.73597377280022,
+        "debt_max": 0.97
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 48,
+        "energy_j": 56.373635212799975,
+        "debt_max": 0.97
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 53,
+        "energy_j": 62.011296652799736,
+        "debt_max": 0.985
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 58,
+        "energy_j": 67.64895809279952,
+        "debt_max": 0.985
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 63,
+        "energy_j": 73.28661953279926,
+        "debt_max": 0.985
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 68,
+        "energy_j": 78.92428097279904,
+        "debt_max": 0.985
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 73,
+        "energy_j": 84.56194241279877,
+        "debt_max": 0.985
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 78,
+        "energy_j": 90.19960385279856,
+        "debt_max": 0.985
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 83,
+        "energy_j": 95.83727698559832,
+        "debt_max": 1.7999999999999998
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 88,
+        "energy_j": 101.47493842559815,
+        "debt_max": 1.97
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 93,
+        "energy_j": 107.11261155839844,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 98,
+        "energy_j": 112.75027299839874,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 103,
+        "energy_j": 118.38793443839906,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 108,
+        "energy_j": 124.02559587839937,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 113,
+        "energy_j": 129.66325731839967,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 118,
+        "energy_j": 135.30091875839994,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 123,
+        "energy_j": 140.9385918912003,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 128,
+        "energy_j": 146.57626502400058,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 133,
+        "energy_j": 152.21392646400085,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 138,
+        "energy_j": 157.85158790400124,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 143,
+        "energy_j": 163.4892493440015,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 148,
+        "energy_j": 169.12691078400178,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 153,
+        "energy_j": 174.76457222400214,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 158,
+        "energy_j": 180.40223366400244,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 163,
+        "energy_j": 186.0398951040027,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 168,
+        "energy_j": 191.67755654400304,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 173,
+        "energy_j": 197.31521798400337,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 178,
+        "energy_j": 202.9528794240036,
+        "debt_max": 3.84
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 183,
+        "energy_j": 208.59054086400388,
+        "debt_max": 3.84
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 188,
+        "energy_j": 214.22820230400416,
+        "debt_max": 3.84
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 193,
+        "energy_j": 219.8658637440044,
+        "debt_max": 3.84
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 198,
+        "energy_j": 225.50352518400467,
+        "debt_max": 3.84
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 203,
+        "energy_j": 231.14118662400492,
+        "debt_max": 3.84
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 208,
+        "energy_j": 236.77884806400516,
+        "debt_max": 3.84
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 213,
+        "energy_j": 242.41650950400546,
+        "debt_max": 3.84
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 218,
+        "energy_j": 248.0541709440057,
+        "debt_max": 3.84
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 223,
+        "energy_j": 253.69183238400598,
+        "debt_max": 3.84
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 228,
+        "energy_j": 259.32949382400625,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 233,
+        "energy_j": 264.9671552640065,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 238,
+        "energy_j": 270.60481670400674,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 243,
+        "energy_j": 276.24247814400695,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 248,
+        "energy_j": 281.8801395840073,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 253,
+        "energy_j": 287.51780102400755,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 258,
+        "energy_j": 293.15546246400777,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 263,
+        "energy_j": 298.793123904008,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 268,
+        "energy_j": 304.43078534400826,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 273,
+        "energy_j": 310.06844678400853,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 278,
+        "energy_j": 315.70610822400886,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 283,
+        "energy_j": 321.3437696640092,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 288,
+        "energy_j": 326.9814311040094,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 39,
+        "generated": 290,
+        "energy_j": 332.6190925440096,
+        "debt_max": 3.9399999999999995
+      }
+    ],
+    "packets": 290,
+    "delivered": 39,
+    "delivery": 0.13448275862068965,
+    "critical_packets": 108,
+    "critical_violation": 0.8611111111111112,
+    "radio_energy_j": 338.25675398400983,
+    "energy_per_delivered_byte": 0.16679327119527113,
+    "sink_energy_j": 3.381991864320145,
+    "phy_tx_frames": 12453,
+    "phy_tx_bytes": 923195,
+    "proof_requests": 0,
+    "data_requests": 78,
+    "beacon_requests": 12120,
+    "beacon_receptions": 302896,
+    "positive_updates": 66,
+    "negative_updates": 0,
+    "censored_events": 4,
+    "timeouts": 4,
+    "benign_relay_timeouts": 0,
+    "data_mac_failures": 0,
+    "decisions": 78,
+    "source_receipts": 39,
+    "mean_delivered_delay_s": 0.01322253274358967
+  },
+  {
+    "seed": 84002,
+    "setting": "blackhole",
+    "arm": "frozen_prior",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 39,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.9399999999999995,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 4,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636414265599999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 8,
+        "delivered": 8,
+        "generated": 8,
+        "energy_j": 11.273835532800012,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 12,
+        "generated": 13,
+        "energy_j": 16.911319833600047,
+        "debt_max": 0.0
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 16,
+        "delivered": 16,
+        "generated": 18,
+        "energy_j": 22.548780748800088,
+        "debt_max": 0.96
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 21,
+        "delivered": 20,
+        "generated": 23,
+        "energy_j": 28.18622540160012,
+        "debt_max": 0.97
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 25,
+        "delivered": 24,
+        "generated": 28,
+        "energy_j": 33.82370970240014,
+        "debt_max": 0.97
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 29,
+        "delivered": 29,
+        "generated": 33,
+        "energy_j": 39.461142662400164,
+        "debt_max": 0.97
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 34,
+        "generated": 38,
+        "energy_j": 45.09855936000019,
+        "debt_max": 0.97
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 43,
+        "energy_j": 50.73600172800022,
+        "debt_max": 0.97
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 48,
+        "energy_j": 56.37366316799998,
+        "debt_max": 0.985
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 53,
+        "energy_j": 62.01132460799974,
+        "debt_max": 0.985
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 58,
+        "energy_j": 67.6489860479995,
+        "debt_max": 0.985
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 63,
+        "energy_j": 73.28664748799928,
+        "debt_max": 0.985
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 68,
+        "energy_j": 78.92430892799904,
+        "debt_max": 0.985
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 73,
+        "energy_j": 84.56197036799878,
+        "debt_max": 0.985
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 78,
+        "energy_j": 90.19963180799857,
+        "debt_max": 0.985
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 83,
+        "energy_j": 95.83730494079832,
+        "debt_max": 1.7999999999999998
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 88,
+        "energy_j": 101.47496638079815,
+        "debt_max": 1.97
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 93,
+        "energy_j": 107.11263951359845,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 98,
+        "energy_j": 112.75030095359877,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 103,
+        "energy_j": 118.38796239359907,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 108,
+        "energy_j": 124.02562383359938,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 113,
+        "energy_j": 129.66328527359968,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 118,
+        "energy_j": 135.30094671359996,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 123,
+        "energy_j": 140.93861984640034,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 128,
+        "energy_j": 146.57629297920062,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 133,
+        "energy_j": 152.2139544192009,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 138,
+        "energy_j": 157.85161585920122,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 143,
+        "energy_j": 163.4892772992015,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 148,
+        "energy_j": 169.12693873920176,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 153,
+        "energy_j": 174.76460017920212,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 158,
+        "energy_j": 180.40226161920245,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 163,
+        "energy_j": 186.03992305920272,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 168,
+        "energy_j": 191.67758449920308,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 173,
+        "energy_j": 197.31524593920335,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 178,
+        "energy_j": 202.95290737920365,
+        "debt_max": 3.84
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 183,
+        "energy_j": 208.5905688192039,
+        "debt_max": 3.84
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 188,
+        "energy_j": 214.22823025920417,
+        "debt_max": 3.84
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 193,
+        "energy_j": 219.8658916992044,
+        "debt_max": 3.84
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 198,
+        "energy_j": 225.50355313920466,
+        "debt_max": 3.84
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 203,
+        "energy_j": 231.14121457920496,
+        "debt_max": 3.84
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 208,
+        "energy_j": 236.77887601920523,
+        "debt_max": 3.84
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 213,
+        "energy_j": 242.41653745920547,
+        "debt_max": 3.84
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 218,
+        "energy_j": 248.0541988992057,
+        "debt_max": 3.84
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 223,
+        "energy_j": 253.69186033920602,
+        "debt_max": 3.84
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 228,
+        "energy_j": 259.3295217792063,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 233,
+        "energy_j": 264.96718321920656,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 238,
+        "energy_j": 270.60484465920683,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 243,
+        "energy_j": 276.2425060992071,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 248,
+        "energy_j": 281.8801675392074,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 253,
+        "energy_j": 287.5178289792076,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 258,
+        "energy_j": 293.1554904192078,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 263,
+        "energy_j": 298.793151859208,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 268,
+        "energy_j": 304.43081329920835,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 273,
+        "energy_j": 310.0684747392086,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 278,
+        "energy_j": 315.7061361792089,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 283,
+        "energy_j": 321.34379761920917,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 288,
+        "energy_j": 326.98145905920944,
+        "debt_max": 3.9399999999999995
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 39,
+        "delivered": 38,
+        "generated": 290,
+        "energy_j": 332.61912049920966,
+        "debt_max": 3.9399999999999995
+      }
+    ],
+    "packets": 290,
+    "delivered": 38,
+    "delivery": 0.1310344827586207,
+    "critical_packets": 108,
+    "critical_violation": 0.8703703703703703,
+    "radio_energy_j": 338.2567819392099,
+    "energy_per_delivered_byte": 0.17118258195304142,
+    "sink_energy_j": 3.3820058419201486,
+    "phy_tx_frames": 12447,
+    "phy_tx_bytes": 922955,
+    "proof_requests": 0,
+    "data_requests": 77,
+    "beacon_requests": 12120,
+    "beacon_receptions": 302603,
+    "positive_updates": 0,
+    "negative_updates": 0,
+    "censored_events": 5,
+    "timeouts": 5,
+    "benign_relay_timeouts": 0,
+    "data_mac_failures": 0,
+    "decisions": 77,
+    "source_receipts": 38,
+    "mean_delivered_delay_s": 0.0132597523157894
+  },
+  {
+    "seed": 84003,
+    "setting": "blackhole",
+    "arm": "active_proof",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 35,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.9399999999999995,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 4,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.6363583552,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 6,
+        "generated": 8,
+        "energy_j": 11.273562566400013,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 14,
+        "delivered": 11,
+        "generated": 13,
+        "energy_j": 16.91103517440004,
+        "debt_max": 0.96
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 18,
+        "delivered": 16,
+        "generated": 18,
+        "energy_j": 22.54842391680008,
+        "debt_max": 0.96
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 21,
+        "delivered": 20,
+        "generated": 23,
+        "energy_j": 28.185859161600114,
+        "debt_max": 0.96
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 25,
+        "delivered": 25,
+        "generated": 28,
+        "energy_j": 33.82329467520013,
+        "debt_max": 0.985
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 30,
+        "delivered": 30,
+        "generated": 33,
+        "energy_j": 39.46065317760016,
+        "debt_max": 0.985
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 34,
+        "delivered": 35,
+        "generated": 38,
+        "energy_j": 45.098004556800184,
+        "debt_max": 0.985
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 43,
+        "energy_j": 50.7355190976002,
+        "debt_max": 0.97
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 48,
+        "energy_j": 56.3731805376,
+        "debt_max": 0.97
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 53,
+        "energy_j": 62.010841977599775,
+        "debt_max": 0.97
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 58,
+        "energy_j": 67.64850341759956,
+        "debt_max": 0.985
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 63,
+        "energy_j": 73.28617655039933,
+        "debt_max": 1.92
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 68,
+        "energy_j": 78.92383799039914,
+        "debt_max": 1.92
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 73,
+        "energy_j": 84.56149943039891,
+        "debt_max": 1.97
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 78,
+        "energy_j": 90.19916087039867,
+        "debt_max": 1.97
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 83,
+        "energy_j": 95.83682231039847,
+        "debt_max": 1.97
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 88,
+        "energy_j": 101.47448375039832,
+        "debt_max": 1.97
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 93,
+        "energy_j": 107.11214519039859,
+        "debt_max": 1.97
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 98,
+        "energy_j": 112.74980663039888,
+        "debt_max": 1.97
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 103,
+        "energy_j": 118.38746807039918,
+        "debt_max": 1.97
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 108,
+        "energy_j": 124.02512951039945,
+        "debt_max": 1.97
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 113,
+        "energy_j": 129.6627909503997,
+        "debt_max": 1.97
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 118,
+        "energy_j": 135.3004523904,
+        "debt_max": 1.97
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 123,
+        "energy_j": 140.93812552320028,
+        "debt_max": 1.97
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 128,
+        "energy_j": 146.57578696320056,
+        "debt_max": 1.97
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 133,
+        "energy_j": 152.21344840320089,
+        "debt_max": 1.97
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 138,
+        "energy_j": 157.85110984320116,
+        "debt_max": 2.88
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 143,
+        "energy_j": 163.48878297600137,
+        "debt_max": 2.88
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 148,
+        "energy_j": 169.1264444160017,
+        "debt_max": 2.88
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 153,
+        "energy_j": 174.76410585600198,
+        "debt_max": 2.88
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 158,
+        "energy_j": 180.40176729600222,
+        "debt_max": 2.88
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 163,
+        "energy_j": 186.03942873600255,
+        "debt_max": 2.88
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 168,
+        "energy_j": 191.67709017600282,
+        "debt_max": 2.88
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 173,
+        "energy_j": 197.31475161600306,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 178,
+        "energy_j": 202.95241305600337,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 183,
+        "energy_j": 208.59008618880355,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 188,
+        "energy_j": 214.2277476288038,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 193,
+        "energy_j": 219.86540906880407,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 198,
+        "energy_j": 225.50307050880429,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 203,
+        "energy_j": 231.14073194880453,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 208,
+        "energy_j": 236.77840508160472,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 213,
+        "energy_j": 242.416066521605,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 218,
+        "energy_j": 248.0537279616052,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 223,
+        "energy_j": 253.69140109440545,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 228,
+        "energy_j": 259.32906253440564,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 233,
+        "energy_j": 264.9667239744059,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 238,
+        "energy_j": 270.6043854144062,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 243,
+        "energy_j": 276.2420468544064,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 248,
+        "energy_j": 281.87970829440667,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 253,
+        "energy_j": 287.5173697344069,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 258,
+        "energy_j": 293.1550428672071,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 263,
+        "energy_j": 298.7927043072074,
+        "debt_max": 3.84
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 268,
+        "energy_j": 304.43037744000753,
+        "debt_max": 3.84
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 273,
+        "energy_j": 310.0680388800078,
+        "debt_max": 3.84
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 278,
+        "energy_j": 315.7057003200081,
+        "debt_max": 3.84
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 283,
+        "energy_j": 321.3433617600083,
+        "debt_max": 3.84
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 288,
+        "energy_j": 326.9810232000085,
+        "debt_max": 3.84
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 35,
+        "delivered": 40,
+        "generated": 290,
+        "energy_j": 332.6186846400087,
+        "debt_max": 3.84
+      }
+    ],
+    "packets": 290,
+    "delivered": 40,
+    "delivery": 0.13793103448275862,
+    "critical_packets": 96,
+    "critical_violation": 0.8125,
+    "radio_energy_j": 338.25634608000894,
+    "energy_per_delivered_byte": 0.16262324330769662,
+    "sink_energy_j": 3.3819661939201344,
+    "phy_tx_frames": 12511,
+    "phy_tx_bytes": 925725,
+    "proof_requests": 33,
+    "data_requests": 76,
+    "beacon_requests": 12120,
+    "beacon_receptions": 279469,
+    "positive_updates": 33,
+    "negative_updates": 2,
+    "censored_events": 0,
+    "timeouts": 2,
+    "benign_relay_timeouts": 0,
+    "data_mac_failures": 2,
+    "decisions": 76,
+    "source_receipts": 39,
+    "mean_delivered_delay_s": 0.01289256752499989
+  },
+  {
+    "seed": 84003,
+    "setting": "blackhole",
+    "arm": "censored_passive",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 37,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.9399999999999995,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 4,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636425958399999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 6,
+        "generated": 8,
+        "energy_j": 11.273830963200014,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 14,
+        "delivered": 11,
+        "generated": 13,
+        "energy_j": 16.911331526400044,
+        "debt_max": 0.96
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 19,
+        "delivered": 15,
+        "generated": 18,
+        "energy_j": 22.548776179200075,
+        "debt_max": 0.96
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 22,
+        "delivered": 19,
+        "generated": 23,
+        "energy_j": 28.186215993600108,
+        "debt_max": 0.985
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 26,
+        "delivered": 24,
+        "generated": 28,
+        "energy_j": 33.82368403200013,
+        "debt_max": 0.985
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 32,
+        "delivered": 29,
+        "generated": 33,
+        "energy_j": 39.46106108160016,
+        "debt_max": 0.985
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 36,
+        "delivered": 34,
+        "generated": 38,
+        "energy_j": 45.09848234880018,
+        "debt_max": 0.985
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 43,
+        "energy_j": 50.7360248448002,
+        "debt_max": 0.985
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 48,
+        "energy_j": 56.37368628479999,
+        "debt_max": 1.97
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 53,
+        "energy_j": 62.01134772479977,
+        "debt_max": 1.97
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 58,
+        "energy_j": 67.64900916479954,
+        "debt_max": 1.97
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 63,
+        "energy_j": 73.28667060479935,
+        "debt_max": 1.97
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 68,
+        "energy_j": 78.92433204479913,
+        "debt_max": 1.97
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 73,
+        "energy_j": 84.5619934847989,
+        "debt_max": 1.97
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 78,
+        "energy_j": 90.1996549247987,
+        "debt_max": 1.97
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 83,
+        "energy_j": 95.83731636479845,
+        "debt_max": 1.97
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 88,
+        "energy_j": 101.47497780479834,
+        "debt_max": 1.97
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 93,
+        "energy_j": 107.11263924479859,
+        "debt_max": 1.97
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 98,
+        "energy_j": 112.7503006847989,
+        "debt_max": 1.97
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 103,
+        "energy_j": 118.38798551039918,
+        "debt_max": 1.97
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 108,
+        "energy_j": 124.02564695039943,
+        "debt_max": 1.97
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 113,
+        "energy_j": 129.66330839039975,
+        "debt_max": 1.97
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 118,
+        "energy_j": 135.30096983040002,
+        "debt_max": 1.97
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 123,
+        "energy_j": 140.9386429632003,
+        "debt_max": 1.97
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 128,
+        "energy_j": 146.57630440320054,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 133,
+        "energy_j": 152.21396584320084,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 138,
+        "energy_j": 157.8516272832011,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 143,
+        "energy_j": 163.48930041600138,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 148,
+        "energy_j": 169.12696185600174,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 153,
+        "energy_j": 174.764623296002,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 158,
+        "energy_j": 180.4022847360022,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 163,
+        "energy_j": 186.0399461760026,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 168,
+        "energy_j": 191.6776076160028,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 173,
+        "energy_j": 197.31526905600307,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 178,
+        "energy_j": 202.95293049600338,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 183,
+        "energy_j": 208.59059193600353,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 188,
+        "energy_j": 214.22826506880375,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 193,
+        "energy_j": 219.86592650880405,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 198,
+        "energy_j": 225.50358794880424,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 203,
+        "energy_j": 231.14126108160448,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 208,
+        "energy_j": 236.7789342144047,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 213,
+        "energy_j": 242.41660734720497,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 218,
+        "energy_j": 248.0542687872052,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 223,
+        "energy_j": 253.69193022720538,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 228,
+        "energy_j": 259.32959166720565,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 233,
+        "energy_j": 264.96725310720586,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 238,
+        "energy_j": 270.6049262400061,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 243,
+        "energy_j": 276.2425876800063,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 248,
+        "energy_j": 281.88024912000657,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 253,
+        "energy_j": 287.5179105600068,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 258,
+        "energy_j": 293.15557200000706,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 263,
+        "energy_j": 298.79323344000727,
+        "debt_max": 3.84
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 268,
+        "energy_j": 304.43089488000743,
+        "debt_max": 3.84
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 273,
+        "energy_j": 310.0685563200077,
+        "debt_max": 3.84
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 278,
+        "energy_j": 315.706217760008,
+        "debt_max": 3.84
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 283,
+        "energy_j": 321.34387920000825,
+        "debt_max": 3.84
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 288,
+        "energy_j": 326.98154064000846,
+        "debt_max": 3.84
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 290,
+        "energy_j": 332.61920208000856,
+        "debt_max": 3.84
+      }
+    ],
+    "packets": 290,
+    "delivered": 39,
+    "delivery": 0.13448275862068965,
+    "critical_packets": 96,
+    "critical_violation": 0.8229166666666666,
+    "radio_energy_j": 338.25687521280884,
+    "energy_per_delivered_byte": 0.16679333097278543,
+    "sink_energy_j": 3.381970763520138,
+    "phy_tx_frames": 12438,
+    "phy_tx_bytes": 922630,
+    "proof_requests": 0,
+    "data_requests": 78,
+    "beacon_requests": 12120,
+    "beacon_receptions": 279330,
+    "positive_updates": 63,
+    "negative_updates": 0,
+    "censored_events": 3,
+    "timeouts": 3,
+    "benign_relay_timeouts": 1,
+    "data_mac_failures": 3,
+    "decisions": 78,
+    "source_receipts": 38,
+    "mean_delivered_delay_s": 0.012970626256410172
+  },
+  {
+    "seed": 84003,
+    "setting": "blackhole",
+    "arm": "frozen_prior",
+    "duration_s": 60.0,
+    "interval_s": 0.2,
+    "peak_pending": 0,
+    "peak_watches": 37,
+    "handle_exhaustions": 0,
+    "terminal_source_debt_max": 3.9399999999999995,
+    "samples": [
+      {
+        "time": 0.0,
+        "pending_max": 0,
+        "watches": 0,
+        "delivered": 0,
+        "generated": 0,
+        "energy_j": 0.0,
+        "debt_max": 0.0
+      },
+      {
+        "time": 1.0,
+        "pending_max": 0,
+        "watches": 4,
+        "delivered": 3,
+        "generated": 3,
+        "energy_j": 5.636425958399999,
+        "debt_max": 0.0
+      },
+      {
+        "time": 2.0,
+        "pending_max": 0,
+        "watches": 12,
+        "delivered": 6,
+        "generated": 8,
+        "energy_j": 11.273830963200014,
+        "debt_max": 0.0
+      },
+      {
+        "time": 3.0,
+        "pending_max": 0,
+        "watches": 14,
+        "delivered": 11,
+        "generated": 13,
+        "energy_j": 16.911331526400044,
+        "debt_max": 0.96
+      },
+      {
+        "time": 4.0,
+        "pending_max": 0,
+        "watches": 19,
+        "delivered": 15,
+        "generated": 18,
+        "energy_j": 22.548776179200075,
+        "debt_max": 0.96
+      },
+      {
+        "time": 5.0,
+        "pending_max": 0,
+        "watches": 22,
+        "delivered": 19,
+        "generated": 23,
+        "energy_j": 28.186215993600108,
+        "debt_max": 0.985
+      },
+      {
+        "time": 6.0,
+        "pending_max": 0,
+        "watches": 26,
+        "delivered": 24,
+        "generated": 28,
+        "energy_j": 33.82368403200013,
+        "debt_max": 0.985
+      },
+      {
+        "time": 7.0,
+        "pending_max": 0,
+        "watches": 32,
+        "delivered": 29,
+        "generated": 33,
+        "energy_j": 39.46106108160016,
+        "debt_max": 0.985
+      },
+      {
+        "time": 8.0,
+        "pending_max": 0,
+        "watches": 36,
+        "delivered": 34,
+        "generated": 38,
+        "energy_j": 45.09848234880018,
+        "debt_max": 0.985
+      },
+      {
+        "time": 9.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 43,
+        "energy_j": 50.7360248448002,
+        "debt_max": 0.985
+      },
+      {
+        "time": 10.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 48,
+        "energy_j": 56.37368628479999,
+        "debt_max": 1.97
+      },
+      {
+        "time": 11.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 53,
+        "energy_j": 62.01134772479977,
+        "debt_max": 1.97
+      },
+      {
+        "time": 12.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 58,
+        "energy_j": 67.64900916479954,
+        "debt_max": 1.97
+      },
+      {
+        "time": 13.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 63,
+        "energy_j": 73.28667060479935,
+        "debt_max": 1.97
+      },
+      {
+        "time": 14.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 68,
+        "energy_j": 78.92433204479913,
+        "debt_max": 1.97
+      },
+      {
+        "time": 15.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 73,
+        "energy_j": 84.5619934847989,
+        "debt_max": 1.97
+      },
+      {
+        "time": 16.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 78,
+        "energy_j": 90.1996549247987,
+        "debt_max": 1.97
+      },
+      {
+        "time": 17.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 83,
+        "energy_j": 95.83731636479845,
+        "debt_max": 1.97
+      },
+      {
+        "time": 18.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 88,
+        "energy_j": 101.47497780479834,
+        "debt_max": 1.97
+      },
+      {
+        "time": 19.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 93,
+        "energy_j": 107.11263924479859,
+        "debt_max": 1.97
+      },
+      {
+        "time": 20.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 98,
+        "energy_j": 112.7503006847989,
+        "debt_max": 1.97
+      },
+      {
+        "time": 21.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 103,
+        "energy_j": 118.38798551039918,
+        "debt_max": 1.97
+      },
+      {
+        "time": 22.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 108,
+        "energy_j": 124.02564695039943,
+        "debt_max": 1.97
+      },
+      {
+        "time": 23.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 113,
+        "energy_j": 129.66330839039975,
+        "debt_max": 1.97
+      },
+      {
+        "time": 24.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 118,
+        "energy_j": 135.30096983040002,
+        "debt_max": 1.97
+      },
+      {
+        "time": 25.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 123,
+        "energy_j": 140.9386429632003,
+        "debt_max": 1.97
+      },
+      {
+        "time": 26.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 128,
+        "energy_j": 146.57630440320054,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 27.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 133,
+        "energy_j": 152.21396584320084,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 28.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 138,
+        "energy_j": 157.8516272832011,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 29.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 143,
+        "energy_j": 163.48930041600138,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 30.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 148,
+        "energy_j": 169.12696185600174,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 31.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 153,
+        "energy_j": 174.764623296002,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 32.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 158,
+        "energy_j": 180.4022847360022,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 33.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 163,
+        "energy_j": 186.0399461760026,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 34.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 168,
+        "energy_j": 191.6776076160028,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 35.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 173,
+        "energy_j": 197.31526905600307,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 36.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 178,
+        "energy_j": 202.95293049600338,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 37.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 183,
+        "energy_j": 208.59059193600353,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 38.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 188,
+        "energy_j": 214.22826506880375,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 39.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 193,
+        "energy_j": 219.86592650880405,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 40.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 198,
+        "energy_j": 225.50358794880424,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 41.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 203,
+        "energy_j": 231.14126108160448,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 42.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 208,
+        "energy_j": 236.7789342144047,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 43.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 213,
+        "energy_j": 242.41660734720497,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 44.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 218,
+        "energy_j": 248.0542687872052,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 45.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 223,
+        "energy_j": 253.69193022720538,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 46.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 228,
+        "energy_j": 259.32959166720565,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 47.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 233,
+        "energy_j": 264.96725310720586,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 48.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 238,
+        "energy_j": 270.6049262400061,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 49.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 243,
+        "energy_j": 276.2425876800063,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 50.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 248,
+        "energy_j": 281.88024912000657,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 51.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 253,
+        "energy_j": 287.5179105600068,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 52.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 258,
+        "energy_j": 293.15557200000706,
+        "debt_max": 2.9549999999999996
+      },
+      {
+        "time": 53.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 263,
+        "energy_j": 298.79323344000727,
+        "debt_max": 3.84
+      },
+      {
+        "time": 54.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 268,
+        "energy_j": 304.43089488000743,
+        "debt_max": 3.84
+      },
+      {
+        "time": 55.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 273,
+        "energy_j": 310.0685563200077,
+        "debt_max": 3.84
+      },
+      {
+        "time": 56.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 278,
+        "energy_j": 315.706217760008,
+        "debt_max": 3.84
+      },
+      {
+        "time": 57.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 283,
+        "energy_j": 321.34387920000825,
+        "debt_max": 3.84
+      },
+      {
+        "time": 58.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 288,
+        "energy_j": 326.98154064000846,
+        "debt_max": 3.84
+      },
+      {
+        "time": 59.0,
+        "pending_max": 0,
+        "watches": 37,
+        "delivered": 39,
+        "generated": 290,
+        "energy_j": 332.61920208000856,
+        "debt_max": 3.84
+      }
+    ],
+    "packets": 290,
+    "delivered": 39,
+    "delivery": 0.13448275862068965,
+    "critical_packets": 96,
+    "critical_violation": 0.8229166666666666,
+    "radio_energy_j": 338.25687521280884,
+    "energy_per_delivered_byte": 0.16679333097278543,
+    "sink_energy_j": 3.381970763520138,
+    "phy_tx_frames": 12438,
+    "phy_tx_bytes": 922630,
+    "proof_requests": 0,
+    "data_requests": 78,
+    "beacon_requests": 12120,
+    "beacon_receptions": 279330,
+    "positive_updates": 0,
+    "negative_updates": 0,
+    "censored_events": 3,
+    "timeouts": 3,
+    "benign_relay_timeouts": 1,
+    "data_mac_failures": 3,
+    "decisions": 78,
+    "source_receipts": 38,
+    "mean_delivered_delay_s": 0.012970626256410172
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "attention_division_numeric_identity": true,
+  "model_parameters": 63368,
+  "actor_only_parameters": 44161,
+  "full_fp32_bytes": 253472,
+  "actor_only_fp32_bytes": 176644,
+  "static_floor_example": {
+    "q": 0.04,
+    "two_half_credit": 0.10000000000000009,
+    "one_full_credit": 0.050000000000000044
+  },
+  "equation_structure": {
+    "2": "native fraction present",
+    "5": "native fraction present",
+    "7": "native fraction present",
+    "8": "native summation present",
+    "10": "native fraction present",
+    "9": "native summation present"
+  },
+  "source_sha256": {
+    "src/wsn_sim/rl.py": "b9f767c410f84054f70bb1d4cc1f22411ccbfae2f753acf8e83a37485f721fd0",
+    "src/wsn_sim/security.py": "1861926df182dad103dd41c93b7653716a3be25e08323489ec025ae005afaae2"
+  },
+  "embedded_memory_measured": false
+}

@@ -1,0 +1,263 @@
+{
+  "status": "passed",
+  "long_runs": 18,
+  "sensitivity_runs": 33,
+  "fixtures_per_extension": 3,
+  "source_inputs": {
+    "outputs/review_long_horizon/300s_84001/summary_84001_84003.json": "e258cf1683a59e6ac8a800313b45ebd2a7dbb90721b4b4440b2ab63f7a93d5a2",
+    "outputs/review_long_horizon/60s_84001/summary_84001_84003.json": "4ea134afee4cc64e8960d19b598783bae1b299f7fa98288cf459367b24a4926b",
+    "outputs/review_sensitivity/w-1_1/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w0_0.8/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w0_1.2/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w1_0.8/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w1_1.2/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w2_0.8/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w2_1.2/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w3_0.8/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w3_1.2/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w4_0.8/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0",
+    "outputs/review_sensitivity/w4_1.2/summary_85001_85003.json": "de85a91278371bf9c9ec985eba7d74eb53a1b7314fb2fddab9155f19a65ee7c0"
+  },
+  "long_groups": [
+    {
+      "duration_s": 60,
+      "arm": "active_proof",
+      "n": 3,
+      "packets_per_run": 290,
+      "delivery_mean_percent": 13.448275862068966,
+      "critical_failure_mean_percent": 85.13486312399355,
+      "source_debt_max": 3.9399999999999995,
+      "handle_exhaustions": 0,
+      "retained_watch_max": 40
+    },
+    {
+      "duration_s": 60,
+      "arm": "censored_passive",
+      "n": 3,
+      "packets_per_run": 290,
+      "delivery_mean_percent": 13.10344827586207,
+      "critical_failure_mean_percent": 85.11976650563606,
+      "source_debt_max": 3.9399999999999995,
+      "handle_exhaustions": 0,
+      "retained_watch_max": 39
+    },
+    {
+      "duration_s": 60,
+      "arm": "frozen_prior",
+      "n": 3,
+      "packets_per_run": 290,
+      "delivery_mean_percent": 12.988505747126437,
+      "critical_failure_mean_percent": 85.42840848094471,
+      "source_debt_max": 3.9399999999999995,
+      "handle_exhaustions": 0,
+      "retained_watch_max": 39
+    },
+    {
+      "duration_s": 300,
+      "arm": "active_proof",
+      "n": 3,
+      "packets_per_run": 1490,
+      "delivery_mean_percent": 2.61744966442953,
+      "critical_failure_mean_percent": 97.22353753340093,
+      "source_debt_max": 15.360000000000007,
+      "handle_exhaustions": 0,
+      "retained_watch_max": 40
+    },
+    {
+      "duration_s": 300,
+      "arm": "censored_passive",
+      "n": 3,
+      "packets_per_run": 1490,
+      "delivery_mean_percent": 2.5503355704697985,
+      "critical_failure_mean_percent": 97.22306286187363,
+      "source_debt_max": 15.360000000000007,
+      "handle_exhaustions": 0,
+      "retained_watch_max": 39
+    },
+    {
+      "duration_s": 300,
+      "arm": "frozen_prior",
+      "n": 3,
+      "packets_per_run": 1490,
+      "delivery_mean_percent": 2.5279642058165552,
+      "critical_failure_mean_percent": 97.2866760934258,
+      "source_debt_max": 15.360000000000007,
+      "handle_exhaustions": 0,
+      "retained_watch_max": 39
+    }
+  ],
+  "sensitivity_effects": [
+    {
+      "weight": "Progress",
+      "factor": 0.8,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "Progress",
+      "factor": 1.2,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "MAC success",
+      "factor": 0.8,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "MAC success",
+      "factor": 1.2,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "Energy",
+      "factor": 0.8,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "Energy",
+      "factor": 1.2,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "Risk",
+      "factor": 0.8,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "Risk",
+      "factor": 1.2,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "Queue",
+      "factor": 0.8,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "weight": "Queue",
+      "factor": 1.2,
+      "paired_delivery_points": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "range": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "math": {
+    "status": "passed",
+    "attention_division_numeric_identity": true,
+    "model_parameters": 63368,
+    "actor_only_parameters": 44161,
+    "full_fp32_bytes": 253472,
+    "actor_only_fp32_bytes": 176644,
+    "static_floor_example": {
+      "q": 0.04,
+      "two_half_credit": 0.10000000000000009,
+      "one_full_credit": 0.050000000000000044
+    },
+    "equation_structure": {
+      "2": "native fraction present",
+      "5": "native fraction present",
+      "7": "native fraction present",
+      "8": "native summation present",
+      "10": "native fraction present",
+      "9": "native summation present"
+    },
+    "source_sha256": {
+      "src/wsn_sim/rl.py": "b9f767c410f84054f70bb1d4cc1f22411ccbfae2f753acf8e83a37485f721fd0",
+      "src/wsn_sim/security.py": "1861926df182dad103dd41c93b7653716a3be25e08323489ec025ae005afaae2"
+    },
+    "embedded_memory_measured": false
+  },
+  "limitations": [
+    "Post-review exploratory runs, not added confirmatory hypotheses.",
+    "Always-listening radio continues callbacks after routing energy gate closes; cumulative energy is not physically battery-limited.",
+    "1-second pending-map samples can miss queue transients; zero handle-exhaustion events do not prove zero MAC queue drops.",
+    "No duty-cycled MAC or clock-drift experiment; no embedded policy/crypto feasibility claim."
+  ]
+}

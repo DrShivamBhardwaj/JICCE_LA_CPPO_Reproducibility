@@ -16,6 +16,6 @@
   "png_dpi": 600,
   "style": "Vector diagrams and exact paired observations/intervals. No bitmap generative images, fabricated observations or data smoothing.",
   "statistics": "Figures 4\u20136: retained unadjusted paired t intervals; original Holm decision rule unchanged. Figure 8: retained exploratory paired percentile bootstrap intervals. No new tests.",
-  "figure3": "PRISMA-inspired experimental accounting, not systematic-review screening.",
+  "figure3": "Experimental protocol pipeline with complete retained-run accounting.",
   "literature_review": "SciSpace search and limitations extraction informed the separation of modeled energy and emulated execution; external studies are not used as baseline data."
 }
