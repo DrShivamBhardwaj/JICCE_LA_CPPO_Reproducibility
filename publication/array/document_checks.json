@@ -1,5 +1,5 @@
 {
-  "abstract_words": 215,
+  "abstract_words": 198,
   "native_equations": 10,
   "figures": 10,
   "tables": 7,
@@ -14,17 +14,17 @@
     "algorithm_in_body": 1
   },
   "rendered_pages": 22,
-  "visual_review": "all pages inspected, unchanged pages compared byte-for-byte across final renders",
-  "new_long_horizon_runs": 18,
-  "new_coefficient_sensitivity_runs": 33,
-  "math_numeric_audit": "passed",
-  "targeted_regression_tests": 19,
-  "compiled_mcu_emulation": true,
-  "embedded_policy_crypto_validation": false,
-  "duty_cycled_mac_validation": false,
-  "clock_drift_validation": false,
-  "long_run_stability_validated": false,
-  "all_author_approvals_received": false,
-  "full_regression_tests_passed": 83,
-  "full_regression_seconds": 5.12
+  "latest_editorial_paragraphs": 35,
+  "algorithm_numbered_lines": 17,
+  "algorithm_indentation_levels": 3,
+  "all_pages_visually_verified": true,
+  "numerical_literals_preserved": true,
+  "hashes_and_fixture_ids_preserved": true,
+  "long_horizon_runs": 18,
+  "sensitivity_runs": 33,
+  "embedded_policy_and_cryptography_validated": false,
+  "duty_cycled_mac_validated": false,
+  "clock_drift_validated": false,
+  "stability_validated": false,
+  "coauthor_approvals_confirmed": false
 }

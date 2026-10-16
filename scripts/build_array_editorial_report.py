@@ -1,0 +1,57 @@
+from pathlib import Path
+import json,re
+from docx import Document
+R=Path('.');P=R/'publication/array';doc=Document(P/'Array_Manuscript.docx');changes=json.loads((P/'editorial_changes.json').read_text())
+sections={};current='Front matter'
+for p in doc.paragraphs:
+ if p.style.name.startswith('Heading') or p.text in ['Abstract','Acknowledgments','Declaration of generative AI use','References']:current=p.text
+ sections[p.text]=current
+notes={
+'Abstract':('The prior abstract spent too much space listing implementation stages before stating the benchmark contribution. It also needed one clear boundary between host execution and emulated firmware.','The revision leads with the feedback problem and controlled comparison. The 750-run result, 180-run transport study and exploratory stress result remain distinct. The full abstract is below 250 words.'),
+'1. Introduction':('A rhetorical question and repeated statements about what the work does not invent weakened the contribution. An improvement over active proofs must not be presented as proof of attention or censoring superiority.','Replaced the rhetorical question with the actual contrast and decision rule. The contribution now identifies ACK eligibility, record-level maximum strength and censored missing evidence before discussing attribution.'),
+'2. System model and methods':('State indices were underspecified. Packet-level evidence and pair-level effective counts were conflated, q denoted both link success and a neural query, and source debt was described too similarly to the evaluated sink-delay endpoint.','Defined all indices, guarded Eq. (4), fixed the registration-time convention for q and distinguished receipt-age debt from sink-arrival violations. Native displays (1)–(6) remain unchanged because they already match the executable formulas.'),
+'3. Experimental design':('The source-freeze paragraph repeated the pipeline description. Descriptive intervals could be mistaken for multiplicity-adjusted evidence.','Condensed the pipeline prose while retaining both complete source hashes, all fixture identifiers and the pairing caveat. The distinction between unadjusted t intervals, Holm-adjusted p-values and exploratory bootstrap intervals is retained.'),
+'4. Results':('The phrase “only the blackhole delivery comparison survived” could be misread as denying the significant energy-per-byte result. The tiny total-energy increase could also appear inconsistent after rounding the arm means.','Restricted the significance statement explicitly to delivery contrasts. Reported the mean energy difference as calculated before rounding. Kept total energy, energy per delivered byte and PHY transmission count separate.'),
+'5. Authenticated transport and virtual validation':('The negative attention–greedy difference does not prove greedy superiority. Feature-shift explanations are hypotheses, not identified causes. Full actor–critic weight storage is not an unavoidable actor-only deployment footprint.','Consolidated null-result interpretation and host/MCU boundaries. Retained exact sample sizes, receipt counts and signatures. Post-review stress tests report failure rather than being used to imply sustained operation.'),
+'6. Discussion':('The discussion repeated attribution caveats and risked calling all sensitivity unknown despite the added coefficient experiment.','Recast the attribution argument and limited the unknown-sensitivity statement to settings not varied in Section 5.5. Clock drift, duty cycling, state provenance and record reclamation remain open validation questions.'),
+'7. Conclusions':('The contribution and deployment boundary were separated by a long list of implementation stages.','Condensed the conclusion around the controlled replacement result, null controls, separate authenticated study and explicitly host-controlled MCU bridge. The negative 60–300 s extension remains visible.')}
+out=['# Section by section editorial review and revised passages','',
+'**Editorial assessment:** The manuscript is defensible as a reproducible feedback benchmark with an authenticated host-routing implementation and emulated radio bridge. The evidence does not support presentation as a superior neural routing protocol, a battery-realistic long-lived deployment or an embedded inference achievement. Publication suitability remains a reviewer/editor decision.','',
+'**Scope:** This pass changes prose, definitions and pseudocode formatting. It does not retrain a policy, change a simulator, replace a checkpoint or add statistical tests. All ten native equations, seven tables and ten figure images are preserved byte-for-byte against the preceding verified manuscript.','']
+for name,(critique,action) in notes.items():
+ out += ['## '+name,'','**Critical vulnerabilities and limitations.** '+critique,'','**Revision.** '+action,'']
+ for e in changes:
+  sec=sections.get(e['after'],'')
+  match=(name=='Abstract' and sec=='Abstract') or (name!='Abstract' and sec.startswith(name.split('.')[0]+'.'))
+  if match:out += ['**Specific improvement:** '+e['reason'],'','**Revised text:** '+e['after'],'']
+out += ['## Equations 1–6 coherence audit','',
+'| Equation | Indices and units | Verified interpretation |','|---|---|---|',
+'| (1) | Observer u, candidate v; score and features dimensionless | g is progress/50 m; energy is normalized by 0.5 J; queue pressure by 32. The coefficients are hand-set. R comes from Eq. (5). |',
+'| (2) | Context at u and candidate link (u,v); 96-dimensional learned projections | Query–key product is divided by √96. qθ is a neural transform, distinct from link probability q. Numeric tensor identity was verified in the preceding math audit. |',
+'| (3) | Record (u,v,p); s begins at 0, stays in [0,1] | Maximum of previous evidence, 0.5 for a matched forwarding event and 1 for a matched receipt. Duplicate events cannot increase s beyond the retained maximum. |',
+'| (4) | α belongs to pair (u,v); s and c to record (u,v,p); all dimensionless | Execute only after own-hop ACK success and s>c. q is the estimate cached at registration. Increment α using clip(q(s−c),0.05,1), then c←s. The floor is heuristic and can distort split credit. |',
+'| (5) | Pair-specific α, β, ρ, σ and R; all dimensionless | β remains 1 in the censored arm. 1.645×0.75σ is an uncalibrated score augmentation, not a Bayesian quantile or 95% bound. |',
+'| (6) | Fixed source, class c, settlement-event update; source/event indices suppressed | Zc is a virtual service debt. Online violation uses receipt age or expiry; evaluated V uses sink-arrival delay. The recurrence is not a queue-stability theorem. |','',
+'### Portable mathematical reading','',
+'For Eq. (4), let δ = s_uvp − c_uvp. The displayed update is evaluated **only if** the first-hop ACK succeeded and δ>0. Otherwise α and c do not change. This guard prevents clip(0,0.05,1) from creating credit in the absence of new evidence. It follows the implementation and is not a new update rule.','',
+'For Eq. (6), at a fixed source the event-indexed reading is Z_c(n+1)=max{0,Z_c(n)+I_c(n)−b_c}. Here n indexes settled class-c packets. I_c(n) uses receipt availability/age at the source, whereas Eq. (8) uses reception at the sink. A timely sink delivery can therefore coexist with a source-observed violation.','',
+'## Algorithm indentation and semantics','',
+'Algorithm 1 now uses 17 numbered lines with three indentation depths. Routing requests, first-hop outcomes, evidence events, polling and source settlement are separate event branches. Successful ACK/evidence events share the Eq. (4) credit guard. The heading explicitly scopes the procedure to censored passive; Table 3 retains the distinct active, naive, frozen and capacity-control semantics. Late matched evidence—not only a late receipt—can upgrade an acknowledged censored record. Non-sink registration and the once-only source settlement rule are explicit.','',
+'## Figure to text and statistical cross references','',
+'| Figure | Data or implementation anchor | Narrative check |','|---|---|---|',
+'| 1 | ns-3 callback path, simulator cache, shared visited/reverse state | Source-held metadata and non-serialized routing state remain visible; no distributed-state claim is imported from Section 5. |',
+'| 2 | FeedbackLedger event logic | ACK gating, retained maximum and late upgrades agree with the revised algorithm; Eq. (4) remains conditional. |',
+'| 3 | Frozen source 4027f071322cb5682f39329f656d76df3b68ff62 | Development 76001–76030, pilot 76901, holdout 77001–77030, 750 runs and 45,000 offered packets agree. |',
+'| 4 | Frozen delivery paired analysis | Common −2 to +9 point axes; bars are unadjusted 95% t intervals. Visual exclusion of zero is not substituted for the Holm rule. |',
+'| 5 | 30 paired blackhole fixtures and all four controls | +4.67 points against active proofs; −0.17, +0.06 and +0.44 against the other controls remain unadjusted effect displays. |',
+'| 6 | PHY-state energy attribution | Total energy increases slightly; energy per byte falls; receive/listen share is 99.36%. Units are mJ, mJ/byte and frames. Holm p=0.0239 for energy per byte comes from the retained test family, not plotted interval adjustment. |',
+'| 7 | Authenticated host, PTY and Renode branches | Host executes policy/HMAC/Ed25519. Emulated MCU executes C UART/FIFO/MAC-ACK bridge. Ten-packet functional checks do not estimate deployment reliability. |',
+'| 8 | 180 authenticated runs and retained exploratory bootstrap analysis | All four delivery-effect intervals cross zero; no attention or greedy superiority claim. 10,000 paired resamples, seed 94001. |',
+'| 9 | 18 executed 60/300 s runs, 3 fixtures per arm/horizon | Figure shows the 300 s trajectories: delivery plateau, rising debt, retained records. It is evidence against sustained-operation claims under the tested model. |',
+'| 10 | 33 coefficient-sensitivity runs | Ten perturbations × 3 fixtures give 30 zero delivery contrasts. The baseline adds 3 runs. Shown ranges are observed ranges, not CIs or equivalence tests. |','',
+'## Critical vulnerabilities and limitations that editing cannot resolve','',
+'- The benchmark changes feedback semantics together with traffic, so the active-proof contrast cannot isolate airtime cost.','- Three-fixture stress and sensitivity extensions are exploratory. Flat sensitivity endpoints do not prove broad parameter robustness.','- PHY accounting continues after the routing energy gate closes; post-depletion energy is not battery-realistic operation.','- Duty-cycled MAC performance, clock drift, embedded inference/cryptography, peak MCU SRAM and measured physical energy remain unvalidated.','- Open raw traces and repeated checks strengthen reproducibility but do not supply an independent radio implementation or external packet capture.','',
+'## High novelty opportunities','',
+'The strongest next study would match feedback semantics across arms and decide when to acquire forwarding evidence under measured wake-up and authentication costs. Reserve new topologies before testing, compare a low-cost greedy controller with a learned acquisition policy, and report event-log memory reclamation and deadline-debt growth under sustained traffic. This would test the value of evidence acquisition rather than re-labeling the current null architecture comparisons as a routing advance.','']
+(R/'docs/ARRAY_SECTION_BY_SECTION_EDITORIAL_REVIEW.md').write_text('\n'.join(out)+'\n')
+print({'edited_paragraphs':len(changes),'feedback_words':len(' '.join(out).split())})

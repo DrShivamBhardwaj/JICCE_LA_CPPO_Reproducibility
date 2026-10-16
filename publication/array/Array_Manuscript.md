@@ -12,7 +12,7 @@ Abhinandan Tripathi: abhinandan282@bit.ac.in
 
 Abstract
 
-Routing feedback uses airtime, yet an absent observation may say little about whether a relay forwarded a packet. We examine receipt-assisted passive feedback and the transfer of frozen routing policies to an authenticated transport. A prespecified study comprises 750 IEEE 802.15.4 simulation runs on 30 new fixtures, with active-proof, naive-passive, frozen-prior and capacity-matched policy controls. Under blackholes, delivery rises from 71.28% with active proofs to 75.94% with censored passive feedback: a paired improvement of 4.67 percentage points (95% interval 2.36–6.97; Holm-adjusted p=0.0161). Energy per delivered byte falls, although total modeled radio energy increases slightly. A separate 180-run study evaluates attention, multilayer perceptron and greedy routing with serialized neighbor state, hop authentication, replay protection and signed sink receipts. Attention delivers 81.61% of packets in benign conditions and 61.11% under selective dropping; the paired comparisons do not establish an advantage over either control. Serial-interface tests reveal a receive-time freshness error, corrected before repeat testing. Compiled UART-to-radio bridge firmware runs on four emulated Cortex-M3 boards; neural inference and cryptography execute on the host PC. Each host-policy control delivers ten of ten packets. Post-review 60–300 s stress runs expose early routing-energy exhaustion and increasing service debt. The evidence supports the tested feedback replacement and verifies specific implementation paths. Physical-board operation, measured energy consumption and absolute deadline compliance remain unvalidated.
+Missing forwarding evidence can reflect packet loss, contention or an unobserved transmission, making feedback design a joint problem of inference and airtime. We benchmark ACK-gated censored passive feedback against active proofs in 750 IEEE 802.15.4 runs on 30 new fixtures, with naive-passive, frozen-prior and capacity-matched policy controls. Under blackholes, delivery increases from 71.28% to 75.94%, a paired gain of 4.67 percentage points (95% interval 2.36–6.97; Holm-adjusted p=0.0161). Energy per delivered byte falls while total modeled radio energy rises slightly. The controls do not establish a unique censoring or attention advantage. A separate 180-run experiment tests frozen policies over authenticated messages and node-local records. Attention delivers 81.61% in benign conditions and 61.11% under selective dropping, without an established advantage over greedy or multilayer-perceptron routing. Serial-interface testing identifies and corrects a receive-time freshness error. Compiled UART-to-radio firmware runs on four emulated Cortex-M3 boards; neural inference and cryptography execute on the host PC. Each host-policy control delivers ten of ten packets. An exploratory 60–300 s extension exposes routing-energy exhaustion and increasing service debt. The contribution is a traceable comparison of feedback mechanisms and transport boundaries; the evidence does not establish sustained operation, physical-board performance, measured energy consumption or absolute deadline compliance.
 
 Keywords: Wireless sensor networks; Routing feedback; Authentication; Policy transfer; Reproducibility; Virtual validation
 
@@ -26,13 +26,13 @@ Recent studies combine trust with edge-assisted routing [6], optimizer-based nex
 
 Table 1. Literature and experimental focus
 
-Our earlier architecture comparisons found no joint advantage over a multilayer perceptron of similar capacity. A subsequent 600-run telemetry study reached the same conclusion after correction for multiple testing and exposed the traffic cost of active proofs. Those results, including their raw outputs, are retained. They motivated the present experiment: can receipt-assisted passive feedback replace active proofs while staying within prespecified margins against a frozen-prior control on new fixtures?
+Earlier architecture comparisons found no joint advantage over a multilayer perceptron of similar capacity. A subsequent 600-run telemetry study likewise found no advantage after correction for multiple testing and exposed the traffic cost of active proofs. Both stages and their raw outputs are retained. They motivated the present comparison of receipt-assisted passive feedback with active proofs, subject to prespecified margins against a frozen-prior control on new fixtures.
 
 1.1 Benchmark contribution
 
-We compare feedback rules that differ in how they admit and retain evidence. A first-hop acknowledgment makes an observation eligible for credit; each record retains its strongest observation, and absent observations remain censored. Packet-reception callbacks connect these rules to simulated radio events. The contribution lies in the controlled comparison and its traceable implementation, building on established watchdog, censoring and learning methods. Figure 1 locates the simulator-held state, and Fig. 2 shows the observer's event logic.
+The technical contribution is a controlled comparison of feedback eligibility, evidence retention and missing-observation handling. Own first-hop ACK success gates credit; an observer–relay–packet record retains its strongest matched observation; missing evidence leaves the effective failure count unchanged. Packet-reception callbacks connect the ledger to simulated radio events. Figures 1 and 2 show the state boundaries and event logic, respectively. The benchmark builds on established watchdog, censoring and learning methods.
 
-The benchmark tests blackhole delivery against active proofs under the prespecified multiple-testing rule. Delivery, critical-service and energy-efficiency margins against frozen-prior attention assess whether the feedback mechanism can be replaced. Naive-passive and capacity-matched controls test attribution to censoring or policy architecture. These comparisons distinguish a useful replacement from a unique algorithmic advantage.
+The prespecified decision combines a blackhole delivery comparison against active proofs with delivery, critical-service and energy-efficiency margins against frozen-prior attention. Naive-passive and capacity-matched controls assess whether the outcome can be attributed specifically to censoring or policy architecture. An improvement over active proofs alone cannot establish either attribution.
 
 A second implementation stage examines whether the frozen policies can use authenticated messages and node-local transit records. It comprises 180 new radio runs and separate serial-interface and firmware-emulation checks. Sections 2–4 report the feedback benchmark; Section 5 describes the authenticated transport and evaluates it separately. Its changed observation model prevents carrying the earlier performance claim into this branch.
 
@@ -54,21 +54,21 @@ A received beacon creates or refreshes an observer-specific cache entry containi
 
 		(1)
 
-• g is sinkward progress divided by 50 m; q is estimated MAC success probability; both are dimensionless.
+• For observer u and candidate v, g is sinkward progress divided by 50 m and q is the current estimated MAC success probability; both are dimensionless.
 
-• e is remaining modeled energy divided by 0.5 J, Q is pending-request pressure normalized by 32, and R is the evidence-risk upper proxy; all are dimensionless.
+• Candidate energy fraction e is remaining modeled energy divided by 0.5 J; Q is pending-request pressure normalized by 32; R is the dimensionless risk score from Eq. (5). The preselection score S is dimensionless.
 
-The observation contains 13 context values and eight candidate rows of ten values each. Context records local energy and queue state, normalized sink distance, remaining deadline, traffic class and six source-service debts. A candidate row records whether the node is the sink, its energy fraction, estimated MAC success, received link quality, queue pressure, sinkward progress, evidence risk and uncertainty, expected retries and normalized link delay. During radio transfer, received link-quality indication replaces the RSSI proxy used in training. The weights remain fixed despite this feature shift.
+The observation contains 13 context values and eight candidate rows of ten values each. Context records local energy and queue state, normalized sink distance, remaining deadline, traffic class and six node-local service-debt coordinates, updated only at sources in this benchmark. A candidate row records whether the node is the sink, its energy fraction, estimated MAC success, received link quality, queue pressure, sinkward progress, evidence risk and uncertainty, expected retries and normalized link delay. During radio transfer, received link-quality indication replaces the RSSI proxy used in training. The weights remain fixed despite this feature shift.
 
-The coefficients in Eq. (1) are fixed hand-set preselection constants, rather than learned parameters. The retained source records their values but supplies no systematic tuning record. They are treated as benchmark settings. Equation (2) divides the query–key product by the square root of 96 in both the native equation and the PyTorch implementation; multiplication by that factor is not implemented.
+Equation (1) uses hand-set preselection coefficients, not learned parameters. The retained source records the values but contains no systematic tuning history. The later ±20% coefficient experiment in Section 5.5 is a local sensitivity check and does not retrospectively optimize this score. Equation (2) divides the query–key product by the square root of 96, as implemented in PyTorch.
 
 Shared encoders map context x and candidate h to separate 96-dimensional representations. Their query–key interaction and a shared candidate bias give the action logit:
 
 		(2)
 
-• ℓ is a dimensionless action logit; x and h are the context and candidate feature vectors.
+• For context vector x at observer u and candidate feature vector h for link (u,v), ℓ is a dimensionless action logit. Both feature vectors contain normalized, dimensionless coordinates in the frozen benchmark.
 
-• qθ and kθ are learned query/key transforms and bθ is a learned candidate bias; θ is fixed throughout transfer.
+• qθ and kθ are learned query and key transforms; bθ is the learned scalar candidate bias. The symbol qθ denotes a neural transform, whereas q in Eqs. (1) and (4) denotes link success. Parameters θ are fixed during evaluation.
 
 A masked argmax chooses the relay. Candidate encoders share their weights, and the critic pools valid candidates by a masked mean, following the set-function motivation in [14]. The attention model has 63,368 parameters; the capacity-matched perceptron has 63,554 parameters and 203 hidden units. Candidates are ranked by the preselection score, with configured node identity breaking ties. Shared scoring therefore does not make the entire routing pipeline invariant to arbitrary node relabeling.
 
@@ -76,33 +76,33 @@ Both model families were trained on seeds 41001–41030 for 400 episodes per see
 
 2.3 Receipt assisted censored evidence
 
-Observer u keeps one record for selected relay v and packet p. It stores the expected first-link success, ACK status, expiry time, strongest observation and credit already assigned. A matched overheard data frame has strength 0.5; a reverse receipt generated by sink delivery has strength 1. Repeated receptions cannot accumulate credit because the record retains only the maximum strength:
+Observer u maintains a separate record for each selected sensor relay v and packet p. Evidence strength s and credited strength c are indexed by that record; effective counts α and β are shared across records for the same observer–relay pair. Each record stores the link-success estimate at registration, ACK status and expiry. A matched overheard forwarding frame contributes strength 0.5 and a reverse receipt generated by sink delivery contributes strength 1.0. Equation (3) retains the maximum, suppressing duplicate credit.
 
 		(3)
 
-• s is the strongest evidence strength, dimensionless and bounded by 1.
+• s is the strongest matched evidence for record (u,v,p), initialized to 0 and bounded by 1; it is dimensionless.
 
-• I_overheard and I_receipt indicate matched received forwarding frames and reverse receipts, respectively; they are dimensionless binary observations.
+• I_overheard and I_receipt are dimensionless binary indicators of a matched forwarding-frame event and reverse-receipt event for the same record. Their weights are 0.5 and 1 in Eq. (3).
 
-An observation earns credit only after the observer receives a successful MAC acknowledgment for its own transmission, and only for strength not credited previously. Evidence that arrives before the acknowledgment is stored until the record becomes eligible. The positive update is:
+Credit is assigned only when the observer’s own first hop is acknowledged and s exceeds c. Evidence received before the ACK is stored. When that ACK arrives, the same eligibility check applies to the stored evidence. In Eq. (4), q denotes the value cached when record (u,v,p) was registered, rather than a later link estimate. The update is executed only for a strictly positive uncredited increment:
 
 		(4)
 
-• α is a dimensionless effective success count, initialized to 1; c is the credited record strength, initialized to 0.
+• α is the dimensionless effective success count for observer–relay pair (u,v), initialized to 1; c is the dimensionless credited strength for record (u,v,p), initialized to 0.
 
-• q is the dimensionless link-success estimate at registration. The clipping floor applies to each positive increment, not to their sum.
+• q is the dimensionless cached registration-time link-success estimate. The clip operator limits each positive increment to [0.05, 1]; c is then set to the current s.
 
-In the censored arm, the effective failure count β remains at its prior of 1. A failed first hop closes the record without positive credit. If the first hop is acknowledged but no forwarding evidence arrives within 150 ms, the record expires without a failure increment; a later receipt can still upgrade it. For q<0.1, the clipping floor can make two half-credit updates exceed a single full q-weighted update. The smallest q in the audited decisions was 0.6923, so this case did not occur. The effective counts should nevertheless not be interpreted as a calibrated posterior.
+In the censored arm, β stays at its initial value of 1 for each observer–relay pair. A failed first hop closes the record without positive credit. For an acknowledged first hop, expiry is set 150 ms after the ACK; absent forwarding evidence causes closure without a failure increment. A later matched observation can still increase s and earn previously unassigned credit. For q<0.1, the 0.05 floor can make two half-credit updates exceed one full q-weighted update. The smallest q in the audited decisions was 0.6923, so this case did not occur in those decisions.
 
-Equation (4) applies clipping only when the uncredited evidence increment is positive. Its static floor is a heuristic and can alter the total assigned credit when one observation is split into successive increments. It is not a Bayesian count update. In Eq. (5), 1.645 is likewise a fixed score multiplier, not a calibrated 95% coverage guarantee or a Beta quantile. Replacing either rule changes the feedback mechanism and requires a separate experiment.
+The static floor in Eq. (4) is a heuristic on effective counts, not a Bayesian update. Max-strength deduplication limits the record’s evidence state but does not remove this clipping artifact. In Eq. (5), 1.645 is a fixed multiplier on a beta-form standard deviation; it supplies neither calibrated 95% coverage nor an exact Beta quantile. Changing these rules would define a different feedback mechanism.
 
-The policy retains its existing evidence-risk coordinates. With the rate-anomaly term disabled, the mean and upper proxy are:
+With the rate-anomaly term disabled, the retained policy maps the pair-specific effective counts to a risk coordinate ρ and an augmented routing score R:
 
 		(5)
 
-• ρ and R are dimensionless risk coordinates.
+• ρ and R are dimensionless scores for observer–relay pair (u,v). The factor 0.75 scales both the failure-related coordinate and its uncertainty term; clipping bounds R to [0, 1].
 
-• σ is the beta-form standard deviation sqrt[αβ / ((α+β)²(α+β+1))], used as a dimensionless uncertainty proxy rather than a calibrated maliciousness interval.
+• σ = sqrt[αβ / ((α+β)²(α+β+1))] is dimensionless, with α and β taken from the same observer–relay pair. The beta-form expression supplies a score component, not an evaluated posterior interval.
 
 Table 3 sets out the feedback controls. Naive passive uses the same observations and duplicate suppression but penalizes an acknowledged forwarding attempt when evidence is still missing at expiry. Active proofs use separate packets and the earlier timeout convention; their credit rule does not require the passive arm's first-hop ACK gate. Frozen prior keeps the initial risk coordinates without updating them. The capacity-matched MLP uses the censored ledger. Thus, the active-versus-censored comparison changes feedback semantics as well as traffic; it does not isolate airtime alone.
 
@@ -110,51 +110,61 @@ Table 3. Feedback controls
 
 2.4 Source service state and simulator boundaries
 
-For each class, the source updates a service debt using the virtual-queue form associated with long-run constraint tracking [18]:
+For a fixed source and traffic class c, the online service debt is updated once when that source settles a packet. The recurrence follows the virtual-queue form associated with constraint tracking [18]:
 
 		(6)
 
-• Zc is a dimensionless source-service debt and bc is the allowed violation fraction for class c.
+• Zc is the dimensionless debt for class c at the fixed source; bc is the dimensionless allowed violation fraction per settled class-c packet. The source index and update-event index are suppressed in Eq. (6).
 
-• I_violation is 1 for a missing or late delivered packet and 0 otherwise; loss has a separate analogous channel.
+• I_violation is 1 if no receipt is available by service expiry or receipt age exceeds the class deadline, and 0 otherwise. A separate loss-debt channel uses the analogous receipt/expiry outcome. These online indicators differ from the sink-arrival endpoint in Eq. (8).
 
-In this benchmark, only the source updates service debts, after receipt or a 1.5 s expiry. Intermediate relays do not maintain a complete debt for transit service. A shared visited set prevents loops, and the simulator keeps the reverse-path map used for receipts. Neither mechanism serializes its state dissemination. Beacon energy and queue values also come from metadata keyed to the transmitted identifier: a radio receive callback controls access, but the values themselves are not decoded from the frame. Figure 1 separates these simulator inputs from the radio event path. The authenticated branch in Section 5 replaces this state interface.
+Only sources update these debts, on receipt or a 1.5 s expiry; intermediate relays retain no complete debt for transit service. Receipt age includes the reverse path, so a timely sink delivery can still produce a late source-observed outcome. The simulator maintains a shared visited set and reverse-path map without serializing their dissemination. Beacon energy and queue values are likewise supplied as metadata keyed to a transmitted identifier, with access gated by a radio-receive callback. Figure 1 marks these simulator-held inputs. Section 5 evaluates a separate authenticated implementation that decodes transmitted state.
 
 
 
 Fig. 1. Frozen benchmark architecture.
 
-Algorithm 1 gives the observer procedure, with the event flow shown in Fig. 2. Radio callback controls check reception of a two-hop forwarding observation, absence of reception at an out-of-range observer and absence of proof frames in the passive arm. They verify those callback paths, rather than authentication or intrusion-classification accuracy.
+Algorithm 1 gives the censored-passive event procedure; Table 3 specifies the other arms. Figure 2 shows the ACK gate and strongest-evidence lifecycle. Radio callback controls check reception of a two-hop forwarding observation, absence of reception at an out-of-range observer and absence of proof frames in the passive arm. They test callback paths rather than authentication or intrusion-classification accuracy.
 
-Algorithm 1: Observer feedback and routing
+Algorithm 1: ACK-gated censored passive routing
 
-Input: received MAC events, cached telemetry, fixed policy θ, ledger mode and 150 ms timeout.
+Input: radio events, cached telemetry, fixed policy θ; censored mode, 150 ms timeout.
 
-Output: next-hop requests and updated observer evidence coordinates.
+Output: next-hop requests, observer evidence and source-service debts.
 
-Steps:
+01.  For each received event or 1 ms polling tick:
 
-1. At a routing event, reject a visited or exhausted node and enforce the 22-hop cap.
+02.  If a routing request is pending:
 
-2. Construct receive-gated candidates, retain at most eight and evaluate the masked fixed policy.
+03.  Reject visited/exhausted nodes and the 22-hop cap; form at most eight candidates.
 
-3. Register the observer–relay–packet record with expected link success; send the data frame.
+04.  If none is feasible, stop this request; otherwise select the masked-policy argmax.
 
-4. On own first-hop ACK success, mark the record eligible; credit any stored uncredited observation.
+05.  For a non-sink relay, register (u,v,p) and cache q at registration; transmit DATA.
 
-5. On ACK failure, close the passive record without success or failure credit.
+06.  Else if the event is the observer’s own first-hop MAC result:
 
-6. On a matched received forward attempt, retain maximum strength 0.5.
+07.  On success, mark ACK eligibility and set expiry to ACK time + 150 ms.
 
-7. On a matched received reverse delivery receipt, retain maximum strength 1.0.
+08.  On failure, close the record without incrementing α or β.
 
-8. Apply a positive update only if eligible and strength exceeds credited strength; deduplicate repeats.
+09.  Else if matched forwarding evidence or a reverse receipt is received:
 
-9. At each 1 ms poll, close expired records; censor missing evidence in the proposed arm.
+10.  Ignore unknown records and closed records without a successful own ACK.
 
-10. Allow a later receipt to upgrade an acknowledged censored record; keep failure count at its prior.
+11.  Update the strongest evidence s by Eq. (3), retaining any earlier stronger value.
 
-11. Update source service debt on receipt or service expiry; retain the frozen policy for later decisions.
+12.  After either a successful ACK or an accepted evidence event:
+
+13.  If ACK-eligible and s > c, apply Eq. (4); then set credited strength c to s.
+
+14.  At each polling tick, close expired records without a β increment.
+
+15.  Retain acknowledged records so later matched evidence can upgrade s and c.
+
+16.  At a source receipt or 1.5 s service expiry, if the packet is unsettled:
+
+17.  Update its class debt once by Eq. (6), then mark the packet settled.
 
 
 
@@ -164,7 +174,7 @@ Fig. 2. ACK-gated evidence lifecycle.
 
 3.1 Development separation and untouched fixtures
 
-Figure 3 traces the experimental stages. The experimental protocol pipeline records source freezing, the technical pilot and all retained runs. Telemetry fixtures 76001–76030 informed the redesign. The protocol, source and decision rule were committed as 4027f071322cb5682f39329f656d76df3b68ff62 before evaluating fixtures 77001–77030. Technical pilot 76901 is excluded from inference. Each new fixture uses the unchanged attention and MLP checkpoints from seed 41001 plus its fixture offset.
+Figure 3 records the source freeze, technical pilot and retained evaluation runs. Telemetry fixtures 76001–76030 informed the redesign. The protocol, source and decision rule were committed as 4027f071322cb5682f39329f656d76df3b68ff62 before fixtures 77001–77030 were evaluated. Technical pilot 76901 is excluded from inference. Each new fixture uses unchanged attention and MLP checkpoints from seed 41001 plus its fixture offset.
 
 The four-second horizon isolates a burst and its feedback. Positions are available at startup and telemetry begins immediately; the model does not simulate RPL or CTP parent discovery. This design therefore evaluates a transient workload rather than routing convergence or steady operation.
 
@@ -216,7 +226,7 @@ The replacement passes only if all four prespecified checks succeed. Against act
 
 4.1 Delivery and matched controls
 
-Under blackholes, censored passive attention delivered 75.94% of offered packets, versus 71.28% for active proofs. The paired improvement was 4.67 percentage points (95% CI [2.36, 6.97]; Holm p=0.0161). Figure 4 compares effects across settings, and Fig. 5 shows every paired blackhole fixture alongside the control contrasts. Only the blackhole delivery comparison against active proofs survived the 60-test correction. The improvement should therefore be interpreted for that setting.
+Under blackholes, censored passive attention delivered 75.94% of offered packets, compared with 71.28% for active proofs. The paired gain was 4.67 percentage points (95% CI [2.36, 6.97]; Holm p=0.0161). Figure 4 compares delivery contrasts across settings; Fig. 5 shows the paired blackhole observations and all control contrasts. Among the delivery contrasts, only the blackhole comparison against active proofs survived the 60-test correction. The energy-per-byte contrast also survives correction (Section 4.2).
 
 
 
@@ -234,7 +244,7 @@ Fig. 5. Blackhole observations and effects.
 
 4.2 Energy efficiency and control traffic
 
-Under blackholes, energy per delivered payload byte fell by 0.0006443 J/byte relative to active proofs (95% CI [−0.0009740, −0.0003145]; Holm p=0.0239). Total modeled sensor radio energy, however, rose from 22.546943 to 22.547473 J, a descriptive increase of 0.000531 J. The gain is in delivery efficiency, not total energy saving. Across the 750 runs, receiving/listening accounts for an average 99.36% of modeled sensor radio energy.
+Under blackholes, energy per delivered payload byte decreased by 0.0006443 J/byte relative to active proofs (95% CI [−0.0009740, −0.0003145]; Holm p=0.0239). Total modeled sensor radio energy rose from 22.546943 to 22.547473 J, with a mean increase of 0.000531 J computed before rounding. The lower ratio reflects delivery efficiency rather than reduced total energy. Receiving/listening accounts for an average 99.36% of modeled sensor radio energy across the 750 runs.
 
 Duty cycling changes the cost of passive observation. As an accounting example, an extra 150 ms listening window instead of radio-off time costs 3 × (0.0188 − 0.000020) × 0.15 = 0.008451 J under the assumed currents. Overlapping windows and existing awake periods reduce the incremental cost. This calculation is not a duty-cycled MAC experiment. Such a comparison must charge channel checks, rendezvous, observation windows and proof retransmissions to all arms; the always-listening results do not predict which mechanism would use less energy.
 
@@ -290,9 +300,9 @@ Means over 30 fixtures per condition and policy. Receipt rates count source-veri
 
 Fig. 8. Frozen policy transfer and paired effects.
 
-The −1.78-point attention–greedy difference under selective dropping has an interval that crosses zero, so it does not establish greedy superiority. LQI replacing the training RSSI proxy, raw queue counts and receipt-only forwarding evidence are plausible sources of observation shift; their causal contributions were not isolated. Greedy is the economical starting point for deployment assessment because it avoids neural weights and tensor inference. It still requires neighbor state, authentication and packet processing.
+The −1.78-point attention–greedy difference under selective dropping has an interval that crosses zero. It therefore supports neither attention superiority nor a claim that greedy is better. Replacing the training RSSI proxy with LQI, using raw queue counts and restricting forwarding credit to signed receipts can change the policy’s input distribution; the experiments do not isolate their causal effects. Greedy avoids neural weights and tensor inference, making it a sensible starting point for deployment assessment, although neighbor state, authentication and packet processing still incur costs.
 
-The transfer runs show that the frozen policies execute with serialized simulated-radio frames and multiple relay choices. They do not establish an attention advantage. Counting undelivered packets as failures, critical-deadline failure is 31.17% for benign attention runs and 47.83% under selective dropping. Total modeled radio energy is approximately 2.519 and 2.520 J per six-node run. Always-on listening and repeated authenticated telemetry dominate the radio costs, limiting differences between policies. Embedded CPU and cryptographic energy are excluded.
+The frozen host policies operate on serialized simulated-radio frames with multiple relay choices. For attention, critical-deadline failure is 31.17% in benign runs and 47.83% under selective dropping when undelivered packets count as failures. Total modeled radio energy is approximately 2.519 and 2.520 J per six-node run. Always-on listening and repeated authenticated telemetry dominate this radio-only account; embedded CPU and cryptographic energy are excluded.
 
 The audit reconstructed 27,240 decisions, including 14,001 with more than one candidate. It matched 88,538 received byte frames to earlier transmissions, verified 46,204 public sink-signature occurrences and reconciled 1,080 radio-energy identities. Candidate cache values were checked against received beacon bytes, and frozen-policy probabilities were recomputed. Runtime nodes check the secret hop tags; the private keys are not exported for public verification. This branch leaves the original 750-run traces, checkpoints and decision rule unchanged.
 
@@ -328,13 +338,13 @@ Figure 10 examines Eq. (1) on three further fixtures, 85001–85003, paired with
 
 Fig. 10. Executed coefficient sensitivity contrasts.
 
-The full actor–critic contains 63,368 parameters, while the inference actor requires 44,161 parameters in the audited implementation: 176,644 FP32 weight bytes before runtime buffers. This arithmetic corrects treating the complete training network as an unavoidable embedded inference footprint. It does not establish an MCU deployment. Duty-cycled MAC performance, drift tolerance, target inference and measured energy require separate validation.
+The inference actor contains 44,161 parameters, requiring 176,644 FP32 weight bytes before runtime buffers; the full actor–critic contains 63,368 parameters. Removing training-only heads therefore changes the storage estimate, but neither count establishes target feasibility. Duty-cycled MAC performance, drift tolerance, target inference and measured energy require separate validation.
 
 6. Discussion
 
 6.1 Critical vulnerabilities and limitations
 
-The main result concerns replacement of the tested active-proof mechanism. Feedback eligibility and expiry rules change alongside radio traffic, preventing attribution solely to proof airtime. After correction, neither naive passive nor frozen prior provides evidence for a unique censoring effect. The earlier unsuccessful architecture comparisons remain relevant to that interpretation and are retained in the evidence record.
+The benchmark supports replacing the tested active-proof mechanism within its prespecified margins. Because eligibility and expiry rules change together with control traffic, the observed difference cannot be assigned to proof airtime alone. Comparisons with naive passive and frozen prior do not establish a unique censoring effect after correction. Retaining the earlier unsuccessful architecture comparisons prevents the feedback result from being recast as evidence for neural-policy superiority.
 
 The frozen benchmark relies on simulator-held geometry, packet history and reverse receipt paths; beacon values are supplied through receive-gated metadata. Source-only service debts leave transit queue control untested. Its threat model also excludes forged receipts, deceptive telemetry, compromised sources, collusion and mobility. Overheard transmission confirms an attempt, while successful delivery at the next hop remains uncertain. The effective-count risk score should be read as a routing preference, not an evaluated live intrusion detector.
 
@@ -342,7 +352,7 @@ A four-second horizon, a central sink and a 60-packet burst are insufficient to 
 
 The 150 ms evidence timeout includes contention, retries and forwarding. Interference can therefore delay a valid receipt past expiry. Censoring avoids assigning failure solely from silence and allows a later receipt to upgrade the record; it does not establish an optimal timeout. The simulator also uses a shared time base. The corrected host timestamp sampling error is different from device clock offset or drift, which remain untested.
 
-The holdout fixes passive strength at 0.5, record expiry at 150 ms, cache life at 0.75 s, the current model and all inference checkpoints. Sensitivity to those choices remains unknown. Changes to serialization, ACK authentication, service tracking or ledger retirement require a separately frozen experiment; incorporating them after observing the holdout would change the question being tested.
+The holdout fixes passive strength at 0.5, record expiry at 150 ms, cache life at 0.75 s, the current model and all inference checkpoints. Section 5.5 varies the preselection coefficients only; sensitivity to these other choices remains unknown. Changes to serialization, ACK authentication, service tracking or ledger retirement require a separately frozen experiment because they change the evaluated mechanism.
 
 6.2 Future experiments
 
@@ -350,7 +360,7 @@ A useful next step is to decide when forwarding evidence is worth collecting. An
 
 7. Conclusions
 
-Receipt-assisted passive feedback passed the prespecified replacement test on 30 new simulation fixtures, improving blackhole delivery over active proofs by 4.67 percentage points. The matched controls do not support a unique censoring or attention advantage. A separate 180-run authenticated transfer evaluates frozen policies with received wire state and local service records; it likewise establishes no attention superiority. Serial-interface testing identified and corrected a receive-time error, and four emulated Cortex-M3 boards execute the compiled radio-interface firmware. The 60–300 s extension exposes routing-energy exhaustion and increasing source debt rather than sustained operation. These results support the tested feedback replacement and document how far the implementation has been exercised. Absolute service compliance, physical-board operation, embedded policy/crypto execution and measured energy remain open.
+ACK-gated censored passive feedback passed the prespecified replacement test on 30 new fixtures, improving blackhole delivery over active proofs by 4.67 percentage points. The matched controls establish neither a unique censoring effect nor an attention advantage. In the separate 180-run authenticated transport study, frozen policies operate on received wire state and local service records without an established attention benefit. Serial-interface testing corrected a receive-time error, and four emulated Cortex-M3 boards execute the compiled UART-to-radio bridge while inference and cryptography remain on the host. The 60–300 s extension exposes routing-energy exhaustion and increasing source debt. Together, these results define the benchmark’s supported feedback comparison and deployment boundary: absolute service compliance, physical-board operation, embedded policy/crypto execution and measured energy remain unvalidated.
 
 Acknowledgments
 

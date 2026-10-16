@@ -165,6 +165,8 @@ apply(d)
 from array_review_exhibits import apply as add_review_exhibits
 add_review_exhibits(d,ROOT)
 layout_report.update(figures_in_body=10,tables_in_body=7)
+from polish_array_editorial import apply as polish_editorial
+polish_editorial(d,ROOT)
 abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
 assert len(abstract.split())<=250
 dest=out/'Array_Manuscript.docx';d.save(dest)

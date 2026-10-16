@@ -33,6 +33,7 @@ for i,n in figs:
 for i,n in tables:
  prior=' '.join(p.text for p in d.paragraphs[:i]);assert re.search(r'Table\s+'+str(n)+r'\b',prior),f'Table {n} lacks a prior discussion reference'
 revision=json.loads((P/'prose_revision.json').read_text())
+editorial={x['before']:x['after'] for x in json.loads((P/'editorial_changes.json').read_text())}
 def citations(s):
  out=[]
  for x in re.findall(r'\[([\d, ]+)\]',s):
@@ -44,7 +45,8 @@ for e in revision['paragraphs']:
  before=set(re.findall(r'\d+(?:\.\d+)?',e['match']));after=set(re.findall(r'\d+(?:\.\d+)?',replacement))
  removed=before-after
  assert not removed or (removed=={'30'} and replacement.startswith('Thirty fixtures')),'Numeric evidence removed: '+str(removed)
- for para in e['replacement']:assert transform(para) in text,'Edited paragraph missing'
+ for para in e['replacement']:assert editorial.get(transform(para),transform(para)) in text,'Edited paragraph missing'
+for changed in editorial.values():assert changed in text,'Final editorial paragraph missing'
 for key in ['shibambhardwaj@gmail.com','0009-0005-4554-7397','abhishek.pandey2@bennett.edu.in','0000-0003-3799-9754','abhinandan282@bit.ac.in','No funding was received for this research.','The authors declare no competing interests.']:assert key in text
 assert not any(x in text for x in ['Jitendra Nath Srivastava','Akash Sanghi','Invertis University'])
 abstract=d.paragraphs[next(i for i,p in enumerate(d.paragraphs) if p.text=='Abstract')+1].text;assert len(abstract.split())<=250
