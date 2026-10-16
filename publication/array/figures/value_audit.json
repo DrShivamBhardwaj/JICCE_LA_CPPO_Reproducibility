@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "effect_intervals_reconciled": 33,
+  "source_rows": 750,
+  "transfer_rows": 180,
+  "paired_observations_drawn": 240,
+  "figures": 8,
+  "exports": 24,
+  "source_fingerprints_checked": 6,
+  "statistics_unchanged": true
+}

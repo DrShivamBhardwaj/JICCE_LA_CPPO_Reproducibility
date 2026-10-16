@@ -112,6 +112,27 @@ for p in d.paragraphs:
  for r in p.runs:
   r.font.name='Times New Roman';r.font.color.rgb=RGBColor(0,0,0)
   if p.style.name not in ['Title','Heading 1','Heading 2']:r.font.size=Pt(11)
+# Replace the six legacy figure relationships with the Array artwork.
+figure_names=['fig1_architecture','fig2_algorithm_flow','fig3_evaluation_flow',
+ 'fig4_delivery_effects','fig5_blackhole_estimation','fig6_energy_attribution']
+from PIL import Image
+assert len(d.inline_shapes)==6
+for shape,name in zip(list(d.inline_shapes),figure_names):
+ image_path=out/'figures'/f'{name}.png'
+ old_rid=shape._inline.graphic.graphicData.pic.blipFill.blip.embed
+ rid,image_part=d.part.get_or_add_image(str(image_path))
+ shape._inline.graphic.graphicData.pic.blipFill.blip.embed=rid
+ if old_rid!=rid:d.part.drop_rel(old_rid)
+ with Image.open(image_path) as im:w,h=im.size
+ shape.width=Cm(16);shape.height=int(Cm(16)*h/w)
+captions={1:'Frozen benchmark architecture.',2:'ACK-gated evidence lifecycle.',3:'Frozen evaluation stages.',
+ 4:'Delivery effects across settings.',5:'Blackhole observations and effects.',6:'Modeled radio-energy attribution.'}
+for p in d.paragraphs:
+ for number,caption in captions.items():
+  if p.text.startswith(f'Fig. {number}. '):p.text=f'Fig. {number}. {caption}'
+ if p.text.startswith('Figure 4 contrasts'):
+  p.text+=' Separate comparator panels use explicitly labeled horizontal ranges; intervals remain the retained unadjusted paired estimates.'
+
 # Additional exhibits follow the original numbered exhibits.
 d.add_page_break();p=d.add_paragraph('Table 6. Authenticated policy transfer.');p.paragraph_format.keep_with_next=True
 t=d.add_table(rows=1,cols=5)

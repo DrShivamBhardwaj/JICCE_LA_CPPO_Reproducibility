@@ -2,6 +2,8 @@
 
 Array_Manuscript.docx preserves ten native editable equations and includes eight figures, six tables and 21 references. It combines the unchanged 750-run feedback study with a separate 180-run authenticated policy-transfer evaluation and separate PTY/ns-3 and compiled CC2538/Renode firmware integration controls. The results do not establish an attention advantage or physical hardware validation.
 
-Highlights.txt contains four highlights, each below 85 characters. figures/ includes editable SVG, PDF and high-resolution PNG for the two new figures. Figures 1–6 and their editable source remain in publication/redesigned/figures/ and are embedded in the Word manuscript. The manuscript is an Array-targeted review draft, not a certification of editorial suitability or portal compliance.
+Highlights.txt contains four highlights, each below 85 characters. figures/ now contains all eight redesigned figures as editable SVG, vector PDF and 600-dpi PNG. The Word manuscript embeds the new figures. Historical artwork remains unchanged under publication/redesigned/figures/. The manuscript is an Array-targeted review draft, not a certification of editorial suitability or portal compliance.
 
 See docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md for journal fit, verified publisher information, reproducibility instructions and remaining scientific limitations. No manuscript has been submitted.
+
+Rebuild the active artwork with scripts/build_array_journal_figures.py and audit the exact plotted effects with scripts/audit_array_figure_values.py before running scripts/build_array_manuscript.py. The source-value ledger, fingerprints and 33-interval audit are included with the figures. SciSpace/Scientific Manuscript Architect review notes are in docs/FIGURE_REDESIGN_REVIEW.md.

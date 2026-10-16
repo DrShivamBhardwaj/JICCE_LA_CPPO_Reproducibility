@@ -21,5 +21,9 @@
   "contributions_confirmed": false,
   "authenticated_portal_checked": false,
   "first_author_orcid_format_checksum_valid": true,
-  "visual_review": "27 pages: 26 pixel-identical to previously reviewed render; changed page 1 reviewed at full resolution."
+  "figure_exports": 24,
+  "plotted_intervals_audited": 33,
+  "scispace_review_used": true,
+  "scientific_manuscript_architect_used": true,
+  "visual_review": "27 pages: 19 unchanged pages match the previously reviewed author render; eight figure pages reviewed at full resolution. Final unused-image cleanup gives 27 pixel-identical pages."
 }

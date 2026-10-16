@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "outputs/ns3_censored/summary.json": "68653fbc81bc5178dfea0a787cd1aae3d4167d157b8345e16040f2048261469d",
+    "outputs/ns3_censored/paired_analysis.json": "0214ba14b6c2fa9f80c0101e7e25f207ba0c76942d451e9d253782ca6b6af361",
+    "outputs/ns3_censored/implementation_audit.json": "8cb892319beff50f16ec5673ccb22b93fd5fef34c1cd760fe15541ef0d716518",
+    "outputs/auth_policy/summary.json": "5e312df700156670a1f31781d09af23e7ed58c9c08e1de06acd999f24415d2e1",
+    "outputs/auth_policy/analysis.json": "943b2d5da82b4ada41c8c648a957581eb343f73e452e8f1803af0a51c9d50675",
+    "outputs/renode_boards/audit.json": "2f027231787c45e02fd67c38bae263c6646cde0c845864631251ef395e3cc18c"
+  },
+  "figures": 8,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "png_dpi": 600,
+  "style": "Vector diagrams and exact paired observations/intervals. No bitmap generative images, fabricated observations or data smoothing.",
+  "statistics": "Figures 4\u20136: retained unadjusted paired t intervals; original Holm decision rule unchanged. Figure 8: retained exploratory paired percentile bootstrap intervals. No new tests.",
+  "figure3": "PRISMA-inspired experimental accounting, not systematic-review screening.",
+  "literature_review": "SciSpace search and limitations extraction informed the separation of modeled energy and emulated execution; external studies are not used as baseline data."
+}

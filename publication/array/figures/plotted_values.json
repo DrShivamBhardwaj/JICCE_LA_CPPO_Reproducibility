@@ -1,0 +1,318 @@
+{
+  "fig4": [
+    {
+      "setting": "benign",
+      "comparator": "active_proof",
+      "mean_pp": 3.1111111111111103,
+      "ci95_pp": [
+        -0.20116227028781422,
+        6.423384492510034
+      ]
+    },
+    {
+      "setting": "blackhole",
+      "comparator": "active_proof",
+      "mean_pp": 4.666666666666668,
+      "ci95_pp": [
+        2.3646045740316484,
+        6.968728759301687
+      ]
+    },
+    {
+      "setting": "congested_benign",
+      "comparator": "active_proof",
+      "mean_pp": 1.9999999999999998,
+      "ci95_pp": [
+        0.16253220263148238,
+        3.837467797368517
+      ]
+    },
+    {
+      "setting": "congested_blackhole",
+      "comparator": "active_proof",
+      "mean_pp": 0.7777777777777775,
+      "ci95_pp": [
+        -0.6538767525516881,
+        2.209432308107243
+      ]
+    },
+    {
+      "setting": "weaklink_benign",
+      "comparator": "active_proof",
+      "mean_pp": 4.277777777777778,
+      "ci95_pp": [
+        -0.28287111948462895,
+        8.838426675040184
+      ]
+    },
+    {
+      "setting": "benign",
+      "comparator": "frozen_prior",
+      "mean_pp": -0.6111111111111112,
+      "ci95_pp": [
+        -1.2542109953469949,
+        0.03198877312477269
+      ]
+    },
+    {
+      "setting": "blackhole",
+      "comparator": "frozen_prior",
+      "mean_pp": 0.05555555555555536,
+      "ci95_pp": [
+        -0.4982791734975016,
+        0.6093902846086124
+      ]
+    },
+    {
+      "setting": "congested_benign",
+      "comparator": "frozen_prior",
+      "mean_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "setting": "congested_blackhole",
+      "comparator": "frozen_prior",
+      "mean_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "setting": "weaklink_benign",
+      "comparator": "frozen_prior",
+      "mean_pp": -0.3888888888888886,
+      "ci95_pp": [
+        -1.6084647285944367,
+        0.8306869508166596
+      ]
+    }
+  ],
+  "fig5": [
+    {
+      "comparator": "active_proof",
+      "mean_pp": 4.666666666666668,
+      "ci95_pp": [
+        2.3646045740316484,
+        6.968728759301687
+      ]
+    },
+    {
+      "comparator": "naive_passive",
+      "mean_pp": -0.1666666666666668,
+      "ci95_pp": [
+        -1.5568288408232354,
+        1.2234955074899017
+      ]
+    },
+    {
+      "comparator": "frozen_prior",
+      "mean_pp": 0.05555555555555536,
+      "ci95_pp": [
+        -0.4982791734975016,
+        0.6093902846086124
+      ]
+    },
+    {
+      "comparator": "capacity_mlp_censored",
+      "mean_pp": 0.4444444444444455,
+      "ci95_pp": [
+        -1.4610565640562339,
+        2.349945452945125
+      ]
+    }
+  ],
+  "fig6": [
+    {
+      "setting": "benign",
+      "metric": "radio_energy_j",
+      "display_scale": 1000,
+      "difference": 0.49237888000135405,
+      "ci95": [
+        0.29673454398565674,
+        0.6880232160170513
+      ]
+    },
+    {
+      "setting": "blackhole",
+      "metric": "radio_energy_j",
+      "display_scale": 1000,
+      "difference": 0.5305126399983114,
+      "ci95": [
+        0.4318947825559636,
+        0.6291304974406593
+      ]
+    },
+    {
+      "setting": "congested_benign",
+      "metric": "radio_energy_j",
+      "display_scale": 1000,
+      "difference": 0.07581504000029327,
+      "ci95": [
+        0.029563317077859894,
+        0.12206676292272664
+      ]
+    },
+    {
+      "setting": "congested_blackhole",
+      "metric": "radio_energy_j",
+      "display_scale": 1000,
+      "difference": 0.09043775999989141,
+      "ci95": [
+        0.05666450924794505,
+        0.12421101075183778
+      ]
+    },
+    {
+      "setting": "weaklink_benign",
+      "metric": "radio_energy_j",
+      "display_scale": 1000,
+      "difference": 0.5432403199998012,
+      "ci95": [
+        0.2628580497139262,
+        0.8236225902856761
+      ]
+    },
+    {
+      "setting": "benign",
+      "metric": "energy_per_delivered_byte",
+      "display_scale": 1000,
+      "difference": -0.31819823831662,
+      "ci95": [
+        -0.7359988871073881,
+        0.09960241047414822
+      ]
+    },
+    {
+      "setting": "blackhole",
+      "metric": "energy_per_delivered_byte",
+      "display_scale": 1000,
+      "difference": -0.6442523090201768,
+      "ci95": [
+        -0.9739792084450826,
+        -0.3145254095952712
+      ]
+    },
+    {
+      "setting": "congested_benign",
+      "metric": "energy_per_delivered_byte",
+      "display_scale": 1000,
+      "difference": -1.8680545199650866,
+      "ci95": [
+        -3.774236933237784,
+        0.03812789330761061
+      ]
+    },
+    {
+      "setting": "congested_blackhole",
+      "metric": "energy_per_delivered_byte",
+      "display_scale": 1000,
+      "difference": -0.2388040709476186,
+      "ci95": [
+        -2.4841695923380325,
+        2.0065614504427955
+      ]
+    },
+    {
+      "setting": "weaklink_benign",
+      "metric": "energy_per_delivered_byte",
+      "display_scale": 1000,
+      "difference": -0.26956443028960936,
+      "ci95": [
+        -1.0897431196773948,
+        0.5506142590981761
+      ]
+    },
+    {
+      "setting": "benign",
+      "metric": "phy_tx_frames",
+      "display_scale": 1,
+      "difference": -58.4,
+      "ci95": [
+        -78.96753897171354,
+        -37.83246102828646
+      ]
+    },
+    {
+      "setting": "blackhole",
+      "metric": "phy_tx_frames",
+      "display_scale": 1,
+      "difference": -60.56666666666667,
+      "ci95": [
+        -71.96317490857722,
+        -49.17015842475612
+      ]
+    },
+    {
+      "setting": "congested_benign",
+      "metric": "phy_tx_frames",
+      "display_scale": 1,
+      "difference": -3.3666666666666667,
+      "ci95": [
+        -11.070864262356096,
+        4.337530929022762
+      ]
+    },
+    {
+      "setting": "congested_blackhole",
+      "metric": "phy_tx_frames",
+      "display_scale": 1,
+      "difference": -10.033333333333333,
+      "ci95": [
+        -15.030113229867688,
+        -5.036553436798978
+      ]
+    },
+    {
+      "setting": "weaklink_benign",
+      "metric": "phy_tx_frames",
+      "display_scale": 1,
+      "difference": -61.166666666666664,
+      "ci95": [
+        -87.50283906356547,
+        -34.830494269767854
+      ]
+    }
+  ],
+  "fig8": [
+    {
+      "setting": "benign",
+      "comparator": "greedy",
+      "mean_pp": -1.11111111111111,
+      "ci95_pp": [
+        -3.388888888888888,
+        0.8333333333333353
+      ]
+    },
+    {
+      "setting": "benign",
+      "comparator": "mlp",
+      "mean_pp": -2.1111111111111116,
+      "ci95_pp": [
+        -4.500000000000001,
+        0.2777777777777779
+      ]
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "greedy",
+      "mean_pp": -1.7777777777777775,
+      "ci95_pp": [
+        -6.499999999999999,
+        2.668055555555536
+      ]
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "mlp",
+      "mean_pp": 0.6111111111111113,
+      "ci95_pp": [
+        -2.5555555555555554,
+        3.7777777777777777
+      ]
+    }
+  ]
+}

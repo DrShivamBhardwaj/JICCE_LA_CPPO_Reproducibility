@@ -350,37 +350,37 @@ Table 5. Prespecified incremental gate
 
 
 
-Fig. 1. Architecture and state boundaries.
+Fig. 1. Frozen benchmark architecture.
 
 
 
 
 
-Fig. 2. Censored feedback flow.
+Fig. 2. ACK-gated evidence lifecycle.
 
 
 
 
 
-Fig. 3. Frozen evaluation flow.
+Fig. 3. Frozen evaluation stages.
 
 
 
 
 
-Fig. 4. Delivery effects with paired 95% intervals.
+Fig. 4. Delivery effects across settings.
 
 
 
 
 
-Fig. 5. Blackhole fixture outcomes and paired effects.
+Fig. 5. Blackhole observations and effects.
 
 
 
 
 
-Fig. 6. Radio effects with paired 95% intervals.
+Fig. 6. Modeled radio-energy attribution.
 
 
 
