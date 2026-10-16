@@ -1,0 +1,6 @@
+-r requirements-censored.txt
+-r requirements-distributed-auth.txt
+pandas==3.0.6
+ziglang==0.17.0
+# Install ns3==3.44.post0 separately with --no-deps.
+# Install Renode 1.17.0 portable separately from the official release.

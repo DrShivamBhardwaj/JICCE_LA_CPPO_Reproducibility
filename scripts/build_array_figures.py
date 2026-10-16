@@ -9,7 +9,7 @@ from matplotlib.patches import FancyBboxPatch
 ROOT=Path(__file__).resolve().parents[1];out=ROOT/'publication/array/figures';out.mkdir(parents=True,exist_ok=True)
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'svg.fonttype':'none'})
 
-fig,ax=plt.subplots(figsize=(9,5));ax.set(xlim=(0,9),ylim=(0,5));ax.axis('off')
+fig,ax=plt.subplots(figsize=(9,6.5));ax.set(xlim=(0,9),ylim=(-1.5,5));ax.axis('off')
 def box(x,y,w,h,title,detail,color):
  ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=.04,rounding_size=.08',facecolor=color,edgecolor='#496579',linewidth=1.5))
  ax.text(x+w/2,y+h*.68,title,ha='center',va='center',weight='bold',fontsize=10)
@@ -25,7 +25,10 @@ ax.text(.15,2.25,'(b) Virtual serial interface and modeled radio',weight='bold')
 labels=[('Host adapter','Actual Python\nprocess'),('Virtual UART','PTY serial port\nJSON commands'),('Firmware API','TX, RX, ACK\ntelemetry contract'),('Radio engine','ns-3.44\nbyte frames')]
 for i,(title,detail) in enumerate(labels):box(.15+i*2.25,.85,2.0,1.05,title,detail,'#f1f3f5')
 for i in range(3):arrow((2.2+i*2.25,1.38),(2.35+i*2.25,1.38))
-ax.text(4.5,.22,'Host execution and simulated radio; no MCU image or physical energy measurement',ha='center',fontsize=9,color='#555555')
+ax.text(.15,.25,'(c) Compiled MCU backend: four CC2538 boards in Renode',weight='bold')
+for i,(title,detail) in enumerate([('Host adapter','Routing inference\nand cryptography'),('Emulated UART','Actual firmware\nJSON parser'),('Cortex-M3 MCU','Compiled C: FIFO\nand MAC ACKs'),('802.15.4 model','Range medium\nvirtual radio')]):box(.15+i*2.25,-1.0,2.0,.95,title,detail,'#e6f0f5')
+for i in range(3):arrow((2.2+i*2.25,-.53),(2.35+i*2.25,-.53))
+ax.text(4.5,-1.4,'Virtual backends; no physical RF or calibrated power measurement',ha='center',fontsize=9,color='#555555')
 fig.tight_layout()
 for ext in ['svg','pdf','png']:fig.savefig(out/f'fig7_authenticated_virtual.{ext}',dpi=600,bbox_inches='tight',facecolor='white')
 plt.close(fig)

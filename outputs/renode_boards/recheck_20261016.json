@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-16",
+  "status": "passed_with_declared_limits",
+  "baseline_integrity": {
+    "files_checked_before_edits": 542,
+    "mismatches": 0
+  },
+  "pytest": {
+    "passed": 73,
+    "seconds": 5.05,
+    "initial_broad_collection": "Stale/missing ns-3 shared libraries after environment renewal; rebuilt bridge, passive and telemetry libraries, then collection and all tests passed."
+  },
+  "auth_policy_audit": {
+    "status": "passed",
+    "runs": 180,
+    "decisions": 27240,
+    "multichoice": 14001,
+    "received_frames": 88538,
+    "signatures": 46204,
+    "energy_identities": 1080,
+    "physical_validation": false,
+    "max_probability_replay_error": 1.7881393432617188e-07,
+    "probability_atol": 1e-06,
+    "probability_rtol": 1e-06,
+    "action_identity": "exact argmax required",
+    "limits": "Recomputed frozen probabilities, declared features and endpoints; checked byte cache provenance and public signatures. Runtime nodes check secret hop tags. No independent RF model validation or MCU timing."
+  },
+  "pty_controls": {
+    "attention": {
+      "status": "passed",
+      "virtual_ports": 4,
+      "host_adapters": 4,
+      "offered": 10,
+      "sink_delivered": 10,
+      "final_records": [
+        {
+          "event": "final",
+          "host_monotonic_s": 1731.37586537,
+          "node": 0,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1731.430391867,
+          "node": 1,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1731.216631675,
+          "node": 2,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1731.561787101,
+          "node": 3,
+          "sink_delivered": 10,
+          "settlements": 0,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 0
+        }
+      ],
+      "scope": "PTY firmware API emulation + host crypto + simulated ns3 radio",
+      "physical_validation": false,
+      "mcu_isa_emulated": false,
+      "board_firmware_compiled": false,
+      "modeled_energy_only": true,
+      "policy": "attention",
+      "checkpoint_sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+      "interpretation": "single-path serial integration; not a policy performance comparison",
+      "host_adapter_sha256": "592939d0fc94e5619b6dec8f3b669281c1f7214fcce489582511c3d2db5fc42a"
+    },
+    "mlp": {
+      "status": "passed",
+      "virtual_ports": 4,
+      "host_adapters": 4,
+      "offered": 10,
+      "sink_delivered": 10,
+      "final_records": [
+        {
+          "event": "final",
+          "host_monotonic_s": 1769.52620708,
+          "node": 0,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1769.614915162,
+          "node": 1,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1769.61401575,
+          "node": 2,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1769.625789237,
+          "node": 3,
+          "sink_delivered": 10,
+          "settlements": 0,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 0
+        }
+      ],
+      "scope": "PTY firmware API emulation + host crypto + simulated ns3 radio",
+      "physical_validation": false,
+      "mcu_isa_emulated": false,
+      "board_firmware_compiled": false,
+      "modeled_energy_only": true,
+      "policy": "mlp",
+      "checkpoint_sha256": "9b70d2590cf45579709456e7964d02c2e82eae8344177cce4576d6245fddf1ae",
+      "interpretation": "single-path serial integration; not a policy performance comparison",
+      "host_adapter_sha256": "592939d0fc94e5619b6dec8f3b669281c1f7214fcce489582511c3d2db5fc42a"
+    },
+    "greedy": {
+      "status": "passed",
+      "virtual_ports": 4,
+      "host_adapters": 4,
+      "offered": 10,
+      "sink_delivered": 10,
+      "final_records": [
+        {
+          "event": "final",
+          "host_monotonic_s": 1770.071028146,
+          "node": 0,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1770.075922487,
+          "node": 1,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1770.082255618,
+          "node": 2,
+          "sink_delivered": 0,
+          "settlements": 10,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 10
+        },
+        {
+          "event": "final",
+          "host_monotonic_s": 1770.071292157,
+          "node": 3,
+          "sink_delivered": 10,
+          "settlements": 0,
+          "debts": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rejects": {},
+          "max_pending": 0
+        }
+      ],
+      "scope": "PTY firmware API emulation + host crypto + simulated ns3 radio",
+      "physical_validation": false,
+      "mcu_isa_emulated": false,
+      "board_firmware_compiled": false,
+      "modeled_energy_only": true,
+      "policy": "greedy",
+      "checkpoint_sha256": null,
+      "interpretation": "single-path serial integration; not a policy performance comparison",
+      "host_adapter_sha256": "592939d0fc94e5619b6dec8f3b669281c1f7214fcce489582511c3d2db5fc42a"
+    }
+  },
+  "compiled_mcu_audit": {
+    "status": "passed",
+    "runs": [
+      {
+        "policy": "attention",
+        "received_frames": 130,
+        "public_signatures": 30,
+        "sink_unique_packets": 10,
+        "source_verified_receipts": 10,
+        "firmware_probes": 5
+      },
+      {
+        "policy": "mlp",
+        "received_frames": 132,
+        "public_signatures": 30,
+        "sink_unique_packets": 10,
+        "source_verified_receipts": 10,
+        "firmware_probes": 5
+      },
+      {
+        "policy": "greedy",
+        "received_frames": 132,
+        "public_signatures": 30,
+        "sink_unique_packets": 10,
+        "source_verified_receipts": 10,
+        "firmware_probes": 5
+      }
+    ],
+    "physical_validation": false,
+    "limits": "Checks MCU UART byte provenance, public sink signatures and identities. Secret hop/source HMACs remain runtime checks. No measured RF, hardware energy or embedded policy/crypto claim."
+  },
+  "physical_validation": false,
+  "hardware_energy_validation": false,
+  "embedded_policy_crypto_validation": false
+}

@@ -8,8 +8,8 @@
     "size": 302
   },
   "README.md": {
-    "sha256": "95714382ef0e30c30afe048038e7c64a237ba9a3ab49f0843c106c48802a0825",
-    "size": 7471
+    "sha256": "de8cd73ca1b3ef51c4bf9fc0c952fc707ffb9a7df8da89c5879926687a009d89",
+    "size": 8055
   },
   "configs/af_v1_primary.yaml": {
     "sha256": "3d2837f62c8cd7ada9c3f0c06d13c0c6daae3d3bf313a9bedda344592e266b59",
@@ -132,8 +132,8 @@
     "size": 198776
   },
   "docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md": {
-    "sha256": "4d9b43985f794cf454242724bb2ee2bd87debee80ced1e9b965c034a13029726",
-    "size": 4513
+    "sha256": "1f9010169c74fa561ce8278cd2b1f768dbd2e25da0c2c7d7745383a0d01ab3d0",
+    "size": 5744
   },
   "docs/CENSORED_FEEDBACK_PROTOCOL.md": {
     "sha256": "e915f629f68abe3524f149ed5d1e6d37585ddf83042d29d2dbca3159f1226c5c",
@@ -176,12 +176,12 @@
     "size": 7372
   },
   "docs/REVIEWER_CONCERN_RESOLUTION.md": {
-    "sha256": "09c4867f65106f457edeacfb5bef369ad82a1093a41d2e52d6c208cb3e027d53",
-    "size": 6172
+    "sha256": "169f9c06770c939b708e91b5fd93b62e3d059d3a17ff02569dafdfb7e785c58c",
+    "size": 6228
   },
   "docs/SUBMISSION_STATUS.md": {
-    "sha256": "2738bcdd06f6a6525aa2b0181bfbd7b1f7ec625ff8dee964341f58d531be4829",
-    "size": 3081
+    "sha256": "92fcbeeb3adbb77834d2f42c265a8ed77a4a01946ef707f41f014af051b80999",
+    "size": 3137
   },
   "docs/UDP_FEEDBACK_STATUS.md": {
     "sha256": "cc45b53f1ec35a857a001435b14c0274b4be93f0dceea3ca8fabb606435e39d2",
@@ -231,13 +231,29 @@
     "sha256": "1a024ec63e86363863ad04ee64448ce50c8d727947b87c27da63e3cd8ea5348b",
     "size": 6357
   },
+  "hardware/BOARD_AND_ANDROID_GUIDE.md": {
+    "sha256": "79f3e0553e8f411187e2272f3b00cd7b08afbc7a7aa16df2bd3af8d99f6143d8",
+    "size": 3418
+  },
   "hardware/README.md": {
-    "sha256": "2740038fff53a54940c6f72253608d3bd2428eb9251eafabd94018aa4ef4cf98",
-    "size": 4588
+    "sha256": "ca03b7afe0a4d3e1b84845a98615a0e5a9f2d7ca045c3d3f7ca2e3b6a54ee4c3",
+    "size": 5352
   },
   "hardware/provision.py": {
     "sha256": "560a35daccdf21241b4813e9aed4a007083ee6bb0b160fc3dfb5bb38016a8162",
     "size": 1615
+  },
+  "hardware/renode_cc2538/README.md": {
+    "sha256": "6a4b221b3595de0fbe45e8254a3f9ecc084bbe6d8d575d897f7517a237d50cd7",
+    "size": 3891
+  },
+  "hardware/renode_cc2538/bridge.c": {
+    "sha256": "f8d9b2ab0d61691852288a991b5ac90a39aecdac63b368a1c4b9738d3cd78272",
+    "size": 4638
+  },
+  "hardware/renode_cc2538/link.ld": {
+    "sha256": "f4ed05345069c2f0b0693efbf5bd0ea526d191d7af150d4d82c072e66615e5ea",
+    "size": 368
   },
   "hardware/serial_adapter.py": {
     "sha256": "592939d0fc94e5619b6dec8f3b669281c1f7214fcce489582511c3d2db5fc42a",
@@ -252,8 +268,8 @@
     "size": 7614
   },
   "outputs/auth_policy/audit.json": {
-    "sha256": "7259310a337079cb0b11df8b2f12528ab5489b97a756a9a1f4f60e45e92c6c5e",
-    "size": 418
+    "sha256": "2e12aec013edb3770f55e472ba588a3e9a6ab3cbef3b6eeb2fcc2f0481cc1321",
+    "size": 580
   },
   "outputs/auth_policy/provenance.json": {
     "sha256": "0686e957cc415b8d6e83ae6d96da3d6e86b9c365f4cb30968c0ff0d6cfbe1202",
@@ -1319,6 +1335,358 @@
     "sha256": "4504fe14f20febc04eda4ac7f801a6920ebbdd7571f35cd3b57948ad10cd4654",
     "size": 266
   },
+  "outputs/renode_boards/attention_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_20261016/cc2538_bridge.elf": {
+    "sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+    "size": 139940
+  },
+  "outputs/renode_boards/attention_20261016/chain.resc": {
+    "sha256": "e2b1218b6fc6364e74685dcbd552a8713db9e08b961ae324d1dc6fa7fa2e0a81",
+    "size": 2988
+  },
+  "outputs/renode_boards/attention_20261016/firmware_uart_0.jsonl": {
+    "sha256": "fa36633ee315906f2f12b4bb9a3a95c12af4252782293014f3cd23afd3e22ed8",
+    "size": 6840
+  },
+  "outputs/renode_boards/attention_20261016/firmware_uart_1.jsonl": {
+    "sha256": "aebf6edf7cdfb2076255b55b9bf5cda0eef67d257ed27ef4fc0ceff3cec8f26a",
+    "size": 12154
+  },
+  "outputs/renode_boards/attention_20261016/firmware_uart_2.jsonl": {
+    "sha256": "ba9e5716724f45d39c424805dc1cfe9c41e450a3e69b12c16eebbfec154fa799",
+    "size": 11882
+  },
+  "outputs/renode_boards/attention_20261016/firmware_uart_3.jsonl": {
+    "sha256": "e7a5d9da57d3a121db66c08db86fcd9f19ba1d83162dc6c165314c70ea3d7850",
+    "size": 6428
+  },
+  "outputs/renode_boards/attention_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_20261016/node_0.jsonl": {
+    "sha256": "28b047f917ea01aea5108436cef34e26732b14f508c19ed5f2410cdf4a69f717",
+    "size": 17299
+  },
+  "outputs/renode_boards/attention_20261016/node_1.jsonl": {
+    "sha256": "5747c05491f2ee13e0f7c72752db39d28d3cdb229aa8f04b1863436ce5d0b49f",
+    "size": 32089
+  },
+  "outputs/renode_boards/attention_20261016/node_2.jsonl": {
+    "sha256": "fd690e3028e140fd38ea1786d7e4f7c151c4455dc8164a639630f533f1ae897f",
+    "size": 31589
+  },
+  "outputs/renode_boards/attention_20261016/node_3.jsonl": {
+    "sha256": "4cac5fbb3767984e8e6e4632ba270e25c2db98fb3cb565a40bdb3c4a6e0f9bfa",
+    "size": 17292
+  },
+  "outputs/renode_boards/attention_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/attention_20261016/renode.log": {
+    "sha256": "6687d72c7fa08b177ee16a28e45736bc90f626e5049a8682bd324569a5b6cc43",
+    "size": 2349
+  },
+  "outputs/renode_boards/attention_20261016/verification.json": {
+    "sha256": "9941ea7026c60cf9a448b0825ed9aee755ce03f7a59ae282c2bc78d28c44ad0c",
+    "size": 2057
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/cc2538_bridge.elf": {
+    "sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+    "size": 139940
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/chain.resc": {
+    "sha256": "6c2e282ed312f6e74fb7e42f82e1546b763c58f616dd7e0988af07929facf5cf",
+    "size": 2988
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/firmware_uart_0.jsonl": {
+    "sha256": "e83efe8757dc92b346b930c62fb27edeb9edcac7520e0bf2e0c704f8b022a7f4",
+    "size": 6840
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/firmware_uart_1.jsonl": {
+    "sha256": "54aa2008ab66700b9a76537c77ca8895809076e57c8daafac25c4ac139e4a88b",
+    "size": 12154
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/firmware_uart_2.jsonl": {
+    "sha256": "f90a8f307d313bc0f67753df0c00f685feaa8b5153f43541e10966cdb7734769",
+    "size": 11882
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/firmware_uart_3.jsonl": {
+    "sha256": "645d5aa1876e0a1246a7f4017b6292bda40c8bcbba41feefa93a22e430de57ce",
+    "size": 6428
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/node_0.jsonl": {
+    "sha256": "d8ef4972618e52f7791982a0e617281a5716d79fb35deaa49b439d8fba82867f",
+    "size": 17304
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/node_1.jsonl": {
+    "sha256": "9cbbebc9b173a496f8c5f1109a6f10110ed10333273ca278e72cad09dffd5b9b",
+    "size": 32093
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/node_2.jsonl": {
+    "sha256": "2fe59c3790bc76ceceb468fdc1bc0e13ab4d817bf744e71bc32b7adf10172e51",
+    "size": 31829
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/node_3.jsonl": {
+    "sha256": "20e6f5b1f18cd2b93d456b5bb907d55bb32767607271026c51e81e7ef887a3a5",
+    "size": 17291
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/renode.log": {
+    "sha256": "107eb8e73581d390d6636bbd40753dc9a8c0bb83582cb74f59a751b35aee472c",
+    "size": 2349
+  },
+  "outputs/renode_boards/attention_ready_diagnostic_20261016/verification.json": {
+    "sha256": "aba867068ad5a13c6d0ae91c84c4d8ee648e7da218abb492bbd733adc0ff4555",
+    "size": 1967
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/cc2538_bridge.elf": {
+    "sha256": "44b7cb49693f93719ae04f5ac6e415802ba270c7341b65a9da08fcf9c5751cc1",
+    "size": 139508
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/chain.resc": {
+    "sha256": "73b30f0fbf082dab8b1c768fc5fd35fbfaf360425fd080229f28fffc7c9b8ee4",
+    "size": 2416
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/node_0.jsonl": {
+    "sha256": "b593823b8469636411230de97c623011ece9889ba8205b53f0a5e7f3c0677719",
+    "size": 17305
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/node_1.jsonl": {
+    "sha256": "ef32ab6d3aa90b487783d10c3686691df4e70e4f8c01c30e0dbe7eff6d3fd5af",
+    "size": 32073
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/node_2.jsonl": {
+    "sha256": "ed3586e367d5e91478839cba2e6cf62410add8b68f3e1998eb4b43e217effe5b",
+    "size": 32072
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/node_3.jsonl": {
+    "sha256": "3fce6b063f6e1b1a7fbd0bc4dabb5aa7cc97c98c6b9f29173669eb56d5808a73",
+    "size": 17292
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/renode.log": {
+    "sha256": "3653e68bce1a71a77e15576769d597b38e3c7059cf5e2ff96de59f00bcec50a7",
+    "size": 2444
+  },
+  "outputs/renode_boards/attention_startup_diagnostic_20261016/verification.json": {
+    "sha256": "e55c5d8dc468b6bf78c9d7de42583108ac4b8273f310df897629c7e75f5f10a7",
+    "size": 1954
+  },
+  "outputs/renode_boards/audit.json": {
+    "sha256": "cd882b5ceedd20b6aa99cef2deef55f8d05af6b0f23c0f0b6c30519f8e87dc87",
+    "size": 865
+  },
+  "outputs/renode_boards/greedy_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_20261016/cc2538_bridge.elf": {
+    "sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+    "size": 139940
+  },
+  "outputs/renode_boards/greedy_20261016/chain.resc": {
+    "sha256": "cf2fd3a2637246b714628824786b90c571d3bd5a5c95ae8ed37bca7f8510680b",
+    "size": 2964
+  },
+  "outputs/renode_boards/greedy_20261016/firmware_uart_0.jsonl": {
+    "sha256": "48bb06713ecd8c8232cb495972adc5d41cd6b30d110d5b6cc0344296277962da",
+    "size": 6840
+  },
+  "outputs/renode_boards/greedy_20261016/firmware_uart_1.jsonl": {
+    "sha256": "4fdf7c7abe648a5418f8a3cda1b45005faa22a45cf44fe3adb44521fe037dcec",
+    "size": 12154
+  },
+  "outputs/renode_boards/greedy_20261016/firmware_uart_2.jsonl": {
+    "sha256": "82edc5858abb65c5b187b0ca8cb8a914dae13fd34b0a2bcee2041f720091b3d6",
+    "size": 11882
+  },
+  "outputs/renode_boards/greedy_20261016/firmware_uart_3.jsonl": {
+    "sha256": "69f1f2a8e92645283dccb08cc7b35f95777bb6153761104ef8e2e261fc181c53",
+    "size": 6428
+  },
+  "outputs/renode_boards/greedy_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/greedy_20261016/node_0.jsonl": {
+    "sha256": "284cb9113f41abfe3aca4c955716858bf76ba9d8f4861f3eba4f977f8b9e7455",
+    "size": 17308
+  },
+  "outputs/renode_boards/greedy_20261016/node_1.jsonl": {
+    "sha256": "1872738a3e6f48b7cc2064826307ba7665e8b8176c0eb67059911f45bfb7294b",
+    "size": 31920
+  },
+  "outputs/renode_boards/greedy_20261016/node_2.jsonl": {
+    "sha256": "94ce7c364843e23bf52c8ee743e46f52d64608344e9491f09e50084b97887319",
+    "size": 32079
+  },
+  "outputs/renode_boards/greedy_20261016/node_3.jsonl": {
+    "sha256": "21fd605ab82568daf4beb80db37cee29199f020bb99e0dee3e4d7833df298a26",
+    "size": 17278
+  },
+  "outputs/renode_boards/greedy_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/greedy_20261016/renode.log": {
+    "sha256": "bb9c6906f9d2e20accc7433f39b1471d54a53ec05182ae8166e4f1db4530c90e",
+    "size": 2346
+  },
+  "outputs/renode_boards/greedy_20261016/verification.json": {
+    "sha256": "e77bb9f8326efabcf75bcbf3903d48cf9c257f4bf9bedbc2420e5bf567ade2ac",
+    "size": 1979
+  },
+  "outputs/renode_boards/mlp_20261016/build.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_20261016/cc2538_bridge.elf": {
+    "sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+    "size": 139940
+  },
+  "outputs/renode_boards/mlp_20261016/chain.resc": {
+    "sha256": "fd3c598e22c5bbdc548883c385784e5c3392bffe7924b908c31836a7955519fc",
+    "size": 2940
+  },
+  "outputs/renode_boards/mlp_20261016/firmware_uart_0.jsonl": {
+    "sha256": "58ed81125e63a6bd589ea74b6df460403c4c3f561be638427fa74c530bc4169c",
+    "size": 6840
+  },
+  "outputs/renode_boards/mlp_20261016/firmware_uart_1.jsonl": {
+    "sha256": "0fb0f7c9567c3fbbdf17ed3c5a8c0ad26e91b6d2dbde0a956e54f71cbc191cf6",
+    "size": 12154
+  },
+  "outputs/renode_boards/mlp_20261016/firmware_uart_2.jsonl": {
+    "sha256": "70a0bf890999f4ecc0df3956152f8ef172a0fc26bd3f8c136b20be6b1f71724c",
+    "size": 11882
+  },
+  "outputs/renode_boards/mlp_20261016/firmware_uart_3.jsonl": {
+    "sha256": "30e046f3b2596703f0ab1ae42bbf8170dbc7ddd7b2bf9adfbc234e9b5d0bfa54",
+    "size": 6428
+  },
+  "outputs/renode_boards/mlp_20261016/host_0.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_20261016/host_1.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_20261016/host_2.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_20261016/host_3.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  "outputs/renode_boards/mlp_20261016/node_0.jsonl": {
+    "sha256": "d0e2e571ba8f306ba395478d1a966687a67174c3eb24df093c7f435b00251cb7",
+    "size": 17286
+  },
+  "outputs/renode_boards/mlp_20261016/node_1.jsonl": {
+    "sha256": "0c0cb916ec65727f452610bb552c1f24e85789cb89aa6b65ca569f4c31126a42",
+    "size": 32081
+  },
+  "outputs/renode_boards/mlp_20261016/node_2.jsonl": {
+    "sha256": "5c14168f81d4d1be73d1cd7473ecae7735ae89b15404e23c1e2de64a21e973a9",
+    "size": 32082
+  },
+  "outputs/renode_boards/mlp_20261016/node_3.jsonl": {
+    "sha256": "0317f99e57ac64ff223b4ba99224b7360a7dd5483a9c73aec8618b8b8e3d5405",
+    "size": 17285
+  },
+  "outputs/renode_boards/mlp_20261016/probes.json": {
+    "sha256": "30c68352d24bee90b0a2f6b3fa6e4ff4122c358f347a2c168fb9fd750a23865a",
+    "size": 1014
+  },
+  "outputs/renode_boards/mlp_20261016/renode.log": {
+    "sha256": "6411b991a9745dcaaba2184a503224a62cddf3710cfcf28b8acec8d38cda96a2",
+    "size": 2343
+  },
+  "outputs/renode_boards/mlp_20261016/verification.json": {
+    "sha256": "c07bde9e805b40d937f833949998761f9dca0ce18dbe9baebcfbbb1d70a6ca10",
+    "size": 2023
+  },
+  "outputs/renode_boards/recheck_20261016.json": {
+    "sha256": "cedce3baaa51530a33a605ec61c22dca7213d3eae393440797dd5fd74d25e5b8",
+    "size": 7975
+  },
   "outputs/udp_matched_comparison/SHA256SUMS": {
     "sha256": "5a0e959f88dcf4bf06267417d5b04b669b2e3048af5a9b4c0763bddf08c0834f",
     "size": 591
@@ -1427,6 +1795,78 @@
     "sha256": "5e306c7df41820de748d44cafa5cc0e768e8cf04e3e782a2c8710e89f47d3acf",
     "size": 17285
   },
+  "outputs/virtual_boards/recheck_attention_20261016/firmware_contract.jsonl": {
+    "sha256": "eb50d3c3cc6ae3c9e605fdbbc209ba52f11d3775bfe22a64d22a381dd72bcdf7",
+    "size": 79953
+  },
+  "outputs/virtual_boards/recheck_attention_20261016/node_0.jsonl": {
+    "sha256": "fe81e275d1e8245cc5eebbb15b391b3a95227b2723f5c53b62e118df444c632d",
+    "size": 17287
+  },
+  "outputs/virtual_boards/recheck_attention_20261016/node_1.jsonl": {
+    "sha256": "1f2802ebdbf372cd641a3e8b5b131a5710067d00b87fdc1be4be7f816c5ce7f5",
+    "size": 31597
+  },
+  "outputs/virtual_boards/recheck_attention_20261016/node_2.jsonl": {
+    "sha256": "6acc33f42d056cf3528424a409edf2f6982ec68c378d5b978c9667f6e20e0eb1",
+    "size": 32081
+  },
+  "outputs/virtual_boards/recheck_attention_20261016/node_3.jsonl": {
+    "sha256": "9df0f818639d4a3c9d16e0c71c16b0221f1873740dd4c4421b84013ba7d5068c",
+    "size": 17044
+  },
+  "outputs/virtual_boards/recheck_attention_20261016/verification.json": {
+    "sha256": "324bc2d5430071864db89ba6af0bd93f46224ec86fb399c55e8ba599f91f0981",
+    "size": 1665
+  },
+  "outputs/virtual_boards/recheck_greedy_20261016/firmware_contract.jsonl": {
+    "sha256": "a141cfbb0a073ec2ab74c6a59de6291a3a964fa35b178556e823d92d8808b724",
+    "size": 79886
+  },
+  "outputs/virtual_boards/recheck_greedy_20261016/node_0.jsonl": {
+    "sha256": "04fbed55d19824ff8b849c18dc9a34c77dc0169ae42784d16095035e530abc46",
+    "size": 17271
+  },
+  "outputs/virtual_boards/recheck_greedy_20261016/node_1.jsonl": {
+    "sha256": "6e94d58b756671d9c368f213f026a9e67db178276c5abf88d9a4ce7868c950bc",
+    "size": 32071
+  },
+  "outputs/virtual_boards/recheck_greedy_20261016/node_2.jsonl": {
+    "sha256": "d4d9832b241269af36b2646247dd91d895fa1269e38f065311a3feffe6b6ed79",
+    "size": 31828
+  },
+  "outputs/virtual_boards/recheck_greedy_20261016/node_3.jsonl": {
+    "sha256": "23569317b4d3e2be0b5aef86d97827de936772291d993fe86db1a588a07c3e02",
+    "size": 17266
+  },
+  "outputs/virtual_boards/recheck_greedy_20261016/verification.json": {
+    "sha256": "2fb74a3703c5b61126b9116fae4e28bf5ed909b3fac6bcf79305832ddfc471d0",
+    "size": 1601
+  },
+  "outputs/virtual_boards/recheck_mlp_20261016/firmware_contract.jsonl": {
+    "sha256": "c62cf263200db8468d1aa1f7b57a9f1ba4daae892bc7109085c716fc1430f18b",
+    "size": 79927
+  },
+  "outputs/virtual_boards/recheck_mlp_20261016/node_0.jsonl": {
+    "sha256": "d5e42a0aa2a09749e2eb16d0134c9c9e4c128ad466a79fc77b303766686a9bdd",
+    "size": 17276
+  },
+  "outputs/virtual_boards/recheck_mlp_20261016/node_1.jsonl": {
+    "sha256": "1d28e652fb9b05bb61cb02fde2620288764d5706200d6b84e060adac05151fff",
+    "size": 31835
+  },
+  "outputs/virtual_boards/recheck_mlp_20261016/node_2.jsonl": {
+    "sha256": "9380c5534e86a32397fadc07ab4019293d765a48c3c4af8bdcd27bf0c8ad3560",
+    "size": 32084
+  },
+  "outputs/virtual_boards/recheck_mlp_20261016/node_3.jsonl": {
+    "sha256": "c85f4a73bb0e6ffa63d7b039231d833836582d3cd86e6da6315959c4378c13b3",
+    "size": 17281
+  },
+  "outputs/virtual_boards/recheck_mlp_20261016/verification.json": {
+    "sha256": "d2ade2f689d02a5f360fa8f3a4c689d10a04d502b172a040c42e887f2037659c",
+    "size": 1658
+  },
   "outputs/virtual_boards/verification.json": {
     "sha256": "24ee476c957ac379e57f76d48e6db7933b1e8523862e35e715374aa092c037ab",
     "size": 1551
@@ -1452,16 +1892,16 @@
     "size": 44352
   },
   "publication/array/Array_Manuscript.docx": {
-    "sha256": "a23d162de6193db1aecf81afa8f72370b18705f51d8d1f20cbcee6d9d4005b1e",
-    "size": 3992899
+    "sha256": "3212613a2cbeb272483de7578b125c6aab819c8fe7960fa4c7551b45854952d4",
+    "size": 4164018
   },
   "publication/array/Array_Manuscript.md": {
-    "sha256": "835a2fb512b2f3051c7b9ce01eca08552d45b40e81b0c2494ed3d53a6df0ce10",
-    "size": 39319
+    "sha256": "b169edbc4e31934ee44b4a4d298e11308af6df65d390f8bbceb8f5d8fbed54c0",
+    "size": 40752
   },
   "publication/array/Array_Manuscript.pdf": {
-    "sha256": "aa2dcefafa2042c293606aa1b14ee6b944fb98bd678a8e96b1e4d63df1e2a45a",
-    "size": 1649978
+    "sha256": "0d06e7ba7848d8cea47a4f99fd9dd237c8ac8348eefe969778549d2bb9a67529",
+    "size": 1724728
   },
   "publication/array/Highlights.txt": {
     "sha256": "2a7bcf12fec2473e93375c8923410208fedd4d8b69deb5a76177829a0e3035d6",
@@ -1472,35 +1912,35 @@
     "size": 987
   },
   "publication/array/SHA256SUMS": {
-    "sha256": "8347aec4bf236f7cec132f6deae3759a18b67b8855f00daa74a64496044fff23",
-    "size": 5742
+    "sha256": "ee67989830caa789c2e6a1f7de44ed4771b97fe2a5ec3ca022154dff40711353",
+    "size": 19792
   },
   "publication/array/document_checks.json": {
-    "sha256": "cd043c19ba008d6497111831b5fbd2dc6c892491041aced2cfa4c5c37b5f39d0",
-    "size": 501
+    "sha256": "04a8387a4feecc403a5ff0960246f83c95739ae542856cae8e1f271d6d1c66ff",
+    "size": 531
   },
   "publication/array/figures/fig7_authenticated_virtual.pdf": {
-    "sha256": "20d8f5d39b66e008bb9cb9ce18588f2442a5a7e996d593de4bc3ac7a9dc2320f",
-    "size": 30877
+    "sha256": "c8b092c2c34999220cb613b027af9a9b480b1b07f4aa0a61a66249faf3063fd6",
+    "size": 35960
   },
   "publication/array/figures/fig7_authenticated_virtual.png": {
-    "sha256": "a09ad978db81b6883b83a85d2f19a0241da207901a78c73366824ee3599d02c4",
-    "size": 513306
+    "sha256": "5afeac4249c4364a1baca802e273cba5a9bb199bc5644ede0e80c79610ed85df",
+    "size": 711742
   },
   "publication/array/figures/fig7_authenticated_virtual.svg": {
-    "sha256": "56c07f7d46411bd5b698eeb16c3c22b5db958bc77dc913b73d6e66637c898f10",
-    "size": 10267
+    "sha256": "45796fb5c5090480d49f37e60aabba475ee9bcefca61fe70c9d129f466a960c8",
+    "size": 15604
   },
   "publication/array/figures/fig8_policy_transfer.pdf": {
-    "sha256": "397ac7bed7649627161cd3b76ce3b8dddead8dbd5c614afd89e55f07dde34f55",
-    "size": 21188
+    "sha256": "ed20ce720749e6ed9d1c1fe1ad19205910027f70f157f7a67dabb01c7b96f727",
+    "size": 21194
   },
   "publication/array/figures/fig8_policy_transfer.png": {
     "sha256": "47983221ec953311d6e55f0232ab77be94fe50d36ffb238ad4a5d3b3ffef55e2",
     "size": 961933
   },
   "publication/array/figures/fig8_policy_transfer.svg": {
-    "sha256": "8f4877e9f1d29d9795b42afc9871a87d98e1f5c9b57b243809efbc92ad45deb8",
+    "sha256": "eca0396fe3024dd1cf03e4f2e37853c3fb5d2b7b4c7b6abce1bc08f5fcec3e31",
     "size": 72065
   },
   "publication/censored_feedback/JICCE_Censored_Feedback_Review_Draft.docx": {
@@ -1807,6 +2247,10 @@
     "sha256": "b73d75b3fd2bca37c7bee32d6a81c989f0f2f3bff320ad59ea5e48ecfb59aa51",
     "size": 173
   },
+  "requirements-emulation.txt": {
+    "sha256": "f5d50865c4adfccc3a5cafc095087e220fc8e814f394e87c8517087b1319aa75",
+    "size": 220
+  },
   "requirements-lock.txt": {
     "sha256": "4390761ce8c86cbd0f0a103da9a499f2b7cc041da4614458d15f70e58d02277a",
     "size": 211
@@ -1844,20 +2288,24 @@
     "size": 3002
   },
   "scripts/audit_auth_policy.py": {
-    "sha256": "c902618c8d87af77dccd3c55fa6c61edbb342dd43e2b6249231be54252427727",
-    "size": 5901
+    "sha256": "b5d379cb6e9aaea934bf29791a15647546973ad62bd77ce99e582b09aeb530be",
+    "size": 6441
   },
   "scripts/audit_censored_implementation.py": {
     "sha256": "fb72a4cbefe3e5db791a7d0f5ad8054332dd13a37ce773ebc5568808ac2c78a6",
     "size": 5279
   },
+  "scripts/audit_renode_boards.py": {
+    "sha256": "c410983b0fd81dbc5a50cdd034b62d82d6c40cc2637c1434710191bd34c99874",
+    "size": 3376
+  },
   "scripts/build_array_figures.py": {
-    "sha256": "fe83e9c4184ada8e90fd4310ae21553aad172bd45dd0780dfe48c6b35cf59c82",
-    "size": 4071
+    "sha256": "a15b761645d70faef365a718346bc21b0af7e65f049ea252637f9fa803bd3e68",
+    "size": 4505
   },
   "scripts/build_array_manuscript.py": {
-    "sha256": "2e2e1d939166f349264228232661a305808d9825a5496935d7fdf4ed2a9a3a69",
-    "size": 17307
+    "sha256": "ea32ca922ed56f9e9dd4f174b09a6d16afa06a0559399240e6ddcc9c7e3a5efb",
+    "size": 18749
   },
   "scripts/build_censored_figure.py": {
     "sha256": "18d166752087c6e56c0818e3c6780ab9457549ae05f40dc294fdc2ae084d6994",
@@ -1939,6 +2387,10 @@
     "sha256": "486c330c2d6856c6b6f195b74ad63e28188b7218282f076bad8c5c3484759cf0",
     "size": 9150
   },
+  "scripts/run_renode_boards.py": {
+    "sha256": "8e8886943d5ade99c24127296d4111a0b7629b28457b14d45759c0c23399d119",
+    "size": 7443
+  },
   "scripts/run_udp_matched_comparison.py": {
     "sha256": "0bea7d5ae4725f6b7c6f30b0cece5be53db8bc3a77bdaf054021b323b6c45e95",
     "size": 8001
@@ -1952,8 +2404,8 @@
     "size": 6553
   },
   "scripts/run_virtual_boards.py": {
-    "sha256": "495733540b1a92cb151e52375188a74097b07b42c08e16a7aa86e5b4031382e5",
-    "size": 5868
+    "sha256": "3f7390e512f652a3ccae58e7575bd4c8a97df3576957d3c76d3908a82a5712d7",
+    "size": 6812
   },
   "scripts/summarize_udp_persistent_fault.py": {
     "sha256": "e7e189e382eed363383c024379ffe43dafd9f1eac3b0657e2e690075f7588629",

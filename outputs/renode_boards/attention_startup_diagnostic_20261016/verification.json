@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "policy": "attention",
+  "virtual_mcus": 4,
+  "emulated_cpu": "ARM Cortex-M3 / CC2538",
+  "compiled_firmware_executed": true,
+  "host_policy_and_crypto": true,
+  "physical_validation": false,
+  "physical_firmware_flash_ready": false,
+  "energy_validation": false,
+  "radio_model": "Renode range medium: deterministic reachability; no calibrated RF or power model",
+  "offered": 10,
+  "sink_delivered": 10,
+  "final_records": [
+    {
+      "event": "final",
+      "host_monotonic_s": 2299.201897148,
+      "node": 0,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        3.9399999999999995,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2299.193098401,
+      "node": 1,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        0.94,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2299.199377942,
+      "node": 2,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2299.219712639,
+      "node": 3,
+      "sink_delivered": 10,
+      "settlements": 0,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 0
+    }
+  ],
+  "firmware_probes": 5,
+  "firmware_source_sha256": "59c97063e9f55ac560a192b31546dd3b418567d86989e6fa03272c54b1918cd0",
+  "firmware_elf_sha256": "44b7cb49693f93719ae04f5ac6e415802ba270c7341b65a9da08fcf9c5751cc1",
+  "checkpoint_sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+  "renode_version": "Renode v1.17.0\n  build: 1.17.0+20260907gitf1dd1b4af\n  build type: Release\n  runtime: .NET 8.0.12",
+  "zig_version": "0.17.0"
+}

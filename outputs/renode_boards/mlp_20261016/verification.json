@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "policy": "mlp",
+  "virtual_mcus": 4,
+  "emulated_cpu": "ARM Cortex-M3 / CC2538",
+  "compiled_firmware_executed": true,
+  "host_policy_and_crypto": true,
+  "physical_validation": false,
+  "physical_firmware_flash_ready": false,
+  "energy_validation": false,
+  "radio_model": "Renode range medium: deterministic reachability; no calibrated RF or power model",
+  "offered": 10,
+  "sink_delivered": 10,
+  "final_records": [
+    {
+      "event": "final",
+      "host_monotonic_s": 2436.562202744,
+      "node": 0,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        0.97,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2436.348431548,
+      "node": 1,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        0.97,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2436.487590649,
+      "node": 2,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2436.569694447,
+      "node": 3,
+      "sink_delivered": 10,
+      "settlements": 0,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 0
+    }
+  ],
+  "firmware_probes": 5,
+  "firmware_source_sha256": "f8d9b2ab0d61691852288a991b5ac90a39aecdac63b368a1c4b9738d3cd78272",
+  "firmware_elf_sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+  "checkpoint_sha256": "9b70d2590cf45579709456e7964d02c2e82eae8344177cce4576d6245fddf1ae",
+  "sink_public_key": "3eca789db58dea6b86417adca809c247cd55fe92cf7e6a66589974c534cd265b",
+  "renode_version": "Renode v1.17.0\n  build: 1.17.0+20260907gitf1dd1b4af\n  build type: Release\n  runtime: .NET 8.0.12",
+  "zig_version": "0.17.0"
+}

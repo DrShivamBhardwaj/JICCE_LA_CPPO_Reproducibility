@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "runs": [
+    {
+      "policy": "attention",
+      "received_frames": 130,
+      "public_signatures": 30,
+      "sink_unique_packets": 10,
+      "source_verified_receipts": 10,
+      "firmware_probes": 5
+    },
+    {
+      "policy": "mlp",
+      "received_frames": 132,
+      "public_signatures": 30,
+      "sink_unique_packets": 10,
+      "source_verified_receipts": 10,
+      "firmware_probes": 5
+    },
+    {
+      "policy": "greedy",
+      "received_frames": 132,
+      "public_signatures": 30,
+      "sink_unique_packets": 10,
+      "source_verified_receipts": 10,
+      "firmware_probes": 5
+    }
+  ],
+  "physical_validation": false,
+  "limits": "Checks MCU UART byte provenance, public sink signatures and identities. Secret hop/source HMACs remain runtime checks. No measured RF, hardware energy or embedded policy/crypto claim."
+}

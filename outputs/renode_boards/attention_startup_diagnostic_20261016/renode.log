@@ -1,0 +1,35 @@
+[09:46:02.0897] [INFO] Loaded monitor commands from: /workspace/scratch/cf161f382c3a/emulator_runtime/renode_1.17.0-portable/scripts/monitor.py
+[09:46:02.1248] [INFO] Including script(s): /workspace/scratch/cf161f382c3a/jicce_work/outputs/renode_boards/attention_20261016/chain.resc
+[09:46:02.3550] [INFO] System bus created.
+[09:46:03.0598] [INFO] sysbus: Loading block of 64 bytes length at 0x200000.
+[09:46:03.0627] [INFO] sysbus: Loading block of 1824 bytes length at 0x200040.
+[09:46:03.0628] [INFO] sysbus: Loading block of 2069 bytes length at 0x20000000.
+[09:46:03.5386] [INFO] System bus created.
+[09:46:03.6178] [INFO] node1/sysbus: Loading block of 64 bytes length at 0x200000.
+[09:46:03.6179] [INFO] node1/sysbus: Loading block of 1824 bytes length at 0x200040.
+[09:46:03.6179] [INFO] node1/sysbus: Loading block of 2069 bytes length at 0x20000000.
+[09:46:03.6222] [INFO] System bus created.
+[09:46:03.6875] [INFO] node2/sysbus: Loading block of 64 bytes length at 0x200000.
+[09:46:03.6876] [INFO] node2/sysbus: Loading block of 1824 bytes length at 0x200040.
+[09:46:03.6876] [INFO] node2/sysbus: Loading block of 2069 bytes length at 0x20000000.
+[09:46:03.6908] [INFO] System bus created.
+[09:46:03.7628] [INFO] node3/sysbus: Loading block of 64 bytes length at 0x200000.
+[09:46:03.7629] [INFO] node3/sysbus: Loading block of 1824 bytes length at 0x200040.
+[09:46:03.7629] [INFO] node3/sysbus: Loading block of 2069 bytes length at 0x20000000.
+[09:46:03.7773] [INFO] node0/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[09:46:03.7790] [INFO] node0: Machine started.
+[09:46:03.7796] [INFO] node1/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[09:46:03.7808] [INFO] node1: Machine started.
+[09:46:03.7810] [INFO] node2/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[09:46:03.7817] [INFO] node2: Machine started.
+[09:46:03.7818] [INFO] node3/cpu: Setting initial values: PC = 0x200053, SP = 0x20008000.
+[09:46:03.7824] [INFO] node3: Machine started.
+[09:46:03.7947] [ERROR] node0/uart0: Character cannot be received by UART; UARTEN is disabled!
+[09:46:13.0498] [INFO] node0: Machine paused.
+[09:46:13.0500] [INFO] node1: Machine paused.
+[09:46:13.0500] [INFO] node2: Machine paused.
+[09:46:13.0500] [INFO] node3: Machine paused.
+[09:46:13.0690] [INFO] node0: Disposed.
+[09:46:13.0770] [INFO] node1: Disposed.
+[09:46:13.0854] [INFO] node2: Disposed.
+[09:46:13.0967] [INFO] node3: Disposed.

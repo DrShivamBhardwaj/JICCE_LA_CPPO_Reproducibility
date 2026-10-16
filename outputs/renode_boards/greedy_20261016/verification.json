@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "policy": "greedy",
+  "virtual_mcus": 4,
+  "emulated_cpu": "ARM Cortex-M3 / CC2538",
+  "compiled_firmware_executed": true,
+  "host_policy_and_crypto": true,
+  "physical_validation": false,
+  "physical_firmware_flash_ready": false,
+  "energy_validation": false,
+  "radio_model": "Renode range medium: deterministic reachability; no calibrated RF or power model",
+  "offered": 10,
+  "sink_delivered": 10,
+  "final_records": [
+    {
+      "event": "final",
+      "host_monotonic_s": 2437.247846929,
+      "node": 0,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        2.9549999999999996,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2437.215641837,
+      "node": 1,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        0.97,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2437.212958078,
+      "node": 2,
+      "sink_delivered": 0,
+      "settlements": 10,
+      "debts": [
+        0.97,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 10
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2437.204215721,
+      "node": 3,
+      "sink_delivered": 10,
+      "settlements": 0,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {},
+      "max_pending": 0
+    }
+  ],
+  "firmware_probes": 5,
+  "firmware_source_sha256": "f8d9b2ab0d61691852288a991b5ac90a39aecdac63b368a1c4b9738d3cd78272",
+  "firmware_elf_sha256": "f832a8efb6bf1d1e63597075cbc8a93fe2f890e53c376db107ffc7f4daebe2e3",
+  "checkpoint_sha256": null,
+  "sink_public_key": "06847f579c58946739efed9ea563423826b0079c307505174968a3392f77d2c4",
+  "renode_version": "Renode v1.17.0\n  build: 1.17.0+20260907gitf1dd1b4af\n  build type: Release\n  runtime: .NET 8.0.12",
+  "zig_version": "0.17.0"
+}

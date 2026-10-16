@@ -93,3 +93,7 @@ it is not exact policy-independent event-trace replay. The 200-node test changes
 density in the same area. Feedback omission is simulated. Feedback cost,
 authentication, per-hop energy traces and embedded-device measurements are not
 provided. A statistical benefit does not establish absolute QoS feasibility.
+
+## Compiled virtual boards (16 October 2026)
+
+Four Renode CC2538 Cortex-M3 boards now execute compiled radio-interface firmware. Greedy, MLP and attention host-policy controls each delivered 10/10 packets and passed five firmware/radio probes. The capture audit verifies MCU UART provenance and public sink signatures. [Reproduce the virtual MCU experiment](hardware/renode_cc2538/README.md). This is emulation: host inference/crypto, deterministic radio reachability, no calibrated power or physical hardware claim. [Board and Android options](hardware/BOARD_AND_ANDROID_GUIDE.md).

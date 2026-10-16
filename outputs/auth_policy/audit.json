@@ -7,5 +7,9 @@
   "signatures": 46204,
   "energy_identities": 1080,
   "physical_validation": false,
+  "max_probability_replay_error": 1.7881393432617188e-07,
+  "probability_atol": 1e-06,
+  "probability_rtol": 1e-06,
+  "action_identity": "exact argmax required",
   "limits": "Recomputed frozen probabilities, declared features and endpoints; checked byte cache provenance and public signatures. Runtime nodes check secret hop tags. No independent RF model validation or MCU timing."
 }
