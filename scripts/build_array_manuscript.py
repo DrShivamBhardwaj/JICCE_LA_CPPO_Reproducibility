@@ -157,6 +157,11 @@ d.add_paragraph('Means over 30 fixtures per condition and policy. Receipt rates 
 for number,name,caption in [(7,'fig7_authenticated_virtual','Authenticated state and virtual interfaces.'),(8,'fig8_policy_transfer','Frozen policy transfer and paired effects.')]:
  d.add_page_break();p=d.add_paragraph();p.paragraph_format.keep_with_next=True;p.add_run().add_picture(str(out/'figures'/f'{name}.png'),width=Cm(16))
  d.add_paragraph(f'Fig. {number}. {caption}')
+from array_inline_layout import apply_revision,place_exhibits
+revised_paragraphs=apply_revision(d,ROOT)
+layout_report=place_exhibits(d)
+abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
+assert len(abstract.split())<=250
 dest=out/'Array_Manuscript.docx';d.save(dest)
 with zipfile.ZipFile(dest) as z:native=z.read('word/document.xml').count(b'<m:oMath>')
 assert native==10
@@ -167,5 +172,5 @@ highlights=['A frozen 750-run study isolates feedback replacement effects.',
 'Virtual serial devices expose and correct a receive-time freshness defect.']
 assert all(len(x)<=85 for x in highlights)
 (out/'Highlights.txt').write_text('\n'.join(highlights)+'\n')
-(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=8,tables=6,references=21,virtual_validation=True,physical_validation=False,submission_certified=False),indent=2))
+(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=8,tables=6,references=21,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
 print(dest)

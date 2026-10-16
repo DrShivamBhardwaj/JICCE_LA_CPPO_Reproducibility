@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "prose_paragraphs_edited": 57,
+  "native_equations_unchanged": 10,
+  "frozen_tables_unchanged": 5,
+  "transfer_table_reconciled": true,
+  "figures_embedded": 8,
+  "tables_inline": 6,
+  "references": 21,
+  "abstract_words": 195,
+  "citations_preserved": true,
+  "numeric_tokens_preserved_except_thirty_word_conversion": true,
+  "all_exhibits_before_references": true,
+  "images_match_verified_exports": true,
+  "physical_validation": false
+}

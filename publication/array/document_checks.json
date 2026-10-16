@@ -1,5 +1,5 @@
 {
-  "abstract_words": 221,
+  "abstract_words": 195,
   "native_equations": 10,
   "figures": 8,
   "tables": 6,
@@ -7,10 +7,17 @@
   "virtual_validation": true,
   "physical_validation": false,
   "submission_certified": false,
-  "rendered_pages": 27,
+  "revised_prose_paragraphs": 57,
+  "inline_exhibits": {
+    "figures_in_body": 8,
+    "tables_in_body": 6,
+    "algorithm_in_body": 1
+  },
+  "rendered_pages": 20,
+  "visual_review": "all 20 pages reviewed; changed pages rechecked after table-note correction",
   "compiled_mcu_emulation": true,
   "strict_runner_acceptance": true,
-  "tests_passed": 83,
+  "tests_passed_prior_implementation_suite": 83,
   "embedded_policy_crypto_validation": false,
   "hardware_energy_validation": false,
   "corresponding_author_metadata_confirmed": true,
@@ -24,6 +31,5 @@
   "figure_exports": 24,
   "plotted_intervals_audited": 33,
   "scispace_review_used": true,
-  "scientific_manuscript_architect_used": true,
-  "visual_review": "27 pages: 19 unchanged pages match the previously reviewed author render; eight figure pages reviewed at full resolution. Final unused-image cleanup gives 27 pixel-identical pages."
+  "scientific_manuscript_architect_used": true
 }

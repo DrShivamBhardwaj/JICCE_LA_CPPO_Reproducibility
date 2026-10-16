@@ -7,3 +7,5 @@ Highlights.txt contains four highlights, each below 85 characters. figures/ now 
 See docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md for journal fit, verified publisher information, reproducibility instructions and remaining scientific limitations. No manuscript has been submitted.
 
 Rebuild the active artwork with scripts/build_array_journal_figures.py and audit the exact plotted effects with scripts/audit_array_figure_values.py before running scripts/build_array_manuscript.py. The source-value ledger, fingerprints and 33-interval audit are included with the figures. SciSpace/Scientific Manuscript Architect review notes are in docs/FIGURE_REDESIGN_REVIEW.md.
+
+Language and layout revision (2026-10-16): 57 scientific paragraphs edited for clear academic English; all eight figures, six editable tables and Algorithm 1 now sit in the body near their discussion. The 195-word abstract and 20-page rendered manuscript retain the numerical evidence, 10 native equations and 21 references. See `manuscript_audit.json` and `../../docs/MANUSCRIPT_LANGUAGE_AND_LAYOUT_REVIEW.md`.
