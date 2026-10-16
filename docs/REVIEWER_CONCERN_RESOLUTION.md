@@ -1,3 +1,5 @@
+> New: [distributed authenticated transport](DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
+
 > New implementation review: [audit and open boundaries](IMPLEMENTATION_REVIEW_2026_10_16.md). This review documents additional deployment-state, memory and energy limits without changing frozen outcomes.
 
 ## Current reviewer mapping

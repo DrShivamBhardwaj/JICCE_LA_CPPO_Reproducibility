@@ -1797,6 +1797,8 @@ html&gt;body{padding:0}&lt;/style&gt;
 &lt;/script&gt;
 &lt;div id=&quot;routing-feedback-architecture&quot;&gt;
   &lt;h3&gt;Routing feedback architecture&lt;/h3&gt;
+  &lt;label class=&quot;form-label&quot; for=&quot;routing-mode&quot;&gt;Implementation&lt;/label&gt;
+  &lt;select id=&quot;routing-mode&quot; class=&quot;form-select&quot;&gt;&lt;option value=&quot;prototype&quot;&gt;Authenticated transport prototype&lt;/option&gt;&lt;option value=&quot;frozen&quot;&gt;Published frozen study&lt;/option&gt;&lt;/select&gt;
   &lt;label class=&quot;form-label&quot; for=&quot;routing-stage&quot;&gt;Component&lt;/label&gt;
   &lt;select id=&quot;routing-stage&quot; class=&quot;form-select&quot;&gt;
     &lt;option value=&quot;0&quot;&gt;Received beacon cache&lt;/option&gt;
@@ -1814,13 +1816,13 @@ html&gt;body{padding:0}&lt;/style&gt;
 #routing-feedback-architecture .architecture-svg text {fill:var(--foreground);font-family:inherit}
 #routing-feedback-architecture .architecture-svg .node {fill:var(--muted);stroke:var(--border);stroke-width:1}
 #routing-feedback-architecture .architecture-svg .active {fill:var(--viz-series-1);fill-opacity:.16;stroke:var(--viz-series-1)}
-#routing-feedback-architecture .architecture-svg .edge {fill:none;stroke:var(--border);stroke-width:1.5}
+#routing-feedback-architecture .architecture-svg .edge {fill:none;stroke:var(--muted-foreground);stroke-width:1.5}
 #routing-feedback-architecture #routing-detail {padding-top:8px}
 &lt;/style&gt;
 &lt;script&gt;
 (() =&gt; {
  const root=document.getElementById(&#x27;routing-feedback-architecture&#x27;);
- const select=root.querySelector(&#x27;#routing-stage&#x27;),holder=root.querySelector(&#x27;#routing-diagram&#x27;),detail=root.querySelector(&#x27;#routing-detail&#x27;);
+ const mode=root.querySelector(&#x27;#routing-mode&#x27;),select=root.querySelector(&#x27;#routing-stage&#x27;),holder=root.querySelector(&#x27;#routing-diagram&#x27;),detail=root.querySelector(&#x27;#routing-detail&#x27;);
  const labels=[[&#x27;Beacon cache&#x27;,&#x27;Metadata sidecar&#x27;],[&#x27;Observation&#x27;,&#x27;93 features&#x27;],[&#x27;Frozen policy&#x27;,&#x27;Masked relay choice&#x27;],[&#x27;Radio channel&#x27;,&#x27;Data and feedback&#x27;],[&#x27;Observer ledger&#x27;,&#x27;ACK gated evidence&#x27;],[&#x27;Source service&#x27;,&#x27;Receipt or expiry&#x27;]];
  const details=[
  &#x27;Beacon reception gates access to simulator-held energy and queue values; those values are not serialized.&#x27;,
@@ -1830,22 +1832,35 @@ html&gt;body{padding:0}&lt;/style&gt;
  &#x27;The observer deduplicates overhears and receipts, requires its own successful first-hop ACK, and censors missing evidence.&#x27;,
  &#x27;Only packet sources update service debt. Transit-relay service debt and distributed route-state exchange are not validated.&#x27;
  ];
+ const authenticatedLabels=[[&#x27;Wire telemetry&#x27;,&#x27;Decoded beacon values&#x27;],[&#x27;Local state&#x27;,&#x27;Packet visited bitset&#x27;],[&#x27;Greedy router&#x27;,&#x27;Progress selection&#x27;],[&#x27;Radio channel&#x27;,&#x27;HMAC hop frames&#x27;],[&#x27;Receipt ledger&#x27;,&#x27;Sink signature check&#x27;],[&#x27;Transit service&#x27;,&#x27;Local service debt&#x27;]];
+ const authenticatedDetails=[
+ &#x27;Neighbor coordinates, energy and queue state are decoded from authenticated frame bytes after radio reception.&#x27;,
+ &#x27;Every node stores its own state. A 13-byte visited bitset travels with each data frame; reverse receipt state is local.&#x27;,
+ &#x27;This separate prototype uses greedy progress routing. The frozen attention policy has not been benchmarked with the new transport.&#x27;,
+ &#x27;Pairwise HMAC-SHA256 authenticates unicast frames. Provisioned boot sessions and sequence windows reject stale or replayed messages.&#x27;,
+ &#x27;Ed25519 verifies sink receipts. Forwarding credit additionally requires the local first-hop MAC ACK; overhearing is not credited as authenticated proof.&#x27;,
+ &#x27;Transit nodes settle their own service debt on verified receipt or expiry. Keys are provisioned out of band; physical hardware validation remains pending.&#x27;
+ ];
  const ns=&#x27;http://www.w3.org/2000/svg&#x27;;let selected=0;
  function el(name,attrs,text){const e=document.createElementNS(ns,name);Object.entries(attrs||{}).forEach(([k,v])=&gt;e.setAttribute(k,v));if(text!==undefined)e.textContent=text;return e;}
  function draw(){
   const width=Math.max(280,Math.floor(holder.getBoundingClientRect().width));const small=width&lt;560;const cols=small?2:3;const rows=small?3:2;const cell=(width-16)/cols;const rowH=110,height=rows*rowH+30;
   const svg=el(&#x27;svg&#x27;,{class:&#x27;architecture-svg&#x27;,viewBox:`0 0 ${width} ${height}`,role:&#x27;img&#x27;,&#x27;aria-label&#x27;:`Feedback architecture with ${labels[selected][0]} selected`});
   svg.append(el(&#x27;title&#x27;,{},&#x27;Controlled simulation architecture&#x27;));
-  const defs=el(&#x27;defs&#x27;),marker=el(&#x27;marker&#x27;,{id:&#x27;routing-arrow&#x27;,viewBox:&#x27;0 0 10 10&#x27;,refX:9,refY:5,markerWidth:6,markerHeight:6,orient:&#x27;auto-start-reverse&#x27;});marker.append(el(&#x27;path&#x27;,{d:&#x27;M 0 0 L 10 5 L 0 10 z&#x27;,fill:&#x27;var(--border)&#x27;}));defs.append(marker);svg.append(defs);
+  const defs=el(&#x27;defs&#x27;),marker=el(&#x27;marker&#x27;,{id:&#x27;routing-arrow&#x27;,viewBox:&#x27;0 0 10 10&#x27;,refX:9,refY:5,markerWidth:6,markerHeight:6,orient:&#x27;auto-start-reverse&#x27;});marker.append(el(&#x27;path&#x27;,{d:&#x27;M 0 0 L 10 5 L 0 10 z&#x27;,fill:&#x27;var(--muted-foreground)&#x27;}));defs.append(marker);svg.append(defs);
   const coords=small?[[0,0],[1,0],[1,1],[1,2],[0,2],[0,1]]:[[0,0],[1,0],[2,0],[2,1],[1,1],[0,1]];
   const points=coords.map(([c,r])=&gt;({x:8+c*cell+cell/2,y:20+r*rowH+35}));
   for(const [a,b] of [[0,1],[1,2],[2,3],[3,4],[4,1],[5,1]]){
    const p=points[a],q=points[b],dx=q.x-p.x,dy=q.y-p.y;const horizontal=Math.abs(dx)&gt;Math.abs(dy);const inset=horizontal?cell*.41:30;const distance=Math.hypot(dx,dy);const x1=p.x+dx/distance*inset,y1=p.y+dy/distance*inset,x2=q.x-dx/distance*inset,y2=q.y-dy/distance*inset;
    svg.append(el(&#x27;path&#x27;,{d:`M ${x1} ${y1} L ${x2} ${y2}`,class:&#x27;edge&#x27;,&#x27;marker-end&#x27;:&#x27;url(#routing-arrow)&#x27;}));
   }
-  labels.forEach((parts,i)=&gt;{const p=points[i],w=cell-18;svg.append(el(&#x27;rect&#x27;,{x:p.x-w/2,y:p.y-30,width:w,height:60,rx:4,class:`node${i===selected?&#x27; active&#x27;:&#x27;&#x27;}`}));parts.forEach((text,j)=&gt;svg.append(el(&#x27;text&#x27;,{x:p.x,y:p.y+(j?15:-5),&#x27;text-anchor&#x27;:&#x27;middle&#x27;},text)));});
-  holder.replaceChildren(svg);detail.textContent=details[selected];
+  const proto=mode.value!==&#x27;frozen&#x27;;
+  if(select.options)Array.from(select.options).forEach((option,i)=&gt;{option.textContent=(proto?authenticatedLabels:labels)[i][0];});
+  const displayed=proto?(small?[[&#x27;Telemetry&#x27;,&#x27;Wire values&#x27;],[&#x27;Local state&#x27;,&#x27;Visited bitset&#x27;],[&#x27;Router&#x27;,&#x27;Sinkward&#x27;],[&#x27;Radio&#x27;,&#x27;HMAC frames&#x27;],[&#x27;Ledger&#x27;,&#x27;Signed receipt&#x27;],[&#x27;Transit state&#x27;,&#x27;Service debt&#x27;]]:authenticatedLabels):(small?[[&#x27;Cache&#x27;,&#x27;Sidecar&#x27;],[&#x27;Observation&#x27;,&#x27;93 features&#x27;],[&#x27;Policy&#x27;,&#x27;Next relay&#x27;],[&#x27;Radio&#x27;,&#x27;Data; receipts&#x27;],[&#x27;Ledger&#x27;,&#x27;ACK; receipt&#x27;],[&#x27;Source state&#x27;,&#x27;Service debt&#x27;]]:labels);
+  displayed.forEach((parts,i)=&gt;{const p=points[i],w=cell-18;svg.append(el(&#x27;rect&#x27;,{x:p.x-w/2,y:p.y-30,width:w,height:60,rx:4,class:`node${i===selected?&#x27; active&#x27;:&#x27;&#x27;}`}));parts.forEach((text,j)=&gt;svg.append(el(&#x27;text&#x27;,{x:p.x,y:p.y+(j?15:-5),&#x27;text-anchor&#x27;:&#x27;middle&#x27;},text)));});
+  holder.replaceChildren(svg);detail.textContent=(proto?authenticatedDetails:details)[selected];
  }
+ mode.addEventListener(&#x27;change&#x27;,draw);
  select.addEventListener(&#x27;change&#x27;,()=&gt;{selected=Number(select.value);draw();});new ResizeObserver(draw).observe(holder);draw();
 })();
 &lt;/script&gt;

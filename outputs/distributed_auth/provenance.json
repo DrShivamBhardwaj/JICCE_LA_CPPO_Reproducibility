@@ -1,0 +1,25 @@
+{
+  "stage": "post-holdout engineering extension",
+  "frozen_source_commit": "4027f071322cb5682f39329f656d76df3b68ff62",
+  "runs": 30,
+  "seeds": [
+    82001,
+    82030
+  ],
+  "offered": 300,
+  "delivered": 295,
+  "new_tests": 17,
+  "full_tests": 68,
+  "wire_budget_bytes": 114,
+  "routing": "greedy progress, not frozen attention",
+  "hardware_validation": false,
+  "browser_validation": "passed real Chromium",
+  "versions": {
+    "ns3": "3.44.post0",
+    "cryptography": "50.0.2",
+    "numpy": "2.3.5",
+    "pytest": "9.1.1"
+  },
+  "physical_devices_observed": [],
+  "notes": "No raw serial devices or measured hardware traces available. Host radio adapter requires board firmware integration."
+}

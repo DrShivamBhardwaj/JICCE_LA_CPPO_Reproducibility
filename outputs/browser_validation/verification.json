@@ -1,0 +1,91 @@
+{
+  "browser": "153.0.8010.0",
+  "checks": [
+    {
+      "mode": "prototype",
+      "width": 320,
+      "theme": "light",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "frozen",
+      "width": 320,
+      "theme": "light",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "prototype",
+      "width": 320,
+      "theme": "dark",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "frozen",
+      "width": 320,
+      "theme": "dark",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "prototype",
+      "width": 736,
+      "theme": "light",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "frozen",
+      "width": 736,
+      "theme": "light",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "prototype",
+      "width": 736,
+      "theme": "dark",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "frozen",
+      "width": 736,
+      "theme": "dark",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "prototype",
+      "width": 1024,
+      "theme": "light",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "frozen",
+      "width": 1024,
+      "theme": "light",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "prototype",
+      "width": 1024,
+      "theme": "dark",
+      "selections": 6,
+      "overflow": false
+    },
+    {
+      "mode": "frozen",
+      "width": 1024,
+      "theme": "dark",
+      "selections": 6,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

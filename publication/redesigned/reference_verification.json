@@ -1,5 +1,17 @@
 [
   {
+    "number": 20,
+    "reference": "H. Krawczyk, M. Bellare, and R. Canetti, \u201cHMAC: Keyed-hashing for message authentication,\u201d IETF, RFC 2104, 1997. DOI: 10.17487/RFC2104.",
+    "url": "https://www.rfc-editor.org/rfc/rfc2104",
+    "verification": "primary RFC"
+  },
+  {
+    "number": 21,
+    "reference": "S. Josefsson and I. Liusvaara, \u201cEdwards-curve digital signature algorithm (EdDSA),\u201d IETF, RFC 8032, 2017. DOI: 10.17487/RFC8032.",
+    "url": "https://www.rfc-editor.org/rfc/rfc8032",
+    "verification": "primary RFC; implementation API checked against official cryptography documentation"
+  },
+  {
     "number": 1,
     "reference": "T. Winter et al., \u201cRPL: IPv6 Routing Protocol for Low-Power and Lossy Networks,\u201d IETF, RFC 6550, 2012. DOI: 10.17487/RFC6550.",
     "url": "https://www.rfc-editor.org/rfc/rfc6550",

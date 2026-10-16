@@ -4,3 +4,7 @@ __pycache__/
 outputs/shard*/
 shard*.log
 validation_execution.log
+
+hardware/private_keys/
+*.private.json
+*.used

@@ -1,3 +1,5 @@
+> New: [distributed authenticated transport](DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
+
 > Current focused manuscript: publication/redesigned/. JICCE author instructions were retrieved on 16 October 2026 and applied to review-text formatting, abstract length and Arabic table numbering. Deployment/authentication, original QoS compliance and novel architecture superiority remain open; see IMPLEMENTATION_REVIEW_2026_10_16.md. Author contact fields, forms and final approvals remain to be completed before submission.
 
 > Current evidence: [750-run frozen holdout and limits](CENSORED_FEEDBACK_RESULTS.md). The incremental mechanism gate passed; architecture superiority, original absolute QoS budgets, live IDS, authenticated feedback and hardware validation remain unestablished. Current manuscript: publication/censored_feedback/ (67 native equations, eight figures, 28 references). Full suite: 51 tests passed. Earlier status records below are historical.

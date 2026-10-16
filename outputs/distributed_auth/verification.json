@@ -1,0 +1,130 @@
+{
+  "status": "passed",
+  "runs": 30,
+  "received_frames": 2552,
+  "signed_receipt_transmissions": 885,
+  "energy_identities": 120,
+  "trace_hashes": [
+    {
+      "path": "outputs/distributed_auth/wire_82001.jsonl.gz",
+      "sha256": "74bfdb018ea2988dad620170b8611ac5030780c2072592a2450c9962892c71f3"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82002.jsonl.gz",
+      "sha256": "a74b9f62a1ca828d162132a0ed251e5c512da08d696366438619c5e7ea0e52af"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82003.jsonl.gz",
+      "sha256": "b498f5d5910dbbe95eac91e03834ccc77ebd3afd124ae0ff9a472644ccfa04d1"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82004.jsonl.gz",
+      "sha256": "085703faf2214a946962fee81455f721911a2276e2f3b734c0ed1d07e2fe098d"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82005.jsonl.gz",
+      "sha256": "0a5d40f76f92f90ebc8c726c96682b186cf12526d9f223bbec84160747ff30b2"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82006.jsonl.gz",
+      "sha256": "41d4d2778d546d7ecf2a8c9c00341051127e03aa877a3a8ae491f31c01c5b007"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82007.jsonl.gz",
+      "sha256": "128070b2295baf8ee3f7c049a27777c6724afa78820bbd1155adfa4381ed3700"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82008.jsonl.gz",
+      "sha256": "0710f20a3969f89fed1611830332b88ac4ebc17b4c5da6f6199e96f9933e904c"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82009.jsonl.gz",
+      "sha256": "0ddcaa3aeb49f0c9f21cfedf713ce8465067a61984f9fcb2eb4154e60fe05642"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82010.jsonl.gz",
+      "sha256": "bfd959742627a1b1d004da450883f53c8f55530d4cef764e078970c64edbb39b"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82011.jsonl.gz",
+      "sha256": "6b4b163114b5d1cb03619aa8162dabd63b32404b2e9af315525e77f59aa02cb6"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82012.jsonl.gz",
+      "sha256": "d40a9f9b909eeae10c76669e6590cb902dd7a6cacbbd554a7b9546a0d5ac12c8"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82013.jsonl.gz",
+      "sha256": "b4eb53be7a74bc59f707c2dc4ca4024a0fd322b5d9f7575618d12fbd9f09f223"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82014.jsonl.gz",
+      "sha256": "fc998f24e069cbfb90af4c43f57e11076f1f5f026d68cc586f3310886d8ebbf6"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82015.jsonl.gz",
+      "sha256": "104f017d088e72bb7fa00180c02685cfb2f343b38d95b42ef0c43c2141a468c8"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82016.jsonl.gz",
+      "sha256": "6d9d0137089d4ba156cffdc14c14853091ba7ed37cf358b5a250e6d85c80776a"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82017.jsonl.gz",
+      "sha256": "32139c59dfd40326637aabfcb43d971bdf6ff850720750ade037581b9e113315"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82018.jsonl.gz",
+      "sha256": "80cc9eba522ccb355d07cdbb12b9d71b0d1236d25a44bbc3b58e8a89982e6877"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82019.jsonl.gz",
+      "sha256": "224e480a79fa343a9f030a048e7dc3fde52bc3ac9b9bcd7726a015521a1ae1ee"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82020.jsonl.gz",
+      "sha256": "ee88ca6789c403c0915af59108e5e52a71c8eca5f1cd2d3ddd5b942901d43663"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82021.jsonl.gz",
+      "sha256": "df76d6d8bbc11cbe13bd83cc62d6f1deaa8f366d042c4c03101ebc08246787f1"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82022.jsonl.gz",
+      "sha256": "a3b1b655816ab078268dbac23400d87cde1fb6d5fd1d7dd8992762436e96d920"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82023.jsonl.gz",
+      "sha256": "50fa1455f9f3fb04da1b847dafc3ed07e3b555a743b437e3d7b42ce40bcaff49"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82024.jsonl.gz",
+      "sha256": "d56e7d41afe464ce8b783f2ce5304967e2c92273438b1599f5afa021f349d2fa"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82025.jsonl.gz",
+      "sha256": "8ebcee0646a676df71bcee756cda7a6bf96ea363b15328759d04bb281e7b0e43"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82026.jsonl.gz",
+      "sha256": "b1b190d7e7370b421c85ccefeb3fdfa22450c7b886732e6fde500375e94a2eff"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82027.jsonl.gz",
+      "sha256": "9b63e27726980a3f4a5e1a262a86ae63286bf46028fb22e683a0828f10253ad5"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82028.jsonl.gz",
+      "sha256": "cbc75c96abb9ef13a551de54774d832310c2575d2b33aca6439be2103a443c3e"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82029.jsonl.gz",
+      "sha256": "ef6898e9c4ed854f00104dfab64612af317fd0c7ff10bd736b7cbd272f357159"
+    },
+    {
+      "path": "outputs/distributed_auth/wire_82030.jsonl.gz",
+      "sha256": "799d830cc38e2c25602f413cee5d8206939b044843a90a7d5881df0a662e9aaa"
+    }
+  ],
+  "limits": "Public sink signatures, frame matching and modeled energy checked. Pairwise hop tags were checked by runtime nodes; secret keys are not exported. No hardware validation or frozen-policy performance inference."
+}

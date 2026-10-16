@@ -1,0 +1,6 @@
+# Separate post-holdout transport and hardware adapter
+cryptography==50.0.2
+numpy==2.3.5
+pytest==9.1.1
+pyserial>=3.5,<4
+# Install ns3==3.44.post0 separately with --no-deps.

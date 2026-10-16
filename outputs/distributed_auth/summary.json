@@ -1,0 +1,2348 @@
+[
+  {
+    "sink_public_key": "0c8c6015f0407050328fcd7bacb15e3fdac0481a9400e8c178688f4a775abfbb",
+    "seed": 82001,
+    "offered": 10,
+    "sink_delivered": 7,
+    "source_verified_receipts": 7,
+    "transit_settlements": [
+      7,
+      7
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 71,
+    "application_tx_bytes": 6446,
+    "received_frames": 70,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11251446912000002,
+        0.0654079999999999,
+        1.9344000000000001,
+        0.00019199999999999995,
+        28.0,
+        1708.0,
+        0.0
+      ],
+      [
+        0.11235977472000011,
+        0.10223999999999998,
+        1.897568,
+        0.00019199999999999995,
+        51.0,
+        2583.0,
+        0.0
+      ],
+      [
+        0.11233625472,
+        0.1078400000000003,
+        1.8919679999999997,
+        0.00019199999999999995,
+        50.0,
+        2770.0,
+        0.0
+      ],
+      [
+        0.11254806912000008,
+        0.057408000000000514,
+        1.9423999999999997,
+        0.00019199999999999995,
+        26.0,
+        1482.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "3cdb88a80f89733221d8f59b64be1a3666fe167f2b4b490cd376d258f9fdbd36",
+    "seed": 82002,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 85,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11244673152000006,
+        0.08153600000000046,
+        1.9182719999999998,
+        0.00019199999999999995,
+        36.0,
+        2116.0,
+        0.0
+      ],
+      [
+        0.11222161151999999,
+        0.13513600000000037,
+        1.8646719999999997,
+        0.00019199999999999995,
+        63.0,
+        3467.0,
+        0.0
+      ],
+      [
+        0.11225023872000006,
+        0.12832000000000043,
+        1.8714879999999996,
+        0.00019199999999999995,
+        58.0,
+        3314.0,
+        0.0
+      ],
+      [
+        0.1124642035200001,
+        0.07737599999999992,
+        1.9224320000000001,
+        0.00019199999999999995,
+        34.0,
+        2010.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "db04ed2b59e48bf3493d7afdcfc8e41ae141e8a97439391b073422db65addd51",
+    "seed": 82003,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11242939392000005,
+        0.08566400000000006,
+        1.9141439999999998,
+        0.00019199999999999995,
+        37.0,
+        2233.0,
+        0.0
+      ],
+      [
+        0.11225427072000008,
+        0.12735999999999975,
+        1.8724480000000003,
+        0.00019199999999999995,
+        60.0,
+        3260.0,
+        0.0
+      ],
+      [
+        0.11224795392000006,
+        0.12886400000000006,
+        1.870944,
+        0.00019199999999999995,
+        59.0,
+        3319.0,
+        0.0
+      ],
+      [
+        0.11247508992000005,
+        0.07478400000000043,
+        1.9250239999999994,
+        0.00019199999999999995,
+        33.0,
+        1941.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "61562d6127cff935948554298e8fc5480ddfe0fcd92b122cb55e31b74ffd3929",
+    "seed": 82004,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11245761792000006,
+        0.07894399999999992,
+        1.920864,
+        0.00019199999999999995,
+        35.0,
+        2047.0,
+        0.0
+      ],
+      [
+        0.11225427072000009,
+        0.12736000000000033,
+        1.8724479999999997,
+        0.00019199999999999995,
+        60.0,
+        3260.0,
+        0.0
+      ],
+      [
+        0.11224795392000007,
+        0.128863999999999,
+        1.870944000000001,
+        0.00019199999999999995,
+        59.0,
+        3319.0,
+        0.0
+      ],
+      [
+        0.11245331712000006,
+        0.07996799999999997,
+        1.91984,
+        0.00019199999999999995,
+        35.0,
+        2079.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "489b46e7f3c40bbaf0c305623a09f09f3389f47f3b742c51034c09ed24a016d4",
+    "seed": 82005,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {
+        "replay": 1
+      }
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11245116672000004,
+        0.08047999999999911,
+        1.9193280000000008,
+        0.00019199999999999995,
+        35.0,
+        2095.0,
+        0.0
+      ],
+      [
+        0.11227604352000012,
+        0.12217599999999908,
+        1.8776320000000009,
+        0.00019199999999999995,
+        58.0,
+        3122.0,
+        0.0
+      ],
+      [
+        0.1122502387200001,
+        0.1283200000000005,
+        1.8714879999999996,
+        0.00019199999999999995,
+        58.0,
+        3314.0,
+        0.0
+      ],
+      [
+        0.11247280512000007,
+        0.0753279999999997,
+        1.9244800000000004,
+        0.00019199999999999995,
+        34.0,
+        1946.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "4c6c96045366298ea09cd04653b842cd9227ce4a72a7bc0142c29c8f7ce4148f",
+    "seed": 82006,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11246205312,
+        0.07788799999999906,
+        1.921920000000001,
+        0.00019199999999999995,
+        34.0,
+        2026.0,
+        0.0
+      ],
+      [
+        0.1122324979200001,
+        0.13254400000000013,
+        1.8672639999999998,
+        0.00019199999999999995,
+        62.0,
+        3398.0,
+        0.0
+      ],
+      [
+        0.11222618112000013,
+        0.13404800000000072,
+        1.8657599999999992,
+        0.00019199999999999995,
+        61.0,
+        3457.0,
+        0.0
+      ],
+      [
+        0.11249686272000009,
+        0.0696000000000006,
+        1.9302079999999995,
+        0.00019199999999999995,
+        31.0,
+        1803.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "e74733478f773c1601d64b437f53c6482d0543e8e70fd06451d86abdeb6c7891",
+    "seed": 82007,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 85,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11243382912000004,
+        0.08460799999999986,
+        1.9152000000000002,
+        0.00019199999999999995,
+        36.0,
+        2212.0,
+        0.0
+      ],
+      [
+        0.11224566912000006,
+        0.12940799999999986,
+        1.8704000000000003,
+        0.00019199999999999995,
+        60.0,
+        3324.0,
+        0.0
+      ],
+      [
+        0.1122806131200001,
+        0.1210879999999998,
+        1.8787200000000004,
+        0.00019199999999999995,
+        56.0,
+        3112.0,
+        0.0
+      ],
+      [
+        0.11246420352000008,
+        0.07737599999999961,
+        1.9224320000000004,
+        0.00019199999999999995,
+        34.0,
+        2010.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "9cbbc0fdd20b480c7e7b9c9c96fb295d805bb88f894b05dbf867390128a4f0f4",
+    "seed": 82008,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {
+        "replay": 1
+      }
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 87,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11249027712000004,
+        0.0711679999999999,
+        1.9286400000000001,
+        0.00019199999999999995,
+        32.0,
+        1840.0,
+        0.0
+      ],
+      [
+        0.11226515712000004,
+        0.12476800000000011,
+        1.87504,
+        0.00019199999999999995,
+        59.0,
+        3191.0,
+        0.0
+      ],
+      [
+        0.11223706752000007,
+        0.13145599999999905,
+        1.868352000000001,
+        0.00019199999999999995,
+        60.0,
+        3388.0,
+        0.0
+      ],
+      [
+        0.11252723712000005,
+        0.06236799999999995,
+        1.93744,
+        0.00019199999999999995,
+        29.0,
+        1601.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "d52754ba943bce60b1e98c72397c4442131a2f3e7db3ba8aa90c5d9f5e4e0f39",
+    "seed": 82009,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11247495552000006,
+        0.0748160000000003,
+        1.9249919999999998,
+        0.00019199999999999995,
+        34.0,
+        1930.0,
+        0.0
+      ],
+      [
+        0.11225427072000009,
+        0.12735999999999953,
+        1.8724480000000006,
+        0.00019199999999999995,
+        60.0,
+        3260.0,
+        0.0
+      ],
+      [
+        0.11224795392000006,
+        0.1288639999999992,
+        1.8709440000000008,
+        0.00019199999999999995,
+        59.0,
+        3319.0,
+        0.0
+      ],
+      [
+        0.11248597632000004,
+        0.07219199999999994,
+        1.927616,
+        0.00019199999999999995,
+        32.0,
+        1872.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "4201e2f100568b3825571b7b690cc314ac803263b4add4c9144ff5455f119ff5",
+    "seed": 82010,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11247939072000002,
+        0.07376000000000027,
+        1.9260479999999998,
+        0.00019199999999999995,
+        33.0,
+        1909.0,
+        0.0
+      ],
+      [
+        0.11224338432000004,
+        0.12995199999999893,
+        1.869856000000001,
+        0.00019199999999999995,
+        61.0,
+        3329.0,
+        0.0
+      ],
+      [
+        0.11225884032000007,
+        0.12627199999999958,
+        1.8735360000000003,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11248597632000008,
+        0.07219199999999995,
+        1.927616,
+        0.00019199999999999995,
+        32.0,
+        1872.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "5033ec493a071691d788fa5dea0ccf7e1d846e177e07ef5956ddff32a7914615",
+    "seed": 82011,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 85,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11246205312000007,
+        0.07788800000000032,
+        1.9219199999999996,
+        0.00019199999999999995,
+        34.0,
+        2026.0,
+        0.0
+      ],
+      [
+        0.11223249792000005,
+        0.13254400000000008,
+        1.8672639999999998,
+        0.00019199999999999995,
+        62.0,
+        3398.0,
+        0.0
+      ],
+      [
+        0.1122393523200001,
+        0.13091200000000008,
+        1.868896,
+        0.00019199999999999995,
+        59.0,
+        3383.0,
+        0.0
+      ],
+      [
+        0.11248597632000006,
+        0.07219200000000019,
+        1.9276159999999998,
+        0.00019199999999999995,
+        32.0,
+        1872.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "d3e88dbf5cb84024634920193e9f06821c64371a31b934cc5725c13f859cd40e",
+    "seed": 82012,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11242939392000002,
+        0.08566400000000057,
+        1.9141439999999994,
+        0.00019199999999999995,
+        37.0,
+        2233.0,
+        0.0
+      ],
+      [
+        0.11225427072000008,
+        0.12736000000000047,
+        1.8724479999999997,
+        0.00019199999999999995,
+        60.0,
+        3260.0,
+        0.0
+      ],
+      [
+        0.1122806131200001,
+        0.121088,
+        1.87872,
+        0.00019199999999999995,
+        56.0,
+        3112.0,
+        0.0
+      ],
+      [
+        0.11247508992000009,
+        0.07478400000000048,
+        1.9250239999999996,
+        0.00019199999999999995,
+        33.0,
+        1941.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "ed44fac0424a9e9154bec1f8e4e2041a61a1dc98d76047aab6a3baa1d5531c8a",
+    "seed": 82013,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11246205312000004,
+        0.07788800000000064,
+        1.9219199999999994,
+        0.00019199999999999995,
+        34.0,
+        2026.0,
+        0.0
+      ],
+      [
+        0.1122478195200001,
+        0.12889599999999962,
+        1.8709120000000004,
+        0.00019199999999999995,
+        60.0,
+        3308.0,
+        0.0
+      ],
+      [
+        0.11225884032000005,
+        0.12627199999999922,
+        1.8735360000000008,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11249686272000006,
+        0.06959999999999987,
+        1.9302080000000001,
+        0.00019199999999999995,
+        31.0,
+        1803.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "e969d1c01c31d42978c9dc59e8343a8e7edab0bcabe679400691095bfa1b1975",
+    "seed": 82014,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11242939392000004,
+        0.08566399999999924,
+        1.914144000000001,
+        0.00019199999999999995,
+        37.0,
+        2233.0,
+        0.0
+      ],
+      [
+        0.11225427072000012,
+        0.1273599999999993,
+        1.8724480000000008,
+        0.00019199999999999995,
+        60.0,
+        3260.0,
+        0.0
+      ],
+      [
+        0.11225884032000007,
+        0.1262719999999994,
+        1.8735360000000005,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11251863552000001,
+        0.06441600000000033,
+        1.9353919999999996,
+        0.00019199999999999995,
+        29.0,
+        1665.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "941da56e4ff71f2d795a769668af4ae44aa20a813b31034311f3ffbdad88d46a",
+    "seed": 82015,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11248584192000008,
+        0.0722239999999994,
+        1.9275840000000006,
+        0.00019199999999999995,
+        33.0,
+        1861.0,
+        0.0
+      ],
+      [
+        0.11224781952000003,
+        0.12889599999999968,
+        1.8709120000000004,
+        0.00019199999999999995,
+        60.0,
+        3308.0,
+        0.0
+      ],
+      [
+        0.11225884032000005,
+        0.12627200000000033,
+        1.8735359999999996,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11250774912000006,
+        0.06700799999999946,
+        1.9328000000000005,
+        0.00019199999999999995,
+        30.0,
+        1734.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "4515ac86fe033be2004a76b3040045ceff8f618f94339e575cded044b8da0611",
+    "seed": 82016,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11249672832000004,
+        0.069632,
+        1.9301760000000001,
+        0.00019199999999999995,
+        32.0,
+        1792.0,
+        0.0
+      ],
+      [
+        0.11226515712000007,
+        0.12476799999999982,
+        1.8750400000000003,
+        0.00019199999999999995,
+        59.0,
+        3191.0,
+        0.0
+      ],
+      [
+        0.11224795392000012,
+        0.12886400000000003,
+        1.870944,
+        0.00019199999999999995,
+        59.0,
+        3319.0,
+        0.0
+      ],
+      [
+        0.1125186355200001,
+        0.06441599999999945,
+        1.9353920000000004,
+        0.00019199999999999995,
+        29.0,
+        1665.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "f903b2682befb88dea013057054752ffd265fe164237b439dccabec6c362ab26",
+    "seed": 82017,
+    "offered": 10,
+    "sink_delivered": 8,
+    "source_verified_receipts": 8,
+    "transit_settlements": [
+      8,
+      8
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 78,
+    "application_tx_bytes": 7212,
+    "received_frames": 77,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11250573312000003,
+        0.06748800000000006,
+        1.9323199999999998,
+        0.00019199999999999995,
+        29.0,
+        1761.0,
+        0.0
+      ],
+      [
+        0.11229566592000007,
+        0.11750399999999947,
+        1.8823040000000004,
+        0.00019199999999999995,
+        56.0,
+        3000.0,
+        0.0
+      ],
+      [
+        0.11227187712000007,
+        0.12316799999999956,
+        1.8766400000000005,
+        0.00019199999999999995,
+        57.0,
+        3165.0,
+        0.0
+      ],
+      [
+        0.11253825792000005,
+        0.05974399999999924,
+        1.940064000000001,
+        0.00019199999999999995,
+        27.0,
+        1543.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "761633a54f4c95103bcac1a3cefff2f9558e0445f7b26805f8ad5ca6615d26e8",
+    "seed": 82018,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11248584192000005,
+        0.07222399999999948,
+        1.9275840000000004,
+        0.00019199999999999995,
+        33.0,
+        1861.0,
+        0.0
+      ],
+      [
+        0.1122651571200001,
+        0.12476800000000027,
+        1.8750399999999996,
+        0.00019199999999999995,
+        59.0,
+        3191.0,
+        0.0
+      ],
+      [
+        0.11225884032000008,
+        0.12627199999999975,
+        1.8735360000000003,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11248597632,
+        0.07219200000000045,
+        1.9276159999999996,
+        0.00019199999999999995,
+        32.0,
+        1872.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "59ae48837b2910713330216258127a8295baedf569e375c0f5e5b3bf5e8048b4",
+    "seed": 82019,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 85,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11249027712000004,
+        0.07116800000000056,
+        1.9286399999999995,
+        0.00019199999999999995,
+        32.0,
+        1840.0,
+        0.0
+      ],
+      [
+        0.11227604352000006,
+        0.1221760000000003,
+        1.8776319999999997,
+        0.00019199999999999995,
+        58.0,
+        3122.0,
+        0.0
+      ],
+      [
+        0.11225023872000008,
+        0.12832000000000005,
+        1.871488,
+        0.00019199999999999995,
+        58.0,
+        3314.0,
+        0.0
+      ],
+      [
+        0.11248597632000006,
+        0.07219200000000019,
+        1.9276159999999998,
+        0.00019199999999999995,
+        32.0,
+        1872.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "cac7229557089c0902d3a92cc5984fa2c73973fc0a82e9039fa0136d885b4a4f",
+    "seed": 82020,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11246406912000005,
+        0.07740799999999978,
+        1.9224000000000003,
+        0.00019199999999999995,
+        35.0,
+        1999.0,
+        0.0
+      ],
+      [
+        0.11227604352000005,
+        0.12217599999999966,
+        1.8776320000000002,
+        0.00019199999999999995,
+        58.0,
+        3122.0,
+        0.0
+      ],
+      [
+        0.11225884032000004,
+        0.12627200000000022,
+        1.8735359999999999,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11248597632000006,
+        0.07219200000000009,
+        1.927616,
+        0.00019199999999999995,
+        32.0,
+        1872.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "856062effa7d7a4d0eb96e432b7cb039b8300fbc909d495821de0c03914b1ddf",
+    "seed": 82021,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {
+        "replay": 1
+      },
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 87,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11239243392,
+        0.09446399999999947,
+        1.9053440000000004,
+        0.00019199999999999995,
+        40.0,
+        2472.0,
+        0.0
+      ],
+      [
+        0.11226515712000001,
+        0.12476800000000017,
+        1.8750399999999998,
+        0.00019199999999999995,
+        59.0,
+        3191.0,
+        0.0
+      ],
+      [
+        0.11228061312000008,
+        0.1210879999999995,
+        1.8787200000000006,
+        0.00019199999999999995,
+        56.0,
+        3112.0,
+        0.0
+      ],
+      [
+        0.11252952192000006,
+        0.06182400000000046,
+        1.9379839999999995,
+        0.00019199999999999995,
+        28.0,
+        1596.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "5240bc41039cdcaeb97c5bc84dbbb024f495f6626ec1db80652fe4396b68bf7a",
+    "seed": 82022,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11247293952000008,
+        0.07529600000000046,
+        1.9245119999999993,
+        0.00019199999999999995,
+        33.0,
+        1957.0,
+        0.0
+      ],
+      [
+        0.11226515712000008,
+        0.12476800000000092,
+        1.8750399999999992,
+        0.00019199999999999995,
+        59.0,
+        3191.0,
+        0.0
+      ],
+      [
+        0.11225884032000011,
+        0.12627199999999933,
+        1.8735360000000008,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11252952192000007,
+        0.0618240000000001,
+        1.937984,
+        0.00019199999999999995,
+        28.0,
+        1596.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "31cfc698d6225d24925682f9bbbba7811b6ddf96915c39b3c6387137e151e83d",
+    "seed": 82023,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 85,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11247293952000004,
+        0.07529599999999978,
+        1.9245120000000002,
+        0.00019199999999999995,
+        33.0,
+        1957.0,
+        0.0
+      ],
+      [
+        0.11226515712000013,
+        0.12476799999999967,
+        1.8750400000000005,
+        0.00019199999999999995,
+        59.0,
+        3191.0,
+        0.0
+      ],
+      [
+        0.11223935232000005,
+        0.13091200000000058,
+        1.8688959999999994,
+        0.00019199999999999995,
+        59.0,
+        3383.0,
+        0.0
+      ],
+      [
+        0.11245331712000008,
+        0.07996799999999951,
+        1.9198400000000004,
+        0.00019199999999999995,
+        35.0,
+        2079.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "025c8d4334bf2b60ab95b1eb83e49f6c3ba3717f5774c17bee3c86f44270ccbd",
+    "seed": 82024,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11246205312000003,
+        0.0778880000000004,
+        1.9219199999999996,
+        0.00019199999999999995,
+        34.0,
+        2026.0,
+        0.0
+      ],
+      [
+        0.11223249792000001,
+        0.13254399999999966,
+        1.8672640000000005,
+        0.00019199999999999995,
+        62.0,
+        3398.0,
+        0.0
+      ],
+      [
+        0.11224795392000003,
+        0.12886400000000048,
+        1.8709439999999995,
+        0.00019199999999999995,
+        59.0,
+        3319.0,
+        0.0
+      ],
+      [
+        0.11249686272000009,
+        0.06960000000000055,
+        1.9302079999999995,
+        0.00019199999999999995,
+        31.0,
+        1803.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "df443b83afb714580f102258deb7f54316becdade0ae4cf48da13d0ecd427f61",
+    "seed": 82025,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11243382912,
+        0.08460800000000034,
+        1.9151999999999998,
+        0.00019199999999999995,
+        36.0,
+        2212.0,
+        0.0
+      ],
+      [
+        0.11226515712000006,
+        0.12476799999999985,
+        1.87504,
+        0.00019199999999999995,
+        59.0,
+        3191.0,
+        0.0
+      ],
+      [
+        0.11226972672,
+        0.12367999999999973,
+        1.8761280000000002,
+        0.00019199999999999995,
+        57.0,
+        3181.0,
+        0.0
+      ],
+      [
+        0.1125077491200001,
+        0.06700799999999946,
+        1.9328000000000005,
+        0.00019199999999999995,
+        30.0,
+        1734.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "dffa96be4b3bfc6d258494aeaa08ce27226e886c038695747903ac0ebdebe663",
+    "seed": 82026,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11246205312000002,
+        0.0778880000000005,
+        1.9219199999999996,
+        0.00019199999999999995,
+        34.0,
+        2026.0,
+        0.0
+      ],
+      [
+        0.11224338432000004,
+        0.1299519999999995,
+        1.8698560000000004,
+        0.00019199999999999995,
+        61.0,
+        3329.0,
+        0.0
+      ],
+      [
+        0.11225884032000004,
+        0.12627200000000016,
+        1.8735359999999999,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.1124968627200001,
+        0.06960000000000037,
+        1.9302079999999997,
+        0.00019199999999999995,
+        31.0,
+        1803.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "4b20903f64b7c90e8a27fca505a69580cb06f14a333906d425e82fe87355718d",
+    "seed": 82027,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11246406912000004,
+        0.07740800000000005,
+        1.9224,
+        0.00019199999999999995,
+        35.0,
+        1999.0,
+        0.0
+      ],
+      [
+        0.11225427072000005,
+        0.12736000000000092,
+        1.8724479999999992,
+        0.00019199999999999995,
+        60.0,
+        3260.0,
+        0.0
+      ],
+      [
+        0.11225884032000008,
+        0.12627200000000044,
+        1.8735359999999994,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.1124533171200001,
+        0.07996800000000012,
+        1.91984,
+        0.00019199999999999995,
+        35.0,
+        2079.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "e2c55279f01ebeeafe34fde5f56d208546185a1554267e1422f7f85205c80b0e",
+    "seed": 82028,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11240762112000002,
+        0.09084799999999937,
+        1.9089600000000007,
+        0.00019199999999999995,
+        39.0,
+        2371.0,
+        0.0
+      ],
+      [
+        0.11223249792000012,
+        0.13254400000000058,
+        1.8672639999999994,
+        0.00019199999999999995,
+        62.0,
+        3398.0,
+        0.0
+      ],
+      [
+        0.11222618112000002,
+        0.13404800000000047,
+        1.8657599999999994,
+        0.00019199999999999995,
+        61.0,
+        3457.0,
+        0.0
+      ],
+      [
+        0.11250774912000011,
+        0.06700799999999961,
+        1.9328000000000005,
+        0.00019199999999999995,
+        30.0,
+        1734.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "ff893014dd64325beb9cf51ced936aea928dae3cabcefbfdb95391068652e1df",
+    "seed": 82029,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11247939072000007,
+        0.07376000000000059,
+        1.9260479999999993,
+        0.00019199999999999995,
+        33.0,
+        1909.0,
+        0.0
+      ],
+      [
+        0.11223693312000008,
+        0.13148799999999947,
+        1.8683200000000004,
+        0.00019199999999999995,
+        61.0,
+        3377.0,
+        0.0
+      ],
+      [
+        0.11224795392000003,
+        0.12886400000000017,
+        1.8709439999999997,
+        0.00019199999999999995,
+        59.0,
+        3319.0,
+        0.0
+      ],
+      [
+        0.11250774912000006,
+        0.0670079999999999,
+        1.9328000000000003,
+        0.00019199999999999995,
+        30.0,
+        1734.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  },
+  {
+    "sink_public_key": "8bc64b8280dbe3eaacbb63eeebda2026b0e68c58e8e9055aa8464404c527d503",
+    "seed": 82030,
+    "offered": 10,
+    "sink_delivered": 10,
+    "source_verified_receipts": 10,
+    "transit_settlements": [
+      10,
+      10
+    ],
+    "transit_debts": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rejects": [
+      {},
+      {
+        "tag": 1,
+        "replay": 1
+      },
+      {},
+      {}
+    ],
+    "max_pending": 10,
+    "tx_requests": 86,
+    "application_tx_bytes": 8108,
+    "received_frames": 86,
+    "send_rejections": 0,
+    "max_frame_bytes": 114,
+    "radio_energy": [
+      [
+        0.11247293952000005,
+        0.07529599999999952,
+        1.9245120000000004,
+        0.00019199999999999995,
+        33.0,
+        1957.0,
+        0.0
+      ],
+      [
+        0.11227604352000009,
+        0.12217599999999977,
+        1.8776320000000002,
+        0.00019199999999999995,
+        58.0,
+        3122.0,
+        0.0
+      ],
+      [
+        0.11225884032000014,
+        0.12627200000000005,
+        1.8735359999999999,
+        0.00019199999999999995,
+        58.0,
+        3250.0,
+        0.0
+      ],
+      [
+        0.11245331712000009,
+        0.07996799999999984,
+        1.9198400000000002,
+        0.00019199999999999995,
+        35.0,
+        2079.0,
+        0.0
+      ]
+    ],
+    "mode": "functional serialized transport with greedy progress; no learned-policy performance inference",
+    "forged_frames_received": 1
+  }
+]

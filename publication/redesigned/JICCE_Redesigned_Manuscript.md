@@ -187,7 +187,7 @@ The trace of fixture 77004 was truncated during release-integrity checking and r
 
 The strongest supported result is a replacement of the tested active proof mechanism. Its comparator changes feedback eligibility and expiry conventions as well as radio traffic, so causation cannot be assigned solely to proof airtime. The naive and frozen-prior controls provide no corrected evidence for a unique censoring effect. The earlier unsuccessful architecture comparisons remain part of the evidence record.
 
-State locality is incomplete. Geometry, packet history and reverse receipt paths are simulator inputs; beacon values use receive-gated metadata. Source-only service debt does not establish transit-aware distributed queue control. Forged receipts, deceptive telemetry, compromised sources, collusion and mobility are untested. Successful passive transmission is evidence of an attempt, not intended-receiver delivery, and the effective-count score is not a live intrusion detector.
+State locality is incomplete in the frozen benchmark. Geometry, packet history and reverse receipt paths are simulator inputs; beacon values use receive-gated metadata. Source-only service debt does not establish transit-aware distributed queue control. Forged receipts, deceptive telemetry, compromised sources, collusion and mobility are untested. Successful passive transmission is evidence of an attempt, not intended-receiver delivery, and the effective-count score is not a live intrusion detector.
 
 The four-second horizon, common central sink and 60-packet burst do not establish steady-state scalability or network lifetime. Candidate scoring is linear in the bounded candidate count after cache sorting, but each expiration poll scans every retained watch. With W records, memory is O(W) and expiration is O(W) per millisecond poll. There is no long-horizon reclamation policy or measured embedded inference cost. Always-listening radio assumptions also exclude the cost of waking specifically to obtain evidence.
 
@@ -197,9 +197,19 @@ The passive strength 0.5, 150 ms expiry, 0.75 s cache life, current model and fi
 
 A stronger next contribution would measure when evidence is worth acquiring. An adaptive observation policy could choose between silence, passive listening and authenticated probes using the expected reduction in delivery loss minus measured radio and processing cost. The discriminating experiment would match feedback semantics and data airtime, introduce duty cycling and adversarial receipts, and reserve new topology and hardware settings. This direction is not implemented in the present study; it follows from the attribution limits exposed here.
 
-### C. Conclusions
+### C. Post holdout engineering extension
 
-Receipt assisted passive feedback passed a prespecified incremental gate on 30 new simulation fixtures. Blackhole delivery improved by 4.67 percentage points over active proofs, and the declared frozen-prior non-inferiority margins held. The matched controls did not establish a unique censoring or attention advantage. Energy efficiency improved through delivered-byte yield while total modeled radio joules increased slightly. The defensible contribution is a reproducible feedback comparison with explicit attribution boundaries; authentication, embedded state exchange and absolute service compliance remain open.
+A separate reference transport now serializes neighbor coordinates, local radio energy and queue state into received frame bytes. Each node maintains its own cache, reverse-receipt records and transit-service debt; a 13-byte visited bitset travels with the packet. Pairwise HMAC-SHA256 with a 128-bit tag authenticates hop messages [20]. Provisioned boot sessions and a 64-entry replay window reject stale or repeated messages. A source authenticator binds immutable data fields, and Ed25519 verifies sink-generated receipts [21]. Forwarding credit also requires the local first-hop MAC acknowledgment. Pairwise keys cannot authenticate a third party’s overheard onward transmission, so that observation is not credited in this extension.
+
+The transport uses at most 114 application bytes per frame and up to 128 pending records per node with 2 s retirement. Keys are provisioned out of band; configuration reuse after a host restart is blocked by a persistent marker. This remains a host reference implementation without online key exchange or protected key storage. Legitimate key holders can still lie in their own telemetry or drop traffic. These mechanisms establish functional authentication checks, not a formal security proof or physical-device validation.
+
+Thirty separate four-node chain fixtures, seeds 82001–82030, offered 300 packets and delivered 295. All fixtures, including packet and receipt losses, were retained. Thirty modified telemetry messages and 30 replayed messages received by the observer were rejected. An audit matched 2,552 received frames to prior transmitted bytes, verified 885 signed receipt transmissions and checked 120 modeled node-energy identities. This engineering control uses greedy progress routing; it is not an evaluation of the frozen attention policy on the new transport. Its delivery rate must not be compared directly with the 100-sensor holdout or substituted into that study’s decision gate.
+
+The accompanying interactive architecture distinguishes the frozen benchmark from this authenticated transport. Real Chromium checks cover both versions at three widths and in light and dark themes. A serial radio adapter, private provisioning utility and current-trace integration tool prepare physical testing. No sensor boards or measured current captures were available here; board-specific firmware integration, instrument calibration and physical validation remain outstanding.
+
+### D. Conclusions
+
+Receipt assisted passive feedback passed a prespecified incremental gate on 30 new simulation fixtures. Blackhole delivery improved by 4.67 percentage points over active proofs, and the declared frozen-prior non-inferiority margins held. The matched controls did not establish a unique censoring or attention advantage. Energy efficiency improved through delivered-byte yield while total modeled radio joules increased slightly. The defensible contribution is a reproducible feedback comparison with explicit attribution boundaries. Integrated evaluation of the frozen policy with authenticated embedded state exchange and absolute service compliance remains open.
 
 ## Acknowledgments
 
@@ -248,6 +258,10 @@ Author contributions: Shivam Bhardwaj, conceptualization, methodology, software,
 [18] M. J. Neely, Stochastic Network Optimization with Application to Communication and Queueing Systems. Morgan and Claypool, 2010. DOI: 10.2200/S00271ED1V01Y201006CNT007.
 
 [19] S. Holm, “A simple sequentially rejective multiple test procedure,” Scandinavian Journal of Statistics, vol. 6, no. 2, pp. 65–70, 1979. Available: https://www.jstor.org/stable/4615733.
+
+[20] H. Krawczyk, M. Bellare, and R. Canetti, “HMAC: Keyed-hashing for message authentication,” IETF, RFC 2104, 1997. DOI: 10.17487/RFC2104.
+
+[21] S. Josefsson and I. Liusvaara, “Edwards-curve digital signature algorithm (EdDSA),” IETF, RFC 8032, 2017. DOI: 10.17487/RFC8032.
 
 ## Algorithm 1 Observer feedback and routing
 
