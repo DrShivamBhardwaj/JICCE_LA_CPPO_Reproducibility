@@ -1,11 +1,14 @@
 Receipt Assisted Feedback and Authenticated Policy Transfer for Wireless Sensor Routing
 
-Shivam Bhardwaj, Jitendra Nath Srivastava and Akash Sanghi
+Shivam Bhardwaj¹*, Dr. Abhishek Kumar Pandey² and Dr. Abhinandan Tripathi³
 
-Faculty of Engineering and Technology, Invertis University, Bareilly, Uttar Pradesh 243123, India
+¹ Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India
+² Department of Computer Science and Engineering, Bennett University, Greater Noida, India
+³ Department of Computer Science and Engineering, Buddha Institute of Technology, Gorakhpur, India
 
-Corresponding author: shibambhardwaj@gmail.com
-Coauthors: jitendranathshrivastava@gmail.com; sanghiakash@gmail.com
+*Corresponding author: Shivam Bhardwaj; shibambhardwaj@gmail.com
+Abhishek Kumar Pandey: abhishek.pandey2@bennett.edu.in; ORCID: 0000-0003-3799-9754
+Abhinandan Tripathi: abhinandan282@bit.ac.in
 
 
 
@@ -237,11 +240,9 @@ Receipt assisted passive feedback passed a prespecified incremental gate on 30 n
 
 Acknowledgments
 
-No external funding was received. The authors declare no competing interests. This simulation study involved no human participants, clinical data or animal experiments.
+No funding was received for this research. The authors declare no competing interests. This simulation and emulation study involved no human participants, clinical data or animal experiments.
 
 Data and code availability: code, frozen protocol, checkpoints, historical negative outcomes, raw traces and figure sources are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility. The pre-outcome source freeze is 4027f071322cb5682f39329f656d76df3b68ff62. The complete earlier evidence manuscript is retained in publication/censored_feedback/.
-
-Author contributions: Shivam Bhardwaj, conceptualization, methodology, software, investigation and original draft; Jitendra Nath Srivastava, validation and review; Akash Sanghi, supervision and review. These roles retain the author-provided source statement.
 
 Declaration of generative AI use
 

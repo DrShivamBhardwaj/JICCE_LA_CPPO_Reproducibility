@@ -1,0 +1,50 @@
+{
+  "authors": [
+    {
+      "name": "Shivam Bhardwaj",
+      "position": 1,
+      "role_title": "Assistant Professor",
+      "department": "Department of Computer Applications (MCA)",
+      "institution": "United Institute of Management",
+      "city": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "email": "shibambhardwaj@gmail.com",
+      "corresponding": true
+    },
+    {
+      "name": "Abhishek Kumar Pandey",
+      "honorific": "Dr.",
+      "position": 2,
+      "affiliation": "Department of Computer Science and Engineering, Bennett University, Greater Noida, India",
+      "email": "abhishek.pandey2@bennett.edu.in",
+      "corresponding": false,
+      "orcid": "0000-0003-3799-9754"
+    },
+    {
+      "name": "Abhinandan Tripathi",
+      "honorific": "Dr.",
+      "position": 3,
+      "affiliation": "Department of Computer Science and Engineering, Buddha Institute of Technology, Gorakhpur, India",
+      "email": "abhinandan282@bit.ac.in",
+      "corresponding": false
+    }
+  ],
+  "funding": "No funding was received for this research.",
+  "competing_interests": "The authors declare no competing interests.",
+  "confirmed_by_corresponding_author": [
+    "author_order",
+    "first_author_role_and_institution",
+    "corresponding_author",
+    "no_funding",
+    "no_competing_interests",
+    "coauthor_affiliations_and_emails",
+    "second_author_orcid"
+  ],
+  "pending": [
+    "all_author_contribution_roles",
+    "final_coauthor_approval",
+    "submission_exclusivity"
+  ],
+  "orcid_note": "Input 000-0003-3799-9754 normalized to the previously supplied 0000-0003-3799-9754; ISO 7064 MOD 11-2 checksum passes. Identity ownership is author-supplied, not independently authenticated."
+}

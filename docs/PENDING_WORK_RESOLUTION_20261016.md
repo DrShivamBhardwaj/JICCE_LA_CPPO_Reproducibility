@@ -27,3 +27,7 @@ Public publisher-indexed Array guidance confirms the 250-word abstract ceiling, 
 ## Scope
 
 Original 750-run and 180-run statistical outcomes and checkpoints remain unchanged. These changes improve evidence acceptance and reporting. They do not establish attention superiority, live intrusion detection, absolute deadline compliance, calibrated energy or physical hardware validation.
+
+## Author update received
+
+On 16 October 2026, Shivam confirmed no funding, no competing interests, himself as first/corresponding author and Assistant Professor at UIM, and Dr. Abhishek Kumar Pandey and Dr. Abhinandan Tripathi as second and third authors. The active manuscript and declaration files reflect this order. Coauthor affiliations/emails were subsequently supplied and incorporated. Contribution roles, final coauthor approval and exclusivity remain to be supplied. Former authors’ contribution roles were removed rather than reassigned.

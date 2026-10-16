@@ -89,9 +89,20 @@ for p in d.paragraphs:
 refs_anchor=next(p for p in d.paragraphs if p.text=='References')
 refs_anchor.insert_paragraph_before('Declaration of generative AI use','Heading 1')
 refs_anchor.insert_paragraph_before('ChatGPT assisted manuscript drafting, code preparation, analysis scripts and programmatic figure plotting. All numerical results reported here come from the retained executable experiments and traces. Responsibility for scientific verification, interpretation and final approval rests with the authors.')
-for p in d.paragraphs:
- if p.text.startswith('Author contributions:'):
-  p.text=p.text.replace(' Generative AI assisted drafting, code preparation and figure generation; the authors are responsible for verification and final approval.','')
+# Apply the corresponding author's confirmed authorship and declarations.
+meta=json.loads((out/'author_metadata.json').read_text())
+for p in list(d.paragraphs):
+ if p.text=='Shivam Bhardwaj, Jitendra Nath Srivastava and Akash Sanghi':
+  p.text='Shivam Bhardwaj¹*, Dr. Abhishek Kumar Pandey² and Dr. Abhinandan Tripathi³'
+ elif p.text.startswith('Faculty of Engineering and Technology, Invertis University'):
+  p.text='¹ Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India\n² '+meta['authors'][1]['affiliation']+'\n³ '+meta['authors'][2]['affiliation']
+ elif p.text.startswith('Corresponding author:'):
+  p.text='*Corresponding author: Shivam Bhardwaj; '+meta['authors'][0]['email']+'\nAbhishek Kumar Pandey: '+meta['authors'][1]['email']+'; ORCID: '+meta['authors'][1]['orcid']+'\nAbhinandan Tripathi: '+meta['authors'][2]['email']
+ elif p.text.startswith('No external funding was received.'):
+  p.text=meta['funding']+' '+meta['competing_interests']+' This simulation and emulation study involved no human participants, clinical data or animal experiments.'
+ elif p.text.startswith('Author contributions:'):
+  # Old authors' roles cannot be transferred to newly listed coauthors.
+  p._element.getparent().remove(p._element)
 for section in d.sections:
  section.top_margin=section.bottom_margin=Cm(2.5);section.left_margin=section.right_margin=Cm(2.5)
 normal=d.styles['Normal'];normal.font.name='Times New Roman';normal.font.size=Pt(11)

@@ -17,9 +17,9 @@ Direct requests to the full Array Guide for Authors returned HTTP 403. Indexed p
 
 ## Author confirmations required before submission
 
-- Confirm all three author names, order, affiliations, postal address and contact emails in the manuscript. Existing affiliation is Faculty of Engineering and Technology, Invertis University, Bareilly; it has not been replaced using unrelated project details.
+- Confirm all three author names, order, affiliations, postal address and contact emails in the manuscript. Confirmed order: Shivam Bhardwaj, Dr. Abhishek Kumar Pandey, Dr. Abhinandan Tripathi. Shivam is Assistant Professor at United Institute of Management, Prayagraj, and corresponding author. Coauthor affiliations/emails were subsequently supplied and incorporated. Abhishek Kumar Pandey is at Bennett University; Abhinandan Tripathi is at Buddha Institute of Technology.
 - Each author confirms contributions and approves the final manuscript and submission.
-- Confirm the existing no-external-funding and no-competing-interests statements; amend if inaccurate. No declaration is signed by software.
+- No funding and no competing interests were confirmed by the corresponding author on 16 October 2026; final separate files are prepared. No signature is added.
 - Confirm no concurrent journal consideration, and disclose related publications/preprints or overlapping manuscripts. The prior JICCE rejection is known; status of other submissions is not inferred.
 - Confirm rights/permissions and responsibility for AI-assisted content, code, figures and references.
 - Obtain the portal's payable APC/waiver quotation and author agreement before payment or acceptance of terms. No payment authorization is implied.
@@ -31,7 +31,7 @@ Direct requests to the full Array Guide for Authors returned HTTP 403. Indexed p
 | Main source | publication/array/Array_Manuscript.docx |
 | Review copy | publication/array/Array_Manuscript.pdf |
 | Highlights | publication/array/Highlights.txt |
-| Competing interests | publication/array/Declaration_of_interests_DRAFT.txt — confirm, then remove DRAFT |
+| Competing interests | publication/array/Declaration_of_interests.txt |
 | Funding/contributions/AI/data statements | publication/array/Author_declarations_REVIEW.txt — compare against author-confirmed manuscript |
 | Editor letter | publication/array/Cover_letter_DRAFT.txt — final author review required |
 | Figures 1–6 | publication/redesigned/figures/ |
@@ -46,3 +46,5 @@ Direct requests to the full Array Guide for Authors returned HTTP 403. Indexed p
 - https://www.elsevier.com/subject/next/guide-for-authors
 
 The remaining author statements are factual attestations. They cannot be completed by substituting a simulation or by automatically ticking portal boxes.
+
+Funding statement: publication/array/Funding_statement.txt. Author metadata: publication/array/author_metadata.json. Former author names and their emails/roles have been removed from the active manuscript.

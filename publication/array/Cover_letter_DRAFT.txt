@@ -10,7 +10,7 @@ Code, frozen checkpoints, protocols, raw traces, earlier negative results, firmw
 
 The work was substantially redesigned following rejection of JICCE-26-0057, “Energy-Efficient and Secure Routing for IoT-Based WSNs Using Remora Optimization and Deep Intrusion Detection.” The present manuscript replaces the earlier framing with a controlled feedback study and authenticated implementation evidence; it does not retain an unsupported live intrusion-detection claim.
 
-Before sending this letter, the corresponding author must confirm final coauthor approval, exclusivity, overlapping work, author information, funding and conflicts. These confirmations are not supplied by this draft.
+Before sending this letter, the corresponding author must confirm final coauthor approval, exclusivity, overlapping work, contribution roles. The corresponding author has confirmed no funding and no competing interests. These confirmations are not supplied by this draft.
 
 Sincerely,
 Shivam Bhardwaj

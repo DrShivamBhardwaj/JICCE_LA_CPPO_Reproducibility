@@ -132,8 +132,8 @@
     "size": 198776
   },
   "docs/ARRAY_SUBMISSION_CHECKLIST.md": {
-    "sha256": "5a99387c6a078ae69e65c75f11a2b2ae498a3f7695e96e65b682b9d976ff2ac0",
-    "size": 3923
+    "sha256": "528e0654e3690cbbde8ae3a67fda61c3e245fe1cc194f10842f4bd081a35c4ef",
+    "size": 4329
   },
   "docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md": {
     "sha256": "847675c3fa93940565e928ba5fd30c7ad635c4fa1c5f03eb28462a5d7984b6a5",
@@ -188,8 +188,8 @@
     "size": 7372
   },
   "docs/PENDING_WORK_RESOLUTION_20261016.md": {
-    "sha256": "ae8441c8a41fe47c476cb392703f4180b080d7fda67ec6a65b16600956f4aeba",
-    "size": 3679
+    "sha256": "3901a90f01c2a9f3eb6bb833524637263d210898593a688d149b860dba1b5f24",
+    "size": 4232
   },
   "docs/REVIEWER_CONCERN_RESOLUTION.md": {
     "sha256": "fc7212feb6e64c250b9aa93d269518a41eee5456362c230b560574074f0a84d4",
@@ -2148,28 +2148,36 @@
     "size": 44352
   },
   "publication/array/Array_Manuscript.docx": {
-    "sha256": "877b052d248d098a2cf56378640c2eb54edee1e0e6c9cb95fb72be21e1aeac48",
-    "size": 4164162
+    "sha256": "c5c1d21e8eca7b7b3ba50210c28cbb094f8773662849bf6c99d39ac1904ced2e",
+    "size": 4164198
   },
   "publication/array/Array_Manuscript.md": {
-    "sha256": "e9f771238b64825f970f60f3e62c66e0e8e8c2505a5cab9208a892e99e3f68bd",
-    "size": 41120
+    "sha256": "578fa7224a3053fc079c1c4ff7f06fbb19382d7c02bab4b558f281f55c5a077e",
+    "size": 41205
   },
   "publication/array/Array_Manuscript.pdf": {
-    "sha256": "719723f702025d22b0370489e8769c27c19369e608e5a4a99b53d9b6d06289b3",
-    "size": 1725037
+    "sha256": "2a8417fd05a15a9f6524041b622028ca9717fbe45e7ab3b5a8c7133b8fe09df4",
+    "size": 1725798
   },
   "publication/array/Author_declarations_REVIEW.txt": {
-    "sha256": "134e56bde4325d0ed71dc7e9db9aed87160734fcb12facca6db70264087b34d7",
-    "size": 2043
+    "sha256": "a8424ef7854bc4600b176da57d5dd8fff1eef98d2e68abd1a26d4ba41fda879a",
+    "size": 2693
   },
   "publication/array/Cover_letter_DRAFT.txt": {
-    "sha256": "084e99e1ecfdf5b21fd6654e5e06202251acb8d4c4aec538df22ad776cf6fd07",
-    "size": 1880
+    "sha256": "096d3d3c87c1effb8b4a1a1d3c1db80643518c597b9bbca5ef54241b36489799",
+    "size": 1935
+  },
+  "publication/array/Declaration_of_interests.txt": {
+    "sha256": "6bef5f4f660dc4ac301141df1808cbf302fd01f04b66b0c6f922d04e5dcb302d",
+    "size": 80
   },
   "publication/array/Declaration_of_interests_DRAFT.txt": {
-    "sha256": "0de7f49ccd640949cfb4bee1b589984aee3614a3ac4d326ad198b2bfcc064e56",
-    "size": 286
+    "sha256": "3d11486c6c1b8f97799efb9de8e3ed1cbed34ce459d517b527913071ff3d7179",
+    "size": 122
+  },
+  "publication/array/Funding_statement.txt": {
+    "sha256": "57416b33039a0967f78ab5a340b7b1a5f4487003455edfd7ec8a90da36a43a90",
+    "size": 52
   },
   "publication/array/Highlights.txt": {
     "sha256": "2a7bcf12fec2473e93375c8923410208fedd4d8b69deb5a76177829a0e3035d6",
@@ -2180,12 +2188,16 @@
     "size": 1015
   },
   "publication/array/SHA256SUMS": {
-    "sha256": "42d951f376b0a2d11009b83aec2a3e71b9e2e7c20b9ed63ea51a8eac012402e6",
-    "size": 28146
+    "sha256": "49058e8ecb8003abb75915710a4dfe52a56ac78c3cf9df908ea9af80435fa4bc",
+    "size": 28470
+  },
+  "publication/array/author_metadata.json": {
+    "sha256": "be413be2867418ef918dbee07b168df937e3faeec4532d8687c87a7d756fe074",
+    "size": 1733
   },
   "publication/array/document_checks.json": {
-    "sha256": "1243375a299772cd025cb8b520720007ca826c503bdd80f24eac95f992a8cd1b",
-    "size": 622
+    "sha256": "db3a9f581af471a66ee3845342eff77ef34985908d99a5a3e99633bc046b61b6",
+    "size": 818
   },
   "publication/array/figures/fig7_authenticated_virtual.pdf": {
     "sha256": "c8b092c2c34999220cb613b027af9a9b480b1b07f4aa0a61a66249faf3063fd6",
@@ -2572,8 +2584,8 @@
     "size": 4505
   },
   "scripts/build_array_manuscript.py": {
-    "sha256": "de6bffccd5df2ac813e2e001d598cd3fc80e9388e268e07485db9cf98dc1659b",
-    "size": 19117
+    "sha256": "74fe837bd8defe78811c4ef1ebfddfe1b9ff15c7a1bd65312adcac471df611b4",
+    "size": 20184
   },
   "scripts/build_censored_figure.py": {
     "sha256": "18d166752087c6e56c0818e3c6780ab9457549ae05f40dc294fdc2ae084d6994",

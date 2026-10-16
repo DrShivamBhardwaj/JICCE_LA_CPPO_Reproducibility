@@ -13,7 +13,12 @@
   "tests_passed": 83,
   "embedded_policy_crypto_validation": false,
   "hardware_energy_validation": false,
-  "author_confirmations_received": false,
+  "corresponding_author_metadata_confirmed": true,
+  "funding_confirmed": true,
+  "competing_interests_confirmed": true,
+  "all_author_approvals_received": false,
+  "coauthor_affiliations_complete": true,
+  "contributions_confirmed": false,
   "authenticated_portal_checked": false,
-  "visual_review": "27 pages: 22 pixel-identical to previously reviewed render; changed pages 7,9,10,11,12 reviewed at full resolution."
+  "visual_review": "27 pages: 15 pixel-identical to previously reviewed render; changed pages 1\u201312 reviewed at full resolution."
 }
