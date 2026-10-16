@@ -1,0 +1,116 @@
+{
+  "query": "Which recent research from 2023 to 2026 evaluates trust-aware or reinforcement-learning routing in IoT wireless sensor networks with explicit acknowledgment overhead, passive watchdog ambiguity, and independent simulation runs?",
+  "results": [
+    {
+      "unique_id": "ugerg12m",
+      "title": "Trust-Aware Routing Mechanism through an Edge Node for IoT-Enabled Sensor Networks",
+      "date": "2022-10-01T00:00:00Z",
+      "doi": "10.3390/s22207820",
+      "authors": [
+        "Alaa Saleh",
+        "Pallavi Joshi",
+        "Rajkumar Singh Rathore",
+        "Sandeep Singh Sengar"
+      ]
+    },
+    {
+      "unique_id": "1hx5db2w",
+      "title": "PathGuard: Trustworthy Routing for Sustainable and Secure IoT-WSN Networks",
+      "date": "2023-06-26T00:00:00Z",
+      "doi": "10.21203/rs.3.rs-3039565/v1"
+    },
+    {
+      "unique_id": "1htof3j97j",
+      "title": "TARF: a trust-aware routing framework for wireless sensor networks",
+      "date": "2010-02-17T00:00:00Z",
+      "doi": "10.1007/978-3-642-11917-0_5",
+      "authors": [
+        "Guoxing Zhan",
+        "Weisong Shi",
+        "Julia Deng"
+      ]
+    },
+    {
+      "unique_id": "39zzh9el",
+      "title": "Reinforcement learning based reliability-aware routing in IoT networks",
+      "date": "2022-04-01T00:00:00Z",
+      "doi": "10.1016/j.adhoc.2022.102869",
+      "authors": [
+        "Kazim Ergun",
+        "Raid Ayoub",
+        "Pietro Mercati",
+        "T. Simunic"
+      ]
+    },
+    {
+      "unique_id": "4n0ohc913x",
+      "title": "A Trust Aware Secure Ant Colony Optimization Based Routing Algorithm for Internet of Things",
+      "date": "2023-08-15T00:00:00Z",
+      "doi": "10.1109/iccce58854.2023.10246057",
+      "authors": [
+        "Afsah Sharmin",
+        "F. Anwar",
+        "S. M. A. Motakabber",
+        "A. Hashim"
+      ]
+    },
+    {
+      "unique_id": "d8voa8usm8wo",
+      "title": "TrustRIDR-Net: A Hybrid Trust-Aware Routing Framework Using RFO and DRL for Scalable IoT Networks",
+      "date": "2025-10-06T00:00:00Z",
+      "doi": "10.48084/etasr.12294",
+      "authors": [
+        "Shaik Shafiuddin",
+        "KONDA HARI KRISHNA",
+        "Shaik Shafiuddin",
+        "KONDA HARI KRISHNA"
+      ]
+    },
+    {
+      "unique_id": "4ic15fbie0",
+      "title": "QTSRA: A Q-learning-based Trusted Routing Algorithm in SDN Wireless Sensor Networks",
+      "date": "2024-05-08T00:00:00Z",
+      "doi": "10.1109/cscwd61410.2024.10580079",
+      "authors": [
+        "Shouxin Zhang",
+        "Peng Li",
+        "Weibei Fan",
+        "Ruchuan Wang"
+      ]
+    },
+    {
+      "unique_id": "4yifk7j6nl",
+      "title": "PathGuard: Trustworthy Routing for Sustainable and Secure IoT-WSN Networks",
+      "date": "2024-06-20T00:00:00Z",
+      "doi": "10.1007/s11277-024-11289-8",
+      "authors": [
+        "Neeraj Kumar",
+        "Sanjeev Sharma"
+      ]
+    },
+    {
+      "unique_id": "ov6vdab0u8pd",
+      "title": "Trust‐Aware and Optimization‐Driven Secure Routing in Heterogeneous Wireless Sensor Networks for Internet of Things Applications",
+      "date": "2025-09-25T00:00:00Z",
+      "doi": "10.1002/dac.70270",
+      "authors": [
+        "Prajakta Sudhirkumar Khelkar",
+        "Gautam M. Borkar"
+      ]
+    },
+    {
+      "unique_id": "45iihv3ksx",
+      "title": "TSRF: A Trust-Aware Secure Routing Framework in Wireless Sensor Networks",
+      "date": "2014-01-08T00:00:00Z",
+      "doi": "10.1155/2014/209436",
+      "authors": [
+        "Junqi Duan",
+        "Dong Yang",
+        "Haoqing Zhu",
+        "Sidong Zhang",
+        "Jing Zhao"
+      ]
+    }
+  ],
+  "use": "Discovery only; selected references checked against primary publisher or author sources. Automated limitation summaries are not treated as verified omissions in the papers."
+}

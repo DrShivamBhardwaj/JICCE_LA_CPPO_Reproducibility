@@ -1,0 +1,5 @@
+# Document and scientific-figure build environment
+python-docx==1.2.0
+lxml==6.1.1
+matplotlib==3.10.8
+pillow==12.3.0

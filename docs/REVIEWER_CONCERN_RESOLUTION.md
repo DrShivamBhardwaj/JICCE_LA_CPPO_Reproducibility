@@ -1,3 +1,5 @@
+> New implementation review: [audit and open boundaries](IMPLEMENTATION_REVIEW_2026_10_16.md). This review documents additional deployment-state, memory and energy limits without changing frozen outcomes.
+
 ## Current reviewer mapping
 
 | Concern | Implemented evidence | Remaining boundary |

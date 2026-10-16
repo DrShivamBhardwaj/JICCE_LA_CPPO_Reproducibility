@@ -1,0 +1,266 @@
+{
+  "status": "passed",
+  "counts": {
+    "runs": 750,
+    "packets": 45000,
+    "beacon_requests": 606000,
+    "mac_handle_rejections": 0,
+    "ack_failed_after_passive": 53,
+    "non_source_debt_nonzero": 0
+  },
+  "minimum_decision_link_success": 0.6923076923076923,
+  "endpoint_reconstruction": "All 750 final delivery, critical violation, energy, beacon and decision records matched independently reconstructed trace values.",
+  "contrasts": [
+    {
+      "setting": "benign",
+      "metric": "radio_energy_j",
+      "censored_mean": 22.546917315200098,
+      "active_mean": 22.546424936320097,
+      "difference": 0.000492378880001354,
+      "ci95": [
+        0.00029673454398565675,
+        0.0006880232160170513
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "benign",
+      "metric": "energy_per_delivered_byte",
+      "censored_mean": 0.008740152200755935,
+      "active_mean": 0.009058350439072556,
+      "difference": -0.00031819823831661997,
+      "ci95": [
+        -0.0007359988871073882,
+        9.960241047414823e-05
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "benign",
+      "metric": "phy_tx_frames",
+      "censored_mean": 1253.0333333333333,
+      "active_mean": 1311.4333333333334,
+      "difference": -58.4,
+      "ci95": [
+        -78.96753897171354,
+        -37.83246102828646
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "benign",
+      "metric": "delivery",
+      "censored_mean": 0.8355555555555557,
+      "active_mean": 0.8044444444444444,
+      "difference": 0.031111111111111103,
+      "ci95": [
+        -0.002011622702878142,
+        0.06423384492510034
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "blackhole",
+      "metric": "radio_energy_j",
+      "censored_mean": 22.547473063680098,
+      "active_mean": 22.54694255104009,
+      "difference": 0.0005305126399983114,
+      "ci95": [
+        0.0004318947825559636,
+        0.0006291304974406593
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "blackhole",
+      "metric": "energy_per_delivered_byte",
+      "censored_mean": 0.009600225349628478,
+      "active_mean": 0.010244477658648653,
+      "difference": -0.0006442523090201768,
+      "ci95": [
+        -0.0009739792084450825,
+        -0.0003145254095952712
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "blackhole",
+      "metric": "phy_tx_frames",
+      "censored_mean": 1177.9666666666667,
+      "active_mean": 1238.5333333333333,
+      "difference": -60.56666666666667,
+      "ci95": [
+        -71.96317490857722,
+        -49.17015842475612
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "blackhole",
+      "metric": "delivery",
+      "censored_mean": 0.7594444444444444,
+      "active_mean": 0.7127777777777775,
+      "difference": 0.046666666666666676,
+      "ci95": [
+        0.023646045740316483,
+        0.06968728759301687
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_benign",
+      "metric": "radio_energy_j",
+      "censored_mean": 22.547681934720078,
+      "active_mean": 22.547606119680076,
+      "difference": 7.581504000029327e-05,
+      "ci95": [
+        2.9563317077859894e-05,
+        0.00012206676292272664
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_benign",
+      "metric": "energy_per_delivered_byte",
+      "censored_mean": 0.027883585126998418,
+      "active_mean": 0.02975163964696351,
+      "difference": -0.0018680545199650867,
+      "ci95": [
+        -0.003774236933237784,
+        3.8127893307610605e-05
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_benign",
+      "metric": "phy_tx_frames",
+      "censored_mean": 1040.7,
+      "active_mean": 1044.0666666666666,
+      "difference": -3.3666666666666667,
+      "ci95": [
+        -11.070864262356096,
+        4.337530929022762
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_benign",
+      "metric": "delivery",
+      "censored_mean": 0.26999999999999996,
+      "active_mean": 0.25,
+      "difference": 0.019999999999999997,
+      "ci95": [
+        0.0016253220263148238,
+        0.03837467797368517
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_blackhole",
+      "metric": "radio_energy_j",
+      "censored_mean": 22.547772354560074,
+      "active_mean": 22.547681916800073,
+      "difference": 9.043775999989142e-05,
+      "ci95": [
+        5.666450924794505e-05,
+        0.00012421101075183778
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_blackhole",
+      "metric": "energy_per_delivered_byte",
+      "censored_mean": 0.03149067637286752,
+      "active_mean": 0.031729480443815135,
+      "difference": -0.0002388040709476186,
+      "ci95": [
+        -0.0024841695923380324,
+        0.0020065614504427955
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_blackhole",
+      "metric": "phy_tx_frames",
+      "censored_mean": 1024.9333333333334,
+      "active_mean": 1034.9666666666667,
+      "difference": -10.033333333333333,
+      "ci95": [
+        -15.030113229867688,
+        -5.036553436798978
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "congested_blackhole",
+      "metric": "delivery",
+      "censored_mean": 0.24222222222222223,
+      "active_mean": 0.23444444444444443,
+      "difference": 0.007777777777777774,
+      "ci95": [
+        -0.006538767525516881,
+        0.02209432308107243
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "weaklink_benign",
+      "metric": "radio_energy_j",
+      "censored_mean": 22.546772647040093,
+      "active_mean": 22.546229406720094,
+      "difference": 0.0005432403199998011,
+      "ci95": [
+        0.00026285804971392616,
+        0.0008236225902856761
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "weaklink_benign",
+      "metric": "energy_per_delivered_byte",
+      "censored_mean": 0.009027600831644137,
+      "active_mean": 0.009297165261933749,
+      "difference": -0.00026956443028960936,
+      "ci95": [
+        -0.0010897431196773947,
+        0.0005506142590981761
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "weaklink_benign",
+      "metric": "phy_tx_frames",
+      "censored_mean": 1266.4666666666667,
+      "active_mean": 1327.6333333333334,
+      "difference": -61.166666666666664,
+      "ci95": [
+        -87.50283906356547,
+        -34.830494269767854
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    },
+    {
+      "setting": "weaklink_benign",
+      "metric": "delivery",
+      "censored_mean": 0.8277777777777778,
+      "active_mean": 0.7849999999999999,
+      "difference": 0.042777777777777776,
+      "ci95": [
+        -0.0028287111948462895,
+        0.08838426675040184
+      ],
+      "status": "descriptive audit; no added confirmatory test"
+    }
+  ],
+  "mean_listen_rx_fraction": 0.9935753659929071,
+  "boundaries": [
+    "Shared per-packet visited set and reverse-path map are simulator-side route state; their dissemination cost is not serialized.",
+    "Only source nodes update per-class QoS debt from receipt or 1.5-second expiry. Relays can retain zero debt for transit traffic.",
+    "Beacon values are simulator metadata gated by actual radio receive events, not serialized energy/queue fields.",
+    "Candidate geometry is simulator-provided; training RSSI proxy is replaced by received LQI in transfer.",
+    "Four-second always-listening radio model excludes CPU, sensing, cryptography, duty cycling and hardware calibration.",
+    "Watch records are retained through a run; expiration scans all records every millisecond. Long-lived bounded-memory operation is not demonstrated.",
+    "Active proof semantics can credit a relay without a successful observer first-hop ACK, unlike passive controls; comparison changes semantics and traffic together.",
+    "Fractional evidence is clipped on each effective-count update. At expected link success below 0.1, separate half credits can exceed one full weighted credit; no calibrated posterior is claimed."
+  ]
+}

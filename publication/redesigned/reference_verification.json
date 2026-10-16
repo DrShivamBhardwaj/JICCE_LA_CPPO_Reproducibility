@@ -1,0 +1,116 @@
+[
+  {
+    "number": 1,
+    "reference": "T. Winter et al., \u201cRPL: IPv6 Routing Protocol for Low-Power and Lossy Networks,\u201d IETF, RFC 6550, 2012. DOI: 10.17487/RFC6550.",
+    "url": "https://www.rfc-editor.org/rfc/rfc6550",
+    "verification": "primary standard"
+  },
+  {
+    "number": 2,
+    "reference": "D. S. J. De Couto, D. Aguayo, J. Bicket, and R. Morris, \u201cA high-throughput path metric for multi-hop wireless routing,\u201d in Proceedings of MobiCom, pp. 134\u2013146, 2003. DOI: 10.1145/938985.939000.",
+    "url": "https://doi.org/10.1145/938985.939000",
+    "verification": "established reference retained from verified source manuscript"
+  },
+  {
+    "number": 3,
+    "reference": "O. Gnawali, R. Fonseca, K. Jamieson, D. Moss, and P. Levis, \u201cCollection tree protocol,\u201d in Proceedings of SenSys, pp. 1\u201314, 2009. DOI: 10.1145/1644038.1644040.",
+    "url": "https://collaborate.princeton.edu/en/publications/collection-tree-protocol/",
+    "verification": "author institution abstract and metadata"
+  },
+  {
+    "number": 4,
+    "reference": "S. Marti, T. J. Giuli, K. Lai, and M. Baker, \u201cMitigating routing misbehavior in mobile ad hoc networks,\u201d in Proceedings of MobiCom, pp. 255\u2013265, 2000. DOI: 10.1145/345910.345955.",
+    "url": "https://sites.cs.ucsb.edu/~ebelding/courses/290I/w03/papers/Marti_Mitigating.pdf",
+    "verification": "primary full text"
+  },
+  {
+    "number": 5,
+    "reference": "K. Liu, J. Deng, P. K. Varshney, and K. Balakrishnan, \u201cAn acknowledgment-based approach for the detection of routing misbehavior in MANETs,\u201d IEEE Transactions on Mobile Computing, vol. 6, no. 5, pp. 536\u2013550, 2007. DOI: 10.1109/TMC.2007.1036.",
+    "url": "https://doi.org/10.1109/TMC.2007.1036",
+    "verification": "indexed primary abstract; full text unavailable during review"
+  },
+  {
+    "number": 6,
+    "reference": "A. Saleh, P. Joshi, R. S. Rathore, and S. S. Sengar, \u201cTrust-aware routing mechanism through an edge node for IoT-enabled sensor networks,\u201d Sensors, vol. 22, no. 20, Art. no. 7820, 2022. DOI: 10.3390/s22207820.",
+    "url": "https://www.mdpi.com/1424-8220/22/20/7820",
+    "verification": "SciSpace discovery; publisher abstract and indexed metadata"
+  },
+  {
+    "number": 7,
+    "reference": "N. Kumar and S. Sharma, \u201cPathGuard: Trustworthy routing for sustainable and secure IoT-WSN networks,\u201d Wireless Personal Communications, vol. 136, pp. 469\u2013487, 2024. DOI: 10.1007/s11277-024-11289-8.",
+    "url": "https://link.springer.com/article/10.1007/s11277-024-11289-8",
+    "verification": "SciSpace discovery; publisher abstract only"
+  },
+  {
+    "number": 8,
+    "reference": "P. Goswami, T. Khan, V. Pathak, and A. Alabdultif, \u201cMachine learning based dynamic trust estimation framework for securing wireless sensor networks,\u201d Scientific Reports, vol. 15, Art. no. 35821, 2025. DOI: 10.1038/s41598-025-19768-z.",
+    "url": "https://www.nature.com/articles/s41598-025-19768-z.pdf",
+    "verification": "primary full text"
+  },
+  {
+    "number": 9,
+    "reference": "S. Tao, H. Tang, J. Wang, and B. Li, \u201cA failure risk-aware multi-hop routing protocol in LPWANs using deep Q-network,\u201d Sensors, vol. 25, no. 14, Art. no. 4416, 2025. DOI: 10.3390/s25144416.",
+    "url": "https://www.mdpi.com/1424-8220/25/14/4416",
+    "verification": "publisher abstract and metadata"
+  },
+  {
+    "number": 10,
+    "reference": "A. A. Lata and M. Kang, \u201cRLFS-OR: Reinforcement learning-based forwarder selection for opportunistic routing in wireless sensor networks,\u201d Electronics, vol. 15, no. 5, Art. no. 910, 2026. DOI: 10.3390/electronics15050910.",
+    "url": "https://www.mdpi.com/2079-9292/15/5/910",
+    "verification": "publisher indexed abstract; details not independently replicated"
+  },
+  {
+    "number": 11,
+    "reference": "R. Zheng, D. Yamkhin, J. Wei, H. Liu, and Z. Khurelbaatar, \u201cTrust-gated reinforcement learning-based secure routing for wireless sensor networks,\u201d Journal of Computational and Cognitive Engineering, online first, 2026. DOI: 10.47852/bonviewJCCE62029141.",
+    "url": "https://ojs.bonviewpress.com/index.php/JCCE/article/view/9141",
+    "verification": "primary publisher abstract"
+  },
+  {
+    "number": 12,
+    "reference": "R. Gupta, S. K. Gupta, S. B. Singh, R. Kumar, and R. Muthukkumar, \u201cAdaptive deep reinforcement learning\u2013based secure routing for wireless sensor networks,\u201d Scientific Reports, 2026. DOI: 10.1038/s41598-026-62519-x.",
+    "url": "https://www.nature.com/articles/s41598-026-62519-x",
+    "verification": "publisher indexed abstract and metadata"
+  },
+  {
+    "number": 15,
+    "reference": "J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, \u201cProximal policy optimization algorithms,\u201d arXiv:1707.06347, 2017. DOI: 10.48550/arXiv.1707.06347.",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "verification": "primary abstract and manuscript"
+  },
+  {
+    "number": 16,
+    "reference": "J. Schulman, P. Moritz, S. Levine, M. I. Jordan, and P. Abbeel, \u201cHigh-dimensional continuous control using generalized advantage estimation,\u201d in Proceedings of ICLR, 2016. Available: https://arxiv.org/abs/1506.02438.",
+    "url": "https://arxiv.org/abs/1506.02438",
+    "verification": "primary abstract and manuscript"
+  },
+  {
+    "number": 14,
+    "reference": "M. Zaheer et al., \u201cDeep sets,\u201d in Advances in Neural Information Processing Systems, vol. 30, pp. 3391\u20133401, 2017. Available: https://papers.nips.cc/paper/6931-deep-sets.",
+    "url": "https://papers.nips.cc/paper/6931-deep-sets",
+    "verification": "primary proceedings"
+  },
+  {
+    "number": 18,
+    "reference": "M. J. Neely, Stochastic Network Optimization with Application to Communication and Queueing Systems. Morgan and Claypool, 2010. DOI: 10.2200/S00271ED1V01Y201006CNT007.",
+    "url": "https://www.morganclaypoolpublishers.com/catalog_orig/product_info_products_id-134.html",
+    "verification": "primary publisher metadata"
+  },
+  {
+    "number": 17,
+    "reference": "J. Achiam, D. Held, A. Tamar, and P. Abbeel, \u201cConstrained policy optimization,\u201d in Proceedings of ICML, vol. 70, pp. 22\u201331, 2017. Available: https://proceedings.mlr.press/v70/achiam17a.html.",
+    "url": "https://proceedings.mlr.press/v70/achiam17a.html",
+    "verification": "primary proceedings"
+  },
+  {
+    "number": 13,
+    "reference": "ns-3 Project, \u201cIEEE 802.15.4 low-rate wireless personal area network model,\u201d ns-3 Model Library, release 3.44. Available: https://www.nsnam.org/docs/release/3.44/models/ns-3-model-library.pdf. Accessed October 16, 2026.",
+    "url": "https://www.nsnam.org/docs/release/3.44/models/ns-3-model-library.pdf",
+    "verification": "official versioned model documentation"
+  },
+  {
+    "number": 19,
+    "reference": "S. Holm, \u201cA simple sequentially rejective multiple test procedure,\u201d Scandinavian Journal of Statistics, vol. 6, no. 2, pp. 65\u201370, 1979. Available: https://www.jstor.org/stable/4615733.",
+    "url": "https://www.jstor.org/stable/4615733",
+    "verification": "primary archive metadata"
+  }
+]

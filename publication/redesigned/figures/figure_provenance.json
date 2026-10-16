@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    "outputs/ns3_censored/summary.json",
+    "outputs/ns3_censored/paired_analysis.json",
+    "outputs/ns3_censored/implementation_audit.json"
+  ],
+  "style": "Vector schematics and paired estimation plots; no generated or smoothed observations",
+  "confidence_intervals": "Unadjusted paired t intervals across 30 fixtures; inferential decisions retain original 60-test Holm family",
+  "figure3": "PRISMA-inspired experimental accounting layout; not a systematic-review selection diagram",
+  "captions": [
+    "Architecture and state boundaries",
+    "Censored feedback flow",
+    "Frozen evaluation flow",
+    "Delivery effects across settings",
+    "Blackhole paired estimates",
+    "Radio energy attribution"
+  ]
+}

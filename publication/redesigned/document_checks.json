@@ -1,0 +1,31 @@
+{
+  "abstract_words": 154,
+  "references": 19,
+  "native_equations": 10,
+  "figures": 6,
+  "tables": 5,
+  "algorithms": 1,
+  "all_exhibits_cited": true,
+  "figure_formats": [
+    "svg",
+    "pdf",
+    "900dpi png"
+  ],
+  "frozen_outcomes_changed": false,
+  "submission_certified": false,
+  "format": "JICCE review text: 9.5 pt, double-spaced A4, 2.5 cm margins; Arabic table numbers",
+  "author_side_items": [
+    "Corresponding author phone/fax details if required by portal",
+    "Final coauthor approval and forms",
+    "Editorial assessment of contribution and manuscript length"
+  ],
+  "pdf_pages": 23,
+  "all_pages_visually_reviewed": true,
+  "embedded_figures": 6,
+  "interactive_qa": {
+    "dom_level": "passed all six selections at 280, 320, 560 and 736 px",
+    "browser_rendering": "not verified; browser download failed"
+  },
+  "independent_endpoint_audit": "750 runs passed",
+  "unit_tests": 51
+}
