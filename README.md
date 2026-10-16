@@ -1,3 +1,5 @@
+> Latest: [locked censored-feedback holdout](docs/CENSORED_FEEDBACK_RESULTS.md), 750 runs on 30 new fixtures. The prespecified incremental simulation gate passed: blackhole delivery +4.67 percentage points versus active proofs (Holm p=0.0161). Matched naive/frozen controls do not establish a unique censoring or architecture advantage. [Current review draft](publication/censored_feedback/JICCE_Censored_Feedback_Review_Draft.docx) · [PDF](publication/censored_feedback/JICCE_Censored_Feedback_Review_Draft.pdf). Historical negative stages are retained.
+
 > Latest evidence: [local telemetry and radio overhead results](docs/NS3_TELEMETRY_RESULTS.md). The 600-run study found no corrected architecture advantage and adverse feedback-control results. Use [the revised manuscript](publication/ns3_evidence/JICCE_LA_CPPO_Telemetry_Review_Draft.docx). Earlier documents are historical evidence stages.
 
 > New: [ns-3 packet-level validation addendum](docs/NS3_VALIDATION_ADDENDUM.md). 120 exploratory runs with topology-constrained radio feedback; manuscript integration and deployment validation remain open.
@@ -9,13 +11,13 @@ prepared after JICCE-26-0057 was rejected with an invitation to submit new work.
 It is public so editors and reviewers can inspect the implementation and outputs.
 No submission or email has been sent by this package-building workflow.
 
-## Latest integrated review draft
+## Earlier integrated review draft (historical)
 
 Use [the updated manuscript](publication/updated_evidence/JICCE_LA_CPPO_Integrated_Review_Draft.docx) and [PDF](publication/updated_evidence/JICCE_LA_CPPO_Integrated_Review_Draft.pdf). The [updated reviewer evidence record](publication/updated_evidence/JICCE_Updated_Reviewer_Evidence_Record.pdf) maps completed actions and remaining limits. Older publication files remain historical drafts.
 
 The new matched-capacity UDP diagnostic contains 3,600 attempts across 30 fixture-level pairs: attention delivery 85.39%, MLP 32.22%, difference +53.17 percentage points (95% CI +35.31 to +71.02). This is targeted localhost software evidence. It does not establish physical wireless effectiveness or supersede the failed nominal co-primary superiority result. Twenty-six fixtures have identical fault targets in their two strata.
 
-See [concern resolution](docs/REVIEWER_CONCERN_RESOLUTION.md), [raw diagnostic data](outputs/udp_matched_comparison/), and [required network validation](docs/NETWORK_VALIDATION_REQUIREMENTS.md). All 47 tests pass; 65 native equations and 7 figures are retained. The manuscript is not certified submission-ready.
+See [concern resolution](docs/REVIEWER_CONCERN_RESOLUTION.md), [raw diagnostic data](outputs/udp_matched_comparison/), and [required network validation](docs/NETWORK_VALIDATION_REQUIREMENTS.md). The earlier 47-test suite passed; 65 native equations and 7 figures are retained. The manuscript is not certified submission-ready.
 
 ## Scientific status
 

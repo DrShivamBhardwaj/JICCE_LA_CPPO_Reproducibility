@@ -1,0 +1,7 @@
+{
+  "recovered_seed": 77004,
+  "implementation_changed": false,
+  "all_750_summary_rows_exactly_match": true,
+  "summary_sha256": "68653fbc81bc5178dfea0a787cd1aae3d4167d157b8345e16040f2048261469d",
+  "reason": "Final gzip EOF/CRC audit detected a truncated trace; regenerated without selecting parameters or changing analysis."
+}

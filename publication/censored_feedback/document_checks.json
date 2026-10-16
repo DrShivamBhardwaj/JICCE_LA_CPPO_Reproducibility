@@ -1,0 +1,10 @@
+{
+  "old_native_equations_preserved": 65,
+  "native_equations_total": 67,
+  "holdout_runs": 750,
+  "incremental_gate_pass": true,
+  "submission_certified": false,
+  "pdf_pages": 47,
+  "all_pages_visually_reviewed": true,
+  "qa": "47 rendered pages reviewed; native equations, table XIII, figure 8 and author block checked"
+}

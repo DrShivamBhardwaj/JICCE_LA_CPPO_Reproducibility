@@ -1,3 +1,5 @@
+> Current evidence: [750-run frozen holdout and limits](CENSORED_FEEDBACK_RESULTS.md). The incremental mechanism gate passed; architecture superiority, original absolute QoS budgets, live IDS, authenticated feedback and hardware validation remain unestablished. Current manuscript: publication/censored_feedback/ (67 native equations, eight figures, 28 references). Full suite: 51 tests passed. Earlier status records below are historical.
+
 > Latest status: see [telemetry validation results](NS3_TELEMETRY_RESULTS.md). Local beacon acquisition, observer-specific risk, modeled PHY state energy, radio delivery receipts, risk-off and proof-off controls, congestion and weak-link tests are now implemented. The experiment does not establish practical superiority, hardware validation, authentication or live IDS accuracy. Earlier status notes below are historical.
 
 # JICCE submission status

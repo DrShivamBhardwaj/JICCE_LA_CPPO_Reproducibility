@@ -1,0 +1,10 @@
+{
+  "pass_all": true,
+  "checks": {
+    "active_blackhole_delivery_gain": true,
+    "frozen_delivery_noninferiority": true,
+    "frozen_critical_noninferiority": true,
+    "frozen_energy_noninferiority": true
+  },
+  "scope": "incremental mechanism gate; not original absolute QoS budgets, architecture superiority or deployment validation"
+}

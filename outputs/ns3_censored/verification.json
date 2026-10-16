@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "runs": 750,
+  "decisions": 67522,
+  "energy_identities": 75750,
+  "passive_observations": 24747,
+  "evidence_updates": 28353,
+  "censored_expirations": 7020,
+  "limits": "Internal trace reconstruction; beacon receive callbacks and QoS/link histories not independently replayed; no external capture or authentication"
+}

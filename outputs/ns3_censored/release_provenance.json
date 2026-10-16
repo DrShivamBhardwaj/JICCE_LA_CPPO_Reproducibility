@@ -1,0 +1,209 @@
+{
+  "source_protocol_commit": "4027f071322cb5682f39329f656d76df3b68ff62",
+  "python": "3.12.14",
+  "versions": {
+    "ns3": "3.44.post0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch": "2.14.1+cpu",
+    "pytest": "9.1.1",
+    "PyYAML": "6.0.3"
+  },
+  "unit_tests_passed": 51,
+  "physical_callback_control": "passed",
+  "trace_gzip_crc": "all 30 streams read to EOF successfully",
+  "trace_files": [
+    {
+      "path": "outputs/ns3_censored/trace_77001.jsonl.gz",
+      "records": 51520,
+      "final_records": 25,
+      "sha256": "892eb44560f8f834d80e6fe9d933464450f698076fa9124b1d5e47b1c56719a5"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77002.jsonl.gz",
+      "records": 51228,
+      "final_records": 25,
+      "sha256": "9d16d761939f819a3524b1b53cbb775e6e5db1d12b03893b8be90999eec2ccf3"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77003.jsonl.gz",
+      "records": 53290,
+      "final_records": 25,
+      "sha256": "d0e3f8ece1d355f043611a2e2d06719a9706cce4df2ee257c185c78d9d928569"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77004.jsonl.gz",
+      "records": 49792,
+      "final_records": 25,
+      "sha256": "fa3644f9727e0c4160cd9603bd36384e73670ee502d0de47e8a5f9be2ab8b898"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77005.jsonl.gz",
+      "records": 50778,
+      "final_records": 25,
+      "sha256": "566f36fb4b08881e009f00f9201bd333266a4e07ee6e13576e642980215b155f"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77006.jsonl.gz",
+      "records": 53057,
+      "final_records": 25,
+      "sha256": "bc8ddaba4b077796a717225818e2143d51cf1ea6320640be90ceb5ad2b1353d1"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77007.jsonl.gz",
+      "records": 52080,
+      "final_records": 25,
+      "sha256": "313b24fb720858d99cb7633f83e7ef912304034e92f748acad82bc8eb5d8385e"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77008.jsonl.gz",
+      "records": 52219,
+      "final_records": 25,
+      "sha256": "28b90bd83f581eaf262f2338289ee69b161fed9fdeb981dca47b763b472f7b67"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77009.jsonl.gz",
+      "records": 50802,
+      "final_records": 25,
+      "sha256": "128efad17a2e767220c97269c5d828d68d834fb1da7e798b2a2fd0ff91fd94cb"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77010.jsonl.gz",
+      "records": 51768,
+      "final_records": 25,
+      "sha256": "39fd7c4a2f8f6c02792fd0d3c7f2addc3e4e61047c1001d6432b5bcd9fb5a854"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77011.jsonl.gz",
+      "records": 51756,
+      "final_records": 25,
+      "sha256": "99d8ba8aac155d9167b2fade55557e2147647d98f45e5feecca5c6de56f57f2b"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77012.jsonl.gz",
+      "records": 54442,
+      "final_records": 25,
+      "sha256": "fbc5c2426a078828f90bab4a62caf1cd54e8e545647643363950efbb19868173"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77013.jsonl.gz",
+      "records": 51532,
+      "final_records": 25,
+      "sha256": "d1c31595695a0695dc2c01580bf5f6cb79791fff80481c440e73ffcc5bdeb8c2"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77014.jsonl.gz",
+      "records": 52162,
+      "final_records": 25,
+      "sha256": "c8f0affeef5986d3f27f0890aa9e9c1f21530f8a86f0d5246350891f094cb3e3"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77015.jsonl.gz",
+      "records": 51184,
+      "final_records": 25,
+      "sha256": "ad4c4512eb35d13b4e8386e79d01a63278810a0a17330a8e944afd95136c854a"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77016.jsonl.gz",
+      "records": 51681,
+      "final_records": 25,
+      "sha256": "046551b76eb51775db52dce9562b9ff89a71180d313a391153309c464307cf0f"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77017.jsonl.gz",
+      "records": 52536,
+      "final_records": 25,
+      "sha256": "d521bd6567a354397ae7201cd0ef9bbb57418a8abf85488f38999f4419ca8ea4"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77018.jsonl.gz",
+      "records": 50963,
+      "final_records": 25,
+      "sha256": "ac9c5f8e3f8f676ea896ed49eabd26141e090fde6ee1132c838c0d59a399518e"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77019.jsonl.gz",
+      "records": 49818,
+      "final_records": 25,
+      "sha256": "24288250799746a3f6552cddf7989588ff3067bd60b7cf1f41dcb4e2a99427c7"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77020.jsonl.gz",
+      "records": 51992,
+      "final_records": 25,
+      "sha256": "d92f9bda5694340253566b11a5c477a93167a50e9dd64054d950cad6c5b1af02"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77021.jsonl.gz",
+      "records": 50714,
+      "final_records": 25,
+      "sha256": "5e09b8df334bc729316374f62d13034a69fc1c17c24bfd1c976b088fbf87d369"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77022.jsonl.gz",
+      "records": 51931,
+      "final_records": 25,
+      "sha256": "17c72215815727628cfd68bf9a24c290c2f9a72a92cd44eb7fd25f62b988fc5d"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77023.jsonl.gz",
+      "records": 50437,
+      "final_records": 25,
+      "sha256": "7d1ee00a54bf3a01956e40d70e158bb15a37be5323fd9029d1a6d1c0501e4237"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77024.jsonl.gz",
+      "records": 52569,
+      "final_records": 25,
+      "sha256": "850be3eed18943930d5d0b3f667d6db7d1a7d60d195525288e2ddf48b614c597"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77025.jsonl.gz",
+      "records": 51497,
+      "final_records": 25,
+      "sha256": "0065fec514b0b6e0bb9cdeb3179772d3cb0e174cbe0b91557edb466d6f7edb2f"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77026.jsonl.gz",
+      "records": 50811,
+      "final_records": 25,
+      "sha256": "6e798cdcd84354d2ce735530fd4e035e1f9760fd5b97743120f8b19615e312be"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77027.jsonl.gz",
+      "records": 53462,
+      "final_records": 25,
+      "sha256": "7ec333abde402d90c9543f2d85eb440edb0bad4602e2a006076db3850bfb7a4c"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77028.jsonl.gz",
+      "records": 52663,
+      "final_records": 25,
+      "sha256": "aeb0a7060d07b35c95917553f44890a1504aa20bd6cac971f88d4377ba721fa5"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77029.jsonl.gz",
+      "records": 49965,
+      "final_records": 25,
+      "sha256": "b20a450142bd42a8d50d49125ca7b5b46b94a0397201de83e8ef1fcd58a0debc"
+    },
+    {
+      "path": "outputs/ns3_censored/trace_77030.jsonl.gz",
+      "records": 53051,
+      "final_records": 25,
+      "sha256": "ba0a422c7ed5a69b9a4c6ecc06bc05ad48a45b716625d7037fb8f198fca11a0b"
+    }
+  ],
+  "gate": {
+    "pass_all": true,
+    "checks": {
+      "active_blackhole_delivery_gain": true,
+      "frozen_delivery_noninferiority": true,
+      "frozen_critical_noninferiority": true,
+      "frozen_energy_noninferiority": true
+    },
+    "scope": "incremental mechanism gate; not original absolute QoS budgets, architecture superiority or deployment validation"
+  },
+  "limits": "Internal simulation audit; no external capture, live IDS, authenticated feedback, serialized telemetry-value transport, CPU energy or hardware validation.",
+  "recovery_note": "Trace 77004 was found truncated during final gzip CRC audit and regenerated with the unchanged frozen implementation. All 750 canonical summary rows exactly match the pre-recovery summary."
+}

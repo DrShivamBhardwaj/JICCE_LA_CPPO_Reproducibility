@@ -1,3 +1,15 @@
+## Current reviewer mapping
+
+| Concern | Implemented evidence | Remaining boundary |
+|---|---|---|
+| Live detection–routing integration | Real ns-3 multihop MAC reception, passive overhearing, reverse receipts, observer-specific evidence and PHY radio accounting | Forwarding evidence, not live intrusion classification; no authenticated feedback or hardware validation |
+| Independent simulation runs | Separate training 410xx, development 760xx and untouched 30-fixture 770xx holdout; protocol published before outcomes | Paired frozen-weight simulation transfer, not external deployment generalization |
+| Tiny original ROA benefit | ROA retired as proposed contribution; active-proof replacement gives +4.67 pp blackhole delivery, Holm p=0.0161 | Naive/frozen controls do not establish unique censoring or architecture superiority; absolute QoS still fails |
+| Figure quality | Vector PDF/SVG/EPS and 900-dpi PNG; rendered manuscript reviewed | Journal production sizing remains subject to portal instructions |
+| Journal format | Structured review draft, native equations, end tables/figures and references | Current portal forms, editorial fit and length must be checked before new submission |
+
+> Current evidence: [750-run frozen holdout and limits](CENSORED_FEEDBACK_RESULTS.md). The incremental mechanism gate passed; architecture superiority, original absolute QoS budgets, live IDS, authenticated feedback and hardware validation remain unestablished. Current manuscript: publication/censored_feedback/ (67 native equations, eight figures, 28 references). Full suite: 51 tests passed. Earlier status records below are historical.
+
 > Latest status: see [telemetry validation results](NS3_TELEMETRY_RESULTS.md). Local beacon acquisition, observer-specific risk, modeled PHY state energy, radio delivery receipts, risk-off and proof-off controls, congestion and weak-link tests are now implemented. The experiment does not establish practical superiority, hardware validation, authentication or live IDS accuracy. Earlier status notes below are historical.
 
 > Update, 15 October 2026: [ns-3 validation addendum](NS3_VALIDATION_ADDENDUM.md) reports 120 exploratory topology-constrained LR-WPAN runs and verified forwarding-proof frames. This partially addresses the network-validation requirement below. Local telemetry acquisition, control/listening energy, benign-loss stress, authentication and hardware/live-IDS validation remain open. Earlier statements about unavailable network simulation describe the pre-addendum state.
