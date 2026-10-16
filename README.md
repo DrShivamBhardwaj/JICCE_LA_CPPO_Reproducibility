@@ -1,3 +1,5 @@
+> Latest: [Array manuscript and virtual validation](docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md). 180 separate policy-transfer runs audited; 73 tests pass; corrected four-port virtual serial control delivers 10/10. No physical or MCU firmware validation.
+
 > New: [distributed authenticated transport](docs/DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
 
 > Current manuscript: [focused redesign](publication/redesigned/JICCE_Redesigned_Manuscript.docx) and [PDF](publication/redesigned/JICCE_Redesigned_Manuscript.pdf), with six vector figures, five tables, ten native equations and an [interactive architecture](publication/redesigned/interactive_architecture.html) (download and open locally). The [new implementation audit](docs/IMPLEMENTATION_REVIEW_2026_10_16.md) reconstructs all 750 endpoints and exposes source-only QoS state, shared route history, unbounded watch retention and listening-dominated energy. Frozen outcomes are unchanged.

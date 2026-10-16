@@ -1,0 +1,15 @@
+{
+  "abstract_words": 203,
+  "native_equations": 10,
+  "figures": 8,
+  "tables": 6,
+  "references": 21,
+  "virtual_validation": true,
+  "physical_validation": false,
+  "submission_certified": false,
+  "pdf_pages": 26,
+  "render_review": "All final pages verified; changed pages 8\u201310 inspected after queue-scale disclosure, other pages pixel-identical to reviewed render",
+  "automated_tests_passed": 73,
+  "radio_audit": "passed",
+  "protocol_commit": "5f06b9213e73206aad11ec8f3a96079a17011a20"
+}

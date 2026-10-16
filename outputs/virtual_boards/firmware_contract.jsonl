@@ -1,0 +1,492 @@
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.99223843456, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 1, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000000001600000000000000003f7e0357000000000000abe8ee4fa9dd0e6e31d0ac6f1d2d60333b794601"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000000001600000000000000003f7e0357000000000000abe8ee4fa9dd0e6e31d0ac6f1d2d60333b794601", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 1, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.98998243456, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 1, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000000001642b40000000000003f7d6f7d000000000000abe93b70efb9ed515476129c9b853a9bc452b99e"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000000001642b40000000000003f7d6f7d000000000000abe93b70efb9ed515476129c9b853a9bc452b99e", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 1, "ok": true}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.98818220416, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.98818220416, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 1, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000000001641f00000000000003f7cf982000000000000abe981c56646c20893422367a7789c6823727ede"}}
+{"node": 1, "command": {"command": "tx", "token": 2, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000001001641f00000000000003f7cf982000000000000abe981c51a6ea9951ac437e772dfe3e3cb688741"}}
+{"node": 2, "command": {"command": "tx", "token": 1, "peer": 1, "wire": "0101000200014cef8981a7f541b900000000001642700000000000003f7cf982000000000000abe98209c05fc8a36297b06489884f8a66499aa8"}}
+{"node": 2, "command": {"command": "tx", "token": 2, "peer": 3, "wire": "0101000200034cef8981a7f541b900000001001642700000000000003f7cf982000000000000abe982092c53576dfc1f5d98ac8307219b15745f"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000000001642700000000000003f7cf982000000000000abe98209c05fc8a36297b06489884f8a66499aa8", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 1, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000001001642700000000000003f7cf982000000000000abe982092c53576dfc1f5d98ac8307219b15745f", "lqi": 255}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000000001641f00000000000003f7cf982000000000000abe981c56646c20893422367a7789c6823727ede", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 2, "ok": true}}
+{"node": 1, "record": {"event": "ack", "token": 1, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000001001641f00000000000003f7cf982000000000000abe981c51a6ea9951ac437e772dfe3e3cb688741", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 2, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.93575197696, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 2, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000001001600000000000000003f6f8d71000000000000abf09dcf265e9f719c525eb1b4d754ac1b36d8de"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000001001600000000000000003f6f8d71000000000000abf09dcf265e9f719c525eb1b4d754ac1b36d8de", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 2, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.93259357696, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 2, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000001001642b40000000000003f6ebe74000000000000abf1024b8dc4e3a6b9c3b371257eacc4a05591c5"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000001001642b40000000000003f6ebe74000000000000abf1024b8dc4e3a6b9c3b371257eacc4a05591c5", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 2, "ok": true}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.93115808896, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 3, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000002001641f00000000000003f6e6060000000000000abf13285497271f943dd37e5a722e54d06e9b239"}}
+{"node": 1, "command": {"command": "tx", "token": 4, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000003001641f00000000000003f6e6060000000000000abf132853597864df92522d9010f8685bf82aaed"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.93081968896, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000002001641f00000000000003f6e6060000000000000abf13285497271f943dd37e5a722e54d06e9b239", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 3, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 3, "peer": 1, "wire": "0101000200014cef8981a7f541b900000002001642700000000000003f6e4a33000000000000abf141597e2e92811ffff563d41a789809507821"}}
+{"node": 2, "command": {"command": "tx", "token": 4, "peer": 3, "wire": "0101000200034cef8981a7f541b900000003001642700000000000003f6e4a33000000000000abf14159f4dfdf386824e1c03848ca40899930a6"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000002001642700000000000003f6e4a33000000000000abf141597e2e92811ffff563d41a789809507821", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 3, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000003001642700000000000003f6e4a33000000000000abf14159f4dfdf386824e1c03848ca40899930a6", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 4, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000003001641f00000000000003f6e6060000000000000abf132853597864df92522d9010f8685bf82aaed", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 4, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.87847591936, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 3, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000002001600000000000000003f60e3cc000000000000abf853dbc4755498d18101c8c82902ed8f8c0e17"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000002001600000000000000003f60e3cc000000000000abf853dbc4755498d18101c8c82902ed8f8c0e17", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 3, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.87723511936, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 3, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000002001642b40000000000003f60927b000000000000abf87ea296b0df529d3d0ca9e27fd0b49b1e16b7"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000002001642b40000000000003f60927b000000000000abf87ea296b0df529d3d0ca9e27fd0b49b1e16b7", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 3, "ok": true}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.87462871936, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 5, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000004001641f00000000000003f5fe7ab000000000000abf8dd765feaca81e8edc1e68811e1ac0ccc4d94"}}
+{"node": 1, "command": {"command": "tx", "token": 6, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000005001641f00000000000003f5fe7ab000000000000abf8dd76b07ef448c8086751ebcb2f4855a8d3f3"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.87449414656, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 5, "peer": 1, "wire": "0101000200014cef8981a7f541b900000004001642700000000000003f5fded9000000000000abf8e2fd73bd270d3014c7277833c1d22ca62f67"}}
+{"node": 2, "command": {"command": "tx", "token": 6, "peer": 3, "wire": "0101000200034cef8981a7f541b900000005001642700000000000003f5fded9000000000000abf8e2fdb086ae5c08602e85d692e8f50d1484c7"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000004001641f00000000000003f5fe7ab000000000000abf8dd765feaca81e8edc1e68811e1ac0ccc4d94", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 5, "ok": true}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000004001642700000000000003f5fded9000000000000abf8e2fd73bd270d3014c7277833c1d22ca62f67", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 5, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000005001642700000000000003f5fded9000000000000abf8e2fdb086ae5c08602e85d692e8f50d1484c7", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 6, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000005001641f00000000000003f5fe7ab000000000000abf8dd76b07ef448c8086751ebcb2f4855a8d3f3", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 6, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.8231174617599999, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 4, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000003001600000000000000003f52b7d3000000000000abffdaba178208ca5a124d52ae3668fbd6fa682f"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000003001600000000000000003f52b7d3000000000000abffdaba178208ca5a124d52ae3668fbd6fa682f", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 4, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.8202974617599998, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 4, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000003001642b40000000000003f51ff04000000000000ac003644b7806624896318c2e950e31f11d6a1e1"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000003001642b40000000000003f51ff04000000000000ac003644b7806624896318c2e950e31f11d6a1e1", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 4, "ok": true}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.8186198041599999, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 7, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000006001641f00000000000003f519111000000000000ac0072b32833430e98e5bfd01624911ab2281c15"}}
+{"node": 1, "command": {"command": "tx", "token": 8, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000007001641f00000000000003f519111000000000000ac0072b3e4afe985e52ffe6e15116745c3e4f77c"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.81848523136, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 7, "peer": 1, "wire": "0101000200014cef8981a7f541b900000006001642700000000000003f518840000000000000ac0077541043cb0f14c1442f093d0eef395b6418"}}
+{"node": 2, "command": {"command": "tx", "token": 8, "peer": 3, "wire": "0101000200034cef8981a7f541b900000007001642700000000000003f518840000000000000ac0077549d053938b7f6fcc7cdf5d2a94492afd1"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000006001641f00000000000003f519111000000000000ac0072b32833430e98e5bfd01624911ab2281c15", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 7, "ok": true}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000006001642700000000000003f518840000000000000ac0077541043cb0f14c1442f093d0eef395b6418", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 7, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000007001641f00000000000003f519111000000000000ac0072b3e4afe985e52ffe6e15116745c3e4f77c", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 8, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000007001642700000000000003f518840000000000000ac0077549d053938b7f6fcc7cdf5d2a94492afd1", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 8, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.76629260416, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 5, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000400460000000000002afd41dc3f81c6820000000000ac077fd20100000000000000000000000001103031323334353637383961626364656601c755da157ad6dd8fc8b2bae995fb355cc8fd400b7bc51a564541d37264f94a"}}
+{"node": 0, "command": {"command": "tx", "token": 6, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000005001600000000000000003f442bc1000000000000ac0788293e24cfa7ee36c5088ee677c624a7b74c"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000400460000000000002afd41dc3f81c6820000000000ac077fd20100000000000000000000000001103031323334353637383961626364656601c755da157ad6dd8fc8b2bae995fb355cc8fd400b7bc51a564541d37264f94a", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 5, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 9, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000000800460000000000002afd41dc3f81c6820000000000ac077fd20200000000000000000000000003103031323334353637383961626364656601c755da157ad6dd8fc8b2bae995fb35f92789c8f6fd416a7bd99f4edb9a34ab"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000000800460000000000002afd41dc3f81c6820000000000ac077fd20200000000000000000000000003103031323334353637383961626364656601c755da157ad6dd8fc8b2bae995fb35f92789c8f6fd416a7bd99f4edb9a34ab", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 9, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 9, "peer": 3, "wire": "0102000200034cef8981a7f541b90000000800460000000000002afd41dc3f81c6820000000000ac077fd20300000000000000000000000007103031323334353637383961626364656601c755da157ad6dd8fc8b2bae995fb35e3e44c4fa164b9454d300f81b7874902"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000000800460000000000002afd41dc3f81c6820000000000ac077fd20300000000000000000000000007103031323334353637383961626364656601c755da157ad6dd8fc8b2bae995fb35e3e44c4fa164b9454d300f81b7874902", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 9, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 5, "peer": 2, "wire": "010300030002c52d7a161f4af8d500000004004e0000000000002afd41dc3f81c68297e98b3e6ff198df9029da55d224fdb5a9720a7ddac5bf435ce1fffdae2055dee705881c328ee3eb5945dda6b32fb7c6507bb08add5af02757df2d6ea92dae00b4818b3c12362724445546598c435e50"}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.7640411737599999, "queue": 1, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 6, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000005001642b40000000000003f439834000100000000ac07d0ed4e24734234b7b8b71fa9ce2cdac35105"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000005001600000000000000003f442bc1000000000000ac0788293e24cfa7ee36c5088ee677c624a7b74c", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 6, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d500000004004e0000000000002afd41dc3f81c68297e98b3e6ff198df9029da55d224fdb5a9720a7ddac5bf435ce1fffdae2055dee705881c328ee3eb5945dda6b32fb7c6507bb08add5af02757df2d6ea92dae00b4818b3c12362724445546598c435e50", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 5, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 10, "peer": 1, "wire": "0103000200014cef8981a7f541b900000009004e0000000000002afd41dc3f81c68297e98b3e6ff198df9029da55d224fdb5a9720a7ddac5bf435ce1fffdae2055dee705881c328ee3eb5945dda6b32fb7c6507bb08add5af02757df2d6ea92dae0046c2eba95afa834de6dfa01efa2ac514"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000005001642b40000000000003f439834000100000000ac07d0ed4e24734234b7b8b71fa9ce2cdac35105", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 6, "ok": true}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b900000009004e0000000000002afd41dc3f81c68297e98b3e6ff198df9029da55d224fdb5a9720a7ddac5bf435ce1fffdae2055dee705881c328ee3eb5945dda6b32fb7c6507bb08add5af02757df2d6ea92dae0046c2eba95afa834de6dfa01efa2ac514", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 10, "ok": true}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.76199295616, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 11, "peer": 1, "wire": "0101000200014cef8981a7f541b90000000a001642700000000000003f4311f8000000000000ac08215067504a67229c4014a547e19155d9f619"}}
+{"node": 2, "command": {"command": "tx", "token": 12, "peer": 3, "wire": "0101000200034cef8981a7f541b90000000b001642700000000000003f4311f8000000000000ac0821506c702df4d34f887c6c9e7b2db542c42f"}}
+{"node": 1, "command": {"command": "tx", "token": 10, "peer": 0, "wire": "0103000100008d5bd58d483dc4c600000009004e0000000000002afd41dc3f81c68297e98b3e6ff198df9029da55d224fdb5a9720a7ddac5bf435ce1fffdae2055dee705881c328ee3eb5945dda6b32fb7c6507bb08add5af02757df2d6ea92dae00b552fa76933b616ed4daeb94d7a92062"}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.7617523033599998, "queue": 1, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 11, "peer": 0, "wire": "0101000100008d5bd58d483dc4c60000000a001641f00000000000003f430233000100000000ac082453852cb5cb132dfe5d19767c0473eb944c"}}
+{"node": 1, "command": {"command": "tx", "token": 12, "peer": 2, "wire": "0101000100028d5bd58d483dc4c60000000b001641f00000000000003f430233000100000000ac082453709961822bbebe4fa6d2ce880594d9c0"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b90000000a001642700000000000003f4311f8000000000000ac08215067504a67229c4014a547e19155d9f619", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 11, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b90000000b001642700000000000003f4311f8000000000000ac0821506c702df4d34f887c6c9e7b2db542c42f", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 12, "ok": true}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c600000009004e0000000000002afd41dc3f81c68297e98b3e6ff198df9029da55d224fdb5a9720a7ddac5bf435ce1fffdae2055dee705881c328ee3eb5945dda6b32fb7c6507bb08add5af02757df2d6ea92dae00b552fa76933b616ed4daeb94d7a92062", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 10, "ok": true}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c60000000a001641f00000000000003f430233000100000000ac082453852cb5cb132dfe5d19767c0473eb944c", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 11, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c60000000b001641f00000000000003f430233000100000000ac082453709961822bbebe4fa6d2ce880594d9c0", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 12, "ok": true}}
+{"node": 0, "command": {"command": "tx", "token": 7, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000600460000000000012afd41dc3f81c6820100000000ac0a8f6401000000000000000000000000011030313233343536373839616263646566f2f52378946d712a4e7e477c90efe07f535b4cdf905df5cbd2ecb95b5aa8b06d"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000600460000000000012afd41dc3f81c6820100000000ac0a8f6401000000000000000000000000011030313233343536373839616263646566f2f52378946d712a4e7e477c90efe07f535b4cdf905df5cbd2ecb95b5aa8b06d", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 7, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 13, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000000c00460000000000012afd41dc3f81c6820100000000ac0a8f6402000000000000000000000000031030313233343536373839616263646566f2f52378946d712a4e7e477c90efe07fe544e5a74d349f547e09b4d4158c67e7"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000000c00460000000000012afd41dc3f81c6820100000000ac0a8f6402000000000000000000000000031030313233343536373839616263646566f2f52378946d712a4e7e477c90efe07fe544e5a74d349f547e09b4d4158c67e7", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 13, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 13, "peer": 3, "wire": "0102000200034cef8981a7f541b90000000c00460000000000012afd41dc3f81c6820100000000ac0a8f6403000000000000000000000000071030313233343536373839616263646566f2f52378946d712a4e7e477c90efe07f68aa8031ebdd021f8b9ca6fd711fddd0"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000000c00460000000000012afd41dc3f81c6820100000000ac0a8f6403000000000000000000000000071030313233343536373839616263646566f2f52378946d712a4e7e477c90efe07f68aa8031ebdd021f8b9ca6fd711fddd0", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 13, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 7, "peer": 2, "wire": "010300030002c52d7a161f4af8d500000006004e0000000000012afd41dc3f81c6828c69663ed7d6cabd52bc12db8fb75998c44cce6e54ab1cf928c78314feb2f7081e465bf69c91e172a41a02c1abf285bf0971555a5415306f9760f7f9eba3a4086e1799a12a08b973e03ba85d8b8fceee"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d500000006004e0000000000012afd41dc3f81c6828c69663ed7d6cabd52bc12db8fb75998c44cce6e54ab1cf928c78314feb2f7081e465bf69c91e172a41a02c1abf285bf0971555a5415306f9760f7f9eba3a4086e1799a12a08b973e03ba85d8b8fceee", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 7, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 14, "peer": 1, "wire": "0103000200014cef8981a7f541b90000000d004e0000000000012afd41dc3f81c6828c69663ed7d6cabd52bc12db8fb75998c44cce6e54ab1cf928c78314feb2f7081e465bf69c91e172a41a02c1abf285bf0971555a5415306f9760f7f9eba3a408be4be6a04a57a8fe0241b634ca692289"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b90000000d004e0000000000012afd41dc3f81c6828c69663ed7d6cabd52bc12db8fb75998c44cce6e54ab1cf928c78314feb2f7081e465bf69c91e172a41a02c1abf285bf0971555a5415306f9760f7f9eba3a408be4be6a04a57a8fe0241b634ca692289", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 14, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 14, "peer": 0, "wire": "0103000100008d5bd58d483dc4c60000000d004e0000000000012afd41dc3f81c6828c69663ed7d6cabd52bc12db8fb75998c44cce6e54ab1cf928c78314feb2f7081e465bf69c91e172a41a02c1abf285bf0971555a5415306f9760f7f9eba3a408cec02785f7caa800f81b2f3e2457f1a2"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c60000000d004e0000000000012afd41dc3f81c6828c69663ed7d6cabd52bc12db8fb75998c44cce6e54ab1cf928c78314feb2f7081e465bf69c91e172a41a02c1abf285bf0971555a5415306f9760f7f9eba3a408cec02785f7caa800f81b2f3e2457f1a2", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 14, "ok": true}}
+{"node": 0, "command": {"command": "tx", "token": 8, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000700460000000000022afd41dc3f81c6820200000000ac0dae230100000000000000000000000001103031323334353637383961626364656602ede19328cbf14693d1202a7f8c7e7ed19b13429afd91686873da758b3b2d1c"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000700460000000000022afd41dc3f81c6820200000000ac0dae230100000000000000000000000001103031323334353637383961626364656602ede19328cbf14693d1202a7f8c7e7ed19b13429afd91686873da758b3b2d1c", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 8, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 15, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000000e00460000000000022afd41dc3f81c6820200000000ac0dae230200000000000000000000000003103031323334353637383961626364656602ede19328cbf14693d1202a7f8c7e7e62e6c0a0be7584571c485912af285870"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000000e00460000000000022afd41dc3f81c6820200000000ac0dae230200000000000000000000000003103031323334353637383961626364656602ede19328cbf14693d1202a7f8c7e7e62e6c0a0be7584571c485912af285870", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 15, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 15, "peer": 3, "wire": "0102000200034cef8981a7f541b90000000e00460000000000022afd41dc3f81c6820200000000ac0dae230300000000000000000000000007103031323334353637383961626364656602ede19328cbf14693d1202a7f8c7e7e7a851fa8af73b492c8717e3bf6dc8c9a"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000000e00460000000000022afd41dc3f81c6820200000000ac0dae230300000000000000000000000007103031323334353637383961626364656602ede19328cbf14693d1202a7f8c7e7e7a851fa8af73b492c8717e3bf6dc8c9a", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 15, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 8, "peer": 2, "wire": "010300030002c52d7a161f4af8d500000007004e0000000000022afd41dc3f81c68257b4157c077590c7d9601fb3f06f357943862046ada898dcbe26b58423215ed6814b8581a2838a1bc0cc531985d22739a051697b7363faf11b0f4f961424e90239ccd8b0ca2c5492cdaddc7397851977"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d500000007004e0000000000022afd41dc3f81c68257b4157c077590c7d9601fb3f06f357943862046ada898dcbe26b58423215ed6814b8581a2838a1bc0cc531985d22739a051697b7363faf11b0f4f961424e90239ccd8b0ca2c5492cdaddc7397851977", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 8, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 16, "peer": 1, "wire": "0103000200014cef8981a7f541b90000000f004e0000000000022afd41dc3f81c68257b4157c077590c7d9601fb3f06f357943862046ada898dcbe26b58423215ed6814b8581a2838a1bc0cc531985d22739a051697b7363faf11b0f4f961424e90282e7e86f1843acb39470bd1087754b93"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b90000000f004e0000000000022afd41dc3f81c68257b4157c077590c7d9601fb3f06f357943862046ada898dcbe26b58423215ed6814b8581a2838a1bc0cc531985d22739a051697b7363faf11b0f4f961424e90282e7e86f1843acb39470bd1087754b93", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 16, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 16, "peer": 0, "wire": "0103000100008d5bd58d483dc4c60000000f004e0000000000022afd41dc3f81c68257b4157c077590c7d9601fb3f06f357943862046ada898dcbe26b58423215ed6814b8581a2838a1bc0cc531985d22739a051697b7363faf11b0f4f961424e9029e7cb0371df02be84967055b604dd5b7"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c60000000f004e0000000000022afd41dc3f81c68257b4157c077590c7d9601fb3f06f357943862046ada898dcbe26b58423215ed6814b8581a2838a1bc0cc531985d22739a051697b7363faf11b0f4f961424e9029e7cb0371df02be84967055b604dd5b7", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 16, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.71375908096, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.7140367513599999, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.7137655321599999, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 9, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000008001600000000000000003f36b8ea000000000000ac10daecbe758463f9d2a02d19d8267e41ec0f48"}}
+{"node": 0, "command": {"command": "tx", "token": 10, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000900460000000000032afd41dc3f81c6820000000000ac10e06d010000000000000000000000000110303132333435363738396162636465666386e43940fdea6af96e20bedbbf5744151bb56b1cd3492a4ff3612145d3a4aa"}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.6973641241599999, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 17, "peer": 1, "wire": "0101000200014cef8981a7f541b900000010001642700000000000003f36cb1d000000000000ac10e4857931f3bef8ad686d73126a3cc7112c26"}}
+{"node": 2, "command": {"command": "tx", "token": 18, "peer": 3, "wire": "0101000200034cef8981a7f541b900000011001642700000000000003f36cb1d000000000000ac10e485af740103352a932325acf292e4fd2052"}}
+{"node": 3, "command": {"command": "tx", "token": 9, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000008001642b40000000000003f36b957000000000000ac10dbfe81b39bf5980fb78acdb54b13bcc8fea1"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000008001600000000000000003f36b8ea000000000000ac10daecbe758463f9d2a02d19d8267e41ec0f48", "lqi": 247}}
+{"node": 0, "record": {"event": "ack", "token": 9, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000008001642b40000000000003f36b957000000000000ac10dbfe81b39bf5980fb78acdb54b13bcc8fea1", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 9, "ok": true}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000900460000000000032afd41dc3f81c6820000000000ac10e06d010000000000000000000000000110303132333435363738396162636465666386e43940fdea6af96e20bedbbf5744151bb56b1cd3492a4ff3612145d3a4aa", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 10, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 17, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000010001641f00000000000003f328675000000000000ac11060070e87d65c33d5fd1485956ee35c7b1aa"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000010001642700000000000003f36cb1d000000000000ac10e4857931f3bef8ad686d73126a3cc7112c26", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 17, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 18, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000011001641f00000000000003f328675000000000000ac11060052fcc71d59fdddc475a5f55c6f41fbe6"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000011001642700000000000003f36cb1d000000000000ac10e485af740103352a932325acf292e4fd2052", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 18, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 19, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000001200460000000000032afd41dc3f81c6820000000000ac10e06d020000000000000000000000000310303132333435363738396162636465666386e43940fdea6af96e20bedbbf5744dee83c19c402d9bfde9baf020e7e928a"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000010001641f00000000000003f328675000000000000ac11060070e87d65c33d5fd1485956ee35c7b1aa", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 17, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000011001641f00000000000003f328675000000000000ac11060052fcc71d59fdddc475a5f55c6f41fbe6", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 18, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000001200460000000000032afd41dc3f81c6820000000000ac10e06d020000000000000000000000000310303132333435363738396162636465666386e43940fdea6af96e20bedbbf5744dee83c19c402d9bfde9baf020e7e928a", "lqi": 255}}
+{"node": 2, "command": {"command": "tx", "token": 19, "peer": 3, "wire": "0102000200034cef8981a7f541b90000001200460000000000032afd41dc3f81c6820000000000ac10e06d030000000000000000000000000710303132333435363738396162636465666386e43940fdea6af96e20bedbbf57440a5434c268b60ca4f2128c44bdaa74bd"}}
+{"node": 1, "record": {"event": "ack", "token": 19, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000001200460000000000032afd41dc3f81c6820000000000ac10e06d030000000000000000000000000710303132333435363738396162636465666386e43940fdea6af96e20bedbbf57440a5434c268b60ca4f2128c44bdaa74bd", "lqi": 255}}
+{"node": 3, "command": {"command": "tx", "token": 10, "peer": 2, "wire": "010300030002c52d7a161f4af8d500000009004e0000000000032afd41dc3f81c6822f6c7b52a899168c390ebdda0a3c3a329bf091fd85e48bc89b16711db0db765e83d5fc362470ab7b4a8b3541b8381a9752ad9e59f28161d3f7ec26a378794c0e5ca88d0dedc1e9d5148cf4c663d8b588"}}
+{"node": 2, "record": {"event": "ack", "token": 19, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d500000009004e0000000000032afd41dc3f81c6822f6c7b52a899168c390ebdda0a3c3a329bf091fd85e48bc89b16711db0db765e83d5fc362470ab7b4a8b3541b8381a9752ad9e59f28161d3f7ec26a378794c0e5ca88d0dedc1e9d5148cf4c663d8b588", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 10, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 20, "peer": 1, "wire": "0103000200014cef8981a7f541b900000013004e0000000000032afd41dc3f81c6822f6c7b52a899168c390ebdda0a3c3a329bf091fd85e48bc89b16711db0db765e83d5fc362470ab7b4a8b3541b8381a9752ad9e59f28161d3f7ec26a378794c0ea8983cfe84b99c90c8169385c47be47b"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b900000013004e0000000000032afd41dc3f81c6822f6c7b52a899168c390ebdda0a3c3a329bf091fd85e48bc89b16711db0db765e83d5fc362470ab7b4a8b3541b8381a9752ad9e59f28161d3f7ec26a378794c0ea8983cfe84b99c90c8169385c47be47b", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 20, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 20, "peer": 0, "wire": "0103000100008d5bd58d483dc4c600000013004e0000000000032afd41dc3f81c6822f6c7b52a899168c390ebdda0a3c3a329bf091fd85e48bc89b16711db0db765e83d5fc362470ab7b4a8b3541b8381a9752ad9e59f28161d3f7ec26a378794c0e6c719cad1ea182466c7959fa7d6d7852"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c600000013004e0000000000032afd41dc3f81c6822f6c7b52a899168c390ebdda0a3c3a329bf091fd85e48bc89b16711db0db765e83d5fc362470ab7b4a8b3541b8381a9752ad9e59f28161d3f7ec26a378794c0e6c719cad1ea182466c7959fa7d6d7852", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 20, "ok": true}}
+{"node": 0, "command": {"command": "tx", "token": 11, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000a00460000000000042afd41dc3f81c6820100000000ac14540d01000000000000000000000000011030313233343536373839616263646566c74fe9bb122060b004505bda75125971062b6d50d7231f2d00db80a6d14f5e1b"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000a00460000000000042afd41dc3f81c6820100000000ac14540d01000000000000000000000000011030313233343536373839616263646566c74fe9bb122060b004505bda75125971062b6d50d7231f2d00db80a6d14f5e1b", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 11, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 21, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000001400460000000000042afd41dc3f81c6820100000000ac14540d02000000000000000000000000031030313233343536373839616263646566c74fe9bb122060b004505bda75125971858ab66d9cbf45d26df1253af0f1b404"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000001400460000000000042afd41dc3f81c6820100000000ac14540d02000000000000000000000000031030313233343536373839616263646566c74fe9bb122060b004505bda75125971858ab66d9cbf45d26df1253af0f1b404", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 21, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 21, "peer": 3, "wire": "0102000200034cef8981a7f541b90000001400460000000000042afd41dc3f81c6820100000000ac14540d03000000000000000000000000071030313233343536373839616263646566c74fe9bb122060b004505bda751259716a6fd8cab32e17eafe720c49b5dddc90"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000001400460000000000042afd41dc3f81c6820100000000ac14540d03000000000000000000000000071030313233343536373839616263646566c74fe9bb122060b004505bda751259716a6fd8cab32e17eafe720c49b5dddc90", "lqi": 255}}
+{"node": 3, "command": {"command": "tx", "token": 11, "peer": 2, "wire": "010300030002c52d7a161f4af8d50000000a004e0000000000042afd41dc3f81c682fb379a82576a8530923ced0460ec0a6543e24ae5bb475754e8457557aa8f2707c15f03442ccc83082f42036d33d307f023102aaca623deeb5a9c7d65a037dd03dd20a0cab7de1dd5a4d68bf1f94ab438"}}
+{"node": 2, "record": {"event": "ack", "token": 21, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d50000000a004e0000000000042afd41dc3f81c682fb379a82576a8530923ced0460ec0a6543e24ae5bb475754e8457557aa8f2707c15f03442ccc83082f42036d33d307f023102aaca623deeb5a9c7d65a037dd03dd20a0cab7de1dd5a4d68bf1f94ab438", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 11, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 22, "peer": 1, "wire": "0103000200014cef8981a7f541b900000015004e0000000000042afd41dc3f81c682fb379a82576a8530923ced0460ec0a6543e24ae5bb475754e8457557aa8f2707c15f03442ccc83082f42036d33d307f023102aaca623deeb5a9c7d65a037dd03e529f05ea95ecc23227c2dfade74977e"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b900000015004e0000000000042afd41dc3f81c682fb379a82576a8530923ced0460ec0a6543e24ae5bb475754e8457557aa8f2707c15f03442ccc83082f42036d33d307f023102aaca623deeb5a9c7d65a037dd03e529f05ea95ecc23227c2dfade74977e", "lqi": 255}}
+{"node": 1, "command": {"command": "tx", "token": 22, "peer": 0, "wire": "0103000100008d5bd58d483dc4c600000015004e0000000000042afd41dc3f81c682fb379a82576a8530923ced0460ec0a6543e24ae5bb475754e8457557aa8f2707c15f03442ccc83082f42036d33d307f023102aaca623deeb5a9c7d65a037dd03ba6a28071afc04c17134715992bd7a68"}}
+{"node": 2, "record": {"event": "ack", "token": 22, "ok": true}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c600000015004e0000000000042afd41dc3f81c682fb379a82576a8530923ced0460ec0a6543e24ae5bb475754e8457557aa8f2707c15f03442ccc83082f42036d33d307f023102aaca623deeb5a9c7d65a037dd03ba6a28071afc04c17134715992bd7a68", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 22, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.65362871296, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 12, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000b00460000000000052afd41dc3f81c6820200000000ac16c56901000000000000000000000000011030313233343536373839616263646566ad296aa809b8e655f2fa4362e8719c139960ee3b669d66d15d5a2ca26f579971"}}
+{"node": 0, "command": {"command": "tx", "token": 13, "peer": 1, "wire": "0101000000012afd41dc3f81c6820000000c001600000000000000003f275436000000000000ac16c8917d8fa53b9545275cb8150cf4d2594d8c"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000b00460000000000052afd41dc3f81c6820200000000ac16c56901000000000000000000000000011030313233343536373839616263646566ad296aa809b8e655f2fa4362e8719c139960ee3b669d66d15d5a2ca26f579971", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 12, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 23, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000001600460000000000052afd41dc3f81c6820200000000ac16c56902000000000000000000000000031030313233343536373839616263646566ad296aa809b8e655f2fa4362e8719c13f409579317c14bf874a2b9a3cbf85a71"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c6820000000c001600000000000000003f275436000000000000ac16c8917d8fa53b9545275cb8150cf4d2594d8c", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 13, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000001600460000000000052afd41dc3f81c6820200000000ac16c56902000000000000000000000000031030313233343536373839616263646566ad296aa809b8e655f2fa4362e8719c13f409579317c14bf874a2b9a3cbf85a71", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 23, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 23, "peer": 3, "wire": "0102000200034cef8981a7f541b90000001600460000000000052afd41dc3f81c6820200000000ac16c56903000000000000000000000000071030313233343536373839616263646566ad296aa809b8e655f2fa4362e8719c13b97a391d99c1f33aa446939c8750be73"}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.6514962649600001, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 12, "peer": 2, "wire": "010100030002c52d7a161f4af8d50000000b001642b40000000000003f26c876000000000000ac171667943ac3728368b669bbecb215890e555c"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000001600460000000000052afd41dc3f81c6820200000000ac16c56903000000000000000000000000071030313233343536373839616263646566ad296aa809b8e655f2fa4362e8719c13b97a391d99c1f33aa446939c8750be73", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 23, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 13, "peer": 2, "wire": "010300030002c52d7a161f4af8d50000000c004e0000000000052afd41dc3f81c68207a15b69df03eb46232fc04b01e593f61d43e49b58ed60d952ec899c4eb11a5470ad0a8e54e3c8c11884ec99b95eae5754be338f4b997fd2b15eb0cfc38d5609fb15ab2506fede0769102e9002609df8"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d50000000b001642b40000000000003f26c876000000000000ac171667943ac3728368b669bbecb215890e555c", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 12, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d50000000c004e0000000000052afd41dc3f81c68207a15b69df03eb46232fc04b01e593f61d43e49b58ed60d952ec899c4eb11a5470ad0a8e54e3c8c11884ec99b95eae5754be338f4b997fd2b15eb0cfc38d5609fb15ab2506fede0769102e9002609df8", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 13, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 24, "peer": 1, "wire": "0103000200014cef8981a7f541b900000017004e0000000000052afd41dc3f81c68207a15b69df03eb46232fc04b01e593f61d43e49b58ed60d952ec899c4eb11a5470ad0a8e54e3c8c11884ec99b95eae5754be338f4b997fd2b15eb0cfc38d56093428c3834cb127b5ebb2b626c6f722b7"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.6499150969600003, "queue": 1, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 25, "peer": 1, "wire": "0101000200014cef8981a7f541b900000018001642700000000000003f2660d6000100000000ac175674371cc8ab5e744df6ae91642faabc40b9"}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.6497947033600003, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 26, "peer": 3, "wire": "0101000200034cef8981a7f541b900000019001642700000000000003f2660d6000100000000ac17567470420b4748688e003cc2c60173a2ed2c"}}
+{"node": 1, "command": {"command": "tx", "token": 24, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000017001641f00000000000003f2658f2000000000000ac175bc234a2c3443a7ae36b89dead94a97be8bb"}}
+{"node": 1, "command": {"command": "tx", "token": 25, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000018001641f00000000000003f2658f2000000000000ac175bc282f19d70b4bfcc3f2fd16b4c8f564ab4"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b900000017004e0000000000052afd41dc3f81c68207a15b69df03eb46232fc04b01e593f61d43e49b58ed60d952ec899c4eb11a5470ad0a8e54e3c8c11884ec99b95eae5754be338f4b997fd2b15eb0cfc38d56093428c3834cb127b5ebb2b626c6f722b7", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 24, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 26, "peer": 0, "wire": "0103000100008d5bd58d483dc4c600000019004e0000000000052afd41dc3f81c68207a15b69df03eb46232fc04b01e593f61d43e49b58ed60d952ec899c4eb11a5470ad0a8e54e3c8c11884ec99b95eae5754be338f4b997fd2b15eb0cfc38d560976ff59e9116dc7d6db5866007f680d3a"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000017001641f00000000000003f2658f2000000000000ac175bc234a2c3443a7ae36b89dead94a97be8bb", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 24, "ok": true}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000018001642700000000000003f2660d6000100000000ac175674371cc8ab5e744df6ae91642faabc40b9", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 25, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000019001642700000000000003f2660d6000100000000ac17567470420b4748688e003cc2c60173a2ed2c", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 26, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000018001641f00000000000003f2658f2000000000000ac175bc282f19d70b4bfcc3f2fd16b4c8f564ab4", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 25, "ok": true}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c600000019004e0000000000052afd41dc3f81c68207a15b69df03eb46232fc04b01e593f61d43e49b58ed60d952ec899c4eb11a5470ad0a8e54e3c8c11884ec99b95eae5754be338f4b997fd2b15eb0cfc38d560976ff59e9116dc7d6db5866007f680d3a", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 26, "ok": true}}
+{"node": 0, "command": {"command": "tx", "token": 14, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000d00460000000000062afd41dc3f81c6820000000000ac19d91301000000000000000000000000011030313233343536373839616263646566c9d5bd0d0efc71073efb8069f4045789617ad21de06d7f15cacf68f6a8897aad"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000d00460000000000062afd41dc3f81c6820000000000ac19d91301000000000000000000000000011030313233343536373839616263646566c9d5bd0d0efc71073efb8069f4045789617ad21de06d7f15cacf68f6a8897aad", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 14, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 27, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000001a00460000000000062afd41dc3f81c6820000000000ac19d91302000000000000000000000000031030313233343536373839616263646566c9d5bd0d0efc71073efb8069f404578984eb34dc7651dd108275f3487f1b5907"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000001a00460000000000062afd41dc3f81c6820000000000ac19d91302000000000000000000000000031030313233343536373839616263646566c9d5bd0d0efc71073efb8069f404578984eb34dc7651dd108275f3487f1b5907", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 27, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 27, "peer": 3, "wire": "0102000200034cef8981a7f541b90000001a00460000000000062afd41dc3f81c6820000000000ac19d91303000000000000000000000000071030313233343536373839616263646566c9d5bd0d0efc71073efb8069f4045789cd762a14edacbd640485e7fac23f631c"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000001a00460000000000062afd41dc3f81c6820000000000ac19d91303000000000000000000000000071030313233343536373839616263646566c9d5bd0d0efc71073efb8069f4045789cd762a14edacbd640485e7fac23f631c", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 27, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 14, "peer": 2, "wire": "010300030002c52d7a161f4af8d50000000d004e0000000000062afd41dc3f81c6826f07241cb888f7723dee09a591a7bafe51600072ca74a312f01cd92de93ea3bc331d09c2a2d7e232e154224a32d437758fc49dcc45aa423a4bf1e27ea702fc02d545e817d517ea651fe043d7145e30c7"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d50000000d004e0000000000062afd41dc3f81c6826f07241cb888f7723dee09a591a7bafe51600072ca74a312f01cd92de93ea3bc331d09c2a2d7e232e154224a32d437758fc49dcc45aa423a4bf1e27ea702fc02d545e817d517ea651fe043d7145e30c7", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 14, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 28, "peer": 1, "wire": "0103000200014cef8981a7f541b90000001b004e0000000000062afd41dc3f81c6826f07241cb888f7723dee09a591a7bafe51600072ca74a312f01cd92de93ea3bc331d09c2a2d7e232e154224a32d437758fc49dcc45aa423a4bf1e27ea702fc02ef0f56d6d03b597dd4830e4fe05c4dad"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b90000001b004e0000000000062afd41dc3f81c6826f07241cb888f7723dee09a591a7bafe51600072ca74a312f01cd92de93ea3bc331d09c2a2d7e232e154224a32d437758fc49dcc45aa423a4bf1e27ea702fc02ef0f56d6d03b597dd4830e4fe05c4dad", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 28, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 28, "peer": 0, "wire": "0103000100008d5bd58d483dc4c60000001b004e0000000000062afd41dc3f81c6826f07241cb888f7723dee09a591a7bafe51600072ca74a312f01cd92de93ea3bc331d09c2a2d7e232e154224a32d437758fc49dcc45aa423a4bf1e27ea702fc02080c0261ee19db64104b9a1394f8dd49"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c60000001b004e0000000000062afd41dc3f81c6826f07241cb888f7723dee09a591a7bafe51600072ca74a312f01cd92de93ea3bc331d09c2a2d7e232e154224a32d437758fc49dcc45aa423a4bf1e27ea702fc02080c0261ee19db64104b9a1394f8dd49", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 28, "ok": true}}
+{"node": 0, "command": {"command": "tx", "token": 15, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000000e00460000000000072afd41dc3f81c6820100000000ac1cd97e010000000000000000000000000110303132333435363738396162636465662441364e54b49bf37de11598690c7e0cdad2be88777dc8acba4b9b37ed0fe91e"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000000e00460000000000072afd41dc3f81c6820100000000ac1cd97e010000000000000000000000000110303132333435363738396162636465662441364e54b49bf37de11598690c7e0cdad2be88777dc8acba4b9b37ed0fe91e", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 15, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 29, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000001c00460000000000072afd41dc3f81c6820100000000ac1cd97e020000000000000000000000000310303132333435363738396162636465662441364e54b49bf37de11598690c7e0c7d190f4739954afce65e8fb672834e2d"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000001c00460000000000072afd41dc3f81c6820100000000ac1cd97e020000000000000000000000000310303132333435363738396162636465662441364e54b49bf37de11598690c7e0c7d190f4739954afce65e8fb672834e2d", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 29, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 29, "peer": 3, "wire": "0102000200034cef8981a7f541b90000001c00460000000000072afd41dc3f81c6820100000000ac1cd97e030000000000000000000000000710303132333435363738396162636465662441364e54b49bf37de11598690c7e0c0b6a8e7ac8d6d3f58073c5d5bc194223"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000001c00460000000000072afd41dc3f81c6820100000000ac1cd97e030000000000000000000000000710303132333435363738396162636465662441364e54b49bf37de11598690c7e0c0b6a8e7ac8d6d3f58073c5d5bc194223", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 29, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 15, "peer": 2, "wire": "010300030002c52d7a161f4af8d50000000e004e0000000000072afd41dc3f81c682b248aea1c483fa27847328ed8af1616c673fb06919acbb07876f4ae3aa2e58778c4c338de386459302035ece85204b0142682a51bc85329189d82320d2a0c70e3736ed212154777ec80cfe3b41c6e10c"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d50000000e004e0000000000072afd41dc3f81c682b248aea1c483fa27847328ed8af1616c673fb06919acbb07876f4ae3aa2e58778c4c338de386459302035ece85204b0142682a51bc85329189d82320d2a0c70e3736ed212154777ec80cfe3b41c6e10c", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 15, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 30, "peer": 1, "wire": "0103000200014cef8981a7f541b90000001d004e0000000000072afd41dc3f81c682b248aea1c483fa27847328ed8af1616c673fb06919acbb07876f4ae3aa2e58778c4c338de386459302035ece85204b0142682a51bc85329189d82320d2a0c70ef11867be6f0fd1b7f78390892d8f0537"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b90000001d004e0000000000072afd41dc3f81c682b248aea1c483fa27847328ed8af1616c673fb06919acbb07876f4ae3aa2e58778c4c338de386459302035ece85204b0142682a51bc85329189d82320d2a0c70ef11867be6f0fd1b7f78390892d8f0537", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 30, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 30, "peer": 0, "wire": "0103000100008d5bd58d483dc4c60000001d004e0000000000072afd41dc3f81c682b248aea1c483fa27847328ed8af1616c673fb06919acbb07876f4ae3aa2e58778c4c338de386459302035ece85204b0142682a51bc85329189d82320d2a0c70e87b5682b480e5a92ca16866ab26f6b2a"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c60000001d004e0000000000072afd41dc3f81c682b248aea1c483fa27847328ed8af1616c673fb06919acbb07876f4ae3aa2e58778c4c338de386459302035ece85204b0142682a51bc85329189d82320d2a0c70e87b5682b480e5a92ca16866ab26f6b2a", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 30, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.5979367897600003, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 16, "peer": 1, "wire": "0101000000012afd41dc3f81c6820000000f001600000000000000003f191263000000000000ac1e59e6d22aec3ab54e7a7e082716184c9216ca"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c6820000000f001600000000000000003f191263000000000000ac1e59e6d22aec3ab54e7a7e082716184c9216ca", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 16, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.5953595929600004, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 16, "peer": 2, "wire": "010100030002c52d7a161f4af8d50000000f001642b40000000000003f18697c000000000000ac1eb00d341b1c4f32626ef44b3b5916d3ad90b0"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d50000000f001642b40000000000003f18697c000000000000ac1eb00d341b1c4f32626ef44b3b5916d3ad90b0", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 16, "ok": true}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.5942793817600007, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.5942576089600007, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 31, "peer": 0, "wire": "0101000100008d5bd58d483dc4c60000001e001641f00000000000003f1822b2000000000000ac1eea729fc5ebed4e2e01b2d8242b716b9ca4b9"}}
+{"node": 1, "command": {"command": "tx", "token": 32, "peer": 2, "wire": "0101000100028d5bd58d483dc4c60000001f001641f00000000000003f1822b2000000000000ac1eea72f1835765d43945129a6ebc42967b1f00"}}
+{"node": 2, "command": {"command": "tx", "token": 31, "peer": 1, "wire": "0101000200014cef8981a7f541b90000001e001642700000000000003f182144000000000000ac1eeb0b01f9b526055c2614535ac3040e0e2d9e"}}
+{"node": 2, "command": {"command": "tx", "token": 32, "peer": 3, "wire": "0101000200034cef8981a7f541b90000001f001642700000000000003f182144000000000000ac1eeb0bbcb3cfd0da7d4ac3e0f0e0550f99a7ac"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c60000001e001641f00000000000003f1822b2000000000000ac1eea729fc5ebed4e2e01b2d8242b716b9ca4b9", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 31, "ok": true}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b90000001e001642700000000000003f182144000000000000ac1eeb0b01f9b526055c2614535ac3040e0e2d9e", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 31, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c60000001f001641f00000000000003f1822b2000000000000ac1eea72f1835765d43945129a6ebc42967b1f00", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 32, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b90000001f001642700000000000003f182144000000000000ac1eeb0bbcb3cfd0da7d4ac3e0f0e0550f99a7ac", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 32, "ok": true}}
+{"node": 0, "command": {"command": "tx", "token": 17, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000001000460000000000082afd41dc3f81c6820200000000ac1feadf0100000000000000000000000001103031323334353637383961626364656680a1b5916f472ceeca13c0663553116dd00231af149f853ed12cf741a8a803a5"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000001000460000000000082afd41dc3f81c6820200000000ac1feadf0100000000000000000000000001103031323334353637383961626364656680a1b5916f472ceeca13c0663553116dd00231af149f853ed12cf741a8a803a5", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 17, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 33, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000002000460000000000082afd41dc3f81c6820200000000ac1feadf0200000000000000000000000003103031323334353637383961626364656680a1b5916f472ceeca13c0663553116d27bbf0378682795cb6c2a01474c8ed3b"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000002000460000000000082afd41dc3f81c6820200000000ac1feadf0200000000000000000000000003103031323334353637383961626364656680a1b5916f472ceeca13c0663553116d27bbf0378682795cb6c2a01474c8ed3b", "lqi": 255}}
+{"node": 2, "command": {"command": "tx", "token": 33, "peer": 3, "wire": "0102000200034cef8981a7f541b90000002000460000000000082afd41dc3f81c6820200000000ac1feadf0300000000000000000000000007103031323334353637383961626364656680a1b5916f472ceeca13c0663553116dd342687a567bc0dd26593ab98b207d35"}}
+{"node": 1, "record": {"event": "ack", "token": 33, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000002000460000000000082afd41dc3f81c6820200000000ac1feadf0300000000000000000000000007103031323334353637383961626364656680a1b5916f472ceeca13c0663553116dd342687a567bc0dd26593ab98b207d35", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 33, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 17, "peer": 2, "wire": "010300030002c52d7a161f4af8d500000010004e0000000000082afd41dc3f81c682a684a3b60cd89c911ad9d0572e1192f5f7c19a5c0489e19bc0531f26edda7a3f931a8886b7b9d6922ce33eed9e8df6266dbf3c5956dd133b0f46376bada2030e09fd71855ae4bdccb0f5d8a41654d5a7"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d500000010004e0000000000082afd41dc3f81c682a684a3b60cd89c911ad9d0572e1192f5f7c19a5c0489e19bc0531f26edda7a3f931a8886b7b9d6922ce33eed9e8df6266dbf3c5956dd133b0f46376bada2030e09fd71855ae4bdccb0f5d8a41654d5a7", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 17, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 34, "peer": 1, "wire": "0103000200014cef8981a7f541b900000021004e0000000000082afd41dc3f81c682a684a3b60cd89c911ad9d0572e1192f5f7c19a5c0489e19bc0531f26edda7a3f931a8886b7b9d6922ce33eed9e8df6266dbf3c5956dd133b0f46376bada2030ed7f9048509ef38d45836cdfe2374e393"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b900000021004e0000000000082afd41dc3f81c682a684a3b60cd89c911ad9d0572e1192f5f7c19a5c0489e19bc0531f26edda7a3f931a8886b7b9d6922ce33eed9e8df6266dbf3c5956dd133b0f46376bada2030ed7f9048509ef38d45836cdfe2374e393", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 34, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 34, "peer": 0, "wire": "0103000100008d5bd58d483dc4c600000021004e0000000000082afd41dc3f81c682a684a3b60cd89c911ad9d0572e1192f5f7c19a5c0489e19bc0531f26edda7a3f931a8886b7b9d6922ce33eed9e8df6266dbf3c5956dd133b0f46376bada2030e20c6197022d9f115467ae57695360cfc"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c600000021004e0000000000082afd41dc3f81c682a684a3b60cd89c911ad9d0572e1192f5f7c19a5c0489e19bc0531f26edda7a3f931a8886b7b9d6922ce33eed9e8df6266dbf3c5956dd133b0f46376bada2030e20c6197022d9f115467ae57695360cfc", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 34, "ok": true}}
+{"node": 0, "command": {"command": "tx", "token": 18, "peer": 1, "wire": "0102000000012afd41dc3f81c6820000001100460000000000092afd41dc3f81c6820000000000ac22f43c010000000000000000000000000110303132333435363738396162636465664e7b9b20fa3320e42178a1972594dbad43cc0a03e5c69d6e4962f9f8e575ae4b"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0102000000012afd41dc3f81c6820000001100460000000000092afd41dc3f81c6820000000000ac22f43c010000000000000000000000000110303132333435363738396162636465664e7b9b20fa3320e42178a1972594dbad43cc0a03e5c69d6e4962f9f8e575ae4b", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 18, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 35, "peer": 2, "wire": "0102000100028d5bd58d483dc4c60000002200460000000000092afd41dc3f81c6820000000000ac22f43c020000000000000000000000000310303132333435363738396162636465664e7b9b20fa3320e42178a1972594dbadc9f9f94a4969b0b1c9860d4d2766c2cb"}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0102000100028d5bd58d483dc4c60000002200460000000000092afd41dc3f81c6820000000000ac22f43c020000000000000000000000000310303132333435363738396162636465664e7b9b20fa3320e42178a1972594dbadc9f9f94a4969b0b1c9860d4d2766c2cb", "lqi": 255}}
+{"node": 2, "command": {"command": "tx", "token": 35, "peer": 3, "wire": "0102000200034cef8981a7f541b90000002200460000000000092afd41dc3f81c6820000000000ac22f43c030000000000000000000000000710303132333435363738396162636465664e7b9b20fa3320e42178a1972594dbad92916bf3440c826d87a964661aa0c4bf"}}
+{"node": 1, "record": {"event": "ack", "token": 35, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0102000200034cef8981a7f541b90000002200460000000000092afd41dc3f81c6820000000000ac22f43c030000000000000000000000000710303132333435363738396162636465664e7b9b20fa3320e42178a1972594dbad92916bf3440c826d87a964661aa0c4bf", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 35, "ok": true}}
+{"node": 3, "command": {"command": "tx", "token": 18, "peer": 2, "wire": "010300030002c52d7a161f4af8d500000011004e0000000000092afd41dc3f81c68278f4c585dc0de0580dbdfcfb3ca03be6edb51b91be9233d1abe0311cbd574f89d7f805b4883b8eb50fcb012b4f430315ce7c1b6a6ca7b1777c0488f634a4aa01223a0136074e097b7c38090168e04b80"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010300030002c52d7a161f4af8d500000011004e0000000000092afd41dc3f81c68278f4c585dc0de0580dbdfcfb3ca03be6edb51b91be9233d1abe0311cbd574f89d7f805b4883b8eb50fcb012b4f430315ce7c1b6a6ca7b1777c0488f634a4aa01223a0136074e097b7c38090168e04b80", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 18, "ok": true}}
+{"node": 2, "command": {"command": "tx", "token": 36, "peer": 1, "wire": "0103000200014cef8981a7f541b900000023004e0000000000092afd41dc3f81c68278f4c585dc0de0580dbdfcfb3ca03be6edb51b91be9233d1abe0311cbd574f89d7f805b4883b8eb50fcb012b4f430315ce7c1b6a6ca7b1777c0488f634a4aa0186580f9b8c98fcc60393e9660497c987"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0103000200014cef8981a7f541b900000023004e0000000000092afd41dc3f81c68278f4c585dc0de0580dbdfcfb3ca03be6edb51b91be9233d1abe0311cbd574f89d7f805b4883b8eb50fcb012b4f430315ce7c1b6a6ca7b1777c0488f634a4aa0186580f9b8c98fcc60393e9660497c987", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 36, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 36, "peer": 0, "wire": "0103000100008d5bd58d483dc4c600000023004e0000000000092afd41dc3f81c68278f4c585dc0de0580dbdfcfb3ca03be6edb51b91be9233d1abe0311cbd574f89d7f805b4883b8eb50fcb012b4f430315ce7c1b6a6ca7b1777c0488f634a4aa01940f2a5c1a1db14b55fe32999d0f7495"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0103000100008d5bd58d483dc4c600000023004e0000000000092afd41dc3f81c68278f4c585dc0de0580dbdfcfb3ca03be6edb51b91be9233d1abe0311cbd574f89d7f805b4883b8eb50fcb012b4f430315ce7c1b6a6ca7b1777c0488f634a4aa01940f2a5c1a1db14b55fe32999d0f7495", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 36, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.5408520217600006, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 19, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000012001600000000000000003f0a7547000000000000ac2615c6e317bae9d063ec57cc71115a0581a4df"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000012001600000000000000003f0a7547000000000000ac2615c6e317bae9d063ec57cc71115a0581a4df", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 19, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.5392943257600005, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 19, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000012001642b40000000000003f0a0f31000000000000ac264d7e8c16968dc0cce3e4d3b7e393ee2e37f1"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000012001642b40000000000003f0a0f31000000000000ac264d7e8c16968dc0cce3e4d3b7e393ee2e37f1", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 19, "ok": true}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.538184373760001, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 37, "peer": 1, "wire": "0101000200014cef8981a7f541b900000024001642700000000000003f09c673000000000000ac26881dce2f36e1564d70468f5d2079f66906c1"}}
+{"node": 2, "command": {"command": "tx", "token": 38, "peer": 3, "wire": "0101000200034cef8981a7f541b900000025001642700000000000003f09c673000000000000ac26881dd0a1b4da657385b2ee80dbf4f29986f8"}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.537642146560001, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000024001642700000000000003f09c673000000000000ac26881dce2f36e1564d70468f5d2079f66906c1", "lqi": 255}}
+{"node": 1, "command": {"command": "tx", "token": 37, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000024001641f00000000000003f09a2ea000000000000ac269d482fcfe12dac90d4084c2d427beef645af"}}
+{"node": 1, "command": {"command": "tx", "token": 38, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000025001641f00000000000003f09a2ea000000000000ac269d4855c769349768bd231b7a7d25c0357066"}}
+{"node": 2, "record": {"event": "ack", "token": 37, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000025001642700000000000003f09c673000000000000ac26881dd0a1b4da657385b2ee80dbf4f29986f8", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 38, "ok": true}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000024001641f00000000000003f09a2ea000000000000ac269d482fcfe12dac90d4084c2d427beef645af", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 37, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000025001641f00000000000003f09a2ea000000000000ac269d4855c769349768bd231b7a7d25c0357066", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 38, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.4847039641600006, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 20, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000013001600000000000000003ef82b1e000000000000ac2db05b6360408e245713516fb40f281061157e"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000013001600000000000000003ef82b1e000000000000ac2db05b6360408e245713516fb40f281061157e", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 20, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.48246946816000047, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 20, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000013001642b40000000000003ef7063d000000000000ac2dfb8f4e808baafd863a45887aa66410b49344"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000013001642b40000000000003ef7063d000000000000ac2dfb8f4e808baafd863a45887aa66410b49344", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 20, "ok": true}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.48118203136000093, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.481160258560001, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 39, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000026001641f00000000000003ef65d7e000000000000ac2e6afcfca05a7003cf1995cc401aa0ce6e540b"}}
+{"node": 2, "command": {"command": "tx", "token": 39, "peer": 1, "wire": "0101000200014cef8981a7f541b900000026001642700000000000003ef65aa3000000000000ac2e6af8f8594a7072a18b8468ddb1258d754c4b"}}
+{"node": 2, "command": {"command": "tx", "token": 40, "peer": 3, "wire": "0101000200034cef8981a7f541b900000027001642700000000000003ef65aa3000000000000ac2e6af84802439f0013bc062c53e4d1162d0cbf"}}
+{"node": 1, "command": {"command": "tx", "token": 40, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000027001641f00000000000003ef65d7e000000000000ac2e6afc5d83b647ca2e08ff2e2a71b71a4a5901"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000026001642700000000000003ef65aa3000000000000ac2e6af8f8594a7072a18b8468ddb1258d754c4b", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 39, "ok": true}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000026001641f00000000000003ef65d7e000000000000ac2e6afcfca05a7003cf1995cc401aa0ce6e540b", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 39, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000027001642700000000000003ef65aa3000000000000ac2e6af84802439f0013bc062c53e4d1162d0cbf", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 40, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000027001641f00000000000003ef65d7e000000000000ac2e6afc5d83b647ca2e08ff2e2a71b71a4a5901", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 40, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.4288943065600005, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 21, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000014001600000000000000003edb9809000000000000ac3538c1ca5ab5292ff22159af728fb4a5696ee7"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000014001600000000000000003edb9809000000000000ac3538c1ca5ab5292ff22159af728fb4a5696ee7", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 21, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.42609581056000034, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 21, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000014001642b40000000000003eda293b000000000000ac359f15b864c3fc753193fb7ad12f8b2199bd05"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000014001642b40000000000003eda293b000000000000ac359f15b864c3fc753193fb7ad12f8b2199bd05", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 21, "ok": true}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.42503854336000113, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 41, "peer": 1, "wire": "0101000200014cef8981a7f541b900000028001642700000000000003ed99ea7000000000000ac35d995a1836049c19fb047bfe835f47d861198"}}
+{"node": 2, "command": {"command": "tx", "token": 42, "peer": 3, "wire": "0101000200034cef8981a7f541b900000029001642700000000000003ed99ea7000000000000ac35d99504d8b1d7cd0781744fedfeaf201f77c7"}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b900000028001642700000000000003ed99ea7000000000000ac35d995a1836049c19fb047bfe835f47d861198", "lqi": 255}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.4247226545200009, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "record": {"event": "ack", "token": 41, "ok": true}}
+{"node": 1, "command": {"command": "tx", "token": 41, "peer": 0, "wire": "0101000100008d5bd58d483dc4c600000028001641f00000000000003ed9753f000000000000ac35e8bf02dc2e2e4a667967c700ae13e4fd904d"}}
+{"node": 1, "command": {"command": "tx", "token": 42, "peer": 2, "wire": "0101000100028d5bd58d483dc4c600000029001641f00000000000003ed9753f000000000000ac35e8bf24cc0e38fb22e831d434ad52938ac010"}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b900000029001642700000000000003ed99ea7000000000000ac35d99504d8b1d7cd0781744fedfeaf201f77c7", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 42, "ok": true}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c600000028001641f00000000000003ed9753f000000000000ac35e8bf02dc2e2e4a667967c700ae13e4fd904d", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 41, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c600000029001641f00000000000003ed9753f000000000000ac35e8bf24cc0e38fb22e831d434ad52938ac010", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 42, "ok": true}}
+{"node": 0, "command": {"command": "telemetry"}}
+{"node": 0, "record": {"event": "telemetry", "energy_fraction": 0.3716182489600005, "queue": 0, "provenance": "simulated"}}
+{"node": 0, "command": {"command": "tx", "token": 22, "peer": 1, "wire": "0101000000012afd41dc3f81c68200000015001600000000000000003ebe44bf000000000000ac3cfd6bebef04edeb83414ab208a88f38c73b64"}}
+{"node": 1, "record": {"event": "rx", "peer": 0, "wire": "0101000000012afd41dc3f81c68200000015001600000000000000003ebe44bf000000000000ac3cfd6bebef04edeb83414ab208a88f38c73b64", "lqi": 255}}
+{"node": 0, "record": {"event": "ack", "token": 22, "ok": true}}
+{"node": 3, "command": {"command": "telemetry"}}
+{"node": 3, "record": {"event": "telemetry", "energy_fraction": 0.3697221529600003, "queue": 0, "provenance": "simulated"}}
+{"node": 3, "command": {"command": "tx", "token": 22, "peer": 2, "wire": "010100030002c52d7a161f4af8d500000015001642b40000000000003ebd4c39000000000000ac3d3cdba8904b988f3945b796ddce98ad83ea26"}}
+{"node": 2, "record": {"event": "rx", "peer": 3, "wire": "010100030002c52d7a161f4af8d500000015001642b40000000000003ebd4c39000000000000ac3d3cdba8904b988f3945b796ddce98ad83ea26", "lqi": 255}}
+{"node": 3, "record": {"event": "ack", "token": 22, "ok": true}}
+{"node": 2, "command": {"command": "telemetry"}}
+{"node": 2, "record": {"event": "telemetry", "energy_fraction": 0.3685784281600012, "queue": 0, "provenance": "simulated"}}
+{"node": 2, "command": {"command": "tx", "token": 43, "peer": 1, "wire": "0101000200014cef8981a7f541b90000002a001642700000000000003ebcb650000000000000ac3d7f9d4539d87fbee318bffdaeb35f318487b9"}}
+{"node": 2, "command": {"command": "tx", "token": 44, "peer": 3, "wire": "0101000200034cef8981a7f541b90000002b001642700000000000003ebcb650000000000000ac3d7f9dad72db6396d765cae1d7df3d187a0c15"}}
+{"node": 1, "command": {"command": "telemetry"}}
+{"node": 1, "record": {"event": "telemetry", "energy_fraction": 0.36837460096000063, "queue": 0, "provenance": "simulated"}}
+{"node": 1, "command": {"command": "tx", "token": 43, "peer": 0, "wire": "0101000100008d5bd58d483dc4c60000002a001641f00000000000003ebc9b98000000000000ac3d866d03dafe509d19d527ea9fc04397fa67e6"}}
+{"node": 1, "command": {"command": "tx", "token": 44, "peer": 2, "wire": "0101000100028d5bd58d483dc4c60000002b001641f00000000000003ebc9b98000000000000ac3d866df760e91e384970acc58b4904f8b1c05b"}}
+{"node": 0, "record": {"event": "rx", "peer": 1, "wire": "0101000100008d5bd58d483dc4c60000002a001641f00000000000003ebc9b98000000000000ac3d866d03dafe509d19d527ea9fc04397fa67e6", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 43, "ok": true}}
+{"node": 2, "record": {"event": "rx", "peer": 1, "wire": "0101000100028d5bd58d483dc4c60000002b001641f00000000000003ebc9b98000000000000ac3d866df760e91e384970acc58b4904f8b1c05b", "lqi": 255}}
+{"node": 1, "record": {"event": "ack", "token": 44, "ok": true}}
+{"node": 1, "record": {"event": "rx", "peer": 2, "wire": "0101000200014cef8981a7f541b90000002a001642700000000000003ebcb650000000000000ac3d7f9d4539d87fbee318bffdaeb35f318487b9", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 43, "ok": true}}
+{"node": 3, "record": {"event": "rx", "peer": 2, "wire": "0101000200034cef8981a7f541b90000002b001642700000000000003ebcb650000000000000ac3d7f9dad72db6396d765cae1d7df3d187a0c15", "lqi": 255}}
+{"node": 2, "record": {"event": "ack", "token": 44, "ok": true}}

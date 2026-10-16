@@ -41,6 +41,9 @@ def main():
                 pid+=1;next_data+=.2
             line=port.readline()
             if line:
+                # readline can block. Authenticate freshness against reception
+                # time, not the timestamp sampled before waiting for bytes.
+                now=time.monotonic()
                 r=json.loads(line);kind=r.get('event');log('board',record=r)
                 if kind=='rx':
                     actions=node.receive_with_lqi(bytes.fromhex(r['wire']),int(r['peer']),now,int(r.get('lqi',0))) if hasattr(node,'receive_with_lqi') else node.receive(bytes.fromhex(r['wire']),int(r['peer']),now)

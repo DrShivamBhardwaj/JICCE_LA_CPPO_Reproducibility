@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "167fd168b29c5a3931c23e3a70741933ff3671aa05756789a1cc586d57e81bfe",
+  "runs": 180,
+  "physical_validation": false,
+  "mcu_emulation": false,
+  "scope": "host policy and real ns3 byte transport; no embedded CPU/firmware claim"
+}

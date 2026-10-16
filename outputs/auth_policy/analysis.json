@@ -1,0 +1,252 @@
+{
+  "arm_means": [
+    {
+      "setting": "benign",
+      "arm": "greedy",
+      "delivery": 0.8272222222222222,
+      "verified_receipts": 0.7922222222222222,
+      "critical_violation": 0.3116666666666667,
+      "total_radio_j": 2.5188347148799886,
+      "energy_per_delivered_byte": 0.003221235107992236
+    },
+    {
+      "setting": "benign",
+      "arm": "mlp",
+      "delivery": 0.8372222222222222,
+      "verified_receipts": 0.7972222222222222,
+      "critical_violation": 0.30833333333333335,
+      "total_radio_j": 2.5188526751999882,
+      "energy_per_delivered_byte": 0.003178301861406294
+    },
+    {
+      "setting": "benign",
+      "arm": "attention",
+      "delivery": 0.8161111111111108,
+      "verified_receipts": 0.7761111111111111,
+      "critical_violation": 0.3116666666666667,
+      "total_radio_j": 2.518920910079989,
+      "energy_per_delivered_byte": 0.003266056921844269
+    },
+    {
+      "setting": "selective_drop",
+      "arm": "greedy",
+      "delivery": 0.628888888888889,
+      "verified_receipts": 0.6055555555555556,
+      "critical_violation": 0.4666666666666666,
+      "total_radio_j": 2.52040469951999,
+      "energy_per_delivered_byte": 0.00492061644814859
+    },
+    {
+      "setting": "selective_drop",
+      "arm": "mlp",
+      "delivery": 0.6050000000000001,
+      "verified_receipts": 0.5822222222222224,
+      "critical_violation": 0.485,
+      "total_radio_j": 2.52058102335999,
+      "energy_per_delivered_byte": 0.005032506157709199
+    },
+    {
+      "setting": "selective_drop",
+      "arm": "attention",
+      "delivery": 0.611111111111111,
+      "verified_receipts": 0.5816666666666668,
+      "critical_violation": 0.4783333333333333,
+      "total_radio_j": 2.5204667385599895,
+      "energy_per_delivered_byte": 0.00492432993320579
+    }
+  ],
+  "effects": [
+    {
+      "setting": "benign",
+      "comparator": "greedy",
+      "endpoint": "delivery",
+      "difference": -0.011111111111111101,
+      "ci95": [
+        -0.03388888888888888,
+        0.008333333333333352
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "benign",
+      "comparator": "greedy",
+      "endpoint": "critical_violation",
+      "difference": 1.8503717077085942e-18,
+      "ci95": [
+        -0.02333333333333333,
+        0.02499999999999999
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "benign",
+      "comparator": "greedy",
+      "endpoint": "total_radio_j",
+      "difference": 8.619520000016459e-05,
+      "ci95": [
+        -0.0001328354719997097,
+        0.0003023579999999359
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "benign",
+      "comparator": "greedy",
+      "endpoint": "energy_per_delivered_byte",
+      "difference": 4.482181385203329e-05,
+      "ci95": [
+        -2.8608470358995196e-05,
+        0.000131324877368196
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "benign",
+      "comparator": "mlp",
+      "endpoint": "delivery",
+      "difference": -0.021111111111111115,
+      "ci95": [
+        -0.04500000000000001,
+        0.002777777777777779
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "benign",
+      "comparator": "mlp",
+      "endpoint": "critical_violation",
+      "difference": 0.0033333333333333335,
+      "ci95": [
+        -0.021666666666666667,
+        0.02833333333333333
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "benign",
+      "comparator": "mlp",
+      "endpoint": "total_radio_j",
+      "difference": 6.823488000047284e-05,
+      "ci95": [
+        -0.00011606056000010153,
+        0.0002486495200008195
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "benign",
+      "comparator": "mlp",
+      "endpoint": "energy_per_delivered_byte",
+      "difference": 8.775506043797509e-05,
+      "ci95": [
+        -5.398210328178642e-06,
+        0.0001848789490090978
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "greedy",
+      "endpoint": "delivery",
+      "difference": -0.017777777777777774,
+      "ci95": [
+        -0.06499999999999999,
+        0.02668055555555536
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "greedy",
+      "endpoint": "critical_violation",
+      "difference": 0.011666666666666665,
+      "ci95": [
+        -0.02,
+        0.04333333333333334
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "greedy",
+      "endpoint": "total_radio_j",
+      "difference": 6.203904000012805e-05,
+      "ci95": [
+        -0.00030400686400022727,
+        0.0004342842560003786
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "greedy",
+      "endpoint": "energy_per_delivered_byte",
+      "difference": 3.713485057199725e-06,
+      "ci95": [
+        -0.0002960816069102028,
+        0.00032282065119554625
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "mlp",
+      "endpoint": "delivery",
+      "difference": 0.006111111111111113,
+      "ci95": [
+        -0.025555555555555554,
+        0.03777777777777778
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "mlp",
+      "endpoint": "critical_violation",
+      "difference": -0.0066666666666666706,
+      "ci95": [
+        -0.030000000000000006,
+        0.014999999999999993
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "mlp",
+      "endpoint": "total_radio_j",
+      "difference": -0.00011428480000022686,
+      "ci95": [
+        -0.0003806178880001809,
+        0.00014259055999957024
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    },
+    {
+      "setting": "selective_drop",
+      "comparator": "mlp",
+      "endpoint": "energy_per_delivered_byte",
+      "difference": -0.00010817622450341007,
+      "ci95": [
+        -0.0003138112744031505,
+        8.233272824800031e-05
+      ],
+      "n": 30,
+      "interpretation": "exploratory paired percentile bootstrap; no multiplicity-adjusted superiority test"
+    }
+  ]
+}

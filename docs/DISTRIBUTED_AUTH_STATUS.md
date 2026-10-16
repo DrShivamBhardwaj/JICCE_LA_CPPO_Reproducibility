@@ -1,3 +1,5 @@
+> Latest: [Array manuscript and virtual validation](ARRAY_TARGET_AND_VIRTUAL_STATUS.md). Policy transfer evaluated in 180 separate runs; virtual serial interface checked. Physical and MCU firmware validation remain unperformed.
+
 # Post holdout distributed authentication extension
 
 This is a separate engineering prototype. The frozen 750-run study, its inputs, checkpoints, traces and gate are unchanged. The new transport uses greedy progress routing on a four-node chain. It does not establish performance of attention with distributed/authenticated state.

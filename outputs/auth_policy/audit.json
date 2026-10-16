@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "runs": 180,
+  "decisions": 27240,
+  "multichoice": 14001,
+  "received_frames": 88538,
+  "signatures": 46204,
+  "energy_identities": 1080,
+  "physical_validation": false,
+  "limits": "Recomputed frozen probabilities, declared features and endpoints; checked byte cache provenance and public signatures. Runtime nodes check secret hop tags. No independent RF model validation or MCU timing."
+}

@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "virtual_ports": 4,
+  "host_adapters": 4,
+  "offered": 10,
+  "sink_delivered": 5,
+  "final_records": [
+    {
+      "event": "final",
+      "host_monotonic_s": 2821.081002465,
+      "node": 0,
+      "sink_delivered": 0,
+      "settlements": 8,
+      "debts": [
+        0.985,
+        1.92,
+        0.0
+      ],
+      "rejects": {
+        "stale beacon": 5
+      },
+      "max_pending": 8
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2821.088494022,
+      "node": 1,
+      "sink_delivered": 0,
+      "settlements": 5,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {
+        "stale beacon": 5,
+        "stale/loop data": 3
+      },
+      "max_pending": 5
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2821.096954651,
+      "node": 2,
+      "sink_delivered": 0,
+      "settlements": 5,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {
+        "stale beacon": 4
+      },
+      "max_pending": 5
+    },
+    {
+      "event": "final",
+      "host_monotonic_s": 2821.083557903,
+      "node": 3,
+      "sink_delivered": 5,
+      "settlements": 0,
+      "debts": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejects": {
+        "stale beacon": 1
+      },
+      "max_pending": 0
+    }
+  ],
+  "scope": "PTY firmware API emulation + host crypto + simulated ns3 radio",
+  "physical_validation": false,
+  "mcu_isa_emulated": false,
+  "board_firmware_compiled": false,
+  "modeled_energy_only": true,
+  "policy": "greedy serial integration; learned-policy radio transfer reported separately",
+  "host_adapter_sha256": "a649158bdd637148673bcd5f1293582967646f30e27bb7ab55355386caade6a9"
+}

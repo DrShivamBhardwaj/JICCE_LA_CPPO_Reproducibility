@@ -1,3 +1,5 @@
+> Latest: [Array manuscript and virtual validation](ARRAY_TARGET_AND_VIRTUAL_STATUS.md). Policy transfer evaluated in 180 separate runs; virtual serial interface checked. Physical and MCU firmware validation remain unperformed.
+
 > New: [distributed authenticated transport](DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
 
 > Current focused manuscript: publication/redesigned/. JICCE author instructions were retrieved on 16 October 2026 and applied to review-text formatting, abstract length and Arabic table numbering. Deployment/authentication, original QoS compliance and novel architecture superiority remain open; see IMPLEMENTATION_REVIEW_2026_10_16.md. Author contact fields, forms and final approvals remain to be completed before submission.

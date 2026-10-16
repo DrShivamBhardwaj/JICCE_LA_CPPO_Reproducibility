@@ -1,0 +1,7 @@
+{
+  "command": "python -m pytest tests -q",
+  "status": "passed",
+  "passed": 73,
+  "reported_duration_s": 6.13,
+  "virtual_serial_fixture": "separate integration execution; not counted among pytest cases"
+}

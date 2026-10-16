@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="640.8pt" height="352.8pt" viewBox="0 0 640.8 352.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-16T03:06:36.685593</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 352.8 
+L 640.8 352.8 
+L 640.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.424 124.9632 
+L 188.856 124.9632 
+Q 194.424 124.9632 194.424 119.5488 
+L 194.424 50.5152 
+Q 194.424 45.1008 188.856 45.1008 
+L 20.424 45.1008 
+Q 14.856 45.1008 14.856 50.5152 
+L 14.856 119.5488 
+Q 14.856 124.9632 20.424 124.9632 
+z
+" clip-path="url(#p2524f87274)" style="fill: #e6f0f5; stroke: #496579; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 232.704 124.9632 
+L 401.136 124.9632 
+Q 406.704 124.9632 406.704 119.5488 
+L 406.704 50.5152 
+Q 406.704 45.1008 401.136 45.1008 
+L 232.704 45.1008 
+Q 227.136 45.1008 227.136 50.5152 
+L 227.136 119.5488 
+Q 227.136 124.9632 232.704 124.9632 
+z
+" clip-path="url(#p2524f87274)" style="fill: #edf3e7; stroke: #496579; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 444.984 124.9632 
+L 613.416 124.9632 
+Q 618.984 124.9632 618.984 119.5488 
+L 618.984 50.5152 
+Q 618.984 45.1008 613.416 45.1008 
+L 444.984 45.1008 
+Q 439.416 45.1008 439.416 50.5152 
+L 439.416 119.5488 
+Q 439.416 124.9632 444.984 124.9632 
+z
+" clip-path="url(#p2524f87274)" style="fill: #eae9f4; stroke: #496579; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 20.424 290.7792 
+L 154.056 290.7792 
+Q 159.624 290.7792 159.624 285.3648 
+L 159.624 219.7152 
+Q 159.624 214.3008 154.056 214.3008 
+L 20.424 214.3008 
+Q 14.856 214.3008 14.856 219.7152 
+L 14.856 285.3648 
+Q 14.856 290.7792 20.424 290.7792 
+z
+" clip-path="url(#p2524f87274)" style="fill: #f1f3f5; stroke: #496579; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 177.024 290.7792 
+L 310.656 290.7792 
+Q 316.224 290.7792 316.224 285.3648 
+L 316.224 219.7152 
+Q 316.224 214.3008 310.656 214.3008 
+L 177.024 214.3008 
+Q 171.456 214.3008 171.456 219.7152 
+L 171.456 285.3648 
+Q 171.456 290.7792 177.024 290.7792 
+z
+" clip-path="url(#p2524f87274)" style="fill: #f1f3f5; stroke: #496579; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 333.624 290.7792 
+L 467.256 290.7792 
+Q 472.824 290.7792 472.824 285.3648 
+L 472.824 219.7152 
+Q 472.824 214.3008 467.256 214.3008 
+L 333.624 214.3008 
+Q 328.056 214.3008 328.056 219.7152 
+L 328.056 285.3648 
+Q 328.056 290.7792 333.624 290.7792 
+z
+" clip-path="url(#p2524f87274)" style="fill: #f1f3f5; stroke: #496579; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 490.224 290.7792 
+L 623.856 290.7792 
+Q 629.424 290.7792 629.424 285.3648 
+L 629.424 219.7152 
+Q 629.424 214.3008 623.856 214.3008 
+L 490.224 214.3008 
+Q 484.656 214.3008 484.656 219.7152 
+L 484.656 285.3648 
+Q 484.656 290.7792 490.224 290.7792 
+z
+" clip-path="url(#p2524f87274)" style="fill: #f1f3f5; stroke: #496579; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="17.64" y="20.736" transform="rotate(-0 17.64 20.736)">(a) Authenticated routing at each host node</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="104.64" y="74.390735" transform="rotate(-0 104.64 74.390735)">Received wire state</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(60.156094 98.171122)">HMAC, boot session</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(50.020547 109.616872)">sequence and freshness</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="316.92" y="74.390735" transform="rotate(-0 316.92 74.390735)">Local observation</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(263.088047 98.171122)">93 features from cache,</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(261.071484 109.616872)">ACKs, LQI and class debt</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="529.2" y="74.351672" transform="rotate(-0 529.2 74.351672)">Frozen policy</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(494.952187 98.171122)">Attention / MLP</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(490.476797 109.616872)">or greedy control</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 197.118366 85.032 
+Q 210.08253 85.032 221.146037 85.032 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 217.146037 83.032 
+L 221.146037 85.032 
+L 217.146037 87.032 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 409.398366 85.032 
+Q 422.36253 85.032 433.426037 85.032 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 429.426037 83.032 
+L 433.426037 85.032 
+L 429.426037 87.032 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="316.92" y="152.712" transform="rotate(-0 316.92 152.712)">Data: source HMAC + hop tag   |   Receipt: sink Ed25519 signature</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="17.64" y="193.32" transform="rotate(-0 17.64 193.32)">(b) Virtual serial interface and modeled radio</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="87.24" y="242.507855" transform="rotate(-0 87.24 242.507855)">Host adapter</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(56.114062 264.934642)">Actual Python</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(69.949453 276.380392)">process</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="243.84" y="242.507855" transform="rotate(-0 243.84 242.507855)">Virtual UART</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(211.323984 264.934642)">PTY serial port</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(206.511797 276.380392)">JSON commands</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="400.44" y="242.507855" transform="rotate(-0 400.44 242.507855)">Firmware API</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(373.58625 264.934642)">TX, RX, ACK</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(358.338281 276.380392)">telemetry contract</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="557.04" y="242.468792" transform="rotate(-0 557.04 242.468792)">Radio engine</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(540.200859 264.934642)">ns-3.44</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(529.868437 276.380392)">byte frames</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 162.32083 252.2016 
+Q 165.541148 252.2016 166.860808 252.2016 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 162.860808 250.2016 
+L 166.860808 252.2016 
+L 162.860808 254.2016 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 318.92083 252.2016 
+Q 322.141148 252.2016 323.460808 252.2016 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 319.460808 250.2016 
+L 323.460808 252.2016 
+L 319.460808 254.2016 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 475.52083 252.2016 
+Q 478.741148 252.2016 480.060808 252.2016 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 476.060808 250.2016 
+L 480.060808 252.2016 
+L 476.060808 254.2016 
+" style="fill: none; stroke: #496579; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="320.4" y="330.7104" transform="rotate(-0 320.4 330.7104)">Host execution and simulated radio; no MCU image or physical energy measurement</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2524f87274">
+   <rect x="7.2" y="7.2" width="626.4" height="338.4"/>
+  </clipPath>
+ </defs>
+</svg>
