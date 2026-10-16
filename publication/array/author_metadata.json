@@ -10,7 +10,8 @@
       "state": "Uttar Pradesh",
       "country": "India",
       "email": "shibambhardwaj@gmail.com",
-      "corresponding": true
+      "corresponding": true,
+      "orcid": "0009-0005-4554-7397"
     },
     {
       "name": "Abhishek Kumar Pandey",
@@ -39,7 +40,8 @@
     "no_funding",
     "no_competing_interests",
     "coauthor_affiliations_and_emails",
-    "second_author_orcid"
+    "second_author_orcid",
+    "first_author_email_and_orcid"
   ],
   "pending": [
     "all_author_contribution_roles",

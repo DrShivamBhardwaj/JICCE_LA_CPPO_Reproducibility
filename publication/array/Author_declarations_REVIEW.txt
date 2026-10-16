@@ -11,7 +11,7 @@ Competing interests: The authors declare no competing interests. Confirmed by th
 
 Author order: 1. Shivam Bhardwaj; 2. Dr. Abhishek Kumar Pandey; 3. Dr. Abhinandan Tripathi.
 
-First/corresponding author: Shivam Bhardwaj, Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India. Email retained: shibambhardwaj@gmail.com.
+First/corresponding author: Shivam Bhardwaj, Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India. Email confirmed: shibambhardwaj@gmail.com. ORCID confirmed: 0009-0005-4554-7397.
 
 Coauthor metadata confirmed by the corresponding author:
 Abhishek Kumar Pandey — Department of Computer Science and Engineering, Bennett University, Greater Noida, India; abhishek.pandey2@bennett.edu.in; ORCID 0000-0003-3799-9754 (format normalized; checksum verified).

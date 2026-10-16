@@ -97,7 +97,7 @@ for p in list(d.paragraphs):
  elif p.text.startswith('Faculty of Engineering and Technology, Invertis University'):
   p.text='¹ Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India\n² '+meta['authors'][1]['affiliation']+'\n³ '+meta['authors'][2]['affiliation']
  elif p.text.startswith('Corresponding author:'):
-  p.text='*Corresponding author: Shivam Bhardwaj; '+meta['authors'][0]['email']+'\nAbhishek Kumar Pandey: '+meta['authors'][1]['email']+'; ORCID: '+meta['authors'][1]['orcid']+'\nAbhinandan Tripathi: '+meta['authors'][2]['email']
+  p.text='*Corresponding author: '+meta['authors'][0]['email']+'; ORCID: '+meta['authors'][0]['orcid']+'\nAbhishek Kumar Pandey: '+meta['authors'][1]['email']+'; ORCID: '+meta['authors'][1]['orcid']+'\nAbhinandan Tripathi: '+meta['authors'][2]['email']
  elif p.text.startswith('No external funding was received.'):
   p.text=meta['funding']+' '+meta['competing_interests']+' This simulation and emulation study involved no human participants, clinical data or animal experiments.'
  elif p.text.startswith('Author contributions:'):

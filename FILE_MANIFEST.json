@@ -2148,20 +2148,20 @@
     "size": 44352
   },
   "publication/array/Array_Manuscript.docx": {
-    "sha256": "c5c1d21e8eca7b7b3ba50210c28cbb094f8773662849bf6c99d39ac1904ced2e",
-    "size": 4164198
+    "sha256": "ced11f026735c81e073070a111d9b70b4ea9d10beb59101baa5c0b47cede7bce",
+    "size": 4164210
   },
   "publication/array/Array_Manuscript.md": {
-    "sha256": "578fa7224a3053fc079c1c4ff7f06fbb19382d7c02bab4b558f281f55c5a077e",
-    "size": 41205
+    "sha256": "89bb0b0409f074dcce7e1e8353b18bf942027f3c4b7926bb1667d62375844831",
+    "size": 41216
   },
   "publication/array/Array_Manuscript.pdf": {
-    "sha256": "2a8417fd05a15a9f6524041b622028ca9717fbe45e7ab3b5a8c7133b8fe09df4",
-    "size": 1725798
+    "sha256": "5e433168e8536a4b70eafe8ce5be06d4b965508dd170404c6e2e1bd4fb59ef58",
+    "size": 1725802
   },
   "publication/array/Author_declarations_REVIEW.txt": {
-    "sha256": "a8424ef7854bc4600b176da57d5dd8fff1eef98d2e68abd1a26d4ba41fda879a",
-    "size": 2693
+    "sha256": "eba61700ab48541d74cec04e8be1e94e41e2240d959c8ae7547f0837782fe45a",
+    "size": 2732
   },
   "publication/array/Cover_letter_DRAFT.txt": {
     "sha256": "096d3d3c87c1effb8b4a1a1d3c1db80643518c597b9bbca5ef54241b36489799",
@@ -2188,16 +2188,16 @@
     "size": 1015
   },
   "publication/array/SHA256SUMS": {
-    "sha256": "49058e8ecb8003abb75915710a4dfe52a56ac78c3cf9df908ea9af80435fa4bc",
+    "sha256": "8a8ec6eeee44878b6d75802af3f1375fd821b369e076452c33fbb091d04b8721",
     "size": 28470
   },
   "publication/array/author_metadata.json": {
-    "sha256": "be413be2867418ef918dbee07b168df937e3faeec4532d8687c87a7d756fe074",
-    "size": 1733
+    "sha256": "be00af88028fb43d7a55c4d8d9834143268fd3aab36fd6be4080ec9ae4b077e7",
+    "size": 1807
   },
   "publication/array/document_checks.json": {
-    "sha256": "db3a9f581af471a66ee3845342eff77ef34985908d99a5a3e99633bc046b61b6",
-    "size": 818
+    "sha256": "3bc4b1e0d024b0eac0eb74ede8b43d8e3fb23c9ca9f4cf984b9c54d998abfe91",
+    "size": 861
   },
   "publication/array/figures/fig7_authenticated_virtual.pdf": {
     "sha256": "c8b092c2c34999220cb613b027af9a9b480b1b07f4aa0a61a66249faf3063fd6",
@@ -2584,8 +2584,8 @@
     "size": 4505
   },
   "scripts/build_array_manuscript.py": {
-    "sha256": "74fe837bd8defe78811c4ef1ebfddfe1b9ff15c7a1bd65312adcac471df611b4",
-    "size": 20184
+    "sha256": "84b10a1073d55a0be2cd9c9f54820890e7d0a3c542c1e09353b285ea70fd884b",
+    "size": 20207
   },
   "scripts/build_censored_figure.py": {
     "sha256": "18d166752087c6e56c0818e3c6780ab9457549ae05f40dc294fdc2ae084d6994",
