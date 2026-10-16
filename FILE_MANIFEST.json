@@ -132,8 +132,8 @@
     "size": 198776
   },
   "docs/ARRAY_SECTION_BY_SECTION_EDITORIAL_REVIEW.md": {
-    "sha256": "6298b19fe7b488385d564a7467b28d3104bb0353108846b81303a1bc754f9735",
-    "size": 29690
+    "sha256": "3ba223ca88251286c194c289bd160691948a119e5fecca3dd61c31024e8625cd",
+    "size": 30937
   },
   "docs/ARRAY_SUBMISSION_CHECKLIST.md": {
     "sha256": "eb667e77ed26f7ca8839f6b6b836cb909e85086bd9a928b72fe0332566c2d5f0",
@@ -2444,20 +2444,20 @@
     "size": 44352
   },
   "publication/array/Array_Figures_PNG_PDF_SVG.zip": {
-    "sha256": "016affb9ea4dcc2175ce6965d717add41189855655002a141cdd5e5dca076801",
-    "size": 5529066
+    "sha256": "a94e33c9569975b5fe7e1129fe5e5c4c4677c714cccb751e254b89d42639b0bd",
+    "size": 5535245
   },
   "publication/array/Array_Manuscript.docx": {
-    "sha256": "c5950f4af314d8441ac953f47202fd4cd1afbafb3d31d06b69e020c286c83797",
-    "size": 5319375
+    "sha256": "506e7c3835cfa065743bca99ef6e8c1215bbd83469ec76241816645d9d0ebce9",
+    "size": 5328383
   },
   "publication/array/Array_Manuscript.md": {
-    "sha256": "d7712d4d3ef81556d4cc30645ddcc61445f58889e833230d50b8b6eb6fa58ae2",
-    "size": 48513
+    "sha256": "6bc8f45b14b9d786bc466d5a107932e1176c228217800246bbe1e1cf3c0d4a4e",
+    "size": 48881
   },
   "publication/array/Array_Manuscript.pdf": {
-    "sha256": "963c080446b69f2c5245cc088896ce95d4d6fa2a202a535617a2595e8c95c478",
-    "size": 2330197
+    "sha256": "920d78e9df3a15fc3de88b4ffbf338d8827c02a89cc02b1e6f58c275482e7421",
+    "size": 2331835
   },
   "publication/array/Author_declarations_REVIEW.txt": {
     "sha256": "eba61700ab48541d74cec04e8be1e94e41e2240d959c8ae7547f0837782fe45a",
@@ -2484,11 +2484,11 @@
     "size": 286
   },
   "publication/array/README.md": {
-    "sha256": "ad7d60b7cab79d30b5103d8260a3ba661fecd5663f82ec38d3ae45cbf04833d9",
-    "size": 1871
+    "sha256": "20055492e8ca674ca8a1ec7a9dc7c6014fdcb435c7799ff4ec3242bab82ebb05",
+    "size": 1919
   },
   "publication/array/SHA256SUMS": {
-    "sha256": "10ad26918638d4c86cd90890ccb4154195eacb3a476016fc348c277936af63a3",
+    "sha256": "1844dd3c89b12d255612c0276e33610bb1ac3a235c9df95b6892f2d79efa4a03",
     "size": 42365
   },
   "publication/array/author_metadata.json": {
@@ -2496,19 +2496,19 @@
     "size": 1807
   },
   "publication/array/document_checks.json": {
-    "sha256": "a29a4c7ac89b103fc87ca93233954118bcb8e353715bdade7bfdde8b011cfd41",
-    "size": 850
+    "sha256": "4ca560397b21f1dca1092dbd622e4b15a43dbb8f88cffa964ef6fda2b78ef895",
+    "size": 680
   },
   "publication/array/editorial_changes.json": {
-    "sha256": "8e0892b4d39d6c6047f671ecf55b86f054af9a946a93b2b942b0b371902848e2",
-    "size": 32547
+    "sha256": "f9f5144e1f4629824fd04f7eec19c2fa1cea1370508ef6bd47f250a8366cdcb1",
+    "size": 34316
   },
   "publication/array/editorial_preservation_audit.json": {
-    "sha256": "cf704d5a65c052077af3f99065f6737e38952b229c51474309dcbfbafc548034",
-    "size": 327
+    "sha256": "d794665b4f32dfadfd09ad8da1e9f907cb776195fe753f7c5ac0d244de9737af",
+    "size": 356
   },
   "publication/array/figures/fig1_architecture.pdf": {
-    "sha256": "f0d82c50f87d4f96d7c0a722ffb207278efb884decbedac5cdbe4cd25d4288bb",
+    "sha256": "664b6d791f9fbf3207c2d34bfb65980a747971c10883c446529c523a4daa380c",
     "size": 27194
   },
   "publication/array/figures/fig1_architecture.png": {
@@ -2516,20 +2516,20 @@
     "size": 635923
   },
   "publication/array/figures/fig1_architecture.svg": {
-    "sha256": "ad9a4ffc20f89fe6034a076a7003ed35747bec70d7116122026f7e6976388b30",
+    "sha256": "f7b44b4be67ca601b17d698c762cfb74ee61e741508906e1428a01ad1d65cfb4",
     "size": 16394
   },
   "publication/array/figures/fig2_algorithm_flow.pdf": {
-    "sha256": "4ae54e2d0c57c0b356d93dc20b10246d01c835043c240576f89f30a834c960c6",
-    "size": 25059
+    "sha256": "4d811b57d94cdce8738c4d1c05aaa9f31ff2a163b2ba5df7483328854ea3563b",
+    "size": 24980
   },
   "publication/array/figures/fig2_algorithm_flow.png": {
-    "sha256": "6e28685751d8cefb680e0a0ee44048b53502de64fce366446398ba7b22e09853",
-    "size": 589586
+    "sha256": "394cfbaa5e797eef1cdca47c0d9f50e17b5d32cad84c959f25c38300ddea820b",
+    "size": 596652
   },
   "publication/array/figures/fig2_algorithm_flow.svg": {
-    "sha256": "ca30b79c1d493afda6887959caa89c722363f0e1930b0640447d57e4c4b762cb",
-    "size": 12604
+    "sha256": "051e892e580ae9f76b9e7e43c773a2128bc3ea40ee6d49bb37986f7ef16f5b36",
+    "size": 12610
   },
   "publication/array/figures/fig3_evaluation_flow.pdf": {
     "sha256": "ded41943388943f26af133be9a0465f6ca8e8e7434170fac371a66ad9153af69",
@@ -3008,8 +3008,8 @@
     "size": 5271
   },
   "scripts/audit_array_editorial.py": {
-    "sha256": "bae2ea9e1894ffbd9faac69fd3e04205b1033b066219ddb67d94bb594207b0ce",
-    "size": 2054
+    "sha256": "fdbb0cc323fce59f98257eb4c7b5ffc0144e40c68d1b9d55de7d266a91085598",
+    "size": 2291
   },
   "scripts/audit_array_figure_values.py": {
     "sha256": "643cc9e6096dd84f7b1ecb47bbabeebd049068fb4f545c0445337749550bc3bc",
@@ -3032,16 +3032,16 @@
     "size": 7803
   },
   "scripts/build_array_editorial_report.py": {
-    "sha256": "b327f916dd7312a52beae5403d8f316ab500d66213309d396179617bed94928e",
-    "size": 11557
+    "sha256": "d6c0895cec627444e3beebd2194fe62a39b7bba3ebaa9721238c239f84570147",
+    "size": 11571
   },
   "scripts/build_array_figures.py": {
     "sha256": "a15b761645d70faef365a718346bc21b0af7e65f049ea252637f9fa803bd3e68",
     "size": 4505
   },
   "scripts/build_array_journal_figures.py": {
-    "sha256": "bf1705e6b90337fcb0aa846699ea01577c126d2036da35c6121a5a3c11526938",
-    "size": 17813
+    "sha256": "c8e45d9e1a6f5e4ad31d6fbb2e0e8fa76f449affaf7dd68d64f5af1232c2529e",
+    "size": 17817
   },
   "scripts/build_array_manuscript.py": {
     "sha256": "6dacbd8e8b765c972d8c27823267338250d88e6b80de969c5a94164ab881b5c4",
@@ -3104,8 +3104,8 @@
     "size": 27821
   },
   "scripts/polish_array_editorial.py": {
-    "sha256": "59b635d995e3b40718c7cd7184a1a61c068811f753ed3f6e1ea72a1504262585",
-    "size": 22203
+    "sha256": "7b9ad77672909b8aa5ff31425dfd2907d9fac8243f86d3b24c443ce40f63b519",
+    "size": 25368
   },
   "scripts/run_af_v3_e1_confirmatory.py": {
     "sha256": "c01aa2dc8fb1dc7d3c24bbb78811a832768cf7529a9a5a5d259766ddfeb50282",

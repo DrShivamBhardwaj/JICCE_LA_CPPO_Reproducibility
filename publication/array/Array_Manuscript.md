@@ -30,7 +30,7 @@ Earlier architecture comparisons found no joint advantage over a multilayer perc
 
 1.1 Benchmark contribution
 
-The technical contribution is a controlled comparison of feedback eligibility, evidence retention and missing-observation handling. Own first-hop ACK success gates credit; an observer–relay–packet record retains its strongest matched observation; missing evidence leaves the effective failure count unchanged. Packet-reception callbacks connect the ledger to simulated radio events. Figures 1 and 2 show the state boundaries and event logic, respectively. The benchmark builds on established watchdog, censoring and learning methods.
+We benchmark ACK-gated censored passive feedback against active proofs while retaining controls for missing-evidence penalties, evidence updating and policy capacity. Own first-hop ACK success gates credit; each observer–relay–packet record retains its strongest matched observation; missing evidence leaves the effective failure count unchanged. Packet-reception callbacks connect the ledger to simulated radio events. In Fig. 1, Eq. (1) supplies the candidate shortlist, while Eq. (2) scores the retained candidates. Figure 2 maps the record updates in Eqs. (3)–(4). The benchmark builds on established watchdog, censoring and learning methods.
 
 The prespecified decision combines a blackhole delivery comparison against active proofs with delivery, critical-service and energy-efficiency margins against frozen-prior attention. Naive-passive and capacity-matched controls assess whether the outcome can be attributed specifically to censoring or policy architecture. An improvement over active proofs alone cannot establish either attribution.
 
@@ -94,7 +94,7 @@ Credit is assigned only when the observer’s own first hop is acknowledged and 
 
 In the censored arm, β stays at its initial value of 1 for each observer–relay pair. A failed first hop closes the record without positive credit. For an acknowledged first hop, expiry is set 150 ms after the ACK; absent forwarding evidence causes closure without a failure increment. A later matched observation can still increase s and earn previously unassigned credit. For q<0.1, the 0.05 floor can make two half-credit updates exceed one full q-weighted update. The smallest q in the audited decisions was 0.6923, so this case did not occur in those decisions.
 
-The static floor in Eq. (4) is a heuristic on effective counts, not a Bayesian update. Max-strength deduplication limits the record’s evidence state but does not remove this clipping artifact. In Eq. (5), 1.645 is a fixed multiplier on a beta-form standard deviation; it supplies neither calibrated 95% coverage nor an exact Beta quantile. Changing these rules would define a different feedback mechanism.
+The static floor in Eq. (4) acts on effective counts and is not a Bayesian update. Max-strength deduplication bounds the evidence state but does not remove the clipping artifact. Equation (5) uses 1.645 as a fixed multiplier on a beta-form standard deviation; neither this coefficient nor the score clipping provides calibrated 95% coverage or an exact Beta quantile. The fixture-level confidence intervals reported in the results are calculated independently of this routing heuristic. Changing these scoring rules would define a different feedback mechanism.
 
 With the rate-anomaly term disabled, the retained policy maps the pair-specific effective counts to a risk coordinate ρ and an augmented routing score R:
 
@@ -278,7 +278,7 @@ The authenticated branch uses the message path in Fig. 7. Coordinates, modeled r
 
 Fig. 7. Authenticated state and virtual interfaces.
 
-Pairwise keys cannot authenticate a transmission between two other nodes, so this branch awards no credit for third-party overhearing. Positive forwarding credit requires both a successful local MAC acknowledgment and a verified sink receipt; missing receipts remain censored. Each node retains at most 128 records, with a 2 s expiry. Keys and sessions are provisioned out of band. Protected key storage, online key exchange and verification of telemetry truthfulness after key compromise remain outside the implementation.
+Pairwise keys cannot authenticate a transmission between two other nodes, so the authenticated branch in Fig. 7 assigns no credit to third-party overhearing. Unlike Eq. (3), positive forwarding evidence requires a verified sink receipt and a successful local MAC acknowledgment; missing receipts remain censored. The frozen policies therefore encounter a changed observation model rather than an exact replication of the original ledger. Each node retains at most 128 records, with a 2 s expiry. Keys and sessions are provisioned out of band. Protected key storage, online key exchange and verification of telemetry truthfulness after key compromise remain outside the implementation.
 
 5.2 Frozen host policy transport protocol
 
@@ -300,7 +300,7 @@ Means over 30 fixtures per condition and policy. Receipt rates count source-veri
 
 Fig. 8. Frozen policy transfer and paired effects.
 
-The −1.78-point attention–greedy difference under selective dropping has an interval that crosses zero. It therefore supports neither attention superiority nor a claim that greedy is better. Replacing the training RSSI proxy with LQI, using raw queue counts and restricting forwarding credit to signed receipts can change the policy’s input distribution; the experiments do not isolate their causal effects. Greedy avoids neural weights and tensor inference, making it a sensible starting point for deployment assessment, although neighbor state, authentication and packet processing still incur costs.
+The −1.78-point attention–greedy difference under selective dropping has an interval that crosses zero, establishing neither superiority nor equivalence. Replacing the training RSSI proxy with LQI, using raw queue counts and restricting forwarding credit to signed receipts can change the input distribution; their causal effects were not isolated. Greedy avoids neural weights and tensor inference, making it a sensible starting point for deployment assessment, although neighbor state, authentication and packet processing still incur costs.
 
 The frozen host policies operate on serialized simulated-radio frames with multiple relay choices. For attention, critical-deadline failure is 31.17% in benign runs and 47.83% under selective dropping when undelivered packets count as failures. Total modeled radio energy is approximately 2.519 and 2.520 J per six-node run. Always-on listening and repeated authenticated telemetry dominate this radio-only account; embedded CPU and cryptographic energy are excluded.
 

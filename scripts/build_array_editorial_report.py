@@ -17,7 +17,7 @@ notes={
 '7. Conclusions':('The contribution and deployment boundary were separated by a long list of implementation stages.','Condensed the conclusion around the controlled replacement result, null controls, separate authenticated study and explicitly host-controlled MCU bridge. The negative 60–300 s extension remains visible.')}
 out=['# Section by section editorial review and revised passages','',
 '**Editorial assessment:** The manuscript is defensible as a reproducible feedback benchmark with an authenticated host-routing implementation and emulated radio bridge. The evidence does not support presentation as a superior neural routing protocol, a battery-realistic long-lived deployment or an embedded inference achievement. Publication suitability remains a reviewer/editor decision.','',
-'**Scope:** This pass changes prose, definitions and pseudocode formatting. It does not retrain a policy, change a simulator, replace a checkpoint or add statistical tests. All ten native equations, seven tables and ten figure images are preserved byte-for-byte against the preceding verified manuscript.','']
+'**Scope:** This pass changes prose, definitions and pseudocode formatting. It does not retrain a policy, change a simulator, replace a checkpoint or add statistical tests. All ten native equations and seven tables are preserved byte-for-byte. Nine figure images are unchanged; Figure 2 has corrected lifecycle labels.','']
 for name,(critique,action) in notes.items():
  out += ['## '+name,'','**Critical vulnerabilities and limitations.** '+critique,'','**Revision.** '+action,'']
  for e in changes:

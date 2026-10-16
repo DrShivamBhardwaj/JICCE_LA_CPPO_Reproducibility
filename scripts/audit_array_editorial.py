@@ -18,11 +18,13 @@ assert len(old.tables)==len(new.tables)==7
 for x,y in zip(old.tables,new.tables):assert etree.tostring(x._tbl)==etree.tostring(y._tbl)
 with zipfile.ZipFile(args.baseline) as x,zipfile.ZipFile('publication/array/Array_Manuscript.docx') as y:
  imagehash=lambda z:sorted(hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/'))
- assert imagehash(x)==imagehash(y)
+ oldhash,newhash=imagehash(x),imagehash(y)
+ assert len(oldhash)==len(newhash)==10
+ assert len(set(oldhash)&set(newhash))==9, "Only the Figure 2 lifecycle artwork may change"
 # New nested algorithm has 17 numbered lines and three actual paragraph indentation levels.
 ps=new.paragraphs;i=next(i for i,p in enumerate(ps) if p.text.startswith('Algorithm 1:'))
 lines=[p for p in ps[i+1:] if re.match(r'^\d{2}\.  ',p.text)]
 assert len(lines)==17
 assert len({p.paragraph_format.left_indent for p in lines})==3
-r=dict(status='passed',literal_parameter_values_preserved=True,commit_hashes_and_fixture_ids_preserved=True,native_equations_byte_identical=10,tables_byte_identical=7,figure_images_byte_identical=10,algorithm_numbered_lines=17,algorithm_indent_levels=3,editorial_paragraphs=35)
+r=dict(status='passed',literal_parameter_values_preserved=True,commit_hashes_and_fixture_ids_preserved=True,native_equations_byte_identical=10,tables_byte_identical=7,figure_images_byte_identical=9,figure_images_revised=1,algorithm_numbered_lines=17,algorithm_indent_levels=3,editorial_paragraphs=len(json.loads(Path("publication/array/editorial_changes.json").read_text())))
 Path('publication/array/editorial_preservation_audit.json').write_text(json.dumps(r,indent=2)+'\n');print(r)

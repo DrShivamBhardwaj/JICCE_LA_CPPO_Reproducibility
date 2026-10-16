@@ -14,17 +14,11 @@
     "algorithm_in_body": 1
   },
   "rendered_pages": 22,
-  "latest_editorial_paragraphs": 35,
+  "latest_editorial_paragraphs": 36,
   "algorithm_numbered_lines": 17,
   "algorithm_indentation_levels": 3,
-  "all_pages_visually_verified": true,
-  "numerical_literals_preserved": true,
-  "hashes_and_fixture_ids_preserved": true,
-  "long_horizon_runs": 18,
-  "sensitivity_runs": 33,
-  "embedded_policy_and_cryptography_validated": false,
-  "duty_cycled_mac_validated": false,
-  "clock_drift_validated": false,
-  "stability_validated": false,
-  "coauthor_approvals_confirmed": false
+  "visual_review": "Eight changed page images inspected; fourteen unchanged from previously verified render",
+  "figure_images_revised": 1,
+  "native_equations_preserved": true,
+  "tables_preserved": true
 }

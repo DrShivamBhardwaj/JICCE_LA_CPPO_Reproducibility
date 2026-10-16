@@ -2,7 +2,7 @@
 
 **Editorial assessment:** The manuscript is defensible as a reproducible feedback benchmark with an authenticated host-routing implementation and emulated radio bridge. The evidence does not support presentation as a superior neural routing protocol, a battery-realistic long-lived deployment or an embedded inference achievement. Publication suitability remains a reviewer/editor decision.
 
-**Scope:** This pass changes prose, definitions and pseudocode formatting. It does not retrain a policy, change a simulator, replace a checkpoint or add statistical tests. All ten native equations, seven tables and ten figure images are preserved byte-for-byte against the preceding verified manuscript.
+**Scope:** This pass changes prose, definitions and pseudocode formatting. It does not retrain a policy, change a simulator, replace a checkpoint or add statistical tests. All ten native equations and seven tables are preserved byte-for-byte. Nine figure images are unchanged; Figure 2 has corrected lifecycle labels.
 
 ## Abstract
 
@@ -24,9 +24,9 @@
 
 **Revised text:** Earlier architecture comparisons found no joint advantage over a multilayer perceptron of similar capacity. A subsequent 600-run telemetry study likewise found no advantage after correction for multiple testing and exposed the traffic cost of active proofs. Both stages and their raw outputs are retained. They motivated the present comparison of receipt-assisted passive feedback with active proofs, subject to prespecified margins against a frozen-prior control on new fixtures.
 
-**Specific improvement:** State the implemented mechanism before its provenance and figure references.
+**Specific improvement:** State the implemented mechanism before its provenance and figure references. Clarify final figure/equation mapping and statistical interpretation.
 
-**Revised text:** The technical contribution is a controlled comparison of feedback eligibility, evidence retention and missing-observation handling. Own first-hop ACK success gates credit; an observer–relay–packet record retains its strongest matched observation; missing evidence leaves the effective failure count unchanged. Packet-reception callbacks connect the ledger to simulated radio events. Figures 1 and 2 show the state boundaries and event logic, respectively. The benchmark builds on established watchdog, censoring and learning methods.
+**Revised text:** We benchmark ACK-gated censored passive feedback against active proofs while retaining controls for missing-evidence penalties, evidence updating and policy capacity. Own first-hop ACK success gates credit; each observer–relay–packet record retains its strongest matched observation; missing evidence leaves the effective failure count unchanged. Packet-reception callbacks connect the ledger to simulated radio events. In Fig. 1, Eq. (1) supplies the candidate shortlist, while Eq. (2) scores the retained candidates. Figure 2 maps the record updates in Eqs. (3)–(4). The benchmark builds on established watchdog, censoring and learning methods.
 
 **Specific improvement:** Distinguish replacement performance from mechanism or architecture attribution.
 
@@ -86,9 +86,9 @@
 
 **Revised text:** In the censored arm, β stays at its initial value of 1 for each observer–relay pair. A failed first hop closes the record without positive credit. For an acknowledged first hop, expiry is set 150 ms after the ACK; absent forwarding evidence causes closure without a failure increment. A later matched observation can still increase s and earn previously unassigned credit. For q<0.1, the 0.05 floor can make two half-credit updates exceed one full q-weighted update. The smallest q in the audited decisions was 0.6923, so this case did not occur in those decisions.
 
-**Specific improvement:** Remove repeated caveats while preserving the distinction between evidence state, effective counts and probabilistic coverage.
+**Specific improvement:** Remove repeated caveats while preserving the distinction between evidence state, effective counts and probabilistic coverage. Clarify final figure/equation mapping and statistical interpretation.
 
-**Revised text:** The static floor in Eq. (4) is a heuristic on effective counts, not a Bayesian update. Max-strength deduplication limits the record’s evidence state but does not remove this clipping artifact. In Eq. (5), 1.645 is a fixed multiplier on a beta-form standard deviation; it supplies neither calibrated 95% coverage nor an exact Beta quantile. Changing these rules would define a different feedback mechanism.
+**Revised text:** The static floor in Eq. (4) acts on effective counts and is not a Bayesian update. Max-strength deduplication bounds the evidence state but does not remove the clipping artifact. Equation (5) uses 1.645 as a fixed multiplier on a beta-form standard deviation; neither this coefficient nor the score clipping provides calibrated 95% coverage or an exact Beta quantile. The fixture-level confidence intervals reported in the results are calculated independently of this routing heuristic. Changing these scoring rules would define a different feedback mechanism.
 
 **Specific improvement:** Avoid calling an uncalibrated score a probabilistic mean or confidence bound.
 
@@ -156,9 +156,9 @@
 
 **Revision.** Consolidated null-result interpretation and host/MCU boundaries. Retained exact sample sizes, receipt counts and signatures. Post-review stress tests report failure rather than being used to imply sustained operation.
 
-**Specific improvement:** Separate the observed null comparison from causal hypotheses and deployment judgment.
+**Specific improvement:** Separate the observed null comparison from causal hypotheses and deployment judgment. Clarify final figure/equation mapping and statistical interpretation.
 
-**Revised text:** The −1.78-point attention–greedy difference under selective dropping has an interval that crosses zero. It therefore supports neither attention superiority nor a claim that greedy is better. Replacing the training RSSI proxy with LQI, using raw queue counts and restricting forwarding credit to signed receipts can change the policy’s input distribution; the experiments do not isolate their causal effects. Greedy avoids neural weights and tensor inference, making it a sensible starting point for deployment assessment, although neighbor state, authentication and packet processing still incur costs.
+**Revised text:** The −1.78-point attention–greedy difference under selective dropping has an interval that crosses zero, establishing neither superiority nor equivalence. Replacing the training RSSI proxy with LQI, using raw queue counts and restricting forwarding credit to signed receipts can change the input distribution; their causal effects were not isolated. Greedy avoids neural weights and tensor inference, making it a sensible starting point for deployment assessment, although neighbor state, authentication and packet processing still incur costs.
 
 **Specific improvement:** Consolidate repeated non-superiority statements and retain all system-cost boundaries.
 
@@ -167,6 +167,10 @@
 **Specific improvement:** State the actor-only resource result directly without conversational reference to correcting a review.
 
 **Revised text:** The inference actor contains 44,161 parameters, requiring 176,644 FP32 weight bytes before runtime buffers; the full actor–critic contains 63,368 parameters. Removing training-only heads therefore changes the storage estimate, but neither count establishes target feasibility. Duty-cycled MAC performance, drift tolerance, target inference and measured energy require separate validation.
+
+**Specific improvement:** Distinguish authenticated receipt-only transfer from the original observation model.
+
+**Revised text:** Pairwise keys cannot authenticate a transmission between two other nodes, so the authenticated branch in Fig. 7 assigns no credit to third-party overhearing. Unlike Eq. (3), positive forwarding evidence requires a verified sink receipt and a successful local MAC acknowledgment; missing receipts remain censored. The frozen policies therefore encounter a changed observation model rather than an exact replication of the original ledger. Each node retains at most 128 records, with a 2 s expiry. Keys and sessions are provisioned out of band. Protected key storage, online key exchange and verification of telemetry truthfulness after key compromise remain outside the implementation.
 
 ## 6. Discussion
 
