@@ -1,0 +1,8 @@
+{
+  "workflow_run": 39149346647,
+  "job": 117739602864,
+  "source_commit": "e1c366258b52b515ac36e9302eb461ad20574fce",
+  "status": "collection_failed",
+  "causes": ["Historical ns3 native bridge libraries absent in fresh runner", "pandas absent for historical confirmatory preflight tests"],
+  "remediation": "Install pinned ns3 3.44.post0 plus required pandas/scipy dependencies and build all three historical bridges; retain complete test discovery without removing tests"
+}

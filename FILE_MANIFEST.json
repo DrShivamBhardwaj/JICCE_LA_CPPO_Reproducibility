@@ -8,8 +8,8 @@
     "sha256": "e0091ed076ffca14fa198b680106cec32019852531b0e472a7f2bb9bcc82e95b"
   },
   ".github/workflows/remediation-regression.yml": {
-    "size": 1082,
-    "sha256": "d90812899250f7446cfbf1041077edbac462318f87af0e4416d919aaedb28033"
+    "size": 1330,
+    "sha256": "3508ef48fb07d1eb59cc6031a0a8e849a26742574a03fbb63294940ad6faacf3"
   },
   ".github/workflows/wsn-remediation.yml": {
     "size": 1791,
@@ -15011,6 +15011,86 @@
     "size": 279514,
     "sha256": "a00bb25c6ad1cf2de40a248f820d77aff1f10b626ca281a7c9b7d071b242e6ba"
   },
+  "outputs/mcu_deadline_v1/analysis.json": {
+    "size": 1455,
+    "sha256": "bf08a3bbe3585a65b2045671f089abfbd8c162fc92b7dc763fc98c9393887716"
+  },
+  "outputs/mcu_deadline_v1/build.json": {
+    "size": 2023,
+    "sha256": "33cf8747916af5792ee720011f5dfa7902556967c71f72917d657f33aa38a395"
+  },
+  "outputs/mcu_deadline_v1/chain_100/network.resc": {
+    "size": 3236,
+    "sha256": "74860f1ba94d0bd53c203e2e6dc330ebd4258ad519a3a9a623472c4242efc90e"
+  },
+  "outputs/mcu_deadline_v1/chain_100/renode.log": {
+    "size": 4996,
+    "sha256": "6c609551a830315a4a7bcf6f7591cafe3def2a4ddb1efcb218dfe92b33f32cc2"
+  },
+  "outputs/mcu_deadline_v1/chain_100/uart_0.jsonl": {
+    "size": 294456,
+    "sha256": "f13b7cfc0cd7cf6f6b6fcf3f22befb522706dd6331fc84578722b219a44b103b"
+  },
+  "outputs/mcu_deadline_v1/chain_100/uart_1.jsonl": {
+    "size": 412127,
+    "sha256": "291d80980949a66f40403024b630d88f17f62c9671523fc11995b15c991440e4"
+  },
+  "outputs/mcu_deadline_v1/chain_100/uart_2.jsonl": {
+    "size": 411063,
+    "sha256": "8142495e8732e331e0c2a61498e167ffa1ecbaf8c4e7aba0baee1a065fd79045"
+  },
+  "outputs/mcu_deadline_v1/chain_100/uart_3.jsonl": {
+    "size": 143930,
+    "sha256": "70143ea5ddd1ef5324f4e8c97d195eb8a17ef965d94ffd16bec645ee9870171f"
+  },
+  "outputs/mcu_deadline_v1/chain_100/verification.json": {
+    "size": 10394,
+    "sha256": "56c6dce62906f94727b6515cbcff91895cadf4c62393fef00c0fddf0ad3c52cb"
+  },
+  "outputs/mcu_deadline_v1/choice_100/network.resc": {
+    "size": 3241,
+    "sha256": "70b35e50bd42c0ba4bc879f47fdbb046b804ac59fd47ecee17236edfa8c6e412"
+  },
+  "outputs/mcu_deadline_v1/choice_100/renode.log": {
+    "size": 4997,
+    "sha256": "d14efa7e0828a503ae6b35b97c8d93bdcbbddffbdc5cbdff670ca93de273aae1"
+  },
+  "outputs/mcu_deadline_v1/choice_100/uart_0.jsonl": {
+    "size": 349202,
+    "sha256": "1aaefb119d0eb471db6b5701bad6735e6379ce1271fa93a42c2b8480e9596e01"
+  },
+  "outputs/mcu_deadline_v1/choice_100/uart_1.jsonl": {
+    "size": 466707,
+    "sha256": "79f1f8dbe644102ffc8178bb6ea302e1ab973c27a044fc6d4b42b9ee6f92f6d6"
+  },
+  "outputs/mcu_deadline_v1/choice_100/uart_2.jsonl": {
+    "size": 163922,
+    "sha256": "88caa81313d8704b120334829c3789e34b8b9b17abc62c1a23a997a158293139"
+  },
+  "outputs/mcu_deadline_v1/choice_100/uart_3.jsonl": {
+    "size": 198489,
+    "sha256": "1f807a1404302c864c97377a1a79f12b36bed3f50931e392c9c47b7147b00a89"
+  },
+  "outputs/mcu_deadline_v1/choice_100/verification.json": {
+    "size": 10402,
+    "sha256": "9c0243e21556c5f0853ccee08b8064b0a29ac15c76580a801681d334e82ce168"
+  },
+  "outputs/mcu_deadline_v1/emulator_archive_sha256.txt": {
+    "size": 102,
+    "sha256": "26b01ad299c2959eceec82ce04f9e4ca970efa762ae2a00742106d99b9ee0af8"
+  },
+  "outputs/mcu_deadline_v1/firmware.c": {
+    "size": 22275,
+    "sha256": "2bf08f63e57be0e738d624007f1ccaf724dc16f4b5202af31c97664e3c192f92"
+  },
+  "outputs/mcu_deadline_v1/firmware.elf": {
+    "size": 789508,
+    "sha256": "83623db4c5c4f22be6c67141a10862f6b097e08d5064f4eeac555ee9d98c8ba4"
+  },
+  "outputs/mcu_deadline_v1/python_environment.txt": {
+    "size": 251,
+    "sha256": "2a2f259b3fd3b5766b5ea7f955eaeb98c38d9cef706ceef08c9a32c0077b2c0d"
+  },
   "outputs/ns3_censored/SHA256SUMS": {
     "size": 6567,
     "sha256": "bb9126cce9fa92ff68ce174eb7563b4ffe217e1167721ce1361227a45260498d"
@@ -15438,6 +15518,10 @@
   "outputs/powered_feedback/60s_87001_duty1.0/trace_87003.jsonl.gz": {
     "size": 7883,
     "sha256": "e067f70cecf47967da4a9b42480b96ae3d78f67211ec507a599a2587824487ad"
+  },
+  "outputs/remediation_regression/attempts/initial_collection_failure.json": {
+    "size": 477,
+    "sha256": "38fd2ad8821d298c9f6a5272b9ce4b1c93fe326cccf9c35b394a9935b8509f65"
   },
   "outputs/remediation_v1/attempts/compile_preflight_failure/FAILURE.json": {
     "size": 78,
