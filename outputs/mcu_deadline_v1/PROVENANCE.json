@@ -1,0 +1,10 @@
+{
+  "workflow_run": 39149034396,
+  "source_commit": "d67b8d5252328e2dad369f0af561f3226fc09b8d",
+  "artifact_id": 12144541393,
+  "artifact_sha256": "4185cc0661cf29fa33256361d16e0a6735cf40e939ce7266efed6ecc34ba24eb",
+  "durable_release": "https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/releases/tag/validation-run-39149034396",
+  "original_signed_deadline_complete": false,
+  "physical_validation": false,
+  "private_fixture_availability": "Ephemeral CI private files were excluded from public artifacts; rerun with fresh keys for private hop-tag audit."
+}

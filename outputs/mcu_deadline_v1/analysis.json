@@ -1,0 +1,55 @@
+{
+  "status": "completed_compiler_only_pilot",
+  "optimization": "O3 without fast-math; same signature endpoint and deadlines",
+  "rows": [
+    {
+      "topology": "chain",
+      "offered": 100,
+      "delivered": 100,
+      "signed_receipts": 100,
+      "signed_deadline_misses": 34,
+      "signed_delay_ms": [
+        331,
+        344
+      ],
+      "mcu_decisions": 300,
+      "max_logit_error": 1.9073486328125e-06,
+      "negative_controls": [
+        "sink_signature",
+        "reprovision",
+        "replay",
+        "tag",
+        "session",
+        "provision_key_mismatch",
+        "source_tag"
+      ]
+    },
+    {
+      "topology": "choice",
+      "offered": 100,
+      "delivered": 100,
+      "signed_receipts": 100,
+      "signed_deadline_misses": 34,
+      "signed_delay_ms": [
+        239,
+        247
+      ],
+      "mcu_decisions": 200,
+      "max_logit_error": 1.7881393432617188e-06,
+      "negative_controls": [
+        "sink_signature",
+        "reprovision",
+        "replay",
+        "tag",
+        "session",
+        "provision_key_mismatch",
+        "source_tag"
+      ]
+    }
+  ],
+  "original_signed_deadline_complete": false,
+  "physical_validation": false,
+  "production_security_validated": false,
+  "private_secret_scan_passed": true,
+  "interpretation": "Sequential functional diagnostics, not independent performance replicates. Historical O2 comparison is descriptive; host/runtime/toolchain differences are retained."
+}

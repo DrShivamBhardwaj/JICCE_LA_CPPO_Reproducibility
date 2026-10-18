@@ -15011,6 +15011,10 @@
     "size": 279514,
     "sha256": "a00bb25c6ad1cf2de40a248f820d77aff1f10b626ca281a7c9b7d071b242e6ba"
   },
+  "outputs/mcu_deadline_v1/PROVENANCE.json": {
+    "size": 574,
+    "sha256": "43f9e3e1edb219d8dfbe6f08849da91717e11e9e9465d8762c1e1480243deacf"
+  },
   "outputs/mcu_deadline_v1/analysis.json": {
     "size": 1455,
     "sha256": "bf08a3bbe3585a65b2045671f089abfbd8c162fc92b7dc763fc98c9393887716"
@@ -15086,6 +15090,10 @@
   "outputs/mcu_deadline_v1/firmware.elf": {
     "size": 789508,
     "sha256": "83623db4c5c4f22be6c67141a10862f6b097e08d5064f4eeac555ee9d98c8ba4"
+  },
+  "outputs/mcu_deadline_v1/public_signature_recheck.json": {
+    "size": 208,
+    "sha256": "c2b80ccd3b7bfe61aff0441259818db62a2035f8b8b9d14510c098cebb4858f8"
   },
   "outputs/mcu_deadline_v1/python_environment.txt": {
     "size": 251,

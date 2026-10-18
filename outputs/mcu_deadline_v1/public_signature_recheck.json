@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "sink_generated_signatures_verified": 200,
+  "private_hop_tags_reverified": false,
+  "reason": "Private CI fixture keys intentionally not exported",
+  "physical_validation": false
+}
