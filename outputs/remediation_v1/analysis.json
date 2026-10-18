@@ -1,0 +1,509 @@
+{
+  "status": "completed_block_factorial_analysis",
+  "classification": "Prospective remediation study informed by archived results; separate from every historical statistical family",
+  "runs": 1440,
+  "independent_geometry_blocks": 12,
+  "primary_endpoint": "post_delivery",
+  "contrasts": [
+    {
+      "endpoint": "post_delivery",
+      "timing": 0,
+      "contrast": "negative_main",
+      "blocks": 12,
+      "mean_difference": 0.18999999999999997,
+      "ci95": [
+        0.11072916666666667,
+        0.27198003472222215
+      ],
+      "p_unadjusted": 0.0009765625,
+      "block_differences": [
+        0.18249999999999994,
+        0.13624999999999995,
+        0.04166666666666671,
+        0.0,
+        0.30500000000000005,
+        0.35375,
+        0.03125,
+        0.010416666666666685,
+        0.39875,
+        0.39749999999999996,
+        0.20625,
+        0.21666666666666662
+      ],
+      "p_holm": 0.005859375
+    },
+    {
+      "endpoint": "post_delivery",
+      "timing": 0,
+      "contrast": "proof_main",
+      "blocks": 12,
+      "mean_difference": 0.005972222222222229,
+      "ci95": [
+        -0.0064236111111111065,
+        0.01864583333333335
+      ],
+      "p_unadjusted": 0.3955078125,
+      "block_differences": [
+        0.007500000000000007,
+        0.03624999999999998,
+        0.004166666666666735,
+        5.551115123125783e-17,
+        -0.03250000000000003,
+        0.018750000000000044,
+        0.006249999999999978,
+        0.002083333333333326,
+        -0.028749999999999998,
+        0.010000000000000037,
+        -0.0020833333333333814,
+        0.04999999999999999
+      ],
+      "p_holm": 0.66796875
+    },
+    {
+      "endpoint": "post_delivery",
+      "timing": 0,
+      "contrast": "interaction",
+      "blocks": 12,
+      "mean_difference": 0.02569444444444446,
+      "ci95": [
+        -0.0002777777777777703,
+        0.05166666666666666
+      ],
+      "p_unadjusted": 0.0888671875,
+      "block_differences": [
+        0.05999999999999994,
+        0.09749999999999998,
+        0.00833333333333336,
+        0.0,
+        -0.05500000000000005,
+        0.05750000000000011,
+        0.03750000000000009,
+        0.004166666666666652,
+        -0.03749999999999998,
+        0.015000000000000069,
+        0.02083333333333337,
+        0.09999999999999998
+      ],
+      "p_holm": 0.35546875
+    },
+    {
+      "endpoint": "post_delivery",
+      "timing": 1,
+      "contrast": "negative_main",
+      "blocks": 12,
+      "mean_difference": 0.2117013888888889,
+      "ci95": [
+        0.14409722222222224,
+        0.2783350694444443
+      ],
+      "p_unadjusted": 0.0009765625,
+      "block_differences": [
+        0.18750000000000008,
+        0.16249999999999998,
+        0.04166666666666666,
+        -0.00416666666666668,
+        0.31875,
+        0.2925,
+        0.175,
+        0.125,
+        0.38,
+        0.395,
+        0.26250000000000007,
+        0.20416666666666664
+      ],
+      "p_holm": 0.005859375
+    },
+    {
+      "endpoint": "post_delivery",
+      "timing": 1,
+      "contrast": "proof_main",
+      "blocks": 12,
+      "mean_difference": 0.010173611111111125,
+      "ci95": [
+        -0.008263888888888871,
+        0.0290625
+      ],
+      "p_unadjusted": 0.333984375,
+      "block_differences": [
+        0.07500000000000004,
+        -0.0050000000000000044,
+        0.004166666666666624,
+        0.004166666666666624,
+        0.018750000000000017,
+        8.326672684688674e-17,
+        0.05416666666666664,
+        0.04166666666666674,
+        -0.02749999999999994,
+        0.014999999999999958,
+        -0.04999999999999996,
+        -0.008333333333333331
+      ],
+      "p_holm": 0.66796875
+    },
+    {
+      "endpoint": "post_delivery",
+      "timing": 1,
+      "contrast": "interaction",
+      "blocks": 12,
+      "mean_difference": 0.02562500000000002,
+      "ci95": [
+        -0.00805555555555553,
+        0.06270833333333335
+      ],
+      "p_unadjusted": 0.21826171875,
+      "block_differences": [
+        0.1850000000000001,
+        -0.030000000000000027,
+        0.024999999999999967,
+        0.00833333333333336,
+        0.07749999999999996,
+        0.005000000000000171,
+        0.04166666666666663,
+        0.05833333333333335,
+        -0.024999999999999967,
+        0.019999999999999907,
+        -0.0833333333333332,
+        0.024999999999999967
+      ],
+      "p_holm": 0.65478515625
+    },
+    {
+      "endpoint": "critical_failure",
+      "timing": 0,
+      "contrast": "negative_main",
+      "blocks": 12,
+      "mean_difference": -0.08020833333333334,
+      "ci95": [
+        -0.12473958333333335,
+        -0.03906250000000001
+      ],
+      "p_unadjusted": 0.00390625,
+      "block_differences": [
+        -0.0656250000000001,
+        -0.0625,
+        0.006249999999999978,
+        0.0,
+        -0.15937500000000004,
+        -0.15625000000000003,
+        -0.006249999999999978,
+        -0.0031250000000000167,
+        -0.203125,
+        -0.20312500000000003,
+        -0.046875000000000056,
+        -0.0625
+      ],
+      "p_holm": 0.0234375
+    },
+    {
+      "endpoint": "critical_failure",
+      "timing": 0,
+      "contrast": "proof_main",
+      "blocks": 12,
+      "mean_difference": -0.005208333333333312,
+      "ci95": [
+        -0.03828124999999999,
+        0.02760416666666669
+      ],
+      "p_unadjusted": 0.77685546875,
+      "block_differences": [
+        -0.05312500000000003,
+        0.03125,
+        0.04375000000000007,
+        -0.06875000000000009,
+        -0.028124999999999956,
+        0.031249999999999972,
+        0.06875000000000009,
+        -0.10937499999999997,
+        0.07187500000000002,
+        0.04687500000000003,
+        -0.0593749999999999,
+        -0.03749999999999998
+      ],
+      "p_holm": 1.0
+    },
+    {
+      "endpoint": "critical_failure",
+      "timing": 0,
+      "contrast": "interaction",
+      "blocks": 12,
+      "mean_difference": -0.008333333333333326,
+      "ci95": [
+        -0.02291666666666664,
+        0.00625000000000001
+      ],
+      "p_unadjusted": 0.3408203125,
+      "block_differences": [
+        -0.018750000000000155,
+        -0.04999999999999982,
+        0.03749999999999987,
+        0.0,
+        0.006250000000000089,
+        -0.024999999999999967,
+        -0.012499999999999956,
+        -0.006250000000000033,
+        0.03125,
+        0.006249999999999922,
+        -0.018749999999999933,
+        -0.04999999999999993
+      ],
+      "p_holm": 1.0
+    },
+    {
+      "endpoint": "critical_failure",
+      "timing": 1,
+      "contrast": "negative_main",
+      "blocks": 12,
+      "mean_difference": -0.005729166666666674,
+      "ci95": [
+        -0.010156250000000006,
+        -0.0010416666666666723
+      ],
+      "p_unadjusted": 0.0517578125,
+      "block_differences": [
+        -0.006249999999999978,
+        -0.0031250000000000444,
+        0.012500000000000011,
+        -0.018750000000000044,
+        -0.006250000000000033,
+        -0.012500000000000011,
+        0.0,
+        -0.003124999999999989,
+        -0.012500000000000011,
+        -0.012500000000000011,
+        -0.009374999999999967,
+        0.003124999999999989
+      ],
+      "p_holm": 0.2587890625
+    },
+    {
+      "endpoint": "critical_failure",
+      "timing": 1,
+      "contrast": "proof_main",
+      "blocks": 12,
+      "mean_difference": 0.0010416666666666723,
+      "ci95": [
+        -0.014322916666666671,
+        0.01822916666666667
+      ],
+      "p_unadjusted": 0.931640625,
+      "block_differences": [
+        -0.006249999999999978,
+        -0.021874999999999978,
+        0.006250000000000033,
+        -0.03125,
+        -0.012500000000000011,
+        0.01874999999999999,
+        -0.006249999999999978,
+        0.05312500000000003,
+        -5.551115123125783e-17,
+        -0.04375000000000001,
+        -0.003124999999999989,
+        0.05937500000000001
+      ],
+      "p_holm": 1.0
+    },
+    {
+      "endpoint": "critical_failure",
+      "timing": 1,
+      "contrast": "interaction",
+      "blocks": 12,
+      "mean_difference": -0.001041666666666663,
+      "ci95": [
+        -0.00833333333333335,
+        0.006249999999999987
+      ],
+      "p_unadjusted": 0.89453125,
+      "block_differences": [
+        -0.012499999999999956,
+        -0.006250000000000089,
+        0.012500000000000067,
+        0.012499999999999956,
+        1.1102230246251565e-16,
+        -1.1102230246251565e-16,
+        0.0,
+        -0.006249999999999978,
+        0.012500000000000067,
+        -0.025000000000000022,
+        0.018749999999999933,
+        -0.018749999999999933
+      ],
+      "p_holm": 1.0
+    },
+    {
+      "endpoint": "tx_seconds",
+      "timing": 0,
+      "contrast": "negative_main",
+      "blocks": 12,
+      "mean_difference": 0.24030283333333322,
+      "ci95": [
+        0.1298373156250002,
+        0.35364422812499974
+      ],
+      "p_unadjusted": 0.0009765625,
+      "block_differences": [
+        0.2801645000000006,
+        0.1673299999999993,
+        0.0400879999999999,
+        0.0,
+        0.45911350000000084,
+        0.4415004999999992,
+        0.041011499999999756,
+        0.006219499999999822,
+        0.6001324999999991,
+        0.48815199999999903,
+        0.17112550000000049,
+        0.18879650000000048
+      ],
+      "p_holm": 0.00390625
+    },
+    {
+      "endpoint": "tx_seconds",
+      "timing": 0,
+      "contrast": "proof_main",
+      "blocks": 12,
+      "mean_difference": 0.24653425000000004,
+      "ci95": [
+        0.2225326208333334,
+        0.274625260416667
+      ],
+      "p_unadjusted": 0.00048828125,
+      "block_differences": [
+        0.1875334999999998,
+        0.20825199999999944,
+        0.20023999999999997,
+        0.23088100000000011,
+        0.2482635000000002,
+        0.27333049999999925,
+        0.3472425000000019,
+        0.2512404999999993,
+        0.21829050000000016,
+        0.2299379999999993,
+        0.23649750000000047,
+        0.3267015000000004
+      ],
+      "p_holm": 0.0029296875
+    },
+    {
+      "endpoint": "tx_seconds",
+      "timing": 0,
+      "contrast": "interaction",
+      "blocks": 12,
+      "mean_difference": 0.06616683333333333,
+      "ci95": [
+        0.03751918124999989,
+        0.09462717083333336
+      ],
+      "p_unadjusted": 0.00390625,
+      "block_differences": [
+        0.07160299999999786,
+        0.126112,
+        0.07861399999999996,
+        0.0,
+        -0.002448999999998591,
+        0.14788899999999927,
+        0.056166999999998524,
+        -0.0021590000000015763,
+        0.06413700000000233,
+        0.1370659999999999,
+        0.08127500000000154,
+        0.03574700000000064
+      ],
+      "p_holm": 0.00390625
+    },
+    {
+      "endpoint": "tx_seconds",
+      "timing": 1,
+      "contrast": "negative_main",
+      "blocks": 12,
+      "mean_difference": 0.2675023750000002,
+      "ci95": [
+        0.16652088541666676,
+        0.3710049947916668
+      ],
+      "p_unadjusted": 0.0009765625,
+      "block_differences": [
+        0.3324664999999998,
+        0.21622149999999962,
+        0.058734000000000286,
+        -0.008751999999999427,
+        0.5155105000000013,
+        0.37988350000000004,
+        0.17976750000000052,
+        0.10652349999999977,
+        0.5534349999999995,
+        0.5084290000000005,
+        0.217095500000001,
+        0.15071399999999935
+      ],
+      "p_holm": 0.00390625
+    },
+    {
+      "endpoint": "tx_seconds",
+      "timing": 1,
+      "contrast": "proof_main",
+      "blocks": 12,
+      "mean_difference": 0.2760515416666666,
+      "ci95": [
+        0.24219915625000007,
+        0.3158103062499998
+      ],
+      "p_unadjusted": 0.00048828125,
+      "block_differences": [
+        0.43006849999999996,
+        0.23048849999999987,
+        0.2545849999999996,
+        0.2807630000000003,
+        0.22115349999999978,
+        0.24515750000000036,
+        0.38127949999999977,
+        0.2987144999999991,
+        0.2741050000000014,
+        0.20103500000000007,
+        0.20626949999999944,
+        0.288999
+      ],
+      "p_holm": 0.0029296875
+    },
+    {
+      "endpoint": "tx_seconds",
+      "timing": 1,
+      "contrast": "interaction",
+      "blocks": 12,
+      "mean_difference": 0.10911624999999996,
+      "ci95": [
+        0.05146495625000047,
+        0.18036702916666686
+      ],
+      "p_unadjusted": 0.00146484375,
+      "block_differences": [
+        0.4019630000000003,
+        0.032216999999999274,
+        0.05061599999999977,
+        -0.03627600000000086,
+        0.2740209999999976,
+        0.08169900000000041,
+        0.0691410000000019,
+        0.05336499999999944,
+        0.1252860000000009,
+        0.15403599999999962,
+        0.06317100000000053,
+        0.040156000000000525
+      ],
+      "p_holm": 0.00390625
+    }
+  ],
+  "inference_scope": {
+    "unit": "Independent geometry block; average the two radio seeds and paired permutations/attacker positions within each block",
+    "primary_endpoint": "Post-onset unique sink delivery fraction in attacked runs",
+    "primary_contrasts": "negative-update main effect, proof-generation main effect, difference-in-differences interaction; each at timing 0 and 1",
+    "multiplicity": "One 6-contrast Holm family for primary delivery; separate 6-contrast families for critical failure and transmit-state seconds",
+    "CI": "Pointwise paired cluster bootstrap over 12 geometry blocks, 20000 draws, RNG 951019",
+    "tests": "Two-sided exhaustive sign-flip over 12 block differences, 4096 assignments, conditional on symmetric block effects; no claim of randomized treatment assignment",
+    "secondary": "Benign summaries, active-reference contrasts, adaptation, onset/channel/checkpoint interactions descriptive/exploratory, not pooled confirmatory tests",
+    "practical_margin": "No noninferiority or equivalence claim; report effects and pointwise intervals without invented deployment margins",
+    "adaptation": "First three consecutive safe source selections after attack onset; report right censoring and recovery within 20 packet opportunities",
+    "limits": "Checkpoint/onset/channel are balanced block factors, not fully crossed within each geometry. Three retained checkpoints and a narrow geometry family do not identify a universal threshold."
+  },
+  "physical_validation": false,
+  "protocol_sha256": "024e2141799c71891a00ed61b2f6247493e4e8846cc4b6764f751b46549a1000"
+}

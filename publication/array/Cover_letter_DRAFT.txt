@@ -1,20 +1,16 @@
-DRAFT — requires final author approval before sending.
+DRAFT — not sent; final author approval and current portal requirements remain unconfirmed.
 
 Dear Editors of Array,
 
-Please consider “Failure Boundaries of Censored Passive Feedback in Authenticated Wireless Sensor Routing.” The central contribution is a controlled characterization of conditional feedback performance and an exposed adaptation limitation after relay behavior changes. The paper retains matched controls, negative policy comparisons and explicit transport and execution boundaries. It does not estimate a universal failure threshold or introduce a new learning algorithm.
+Please consider “Controlled Feedback Comparisons and Adaptation Limits in Authenticated Wireless Sensor Routing”. The paper examines whether missing forwarding observations should be penalized or censored, while separating evidence semantics from proof traffic. It is a reproducible benchmark, not a new reinforcement-learning algorithm or a production-security validation.
 
-The prespecified 750-run study uses 30 new fixtures. Under blackholes, delivery improves by 4.67 percentage points relative to active proofs (paired 95% interval 2.36–6.97; Holm-adjusted p=0.0161). Matched controls do not establish a unique censoring or attention advantage. A separate 180-run authenticated transfer study likewise establishes no attention superiority. A separately frozen 240-run factorial extension identifies a proof-traffic delivery penalty under always-on listening, with severe low-duty limitations.
+A separately frozen 1,440-run Cooja factorial study holds ACK gating, expiry, positive credit and late-positive handling constant across four arms. Twelve perturbed geometries include three retained checkpoints, node-ID permutations, both physical attacker positions and benign controls. Post-onset delivery uses geometry-block inference and a prespecified six-contrast Holm family. The active-proof implementation remains a separate reference, and the original 750/180/240/600 studies remain unpooled.
 
-A separate 600-run Cooja study now executes the frozen actor and weighted feedback ledger under matched proof-generation controls. It exposes a post-warm-up blackhole failure: with scheduled processing, active proofs deliver 79.11% versus 32.94% for censored feedback. This counterexample limits the original replacement result rather than supporting universal superiority.
+Exploratory reconstruction finds risk and logit changes without relay changes in the historical censored–frozen pairs; controlled offline interventions establish actor sensitivity without claiming radio improvement. A compiler-only O3 MCU pilot still misses 68/200 original signed deadlines. Physical RF/current, protected device keys and reset-safe production state remain unvalidated.
 
-A four-node emulated MCU pilot also integrates inference, hop authentication and signed receipts. Q22 inference reduces original signed-receipt deadline misses from 134/200 to 68/200. A separate private source–sink MAC receipt meets the tested source deadlines while retaining deferred Ed25519 proofs; it changes the endpoint and adds traffic. We make no physical RF, measured energy, protected hardware key-storage or deployment-readiness claim.
+Code, frozen protocols, captures, checkpoints, statistical scripts and negative results are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility. The manuscript was substantially redesigned after rejection of JICCE-26-0057; it does not retain the earlier intrusion-classification framing.
 
-Code, checkpoints, raw traces, negative results, firmware and audits are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility.
-
-The manuscript was substantially redesigned following rejection of JICCE-26-0057. The present controlled feedback study replaces the earlier optimization/intrusion-detection framing and does not claim validated live intrusion detection.
-
-The corresponding author has supplied no-funding and no-competing-interest declarations. Final coauthor approval, contributions, exclusivity, related-work declarations and authenticated portal requirements remain to be confirmed by the authors. This draft does not certify them.
+The corresponding author supplied no-funding and no-competing-interest statements. Final author consent, contribution roles, exclusivity/overlap disclosures and authenticated submission declarations are not certified by this draft.
 
 Sincerely,
 Shivam Bhardwaj

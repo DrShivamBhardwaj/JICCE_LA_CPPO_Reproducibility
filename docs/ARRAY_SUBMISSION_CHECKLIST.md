@@ -1,28 +1,28 @@
-# Array submission checklist
+# Array submission checks
 
-Current status: manuscript preparation and validation are being reconciled with the live MCU extension. This checklist records package checks; it does not attest coauthor consent or certify an authenticated journal submission.
+## Prepared package
 
-## Package review
+The revised Word/PDF contain a 215-word abstract, fourteen figures, twelve tables, twenty-five references and ten native equations. All 32 pages have been visually reviewed; preservation checks retain the eleven historical tables, twelve historical images and seventeen algorithm steps. Highlights are provided as an editable Word file and text, with four items of at most 85 characters. Source figures are data-derived PNG/PDF/SVG exports.
 
-- Three-author order: Shivam Bhardwaj, Abhishek Kumar Pandey, Abhinandan Tripathi. Shivam is corresponding author, Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India. The supplied Bennett University and Buddha Institute of Technology details are retained.
-- No funding and no competing interests were confirmed by the corresponding author. Separate statements are prepared; no signature or individual coauthor approval is fabricated.
-- Preserve ten native equations, eleven figures and twenty-four references. The live extension adds Table 10. Exact abstract/page counts and visual verification are recorded in publication/array/document_checks.json after rendering.
-- Main files: publication/array/Array_Manuscript.docx and .pdf. Highlights, funding, interests, AI/data statements and draft cover letter are separate files.
-- Figures 1–8: publication/array/figures/. Figures 9–10: publication/array/review_figures/. Figure 11: publication/array/postfreeze_figures/. The archive contains all eleven; older counts in historical commits are superseded.
-- Live MCU data are separate from the original 750-run, 180-run and factorial studies. Report receipt deadline failures and nominal telemetry; do not label emulated times or modeled energy as physical measurements.
+Author order is Shivam Bhardwaj, Abhishek Kumar Pandey and Abhinandan Tripathi. Shivam is corresponding author and Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India. The supplied Bennett University and Buddha Institute of Technology metadata remain in the manuscript. No-funding and no-competing-interest statements were supplied by the corresponding author; they do not substitute for final author approval.
 
-## Journal access check on 18 October 2026
+## Verified general publisher guidance
 
-The direct official Guide for Authors request again returned HTTP 403. Search results did not establish the current complete guide. Earlier indexed checks are historical, not renewed certification. The package retains a <=250-word abstract target and four short highlights, but current article types, review model, graphical abstract, file roles, supplementary forms, APC/waiver quotation and final PDF approval must be checked in the authenticated Array portal.
+Elsevier's accessible support pages recommend a separate editable highlights file, three to five items and a maximum of 85 characters per item. General Editorial Manager guidance makes journal-specific requirements controlling. It also calls for author metadata, contribution roles and funding information, and distinguishes submission-file preparation from approval of the portal PDF.
+
+Sources:
+- https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript
+- https://www.elsevier.support/publishing/answer/how-do-i-prepare-my-files-for-submission-in-editorial-manager
+- https://www.elsevier.support/publishing/answer/what-are-conflict-of-interest-statements-funding-source-declarations-author-agreementsdeclarations-and-permission-notes
+
+## Unchecked Array-specific requirements
+
+The renewed official guide retrieval returned HTTP 403. The earlier browser homepage observation was “Site Unavailable.” These are access observations, not evidence that the journal is unavailable to the user. Current article types, review anonymity, compulsory graphical abstracts, file roles, journal forms, APC/waiver terms and authenticated submission questions remain unchecked. General support guidance and third-party templates do not certify them.
 
 Official guide: https://www.sciencedirect.com/journal/array/publish/guide-for-authors
 
-## Required author and portal actions
+## Required human / authenticated actions
 
-Each coauthor must approve the final manuscript, contribution statement, metadata and submission. Confirm exclusivity and disclose related publications/preprints or overlapping manuscripts. The previous JICCE rejection is known; no other manuscript's status is inferred. Verify rights/permissions and responsibility for AI-assisted code, text and figures. Inspect the portal's current requirements, review the assembled PDF and approve any agreement or payable quotation. No submission, message, signature or payment has been made.
+Each author must review the pinned final version and confirm consent, actual contribution roles, disclosures and exclusivity/overlap. The previous JICCE rejection is disclosed; no other submission status is inferred. Review AI-use responsibility and any rights/permissions. An authorized authenticated portal session must inspect the current requirements and assembled submission PDF before any agreement, submission or payment. No message, upload, acceptance of declarations, submission or payment has occurred.
 
-Physical validation is required for physical RF/energy claims; those claims are not made in this benchmark. Missing hardware must not be replaced by invented measurements or treated as evidence of journal acceptance.
-
-## Access check, 18 October 2026
-
-The official guide returned HTTP 403 in web retrieval; direct browser interaction with the official homepage showed “Site Unavailable — Unable to access this site.” No authenticated portal fields, upload requirements or assembled portal PDF were verified. No submission was created or declarations accepted. Coauthor request drafts identify the exact PDF hash; they have not been sent and do not record consent. See publication/array/external_validation_access_check.json.
+Physical RF/current and production-security claims remain unsupported. The original signed deadline still has 68/200 misses after O3. Simulation and emulation do not satisfy those gates. See REMEDIATION_COMPLETION_REPORT.md and publication/array/external_validation_access_check.json for exact evidence and next actions.

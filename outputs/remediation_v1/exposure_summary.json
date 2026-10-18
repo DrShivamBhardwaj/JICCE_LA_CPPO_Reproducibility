@@ -1,0 +1,96 @@
+{
+  "classification": "Exploratory post-outcome aggregation stratifying the declared recovery metric by last pre-onset source choice; no new test, tuning, exclusion or change to primary analysis",
+  "scope": "Correlated run-setting counts; conditional medians exclude right-censored settings and do not prove safe downstream paths",
+  "groups": [
+    {
+      "timing": 0,
+      "arm": "censored",
+      "previously_attacker": 48,
+      "right_censored": 47,
+      "recovered_within_20": 1,
+      "conditional_median_confirmation_ms": 600,
+      "conditional_median_start_opportunities": 0
+    },
+    {
+      "timing": 0,
+      "arm": "censored_proof",
+      "previously_attacker": 48,
+      "right_censored": 46,
+      "recovered_within_20": 2,
+      "conditional_median_confirmation_ms": 600.0,
+      "conditional_median_start_opportunities": 0.0
+    },
+    {
+      "timing": 0,
+      "arm": "negative",
+      "previously_attacker": 48,
+      "right_censored": 21,
+      "recovered_within_20": 18,
+      "conditional_median_confirmation_ms": 4800,
+      "conditional_median_start_opportunities": 12
+    },
+    {
+      "timing": 0,
+      "arm": "negative_proof",
+      "previously_attacker": 48,
+      "right_censored": 14,
+      "recovered_within_20": 23,
+      "conditional_median_confirmation_ms": 4500.0,
+      "conditional_median_start_opportunities": 11.0
+    },
+    {
+      "timing": 0,
+      "arm": "active_reference",
+      "previously_attacker": 48,
+      "right_censored": 23,
+      "recovered_within_20": 18,
+      "conditional_median_confirmation_ms": 3900,
+      "conditional_median_start_opportunities": 10
+    },
+    {
+      "timing": 1,
+      "arm": "censored",
+      "previously_attacker": 48,
+      "right_censored": 48,
+      "recovered_within_20": 0,
+      "conditional_median_confirmation_ms": null,
+      "conditional_median_start_opportunities": null
+    },
+    {
+      "timing": 1,
+      "arm": "censored_proof",
+      "previously_attacker": 48,
+      "right_censored": 47,
+      "recovered_within_20": 1,
+      "conditional_median_confirmation_ms": 600,
+      "conditional_median_start_opportunities": 0
+    },
+    {
+      "timing": 1,
+      "arm": "negative",
+      "previously_attacker": 48,
+      "right_censored": 15,
+      "recovered_within_20": 20,
+      "conditional_median_confirmation_ms": 4800,
+      "conditional_median_start_opportunities": 13
+    },
+    {
+      "timing": 1,
+      "arm": "negative_proof",
+      "previously_attacker": 48,
+      "right_censored": 12,
+      "recovered_within_20": 25,
+      "conditional_median_confirmation_ms": 4500.0,
+      "conditional_median_start_opportunities": 12.5
+    },
+    {
+      "timing": 1,
+      "arm": "active_reference",
+      "previously_attacker": 48,
+      "right_censored": 18,
+      "recovered_within_20": 22,
+      "conditional_median_confirmation_ms": 4500.0,
+      "conditional_median_start_opportunities": 11.0
+    }
+  ]
+}

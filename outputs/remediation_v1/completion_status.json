@@ -1,0 +1,18 @@
+{
+  "research_remediation_executed": true,
+  "new_runs": 1440,
+  "archive_integrity": {
+    "status": "passed_complete_archive_integrity",
+    "cases": 1440,
+    "protocol_sha256": "024e2141799c71891a00ed61b2f6247493e4e8846cc4b6764f751b46549a1000",
+    "logs_images_and_case_settings_verified": true,
+    "scope": "Integrity and archived audit acceptance; not physical provenance or protection against coordinated archive replacement",
+    "physical_validation": false
+  },
+  "original_signed_deadline_complete": false,
+  "physical_validation": false,
+  "production_security_validated": false,
+  "coauthor_approvals_obtained": false,
+  "authenticated_submission_checked": false,
+  "full_validation_complete": false
+}

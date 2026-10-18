@@ -14,7 +14,7 @@ The checked-in workflows are the executable environment definitions:
 - `.github/workflows/wsn-remediation.yml`: Ubuntu 24.04, Java 25, pinned Contiki/Cooja source revisions, native GCC, Python 3.12 and recorded Python packages. Two worker processes run the frozen 1,440-case list.
 - `.github/workflows/mcu-signed-deadline.yml`: official Renode 1.17.0 portable distribution, verified archive SHA-256, Zig 0.15.1 and fresh private fixture material outside the public artifact. No fast-MAC endpoint replaces the signature endpoint.
 - `.github/workflows/remediation-regression.yml`: full pytest discovery, pinned ns-3 3.44 wheel and all required native bridge builds. Building old powered-bridge controls against this wheel is regression compatibility, not a new execution of the historical 3.47 factorial.
-- `.github/workflows/archive-audited-outputs.yml`: completed successful studies receive an immutable run-tagged release with raw captures, compiled images, environment and a manifest. Failure artifacts remain failures.
+- `.github/workflows/archive-audited-outputs.yml`: completed successful studies receive a run-tagged release with raw captures, compiled images, environment and a manifest. Failure artifacts remain failures. Release assets are hash-identified; the GitHub release itself is not publisher-enforced immutable.
 
 Select the relevant workflow and **Run workflow** on a clean revision. Running it again creates a new execution; it does not retroactively replace the recorded run. Commit changed scientific mechanisms/protocol amendments before observing their outcomes.
 
@@ -46,3 +46,18 @@ Render Word with LibreOffice or the document renderer and inspect every page bef
 ## Interpretation
 
 Geometry blocks are the primary experimental units. Radio seeds, packets, interventions and repeated checkpoint use do not create additional independent topology or training replicates. Public fixture keys do not establish confidential-key deployment security. Scheduled Cooja delays overlap per packet; they are not serial MCU CPU simulation or physical timing. Renode stage timings are emulator observations. No reproduction command supplies physical current/RF measurements, protected key storage, actual author consent or authenticated portal approval.
+
+## Retained raw archive
+
+The accepted 1,440-case run is `39148654557`, executed at `40a933ee06b0dd1521f7de36d4b215f9f8d8b9d4`. Download the run-tagged asset identified by `outputs/remediation_v1/raw_archive.json`, verify its SHA-256, extract it outside the checkout, then copy the `wsn-remediation-v1-40a933ee06b0dd1521f7de36d4b215f9f8d8b9d4` contents into `outputs/remediation_v1`. Its `runs/` and `preflight/` directories are excluded from git to avoid duplicating the 532 MB release. The release manifest covers every archived capture and compiled native image.
+
+```bash
+sha256sum audited-validation-outputs.tar.gz
+# Expected: 4870447fdbd6fb1bd8507651544210c54c480da28811cba21ec1cc2dd9bdd30d
+mkdir -p retained-archive
+tar -xzf audited-validation-outputs.tar.gz -C retained-archive
+cp -a retained-archive/wsn-remediation-v1-40a933ee06b0dd1521f7de36d4b215f9f8d8b9d4/. outputs/remediation_v1/
+python scripts/verify_remediation_archive.py --dataset outputs/remediation_v1 --output outputs/remediation_v1/integrity_recheck.json
+```
+
+Do not execute the runner over retained case directories. Use a new worktree for a new execution. The additional exposure-stratified summary is explicitly exploratory and is reproduced with `python scripts/summarize_remediation_exposure.py`. It changes no primary contrast or inclusion rule.

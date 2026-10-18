@@ -1,0 +1,8 @@
+{
+  "status": "passed_complete_archive_integrity",
+  "cases": 1440,
+  "protocol_sha256": "024e2141799c71891a00ed61b2f6247493e4e8846cc4b6764f751b46549a1000",
+  "logs_images_and_case_settings_verified": true,
+  "scope": "Integrity and archived audit acceptance; not physical provenance or protection against coordinated archive replacement",
+  "physical_validation": false
+}

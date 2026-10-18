@@ -1,17 +1,30 @@
 {
   "classification": "Exploratory diagnostics of archived 600-run captures; no new radio results",
-  "workflow_run": 39148260726,
-  "source_commit": "b24418008b318aa4a082e0a666c4a2196b5c994c",
-  "artifact_id": 12144237119,
+  "workflow_run": 39148654557,
+  "source_commit": "40a933ee06b0dd1521f7de36d4b215f9f8d8b9d4",
+  "artifact_id": 12146238906,
   "raw_capture_set": "outputs/cooja_feedback/primary_600",
   "files_sha256": {
-    "risk_interventions.json": "0aa49756b091d85c2a04ef2b7c073aebed07d4cfa71fbf0e1f7abe5cd0b6bf59",
-    "causal_provenance.json": "e415bcdd0400bb01a2559b6e56ebda2a8142d09645763bca61de3df98b091018",
-    "paired_decisions.json": "2fc6fc420ef42a04902183c36a07911ccb0912f5fc9fff55859b489a374c3076",
+    "natural_logit_pairs.json": "f456f31f1411890c04fd0b53adf612ed3305e79e288b29f96abb86217467cc1e",
+    "deadline_groups.json": "27d95a14ba82c8d80e932122897315f4936b4395e1f4fc4b4735b3063d83b639",
+    "path_summary.json": "43677d43344e89b8191c9d0160193346cb265828ec799df9a39d9727ba5539e4",
+    "run_diagnostics.json": "86094e23432f9c53028de8338e614277ce5d8e31958daeb4e939ba317b691a1f",
     "summary.json": "18e9b384e8fb8b3bb506f4e0cdd900a710a3fbd24397fec1e9e9c96e49674923",
-    "run_diagnostics.json": "376500391d9afc33e9a0d36302fb743fcf040a9ce53a4a5f2943b752a20130d2",
-    "deadline_groups.json": "27d95a14ba82c8d80e932122897315f4936b4395e1f4fc4b4735b3063d83b639"
+    "causal_provenance.json": "e415bcdd0400bb01a2559b6e56ebda2a8142d09645763bca61de3df98b091018",
+    "effective_count_trajectories.csv.gz": "a607fd912604c46241c77d632b7279f0c6d6a9934a67df9535d38b4002f36390",
+    "paired_decisions.json": "2fc6fc420ef42a04902183c36a07911ccb0912f5fc9fff55859b489a374c3076",
+    "risk_interventions.json": "0aa49756b091d85c2a04ef2b7c073aebed07d4cfa71fbf0e1f7abe5cd0b6bf59"
   },
   "offline_interventions_are_closed_loop": false,
-  "physical_validation": false
+  "physical_validation": false,
+  "prior_diagnostic_execution": {
+    "workflow_run": 39148260726,
+    "source_commit": "b24418008b318aa4a082e0a666c4a2196b5c994c",
+    "artifact_id": 12144237119
+  },
+  "additional_read_only_paths": {
+    "source_commit": "bc2f9a19bd26778f55aa4e2d209ccc5374b27e05",
+    "script": "scripts/diagnose_archived_feedback_paths.py",
+    "execution": "local read-only aggregation of hash-verified original captures; no radio experiment"
+  }
 }

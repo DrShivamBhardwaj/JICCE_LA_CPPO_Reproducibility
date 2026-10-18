@@ -1,0 +1,21 @@
+{
+  "original_starting_commit": "f9bf3c9382c73cee2f21fffa94e07f1a0affe415",
+  "resume_head": "bc2f9a19bd26778f55aa4e2d209ccc5374b27e05",
+  "records": [
+    {
+      "sha": "b24418008b318aa4a082e0a666c4a2196b5c994c",
+      "committed_at": "2026-10-18T17:09:14Z"
+    },
+    {
+      "sha": "40a933ee06b0dd1521f7de36d4b215f9f8d8b9d4",
+      "committed_at": "2026-10-18T17:14:26Z"
+    },
+    {
+      "run_id": 39148654557,
+      "started_at": "2026-10-18T17:14:29Z",
+      "updated_at": "2026-10-18T18:50:44Z",
+      "conclusion": "success"
+    }
+  ],
+  "release_manifest_files_verified": 8671
+}

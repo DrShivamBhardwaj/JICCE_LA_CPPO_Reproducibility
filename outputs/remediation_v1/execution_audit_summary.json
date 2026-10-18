@@ -1,0 +1,10 @@
+{
+  "audited_cases": 1440,
+  "offered_packets": 86400,
+  "policy_decisions_verified": 157315,
+  "feedback_events_replayed": 383362,
+  "maximum_feature_error": 1.4156103134155273e-07,
+  "maximum_logit_error": 2.086162567138672e-06,
+  "scope": "Technical audit counts across all declared conditions; packets are not independent inference units",
+  "physical_validation": false
+}

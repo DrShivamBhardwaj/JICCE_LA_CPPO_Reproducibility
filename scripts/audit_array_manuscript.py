@@ -49,7 +49,7 @@ latency={x["before"]:x["after"] for x in json.loads((P/"receipt_latency_edits.js
 cooja={x['before']:x['after'] for x in json.loads((P/'cooja_integration_edits.json').read_text())}
 remediation={x['before']:x['after'] for x in json.loads((P/'remediation_edits.json').read_text())['replacements']} if remediated else {}
 def after_editorial(s):
- u=postfreeze.get(s,s);v=live.get(u,u);w=latency.get(v,v);return remediation.get(transform_text(cooja.get(w,w)),transform_text(cooja.get(w,w)))
+ u=postfreeze.get(s,s);v=live.get(u,u);w=latency.get(v,v);result=transform_text(cooja.get(w,w));return '\n'.join(remediation.get(part,part) for part in result.split('\n'))
 def final_text(s):
  return after_editorial(editorial.get(transform(s),transform(s)))
 def citations(s):

@@ -1,4 +1,4 @@
-Feedback gains in 750 runs do not generalize to every tested transport.
-Cooja exposes failure after a cooperative relay changes behavior.
-Proof generation alone does not restore censored-arm delivery in that setting.
-Matched controls do not establish attention superiority.
+Matched feedback rules separate missing-evidence penalties from proof traffic.
+Counterbalanced relay identities test three retained policies in 1,440 runs.
+Recorded risk changes alter logits without changing archived relay choices.
+Compiler optimization leaves 68 of 200 signed-receipt deadlines unmet.

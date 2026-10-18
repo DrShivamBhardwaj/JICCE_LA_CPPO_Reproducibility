@@ -14,17 +14,21 @@
   "review_package_commit": "e7a97e8a0f27c0ba659baf3415b9f464c2400563",
   "manuscript_pdf_sha256": "85b31aef5bb3183aa2346236726ff05e7cf35c8625c38267e61970e2430a3781",
   "renewed_official_web_check": {
-    "checked_at_utc": "2026-10-18T17:58:17.683790+00:00",
+    "checked_at_utc": "2026-10-18T23:33:04.090412+00:00",
     "array_guide_result": "403 Forbidden; complete current journal-specific guide unavailable",
     "general_highlights_source": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript",
     "general_highlights_verified": "3–5 items, at most 85 characters each; separate editable source file, unless journal guide says otherwise",
     "general_author_agreement_source": "https://www.elsevier.support/publishing/answer/what-are-conflict-of-interest-statements-funding-source-declarations-author-agreementsdeclarations-and-permission-notes",
-    "scope": "General Elsevier support is accessible. This does not certify Array-specific requirements or authenticated portal checks."
+    "scope": "General Elsevier support is accessible. This does not certify Array-specific requirements or authenticated portal checks.",
+    "general_submission_preparation_source": "https://www.elsevier.support/publishing/answer/how-do-i-prepare-my-files-for-submission-in-editorial-manager",
+    "general_submission_preparation_verified": "Journal-specific rules take precedence. File roles, review anonymity, author contribution roles, funding and final portal PDF must be checked; accessible general instructions are not Array certification."
   },
   "desktop_access_check": {
     "device": "Shivams-MacBook-Air.local",
     "status": "Offline",
     "physical_hardware_inventory_accessible": false,
-    "scope": "Offline status does not prove what hardware exists; it blocks inspection or measurement through this connection."
+    "scope": "Offline status does not prove what hardware exists; it blocks inspection or measurement through this connection.",
+    "checked_at_utc": "2026-10-18T23:33:04.090427+00:00",
+    "last_seen_observation": "7h ago"
   }
 }

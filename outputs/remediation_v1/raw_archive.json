@@ -1,0 +1,11 @@
+{
+  "workflow_run": 39148654557,
+  "source_commit": "40a933ee06b0dd1521f7de36d4b215f9f8d8b9d4",
+  "release_tag": "validation-run-39148654557",
+  "url": "https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/releases/download/validation-run-39148654557/audited-validation-outputs.tar.gz",
+  "sha256": "4870447fdbd6fb1bd8507651544210c54c480da28811cba21ec1cc2dd9bdd30d",
+  "bytes": 532447436,
+  "local_download_hash_verified": true,
+  "artifact_zip_sha256": "7e21f85282cb2ae08836c466fa50f735d7e41a7bd3e1339ec82fd49397bc61b8",
+  "raw_git_storage": "runs/preflight/native output stored in release; excluded from git to avoid duplicating 500+ MB"
+}
