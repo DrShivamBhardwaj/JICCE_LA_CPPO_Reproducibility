@@ -1,0 +1,7 @@
+{
+  "workflow_run": 39149547568,
+  "job": 117740186685,
+  "status": "129_passed_6_missing_library_failures",
+  "reason": "Additional power-state regression shared library absent; source tests unchanged",
+  "fix": "Build existing powered_bridge.cc against pinned ns3 3.44.post0 for regression. Historical 3.47 factorial results remain unchanged and are not revalidated as 3.47 execution by this check."
+}

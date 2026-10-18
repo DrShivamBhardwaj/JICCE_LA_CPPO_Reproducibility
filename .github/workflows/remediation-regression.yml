@@ -25,6 +25,7 @@ jobs:
           python scripts/build_ns3_bridge.py
           python scripts/build_ns3_passive.py
           python scripts/build_ns3_telemetry.py
+          python scripts/build_powered_regression_bridge.py
       - name: Run complete suite
         run: |
           set -o pipefail

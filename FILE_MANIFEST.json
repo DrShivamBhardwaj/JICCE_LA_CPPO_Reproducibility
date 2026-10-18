@@ -8,8 +8,8 @@
     "sha256": "e0091ed076ffca14fa198b680106cec32019852531b0e472a7f2bb9bcc82e95b"
   },
   ".github/workflows/remediation-regression.yml": {
-    "size": 1330,
-    "sha256": "3508ef48fb07d1eb59cc6031a0a8e849a26742574a03fbb63294940ad6faacf3"
+    "size": 1390,
+    "sha256": "8a4a2b7eacc7fc7529f004084e085851ebb87d29064754d76f38be4cb347fd27"
   },
   ".github/workflows/wsn-remediation.yml": {
     "size": 1791,
@@ -15531,6 +15531,38 @@
     "size": 477,
     "sha256": "38fd2ad8821d298c9f6a5272b9ce4b1c93fe326cccf9c35b394a9935b8509f65"
   },
+  "outputs/remediation_regression/attempts/missing_powered_bridge.json": {
+    "size": 404,
+    "sha256": "bcf9e09efe88bc21b53f12beafebe2d8f9744b020f22199a6559d110121c6175"
+  },
+  "outputs/remediation_v1/archive_diagnostics/PROVENANCE.json": {
+    "size": 964,
+    "sha256": "4717c2b1d70bc16a2f6c16913dc93c75591b05c5c32adb2f3551df88bbe5d131"
+  },
+  "outputs/remediation_v1/archive_diagnostics/causal_provenance.json": {
+    "size": 320179,
+    "sha256": "e415bcdd0400bb01a2559b6e56ebda2a8142d09645763bca61de3df98b091018"
+  },
+  "outputs/remediation_v1/archive_diagnostics/deadline_groups.json": {
+    "size": 5289,
+    "sha256": "27d95a14ba82c8d80e932122897315f4936b4395e1f4fc4b4735b3063d83b639"
+  },
+  "outputs/remediation_v1/archive_diagnostics/paired_decisions.json": {
+    "size": 33903,
+    "sha256": "2fc6fc420ef42a04902183c36a07911ccb0912f5fc9fff55859b489a374c3076"
+  },
+  "outputs/remediation_v1/archive_diagnostics/risk_interventions.json": {
+    "size": 959369,
+    "sha256": "0aa49756b091d85c2a04ef2b7c073aebed07d4cfa71fbf0e1f7abe5cd0b6bf59"
+  },
+  "outputs/remediation_v1/archive_diagnostics/run_diagnostics.json": {
+    "size": 986030,
+    "sha256": "376500391d9afc33e9a0d36302fb743fcf040a9ce53a4a5f2943b752a20130d2"
+  },
+  "outputs/remediation_v1/archive_diagnostics/summary.json": {
+    "size": 6267,
+    "sha256": "18e9b384e8fb8b3bb506f4e0cdd900a710a3fbd24397fec1e9e9c96e49674923"
+  },
   "outputs/remediation_v1/attempts/compile_preflight_failure/FAILURE.json": {
     "size": 78,
     "sha256": "8a10477089a37c0afafa3a0faf7c2a94247ceba5d979d7df784fcf654f998532"
@@ -17630,6 +17662,10 @@
   "scripts/build_postfreeze_figures.py": {
     "size": 1724,
     "sha256": "eb796a3caee6db10267b843e5cc380df173f5665284ed4e8e0179d2948883bd1"
+  },
+  "scripts/build_powered_regression_bridge.py": {
+    "size": 676,
+    "sha256": "60403fe998e4152366bf015be16adc40b9ab5a888a73857895323160fcdcc8fb"
   },
   "scripts/build_redesigned_figures.py": {
     "size": 11247,
