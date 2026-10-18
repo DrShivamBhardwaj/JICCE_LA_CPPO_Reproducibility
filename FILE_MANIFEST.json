@@ -7,6 +7,10 @@
     "size": 2511,
     "sha256": "e0091ed076ffca14fa198b680106cec32019852531b0e472a7f2bb9bcc82e95b"
   },
+  ".github/workflows/remediation-regression.yml": {
+    "size": 1082,
+    "sha256": "d90812899250f7446cfbf1041077edbac462318f87af0e4416d919aaedb28033"
+  },
   ".github/workflows/wsn-remediation.yml": {
     "size": 1791,
     "sha256": "eacde7c2f62bec1d05b510f9db7a54c6aa6562daeb5d134b12fff98790e99d63"
@@ -18018,6 +18022,10 @@
   "tests/test_remaining_validation.py": {
     "size": 1400,
     "sha256": "31bda098741505e3c37818b882297a31088dcc9b1571407110f3ede8888acee3"
+  },
+  "tests/test_remediation_endpoints.py": {
+    "size": 1655,
+    "sha256": "dc7992ff1c84dbd99aba1aeaa5ed1df089651804b572c1ddfcf0ebcca7ee50a9"
   },
   "tests/test_remediation_v1.py": {
     "size": 3265,
