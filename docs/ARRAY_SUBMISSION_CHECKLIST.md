@@ -1,4 +1,4 @@
-# Array submission review — 16 October 2026
+# Array submission review — 18 October 2026
 
 Status: technical package prepared; author confirmations and authenticated portal checks remain open. No submission or communication has been sent.
 
@@ -6,7 +6,7 @@ Status: technical package prepared; author confirmations and authenticated porta
 
 | Requirement | Source and access | Package check |
 |---|---|---|
-| Abstract no more than 250 words | Array Guide for Authors, current publisher-indexed text | 215 words |
+| Abstract no more than 250 words | Array Guide for Authors, current publisher-indexed text | 198 words in committed manuscript |
 | Highlights: 3–5 items; up to 85 characters each | Array indexed guide plus Elsevier author support | Four separate editable highlights, maximum 75 characters |
 | Single anonymized review | Array current publisher-indexed guide | Author-bearing manuscript provided |
 | Disclose generative AI use | Array current publisher-indexed guide | Separate disclosure immediately before references; assistance with code/plots is disclosed |
@@ -34,8 +34,9 @@ Direct requests to the full Array Guide for Authors returned HTTP 403. Indexed p
 | Competing interests | publication/array/Declaration_of_interests.txt |
 | Funding/contributions/AI/data statements | publication/array/Author_declarations_REVIEW.txt — compare against author-confirmed manuscript |
 | Editor letter | publication/array/Cover_letter_DRAFT.txt — final author review required |
-| Figures 1–6 | publication/redesigned/figures/ |
-| Figures 7–8 | publication/array/figures/ |
+| Figures 1–8 | publication/array/figures/ — current artwork, not historical redesigned figures |
+| Figures 9–10 | publication/array/review_figures/ |
+| All ten figures | publication/array/Array_Figures_PNG_PDF_SVG.zip |
 | Code, traces, firmware, virtual tests | GitHub repository; use a pinned release commit |
 
 ## Official sources
@@ -48,3 +49,7 @@ Direct requests to the full Array Guide for Authors returned HTTP 403. Indexed p
 The remaining author statements are factual attestations. They cannot be completed by substituting a simulation or by automatically ticking portal boxes.
 
 Funding statement: publication/array/Funding_statement.txt. Author metadata: publication/array/author_metadata.json. Former author names and their emails/roles have been removed from the active manuscript.
+
+## Recheck on 18 October 2026
+
+The main draft contains 22 pages, ten equations, ten figures, seven tables and 22 references. The 198-word abstract supersedes the earlier 215-word checklist entry. Artwork locations were reconciled against the repository tree. Direct access to the publisher guide again returned HTTP 403; current full requirements and authenticated file-role mappings remain unverified. No submission has been made. The manuscript source for this check is commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288.

@@ -2,7 +2,7 @@ DRAFT FOR AUTHOR REVIEW — verify author declarations before submission.
 
 Dear Editors of Array,
 
-Please consider “Receipt Assisted Feedback and Authenticated Policy Transfer for Wireless Sensor Routing.” The study examines whether receipt-assisted passive feedback can replace an active-proof mechanism and whether frozen routing policies can execute with authenticated, byte-serialized local state.
+Please consider “A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks.” The study examines whether receipt-assisted passive feedback can replace an active-proof mechanism and whether frozen routing policies can execute with authenticated, byte-serialized local state.
 
 The prespecified 750-run study uses 30 new fixtures and matched feedback controls. Under blackholes, delivery improves by 4.67 percentage points relative to active proofs (paired 95% interval 2.36–6.97; Holm-adjusted p=0.0161). The controls do not establish a unique censoring or attention advantage. A separate 180-run authenticated transfer study likewise finds no established attention superiority. Compiled radio-interface firmware also runs on four emulated Cortex-M3 boards; routing inference and cryptography remain on the host. We make no physical hardware, measured battery-energy or absolute deadline-compliance claim.
 

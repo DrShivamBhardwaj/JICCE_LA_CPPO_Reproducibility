@@ -1,6 +1,6 @@
 Author confirmation sheet
 
-Manuscript: Receipt Assisted Feedback and Authenticated Policy Transfer for Wireless Sensor Routing
+Manuscript: A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks
 Target: Array
 
 The corresponding author confirmed the author order, first-author role/institution, correspondence, no funding and no competing interests on 16 October 2026. Remaining author-only checks are identified below.
