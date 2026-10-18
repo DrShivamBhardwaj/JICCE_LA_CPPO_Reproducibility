@@ -216,8 +216,8 @@
     "sha256": "1f10eaa50817a9e427f287793e86afc1824eb53117a9820cb546fab3e0e30765"
   },
   "docs/PENDING_VALIDATION_REGISTER.md": {
-    "size": 3616,
-    "sha256": "147756048f2420ff6a7b427542b9447a25829e32199dd0cb7fcced76bf8a546b"
+    "size": 4007,
+    "sha256": "5434deebcd36a29bf59bfc183b55a939b2ea381a0ea154ea5a308d1ab07e3df9"
   },
   "docs/PENDING_WORK_RESOLUTION_20261016.md": {
     "size": 4232,
@@ -300,8 +300,8 @@
     "sha256": "ca03b7afe0a4d3e1b84845a98615a0e5a9f2d7ca045c3d3f7ca2e3b6a54ee4c3"
   },
   "hardware/cc2538_live/PHYSICAL_ACQUISITION.md": {
-    "size": 2655,
-    "sha256": "f61892dd0b4e43f6aedd70c5e794f72ea8b861fd12bf3f4ab3d194b521b3e484"
+    "size": 2794,
+    "sha256": "8e932259b4830662473a1667f226ca41c443e87ed7783ed53c05f0fe92bfca2a"
   },
   "hardware/cc2538_live/PRIVATE_PROVISIONING.md": {
     "size": 3034,
@@ -600,8 +600,8 @@
     "sha256": "a57eb16d6a466d587c57989caa9c3afb410dcd41bb79c44b7be847bb83671239"
   },
   "outputs/cc2538_fast/MANIFEST.json": {
-    "size": 5140,
-    "sha256": "465dd912826e2261065b45b9a2741f783d331b0e4226ba41e6a408a15e467bb8"
+    "size": 5311,
+    "sha256": "0e478974e1d4cd1e41084fcdb6dad63029c6fbb6ec81f663ada10e7e364b7418"
   },
   "outputs/cc2538_fast/build.json": {
     "size": 1831,
@@ -715,9 +715,13 @@
     "size": 812156,
     "sha256": "d38dc0d2923c4482d46c6a80b1e36076196738158555e55634ea2e1e879822b7"
   },
+  "outputs/cc2538_fast/full_validation_status.json": {
+    "size": 1699,
+    "sha256": "d858d5e76097640018a013043c716387cfb704272683511bcdc1b9d9eeb013ed"
+  },
   "outputs/cc2538_fast/hardware_presence.json": {
     "size": 354,
-    "sha256": "1aa8950e6600b9f681b5130e52a8849767364a45ab97d1fad657744ca05e99c9"
+    "sha256": "756777f59dfc0845d5729693b91bae4932d21265ab3b8ae51c1287e84934d47f"
   },
   "outputs/cc2538_fast/receipt_profiles_summary.json": {
     "size": 6445,
@@ -4447,6 +4451,10 @@
     "size": 3376,
     "sha256": "0c41f7a0f7ead59129baf9ee379b25f6acdbbcb77ae79f6f3cc7e1e01890c762"
   },
+  "scripts/audit_remaining_validation.py": {
+    "size": 3467,
+    "sha256": "f90e2c24b07f7bf06af59cc6ec039f97d5af7ea02fb2e2876864e5b3b465406f"
+  },
   "scripts/audit_renode_boards.py": {
     "size": 7803,
     "sha256": "e1d1530676441e6a8af9ae53ca697c380980f4a1517936a9128f20f4242f5c21"
@@ -4946,6 +4954,10 @@
   "tests/test_powered_bridge.py": {
     "size": 2919,
     "sha256": "79b5dcb70824aeef9f1133af853e7895e0a263829609cc779f95268883d11e1e"
+  },
+  "tests/test_remaining_validation.py": {
+    "size": 1400,
+    "sha256": "31bda098741505e3c37818b882297a31088dcc9b1571407110f3ede8888acee3"
   },
   "tests/test_renode_audit.py": {
     "size": 3699,

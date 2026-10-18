@@ -21,3 +21,7 @@ Four-node sequential streams do not establish network-size scaling, queue-overlo
 Physical board startup/clock/peripheral validation, RF/interference measurements and calibrated energy acquisition require actual compatible boards and instruments. No such measurements are fabricated. Acquisition requirements and a trace-integrity/energy-integration script are prepared in hardware/cc2538_live/PHYSICAL_ACQUISITION.md.
 
 Individual coauthor approvals, contribution roles, exclusivity/related-work declarations, authenticated Array portal checks and final submission approval remain author actions. The official guide again returned HTTP 403 during the latest access check. No author consent, signature, message, portal submission or payment is inferred or performed.
+
+## Machine-readable full-validation gate
+
+Run `python scripts/audit_remaining_validation.py --output outputs/cc2538_fast/full_validation_status.json`. Exit code 2 deliberately means the full requested scope is incomplete. Private MAC success cannot pass the signed-receipt criterion. External evidence needs actual acquisition/author review; caller-supplied status flags cannot certify it.

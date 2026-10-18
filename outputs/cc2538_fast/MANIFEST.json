@@ -140,9 +140,14 @@
     "sha256": "d38dc0d2923c4482d46c6a80b1e36076196738158555e55634ea2e1e879822b7"
   },
   {
+    "path": "outputs/cc2538_fast/full_validation_status.json",
+    "size": 1699,
+    "sha256": "d858d5e76097640018a013043c716387cfb704272683511bcdc1b9d9eeb013ed"
+  },
+  {
     "path": "outputs/cc2538_fast/hardware_presence.json",
     "size": 354,
-    "sha256": "1aa8950e6600b9f681b5130e52a8849767364a45ab97d1fad657744ca05e99c9"
+    "sha256": "756777f59dfc0845d5729693b91bae4932d21265ab3b8ae51c1287e84934d47f"
   },
   {
     "path": "outputs/cc2538_fast/receipt_profiles_summary.json",
