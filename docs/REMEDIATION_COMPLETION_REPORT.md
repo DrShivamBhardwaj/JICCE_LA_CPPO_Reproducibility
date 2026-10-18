@@ -41,6 +41,10 @@ Timing 0 means no added compute delay; timing 1 uses illustrative overlapping sc
 
 The original signed deadline, physical measurement, production security, actual author approval and authenticated submission are not complete. No deadline was lengthened and the fast private-MAC endpoint does not satisfy the original signature requirement. See the matrix for the exact evidence and next action. No messages were sent and no submission was made.
 
+## Descriptive control supplement
+
+Benign means and checkpoint/onset/channel-stratified block effects are available in publication/array/Remediation_Control_Supplement.md and outputs/remediation_v1/control_and_factor_summary.json. These exploratory post-outcome aggregations add no tests, tuning or exclusions; the primary analysis is unchanged.
+
 ## RESOLVED
 
 - **A: causal attribution**: Four matched arms share ACK, expiry, positive-credit and late-positive semantics; negative update and proof traffic cross independently. Separate active reference retained. Conditional effects within this fixture family; not attribution of the complete historical ns-3 gain.

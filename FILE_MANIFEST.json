@@ -252,8 +252,8 @@
     "sha256": "77b7c1c2ed0719f26b8c3ead555f30066894e7d28d4a618aaff25f7af3c76b4b"
   },
   "docs/REMEDIATION_COMPLETION_REPORT.md": {
-    "size": 11587,
-    "sha256": "939fff192ac290200064ed30cf4a62f8ad62690654d96345805080aff8454262"
+    "size": 11934,
+    "sha256": "1919aaef226ed9330b1ec03feac3255e09b1ea3683e1d539ade6bcc9439eab27"
   },
   "docs/REMEDIATION_CONCERN_MATRIX.csv": {
     "size": 5392,
@@ -15671,6 +15671,10 @@
     "size": 717,
     "sha256": "5f7f4f9b454d692a56d3f816d9023bac0e1ce7e4be13bbb696dbb811703c3a78"
   },
+  "outputs/remediation_v1/control_and_factor_summary.json": {
+    "size": 15113,
+    "sha256": "b149a52819944c28c21badf2038f51298982b132e6c6c5e0190e5c06fb507d5d"
+  },
   "outputs/remediation_v1/design_geometry_audit.json": {
     "size": 3308,
     "sha256": "dde2c92fa173a706bb8b7811f9834a0b511b7fc831acadf7f35225313777db57"
@@ -17028,12 +17032,16 @@
     "sha256": "ad61b26149ee1bb3f114c919fc27200a980ed98fcd638e5cbff8f32c68072900"
   },
   "publication/array/README.md": {
-    "size": 1604,
-    "sha256": "129656c858541152311a4b83b3ed93d9ede258798aae695bf9e9ca8ffea95c39"
+    "size": 1692,
+    "sha256": "2465ff203273779640ff2d3c6196fcfe08658612820ab115ca212169eecb33dd"
+  },
+  "publication/array/Remediation_Control_Supplement.md": {
+    "size": 2167,
+    "sha256": "0ba5150851e5723fc1984165ce5675e8396b0e5e028a4513f282e6c7135f1904"
   },
   "publication/array/SHA256SUMS": {
-    "size": 9911,
-    "sha256": "1b7b47ae515bf82501bf8aa0dc4308711858b5e756408028fd8f9e5712952de6"
+    "size": 10029,
+    "sha256": "83262ac02d37a9adbcf975078f4b9299556db33bb6a3ce215261c91721ac0bf9"
   },
   "publication/array/author_metadata.json": {
     "size": 1807,
@@ -17924,8 +17932,8 @@
     "sha256": "7592c533dd5db39998d7fd2d3b318174a3329ef42b1de69f1b195c7330a19531"
   },
   "scripts/finalize_remediation_package.py": {
-    "size": 9431,
-    "sha256": "a3d7c7df10d1273b3aeee34f1f1251b1ed471b998eef0524345c7fab9aa6e45c"
+    "size": 9519,
+    "sha256": "2aa6db428baebfc4bfe0e38da119c263126b3a42f533b10cec335785eb45af76"
   },
   "scripts/generate_powered_bridge.py": {
     "size": 3524,
@@ -18111,6 +18119,10 @@
     "size": 3551,
     "sha256": "2e3de5dc03c71804d4b1ffc8b09c66dc963f4dcd9deeee39b5848a07b38d7bbc"
   },
+  "scripts/summarize_remediation_controls.py": {
+    "size": 4977,
+    "sha256": "f9b56650747b74f6aa5a2aa41914f37452047e9ff11bd7bb623c6bab0b152560"
+  },
   "scripts/summarize_remediation_exposure.py": {
     "size": 1572,
     "sha256": "64f783fd5eddeadad955467a125f14ef00163d9490ee94265591b541381ec377"
@@ -18180,8 +18192,8 @@
     "sha256": "95254854200bfb08141a657f3e07535209cc19fe33fd29fe60ba644371f22dfe"
   },
   "scripts/write_remediation_report.py": {
-    "size": 9876,
-    "sha256": "53af3f4ab77c769d89aed274e0f3715ccd14fe20616c33fd2de469353f33d2a5"
+    "size": 10243,
+    "sha256": "404cf522b6d113c82ebfe34c21cc62c0b5ea4a323121df9ac3e828da2f69b332"
   },
   "src/ns3_bridge/bridge.cc": {
     "size": 3698,

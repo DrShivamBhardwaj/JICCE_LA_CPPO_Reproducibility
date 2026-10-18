@@ -1,0 +1,623 @@
+{
+  "classification": "Exploratory post-outcome descriptive aggregation of already retained endpoints; no additional tests, intervals, tuning or exclusions",
+  "benign_endpoint": "Whole-run unique sink delivery; critical sink lateness/loss and transmit-state seconds",
+  "benign_controls": [
+    {
+      "timing": 0,
+      "arm": "censored",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9916666666666667,
+      "critical_failure": 0.40729166666666666,
+      "tx_seconds": 8.412787166666666
+    },
+    {
+      "timing": 0,
+      "arm": "censored_proof",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9864583333333333,
+      "critical_failure": 0.42083333333333334,
+      "tx_seconds": 8.753059166666667
+    },
+    {
+      "timing": 0,
+      "arm": "negative",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9930555555555556,
+      "critical_failure": 0.40208333333333335,
+      "tx_seconds": 8.419826333333333
+    },
+    {
+      "timing": 0,
+      "arm": "negative_proof",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.986111111111111,
+      "critical_failure": 0.42291666666666666,
+      "tx_seconds": 8.756745666666667
+    },
+    {
+      "timing": 0,
+      "arm": "active_reference",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9902777777777778,
+      "critical_failure": 0.42812500000000003,
+      "tx_seconds": 8.7684275
+    },
+    {
+      "timing": 1,
+      "arm": "censored",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9871527777777778,
+      "critical_failure": 0.946875,
+      "tx_seconds": 8.418036666666668
+    },
+    {
+      "timing": 1,
+      "arm": "censored_proof",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9836805555555556,
+      "critical_failure": 0.953125,
+      "tx_seconds": 8.7523285
+    },
+    {
+      "timing": 1,
+      "arm": "negative",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9871527777777778,
+      "critical_failure": 0.94375,
+      "tx_seconds": 8.414138666666666
+    },
+    {
+      "timing": 1,
+      "arm": "negative_proof",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9836805555555556,
+      "critical_failure": 0.9510416666666667,
+      "tx_seconds": 8.753045666666667
+    },
+    {
+      "timing": 1,
+      "arm": "active_reference",
+      "geometry_blocks": 12,
+      "run_settings": 48,
+      "delivery": 0.9864583333333333,
+      "critical_failure": 0.9562499999999999,
+      "tx_seconds": 8.790769000000001
+    }
+  ],
+  "benign_factorial_point_effects": [
+    {
+      "timing": 0,
+      "whole_run_delivery_effects": {
+        "negative_main": 0.0005208333333333037,
+        "proof_main": -0.006076388888888951,
+        "interaction": -0.0017361111111111605
+      }
+    },
+    {
+      "timing": 1,
+      "whole_run_delivery_effects": {
+        "negative_main": 0.0,
+        "proof_main": -0.00347222222222221,
+        "interaction": 0.0
+      }
+    }
+  ],
+  "factor_stratified_primary_effects": [
+    {
+      "factor": "checkpoint",
+      "value": 41001,
+      "timing": 0,
+      "contrast": "negative_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.09010416666666665,
+      "observed_block_range": [
+        0.0,
+        0.18249999999999994
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41001,
+      "timing": 0,
+      "contrast": "proof_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.011979166666666693,
+      "observed_block_range": [
+        5.551115123125783e-17,
+        0.03624999999999998
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41001,
+      "timing": 0,
+      "contrast": "interaction",
+      "geometry_blocks": 4,
+      "mean_effect": 0.04145833333333332,
+      "observed_block_range": [
+        0.0,
+        0.09749999999999998
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41001,
+      "timing": 1,
+      "contrast": "negative_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.09687500000000002,
+      "observed_block_range": [
+        -0.00416666666666668,
+        0.18750000000000008
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41001,
+      "timing": 1,
+      "contrast": "proof_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.01958333333333332,
+      "observed_block_range": [
+        -0.0050000000000000044,
+        0.07500000000000004
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41001,
+      "timing": 1,
+      "contrast": "interaction",
+      "geometry_blocks": 4,
+      "mean_effect": 0.04708333333333335,
+      "observed_block_range": [
+        -0.030000000000000027,
+        0.1850000000000001
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41002,
+      "timing": 0,
+      "contrast": "negative_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.17510416666666667,
+      "observed_block_range": [
+        0.010416666666666685,
+        0.35375
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41002,
+      "timing": 0,
+      "contrast": "proof_main",
+      "geometry_blocks": 4,
+      "mean_effect": -0.0013541666666666702,
+      "observed_block_range": [
+        -0.03250000000000003,
+        0.018750000000000044
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41002,
+      "timing": 0,
+      "contrast": "interaction",
+      "geometry_blocks": 4,
+      "mean_effect": 0.0110416666666667,
+      "observed_block_range": [
+        -0.05500000000000005,
+        0.05750000000000011
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41002,
+      "timing": 1,
+      "contrast": "negative_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.22781249999999997,
+      "observed_block_range": [
+        0.125,
+        0.31875
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41002,
+      "timing": 1,
+      "contrast": "proof_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.02864583333333337,
+      "observed_block_range": [
+        8.326672684688674e-17,
+        0.05416666666666664
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41002,
+      "timing": 1,
+      "contrast": "interaction",
+      "geometry_blocks": 4,
+      "mean_effect": 0.04562500000000003,
+      "observed_block_range": [
+        0.005000000000000171,
+        0.07749999999999996
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41003,
+      "timing": 0,
+      "contrast": "negative_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.3047916666666666,
+      "observed_block_range": [
+        0.20625,
+        0.39875
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41003,
+      "timing": 0,
+      "contrast": "proof_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.007291666666666662,
+      "observed_block_range": [
+        -0.028749999999999998,
+        0.04999999999999999
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41003,
+      "timing": 0,
+      "contrast": "interaction",
+      "geometry_blocks": 4,
+      "mean_effect": 0.02458333333333336,
+      "observed_block_range": [
+        -0.03749999999999998,
+        0.09999999999999998
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41003,
+      "timing": 1,
+      "contrast": "negative_main",
+      "geometry_blocks": 4,
+      "mean_effect": 0.3104166666666667,
+      "observed_block_range": [
+        0.20416666666666664,
+        0.395
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41003,
+      "timing": 1,
+      "contrast": "proof_main",
+      "geometry_blocks": 4,
+      "mean_effect": -0.01770833333333332,
+      "observed_block_range": [
+        -0.04999999999999996,
+        0.014999999999999958
+      ]
+    },
+    {
+      "factor": "checkpoint",
+      "value": 41003,
+      "timing": 1,
+      "contrast": "interaction",
+      "geometry_blocks": 4,
+      "mean_effect": -0.015833333333333324,
+      "observed_block_range": [
+        -0.0833333333333332,
+        0.024999999999999967
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 10,
+      "timing": 0,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.29562499999999997,
+      "observed_block_range": [
+        0.13624999999999995,
+        0.39875
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 10,
+      "timing": 0,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.0018750000000000062,
+      "observed_block_range": [
+        -0.03250000000000003,
+        0.03624999999999998
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 10,
+      "timing": 0,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.02291666666666668,
+      "observed_block_range": [
+        -0.05500000000000005,
+        0.09749999999999998
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 10,
+      "timing": 1,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.289375,
+      "observed_block_range": [
+        0.16249999999999998,
+        0.395
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 10,
+      "timing": 1,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.012708333333333358,
+      "observed_block_range": [
+        -0.02749999999999994,
+        0.07500000000000004
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 10,
+      "timing": 1,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.03875000000000003,
+      "observed_block_range": [
+        -0.030000000000000027,
+        0.1850000000000001
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 30,
+      "timing": 0,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.084375,
+      "observed_block_range": [
+        0.0,
+        0.21666666666666662
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 30,
+      "timing": 0,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.01006944444444445,
+      "observed_block_range": [
+        -0.0020833333333333814,
+        0.04999999999999999
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 30,
+      "timing": 0,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.028472222222222242,
+      "observed_block_range": [
+        0.0,
+        0.09999999999999998
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 30,
+      "timing": 1,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.13402777777777777,
+      "observed_block_range": [
+        -0.00416666666666668,
+        0.26250000000000007
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 30,
+      "timing": 1,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.0076388888888888895,
+      "observed_block_range": [
+        -0.04999999999999996,
+        0.05416666666666664
+      ]
+    },
+    {
+      "factor": "onset",
+      "value": 30,
+      "timing": 1,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.012500000000000011,
+      "observed_block_range": [
+        -0.0833333333333332,
+        0.05833333333333335
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 0.9,
+      "timing": 0,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.1942361111111111,
+      "observed_block_range": [
+        0.03125,
+        0.39875
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 0.9,
+      "timing": 0,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": -0.007569444444444448,
+      "observed_block_range": [
+        -0.03250000000000003,
+        0.007500000000000007
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 0.9,
+      "timing": 0,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.005694444444444456,
+      "observed_block_range": [
+        -0.05500000000000005,
+        0.05999999999999994
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 0.9,
+      "timing": 1,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.22756944444444446,
+      "observed_block_range": [
+        0.04166666666666666,
+        0.38
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 0.9,
+      "timing": 1,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.01243055555555557,
+      "observed_block_range": [
+        -0.04999999999999996,
+        0.07500000000000004
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 0.9,
+      "timing": 1,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.036805555555555584,
+      "observed_block_range": [
+        -0.0833333333333332,
+        0.1850000000000001
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 1.0,
+      "timing": 0,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.18576388888888887,
+      "observed_block_range": [
+        0.0,
+        0.39749999999999996
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 1.0,
+      "timing": 0,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.019513888888888904,
+      "observed_block_range": [
+        5.551115123125783e-17,
+        0.04999999999999999
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 1.0,
+      "timing": 0,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.04569444444444446,
+      "observed_block_range": [
+        0.0,
+        0.09999999999999998
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 1.0,
+      "timing": 1,
+      "contrast": "negative_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.19583333333333333,
+      "observed_block_range": [
+        -0.00416666666666668,
+        0.395
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 1.0,
+      "timing": 1,
+      "contrast": "proof_main",
+      "geometry_blocks": 6,
+      "mean_effect": 0.007916666666666678,
+      "observed_block_range": [
+        -0.008333333333333331,
+        0.04166666666666674
+      ]
+    },
+    {
+      "factor": "rx_probability",
+      "value": 1.0,
+      "timing": 1,
+      "contrast": "interaction",
+      "geometry_blocks": 6,
+      "mean_effect": 0.014444444444444454,
+      "observed_block_range": [
+        -0.030000000000000027,
+        0.05833333333333335
+      ]
+    }
+  ],
+  "factor_warning": "Factor levels belong to different geometry blocks; these summaries do not isolate onset/channel/checkpoint causes or establish a threshold. Observed ranges are not confidence intervals.",
+  "nonsignificance_warning": "Zero or small benign point differences do not establish equivalence.",
+  "physical_validation": false
+}
