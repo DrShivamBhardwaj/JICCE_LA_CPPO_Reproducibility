@@ -1,0 +1,463 @@
+{
+  "base_commit": "7d8ea76b042e98af306dc9d3a5eb015b52b443a8",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "torch": "2.14.1",
+    "pytest": "9.1.1",
+    "cryptography": "50.0.2"
+  },
+  "source_sha256": {
+    "src/wsn_sim/censored_feedback.py": "fff88085aa71ddaf61867affadc27a1e5d48ac7aa466c9fc638c9312005fd5a0",
+    "src/wsn_sim/bounded_feedback.py": "c8d887bbdedf14ab085779abdbee7207e5baac4ab005c4f5200b32ffbccaf403",
+    "src/wsn_sim/distributed_auth.py": "0b54e6b59f0460d8d8c3e6d8676e1735c3dfa76c822812aef2f47c2a32dc7e23"
+  },
+  "stream": {
+    "events": 100000,
+    "capacity": 128,
+    "peak_watches": 128,
+    "final_watches": 0,
+    "retired": 64000,
+    "capacity_rejections": 36000,
+    "history_size": 64,
+    "history_capacity": 64
+  },
+  "credit": [
+    {
+      "q": 0.0,
+      "implementation": "FeedbackLedger",
+      "whole_credit": 0.050000000000000044,
+      "split_credit": 0.10000000000000009
+    },
+    {
+      "q": 0.0,
+      "implementation": "BoundedFeedbackLedger",
+      "whole_credit": 0.050000000000000044,
+      "split_credit": 0.04999999999999982
+    },
+    {
+      "q": 0.001,
+      "implementation": "FeedbackLedger",
+      "whole_credit": 0.050000000000000044,
+      "split_credit": 0.10000000000000009
+    },
+    {
+      "q": 0.001,
+      "implementation": "BoundedFeedbackLedger",
+      "whole_credit": 0.050000000000000044,
+      "split_credit": 0.04999999999999982
+    },
+    {
+      "q": 0.04,
+      "implementation": "FeedbackLedger",
+      "whole_credit": 0.050000000000000044,
+      "split_credit": 0.10000000000000009
+    },
+    {
+      "q": 0.04,
+      "implementation": "BoundedFeedbackLedger",
+      "whole_credit": 0.050000000000000044,
+      "split_credit": 0.04999999999999982
+    },
+    {
+      "q": 0.099,
+      "implementation": "FeedbackLedger",
+      "whole_credit": 0.09899999999999998,
+      "split_credit": 0.10000000000000009
+    },
+    {
+      "q": 0.099,
+      "implementation": "BoundedFeedbackLedger",
+      "whole_credit": 0.09899999999999998,
+      "split_credit": 0.0990000000000002
+    },
+    {
+      "q": 0.5,
+      "implementation": "FeedbackLedger",
+      "whole_credit": 0.5,
+      "split_credit": 0.5
+    },
+    {
+      "q": 0.5,
+      "implementation": "BoundedFeedbackLedger",
+      "whole_credit": 0.5,
+      "split_credit": 0.5
+    },
+    {
+      "q": 1.0,
+      "implementation": "FeedbackLedger",
+      "whole_credit": 1.0,
+      "split_credit": 1.0
+    },
+    {
+      "q": 1.0,
+      "implementation": "BoundedFeedbackLedger",
+      "whole_credit": 1.0,
+      "split_credit": 1.0
+    }
+  ],
+  "independent_clock_beacon_cases": [
+    {
+      "offset_s": -0.02,
+      "drift_ppm": -50,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": -50,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": -50,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": 0,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": 0,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": 0,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": 50,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": 50,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.02,
+      "drift_ppm": 50,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": -50,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": -50,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": -50,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": 0,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": 0,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": 0,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": 50,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": 50,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": -0.005,
+      "drift_ppm": 50,
+      "physical_time_s": 300.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": -50,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": -50,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": -50,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": 0,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": 0,
+      "physical_time_s": 60.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": 0,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": 50,
+      "physical_time_s": 1.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": 50,
+      "physical_time_s": 60.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.0,
+      "drift_ppm": 50,
+      "physical_time_s": 300.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": -50,
+      "physical_time_s": 1.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": -50,
+      "physical_time_s": 60.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": -50,
+      "physical_time_s": 300.0,
+      "received": true,
+      "rejections": {}
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": 0,
+      "physical_time_s": 1.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": 0,
+      "physical_time_s": 60.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": 0,
+      "physical_time_s": 300.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": 50,
+      "physical_time_s": 1.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": 50,
+      "physical_time_s": 60.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.005,
+      "drift_ppm": 50,
+      "physical_time_s": 300.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": -50,
+      "physical_time_s": 1.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": -50,
+      "physical_time_s": 60.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": -50,
+      "physical_time_s": 300.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": 0,
+      "physical_time_s": 1.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": 0,
+      "physical_time_s": 60.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": 0,
+      "physical_time_s": 300.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": 50,
+      "physical_time_s": 1.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": 50,
+      "physical_time_s": 60.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    },
+    {
+      "offset_s": 0.02,
+      "drift_ppm": 50,
+      "physical_time_s": 300.0,
+      "received": false,
+      "rejections": {
+        "stale beacon": 1
+      }
+    }
+  ],
+  "clock_summary": {
+    "cases": 45,
+    "accepted": 25,
+    "rejected": 20
+  },
+  "scope": "Unit and deterministic diagnostic evidence only; no new routing gain, MCU execution, physical RF or measured energy claim"
+}

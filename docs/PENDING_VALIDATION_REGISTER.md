@@ -32,3 +32,7 @@ The authorized Desktop Commander device was offline at the time of this check. T
 ## High novelty opportunities
 
 The most discriminating extension is a frozen factorial feedback study that separates evidence semantics from acquisition cost under duty cycling. Physical-board and embedded measurements should support deployment claims only after actual execution. New branches and post-review runs must remain separate from the original confirmatory family. None of the planned criteria above has been marked as passed without execution.
+
+## Execution update on 18 October 2026
+
+The Mac was subsequently reconnected. See POSTFREEZE_VALIDATION_20261018.md and outputs/validation_20261018/ for 94 passing tests, ns-3.47 portability builds, an opt-in bounded ledger and the failed independent-clock acceptance cases. The earlier execution-unavailable paragraph records the earlier check, not the current access status. Low-q partition invariance and bounded ledger storage are tested in the alternate module; new routing comparisons, energy gating, duty cycling, embedded execution and physical measurements remain open.

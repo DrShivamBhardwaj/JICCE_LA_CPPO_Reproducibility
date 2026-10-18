@@ -3,14 +3,12 @@ import numpy as np
 
 
 class SecurityRiskEstimator:
-    """Online security-risk estimator with posterior uncertainty.
+    """Heuristic forwarding-risk scores from weighted effective counts.
 
-    Attack ground truth is never exposed to the controller. Successful and
-    failed forwarding observations update a Beta trust posterior, weighted by
-    expected link reliability, while traffic-rate anomalies contribute an EWMA
-    term. ``risk_ucb`` is a conservative upper confidence proxy used by the
-    routing shield and clustering fitness so sparse observations are not treated
-    as certain evidence.
+    Attack labels are not exposed to the controller. The beta-form moments,
+    clipped evidence weights and fixed multiplier are scoring conventions, not
+    calibrated posteriors or statistical coverage bounds. Public property names
+    are retained for compatibility with the frozen implementation.
     """
 
     def __init__(self, n_nodes: int, confidence_z: float = 1.645, enabled: bool = True):
