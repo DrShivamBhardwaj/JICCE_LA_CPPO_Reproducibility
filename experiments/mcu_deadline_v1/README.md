@@ -1,0 +1,9 @@
+# Compiler-only signed receipt deadline pilot
+
+This separately frozen diagnostic changes compiler optimization from O2 to O3. It retains the Q22 actor, portable Ed25519 implementation, receipt-verification order, offered counts, traffic classes, original 90/350/1500 ms source deadlines and authenticated negative controls. It does not use the fast private-MAC receipt endpoint. No improved result is assumed.
+
+Two topologies offer 100 packets each. Functional acceptance requires every offered identity at the sink and a source-verified signed receipt, matching policy decisions and retained negative controls. Deadline compliance is reported separately and requires zero signed misses. These sequential diagnostics are not independent statistical replicates, and historical Mac O2 versus current Linux O3 comparisons remain descriptive.
+
+The GitHub workflow verifies the official Renode 1.17.0 portable archive hash, records dependency versions, generates isolated build/audit/runner files and scans public outputs for ephemeral secret values. Keys and host allocation state remain under a private runner-temporary directory and must never be uploaded. As in the original private-provisioning experiment, reviewers cannot recheck private hop tags without retained private fixture material; they can reproduce fresh executions. No protected MCU storage or physical RF/energy claim follows.
+
+Run prepare.py before build/mcu_deadline_v1/build_generated.py, then invoke run_generated.py with the actual Renode executable, --packets 100, --topology chain or choice, and explicit fresh output paths. WSN_PRIVATE_ROOT must refer to a private location outside public outputs. summarize.py validates counts, original signed deadlines and secret exclusion. Runtime, compile or audit failures remain failures; they are not relabeled successful deadline tests.
