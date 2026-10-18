@@ -61,9 +61,17 @@ class Datagram:
 class Pending:
     packet:Datagram;previous:int|None;peer:int|None;expires:float;acked:bool=False;receipt:bool=False;settled:bool=False;credited:bool=False
 class Node:
-    def __init__(self,node,xy,sink,sink_xy,channel,sink_public,sink_private=None,capacity=128):
+    def __init__(self,node,xy,sink,sink_xy,channel,sink_public,sink_private=None,capacity=128,clock_envelope=None):
+        self.clock_envelope=clock_envelope
         self.id=node;self.xy=tuple(xy);self.sink=sink;self.sink_xy=tuple(sink_xy);self.channel=channel;self.public=sink_public;self.private=sink_private;self.capacity=capacity
         self.cache={};self.beacon_sequences={};self.pending={};self.delivered={};self.delivered_total=0;self.accepted=deque(maxlen=capacity);self.success_counts={};self.debts=[0.,0.,0.];self.rejects={};self.settlements=0;self.evictions=0;self.max_pending=0;self.last_pid=-1
+    def _fresh(self,stamp,now,ttl):
+        if self.clock_envelope is None:
+            return now-stamp<=ttl and stamp<=now+1e-6
+        return self.clock_envelope.accepts(stamp,now,ttl)
+    def _cache_expired(self,stamp,now):
+        if self.clock_envelope is None:return now-stamp>.75
+        return self.clock_envelope.expired(stamp,now,.75)
     def _remember(self,p,now):
         self.expire(now)
         if len(self.pending)>=self.capacity:self.evictions+=1;return False
@@ -81,7 +89,7 @@ class Node:
         packet=replace(packet,visited=packet.visited|(1<<self.id),hops=packet.hops+1)
         current=math.dist(self.xy,self.sink_xy);choices=[]
         for peer,(x,y,energy,queue,stamp) in self.cache.items():
-            if now-stamp>.75 or energy<=0 or packet.visited&(1<<peer):continue
+            if self._cache_expired(stamp,now) or energy<=0 or packet.visited&(1<<peer):continue
             distance=math.dist((x,y),self.sink_xy)
             if distance<current:choices.append((distance,queue,peer))
         if not choices:return []
@@ -108,14 +116,14 @@ class Node:
             if now>=expiry:del self.delivered[identity]
         # Cache contains only provisioned peers, with finite capacity by design.
         for peer,state in list(self.cache.items()):
-            if now-state[-1]>.75:del self.cache[peer]
+            if self._cache_expired(state[-1],now):del self.cache[peer]
     def receive(self,wire,mac_peer,now):
         try:
             kind,peer,body,sequence=self.channel.open(wire,mac_peer)
             if kind==1:
                 if len(body)!=BEACON.size:raise Rejected('beacon length')
                 x,y,e,q,stamp_us=BEACON.unpack(body);stamp=stamp_us/1e6
-                if now-stamp>.75 or stamp>now+1e-6:raise Rejected('stale beacon')
+                if not self._fresh(stamp,now,.75):raise Rejected('stale beacon')
                 if sequence<=self.beacon_sequences.get(peer,-1):raise Rejected('older beacon')
                 if not all(math.isfinite(v) for v in [x,y,e]) or not 0<=e<=1:raise Rejected('beacon values')
                 self.beacon_sequences[peer]=sequence;self.cache[peer]=(x,y,e,q,stamp);self.accepted.append('beacon');return []
@@ -123,7 +131,7 @@ class Node:
                 packet=Datagram.decode(body)
                 expected_session=self.channel.session if packet.source==self.id else self.channel.peer_sessions.get(packet.source)
                 if packet.session!=expected_session:raise Rejected('source session')
-                if packet.created_us>now*1e6+1 or now-packet.created_us/1e6>2. or packet.visited&(1<<self.id):raise Rejected('stale/loop data')
+                if not self._fresh(packet.created_us/1e6,now,2.) or packet.visited&(1<<self.id):raise Rejected('stale/loop data')
                 if not packet.visited&(1<<peer):raise Rejected('missing previous hop')
                 if packet.key in self.pending or packet.key in self.delivered:raise Rejected('duplicate data')
                 if self.id==self.sink:

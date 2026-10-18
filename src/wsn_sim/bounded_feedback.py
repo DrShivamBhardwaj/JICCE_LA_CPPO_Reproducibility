@@ -2,26 +2,29 @@
 
 Reliability is clipped once per record, then multiplied by evidence increments.
 Records and diagnostics have explicit capacities. Packet identifiers must increase
-strictly for each observer/peer pair within this ledger session.
+within a bounded 64-identity replay window for each observer/peer pair.
 """
 import math
 from collections import deque
 from .censored_feedback import FeedbackLedger
 
 class BoundedFeedbackLedger(FeedbackLedger):
-    def __init__(self, n_nodes, capacity=128, retention_s=2.0, history_capacity=256):
+    def __init__(self, n_nodes, capacity=128, retention_s=2.0, history_capacity=256, mode='censored'):
         if not isinstance(n_nodes, int) or n_nodes < 1:
             raise ValueError("positive node count required")
         if not isinstance(capacity, int) or capacity < 1 or not isinstance(history_capacity, int) or history_capacity < 1:
             raise ValueError("positive capacities required")
         if not math.isfinite(retention_s) or retention_s < .15:
             raise ValueError("retention must cover the 150 ms evidence timeout")
-        super().__init__(n_nodes, "censored")
+        if mode not in ('censored','naive'):raise ValueError('unsupported bounded mode')
+        super().__init__(n_nodes, mode)
         self.n_nodes = n_nodes
         self.capacity = capacity
         self.retention_s = retention_s
         self.updates = deque(maxlen=history_capacity)
         self.highest_pid = {}
+        self.identity_bits = {}
+        self.old_identity_rejections = 0
         self.last_time = -math.inf
         self.retired = 0
         self.capacity_rejections = 0
@@ -44,10 +47,23 @@ class BoundedFeedbackLedger(FeedbackLedger):
             raise ValueError("link success must lie in [0,1]")
         self._advance(time)
         pair = observer, peer
-        if pid <= self.highest_pid.get(pair, -1):
-            raise ValueError("packet identifiers must increase within session")
-        # Reserve even rejected identities so delayed evidence cannot attach to reuse.
-        self.highest_pid[pair] = pid
+        high = self.highest_pid.get(pair, -1)
+        bits = self.identity_bits.get(pair, 0)
+        if pid > high:
+            gap = pid - high
+            bits = 1 if high < 0 or gap >= 64 else ((bits << gap) | 1) & ((1 << 64) - 1)
+            high = pid
+        else:
+            distance = high - pid
+            if distance >= 64:
+                self.old_identity_rejections += 1
+                return False
+            if bits & (1 << distance):
+                raise ValueError("packet identity already registered within session")
+            bits |= 1 << distance
+        # Reserve rejected identities too; delayed evidence cannot attach to reuse.
+        self.highest_pid[pair] = high
+        self.identity_bits[pair] = bits
         if len(self.watches) >= self.capacity:
             self.capacity_rejections += 1
             return False

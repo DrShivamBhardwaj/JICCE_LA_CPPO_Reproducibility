@@ -76,3 +76,14 @@ def test_invalid_input_and_clock_regression():
         ledger.expire(.5)
     with pytest.raises(ValueError):
         ledger.evidence(0, 1, 1, "invented", 1.)
+
+def test_reordered_new_identifiers_are_accepted_within_bounded_window():
+    ledger=BoundedFeedbackLedger(2)
+    assert ledger.register(0,1,10,0.,.9)
+    assert ledger.register(0,1,8,.01,.9)
+    with pytest.raises(ValueError):
+        ledger.register(0,1,8,.02,.9)
+    assert ledger.register(0,1,100,.03,.9)
+    assert not ledger.register(0,1,9,.04,.9)
+    assert ledger.old_identity_rejections==1
+    assert ledger.identity_bits[(0,1)].bit_length()<=64
