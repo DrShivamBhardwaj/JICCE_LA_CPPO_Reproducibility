@@ -1,0 +1,9 @@
+{
+  "classification": "Exploratory paired recorded-logit analysis; no intervention or new radio run",
+  "feedback_rows": 143928,
+  "matched_decisions": 11927,
+  "logits_differ": 7023,
+  "max_valid_logit_difference": 0.15596652030944824,
+  "risk_columns": "Implemented heuristic with .75 scaling and 1.645 multiplier; not calibrated uncertainty",
+  "physical_validation": false
+}

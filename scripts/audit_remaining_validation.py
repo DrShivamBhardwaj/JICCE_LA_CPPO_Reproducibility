@@ -20,6 +20,13 @@ def assess(root):
             'signed_deadline_misses':sum(x['signed_deadline_misses'] for x in rows)}
         if profile=='cc2538_fast':
             profiles[profile]['fast_private_deadline_misses']=sum(x['fast_deadline_misses'] for x in rows)
+    pilot_path=root/'outputs/mcu_deadline_v1/analysis.json'
+    pilot=None
+    if pilot_path.exists():
+        pilot=json.loads(pilot_path.read_text())
+        if pilot.get('status')!='completed_compiler_only_pilot' or len(pilot['rows'])!=2 or any(x['offered']!=100 or x['delivered']!=100 or x['signed_receipts']!=100 for x in pilot['rows']):
+            raise ValueError('Incomplete O3 diagnostic')
+        pilot={'runs':2,'offered':200,'signed_deadline_misses':sum(x['signed_deadline_misses'] for x in pilot['rows']),'physical_validation':False,'scope':'Compiler-only sequential functional diagnostic; no new deadline endpoint'}
     checks=[
       {'id':'original_signed_deadline','complete':profiles['cc2538_q22']['signed_deadline_misses']==0,
        'evidence':'outputs/cc2538_fast/receipt_profiles_summary.json',
@@ -39,7 +46,7 @@ def assess(root):
     virtual=json.loads(extension.read_text()) if extension.exists() else None
     return {'status':'complete' if all(x['complete'] for x in checks) else 'incomplete',
       'full_validation_complete':all(x['complete'] for x in checks),
-      'profiles':profiles,'checks':checks,'completed_cooja_extension':{'runs':virtual['runs'],'policy_decisions_verified':virtual['policy_decisions'],'physical_validation':False} if virtual and virtual.get('status')=='passed_paired_seed_analysis' else None,
+      'profiles':profiles,'completed_mcu_o3':pilot,'checks':checks,'completed_cooja_extension':{'runs':virtual['runs'],'policy_decisions_verified':virtual['policy_decisions'],'physical_validation':False} if virtual and virtual.get('status')=='passed_paired_seed_analysis' else None,
       'scope':'Retained emulation diagnostics only; no external approval or physical certification inferred.',
       'summary_sha256':hashlib.sha256((root/'outputs/cc2538_fast/receipt_profiles_summary.json').read_bytes()).hexdigest()}
 

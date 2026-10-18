@@ -1,0 +1,62 @@
+{
+  "status": "incomplete",
+  "full_validation_complete": false,
+  "profiles": {
+    "cc2538_v2": {
+      "offered": 200,
+      "signed_deadline_misses": 134
+    },
+    "cc2538_q22": {
+      "offered": 200,
+      "signed_deadline_misses": 68
+    },
+    "cc2538_fast": {
+      "offered": 200,
+      "signed_deadline_misses": 68,
+      "fast_private_deadline_misses": 0
+    }
+  },
+  "completed_mcu_o3": {
+    "runs": 2,
+    "offered": 200,
+    "signed_deadline_misses": 68,
+    "physical_validation": false,
+    "scope": "Compiler-only sequential functional diagnostic; no new deadline endpoint"
+  },
+  "checks": [
+    {
+      "id": "original_signed_deadline",
+      "complete": false,
+      "evidence": "outputs/cc2538_fast/receipt_profiles_summary.json",
+      "reason": "Original signed endpoint; private source MAC is a separate endpoint."
+    },
+    {
+      "id": "physical_rf_energy",
+      "complete": false,
+      "evidence": "outputs/cc2538_fast/hardware_presence.json",
+      "reason": "No acquired physical RF/current trace or reviewed board port; emulation cannot substitute."
+    },
+    {
+      "id": "production_mcu_security",
+      "complete": false,
+      "reason": "Protected key storage, persistent device sessions, physical provisioning and board-specific security tests not validated."
+    },
+    {
+      "id": "coauthor_approvals",
+      "complete": false,
+      "reason": "Actual final-version approvals and contribution/exclusivity confirmations not supplied; unchecked templates are not consent."
+    },
+    {
+      "id": "authenticated_submission",
+      "complete": false,
+      "reason": "Authenticated portal requirements and final assembled submission PDF not independently checked."
+    }
+  ],
+  "completed_cooja_extension": {
+    "runs": 600,
+    "policy_decisions_verified": 61845,
+    "physical_validation": false
+  },
+  "scope": "Retained emulation diagnostics only; no external approval or physical certification inferred.",
+  "summary_sha256": "3b2fe96ab2fa0a9428e56d03afcec5d94e85a27d7eae8a3d26b24ef899a75473"
+}

@@ -178,6 +178,10 @@ extended_report.update(integrate_cooja(d,ROOT))
 from array_failure_boundary_revision import apply as integrate_boundary
 extended_report.update(integrate_boundary(d,ROOT))
 layout_report.update(figures_in_body=12,tables_in_body=11)
+if (ROOT/'outputs/remediation_v1/execution_complete.json').exists():
+ from array_remediation_integration import apply as integrate_remediation
+ extended_report.update(integrate_remediation(d,ROOT))
+ layout_report.update(figures_in_body=14,tables_in_body=12)
 abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
 assert len(abstract.split())<=250
 dest=out/'Array_Manuscript.docx';d.save(dest)
@@ -188,7 +192,10 @@ highlights=['Feedback gains in 750 runs do not generalize to every tested transp
 'Authenticated wire state supports a separate 180-run policy transfer study.',
 'Attention shows no established delivery advantage over matched controls.',
 'Cooja exposes failure after a cooperative relay changes behavior.']
+if (ROOT/'outputs/remediation_v1/execution_complete.json').exists():
+ from finalize_remediation_package import HIGHLIGHTS
+ highlights=HIGHLIGHTS
 assert all(len(x)<=85 for x in highlights)
 (out/'Highlights.txt').write_text('\n'.join(highlights)+'\n')
-(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=12,tables=11,references=25,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
+(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=layout_report['figures_in_body'],tables=layout_report['tables_in_body'],references=25,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
 print(dest)
