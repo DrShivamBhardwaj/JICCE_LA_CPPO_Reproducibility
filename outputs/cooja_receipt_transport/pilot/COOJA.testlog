@@ -1,0 +1,38 @@
+Random seed: 1
+1000 node-1 [INFO: Main      ] - Routing: nullrouting
+1000 node-1 [INFO: Main      ] - Net: nullnet
+1000 node-1 [INFO: Main      ] - MAC: CSMA
+1000 node-1 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-1 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-1 [INFO: Main      ] Node ID: 0
+1000 node-1 [INFO: Main      ] Link-layer address: 0100.0000.0000.0000
+1000 node-2 [INFO: Main      ] Starting Contiki-NG-release/v5.2
+1000 node-2 [INFO: Main      ] - Routing: nullrouting
+1000 node-2 [INFO: Main      ] - Net: nullnet
+1000 node-2 [INFO: Main      ] - MAC: CSMA
+1000 node-2 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-2 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-2 [INFO: Main      ] Node ID: 0
+1000 node-2 [INFO: Main      ] Link-layer address: 0200.0000.0000.0000
+1000 node-3 [INFO: Main      ] Starting Contiki-NG-release/v5.2
+1000 node-3 [INFO: Main      ] - Routing: nullrouting
+1000 node-3 [INFO: Main      ] - Net: nullnet
+1000 node-3 [INFO: Main      ] - MAC: CSMA
+1000 node-3 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-3 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-3 [INFO: Main      ] Node ID: 0
+1000 node-3 [INFO: Main      ] Link-layer address: 0300.0000.0000.0000
+1000 node-4 [INFO: Main      ] Starting Contiki-NG-release/v5.2
+1000 node-4 [INFO: Main      ] - Routing: nullrouting
+1000 node-4 [INFO: Main      ] - Net: nullnet
+1000 node-4 [INFO: Main      ] - MAC: CSMA
+1000 node-4 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-4 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-4 [INFO: Main      ] Node ID: 0
+1000 node-4 [INFO: Main      ] Link-layer address: 0400.0000.0000.0000
+116001000 node-1 FINAL node=0 offered=0 delivered=0 receipts=0 bad_hop=0 replay=0 bad_signature=0 cpu=116000000 lpm=0 tx=0 listen=116000000 energy_hz=1000000
+116001000 node-2 FINAL node=0 offered=0 delivered=0 receipts=0 bad_hop=0 replay=0 bad_signature=0 cpu=116000000 lpm=0 tx=0 listen=116000000 energy_hz=1000000
+116001000 node-3 FINAL node=0 offered=0 delivered=0 receipts=0 bad_hop=0 replay=0 bad_signature=0 cpu=116000000 lpm=0 tx=0 listen=116000000 energy_hz=1000000
+116001000 node-4 FINAL node=0 offered=0 delivered=0 receipts=0 bad_hop=0 replay=0 bad_signature=0 cpu=116000000 lpm=0 tx=0 listen=116000000 energy_hz=1000000
+TEST OK
+Test ended at simulation time: 116001000

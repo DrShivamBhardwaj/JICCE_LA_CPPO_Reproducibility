@@ -25,3 +25,7 @@ Individual coauthor approvals, contribution roles, exclusivity/related-work decl
 ## Machine-readable full-validation gate
 
 Run `python scripts/audit_remaining_validation.py --output outputs/cc2538_fast/full_validation_status.json`. Exit code 2 deliberately means the full requested scope is incomplete. Private MAC success cannot pass the signed-receipt criterion. External evidence needs actual acquisition/author review; caller-supplied status flags cannot certify it.
+
+## Cooja extension
+
+Nine separate native Cooja transport diagnostics delivered 900/900 packets and signed receipts with modeled radio loss and CSMA retries. This simplified public-key fixture omits the trained policy and passive-credit mechanism; it does not complete physical RF/energy, production security or MCU-cycle timing validation. See hardware/cooja_receipt_transport/README.md and publication/array/Cooja_Transport_Validation_Addendum.md.

@@ -19,5 +19,9 @@
   "fast_source_deadline_compliance_observed": true,
   "fast_endpoint_scope": "Private source-sink MAC; 200 sequential packets; not the original Ed25519 deadline",
   "production_mcu_security_validated": false,
-  "coauthor_approval_certified": false
+  "coauthor_approval_certified": false,
+  "cooja_addendum_separate": true,
+  "cooja_frozen_diagnostic_runs": 9,
+  "cooja_packets_delivered": 900,
+  "cooja_trained_policy_executed": false
 }

@@ -22,3 +22,7 @@ Official guide: https://www.sciencedirect.com/journal/array/publish/guide-for-au
 Each coauthor must approve the final manuscript, contribution statement, metadata and submission. Confirm exclusivity and disclose related publications/preprints or overlapping manuscripts. The previous JICCE rejection is known; no other manuscript's status is inferred. Verify rights/permissions and responsibility for AI-assisted code, text and figures. Inspect the portal's current requirements, review the assembled PDF and approve any agreement or payable quotation. No submission, message, signature or payment has been made.
 
 Physical validation is required for physical RF/energy claims; those claims are not made in this benchmark. Missing hardware must not be replaced by invented measurements or treated as evidence of journal acceptance.
+
+## Access check, 18 October 2026
+
+The official guide returned HTTP 403 in web retrieval; direct browser interaction with the official homepage showed “Site Unavailable — Unable to access this site.” No authenticated portal fields, upload requirements or assembled portal PDF were verified. No submission was created or declarations accepted. Coauthor request drafts identify the exact PDF hash; they have not been sent and do not record consent. See publication/array/external_validation_access_check.json.

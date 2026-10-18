@@ -1,0 +1,14 @@
+{
+  "board_model": null,
+  "board_serial": null,
+  "meter_model": null,
+  "meter_serial": null,
+  "calibration_record": null,
+  "supply_boundary": null,
+  "firmware_sha256": null,
+  "packet_capture_sha256": null,
+  "sampling_rate_hz": null,
+  "max_sample_gap_s": null,
+  "operator": null,
+  "acquired_at": null
+}

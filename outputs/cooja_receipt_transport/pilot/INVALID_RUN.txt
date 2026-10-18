@@ -1,0 +1,1 @@
+Excluded: Cooja node-id variable was zero despite valid link-layer IDs. No packets offered. TEST OK only meant script completion, not protocol acceptance. Retained as a runner failure; corrected run uses link-layer node IDs and independent count audit.

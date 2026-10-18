@@ -1,0 +1,25 @@
+INFO  [main] [Cooja.java:1147] - Loading /Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001/simulation.csc random seed: null
+> make receipt-transport.cooja TARGET=cooja CONTIKI=/Users/shivambhardwaj/Research/contiki-ng
+  CC        receipt-transport.c
+  LD        build/cooja/receipt-transport.cooja
+INFO  [main] [LogScriptEngine.java:231] - Script timeout in 130000 ms
+INFO  [sim] [LogScriptEngine.java:320] -  5% completed,  0.8 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 10% completed,  0.7 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 15% completed,  0.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 20% completed,  0.5 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 25% completed,  0.4 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 30% completed,  0.4 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 35% completed,  0.3 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 40% completed,  0.3 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 45% completed,  0.3 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 50% completed,  0.2 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 55% completed,  0.2 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 60% completed,  0.2 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 65% completed,  0.2 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 70% completed,  0.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 75% completed,  0.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 80% completed,  0.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 85% completed,  0.1 sec remaining
+INFO  [sim] [Simulation.java:450] - Runtime: 360 ms. Simulated time: 116001 ms. Speedup: 322.225
+INFO  [main] [Cooja.java:1173] - TEST OK
+

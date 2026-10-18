@@ -1,0 +1,29 @@
+{
+  "scope": "Native Cooja CSMA fixed-chain authenticated transport, not full policy/credit equivalence or physical validation",
+  "seeds": [
+    91001,
+    91002,
+    91003
+  ],
+  "udgm_rx_probabilities": [
+    1.0,
+    0.9,
+    0.7
+  ],
+  "offered_per_run": 100,
+  "source_interval_s": 1,
+  "nodes": 4,
+  "spacing_m": 30,
+  "transmitting_range_m": 40,
+  "interference_range_m": 80,
+  "frame_application_bytes": 100,
+  "public_test_keys": true,
+  "attention_policy_executed": false,
+  "passive_credit_implemented": false,
+  "physical_energy_measured": false,
+  "native_cpu_cost_modelled": false,
+  "freeze_source_sha256": "d981bd01ba21f571faea8e289bb2d7b44b9565382cf4f9f426a695c749da17ed",
+  "contiki_commit": "4ccd1a3b9e767f168d12ec3df187fe6b7dc736b5",
+  "cooja_commit": "fabff3ee41eeeb6f3de7bd11f7c9cdf0a7d7dfc4",
+  "cooja_jar_sha256": "04d86c9a96190eb1297e9d712eca2894f896312700e1c2d24d97fce53ead9ef7"
+}

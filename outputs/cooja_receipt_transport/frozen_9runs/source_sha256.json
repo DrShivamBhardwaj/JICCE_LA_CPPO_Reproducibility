@@ -1,0 +1,6 @@
+{
+  "hardware/cooja_receipt_transport/chain.csc": "e519aec230b811532e6974fb817034f5b003b90ffe9efc536dc2a3e481d1177b",
+  "hardware/cooja_receipt_transport/native-compat.h": "ad05b064828f16fa505757b2a7f18a1673688ee4ec4580c9e37747412a8ad36d",
+  "hardware/cooja_receipt_transport/project-conf.h": "8dc885ae1617d74ef1258a772be29ecf0424e1a716b29c4ed92b033035a7e2f8",
+  "hardware/cooja_receipt_transport/receipt-transport.c": "d981bd01ba21f571faea8e289bb2d7b44b9565382cf4f9f426a695c749da17ed"
+}

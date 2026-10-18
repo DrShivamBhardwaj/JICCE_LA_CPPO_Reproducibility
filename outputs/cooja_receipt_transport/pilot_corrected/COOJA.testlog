@@ -1,0 +1,946 @@
+Random seed: 1
+1000 node-1 [INFO: Main      ] - Routing: nullrouting
+1000 node-1 [INFO: Main      ] - Net: nullnet
+1000 node-1 [INFO: Main      ] - MAC: CSMA
+1000 node-1 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-1 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-1 [INFO: Main      ] Node ID: 0
+1000 node-1 [INFO: Main      ] Link-layer address: 0100.0000.0000.0000
+1000 node-2 [INFO: Main      ] Starting Contiki-NG-release/v5.2
+1000 node-2 [INFO: Main      ] - Routing: nullrouting
+1000 node-2 [INFO: Main      ] - Net: nullnet
+1000 node-2 [INFO: Main      ] - MAC: CSMA
+1000 node-2 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-2 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-2 [INFO: Main      ] Node ID: 0
+1000 node-2 [INFO: Main      ] Link-layer address: 0200.0000.0000.0000
+1000 node-3 [INFO: Main      ] Starting Contiki-NG-release/v5.2
+1000 node-3 [INFO: Main      ] - Routing: nullrouting
+1000 node-3 [INFO: Main      ] - Net: nullnet
+1000 node-3 [INFO: Main      ] - MAC: CSMA
+1000 node-3 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-3 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-3 [INFO: Main      ] Node ID: 0
+1000 node-3 [INFO: Main      ] Link-layer address: 0300.0000.0000.0000
+1000 node-4 [INFO: Main      ] Starting Contiki-NG-release/v5.2
+1000 node-4 [INFO: Main      ] - Routing: nullrouting
+1000 node-4 [INFO: Main      ] - Net: nullnet
+1000 node-4 [INFO: Main      ] - MAC: CSMA
+1000 node-4 [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+1000 node-4 [INFO: Main      ] - 802.15.4 Default channel: 26
+1000 node-4 [INFO: Main      ] Node ID: 0
+1000 node-4 [INFO: Main      ] Link-layer address: 0400.0000.0000.0000
+5001000 node-1 INJECT type=hop
+5013968 node-2 REJECT node=2 type=hop seq=1
+6001000 node-1 WIRE node=1 kind=1 seq=1 next=2
+6001000 node-1 OFFER seq=1 ticks=6001
+6030968 node-2 WIRE node=2 kind=1 seq=1 next=3
+6055968 node-3 WIRE node=3 kind=1 seq=1 next=4
+6078968 node-4 DELIVER node=4 seq=1
+6078968 node-4 WIRE node=4 kind=3 seq=1 next=3
+6101968 node-3 WIRE node=3 kind=3 seq=1 next=2
+6139968 node-2 WIRE node=2 kind=3 seq=1 next=1
+6166968 node-1 RECEIPT node=1 seq=1 ticks=165 hz=1000
+7001000 node-1 WIRE node=1 kind=1 seq=2 next=2
+7001000 node-1 OFFER seq=2 ticks=7001
+7009968 node-2 WIRE node=2 kind=1 seq=2 next=3
+7033968 node-3 WIRE node=3 kind=1 seq=2 next=4
+7064968 node-4 DELIVER node=4 seq=2
+7064968 node-4 WIRE node=4 kind=3 seq=2 next=3
+7108968 node-3 WIRE node=3 kind=3 seq=2 next=2
+7129968 node-2 WIRE node=2 kind=3 seq=2 next=1
+7138968 node-1 RECEIPT node=1 seq=2 ticks=137 hz=1000
+8001000 node-1 WIRE node=1 kind=1 seq=3 next=2
+8001000 node-1 OFFER seq=3 ticks=8001
+8033968 node-2 WIRE node=2 kind=1 seq=3 next=3
+8071968 node-3 WIRE node=3 kind=1 seq=3 next=4
+8100968 node-4 DELIVER node=4 seq=3
+8100968 node-4 WIRE node=4 kind=3 seq=3 next=3
+8135968 node-3 WIRE node=3 kind=3 seq=3 next=2
+8174968 node-2 WIRE node=2 kind=3 seq=3 next=1
+8205968 node-1 RECEIPT node=1 seq=3 ticks=204 hz=1000
+9001000 node-1 WIRE node=1 kind=1 seq=4 next=2
+9001000 node-1 OFFER seq=4 ticks=9001
+9048968 node-2 WIRE node=2 kind=1 seq=4 next=3
+9085968 node-3 WIRE node=3 kind=1 seq=4 next=4
+9115968 node-4 DELIVER node=4 seq=4
+9115968 node-4 WIRE node=4 kind=3 seq=4 next=3
+9128968 node-3 WIRE node=3 kind=3 seq=4 next=2
+9136968 node-2 WIRE node=2 kind=3 seq=4 next=1
+9168968 node-1 RECEIPT node=1 seq=4 ticks=167 hz=1000
+10001000 node-1 WIRE node=1 kind=1 seq=5 next=2
+10001000 node-1 OFFER seq=5 ticks=10001
+10021968 node-2 WIRE node=2 kind=1 seq=5 next=3
+10034968 node-3 WIRE node=3 kind=1 seq=5 next=4
+10073968 node-4 DELIVER node=4 seq=5
+10073968 node-4 WIRE node=4 kind=3 seq=5 next=3
+10084968 node-3 WIRE node=3 kind=3 seq=5 next=2
+10102968 node-2 WIRE node=2 kind=3 seq=5 next=1
+10115968 node-1 RECEIPT node=1 seq=5 ticks=114 hz=1000
+11001000 node-1 WIRE node=1 kind=1 seq=6 next=2
+11001000 node-1 OFFER seq=6 ticks=11001
+11029968 node-2 WIRE node=2 kind=1 seq=6 next=3
+11073968 node-3 WIRE node=3 kind=1 seq=6 next=4
+11091968 node-4 DELIVER node=4 seq=6
+11091968 node-4 WIRE node=4 kind=3 seq=6 next=3
+11105968 node-3 WIRE node=3 kind=3 seq=6 next=2
+11151968 node-2 WIRE node=2 kind=3 seq=6 next=1
+11161968 node-1 RECEIPT node=1 seq=6 ticks=160 hz=1000
+12001000 node-1 WIRE node=1 kind=1 seq=7 next=2
+12001000 node-1 OFFER seq=7 ticks=12001
+12029968 node-2 WIRE node=2 kind=1 seq=7 next=3
+12052968 node-3 WIRE node=3 kind=1 seq=7 next=4
+12093968 node-4 DELIVER node=4 seq=7
+12093968 node-4 WIRE node=4 kind=3 seq=7 next=3
+12130968 node-3 WIRE node=3 kind=3 seq=7 next=2
+12174968 node-2 WIRE node=2 kind=3 seq=7 next=1
+12217968 node-1 RECEIPT node=1 seq=7 ticks=216 hz=1000
+13001000 node-1 WIRE node=1 kind=1 seq=8 next=2
+13001000 node-1 OFFER seq=8 ticks=13001
+13010968 node-2 WIRE node=2 kind=1 seq=8 next=3
+13046968 node-3 WIRE node=3 kind=1 seq=8 next=4
+13086968 node-4 DELIVER node=4 seq=8
+13086968 node-4 WIRE node=4 kind=3 seq=8 next=3
+13100968 node-3 WIRE node=3 kind=3 seq=8 next=2
+13132968 node-2 WIRE node=2 kind=3 seq=8 next=1
+13144968 node-1 RECEIPT node=1 seq=8 ticks=143 hz=1000
+14001000 node-1 WIRE node=1 kind=1 seq=9 next=2
+14001000 node-1 OFFER seq=9 ticks=14001
+14010968 node-2 WIRE node=2 kind=1 seq=9 next=3
+14017936 node-3 WIRE node=3 kind=1 seq=9 next=4
+14036968 node-4 DELIVER node=4 seq=9
+14036968 node-4 WIRE node=4 kind=3 seq=9 next=3
+14082968 node-3 WIRE node=3 kind=3 seq=9 next=2
+14102968 node-2 WIRE node=2 kind=3 seq=9 next=1
+14137968 node-1 RECEIPT node=1 seq=9 ticks=136 hz=1000
+15001000 node-1 WIRE node=1 kind=1 seq=10 next=2
+15001000 node-1 OFFER seq=10 ticks=15001
+15007968 node-2 WIRE node=2 kind=1 seq=10 next=3
+15021968 node-3 WIRE node=3 kind=1 seq=10 next=4
+15032968 node-4 DELIVER node=4 seq=10
+15032968 node-4 WIRE node=4 kind=3 seq=10 next=3
+15050968 node-3 WIRE node=3 kind=3 seq=10 next=2
+15081968 node-2 WIRE node=2 kind=3 seq=10 next=1
+15107968 node-1 RECEIPT node=1 seq=10 ticks=106 hz=1000
+16001000 node-1 WIRE node=1 kind=1 seq=11 next=2
+16001000 node-1 OFFER seq=11 ticks=16001
+16032968 node-2 WIRE node=2 kind=1 seq=11 next=3
+16060968 node-3 WIRE node=3 kind=1 seq=11 next=4
+16097968 node-4 DELIVER node=4 seq=11
+16097968 node-4 WIRE node=4 kind=3 seq=11 next=3
+16131968 node-3 WIRE node=3 kind=3 seq=11 next=2
+16170968 node-2 WIRE node=2 kind=3 seq=11 next=1
+16192968 node-1 RECEIPT node=1 seq=11 ticks=191 hz=1000
+17001000 node-1 WIRE node=1 kind=1 seq=12 next=2
+17001000 node-1 OFFER seq=12 ticks=17001
+17024968 node-2 WIRE node=2 kind=1 seq=12 next=3
+17062968 node-3 WIRE node=3 kind=1 seq=12 next=4
+17089968 node-4 DELIVER node=4 seq=12
+17089968 node-4 WIRE node=4 kind=3 seq=12 next=3
+17101968 node-3 WIRE node=3 kind=3 seq=12 next=2
+17119968 node-2 WIRE node=2 kind=3 seq=12 next=1
+17150968 node-1 RECEIPT node=1 seq=12 ticks=149 hz=1000
+18001000 node-1 WIRE node=1 kind=1 seq=13 next=2
+18001000 node-1 OFFER seq=13 ticks=18001
+18042968 node-2 WIRE node=2 kind=1 seq=13 next=3
+18058968 node-3 WIRE node=3 kind=1 seq=13 next=4
+18068968 node-4 DELIVER node=4 seq=13
+18068968 node-4 WIRE node=4 kind=3 seq=13 next=3
+18098968 node-3 WIRE node=3 kind=3 seq=13 next=2
+18106968 node-2 WIRE node=2 kind=3 seq=13 next=1
+18130968 node-1 RECEIPT node=1 seq=13 ticks=129 hz=1000
+19001000 node-1 WIRE node=1 kind=1 seq=14 next=2
+19001000 node-1 OFFER seq=14 ticks=19001
+19035968 node-2 WIRE node=2 kind=1 seq=14 next=3
+19064968 node-3 WIRE node=3 kind=1 seq=14 next=4
+19084968 node-4 DELIVER node=4 seq=14
+19084968 node-4 WIRE node=4 kind=3 seq=14 next=3
+19114968 node-3 WIRE node=3 kind=3 seq=14 next=2
+19126968 node-2 WIRE node=2 kind=3 seq=14 next=1
+19154968 node-1 RECEIPT node=1 seq=14 ticks=153 hz=1000
+20001000 node-1 WIRE node=1 kind=1 seq=15 next=2
+20001000 node-1 OFFER seq=15 ticks=20001
+20040968 node-2 WIRE node=2 kind=1 seq=15 next=3
+20075968 node-3 WIRE node=3 kind=1 seq=15 next=4
+20082968 node-4 DELIVER node=4 seq=15
+20082968 node-4 WIRE node=4 kind=3 seq=15 next=3
+20089936 node-3 WIRE node=3 kind=3 seq=15 next=2
+20109968 node-2 WIRE node=2 kind=3 seq=15 next=1
+20153968 node-1 RECEIPT node=1 seq=15 ticks=152 hz=1000
+21001000 node-1 WIRE node=1 kind=1 seq=16 next=2
+21001000 node-1 OFFER seq=16 ticks=21001
+21021968 node-2 WIRE node=2 kind=1 seq=16 next=3
+21033968 node-3 WIRE node=3 kind=1 seq=16 next=4
+21048968 node-4 DELIVER node=4 seq=16
+21048968 node-4 WIRE node=4 kind=3 seq=16 next=3
+21085968 node-3 WIRE node=3 kind=3 seq=16 next=2
+21109968 node-2 WIRE node=2 kind=3 seq=16 next=1
+21148968 node-1 RECEIPT node=1 seq=16 ticks=147 hz=1000
+22001000 node-1 WIRE node=1 kind=1 seq=17 next=2
+22001000 node-1 OFFER seq=17 ticks=22001
+22038968 node-2 WIRE node=2 kind=1 seq=17 next=3
+22085968 node-3 WIRE node=3 kind=1 seq=17 next=4
+22130968 node-4 DELIVER node=4 seq=17
+22130968 node-4 WIRE node=4 kind=3 seq=17 next=3
+22149968 node-3 WIRE node=3 kind=3 seq=17 next=2
+22161968 node-2 WIRE node=2 kind=3 seq=17 next=1
+22198968 node-1 RECEIPT node=1 seq=17 ticks=197 hz=1000
+23001000 node-1 WIRE node=1 kind=1 seq=18 next=2
+23001000 node-1 OFFER seq=18 ticks=23001
+23009968 node-2 WIRE node=2 kind=1 seq=18 next=3
+23024968 node-3 WIRE node=3 kind=1 seq=18 next=4
+23046968 node-4 DELIVER node=4 seq=18
+23046968 node-4 WIRE node=4 kind=3 seq=18 next=3
+23071968 node-3 WIRE node=3 kind=3 seq=18 next=2
+23108968 node-2 WIRE node=2 kind=3 seq=18 next=1
+23133968 node-1 RECEIPT node=1 seq=18 ticks=132 hz=1000
+24001000 node-1 WIRE node=1 kind=1 seq=19 next=2
+24001000 node-1 OFFER seq=19 ticks=24001
+24041968 node-2 WIRE node=2 kind=1 seq=19 next=3
+24068968 node-3 WIRE node=3 kind=1 seq=19 next=4
+24087968 node-4 DELIVER node=4 seq=19
+24087968 node-4 WIRE node=4 kind=3 seq=19 next=3
+24121968 node-3 WIRE node=3 kind=3 seq=19 next=2
+24166968 node-2 WIRE node=2 kind=3 seq=19 next=1
+24205968 node-1 RECEIPT node=1 seq=19 ticks=204 hz=1000
+25001000 node-1 WIRE node=1 kind=1 seq=20 next=2
+25001000 node-1 OFFER seq=20 ticks=25001
+25038968 node-2 WIRE node=2 kind=1 seq=20 next=3
+25054968 node-3 WIRE node=3 kind=1 seq=20 next=4
+25092968 node-4 DELIVER node=4 seq=20
+25092968 node-4 WIRE node=4 kind=3 seq=20 next=3
+25102968 node-3 WIRE node=3 kind=3 seq=20 next=2
+25119968 node-2 WIRE node=2 kind=3 seq=20 next=1
+25154968 node-1 RECEIPT node=1 seq=20 ticks=153 hz=1000
+26001000 node-1 WIRE node=1 kind=1 seq=21 next=2
+26001000 node-1 OFFER seq=21 ticks=26001
+26033968 node-2 WIRE node=2 kind=1 seq=21 next=3
+26073968 node-3 WIRE node=3 kind=1 seq=21 next=4
+26120968 node-4 DELIVER node=4 seq=21
+26120968 node-4 WIRE node=4 kind=3 seq=21 next=3
+26162968 node-3 WIRE node=3 kind=3 seq=21 next=2
+26201968 node-2 WIRE node=2 kind=3 seq=21 next=1
+26240968 node-1 RECEIPT node=1 seq=21 ticks=239 hz=1000
+27001000 node-1 WIRE node=1 kind=1 seq=22 next=2
+27001000 node-1 OFFER seq=22 ticks=27001
+27016968 node-2 WIRE node=2 kind=1 seq=22 next=3
+27056968 node-3 WIRE node=3 kind=1 seq=22 next=4
+27103968 node-4 DELIVER node=4 seq=22
+27103968 node-4 WIRE node=4 kind=3 seq=22 next=3
+27121968 node-3 WIRE node=3 kind=3 seq=22 next=2
+27137968 node-2 WIRE node=2 kind=3 seq=22 next=1
+27159968 node-1 RECEIPT node=1 seq=22 ticks=158 hz=1000
+28001000 node-1 WIRE node=1 kind=1 seq=23 next=2
+28001000 node-1 OFFER seq=23 ticks=28001
+28027968 node-2 WIRE node=2 kind=1 seq=23 next=3
+28040968 node-3 WIRE node=3 kind=1 seq=23 next=4
+28073968 node-4 DELIVER node=4 seq=23
+28073968 node-4 WIRE node=4 kind=3 seq=23 next=3
+28119968 node-3 WIRE node=3 kind=3 seq=23 next=2
+28150968 node-2 WIRE node=2 kind=3 seq=23 next=1
+28165968 node-1 RECEIPT node=1 seq=23 ticks=164 hz=1000
+29001000 node-1 WIRE node=1 kind=1 seq=24 next=2
+29001000 node-1 OFFER seq=24 ticks=29001
+29008968 node-2 WIRE node=2 kind=1 seq=24 next=3
+29041968 node-3 WIRE node=3 kind=1 seq=24 next=4
+29067968 node-4 DELIVER node=4 seq=24
+29067968 node-4 WIRE node=4 kind=3 seq=24 next=3
+29083968 node-3 WIRE node=3 kind=3 seq=24 next=2
+29095968 node-2 WIRE node=2 kind=3 seq=24 next=1
+29126968 node-1 RECEIPT node=1 seq=24 ticks=125 hz=1000
+30001000 node-1 WIRE node=1 kind=1 seq=25 next=2
+30001000 node-1 OFFER seq=25 ticks=30001
+30010968 node-2 WIRE node=2 kind=1 seq=25 next=3
+30037968 node-3 WIRE node=3 kind=1 seq=25 next=4
+30057968 node-4 DELIVER node=4 seq=25
+30057968 node-4 WIRE node=4 kind=3 seq=25 next=3
+30089968 node-3 WIRE node=3 kind=3 seq=25 next=2
+30123968 node-2 WIRE node=2 kind=3 seq=25 next=1
+30162968 node-1 RECEIPT node=1 seq=25 ticks=161 hz=1000
+31001000 node-1 WIRE node=1 kind=1 seq=26 next=2
+31001000 node-1 OFFER seq=26 ticks=31001
+31021968 node-2 WIRE node=2 kind=1 seq=26 next=3
+31033968 node-3 WIRE node=3 kind=1 seq=26 next=4
+31065968 node-4 DELIVER node=4 seq=26
+31065968 node-4 WIRE node=4 kind=3 seq=26 next=3
+31099968 node-3 WIRE node=3 kind=3 seq=26 next=2
+31141968 node-2 WIRE node=2 kind=3 seq=26 next=1
+31181968 node-1 RECEIPT node=1 seq=26 ticks=180 hz=1000
+32001000 node-1 WIRE node=1 kind=1 seq=27 next=2
+32001000 node-1 OFFER seq=27 ticks=32001
+32007968 node-2 WIRE node=2 kind=1 seq=27 next=3
+32041968 node-3 WIRE node=3 kind=1 seq=27 next=4
+32048968 node-4 DELIVER node=4 seq=27
+32048968 node-4 WIRE node=4 kind=3 seq=27 next=3
+32066968 node-3 WIRE node=3 kind=3 seq=27 next=2
+32107968 node-2 WIRE node=2 kind=3 seq=27 next=1
+32147968 node-1 RECEIPT node=1 seq=27 ticks=146 hz=1000
+33001000 node-1 WIRE node=1 kind=1 seq=28 next=2
+33001000 node-1 OFFER seq=28 ticks=33001
+33024968 node-2 WIRE node=2 kind=1 seq=28 next=3
+33051968 node-3 WIRE node=3 kind=1 seq=28 next=4
+33093968 node-4 DELIVER node=4 seq=28
+33093968 node-4 WIRE node=4 kind=3 seq=28 next=3
+33135968 node-3 WIRE node=3 kind=3 seq=28 next=2
+33150968 node-2 WIRE node=2 kind=3 seq=28 next=1
+33175968 node-1 RECEIPT node=1 seq=28 ticks=174 hz=1000
+34001000 node-1 WIRE node=1 kind=1 seq=29 next=2
+34001000 node-1 OFFER seq=29 ticks=34001
+34032968 node-2 WIRE node=2 kind=1 seq=29 next=3
+34065968 node-3 WIRE node=3 kind=1 seq=29 next=4
+34072968 node-4 DELIVER node=4 seq=29
+34072968 node-4 WIRE node=4 kind=3 seq=29 next=3
+34115968 node-3 WIRE node=3 kind=3 seq=29 next=2
+34143968 node-2 WIRE node=2 kind=3 seq=29 next=1
+34172968 node-1 RECEIPT node=1 seq=29 ticks=171 hz=1000
+35001000 node-1 WIRE node=1 kind=1 seq=30 next=2
+35001000 node-1 OFFER seq=30 ticks=35001
+35036968 node-2 WIRE node=2 kind=1 seq=30 next=3
+35051968 node-3 WIRE node=3 kind=1 seq=30 next=4
+35084968 node-4 DELIVER node=4 seq=30
+35084968 node-4 WIRE node=4 kind=3 seq=30 next=3
+35091936 node-3 WIRE node=3 kind=3 seq=30 next=2
+35120968 node-2 WIRE node=2 kind=3 seq=30 next=1
+35144968 node-1 RECEIPT node=1 seq=30 ticks=143 hz=1000
+36001000 node-1 WIRE node=1 kind=1 seq=31 next=2
+36001000 node-1 OFFER seq=31 ticks=36001
+36026968 node-2 WIRE node=2 kind=1 seq=31 next=3
+36072968 node-3 WIRE node=3 kind=1 seq=31 next=4
+36093968 node-4 DELIVER node=4 seq=31
+36093968 node-4 WIRE node=4 kind=3 seq=31 next=3
+36100968 node-3 WIRE node=3 kind=3 seq=31 next=2
+36132968 node-2 WIRE node=2 kind=3 seq=31 next=1
+36141968 node-1 RECEIPT node=1 seq=31 ticks=140 hz=1000
+37001000 node-1 WIRE node=1 kind=1 seq=32 next=2
+37001000 node-1 OFFER seq=32 ticks=37001
+37008968 node-2 WIRE node=2 kind=1 seq=32 next=3
+37054968 node-3 WIRE node=3 kind=1 seq=32 next=4
+37061968 node-4 DELIVER node=4 seq=32
+37061968 node-4 WIRE node=4 kind=3 seq=32 next=3
+37097968 node-3 WIRE node=3 kind=3 seq=32 next=2
+37124968 node-2 WIRE node=2 kind=3 seq=32 next=1
+37171968 node-1 RECEIPT node=1 seq=32 ticks=170 hz=1000
+38001000 node-1 WIRE node=1 kind=1 seq=33 next=2
+38001000 node-1 OFFER seq=33 ticks=38001
+38045968 node-2 WIRE node=2 kind=1 seq=33 next=3
+38076968 node-3 WIRE node=3 kind=1 seq=33 next=4
+38090968 node-4 DELIVER node=4 seq=33
+38090968 node-4 WIRE node=4 kind=3 seq=33 next=3
+38097936 node-3 WIRE node=3 kind=3 seq=33 next=2
+38109968 node-2 WIRE node=2 kind=3 seq=33 next=1
+38134968 node-1 RECEIPT node=1 seq=33 ticks=133 hz=1000
+39001000 node-1 WIRE node=1 kind=1 seq=34 next=2
+39001000 node-1 OFFER seq=34 ticks=39001
+39038968 node-2 WIRE node=2 kind=1 seq=34 next=3
+39058968 node-3 WIRE node=3 kind=1 seq=34 next=4
+39099968 node-4 DELIVER node=4 seq=34
+39099968 node-4 WIRE node=4 kind=3 seq=34 next=3
+39113968 node-3 WIRE node=3 kind=3 seq=34 next=2
+39133968 node-2 WIRE node=2 kind=3 seq=34 next=1
+39159968 node-1 RECEIPT node=1 seq=34 ticks=158 hz=1000
+40001000 node-1 WIRE node=1 kind=1 seq=35 next=2
+40001000 node-1 OFFER seq=35 ticks=40001
+40041968 node-2 WIRE node=2 kind=1 seq=35 next=3
+40063968 node-3 WIRE node=3 kind=1 seq=35 next=4
+40094968 node-4 DELIVER node=4 seq=35
+40094968 node-4 WIRE node=4 kind=3 seq=35 next=3
+40117968 node-3 WIRE node=3 kind=3 seq=35 next=2
+40139968 node-2 WIRE node=2 kind=3 seq=35 next=1
+40159968 node-1 RECEIPT node=1 seq=35 ticks=158 hz=1000
+41001000 node-1 WIRE node=1 kind=1 seq=36 next=2
+41001000 node-1 OFFER seq=36 ticks=41001
+41033968 node-2 WIRE node=2 kind=1 seq=36 next=3
+41047968 node-3 WIRE node=3 kind=1 seq=36 next=4
+41083968 node-4 DELIVER node=4 seq=36
+41083968 node-4 WIRE node=4 kind=3 seq=36 next=3
+41092968 node-3 WIRE node=3 kind=3 seq=36 next=2
+41123968 node-2 WIRE node=2 kind=3 seq=36 next=1
+41134968 node-1 RECEIPT node=1 seq=36 ticks=133 hz=1000
+42001000 node-1 WIRE node=1 kind=1 seq=37 next=2
+42001000 node-1 OFFER seq=37 ticks=42001
+42019968 node-2 WIRE node=2 kind=1 seq=37 next=3
+42026968 node-3 WIRE node=3 kind=1 seq=37 next=4
+42056968 node-4 DELIVER node=4 seq=37
+42056968 node-4 WIRE node=4 kind=3 seq=37 next=3
+42090968 node-3 WIRE node=3 kind=3 seq=37 next=2
+42122968 node-2 WIRE node=2 kind=3 seq=37 next=1
+42149968 node-1 RECEIPT node=1 seq=37 ticks=148 hz=1000
+43001000 node-1 WIRE node=1 kind=1 seq=38 next=2
+43001000 node-1 OFFER seq=38 ticks=43001
+43011968 node-2 WIRE node=2 kind=1 seq=38 next=3
+43039968 node-3 WIRE node=3 kind=1 seq=38 next=4
+43053968 node-4 DELIVER node=4 seq=38
+43053968 node-4 WIRE node=4 kind=3 seq=38 next=3
+43098968 node-3 WIRE node=3 kind=3 seq=38 next=2
+43111968 node-2 WIRE node=2 kind=3 seq=38 next=1
+43135968 node-1 RECEIPT node=1 seq=38 ticks=134 hz=1000
+44001000 node-1 WIRE node=1 kind=1 seq=39 next=2
+44001000 node-1 OFFER seq=39 ticks=44001
+44042968 node-2 WIRE node=2 kind=1 seq=39 next=3
+44082968 node-3 WIRE node=3 kind=1 seq=39 next=4
+44128968 node-4 DELIVER node=4 seq=39
+44128968 node-4 WIRE node=4 kind=3 seq=39 next=3
+44140968 node-3 WIRE node=3 kind=3 seq=39 next=2
+44184968 node-2 WIRE node=2 kind=3 seq=39 next=1
+44196968 node-1 RECEIPT node=1 seq=39 ticks=195 hz=1000
+45001000 node-1 WIRE node=1 kind=1 seq=40 next=2
+45001000 node-1 OFFER seq=40 ticks=45001
+45040968 node-2 WIRE node=2 kind=1 seq=40 next=3
+45048968 node-3 WIRE node=3 kind=1 seq=40 next=4
+45060968 node-4 DELIVER node=4 seq=40
+45060968 node-4 WIRE node=4 kind=3 seq=40 next=3
+45076968 node-3 WIRE node=3 kind=3 seq=40 next=2
+45101968 node-2 WIRE node=2 kind=3 seq=40 next=1
+45134968 node-1 RECEIPT node=1 seq=40 ticks=133 hz=1000
+46001000 node-1 WIRE node=1 kind=1 seq=41 next=2
+46001000 node-1 OFFER seq=41 ticks=46001
+46012968 node-2 WIRE node=2 kind=1 seq=41 next=3
+46032968 node-3 WIRE node=3 kind=1 seq=41 next=4
+46039936 node-4 DELIVER node=4 seq=41
+46039936 node-4 WIRE node=4 kind=3 seq=41 next=3
+46060968 node-3 WIRE node=3 kind=3 seq=41 next=2
+46069968 node-2 WIRE node=2 kind=3 seq=41 next=1
+46112968 node-1 RECEIPT node=1 seq=41 ticks=111 hz=1000
+47001000 node-1 WIRE node=1 kind=1 seq=42 next=2
+47001000 node-1 OFFER seq=42 ticks=47001
+47010968 node-2 WIRE node=2 kind=1 seq=42 next=3
+47056968 node-3 WIRE node=3 kind=1 seq=42 next=4
+47074968 node-4 DELIVER node=4 seq=42
+47074968 node-4 WIRE node=4 kind=3 seq=42 next=3
+47100968 node-3 WIRE node=3 kind=3 seq=42 next=2
+47144968 node-2 WIRE node=2 kind=3 seq=42 next=1
+47183968 node-1 RECEIPT node=1 seq=42 ticks=182 hz=1000
+48001000 node-1 WIRE node=1 kind=1 seq=43 next=2
+48001000 node-1 OFFER seq=43 ticks=48001
+48010968 node-2 WIRE node=2 kind=1 seq=43 next=3
+48054968 node-3 WIRE node=3 kind=1 seq=43 next=4
+48062968 node-4 DELIVER node=4 seq=43
+48062968 node-4 WIRE node=4 kind=3 seq=43 next=3
+48076968 node-3 WIRE node=3 kind=3 seq=43 next=2
+48086968 node-2 WIRE node=2 kind=3 seq=43 next=1
+48131968 node-1 RECEIPT node=1 seq=43 ticks=130 hz=1000
+49001000 node-1 WIRE node=1 kind=1 seq=44 next=2
+49001000 node-1 OFFER seq=44 ticks=49001
+49036968 node-2 WIRE node=2 kind=1 seq=44 next=3
+49073968 node-3 WIRE node=3 kind=1 seq=44 next=4
+49100968 node-4 DELIVER node=4 seq=44
+49100968 node-4 WIRE node=4 kind=3 seq=44 next=3
+49136968 node-3 WIRE node=3 kind=3 seq=44 next=2
+49163968 node-2 WIRE node=2 kind=3 seq=44 next=1
+49181968 node-1 RECEIPT node=1 seq=44 ticks=180 hz=1000
+50001000 node-1 WIRE node=1 kind=1 seq=45 next=2
+50001000 node-1 OFFER seq=45 ticks=50001
+50048968 node-2 WIRE node=2 kind=1 seq=45 next=3
+50088968 node-3 WIRE node=3 kind=1 seq=45 next=4
+50124968 node-4 DELIVER node=4 seq=45
+50124968 node-4 WIRE node=4 kind=3 seq=45 next=3
+50143968 node-3 WIRE node=3 kind=3 seq=45 next=2
+50163968 node-2 WIRE node=2 kind=3 seq=45 next=1
+50179968 node-1 RECEIPT node=1 seq=45 ticks=178 hz=1000
+51001000 node-1 WIRE node=1 kind=1 seq=46 next=2
+51001000 node-1 OFFER seq=46 ticks=51001
+51036968 node-2 WIRE node=2 kind=1 seq=46 next=3
+51057968 node-3 WIRE node=3 kind=1 seq=46 next=4
+51070968 node-4 DELIVER node=4 seq=46
+51070968 node-4 WIRE node=4 kind=3 seq=46 next=3
+51082968 node-3 WIRE node=3 kind=3 seq=46 next=2
+51093968 node-2 WIRE node=2 kind=3 seq=46 next=1
+51135968 node-1 RECEIPT node=1 seq=46 ticks=134 hz=1000
+52001000 node-1 WIRE node=1 kind=1 seq=47 next=2
+52001000 node-1 OFFER seq=47 ticks=52001
+52028968 node-2 WIRE node=2 kind=1 seq=47 next=3
+52071968 node-3 WIRE node=3 kind=1 seq=47 next=4
+52092968 node-4 DELIVER node=4 seq=47
+52092968 node-4 WIRE node=4 kind=3 seq=47 next=3
+52110968 node-3 WIRE node=3 kind=3 seq=47 next=2
+52130968 node-2 WIRE node=2 kind=3 seq=47 next=1
+52164968 node-1 RECEIPT node=1 seq=47 ticks=163 hz=1000
+53001000 node-1 WIRE node=1 kind=1 seq=48 next=2
+53001000 node-1 OFFER seq=48 ticks=53001
+53014968 node-2 WIRE node=2 kind=1 seq=48 next=3
+53030968 node-3 WIRE node=3 kind=1 seq=48 next=4
+53074968 node-4 DELIVER node=4 seq=48
+53074968 node-4 WIRE node=4 kind=3 seq=48 next=3
+53089968 node-3 WIRE node=3 kind=3 seq=48 next=2
+53113968 node-2 WIRE node=2 kind=3 seq=48 next=1
+53147968 node-1 RECEIPT node=1 seq=48 ticks=146 hz=1000
+54001000 node-1 WIRE node=1 kind=1 seq=49 next=2
+54001000 node-1 OFFER seq=49 ticks=54001
+54032968 node-2 WIRE node=2 kind=1 seq=49 next=3
+54076968 node-3 WIRE node=3 kind=1 seq=49 next=4
+54103968 node-4 DELIVER node=4 seq=49
+54103968 node-4 WIRE node=4 kind=3 seq=49 next=3
+54148968 node-3 WIRE node=3 kind=3 seq=49 next=2
+54155936 node-2 WIRE node=2 kind=3 seq=49 next=1
+54200968 node-1 RECEIPT node=1 seq=49 ticks=199 hz=1000
+55001000 node-1 WIRE node=1 kind=1 seq=50 next=2
+55001000 node-1 OFFER seq=50 ticks=55001
+55036968 node-2 WIRE node=2 kind=1 seq=50 next=3
+55079968 node-3 WIRE node=3 kind=1 seq=50 next=4
+55099968 node-4 DELIVER node=4 seq=50
+55099968 node-4 WIRE node=4 kind=3 seq=50 next=3
+55132968 node-3 WIRE node=3 kind=3 seq=50 next=2
+55143968 node-2 WIRE node=2 kind=3 seq=50 next=1
+55161968 node-1 RECEIPT node=1 seq=50 ticks=160 hz=1000
+56001000 node-1 WIRE node=1 kind=1 seq=50 next=2
+56001000 node-1 INJECT type=replay
+56041968 node-2 REJECT node=2 type=replay seq=50
+57001000 node-1 WIRE node=1 kind=1 seq=51 next=2
+57001000 node-1 OFFER seq=51 ticks=57001
+57026968 node-2 WIRE node=2 kind=1 seq=51 next=3
+57060968 node-3 WIRE node=3 kind=1 seq=51 next=4
+57069968 node-4 DELIVER node=4 seq=51
+57069968 node-4 WIRE node=4 kind=3 seq=51 next=3
+57093968 node-3 WIRE node=3 kind=3 seq=51 next=2
+57129968 node-2 WIRE node=2 kind=3 seq=51 next=1
+57170968 node-1 RECEIPT node=1 seq=51 ticks=169 hz=1000
+58001000 node-1 WIRE node=1 kind=1 seq=52 next=2
+58001000 node-1 OFFER seq=52 ticks=58001
+58030968 node-2 WIRE node=2 kind=1 seq=52 next=3
+58037968 node-3 WIRE node=3 kind=1 seq=52 next=4
+58075968 node-4 DELIVER node=4 seq=52
+58075968 node-4 WIRE node=4 kind=3 seq=52 next=3
+58122968 node-3 WIRE node=3 kind=3 seq=52 next=2
+58129936 node-2 WIRE node=2 kind=3 seq=52 next=1
+58171968 node-1 RECEIPT node=1 seq=52 ticks=170 hz=1000
+59001000 node-1 WIRE node=1 kind=1 seq=53 next=2
+59001000 node-1 OFFER seq=53 ticks=59001
+59034968 node-2 WIRE node=2 kind=1 seq=53 next=3
+59075968 node-3 WIRE node=3 kind=1 seq=53 next=4
+59090968 node-4 DELIVER node=4 seq=53
+59090968 node-4 WIRE node=4 kind=3 seq=53 next=3
+59119968 node-3 WIRE node=3 kind=3 seq=53 next=2
+59146968 node-2 WIRE node=2 kind=3 seq=53 next=1
+59192968 node-1 RECEIPT node=1 seq=53 ticks=191 hz=1000
+60001000 node-1 WIRE node=1 kind=1 seq=54 next=2
+60001000 node-1 OFFER seq=54 ticks=60001
+60046968 node-2 WIRE node=2 kind=1 seq=54 next=3
+60068968 node-3 WIRE node=3 kind=1 seq=54 next=4
+60114968 node-4 DELIVER node=4 seq=54
+60114968 node-4 WIRE node=4 kind=3 seq=54 next=3
+60139968 node-3 WIRE node=3 kind=3 seq=54 next=2
+60167968 node-2 WIRE node=2 kind=3 seq=54 next=1
+60192968 node-1 RECEIPT node=1 seq=54 ticks=191 hz=1000
+61001000 node-1 WIRE node=1 kind=1 seq=55 next=2
+61001000 node-1 OFFER seq=55 ticks=61001
+61028968 node-2 WIRE node=2 kind=1 seq=55 next=3
+61048968 node-3 WIRE node=3 kind=1 seq=55 next=4
+61071968 node-4 DELIVER node=4 seq=55
+61071968 node-4 WIRE node=4 kind=3 seq=55 next=3
+61098968 node-3 WIRE node=3 kind=3 seq=55 next=2
+61124968 node-2 WIRE node=2 kind=3 seq=55 next=1
+61153968 node-1 RECEIPT node=1 seq=55 ticks=152 hz=1000
+62001000 node-1 WIRE node=1 kind=1 seq=56 next=2
+62001000 node-1 OFFER seq=56 ticks=62001
+62014968 node-2 WIRE node=2 kind=1 seq=56 next=3
+62037968 node-3 WIRE node=3 kind=1 seq=56 next=4
+62072968 node-4 DELIVER node=4 seq=56
+62072968 node-4 WIRE node=4 kind=3 seq=56 next=3
+62081968 node-3 WIRE node=3 kind=3 seq=56 next=2
+62093968 node-2 WIRE node=2 kind=3 seq=56 next=1
+62137968 node-1 RECEIPT node=1 seq=56 ticks=136 hz=1000
+63001000 node-1 WIRE node=1 kind=1 seq=57 next=2
+63001000 node-1 OFFER seq=57 ticks=63001
+63047968 node-2 WIRE node=2 kind=1 seq=57 next=3
+63083968 node-3 WIRE node=3 kind=1 seq=57 next=4
+63100968 node-4 DELIVER node=4 seq=57
+63100968 node-4 WIRE node=4 kind=3 seq=57 next=3
+63117968 node-3 WIRE node=3 kind=3 seq=57 next=2
+63136968 node-2 WIRE node=2 kind=3 seq=57 next=1
+63169968 node-1 RECEIPT node=1 seq=57 ticks=168 hz=1000
+64001000 node-1 WIRE node=1 kind=1 seq=58 next=2
+64001000 node-1 OFFER seq=58 ticks=64001
+64016968 node-2 WIRE node=2 kind=1 seq=58 next=3
+64037968 node-3 WIRE node=3 kind=1 seq=58 next=4
+64084968 node-4 DELIVER node=4 seq=58
+64084968 node-4 WIRE node=4 kind=3 seq=58 next=3
+64116968 node-3 WIRE node=3 kind=3 seq=58 next=2
+64143968 node-2 WIRE node=2 kind=3 seq=58 next=1
+64185968 node-1 RECEIPT node=1 seq=58 ticks=184 hz=1000
+65001000 node-1 WIRE node=1 kind=1 seq=59 next=2
+65001000 node-1 OFFER seq=59 ticks=65001
+65039968 node-2 WIRE node=2 kind=1 seq=59 next=3
+65048968 node-3 WIRE node=3 kind=1 seq=59 next=4
+65089968 node-4 DELIVER node=4 seq=59
+65089968 node-4 WIRE node=4 kind=3 seq=59 next=3
+65116968 node-3 WIRE node=3 kind=3 seq=59 next=2
+65160968 node-2 WIRE node=2 kind=3 seq=59 next=1
+65193968 node-1 RECEIPT node=1 seq=59 ticks=192 hz=1000
+66001000 node-1 WIRE node=1 kind=1 seq=60 next=2
+66001000 node-1 OFFER seq=60 ticks=66001
+66024968 node-2 WIRE node=2 kind=1 seq=60 next=3
+66064968 node-3 WIRE node=3 kind=1 seq=60 next=4
+66107968 node-4 DELIVER node=4 seq=60
+66107968 node-4 WIRE node=4 kind=3 seq=60 next=3
+66124968 node-3 WIRE node=3 kind=3 seq=60 next=2
+66139968 node-2 WIRE node=2 kind=3 seq=60 next=1
+66163968 node-1 RECEIPT node=1 seq=60 ticks=162 hz=1000
+67001000 node-1 WIRE node=1 kind=1 seq=61 next=2
+67001000 node-1 OFFER seq=61 ticks=67001
+67040968 node-2 WIRE node=2 kind=1 seq=61 next=3
+67073968 node-3 WIRE node=3 kind=1 seq=61 next=4
+67103968 node-4 DELIVER node=4 seq=61
+67103968 node-4 WIRE node=4 kind=3 seq=61 next=3
+67119968 node-3 WIRE node=3 kind=3 seq=61 next=2
+67158968 node-2 WIRE node=2 kind=3 seq=61 next=1
+67192968 node-1 RECEIPT node=1 seq=61 ticks=191 hz=1000
+68001000 node-1 WIRE node=1 kind=1 seq=62 next=2
+68001000 node-1 OFFER seq=62 ticks=68001
+68008968 node-2 WIRE node=2 kind=1 seq=62 next=3
+68021968 node-3 WIRE node=3 kind=1 seq=62 next=4
+68046968 node-4 DELIVER node=4 seq=62
+68046968 node-4 WIRE node=4 kind=3 seq=62 next=3
+68092968 node-3 WIRE node=3 kind=3 seq=62 next=2
+68130968 node-2 WIRE node=2 kind=3 seq=62 next=1
+68171968 node-1 RECEIPT node=1 seq=62 ticks=170 hz=1000
+69001000 node-1 WIRE node=1 kind=1 seq=63 next=2
+69001000 node-1 OFFER seq=63 ticks=69001
+69009968 node-2 WIRE node=2 kind=1 seq=63 next=3
+69028968 node-3 WIRE node=3 kind=1 seq=63 next=4
+69059968 node-4 DELIVER node=4 seq=63
+69059968 node-4 WIRE node=4 kind=3 seq=63 next=3
+69102968 node-3 WIRE node=3 kind=3 seq=63 next=2
+69109936 node-2 WIRE node=2 kind=3 seq=63 next=1
+69139968 node-1 RECEIPT node=1 seq=63 ticks=138 hz=1000
+70001000 node-1 WIRE node=1 kind=1 seq=64 next=2
+70001000 node-1 OFFER seq=64 ticks=70001
+70043968 node-2 WIRE node=2 kind=1 seq=64 next=3
+70066968 node-3 WIRE node=3 kind=1 seq=64 next=4
+70110968 node-4 DELIVER node=4 seq=64
+70110968 node-4 WIRE node=4 kind=3 seq=64 next=3
+70133968 node-3 WIRE node=3 kind=3 seq=64 next=2
+70176968 node-2 WIRE node=2 kind=3 seq=64 next=1
+70223968 node-1 RECEIPT node=1 seq=64 ticks=222 hz=1000
+71001000 node-1 WIRE node=1 kind=1 seq=65 next=2
+71001000 node-1 OFFER seq=65 ticks=71001
+71008968 node-2 WIRE node=2 kind=1 seq=65 next=3
+71036968 node-3 WIRE node=3 kind=1 seq=65 next=4
+71083968 node-4 DELIVER node=4 seq=65
+71083968 node-4 WIRE node=4 kind=3 seq=65 next=3
+71119968 node-3 WIRE node=3 kind=3 seq=65 next=2
+71131968 node-2 WIRE node=2 kind=3 seq=65 next=1
+71157968 node-1 RECEIPT node=1 seq=65 ticks=156 hz=1000
+72001000 node-1 WIRE node=1 kind=1 seq=66 next=2
+72001000 node-1 OFFER seq=66 ticks=72001
+72017968 node-2 WIRE node=2 kind=1 seq=66 next=3
+72032968 node-3 WIRE node=3 kind=1 seq=66 next=4
+72054968 node-4 DELIVER node=4 seq=66
+72054968 node-4 WIRE node=4 kind=3 seq=66 next=3
+72075968 node-3 WIRE node=3 kind=3 seq=66 next=2
+72112968 node-2 WIRE node=2 kind=3 seq=66 next=1
+72125968 node-1 RECEIPT node=1 seq=66 ticks=124 hz=1000
+73001000 node-1 WIRE node=1 kind=1 seq=67 next=2
+73001000 node-1 OFFER seq=67 ticks=73001
+73026968 node-2 WIRE node=2 kind=1 seq=67 next=3
+73065968 node-3 WIRE node=3 kind=1 seq=67 next=4
+73089968 node-4 DELIVER node=4 seq=67
+73089968 node-4 WIRE node=4 kind=3 seq=67 next=3
+73101968 node-3 WIRE node=3 kind=3 seq=67 next=2
+73114968 node-2 WIRE node=2 kind=3 seq=67 next=1
+73145968 node-1 RECEIPT node=1 seq=67 ticks=144 hz=1000
+74001000 node-1 WIRE node=1 kind=1 seq=68 next=2
+74001000 node-1 OFFER seq=68 ticks=74001
+74018968 node-2 WIRE node=2 kind=1 seq=68 next=3
+74054968 node-3 WIRE node=3 kind=1 seq=68 next=4
+74080968 node-4 DELIVER node=4 seq=68
+74080968 node-4 WIRE node=4 kind=3 seq=68 next=3
+74087936 node-3 WIRE node=3 kind=3 seq=68 next=2
+74126968 node-2 WIRE node=2 kind=3 seq=68 next=1
+74138968 node-1 RECEIPT node=1 seq=68 ticks=137 hz=1000
+75001000 node-1 WIRE node=1 kind=1 seq=69 next=2
+75001000 node-1 OFFER seq=69 ticks=75001
+75031968 node-2 WIRE node=2 kind=1 seq=69 next=3
+75064968 node-3 WIRE node=3 kind=1 seq=69 next=4
+75103968 node-4 DELIVER node=4 seq=69
+75103968 node-4 WIRE node=4 kind=3 seq=69 next=3
+75116968 node-3 WIRE node=3 kind=3 seq=69 next=2
+75123936 node-2 WIRE node=2 kind=3 seq=69 next=1
+75146968 node-1 RECEIPT node=1 seq=69 ticks=145 hz=1000
+76001000 node-1 WIRE node=1 kind=1 seq=70 next=2
+76001000 node-1 OFFER seq=70 ticks=76001
+76009968 node-2 WIRE node=2 kind=1 seq=70 next=3
+76029968 node-3 WIRE node=3 kind=1 seq=70 next=4
+76075968 node-4 DELIVER node=4 seq=70
+76075968 node-4 WIRE node=4 kind=3 seq=70 next=3
+76106968 node-3 WIRE node=3 kind=3 seq=70 next=2
+76120968 node-2 WIRE node=2 kind=3 seq=70 next=1
+76152968 node-1 RECEIPT node=1 seq=70 ticks=151 hz=1000
+77001000 node-1 WIRE node=1 kind=1 seq=71 next=2
+77001000 node-1 OFFER seq=71 ticks=77001
+77032968 node-2 WIRE node=2 kind=1 seq=71 next=3
+77057968 node-3 WIRE node=3 kind=1 seq=71 next=4
+77085968 node-4 DELIVER node=4 seq=71
+77085968 node-4 WIRE node=4 kind=3 seq=71 next=3
+77116968 node-3 WIRE node=3 kind=3 seq=71 next=2
+77128968 node-2 WIRE node=2 kind=3 seq=71 next=1
+77146968 node-1 RECEIPT node=1 seq=71 ticks=145 hz=1000
+78001000 node-1 WIRE node=1 kind=1 seq=72 next=2
+78001000 node-1 OFFER seq=72 ticks=78001
+78047968 node-2 WIRE node=2 kind=1 seq=72 next=3
+78066968 node-3 WIRE node=3 kind=1 seq=72 next=4
+78082968 node-4 DELIVER node=4 seq=72
+78082968 node-4 WIRE node=4 kind=3 seq=72 next=3
+78128968 node-3 WIRE node=3 kind=3 seq=72 next=2
+78174968 node-2 WIRE node=2 kind=3 seq=72 next=1
+78220968 node-1 RECEIPT node=1 seq=72 ticks=219 hz=1000
+79001000 node-1 WIRE node=1 kind=1 seq=73 next=2
+79001000 node-1 OFFER seq=73 ticks=79001
+79013968 node-2 WIRE node=2 kind=1 seq=73 next=3
+79048968 node-3 WIRE node=3 kind=1 seq=73 next=4
+79068968 node-4 DELIVER node=4 seq=73
+79068968 node-4 WIRE node=4 kind=3 seq=73 next=3
+79094968 node-3 WIRE node=3 kind=3 seq=73 next=2
+79116968 node-2 WIRE node=2 kind=3 seq=73 next=1
+79141968 node-1 RECEIPT node=1 seq=73 ticks=140 hz=1000
+80001000 node-1 WIRE node=1 kind=1 seq=74 next=2
+80001000 node-1 OFFER seq=74 ticks=80001
+80038968 node-2 WIRE node=2 kind=1 seq=74 next=3
+80075968 node-3 WIRE node=3 kind=1 seq=74 next=4
+80115968 node-4 DELIVER node=4 seq=74
+80115968 node-4 WIRE node=4 kind=3 seq=74 next=3
+80144968 node-3 WIRE node=3 kind=3 seq=74 next=2
+80152968 node-2 WIRE node=2 kind=3 seq=74 next=1
+80196968 node-1 RECEIPT node=1 seq=74 ticks=195 hz=1000
+81001000 node-1 WIRE node=1 kind=1 seq=75 next=2
+81001000 node-1 OFFER seq=75 ticks=81001
+81038968 node-2 WIRE node=2 kind=1 seq=75 next=3
+81072968 node-3 WIRE node=3 kind=1 seq=75 next=4
+81101968 node-4 DELIVER node=4 seq=75
+81101968 node-4 WIRE node=4 kind=3 seq=75 next=3
+81111968 node-3 WIRE node=3 kind=3 seq=75 next=2
+81149968 node-2 WIRE node=2 kind=3 seq=75 next=1
+81173968 node-1 RECEIPT node=1 seq=75 ticks=172 hz=1000
+82001000 node-1 WIRE node=1 kind=1 seq=76 next=2
+82001000 node-1 OFFER seq=76 ticks=82001
+82017968 node-2 WIRE node=2 kind=1 seq=76 next=3
+82035968 node-3 WIRE node=3 kind=1 seq=76 next=4
+82056968 node-4 DELIVER node=4 seq=76
+82056968 node-4 WIRE node=4 kind=3 seq=76 next=3
+82064968 node-3 WIRE node=3 kind=3 seq=76 next=2
+82110968 node-2 WIRE node=2 kind=3 seq=76 next=1
+82133968 node-1 RECEIPT node=1 seq=76 ticks=132 hz=1000
+83001000 node-1 WIRE node=1 kind=1 seq=77 next=2
+83001000 node-1 OFFER seq=77 ticks=83001
+83048968 node-2 WIRE node=2 kind=1 seq=77 next=3
+83082968 node-3 WIRE node=3 kind=1 seq=77 next=4
+83109968 node-4 DELIVER node=4 seq=77
+83109968 node-4 WIRE node=4 kind=3 seq=77 next=3
+83118968 node-3 WIRE node=3 kind=3 seq=77 next=2
+83127968 node-2 WIRE node=2 kind=3 seq=77 next=1
+83158968 node-1 RECEIPT node=1 seq=77 ticks=157 hz=1000
+84001000 node-1 WIRE node=1 kind=1 seq=78 next=2
+84001000 node-1 OFFER seq=78 ticks=84001
+84024968 node-2 WIRE node=2 kind=1 seq=78 next=3
+84036968 node-3 WIRE node=3 kind=1 seq=78 next=4
+84058968 node-4 DELIVER node=4 seq=78
+84058968 node-4 WIRE node=4 kind=3 seq=78 next=3
+84074968 node-3 WIRE node=3 kind=3 seq=78 next=2
+84091968 node-2 WIRE node=2 kind=3 seq=78 next=1
+84109968 node-1 RECEIPT node=1 seq=78 ticks=108 hz=1000
+85001000 node-1 WIRE node=1 kind=1 seq=79 next=2
+85001000 node-1 OFFER seq=79 ticks=85001
+85042968 node-2 WIRE node=2 kind=1 seq=79 next=3
+85072968 node-3 WIRE node=3 kind=1 seq=79 next=4
+85091968 node-4 DELIVER node=4 seq=79
+85091968 node-4 WIRE node=4 kind=3 seq=79 next=3
+85108968 node-3 WIRE node=3 kind=3 seq=79 next=2
+85155968 node-2 WIRE node=2 kind=3 seq=79 next=1
+85167968 node-1 RECEIPT node=1 seq=79 ticks=166 hz=1000
+86001000 node-1 WIRE node=1 kind=1 seq=80 next=2
+86001000 node-1 OFFER seq=80 ticks=86001
+86035968 node-2 WIRE node=2 kind=1 seq=80 next=3
+86044968 node-3 WIRE node=3 kind=1 seq=80 next=4
+86080968 node-4 DELIVER node=4 seq=80
+86080968 node-4 WIRE node=4 kind=3 seq=80 next=3
+86102968 node-3 WIRE node=3 kind=3 seq=80 next=2
+86132968 node-2 WIRE node=2 kind=3 seq=80 next=1
+86152968 node-1 RECEIPT node=1 seq=80 ticks=151 hz=1000
+87001000 node-1 WIRE node=1 kind=1 seq=81 next=2
+87001000 node-1 OFFER seq=81 ticks=87001
+87027968 node-2 WIRE node=2 kind=1 seq=81 next=3
+87049968 node-3 WIRE node=3 kind=1 seq=81 next=4
+87071968 node-4 DELIVER node=4 seq=81
+87071968 node-4 WIRE node=4 kind=3 seq=81 next=3
+87111968 node-3 WIRE node=3 kind=3 seq=81 next=2
+87148968 node-2 WIRE node=2 kind=3 seq=81 next=1
+87164968 node-1 RECEIPT node=1 seq=81 ticks=163 hz=1000
+88001000 node-1 WIRE node=1 kind=1 seq=82 next=2
+88001000 node-1 OFFER seq=82 ticks=88001
+88029968 node-2 WIRE node=2 kind=1 seq=82 next=3
+88076968 node-3 WIRE node=3 kind=1 seq=82 next=4
+88111968 node-4 DELIVER node=4 seq=82
+88111968 node-4 WIRE node=4 kind=3 seq=82 next=3
+88151968 node-3 WIRE node=3 kind=3 seq=82 next=2
+88197968 node-2 WIRE node=2 kind=3 seq=82 next=1
+88244968 node-1 RECEIPT node=1 seq=82 ticks=243 hz=1000
+89001000 node-1 WIRE node=1 kind=1 seq=83 next=2
+89001000 node-1 OFFER seq=83 ticks=89001
+89023968 node-2 WIRE node=2 kind=1 seq=83 next=3
+89061968 node-3 WIRE node=3 kind=1 seq=83 next=4
+89082968 node-4 DELIVER node=4 seq=83
+89082968 node-4 WIRE node=4 kind=3 seq=83 next=3
+89090968 node-3 WIRE node=3 kind=3 seq=83 next=2
+89100968 node-2 WIRE node=2 kind=3 seq=83 next=1
+89132968 node-1 RECEIPT node=1 seq=83 ticks=131 hz=1000
+90001000 node-1 WIRE node=1 kind=1 seq=84 next=2
+90001000 node-1 OFFER seq=84 ticks=90001
+90034968 node-2 WIRE node=2 kind=1 seq=84 next=3
+90057968 node-3 WIRE node=3 kind=1 seq=84 next=4
+90071968 node-4 DELIVER node=4 seq=84
+90071968 node-4 WIRE node=4 kind=3 seq=84 next=3
+90118968 node-3 WIRE node=3 kind=3 seq=84 next=2
+90136968 node-2 WIRE node=2 kind=3 seq=84 next=1
+90180968 node-1 RECEIPT node=1 seq=84 ticks=179 hz=1000
+91001000 node-1 WIRE node=1 kind=1 seq=85 next=2
+91001000 node-1 OFFER seq=85 ticks=91001
+91039968 node-2 WIRE node=2 kind=1 seq=85 next=3
+91081968 node-3 WIRE node=3 kind=1 seq=85 next=4
+91126968 node-4 DELIVER node=4 seq=85
+91126968 node-4 WIRE node=4 kind=3 seq=85 next=3
+91141968 node-3 WIRE node=3 kind=3 seq=85 next=2
+91155968 node-2 WIRE node=2 kind=3 seq=85 next=1
+91186968 node-1 RECEIPT node=1 seq=85 ticks=185 hz=1000
+92001000 node-1 WIRE node=1 kind=1 seq=86 next=2
+92001000 node-1 OFFER seq=86 ticks=92001
+92013968 node-2 WIRE node=2 kind=1 seq=86 next=3
+92045968 node-3 WIRE node=3 kind=1 seq=86 next=4
+92059968 node-4 DELIVER node=4 seq=86
+92059968 node-4 WIRE node=4 kind=3 seq=86 next=3
+92096968 node-3 WIRE node=3 kind=3 seq=86 next=2
+92111968 node-2 WIRE node=2 kind=3 seq=86 next=1
+92134968 node-1 RECEIPT node=1 seq=86 ticks=133 hz=1000
+93001000 node-1 WIRE node=1 kind=1 seq=87 next=2
+93001000 node-1 OFFER seq=87 ticks=93001
+93023968 node-2 WIRE node=2 kind=1 seq=87 next=3
+93053968 node-3 WIRE node=3 kind=1 seq=87 next=4
+93093968 node-4 DELIVER node=4 seq=87
+93093968 node-4 WIRE node=4 kind=3 seq=87 next=3
+93100968 node-3 WIRE node=3 kind=3 seq=87 next=2
+93121968 node-2 WIRE node=2 kind=3 seq=87 next=1
+93164968 node-1 RECEIPT node=1 seq=87 ticks=163 hz=1000
+94001000 node-1 WIRE node=1 kind=1 seq=88 next=2
+94001000 node-1 OFFER seq=88 ticks=94001
+94017968 node-2 WIRE node=2 kind=1 seq=88 next=3
+94062968 node-3 WIRE node=3 kind=1 seq=88 next=4
+94103968 node-4 DELIVER node=4 seq=88
+94103968 node-4 WIRE node=4 kind=3 seq=88 next=3
+94135968 node-3 WIRE node=3 kind=3 seq=88 next=2
+94156968 node-2 WIRE node=2 kind=3 seq=88 next=1
+94187968 node-1 RECEIPT node=1 seq=88 ticks=186 hz=1000
+95001000 node-1 WIRE node=1 kind=1 seq=89 next=2
+95001000 node-1 OFFER seq=89 ticks=95001
+95031968 node-2 WIRE node=2 kind=1 seq=89 next=3
+95055968 node-3 WIRE node=3 kind=1 seq=89 next=4
+95083968 node-4 DELIVER node=4 seq=89
+95083968 node-4 WIRE node=4 kind=3 seq=89 next=3
+95127968 node-3 WIRE node=3 kind=3 seq=89 next=2
+95172968 node-2 WIRE node=2 kind=3 seq=89 next=1
+95191968 node-1 RECEIPT node=1 seq=89 ticks=190 hz=1000
+96001000 node-1 WIRE node=1 kind=1 seq=90 next=2
+96001000 node-1 OFFER seq=90 ticks=96001
+96036968 node-2 WIRE node=2 kind=1 seq=90 next=3
+96050968 node-3 WIRE node=3 kind=1 seq=90 next=4
+96071968 node-4 DELIVER node=4 seq=90
+96071968 node-4 WIRE node=4 kind=3 seq=90 next=3
+96080968 node-3 WIRE node=3 kind=3 seq=90 next=2
+96096968 node-2 WIRE node=2 kind=3 seq=90 next=1
+96111968 node-1 RECEIPT node=1 seq=90 ticks=110 hz=1000
+97001000 node-1 WIRE node=1 kind=1 seq=91 next=2
+97001000 node-1 OFFER seq=91 ticks=97001
+97035968 node-2 WIRE node=2 kind=1 seq=91 next=3
+97066968 node-3 WIRE node=3 kind=1 seq=91 next=4
+97085968 node-4 DELIVER node=4 seq=91
+97085968 node-4 WIRE node=4 kind=3 seq=91 next=3
+97123968 node-3 WIRE node=3 kind=3 seq=91 next=2
+97164968 node-2 WIRE node=2 kind=3 seq=91 next=1
+97205968 node-1 RECEIPT node=1 seq=91 ticks=204 hz=1000
+98001000 node-1 WIRE node=1 kind=1 seq=92 next=2
+98001000 node-1 OFFER seq=92 ticks=98001
+98030968 node-2 WIRE node=2 kind=1 seq=92 next=3
+98045968 node-3 WIRE node=3 kind=1 seq=92 next=4
+98076968 node-4 DELIVER node=4 seq=92
+98076968 node-4 WIRE node=4 kind=3 seq=92 next=3
+98103968 node-3 WIRE node=3 kind=3 seq=92 next=2
+98118968 node-2 WIRE node=2 kind=3 seq=92 next=1
+98164968 node-1 RECEIPT node=1 seq=92 ticks=163 hz=1000
+99001000 node-1 WIRE node=1 kind=1 seq=93 next=2
+99001000 node-1 OFFER seq=93 ticks=99001
+99043968 node-2 WIRE node=2 kind=1 seq=93 next=3
+99063968 node-3 WIRE node=3 kind=1 seq=93 next=4
+99087968 node-4 DELIVER node=4 seq=93
+99087968 node-4 WIRE node=4 kind=3 seq=93 next=3
+99101968 node-3 WIRE node=3 kind=3 seq=93 next=2
+99138968 node-2 WIRE node=2 kind=3 seq=93 next=1
+99148968 node-1 RECEIPT node=1 seq=93 ticks=147 hz=1000
+100001000 node-1 WIRE node=1 kind=1 seq=94 next=2
+100001000 node-1 OFFER seq=94 ticks=100001
+100022968 node-2 WIRE node=2 kind=1 seq=94 next=3
+100041968 node-3 WIRE node=3 kind=1 seq=94 next=4
+100065968 node-4 DELIVER node=4 seq=94
+100065968 node-4 WIRE node=4 kind=3 seq=94 next=3
+100106968 node-3 WIRE node=3 kind=3 seq=94 next=2
+100151968 node-2 WIRE node=2 kind=3 seq=94 next=1
+100178968 node-1 RECEIPT node=1 seq=94 ticks=177 hz=1000
+101001000 node-1 WIRE node=1 kind=1 seq=95 next=2
+101001000 node-1 OFFER seq=95 ticks=101001
+101036968 node-2 WIRE node=2 kind=1 seq=95 next=3
+101051968 node-3 WIRE node=3 kind=1 seq=95 next=4
+101061968 node-4 DELIVER node=4 seq=95
+101061968 node-4 WIRE node=4 kind=3 seq=95 next=3
+101103968 node-3 WIRE node=3 kind=3 seq=95 next=2
+101126968 node-2 WIRE node=2 kind=3 seq=95 next=1
+101152968 node-1 RECEIPT node=1 seq=95 ticks=151 hz=1000
+102001000 node-1 WIRE node=1 kind=1 seq=96 next=2
+102001000 node-1 OFFER seq=96 ticks=102001
+102026968 node-2 WIRE node=2 kind=1 seq=96 next=3
+102060968 node-3 WIRE node=3 kind=1 seq=96 next=4
+102097968 node-4 DELIVER node=4 seq=96
+102097968 node-4 WIRE node=4 kind=3 seq=96 next=3
+102134968 node-3 WIRE node=3 kind=3 seq=96 next=2
+102151968 node-2 WIRE node=2 kind=3 seq=96 next=1
+102166968 node-1 RECEIPT node=1 seq=96 ticks=165 hz=1000
+103001000 node-1 WIRE node=1 kind=1 seq=97 next=2
+103001000 node-1 OFFER seq=97 ticks=103001
+103010968 node-2 WIRE node=2 kind=1 seq=97 next=3
+103056968 node-3 WIRE node=3 kind=1 seq=97 next=4
+103097968 node-4 DELIVER node=4 seq=97
+103097968 node-4 WIRE node=4 kind=3 seq=97 next=3
+103122968 node-3 WIRE node=3 kind=3 seq=97 next=2
+103160968 node-2 WIRE node=2 kind=3 seq=97 next=1
+103192968 node-1 RECEIPT node=1 seq=97 ticks=191 hz=1000
+104001000 node-1 WIRE node=1 kind=1 seq=98 next=2
+104001000 node-1 OFFER seq=98 ticks=104001
+104039968 node-2 WIRE node=2 kind=1 seq=98 next=3
+104082968 node-3 WIRE node=3 kind=1 seq=98 next=4
+104122968 node-4 DELIVER node=4 seq=98
+104122968 node-4 WIRE node=4 kind=3 seq=98 next=3
+104149968 node-3 WIRE node=3 kind=3 seq=98 next=2
+104169968 node-2 WIRE node=2 kind=3 seq=98 next=1
+104189968 node-1 RECEIPT node=1 seq=98 ticks=188 hz=1000
+105001000 node-1 WIRE node=1 kind=1 seq=99 next=2
+105001000 node-1 OFFER seq=99 ticks=105001
+105038968 node-2 WIRE node=2 kind=1 seq=99 next=3
+105059968 node-3 WIRE node=3 kind=1 seq=99 next=4
+105071968 node-4 DELIVER node=4 seq=99
+105071968 node-4 WIRE node=4 kind=3 seq=99 next=3
+105091968 node-3 WIRE node=3 kind=3 seq=99 next=2
+105110968 node-2 WIRE node=2 kind=3 seq=99 next=1
+105123968 node-1 RECEIPT node=1 seq=99 ticks=122 hz=1000
+106001000 node-1 WIRE node=1 kind=1 seq=100 next=2
+106001000 node-1 OFFER seq=100 ticks=106001
+106015968 node-2 WIRE node=2 kind=1 seq=100 next=3
+106043968 node-3 WIRE node=3 kind=1 seq=100 next=4
+106055968 node-4 DELIVER node=4 seq=100
+106055968 node-4 WIRE node=4 kind=3 seq=100 next=3
+106099968 node-3 WIRE node=3 kind=3 seq=100 next=2
+106140968 node-2 WIRE node=2 kind=3 seq=100 next=1
+106170968 node-1 RECEIPT node=1 seq=100 ticks=169 hz=1000
+110001000 node-4 WIRE node=4 kind=3 seq=100 next=3
+110001000 node-4 INJECT type=signature
+110034968 node-3 REJECT node=3 type=signature seq=100
+116001000 node-3 FINAL node=3 offered=0 delivered=0 receipts=0 bad_hop=0 replay=0 bad_signature=1 cpu=116000000 lpm=0 tx=1394696 listen=114605304 energy_hz=1000000
+116001000 node-2 FINAL node=2 offered=0 delivered=0 receipts=0 bad_hop=1 replay=1 bad_signature=0 cpu=116000000 lpm=0 tx=1395792 listen=114604208 energy_hz=1000000
+116001000 node-4 FINAL node=4 offered=0 delivered=100 receipts=0 bad_hop=0 replay=0 bad_signature=0 cpu=116000000 lpm=0 tx=702672 listen=115297328 energy_hz=1000000
+116001000 node-1 FINAL node=1 offered=100 delivered=0 receipts=100 bad_hop=0 replay=0 bad_signature=0 cpu=116000000 lpm=0 tx=708544 listen=115291456 energy_hz=1000000
+TEST OK
+Test ended at simulation time: 116001000

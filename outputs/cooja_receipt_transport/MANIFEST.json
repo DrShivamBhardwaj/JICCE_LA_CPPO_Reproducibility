@@ -1,0 +1,242 @@
+[
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/protocol.json",
+    "sha256": "18776cda13d9f0d32ed4d090bf08c05a8e2126831c9b2acbee2a82a56c53262f",
+    "size": 908
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/runs.json",
+    "sha256": "3943fb09542463188a210c70c347dc6558595d2aa8a6640bc85275e92651e2b5",
+    "size": 7671
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91001/COOJA.testlog",
+    "sha256": "a1d8cead86f9c288de2ca2b53acc7eb05e50b2cb7c6e0ea7077ccac861579dba",
+    "size": 169037
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91001/audit.json",
+    "sha256": "c2f057e8a4759d73386f957497d51d03089e42aef4011dac6cb2c6d52fa109e8",
+    "size": 1397
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91001/console.log",
+    "sha256": "82508c762dc57f1b1e1351efef72a9475a44eaf417f0b8fb81bbf521284f2610",
+    "size": 1832
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91001/simulation.csc",
+    "sha256": "8c9181fb24b3a6b2fb0bf1049484dd00924a3068e82f4505858162f67001166b",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91002/COOJA.testlog",
+    "sha256": "e1950776902250d55268a960d62698707e9f3f64c0104cec6129221fb63e3037",
+    "size": 169037
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91002/audit.json",
+    "sha256": "0896e12ed44ce005d388bf8b2e162f3e420577a79c8e21e1351eb9f436cf0778",
+    "size": 1395
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91002/console.log",
+    "sha256": "8b86c6dd5981d4aab64f7c8143117bb609992d342826d9bb0c4cd9f98e36eb8c",
+    "size": 1832
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91002/simulation.csc",
+    "sha256": "cd7189942684ec721eff47d498c0bec13b7617edcd1abc1b58e8469dfc1c2d81",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91003/COOJA.testlog",
+    "sha256": "9ad4cfc0b38b5cc360c4818d3411781d0579f8698beafd204da8871b54732c3a",
+    "size": 169035
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91003/audit.json",
+    "sha256": "a2562372aa60d3e6a5b74e6bf8c2fe5e7c6a571c3db9711b142a7618badcfcab",
+    "size": 1392
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91003/console.log",
+    "sha256": "40b3d5f1d145ae213be433ca90c83e75e89a55dd7fc516d171a61b06ce975e61",
+    "size": 1832
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91003/simulation.csc",
+    "sha256": "b3925090dfe1b00105135167208de87f952ab2cd1c3d7eb27ffb120d9976e641",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91001/COOJA.testlog",
+    "sha256": "0510bdc3157cbc34f05c3a03182995e0835d3470c99ef092971a0b60a75df83a",
+    "size": 169035
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91001/audit.json",
+    "sha256": "38f8970fc70f807f26d2b5099a4b9d11c249a262dc73925b18f200d3b44f85b6",
+    "size": 1394
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91001/console.log",
+    "sha256": "5c26b879a3761d0899e34879250bdd4bea789464aa148162eb60ac9e0514fe67",
+    "size": 1833
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91001/simulation.csc",
+    "sha256": "85fe4b5e9b61d95bac4b19dcfa11429d7aec1b6c4725485f140aba294e5f651c",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91002/COOJA.testlog",
+    "sha256": "b6950a80033137c975cc1bf7c090a8f243bd354284026432885ae0cff8ab32f2",
+    "size": 169034
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91002/audit.json",
+    "sha256": "8e6335d103ea2330299f00b286bf588a02c9b1fa5e5ada4052cf0aed6924c103",
+    "size": 1392
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91002/console.log",
+    "sha256": "bd7b607df88dd07c94ef52917c3fbb230cf89e28c28c95286e08a9816d2bebbd",
+    "size": 1832
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91002/simulation.csc",
+    "sha256": "a37213a3310395f55b2e085b98be46c0d6d5a9fddc1060b6c84140b70116b892",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91003/COOJA.testlog",
+    "sha256": "6fc96b52faabe572da2597718cb081bb227f9fb4c0e6ecc2f2419790043f096b",
+    "size": 169033
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91003/audit.json",
+    "sha256": "287fd43ff9c995e29cd836cb9564c87b76bf6c9377799e79655fc6a5e10f6084",
+    "size": 1392
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91003/console.log",
+    "sha256": "39e41bd46476b303b498d756ffb5d4a18569250e65f2f6b8077c3b1066e50252",
+    "size": 1833
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91003/simulation.csc",
+    "sha256": "cdccc1b495c463c2075633935013ae6b2499e664a260e9b33417675caa58dffa",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001/COOJA.testlog",
+    "sha256": "e45a59bd5ff6846002328b0332c35bb8667bf457f240e3e23f13f0b041de740a",
+    "size": 169036
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001/audit.json",
+    "sha256": "50d0aad863f3ad11b02bf3993ef1da7556fb30d4ac6d822f87f5164db0dbac19",
+    "size": 1397
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001/console.log",
+    "sha256": "54e5fa976781a33e1ea2b17acd16082580194d518d86f4d8299bb13a991ccc0a",
+    "size": 1854
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001/simulation.csc",
+    "sha256": "0d8a13a25c6509dc0d157c71f62a7f354c17281edf2a2f54eaaf8d503e52248b",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91002/COOJA.testlog",
+    "sha256": "cfb61b0565e0ca1bf385c07fec0f94fffab10267b58143fa109094d20e3459a2",
+    "size": 169032
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91002/audit.json",
+    "sha256": "109e921ba194d48a71d1f332c4ba30a94107921e37bcc7ce46164129f3b16e76",
+    "size": 1394
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91002/console.log",
+    "sha256": "1f00bd3843672162e363dcb7d46e93626c2a76b440fd16403868277b36e62776",
+    "size": 1832
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91002/simulation.csc",
+    "sha256": "620874e0f00814c07c963e5d6b73fe7e186c252596e4e193c10c0504b41dfc39",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91003/COOJA.testlog",
+    "sha256": "641370a5e4e97951ca336d87d1e9641b0208e4f488e01cbe0b43c724bcbac829",
+    "size": 169032
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91003/audit.json",
+    "sha256": "806f3dc80d02b014a38cd88363aab9c11526f343b4137230dd893ccd92e56aa3",
+    "size": 1394
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91003/console.log",
+    "sha256": "1ef425b3177b345cf34620eec36a152b4263061c41e64a7cae5c8d3faa95e222",
+    "size": 1822
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91003/simulation.csc",
+    "sha256": "af9b6ef4e8fed42bea904f061e4b2fef9283dd4e826d638dd32bdedc2844ef99",
+    "size": 3789
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/source_sha256.json",
+    "sha256": "75cb7ac4c0c68d7df549b1c9143091f2340077ba30702450cfbcd737d935770b",
+    "size": 488
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/frozen_9runs/summary.json",
+    "sha256": "e5237b82d13e6bd753dedf83d70cf5b5c7e8f53442c793578b25d7b43cb637dc",
+    "size": 15312
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/last_built_native_mote.dylib",
+    "sha256": "f8d0bb113937fe1eb461e2d5752129fdc79932a2267b9b7cb6068b43f63ee071",
+    "size": 296960
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/native_image_capture.json",
+    "sha256": "9f3842c5dbc1f38f4c0456540786f7a51654f1df1e3e977ab95b906eaa4c4a59",
+    "size": 407
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/pilot/COOJA.testlog",
+    "sha256": "df8aaaf6adc68a32336d90484435c27e298e109a1efa88cdbaf3a77a863f8123",
+    "size": 2384
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/pilot/INVALID_RUN.txt",
+    "sha256": "9238887a85f9f9c0cf33fdb89c95833f53011f8b629061fbbb1a9266f7551293",
+    "size": 253
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/pilot/console.log",
+    "sha256": "441a46c629c09bbad369c32e518c59ec1786e57f2ba6ab19776be4931479b62b",
+    "size": 1900
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/pilot_corrected/COOJA.testlog",
+    "sha256": "6cf534341398b396d34a76a0c0c92329da1dd6f3f34bdf4f52e70ded6951060a",
+    "size": 45622
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/pilot_corrected/console.log",
+    "sha256": "578cffcfb67bde4c71cdb5edced04176108290a8738b1d4b7045532b64154189",
+    "size": 1770
+  },
+  {
+    "path": "outputs/cooja_receipt_transport/simulator_build.log",
+    "sha256": "a4ef4cf05ef331f432b53dc33af8063f233254f4fef6b2bc000ce4af9e33b350",
+    "size": 260
+  }
+]

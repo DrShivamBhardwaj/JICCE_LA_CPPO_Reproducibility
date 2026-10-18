@@ -23,3 +23,7 @@ The manuscript can accurately describe simulation and emulation evidence without
 ## Latest receipt profiles
 
 Current receipt validation (18 October 2026): Q22 inference and cached signing keys reduce original signed-receipt deadline misses from 134/200 to 68/200. The experimental source-only HMAC receipt meets 200/200 tested deadlines (chain 61–63 ms; choice 49–50 ms); deferred Ed25519 proofs still miss 68/200 original deadlines. These are distinct endpoints, not a repaired original signed deadline. Both new profiles deliver all 200 packets and verify all 200 deferred proofs. ACK plus Ed25519 remains the forwarding-credit gate. Extra private receipt traffic has no measured energy benefit. Tested stack guards remain intact under the 32 KiB linker budget; this is not a worst-case bound. Physical RF/energy, protected MCU key storage and persistent MCU sessions remain unvalidated. The attached-hardware inventory found no matching board/instrument. Coauthor consent and authenticated portal checks require genuine author actions; no approval or submission is inferred.
+
+## Cooja extension
+
+Nine separate native Cooja transport diagnostics delivered 900/900 packets and signed receipts with modeled radio loss and CSMA retries. This simplified public-key fixture omits the trained policy and passive-credit mechanism; it does not complete physical RF/energy, production security or MCU-cycle timing validation. See hardware/cooja_receipt_transport/README.md and publication/array/Cooja_Transport_Validation_Addendum.md.

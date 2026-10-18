@@ -1,0 +1,21 @@
+DRAFT — NOT SENT; this request is not author consent.
+To: abhinandan282@bit.ac.in
+Subject: Final author review requested — WSN receipt-feedback benchmark for Array
+
+Dear Dr. Abhinandan Tripathi,
+
+Please review the attached or linked final manuscript, “A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks,” before we proceed with an Array submission.
+
+Version: repository commit 1bcc158c601abc8455af74b0747d7da0fc8505ff
+PDF SHA-256: 1671da88c1c88b5ff90fe82f4b3c3b3d5df3f067d8da8a791d256bbb69facd11
+Manuscript: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/1bcc158c601abc8455af74b0747d7da0fc8505ff/publication/array/Array_Manuscript.pdf
+
+Please confirm your name, affiliation and contact details, describe your actual contribution roles, and state whether you approve this exact version and its submission to Array. Please also confirm your funding and competing-interest disclosures and identify any overlapping publications, preprints or submissions that must be disclosed. If you request changes, please identify them instead of approving this version.
+
+The manuscript distinguishes simulation and emulation from physical validation. Signed-receipt deadlines still fail in 68/200 Q22 pilot packets. The separate private MAC receipt meets its tested deadlines but adds traffic and does not replace public-signature verification. Physical RF/energy and production MCU security have not been validated. Please review these boundaries and the AI-use declaration explicitly.
+
+Your approval applies to the identified manuscript version. We will circulate any substantive revision for renewed review.
+
+Regards,
+Shivam Bhardwaj
+Corresponding author

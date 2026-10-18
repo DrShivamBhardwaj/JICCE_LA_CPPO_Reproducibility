@@ -1,0 +1,38 @@
+{
+  "manuscript_pdf_sha256": "1671da88c1c88b5ff90fe82f4b3c3b3d5df3f067d8da8a791d256bbb69facd11",
+  "repository_commit": "1bcc158c601abc8455af74b0747d7da0fc8505ff",
+  "status": "awaiting_actual_author_confirmation",
+  "authors": [
+    {
+      "name": "Shivam Bhardwaj",
+      "email": "shibambhardwaj@gmail.com",
+      "final_version_approved": null,
+      "contribution_roles": null,
+      "exclusivity_and_overlap_confirmed": null,
+      "declarations_confirmed": null,
+      "confirmation_timestamp": null,
+      "evidence_reference": null
+    },
+    {
+      "name": "Abhishek Kumar Pandey",
+      "email": "abhishek.pandey2@bennett.edu.in",
+      "final_version_approved": null,
+      "contribution_roles": null,
+      "exclusivity_and_overlap_confirmed": null,
+      "declarations_confirmed": null,
+      "confirmation_timestamp": null,
+      "evidence_reference": null
+    },
+    {
+      "name": "Abhinandan Tripathi",
+      "email": "abhinandan282@bit.ac.in",
+      "final_version_approved": null,
+      "contribution_roles": null,
+      "exclusivity_and_overlap_confirmed": null,
+      "declarations_confirmed": null,
+      "confirmation_timestamp": null,
+      "evidence_reference": null
+    }
+  ],
+  "instruction": "Retain actual author confirmations privately. Template fields do not constitute consent. Do not publish private correspondence automatically."
+}

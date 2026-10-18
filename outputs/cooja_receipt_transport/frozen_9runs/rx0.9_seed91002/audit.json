@@ -1,0 +1,68 @@
+{
+  "status": "audit_passed",
+  "packet_delivery_complete": true,
+  "offered": 100,
+  "delivered": 100,
+  "verified_receipts": 100,
+  "missing_receipts": 0,
+  "receipt_delay_ms": {
+    "min": 83.0,
+    "max": 296.0,
+    "mean": 169.86
+  },
+  "late_received_by_deadline_ms": {
+    "90": 99,
+    "350": 0,
+    "1500": 0
+  },
+  "missing_or_late_by_deadline_ms": {
+    "90": 99,
+    "350": 0,
+    "1500": 0
+  },
+  "rejections": {
+    "hop": 1,
+    "replay": 1,
+    "signature": 1
+  },
+  "all_three_controls_observed": true,
+  "wire_hmac_records_verified": 602,
+  "invalid_signature_injections_verified": 1,
+  "energest_state_seconds": [
+    {
+      "node": 1,
+      "cpu_s": 116.0,
+      "lpm_s": 0.0,
+      "tx_s": 0.774936,
+      "listen_s": 115.225064
+    },
+    {
+      "node": 2,
+      "cpu_s": 116.0,
+      "lpm_s": 0.0,
+      "tx_s": 1.55552,
+      "listen_s": 114.44448
+    },
+    {
+      "node": 3,
+      "cpu_s": 116.0,
+      "lpm_s": 0.0,
+      "tx_s": 1.540712,
+      "listen_s": 114.459288
+    },
+    {
+      "node": 4,
+      "cpu_s": 116.0,
+      "lpm_s": 0.0,
+      "tx_s": 0.776296,
+      "listen_s": 115.223704
+    }
+  ],
+  "energy_j": null,
+  "physical_validation": false,
+  "mcu_cycle_timing_validated": false,
+  "attention_policy_validated": false,
+  "log_sha256": "b6950a80033137c975cc1bf7c090a8f243bd354284026432885ae0cff8ab32f2",
+  "seed": 91002,
+  "rx_probability": 0.9
+}

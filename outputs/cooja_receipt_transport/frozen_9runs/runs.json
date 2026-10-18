@@ -1,0 +1,191 @@
+[
+  {
+    "seed": 91001,
+    "rx_probability": 1.0,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91001/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91002,
+    "rx_probability": 1.0,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91002",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91002",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91002/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91003,
+    "rx_probability": 1.0,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91003",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91003",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx1.0_seed91003/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91001,
+    "rx_probability": 0.9,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91001",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91001",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91001/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91002,
+    "rx_probability": 0.9,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91002",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91002",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91002/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91003,
+    "rx_probability": 0.9,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91003",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91003",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.9_seed91003/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91001,
+    "rx_probability": 0.7,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91001",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91001",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91001/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91002,
+    "rx_probability": 0.7,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91002",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91002",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91002/simulation.csc"
+    ]
+  },
+  {
+    "seed": 91003,
+    "rx_probability": 0.7,
+    "returncode": 0,
+    "folder": "outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91003",
+    "command": [
+      "/opt/homebrew/opt/openjdk@25/bin/java",
+      "--enable-native-access=ALL-UNNAMED",
+      "-jar",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja/build/libs/cooja.jar",
+      "--no-gui",
+      "--no-log-color",
+      "--contiki",
+      "/Users/shivambhardwaj/Research/contiki-ng",
+      "--cooja",
+      "/Users/shivambhardwaj/Research/contiki-ng/tools/cooja",
+      "--logdir",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91003",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cooja_receipt_transport/frozen_9runs/rx0.7_seed91003/simulation.csc"
+    ]
+  }
+]

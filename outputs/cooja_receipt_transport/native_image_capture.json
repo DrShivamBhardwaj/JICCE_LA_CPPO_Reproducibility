@@ -1,0 +1,6 @@
+{
+  "image": "last_built_native_mote.dylib",
+  "original_build_name": "mtype27083566.cooja",
+  "sha256": "f8d0bb113937fe1eb461e2d5752129fdc79932a2267b9b7cb6068b43f63ee071",
+  "scope": "Last-built native host library retained after sequential diagnostics; no independently recorded per-run binary identity binding. Rebuild each mote with the supplied source and Cooja runner. Not a flash-ready MCU image."
+}

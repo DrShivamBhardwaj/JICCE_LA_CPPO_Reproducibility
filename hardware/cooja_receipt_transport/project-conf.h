@@ -1,0 +1,7 @@
+#ifndef PROJECT_CONF_H_
+#define PROJECT_CONF_H_
+#define ENERGEST_CONF_ON 1
+#define LOG_CONF_LEVEL_MAC 0
+#define LOG_CONF_LEVEL_FRAMER 0
+#define LOG_CONF_LEVEL_NULLNET 0
+#endif
