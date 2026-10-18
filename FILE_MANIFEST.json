@@ -16581,7 +16581,7 @@
   },
   "publication/array/Approval_evidence_register_TEMPLATE.json": {
     "size": 1370,
-    "sha256": "4ef81369bd9ab61be7367509127ace92ccb20a63b5d9fe53ddea01583b5f2adb"
+    "sha256": "f5963ac4fb79f8c5e450c4fcf0778f8b593e6a0860f3c75bcbe7025ebdb252c6"
   },
   "publication/array/Array_Figures_PNG_PDF_SVG.zip": {
     "size": 6195264,
@@ -16608,12 +16608,12 @@
     "sha256": "1807ea40b7157eeca12ba4b9f96e545b7d16f57e7216e790c62631ec76c95f56"
   },
   "publication/array/Coauthor_review_request_Abhinandan_Tripathi_DRAFT.txt": {
-    "size": 1946,
-    "sha256": "c0949ad5418d05410e36cfdc794080681461a9f0ad91885716dc297988d41c8e"
+    "size": 2035,
+    "sha256": "a0b30e7d5fb62ce980e6ba1a7284da20b53ea625ceee0444eb51b5dfc7ddc694"
   },
   "publication/array/Coauthor_review_request_Abhishek_Kumar_Pandey_DRAFT.txt": {
-    "size": 1956,
-    "sha256": "cdf1df9005555e98d83a778fabd57c3150a4389d7d60d28f92cc50cdd247a002"
+    "size": 2045,
+    "sha256": "bdfee00e756bfb4e9f8fcdd7c2c52538bf6e28075e3d5c67036700cf3cb8414e"
   },
   "publication/array/Cooja_Feedback_Evaluation.md": {
     "size": 6319,
@@ -16653,7 +16653,7 @@
   },
   "publication/array/SHA256SUMS": {
     "size": 8538,
-    "sha256": "1e03e8c0a7b1db6836feb4000182223fc1c266e7e509a2ece7b41c34a75d8559"
+    "sha256": "d51812471a3b4fdfb3d851d6eb3c15209dd54a5681ace76fb3cf992d867f891a"
   },
   "publication/array/author_metadata.json": {
     "size": 1807,
@@ -16693,7 +16693,7 @@
   },
   "publication/array/external_validation_access_check.json": {
     "size": 912,
-    "sha256": "ca8b69013a863333a5d682983d652e1bb067fcf70cde46562d7fe61b9812b518"
+    "sha256": "021fbb76f9458256e65b42712a1caae3da18a81896f5c1df131aeb5269b10c27"
   },
   "publication/array/failure_boundary_audit.json": {
     "size": 336,

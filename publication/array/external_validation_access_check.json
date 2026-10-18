@@ -11,6 +11,6 @@
   "coauthor_messages_sent": false,
   "physical_measurements_acquired": false,
   "next_required": "Actual hardware/instrument access, actual author confirmations, and an accessible authenticated official submission workflow.",
-  "review_package_commit": "8bfc8730441344c66c641346f19f30128222eab7",
-  "manuscript_pdf_sha256": "7bce76ec53b1aa5e6eeda6c2482ff3f4d098fe617665a71e9efbfe26117546aa"
+  "review_package_commit": "e7a97e8a0f27c0ba659baf3415b9f464c2400563",
+  "manuscript_pdf_sha256": "85b31aef5bb3183aa2346236726ff05e7cf35c8625c38267e61970e2430a3781"
 }
