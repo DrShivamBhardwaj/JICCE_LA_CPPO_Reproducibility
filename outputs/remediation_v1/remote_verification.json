@@ -1,0 +1,15 @@
+{
+  "status": "passed_remote_content_verification",
+  "paper_commit": "2132d4e0e79cfccd5df84e558d8951b5addb3fe1",
+  "tree": "53af44b8d665f7a9922106e139dab323acdca460",
+  "repository_blobs_compared": 4599,
+  "mismatches": 0,
+  "artifact_sha256": {
+    "Array_Manuscript.docx": "0b9565876c54f65633782e56e444b00fc9e602fd38349965a4523a1c505b931a",
+    "Array_Manuscript.pdf": "6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44",
+    "Array_Figures_PNG_PDF_SVG.zip": "3c582e32afd16f79a905d1a2eec8d604cc1aabf691c3e914721b51858b0beffb"
+  },
+  "raw_release_sha256": "4870447fdbd6fb1bd8507651544210c54c480da28811cba21ec1cc2dd9bdd30d",
+  "checked_at_utc": "2026-10-18T23:38:09.083425+00:00",
+  "scope": "GitHub tree objects matched the complete staged repository; fetched Git objects reproduced the exact Word, PDF and figure-archive bytes. Run-tagged raw release downloaded and hash-verified."
+}

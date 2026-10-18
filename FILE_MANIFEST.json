@@ -15715,6 +15715,10 @@
     "size": 655,
     "sha256": "7201c51bc4797645ac2b3cc3d35f6919e213ba0125dd33b7e073b5c963610f9a"
   },
+  "outputs/remediation_v1/remote_verification.json": {
+    "size": 902,
+    "sha256": "7ab5fdc87dca57a65e6fc41da5dfb2d52bd6b2b7e90afc1b5509211ce9320343"
+  },
   "outputs/remediation_v1/run_endpoints.json": {
     "size": 1352989,
     "sha256": "a38e02e7c0343e99e43dcb5406b1c59c047751520bfb21f440f8d5e3d0a12142"
@@ -16953,7 +16957,7 @@
   },
   "publication/array/Approval_evidence_register_TEMPLATE.json": {
     "size": 1370,
-    "sha256": "f5963ac4fb79f8c5e450c4fcf0778f8b593e6a0860f3c75bcbe7025ebdb252c6"
+    "sha256": "ee5d2e991112480e5b0edaef83b835b30140b514fe2e450e393de5117694a428"
   },
   "publication/array/Array_Figures_PNG_PDF_SVG.zip": {
     "size": 7030934,
@@ -16980,12 +16984,12 @@
     "sha256": "1807ea40b7157eeca12ba4b9f96e545b7d16f57e7216e790c62631ec76c95f56"
   },
   "publication/array/Coauthor_review_request_Abhinandan_Tripathi_DRAFT.txt": {
-    "size": 2035,
-    "sha256": "a0b30e7d5fb62ce980e6ba1a7284da20b53ea625ceee0444eb51b5dfc7ddc694"
+    "size": 1814,
+    "sha256": "fef66a5128e4b49afb9a29a2ea62676ca094a5bbb1db229f8ee74caaf45b5ab7"
   },
   "publication/array/Coauthor_review_request_Abhishek_Kumar_Pandey_DRAFT.txt": {
-    "size": 2045,
-    "sha256": "bdfee00e756bfb4e9f8fcdd7c2c52538bf6e28075e3d5c67036700cf3cb8414e"
+    "size": 1824,
+    "sha256": "3aebf3847b36168d8173ac55337335f331df2a94a5b4c6832559e690e4cac436"
   },
   "publication/array/Cooja_Feedback_Evaluation.md": {
     "size": 6319,
@@ -17013,7 +17017,7 @@
   },
   "publication/array/Highlights.docx": {
     "size": 36815,
-    "sha256": "bc0f6629c85bc54905060a4d2d620ef0f539adb7206e210e0a16b3ba3d5fd43d"
+    "sha256": "f6b1d1ed4ec186d319c5cfe47ad6c79ccafc116129f44d831214e53caad6de0a"
   },
   "publication/array/Highlights.txt": {
     "size": 303,
@@ -17028,12 +17032,16 @@
     "sha256": "129656c858541152311a4b83b3ed93d9ede258798aae695bf9e9ca8ffea95c39"
   },
   "publication/array/SHA256SUMS": {
-    "size": 9800,
-    "sha256": "130a474e0895e3a5cbf51ffc4f0ab519aeccc8b4bd0ddce67b21ecc15892bd67"
+    "size": 9911,
+    "sha256": "1b7b47ae515bf82501bf8aa0dc4308711858b5e756408028fd8f9e5712952de6"
   },
   "publication/array/author_metadata.json": {
     "size": 1807,
     "sha256": "be00af88028fb43d7a55c4d8d9834143268fd3aab36fd6be4080ec9ae4b077e7"
+  },
+  "publication/array/author_review_version.json": {
+    "size": 347,
+    "sha256": "2ba9c0853b1cf4f9f67c0fee7065eea171c93f415300c4cdf42a7d8f1fee9d1a"
   },
   "publication/array/cooja_figures/fig12_cooja_paired_delivery.pdf": {
     "size": 21032,
@@ -17069,7 +17077,7 @@
   },
   "publication/array/external_validation_access_check.json": {
     "size": 2514,
-    "sha256": "82a66bca39e7688983c95afe8b39f366ec7b421b4974425553fdc40a4c4be390"
+    "sha256": "283a8d1e66616913d6173c683c623a0396bdbb2fb37102c197fd4c82a28c85d2"
   },
   "publication/array/failure_boundary_audit.json": {
     "size": 336,
@@ -17916,8 +17924,8 @@
     "sha256": "7592c533dd5db39998d7fd2d3b318174a3329ef42b1de69f1b195c7330a19531"
   },
   "scripts/finalize_remediation_package.py": {
-    "size": 9044,
-    "sha256": "a7bdbfee255c433224491cf1850d5b65e5dea59bb80cb6befb3ee871c2fba045"
+    "size": 9431,
+    "sha256": "a3d7c7df10d1273b3aeee34f1f1251b1ed471b998eef0524345c7fab9aa6e45c"
   },
   "scripts/generate_powered_bridge.py": {
     "size": 3524,
@@ -17944,8 +17952,8 @@
     "sha256": "daec31666745cdb4d2d36c4aef5bf8c5deaffb3b0d5a34198e958ba19a12a0f4"
   },
   "scripts/pin_remediation_author_review.py": {
-    "size": 3607,
-    "sha256": "2bff56763f1131f1678c03f912cba5d68d4b822db92980b8c584b2c145ddf134"
+    "size": 3919,
+    "sha256": "cdc652ea8be7538dc2f0543dab2c399e59123e6f87210d7471bf0c7e389234ef"
   },
   "scripts/plot_cooja_feedback.py": {
     "size": 2422,
@@ -18172,8 +18180,8 @@
     "sha256": "95254854200bfb08141a657f3e07535209cc19fe33fd29fe60ba644371f22dfe"
   },
   "scripts/write_remediation_report.py": {
-    "size": 9320,
-    "sha256": "92e87cd0ea11d74beed5aae0c39557f01ddf23a8da7b87b8f1fc6083625d538b"
+    "size": 9876,
+    "sha256": "53af3f4ab77c769d89aed274e0f3715ccd14fe20616c33fd2de469353f33d2a5"
   },
   "src/ns3_bridge/bridge.cc": {
     "size": 3698,

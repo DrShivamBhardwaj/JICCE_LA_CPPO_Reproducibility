@@ -1,9 +1,11 @@
 """Build the completion report from accepted outputs, never from success labels alone."""
 from pathlib import Path
-import json,csv,io
+import json,csv,io,hashlib
 R=Path(__file__).resolve().parents[1];O=R/'outputs/remediation_v1';D=R/'docs'
 def main():
     a=json.loads((O/'analysis.json').read_text());i=json.loads((O/'integrity_recheck.json').read_text());s=json.loads((O/'secondary_summary.json').read_text());m=json.loads((R/'outputs/mcu_deadline_v1/analysis.json').read_text());diag=json.loads((O/'archive_diagnostics/summary.json').read_text())
+    publication=R/'publication/array';visual=json.loads((publication/'remediation_visual_review.json').read_text());document=json.loads((publication/'remediation_manuscript_audit.json').read_text())
+    if visual['status']!='passed_page_by_page_review' or document['status']!='passed' or visual['pdf_sha256']!=hashlib.sha256((publication/'Array_Manuscript.pdf').read_bytes()).hexdigest() or document['final_docx_sha256']!=hashlib.sha256((publication/'Array_Manuscript.docx').read_bytes()).hexdigest():raise ValueError('Stale publication evidence')
     assert a['runs']==i['cases']==1440 and i['status']=='passed_complete_archive_integrity'
     rows=[
       ('A: causal attribution','RESOLVED','Four matched arms share ACK, expiry, positive-credit and late-positive semantics; negative update and proof traffic cross independently. Separate active reference retained.','experiments/remediation_v1; outputs/remediation_v1/analysis.json','Conditional effects within this fixture family; not attribution of the complete historical ns-3 gain.'),

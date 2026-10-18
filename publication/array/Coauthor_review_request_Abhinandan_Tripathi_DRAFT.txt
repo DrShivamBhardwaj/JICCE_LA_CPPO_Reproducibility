@@ -1,20 +1,21 @@
-DRAFT — NOT SENT; this request is not author consent.
+DRAFT — NOT SENT. This request is not author consent.
 To: abhinandan282@bit.ac.in
-Subject: Final author review requested — receipt feedback benchmark for Array
+Subject: Exact-version manuscript review requested — controlled feedback benchmark
 
 Dear Dr. Abhinandan Tripathi,
 
-Please review the revised manuscript, “Failure Boundaries of Censored Passive Feedback in Authenticated Wireless Sensor Routing,” before an Array submission.
+Please review “Controlled Feedback Comparisons and Adaptation Limits in Authenticated Wireless Sensor Routing” and its proposed submission to Array.
 
-Exact version: e7a97e8a0f27c0ba659baf3415b9f464c2400563
-PDF SHA-256: 85b31aef5bb3183aa2346236726ff05e7cf35c8625c38267e61970e2430a3781
-Manuscript: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/e7a97e8a0f27c0ba659baf3415b9f464c2400563/publication/array/Array_Manuscript.pdf
+Exact manuscript commit: 2132d4e0e79cfccd5df84e558d8951b5addb3fe1
+PDF SHA-256: 6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44
+Word SHA-256: 0b9565876c54f65633782e56e444b00fc9e602fd38349965a4523a1c505b931a
+PDF: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/2132d4e0e79cfccd5df84e558d8951b5addb3fe1/publication/array/Array_Manuscript.pdf
 
-The latest revision centers the retained 600-run Cooja failure and adds Section 6.2 to distinguish estimator non-adaptation from routing-action invariance. No new experiment or universal threshold is claimed. It reports a failure boundary: when a relay starts dropping after warm-up, delayed-condition delivery is 32.94% for censored feedback, 54.89% for naive feedback and 79.11% for active proofs. Original benchmark statistics are retained separately. Please review this change to the abstract, results and conclusion, the public-fixture/nominal-telemetry scope, and the distinction between the original signed deadline and the separate fast private receipt endpoint. Physical RF/energy and production MCU security remain unvalidated.
+The revision adds a separately frozen 1,440-run matched-factorial Cooja study, counterbalanced relay identities and attacker positions, direct diagnostics of the censored–frozen equality, and an unsuccessful compiler-only O3 deadline optimization. Historical studies and failures remain separate. Physical RF/current and production device security remain unvalidated; original signed-receipt deadlines still have 68/200 misses. The manuscript does not claim a universal switching threshold or neural-policy superiority.
 
-Please confirm your name, affiliation and contact details; state your actual contribution roles; and explicitly approve or request changes to this exact manuscript version and its proposed submission to Array. Confirm your funding and competing-interest disclosures and identify overlapping publications, preprints or submissions that must be disclosed. Please also review the AI-use declaration and responsibility for retained code, data and figures.
+Please confirm your metadata and actual contribution roles. Explicitly approve this exact version or specify changes, and confirm funding/competing-interest disclosures, exclusivity and any related or overlapping manuscripts/preprints. Review the AI-use declaration and responsibility for the data, code and figures. Approval must identify this version; substantive later changes require renewed review.
 
-Approval must refer to the identified version. Any substantive later revision will be circulated again. No final submission has been made.
+No submission has been made. No response, consent, signature or contribution is inferred by this draft.
 
 Regards,
 Shivam Bhardwaj

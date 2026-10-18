@@ -1,6 +1,6 @@
 """Prepare unsent exact-version review requests; never records or infers consent."""
 from pathlib import Path
-import argparse,json,hashlib,re
+import argparse,json,hashlib,re,subprocess
 from docx import Document
 R=Path(__file__).resolve().parents[1];P=R/'publication/array'
 def main():
@@ -8,6 +8,9 @@ def main():
     if not re.fullmatch(r'[0-9a-f]{40}',commit):raise ValueError('Require exact published manuscript commit')
     sha=lambda f:hashlib.sha256((P/f).read_bytes()).hexdigest()
     version={'repository_commit':commit,'manuscript_pdf_sha256':sha('Array_Manuscript.pdf'),'manuscript_docx_sha256':sha('Array_Manuscript.docx'),'status':'awaiting_actual_author_confirmation','coauthor_messages_sent':False}
+    for filename in ['Array_Manuscript.pdf','Array_Manuscript.docx']:
+        actual=subprocess.check_output(['git','show',commit+':publication/array/'+filename],cwd=R)
+        if hashlib.sha256(actual).hexdigest()!=sha(filename):raise ValueError('Commit does not contain this manuscript: '+filename)
     title=next(p.text for p in Document(P/'Array_Manuscript.docx').paragraphs if p.style.name=='Title')
     register=json.loads((P/'Approval_evidence_register_TEMPLATE.json').read_text())
     if any(author['final_version_approved'] is not None for author in register['authors']):raise ValueError('Preserve actual approval evidence before preparing a changed version')
