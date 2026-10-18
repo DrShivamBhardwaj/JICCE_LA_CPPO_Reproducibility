@@ -5,7 +5,14 @@ R=Path(__file__).resolve().parents[2];D=Path(__file__).resolve().parent;B=R/'bui
 
 def main():
     protocol=json.loads((D/'protocol.json').read_text())
-    for name,sha in protocol['source_sha256'].items():
+    expected=dict(protocol['source_sha256'])
+    amendments=D/'amendments.json'
+    if amendments.exists():
+        for amendment in json.loads(amendments.read_text()):
+            for name,change in amendment['files'].items():
+                if expected[name]!=change['before']:raise ValueError('MCU amendment chain mismatch')
+                expected[name]=change['after']
+    for name,sha in expected.items():
         if hashlib.sha256((R/name).read_bytes()).hexdigest()!=sha:raise ValueError('Frozen MCU source changed: '+name)
     B.mkdir(parents=True,exist_ok=True)
     for original,target in [('build_cc2538_q22.py','build_generated.py'),('run_cc2538_q22.py','run_generated.py'),('audit_cc2538_q22.py','audit_generated.py')]:

@@ -11,8 +11,6 @@ jobs:
   evaluate:
     runs-on: ubuntu-24.04
     timeout-minutes: 35
-    env:
-      WSN_PRIVATE_ROOT: ${{ runner.temp }}/wsn-private-validation
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,6 +18,7 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies and official emulator
         run: |
+          echo "WSN_PRIVATE_ROOT=$RUNNER_TEMP/wsn-private-validation" >> "$GITHUB_ENV"
           python -m pip install numpy cryptography ziglang==0.15.1
           python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
           mkdir -p build/mcu_deadline_v1 outputs/mcu_deadline_v1

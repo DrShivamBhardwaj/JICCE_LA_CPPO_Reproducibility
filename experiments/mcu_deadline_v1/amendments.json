@@ -1,0 +1,19 @@
+[
+  {
+    "classification": "Pre-execution workflow portability correction",
+    "original_freeze_commit": "e2b0aa40264aef6d1fc51fc7fda971d4292b7ae2",
+    "failed_workflow_run": 39148928933,
+    "jobs_executed": 0,
+    "reason": "Move runner temporary-directory expansion from job-level expression to supported step runtime environment; experiment and acceptance unchanged.",
+    "files": {
+      "experiments/mcu_deadline_v1/prepare.py": {
+        "before": "bc878f03a06e7a4b63deb3fa3aab16c4d82916a37ed3aebe31e0cc5c7b29e343",
+        "after": "11a46c47f82faed4e3127e365814901002e58d1956f02a276f48b32673952f26"
+      },
+      ".github/workflows/mcu-signed-deadline.yml": {
+        "before": "e6c7bea99bbfa4c4fe446f2e9d088b059eea6eda72baecd27c3f583b97f2b044",
+        "after": "e0091ed076ffca14fa198b680106cec32019852531b0e472a7f2bb9bcc82e95b"
+      }
+    }
+  }
+]

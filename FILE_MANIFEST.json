@@ -1,7 +1,7 @@
 {
   ".github/workflows/mcu-signed-deadline.yml": {
-    "size": 2499,
-    "sha256": "e6c7bea99bbfa4c4fe446f2e9d088b059eea6eda72baecd27c3f583b97f2b044"
+    "size": 2511,
+    "sha256": "e0091ed076ffca14fa198b680106cec32019852531b0e472a7f2bb9bcc82e95b"
   },
   ".github/workflows/wsn-remediation.yml": {
     "size": 1791,
@@ -303,9 +303,13 @@
     "size": 1851,
     "sha256": "6c1be6ba29ad72fe4ef8538b01dfac9f7675d5b547062454b21d2dc86f16c44d"
   },
+  "experiments/mcu_deadline_v1/amendments.json": {
+    "size": 863,
+    "sha256": "cc749bace47b592d86101b749741a3b6fdf46568101ffd80695b89e6b35ceb91"
+  },
   "experiments/mcu_deadline_v1/prepare.py": {
-    "size": 1372,
-    "sha256": "bc878f03a06e7a4b63deb3fa3aab16c4d82916a37ed3aebe31e0cc5c7b29e343"
+    "size": 1731,
+    "sha256": "11a46c47f82faed4e3127e365814901002e58d1956f02a276f48b32673952f26"
   },
   "experiments/mcu_deadline_v1/protocol.json": {
     "size": 4272,
