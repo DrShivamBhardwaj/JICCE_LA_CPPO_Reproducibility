@@ -16,3 +16,5 @@ Each author must review and confirm:
 The corresponding author should retain the actual confirmations separately. Empty boxes are not consent, signatures or submission authorization. No messages have been sent.
 
 [ ] All authors reviewed the separate private-MAC and public-signature receipt endpoints, retained signed-deadline failures, added traffic, Q22 input limits and unvalidated physical/production security claims. No consent is inferred from implementation checks.
+
+[ ] Review the exact updated PDF hash in Approval_evidence_register_TEMPLATE.json, including the 600-run Cooja behavior-change failure and explicitly exploratory matched-proof comparisons. No previous-version approval is inferred.

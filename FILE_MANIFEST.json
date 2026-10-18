@@ -16576,8 +16576,8 @@
     "sha256": "a5d17634cfd514e731bb9c13880cd520df0265ea0ebf71adce2721f317ab76aa"
   },
   "publication/array/Approval_evidence_register_TEMPLATE.json": {
-    "size": 1370,
-    "sha256": "8d6ca66fe84d002e888398f04f08b8c6664da380a1cd483e9ae010f577ce79b6"
+    "sha256": "4ef81369bd9ab61be7367509127ace92ccb20a63b5d9fe53ddea01583b5f2adb",
+    "size": 1370
   },
   "publication/array/Array_Figures_PNG_PDF_SVG.zip": {
     "size": 6195264,
@@ -16596,20 +16596,20 @@
     "sha256": "7bce76ec53b1aa5e6eeda6c2482ff3f4d098fe617665a71e9efbfe26117546aa"
   },
   "publication/array/Author_approval_checklist.txt": {
-    "size": 1399,
-    "sha256": "651d612eb34956d2dc7de6ce0dab9c380a838ae6c973b7cae1210cab5563823b"
+    "sha256": "cd93318a135d3fc560e721764747371226e367971d46d58c194486cfa5665738",
+    "size": 1631
   },
   "publication/array/Author_declarations_REVIEW.txt": {
     "size": 2963,
     "sha256": "4f195c18be25fc9d92aedb10a1f2262ef5a50bc08034e472f68c53804fba1f66"
   },
   "publication/array/Coauthor_review_request_Abhinandan_Tripathi_DRAFT.txt": {
-    "size": 1739,
-    "sha256": "0844b2109abaca8c3bc02e72f1641e8a34b9b0f90ff571eb2e6460f41a972765"
+    "sha256": "c0949ad5418d05410e36cfdc794080681461a9f0ad91885716dc297988d41c8e",
+    "size": 1946
   },
   "publication/array/Coauthor_review_request_Abhishek_Kumar_Pandey_DRAFT.txt": {
-    "size": 1749,
-    "sha256": "7986e5c973a405dbf8481707d28bdfd384a064ad828fd6b23036e8182014d4ff"
+    "sha256": "cdf1df9005555e98d83a778fabd57c3150a4389d7d60d28f92cc50cdd247a002",
+    "size": 1956
   },
   "publication/array/Cooja_Feedback_Evaluation.md": {
     "size": 6319,
@@ -16648,8 +16648,8 @@
     "sha256": "a0777fd945844e8db94a5077ecc29ca083805ba4490e3b046edfab6a5b72848a"
   },
   "publication/array/SHA256SUMS": {
-    "size": 8314,
-    "sha256": "1cb835c1114c000a7522acf08b7666832b6eee637e7253cc54e4335a79ef437b"
+    "sha256": "6e85127f1ed8dcd8109e97a144702b3274c9d4fc4d17a21e1cbaff8b5641bb33",
+    "size": 8314
   },
   "publication/array/author_metadata.json": {
     "size": 1807,
@@ -16688,8 +16688,8 @@
     "sha256": "940786a3d722cdb3e786109f8d134896f6007eb9f1c2bea5f8cfe086fa324366"
   },
   "publication/array/external_validation_access_check.json": {
-    "size": 746,
-    "sha256": "d30f52c0c3aa93d85456db51680ab42a23511f11986b22b95b0aa3eb49f418e6"
+    "sha256": "ca8b69013a863333a5d682983d652e1bb067fcf70cde46562d7fe61b9812b518",
+    "size": 912
   },
   "publication/array/figures/fig1_architecture.pdf": {
     "size": 27194,

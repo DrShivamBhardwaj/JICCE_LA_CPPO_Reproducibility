@@ -1,20 +1,20 @@
 DRAFT — NOT SENT; this request is not author consent.
 To: abhinandan282@bit.ac.in
-Subject: Final author review requested — WSN receipt-feedback benchmark for Array
+Subject: Final author review requested — receipt feedback benchmark for Array
 
 Dear Dr. Abhinandan Tripathi,
 
-Please review the attached or linked final manuscript, “A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks,” before we proceed with an Array submission.
+Please review the revised manuscript, “A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks,” before an Array submission.
 
-Version: repository commit 1bcc158c601abc8455af74b0747d7da0fc8505ff
-PDF SHA-256: 1671da88c1c88b5ff90fe82f4b3c3b3d5df3f067d8da8a791d256bbb69facd11
-Manuscript: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/1bcc158c601abc8455af74b0747d7da0fc8505ff/publication/array/Array_Manuscript.pdf
+Exact version: 8bfc8730441344c66c641346f19f30128222eab7
+PDF SHA-256: 7bce76ec53b1aa5e6eeda6c2482ff3f4d098fe617665a71e9efbfe26117546aa
+Manuscript: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/8bfc8730441344c66c641346f19f30128222eab7/publication/array/Array_Manuscript.pdf
 
-Please confirm your name, affiliation and contact details, describe your actual contribution roles, and state whether you approve this exact version and its submission to Array. Please also confirm your funding and competing-interest disclosures and identify any overlapping publications, preprints or submissions that must be disclosed. If you request changes, please identify them instead of approving this version.
+The latest revision adds 600 Cooja runs with the frozen policy and weighted feedback ledger. It reports a failure boundary: when a relay starts dropping after warm-up, delayed-condition delivery is 32.94% for censored feedback, 54.89% for naive feedback and 79.11% for active proofs. Original benchmark statistics are retained separately. Please review this change to the abstract, results and conclusion, the public-fixture/nominal-telemetry scope, and the distinction between the original signed deadline and the separate fast private receipt endpoint. Physical RF/energy and production MCU security remain unvalidated.
 
-The manuscript distinguishes simulation and emulation from physical validation. Signed-receipt deadlines still fail in 68/200 Q22 pilot packets. The separate private MAC receipt meets its tested deadlines but adds traffic and does not replace public-signature verification. Physical RF/energy and production MCU security have not been validated. Please review these boundaries and the AI-use declaration explicitly.
+Please confirm your name, affiliation and contact details; state your actual contribution roles; and explicitly approve or request changes to this exact manuscript version and its proposed submission to Array. Confirm your funding and competing-interest disclosures and identify overlapping publications, preprints or submissions that must be disclosed. Please also review the AI-use declaration and responsibility for retained code, data and figures.
 
-Your approval applies to the identified manuscript version. We will circulate any substantive revision for renewed review.
+Approval must refer to the identified version. Any substantive later revision will be circulated again. No final submission has been made.
 
 Regards,
 Shivam Bhardwaj
