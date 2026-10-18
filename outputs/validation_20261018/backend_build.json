@@ -77,6 +77,25 @@
       "-lns3.47-mobility-optimized",
       "-lns3.47-network-optimized",
       "-lns3.47-core-optimized"
+    ],
+    [
+      "c++",
+      "-std=c++20",
+      "-O2",
+      "-shared",
+      "-fPIC",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/src/ns3_bridge/powered_bridge.cc",
+      "-I/Users/shivambhardwaj/ns3-validation/ns-3.47/build/include",
+      "-L/Users/shivambhardwaj/ns3-validation/ns-3.47/build/lib",
+      "-Wl,-rpath,/Users/shivambhardwaj/ns3-validation/ns-3.47/build/lib",
+      "-o",
+      "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/build/libwsn_ns3_powered.so",
+      "-lns3.47-lr-wpan-optimized",
+      "-lns3.47-spectrum-optimized",
+      "-lns3.47-propagation-optimized",
+      "-lns3.47-mobility-optimized",
+      "-lns3.47-network-optimized",
+      "-lns3.47-core-optimized"
     ]
   ],
   "scope": "Portability check; not a reproduction of the ns-3.44 frozen evidence"

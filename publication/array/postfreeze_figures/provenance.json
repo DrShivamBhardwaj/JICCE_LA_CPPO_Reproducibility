@@ -1,0 +1,7 @@
+{
+  "source": "outputs/validation_20261018/factorial_analysis.json",
+  "contrast": "with proof minus without proof",
+  "intervals": "unadjusted paired Student t 95% intervals across 30 fixtures",
+  "p_values": "Holm adjusted across 30 prespecified extension contrasts",
+  "no_smoothing": true
+}

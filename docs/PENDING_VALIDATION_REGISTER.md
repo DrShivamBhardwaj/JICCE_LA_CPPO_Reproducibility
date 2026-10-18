@@ -36,3 +36,7 @@ The most discriminating extension is a frozen factorial feedback study that sepa
 ## Execution update on 18 October 2026
 
 The Mac was subsequently reconnected. See POSTFREEZE_VALIDATION_20261018.md and outputs/validation_20261018/ for 94 passing tests, ns-3.47 portability builds, an opt-in bounded ledger and the failed independent-clock acceptance cases. The earlier execution-unavailable paragraph records the earlier check, not the current access status. Low-q partition invariance and bounded ledger storage are tested in the alternate module; new routing comparisons, energy gating, duty cycling, embedded execution and physical measurements remain open.
+
+## Superseding execution record
+
+The latest state is docs/COMPLETION_MATRIX_20261018.md and publication/array/Postfreeze_Validation_Addendum.md. New executed evidence includes optional clock-envelope handling, native battery gating and sleep/wake tests, 27 routing diagnostics, a separately frozen 240-run factorial experiment and isolated Cortex-M3 actor/crypto execution. These close specific virtual checks, not integrated CC2538 firmware, physical measurements, author approvals or portal submission. Earlier rows describe requirements and must be read with this completion matrix.

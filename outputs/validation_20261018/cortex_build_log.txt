@@ -1,0 +1,3 @@
+zig: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+ld.lld: warning: cannot find entry symbol _start; not setting start address
+/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/validation_20261018/cortex_build.json

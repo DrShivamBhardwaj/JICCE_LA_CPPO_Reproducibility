@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "emulator": "QEMU emulator version 11.1.2",
+  "compiler": "0.17.0",
+  "machine": "mps2-an385",
+  "cpu": "Cortex-M3, software floating point",
+  "cases": 16,
+  "retained_radio_cases": 8,
+  "permutation_controls": 8,
+  "matching_actions": 16,
+  "distinct_selected_indices": 8,
+  "compared_logits": 128,
+  "max_logit_error": 1.7881393432617188e-07,
+  "tolerance": 1e-05,
+  "hmac_rfc4231_case1": true,
+  "ed25519_sign_and_verify": true,
+  "corrupt_signature_rejected": true,
+  "empty_mask_rejected": true,
+  "static_sram_bytes": 0,
+  "observed_stack_watermark_bytes": 3080,
+  "linker_sram_budget_bytes": 32768,
+  "linker_flash_budget_bytes": 524288,
+  "elf_sha256": "87ecbdc51c2d879b2fc7c65291c56d070de17eee6d3d8bac3d7a40b1e501261f",
+  "elf_file_bytes": 407536,
+  "scope": "Isolated emulated instruction-level actor and algorithm tests. No CC2538 peripheral/RF execution, integrated authenticated routing firmware, measured CPU energy or physical timing claim. Public test keys only."
+}
+   text	   data	    bss	    dec	    hex	filename
+ 341600	      0	      0	 341600	  53660	/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/build/cortex_m3.elf
+

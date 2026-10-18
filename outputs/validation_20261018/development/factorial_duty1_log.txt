@@ -1,0 +1,10 @@
+{"seed": 88001, "setting": "blackhole", "arm": "censored_no_proof", "duty_fraction": 1.0, "off_residence_s": 0.0192, "depleted_sensors": 0, "post_cut_tx": 0, "budget_overshoot_j": 0.0, "ledger_capacity_rejections": 0, "ledger_old_identity_rejections": 0, "ledger_final_watches": 0, "duration_s": 4.0, "interval_s": 0.02, "peak_pending": 0, "peak_watches": 50, "handle_exhaustions": 0, "terminal_source_debt_max": 1.97, "samples": [{"time": 0.0, "pending_max": 0, "watches": 0, "delivered": 0, "generated": 0, "energy_j": 0.0, "debt_max": 0.0}, {"time": 1.0, "pending_max": 0, "watches": 23, "delivered": 21, "generated": 30, "energy_j": 5.635632998400002, "debt_max": 0.0}, {"time": 2.0, "pending_max": 0, "watches": 50, "delivered": 40, "generated": 60, "energy_j": 11.272116691199988, "debt_max": 0.97}, {"time": 3.0, "pending_max": 0, "watches": 26, "delivered": 40, "generated": 60, "energy_j": 16.90977813119997, "debt_max": 1.97}], "packets": 60, "delivered": 40, "delivery": 0.6666666666666666, "critical_packets": 22, "critical_violation": 0.3181818181818182, "radio_energy_j": 22.547451263999942, "energy_per_delivered_byte": 0.010840120799999972, "sink_energy_j": 0.22490145791999921, "phy_tx_frames": 1161, "phy_tx_bytes": 76505, "proof_requests": 0, "data_requests": 91, "beacon_requests": 808, "beacon_receptions": 17563, "positive_updates": 52, "negative_updates": 0, "censored_events": 21, "timeouts": 17, "benign_relay_timeouts": 2, "data_mac_failures": 5, "decisions": 91, "source_receipts": 37, "mean_delivered_delay_s": 0.015112631324999995}
+Traceback (most recent call last):
+  File "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/scripts/run_factorial_feedback.py", line 110, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/scripts/run_factorial_feedback.py", line 79, in main
+    ledger.evidence(e.node,e.peer,pid,'proof',now)
+  File "/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/src/wsn_sim/bounded_feedback.py", line 91, in evidence
+    raise ValueError("unknown evidence kind")
+ValueError: unknown evidence kind

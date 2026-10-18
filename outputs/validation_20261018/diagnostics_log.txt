@@ -1,0 +1,18 @@
+{
+  "stream": {
+    "events": 100000,
+    "capacity": 128,
+    "peak_watches": 128,
+    "final_watches": 0,
+    "retired": 64000,
+    "capacity_rejections": 36000,
+    "history_size": 64,
+    "history_capacity": 64
+  },
+  "clock_summary": {
+    "cases": 45,
+    "accepted": 25,
+    "rejected": 20
+  },
+  "scope": "Unit and deterministic diagnostic evidence only; no new routing gain, MCU execution, physical RF or measured energy claim"
+}

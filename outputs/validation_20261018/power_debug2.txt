@@ -1,0 +1,27 @@
+(lldb) target create "/Users/shivambhardwaj/Research/wsn-array-validation-env/bin/python"
+Current executable set to '/Users/shivambhardwaj/Research/wsn-array-validation-env/bin/python' (arm64).
+(lldb) settings set -- target.run-args  "-m" "pytest" "-q" "tests/test_powered_bridge.py"
+(lldb) process launch --shell-expand-args false
+Process 25274 launched: '/Users/shivambhardwaj/Research/wsn-array-validation-env/bin/python' (arm64)
+Process 25274 stopped
+* thread #2, stop reason = exec
+       frame #0: 0x0000000100010bf0 dyld`_dyld_start
+dyld`_dyld_start:
+->  0x100010bf0 <+0>:  mov    x0, sp
+    0x100010bf4 <+4>:  and    sp, x0, #0xfffffffffffffff0
+    0x100010bf8 <+8>:  mov    x29, #0x0                 ; =0 
+    0x100010bfc <+12>: mov    x30, #0x0                 ; =0 
+Target 0: (Python) stopped.
+(lldb) continue
+Process 25274 resuming
+Process 25274 stopped
+* thread #2, queue = 'com.apple.main-thread', stop reason = EXC_BAD_ACCESS (code=1, address=0x2cc)
+       frame #0: 0x00000001068bd7a8 libns3.47-core-optimized.dylib`ns3::EventId::GetUid() const
+libns3.47-core-optimized.dylib`ns3::EventId::GetUid:
+->  0x1068bd7a8 <+0>: ldr    w0, [x0, #0x14]
+    0x1068bd7ac <+4>: ret    
+
+libns3.47-core-optimized.dylib`_GLOBAL__sub_I_event_id.cc:
+    0x1068bd7b0 <+0>: sub    sp, sp, #0x50
+    0x1068bd7b4 <+4>: stp    x20, x19, [sp, #0x30]
+Target 0: (Python) stopped.

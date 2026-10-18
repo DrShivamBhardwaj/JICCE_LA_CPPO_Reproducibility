@@ -1,0 +1,638 @@
+{
+  "status": "passed",
+  "runs": 240,
+  "trace_streams": 60,
+  "energy_identities": 24240,
+  "arm_means": [
+    {
+      "duty_fraction": 1.0,
+      "arm": "censored_no_proof",
+      "n": 30,
+      "delivery_percent": 74.94444444444443,
+      "critical_violation_percent": 24.367247004203527,
+      "radio_energy_j": 22.54751609407995,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "censored_with_proof",
+      "n": 30,
+      "delivery_percent": 68.83333333333331,
+      "critical_violation_percent": 32.50644914878324,
+      "radio_energy_j": 22.54697965887994,
+      "proof_requests": 848,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "naive_no_proof",
+      "n": 30,
+      "delivery_percent": 75.55555555555554,
+      "critical_violation_percent": 24.140745969006836,
+      "radio_energy_j": 22.547496915199947,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "naive_with_proof",
+      "n": 30,
+      "delivery_percent": 69.94444444444443,
+      "critical_violation_percent": 30.89471702972847,
+      "radio_energy_j": 22.54701309311994,
+      "proof_requests": 831,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "censored_no_proof",
+      "n": 30,
+      "delivery_percent": 13.499999999999995,
+      "critical_violation_percent": 87.84130861299055,
+      "radio_energy_j": 9.791828089550158,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "censored_with_proof",
+      "n": 30,
+      "delivery_percent": 13.83333333333333,
+      "critical_violation_percent": 87.70991763554693,
+      "radio_energy_j": 9.749593979807717,
+      "proof_requests": 224,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "naive_no_proof",
+      "n": 30,
+      "delivery_percent": 13.499999999999995,
+      "critical_violation_percent": 87.84130861299055,
+      "radio_energy_j": 9.80477534723508,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "naive_with_proof",
+      "n": 30,
+      "delivery_percent": 13.83333333333333,
+      "critical_violation_percent": 87.70991763554693,
+      "radio_energy_j": 9.760432513371322,
+      "proof_requests": 227,
+      "capacity_rejections": 0
+    }
+  ],
+  "contrasts": [
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": -6.111111111111113,
+      "ci95": [
+        -8.943467949991641,
+        -3.278754272230586
+      ],
+      "p_unadjusted": 0.00012916986772328626,
+      "units": "percentage points",
+      "p_holm": 0.003487586428528729
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": -5.6111111111111125,
+      "ci95": [
+        -7.936742285771955,
+        -3.28547993645027
+      ],
+      "p_unadjusted": 3.042482013368423e-05,
+      "units": "percentage points",
+      "p_holm": 0.0008518949637431585
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "evidence_mode",
+      "label": "no_proof",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": -0.6111111111111108,
+      "ci95": [
+        -1.3325139216844692,
+        0.1102916994622476
+      ],
+      "p_unadjusted": 0.0938010134847497,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "evidence_mode",
+      "label": "with_proof",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": -1.1111111111111116,
+      "ci95": [
+        -3.0813950488456205,
+        0.8591728266233971
+      ],
+      "p_unadjusted": 0.2581741232035287,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "interaction",
+      "label": "proof effect censored minus proof effect naive",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": -0.500000000000001,
+      "ci95": [
+        -2.4959875518738226,
+        1.4959875518738208
+      ],
+      "p_unadjusted": 0.6122965611722865,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 8.13920214457972,
+      "ci95": [
+        4.073817661323937,
+        12.204586627835504
+      ],
+      "p_unadjusted": 0.00030916922933827687,
+      "units": "percentage points",
+      "p_holm": 0.0080383999627952
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 6.753971060721633,
+      "ci95": [
+        2.845280807550086,
+        10.66266131389318
+      ],
+      "p_unadjusted": 0.0013938441809281986,
+      "units": "percentage points",
+      "p_holm": 0.03484610452320497
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "evidence_mode",
+      "label": "no_proof",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 0.22650103519668713,
+      "ci95": [
+        -0.618150028028791,
+        1.0711520984221654
+      ],
+      "p_unadjusted": 0.5875825128885201,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "evidence_mode",
+      "label": "with_proof",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 1.6117321190547733,
+      "ci95": [
+        -1.0983728820103071,
+        4.321837120119854
+      ],
+      "p_unadjusted": 0.23366971599431022,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "interaction",
+      "label": "proof effect censored minus proof effect naive",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 1.3852310838580864,
+      "ci95": [
+        -1.2688697930367874,
+        4.0393319607529605
+      ],
+      "p_unadjusted": 0.2945753558191896,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.0005364352000020981,
+      "ci95": [
+        -0.000668118752281062,
+        -0.0004047516477231343
+      ],
+      "p_unadjusted": 3.487228299782221e-09,
+      "units": "J",
+      "p_holm": 1.0112962069368441e-07
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.00048382208000153547,
+      "ci95": [
+        -0.0005722264099464325,
+        -0.0003954177500566385
+      ],
+      "p_unadjusted": 4.8193430953038385e-12,
+      "units": "J",
+      "p_holm": 1.4458029285911515e-10
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "evidence_mode",
+      "label": "no_proof",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": 1.9178880000225716e-05,
+      "ci95": [
+        -5.615010501634054e-06,
+        4.3972770502085486e-05
+      ],
+      "p_unadjusted": 0.12448424787987435,
+      "units": "J",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "evidence_mode",
+      "label": "with_proof",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -3.343424000033697e-05,
+      "ci95": [
+        -0.00010918482688346189,
+        4.2316346882787955e-05
+      ],
+      "p_unadjusted": 0.37411786359766136,
+      "units": "J",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "interaction",
+      "label": "proof effect censored minus proof effect naive",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -5.2613120000562695e-05,
+      "ci95": [
+        -0.0001411693787580411,
+        3.594313875691569e-05
+      ],
+      "p_unadjusted": 0.2341235064115077,
+      "units": "J",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": 0.33333333333333337,
+      "ci95": [
+        -0.24218218982542172,
+        0.9088488564920885
+      ],
+      "p_unadjusted": 0.24580198700338735,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": 0.33333333333333337,
+      "ci95": [
+        -0.24218218982542172,
+        0.9088488564920885
+      ],
+      "p_unadjusted": 0.24580198700338735,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "evidence_mode",
+      "label": "no_proof",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_unadjusted": 1.0,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "evidence_mode",
+      "label": "with_proof",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_unadjusted": 1.0,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "interaction",
+      "label": "proof effect censored minus proof effect naive",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_unadjusted": 1.0,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": -0.13139097744360953,
+      "ci95": [
+        -1.0715220813011364,
+        0.8087401264139173
+      ],
+      "p_unadjusted": 0.7770344567235832,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": -0.13139097744360953,
+      "ci95": [
+        -1.0715220813011364,
+        0.8087401264139173
+      ],
+      "p_unadjusted": 0.7770344567235832,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "evidence_mode",
+      "label": "no_proof",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_unadjusted": 1.0,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "evidence_mode",
+      "label": "with_proof",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_unadjusted": 1.0,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "interaction",
+      "label": "proof effect censored minus proof effect naive",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_unadjusted": 1.0,
+      "units": "percentage points",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.042234109742437645,
+      "ci95": [
+        -0.22886306982971688,
+        0.14439485034484162
+      ],
+      "p_unadjusted": 0.6469368977255014,
+      "units": "J",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.044342833863753574,
+      "ci95": [
+        -0.22862674131270358,
+        0.13994107358519645
+      ],
+      "p_unadjusted": 0.6263338091340609,
+      "units": "J",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "evidence_mode",
+      "label": "no_proof",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.012947257684921946,
+      "ci95": [
+        -0.054671013216326905,
+        0.02877649784648301
+      ],
+      "p_unadjusted": 0.5306300884657087,
+      "units": "J",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "evidence_mode",
+      "label": "with_proof",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.010838533563606015,
+      "ci95": [
+        -0.03339613028904222,
+        0.011719063161830185
+      ],
+      "p_unadjusted": 0.3338843834974974,
+      "units": "J",
+      "p_holm": 1.0
+    },
+    {
+      "duty_fraction": 0.2,
+      "kind": "interaction",
+      "label": "proof effect censored minus proof effect naive",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": 0.00210872412131593,
+      "ci95": [
+        -0.03757266857511323,
+        0.04179011681774509
+      ],
+      "p_unadjusted": 0.9141998328876846,
+      "units": "J",
+      "p_holm": 1.0
+    }
+  ],
+  "holm_family": 30,
+  "source_plan": {
+    "status": "frozen before planned outcomes",
+    "fixtures": [
+      89001,
+      89002,
+      89003,
+      89004,
+      89005,
+      89006,
+      89007,
+      89008,
+      89009,
+      89010,
+      89011,
+      89012,
+      89013,
+      89014,
+      89015,
+      89016,
+      89017,
+      89018,
+      89019,
+      89020,
+      89021,
+      89022,
+      89023,
+      89024,
+      89025,
+      89026,
+      89027,
+      89028,
+      89029,
+      89030
+    ],
+    "checkpoints": [
+      41001,
+      41002,
+      41003,
+      41004,
+      41005,
+      41006,
+      41007,
+      41008,
+      41009,
+      41010,
+      41011,
+      41012,
+      41013,
+      41014,
+      41015,
+      41016,
+      41017,
+      41018,
+      41019,
+      41020,
+      41021,
+      41022,
+      41023,
+      41024,
+      41025,
+      41026,
+      41027,
+      41028,
+      41029,
+      41030
+    ],
+    "duty": [
+      1.0,
+      0.2
+    ],
+    "duration_s": 4.0,
+    "interval_s": 0.02,
+    "packets": 60,
+    "arms": [
+      "censored_no_proof",
+      "censored_with_proof",
+      "naive_no_proof",
+      "naive_with_proof"
+    ],
+    "total_runs": 240,
+    "ns3_version": "3.47",
+    "battery_j": 0.5,
+    "controls": "Same bounded positive-credit rule, ACK gate, 2 s retirement, 128-record capacity and frozen actor; proof frames ignored as evidence in every arm. Proof-generation toggles traffic. Censored versus naive toggles expiry penalty and late-evidence handling.",
+    "endpoints": [
+      "delivery",
+      "critical_violation",
+      "radio_energy_j"
+    ],
+    "analysis": "One paired contrast per fixture. Proof traffic effects within each evidence mode and duty: 12 tests. Evidence-mode effects within each proof/duty: 12 tests. Interaction within duty: 6 tests. One 30-test Holm family; unadjusted paired t confidence intervals. No equivalence test or original acceptance-gate claim.",
+    "source_sha256": {
+      "scripts/run_factorial_feedback.py": "b62fe6b03a295f4736146f74c3c6e37b42fd2b69c5fc5fc469f488a9665582c6",
+      "src/ns3_bridge/powered_bridge.cc": "296fe751e9e9a4c2b277b8dd3bc3220a7cc02ebe87c29b5a466b7ae2133aa715",
+      "src/wsn_sim/bounded_feedback.py": "22bcbda6387bb1a8afd2f430b8876fee0c3848f20ae642ecc72cdaaee6bddd0a"
+    },
+    "technical_pilot": "An initial 88001 batch stopped on an unhandled proof callback. The correction ignores proof events as already specified; the partial 88001 captures are excluded. A 76901 technical pilot is excluded from inference."
+  },
+  "scope": "Separate ns-3.47 factorial extension. Technical pilot and aborted 88001 captures excluded. Original confirmatory family unchanged; no equivalence claim."
+}

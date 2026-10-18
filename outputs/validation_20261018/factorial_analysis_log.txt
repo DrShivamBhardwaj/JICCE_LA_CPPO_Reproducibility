@@ -1,0 +1,179 @@
+{
+  "runs": 240,
+  "trace_streams": 60,
+  "energy_identities": 24240,
+  "significant": [
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": -6.111111111111113,
+      "ci95": [
+        -8.943467949991641,
+        -3.278754272230586
+      ],
+      "p_unadjusted": 0.00012916986772328626,
+      "units": "percentage points",
+      "p_holm": 0.003487586428528729
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "delivery",
+      "n": 30,
+      "mean_difference": -5.6111111111111125,
+      "ci95": [
+        -7.936742285771955,
+        -3.28547993645027
+      ],
+      "p_unadjusted": 3.042482013368423e-05,
+      "units": "percentage points",
+      "p_holm": 0.0008518949637431585
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 8.13920214457972,
+      "ci95": [
+        4.073817661323937,
+        12.204586627835504
+      ],
+      "p_unadjusted": 0.00030916922933827687,
+      "units": "percentage points",
+      "p_holm": 0.0080383999627952
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "critical_violation",
+      "n": 30,
+      "mean_difference": 6.753971060721633,
+      "ci95": [
+        2.845280807550086,
+        10.66266131389318
+      ],
+      "p_unadjusted": 0.0013938441809281986,
+      "units": "percentage points",
+      "p_holm": 0.03484610452320497
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "censored",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.0005364352000020981,
+      "ci95": [
+        -0.000668118752281062,
+        -0.0004047516477231343
+      ],
+      "p_unadjusted": 3.487228299782221e-09,
+      "units": "J",
+      "p_holm": 1.0112962069368441e-07
+    },
+    {
+      "duty_fraction": 1.0,
+      "kind": "proof_traffic",
+      "label": "naive",
+      "endpoint": "radio_energy_j",
+      "n": 30,
+      "mean_difference": -0.00048382208000153547,
+      "ci95": [
+        -0.0005722264099464325,
+        -0.0003954177500566385
+      ],
+      "p_unadjusted": 4.8193430953038385e-12,
+      "units": "J",
+      "p_holm": 1.4458029285911515e-10
+    }
+  ],
+  "arm_means": [
+    {
+      "duty_fraction": 1.0,
+      "arm": "censored_no_proof",
+      "n": 30,
+      "delivery_percent": 74.94444444444443,
+      "critical_violation_percent": 24.367247004203527,
+      "radio_energy_j": 22.54751609407995,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "censored_with_proof",
+      "n": 30,
+      "delivery_percent": 68.83333333333331,
+      "critical_violation_percent": 32.50644914878324,
+      "radio_energy_j": 22.54697965887994,
+      "proof_requests": 848,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "naive_no_proof",
+      "n": 30,
+      "delivery_percent": 75.55555555555554,
+      "critical_violation_percent": 24.140745969006836,
+      "radio_energy_j": 22.547496915199947,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "naive_with_proof",
+      "n": 30,
+      "delivery_percent": 69.94444444444443,
+      "critical_violation_percent": 30.89471702972847,
+      "radio_energy_j": 22.54701309311994,
+      "proof_requests": 831,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "censored_no_proof",
+      "n": 30,
+      "delivery_percent": 13.499999999999995,
+      "critical_violation_percent": 87.84130861299055,
+      "radio_energy_j": 9.791828089550158,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "censored_with_proof",
+      "n": 30,
+      "delivery_percent": 13.83333333333333,
+      "critical_violation_percent": 87.70991763554693,
+      "radio_energy_j": 9.749593979807717,
+      "proof_requests": 224,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "naive_no_proof",
+      "n": 30,
+      "delivery_percent": 13.499999999999995,
+      "critical_violation_percent": 87.84130861299055,
+      "radio_energy_j": 9.80477534723508,
+      "proof_requests": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "naive_with_proof",
+      "n": 30,
+      "delivery_percent": 13.83333333333333,
+      "critical_violation_percent": 87.70991763554693,
+      "radio_energy_j": 9.760432513371322,
+      "proof_requests": 227,
+      "capacity_rejections": 0
+    }
+  ]
+}

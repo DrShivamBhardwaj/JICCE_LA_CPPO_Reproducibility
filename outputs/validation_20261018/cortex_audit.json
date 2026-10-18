@@ -1,0 +1,467 @@
+{
+  "status": "passed",
+  "emulator": "QEMU emulator version 11.1.2",
+  "compiler": "0.17.0",
+  "machine": "mps2-an385",
+  "cpu": "Cortex-M3, software floating point",
+  "cases": 16,
+  "retained_radio_cases": 8,
+  "permutation_controls": 8,
+  "matching_actions": 16,
+  "distinct_selected_indices": 8,
+  "compared_logits": 128,
+  "max_logit_error": 1.7881393432617188e-07,
+  "tolerance": 1e-05,
+  "hmac_rfc4231_case1": true,
+  "ed25519_sign_and_verify": true,
+  "corrupt_signature_rejected": true,
+  "empty_mask_rejected": true,
+  "static_sram_bytes": 0,
+  "observed_stack_watermark_bytes": 3080,
+  "linker_sram_budget_bytes": 32768,
+  "linker_flash_budget_bytes": 524288,
+  "elf_sha256": "87ecbdc51c2d879b2fc7c65291c56d070de17eee6d3d8bac3d7a40b1e501261f",
+  "elf_file_bytes": 407536,
+  "reference": {
+    "checkpoint_sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+    "trace_sha256": "892eb44560f8f834d80e6fe9d933464450f698076fa9124b1d5e47b1c56719a5",
+    "actor_parameters": 44161,
+    "cases": [
+      {
+        "pid": 0,
+        "node": 37,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.04729883372783661,
+          0.04480079561471939,
+          -0.03414315730333328,
+          -1000000000.0,
+          -1000000000.0,
+          -1000000000.0,
+          -1000000000.0,
+          -1000000000.0
+        ],
+        "action": 0
+      },
+      {
+        "pid": 0,
+        "node": 22,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.0694786012172699,
+          -0.003137851133942604,
+          -0.06752912700176239,
+          -0.07322149723768234,
+          -0.07601606845855713,
+          -0.10853567719459534,
+          -0.10850149393081665,
+          -0.12077712267637253
+        ],
+        "action": 0
+      },
+      {
+        "pid": 0,
+        "node": 4,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.6164249181747437,
+          -0.08458790183067322,
+          -0.09798122942447662,
+          -0.11965491622686386,
+          -0.12124934792518616,
+          -0.11843188107013702,
+          -0.13382336497306824,
+          -0.13717436790466309
+        ],
+        "action": 0
+      },
+      {
+        "pid": 1,
+        "node": 94,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.7403053641319275,
+          0.05532553046941757,
+          0.041414305567741394,
+          0.01697862707078457,
+          0.019946333020925522,
+          0.009506454691290855,
+          4.548206925392151e-05,
+          -0.028641244396567345
+        ],
+        "action": 0
+      },
+      {
+        "pid": 2,
+        "node": 32,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          -0.03273845091462135,
+          -0.038392189890146255,
+          -0.04121813550591469,
+          -0.07421340048313141,
+          -0.07420279085636139,
+          -0.0866941288113594,
+          -0.09239329397678375,
+          -0.09424340724945068
+        ],
+        "action": 0
+      },
+      {
+        "pid": 2,
+        "node": 87,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.7363473176956177,
+          0.014823243021965027,
+          0.01314067654311657,
+          0.0056771282106637955,
+          -0.003773195669054985,
+          -0.03241550922393799,
+          -0.03764036297798157,
+          -0.043650828301906586
+        ],
+        "action": 0
+      },
+      {
+        "pid": 3,
+        "node": 33,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.5745483636856079,
+          -0.1412278115749359,
+          -0.1622070074081421,
+          -0.16374479234218597,
+          -0.16104987263679504,
+          -0.1705484688282013,
+          -0.17589342594146729,
+          -0.17912137508392334
+        ],
+        "action": 0
+      },
+      {
+        "pid": 4,
+        "node": 98,
+        "validation_kind": "retained_radio_decision",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.055323295295238495,
+          0.046785175800323486,
+          0.02155897580087185,
+          0.01077539473772049,
+          -0.0015319455415010452,
+          -0.04067741334438324,
+          -0.04421734809875488,
+          -0.08169306814670563
+        ],
+        "action": 0
+      },
+      {
+        "pid": 0,
+        "node": 37,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "logits": [
+          0.04729883372783661,
+          0.04480079561471939,
+          -0.03414315730333328,
+          -1000000000.0,
+          -1000000000.0,
+          -1000000000.0,
+          -1000000000.0,
+          -1000000000.0
+        ],
+        "action": 0
+      },
+      {
+        "pid": 0,
+        "node": 22,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          7,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "logits": [
+          -0.12077712267637253,
+          0.0694786012172699,
+          -0.003137851133942604,
+          -0.06752912700176239,
+          -0.07322149723768234,
+          -0.07601606845855713,
+          -0.10853567719459534,
+          -0.10850149393081665
+        ],
+        "action": 1
+      },
+      {
+        "pid": 0,
+        "node": 4,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          6,
+          7,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "logits": [
+          -0.13382336497306824,
+          -0.13717436790466309,
+          0.6164249181747437,
+          -0.08458790183067322,
+          -0.09798122942447662,
+          -0.11965491622686386,
+          -0.12124934792518616,
+          -0.11843188107013702
+        ],
+        "action": 2
+      },
+      {
+        "pid": 1,
+        "node": 94,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          5,
+          6,
+          7,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "logits": [
+          0.009506454691290855,
+          4.548206925392151e-05,
+          -0.028641244396567345,
+          0.7403053641319275,
+          0.05532553046941757,
+          0.041414305567741394,
+          0.01697862707078457,
+          0.019946333020925522
+        ],
+        "action": 3
+      },
+      {
+        "pid": 2,
+        "node": 32,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          4,
+          5,
+          6,
+          7,
+          0,
+          1,
+          2,
+          3
+        ],
+        "logits": [
+          -0.07420279085636139,
+          -0.0866941288113594,
+          -0.09239329397678375,
+          -0.09424340724945068,
+          -0.03273845091462135,
+          -0.038392189890146255,
+          -0.04121813550591469,
+          -0.07421340048313141
+        ],
+        "action": 4
+      },
+      {
+        "pid": 2,
+        "node": 87,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          0,
+          1,
+          2
+        ],
+        "logits": [
+          0.0056771282106637955,
+          -0.003773195669054985,
+          -0.03241550922393799,
+          -0.03764036297798157,
+          -0.043650828301906586,
+          0.7363473176956177,
+          0.014823243021965027,
+          0.01314067654311657
+        ],
+        "action": 5
+      },
+      {
+        "pid": 3,
+        "node": 33,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          0,
+          1
+        ],
+        "logits": [
+          -0.1622070074081421,
+          -0.16374479234218597,
+          -0.16104987263679504,
+          -0.1705484688282013,
+          -0.17589342594146729,
+          -0.17912137508392334,
+          0.5745483636856079,
+          -0.1412278115749359
+        ],
+        "action": 6
+      },
+      {
+        "pid": 4,
+        "node": 98,
+        "validation_kind": "candidate_permutation_control",
+        "permutation": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          0
+        ],
+        "logits": [
+          0.046785175800323486,
+          0.02155897580087185,
+          0.01077539473772049,
+          -0.0015319455415010452,
+          -0.04067741334438324,
+          -0.04421734809875488,
+          -0.08169306814670563,
+          0.055323295295238495
+        ],
+        "action": 7
+      }
+    ]
+  },
+  "source_sha256": {
+    "hardware/cortex_m3_validation/harness.c": "2fd1c8ffe5ecfbe1b40476ede44d6c7b98904cc938903ec41d9b354582ba00f2",
+    "hardware/cortex_m3_validation/link.ld": "e8a2ef8b7827a6edfb428b8e4b13fe55257b3d9437211fbaebe0483c6b5093a5",
+    "hardware/cortex_m3_validation/README.md": "1ca1c0327995edefd615934f3882ccb48f60adaad9cb54043263937403d97ad4",
+    "hardware/cortex_m3_validation/generated/reference.json": "2093a0641fa185f5529a4bfa5d1da7dd64c4c2f983980c522719f20506af2927",
+    "hardware/cortex_m3_validation/generated/actor_vectors.h": "21b28a593850f72404553f67ec87aade6dbe1f21d26b33bc07ba5d95497218e0",
+    "hardware/cortex_m3_validation/include/stdlib.h": "f2051054d2a186d55b826975bf41be36cd7043ea00a9fc3d85e23a8ebe0ad870",
+    "hardware/cortex_m3_validation/include/memory.h": "5ea19d1282e036eda717c455dc6d5e62ef741fd42f4991b1b75412357373c629",
+    "hardware/cortex_m3_validation/vendor/monocypher.h": "c494da712122da7ff679fdcf318a5317e84972b6c950fe9d896212947797facd",
+    "hardware/cortex_m3_validation/vendor/provenance.json": "812f2625d79e7895e91b341271591210576631dc46b2d09f82f45d9eef018936",
+    "hardware/cortex_m3_validation/vendor/BCon_README.md": "e3e04bbc27f68266c02af3a3ef6cb5e1bd217a3c92f2893b66d9f2220f732460",
+    "hardware/cortex_m3_validation/vendor/LICENCE.md": "5f8360e4c06ddcc584bdb4b210c6af824c4bb301e6a9a521869b6d90795ca4b3",
+    "hardware/cortex_m3_validation/vendor/monocypher-ed25519.h": "abc4fad381879f5c29176ebe014b9189956b3dfe0a3e36459b6990bc57212380",
+    "hardware/cortex_m3_validation/vendor/sha256.h": "a946e621775fd8251624e77d19f25407c4b6074ab780027e5797b77c7acf79b5",
+    "hardware/cortex_m3_validation/vendor/monocypher.c": "57eb914fc88136119bd41655cccb8c250048bf54d470540625186f8ab16f64be",
+    "hardware/cortex_m3_validation/vendor/monocypher-ed25519.c": "60fce3578fb00b00da96490653d993c4cb427b1e1be38183285c66e04d22cc18",
+    "hardware/cortex_m3_validation/vendor/sha256.c": "4cbc93d30c28cee2a056d6f52cbce6e66ff9450f1d712ee4f59761b9b4486fad"
+  },
+  "scope": "Isolated emulated instruction-level actor and algorithm tests. No CC2538 peripheral/RF execution, integrated authenticated routing firmware, measured CPU energy or physical timing claim. Public test keys only."
+}

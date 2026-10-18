@@ -1,0 +1,17 @@
+(lldb) target create "/Users/shivambhardwaj/Research/wsn-array-validation-env/bin/python"
+Current executable set to '/Users/shivambhardwaj/Research/wsn-array-validation-env/bin/python' (arm64).
+(lldb) settings set -- target.run-args  "-m" "pytest" "-q" "tests/test_powered_bridge.py"
+(lldb) process launch --shell-expand-args false
+Process 25159 launched: '/Users/shivambhardwaj/Research/wsn-array-validation-env/bin/python' (arm64)
+Process 25159 stopped
+* thread #2, stop reason = exec
+       frame #0: 0x0000000100010bf0 dyld`_dyld_start
+dyld`_dyld_start:
+->  0x100010bf0 <+0>:  mov    x0, sp
+    0x100010bf4 <+4>:  and    sp, x0, #0xfffffffffffffff0
+    0x100010bf8 <+8>:  mov    x29, #0x0                 ; =0 
+    0x100010bfc <+12>: mov    x30, #0x0                 ; =0 
+Target 0: (Python) stopped.
+(lldb) bt 18
+* thread #2, stop reason = exec
+   * frame #0: 0x0000000100010bf0 dyld`_dyld_start

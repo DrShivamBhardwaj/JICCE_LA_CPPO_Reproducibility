@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "runs": 27,
+  "trace_streams": 9,
+  "energy_identities": 2727,
+  "groups": [
+    {
+      "duty_fraction": 1.0,
+      "arm": "censored_passive",
+      "n": 3,
+      "delivery_percent": 11.149425287356323,
+      "radio_energy_j": 49.99999999856147,
+      "off_residence_s": 0.0192,
+      "critical_violation_percent": 90.84983623078861,
+      "final_watches": [
+        27,
+        33,
+        32
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "bounded_passive",
+      "n": 3,
+      "delivery_percent": 11.149425287356323,
+      "radio_energy_j": 49.99999999856147,
+      "off_residence_s": 0.0192,
+      "critical_violation_percent": 90.84983623078861,
+      "final_watches": [
+        0,
+        0,
+        0
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 1.0,
+      "arm": "frozen_prior",
+      "n": 3,
+      "delivery_percent": 10.919540229885058,
+      "radio_energy_j": 49.99999999856788,
+      "off_residence_s": 0.0192,
+      "critical_violation_percent": 91.18997228521037,
+      "final_watches": [
+        27,
+        34,
+        32
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 0.5,
+      "arm": "censored_passive",
+      "n": 3,
+      "delivery_percent": 16.206896551724135,
+      "radio_energy_j": 49.999999999244494,
+      "off_residence_s": 533.1711737300002,
+      "critical_violation_percent": 86.97329302091207,
+      "final_watches": [
+        38,
+        57,
+        60
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 0.5,
+      "arm": "bounded_passive",
+      "n": 3,
+      "delivery_percent": 16.206896551724135,
+      "radio_energy_j": 49.999999999244494,
+      "off_residence_s": 533.1711737300002,
+      "critical_violation_percent": 86.97329302091207,
+      "final_watches": [
+        0,
+        0,
+        0
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 0.5,
+      "arm": "frozen_prior",
+      "n": 3,
+      "delivery_percent": 16.091954022988507,
+      "radio_energy_j": 49.999999999261036,
+      "off_residence_s": 525.3503258026668,
+      "critical_violation_percent": 86.97329302091207,
+      "final_watches": [
+        38,
+        57,
+        60
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "censored_passive",
+      "n": 3,
+      "delivery_percent": 22.758620689655174,
+      "radio_energy_j": 49.999999999274046,
+      "off_residence_s": 1285.7644249323307,
+      "critical_violation_percent": 79.87881078357269,
+      "final_watches": [
+        63,
+        141,
+        82
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "bounded_passive",
+      "n": 3,
+      "delivery_percent": 22.758620689655174,
+      "radio_energy_j": 49.999999999274046,
+      "off_residence_s": 1285.7644249323307,
+      "critical_violation_percent": 79.87881078357269,
+      "final_watches": [
+        0,
+        0,
+        0
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "duty_fraction": 0.2,
+      "arm": "frozen_prior",
+      "n": 3,
+      "delivery_percent": 22.758620689655174,
+      "radio_energy_j": 49.999999999278955,
+      "off_residence_s": 1289.9134775773307,
+      "critical_violation_percent": 79.87881078357269,
+      "final_watches": [
+        63,
+        151,
+        82
+      ],
+      "depleted_sensors": [
+        100,
+        100,
+        100
+      ]
+    }
+  ],
+  "scope": "Exploratory paired ns-3.47 diagnostics, n=3; no confirmatory significance, equivalence or physical energy claim",
+  "sources": {
+    "src/ns3_bridge/powered_bridge.cc": "296fe751e9e9a4c2b277b8dd3bc3220a7cc02ebe87c29b5a466b7ae2133aa715",
+    "src/wsn_sim/bounded_feedback.py": "e7a3beb258a2cd7dc0a2d50f6cff7b526183e643d961db2701859e38f5622f8c",
+    "scripts/run_powered_feedback.py": "99d8f2cd2588edd67040d9272daf524be33c9fd88bc46271d3aa42b1adaf0562"
+  }
+}

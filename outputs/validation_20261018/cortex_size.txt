@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 341600	      0	      0	 341600	  53660	/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/build/cortex_m3.elf

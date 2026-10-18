@@ -1,0 +1,57 @@
+{
+  "status": "post-review exploratory stress test; not confirmatory",
+  "seeds": [
+    77001,
+    77030
+  ],
+  "pilot_seed": 76901,
+  "packets": 10,
+  "horizon_s": 4.0,
+  "warmup_s": 0.4,
+  "beacon_period_s": 0.5,
+  "cache_ttl_s": 0.75,
+  "proof_timeout_s": 0.15,
+  "poll_s": 0.001,
+  "application_frame_bytes": 64,
+  "application_payload_bytes": 52,
+  "radio_voltage": 3.0,
+  "tx_current_a": 0.0174,
+  "rx_current_a": 0.0188,
+  "off_current_a": 2e-05,
+  "current_model": "explicit assumed currents; not calibrated hardware",
+  "arms": [
+    "censored_passive",
+    "bounded_passive",
+    "frozen_prior"
+  ],
+  "settings": [
+    {
+      "name": "blackhole",
+      "attack": 0.25,
+      "interval_s": 0.2,
+      "reference_loss_db": 40.0
+    }
+  ],
+  "analysis": "60-test Holm family: 5 settings x 4 contrasts x 3 endpoints; fixture paired unadjusted 95% t intervals",
+  "threat_scope": "non-forging blackhole forwarding faults; trusted telemetry and receipt producers; authentication not established",
+  "design": "local MAC-ACK-conditioned passive evidence plus existing reverse receipts; missing observations censored; no new proof traffic in passive arms",
+  "evidence_weights": {
+    "passive_forward_attempt": 0.5,
+    "received_delivery_receipt": 1.0,
+    "per_observer_peer_packet_max": 1.0
+  },
+  "decision_gate": {
+    "active_blackhole_delivery_gain": "Holm p < .05 and positive mean difference",
+    "frozen_prior_blackhole_delivery_noninferiority": "one-sided 95% lower difference > -.01",
+    "frozen_prior_blackhole_critical_noninferiority": "one-sided 95% upper difference < .01",
+    "frozen_prior_blackhole_energy_noninferiority": "one-sided 95% upper geometric ratio < 1.02",
+    "all_required": true,
+    "failure_retention": "no redesign or seed reuse after these outcomes"
+  },
+  "parent_source": "3be334b508282de5efa516b67d20abf77327c5e6",
+  "ns3_version": "3.47",
+  "energy_model": "per-sensor 0.5 J hard power cut; sink unbounded",
+  "ledger_capacity": 128,
+  "retention_s": 2.0,
+  "feedback_event_time": "millisecond processing clock"
+}

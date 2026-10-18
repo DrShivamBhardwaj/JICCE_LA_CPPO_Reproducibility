@@ -1,0 +1,34 @@
+{
+  "monocypher.c": {
+    "url": "https://github.com/LoupVaillant/Monocypher/releases/download/4.0.3/monocypher-4.0.3.tar.gz",
+    "sha256": "57eb914fc88136119bd41655cccb8c250048bf54d470540625186f8ab16f64be"
+  },
+  "monocypher.h": {
+    "url": "https://github.com/LoupVaillant/Monocypher/releases/download/4.0.3/monocypher-4.0.3.tar.gz",
+    "sha256": "c494da712122da7ff679fdcf318a5317e84972b6c950fe9d896212947797facd"
+  },
+  "monocypher-ed25519.c": {
+    "url": "https://github.com/LoupVaillant/Monocypher/releases/download/4.0.3/monocypher-4.0.3.tar.gz",
+    "sha256": "60fce3578fb00b00da96490653d993c4cb427b1e1be38183285c66e04d22cc18"
+  },
+  "monocypher-ed25519.h": {
+    "url": "https://github.com/LoupVaillant/Monocypher/releases/download/4.0.3/monocypher-4.0.3.tar.gz",
+    "sha256": "abc4fad381879f5c29176ebe014b9189956b3dfe0a3e36459b6990bc57212380"
+  },
+  "LICENCE.md": {
+    "url": "https://github.com/LoupVaillant/Monocypher/releases/download/4.0.3/monocypher-4.0.3.tar.gz",
+    "sha256": "5f8360e4c06ddcc584bdb4b210c6af824c4bb301e6a9a521869b6d90795ca4b3"
+  },
+  "sha256.c": {
+    "url": "https://raw.githubusercontent.com/B-Con/crypto-algorithms/cfbde48414baacf51fc7c74f275190881f037d32/sha256.c",
+    "sha256": "4cbc93d30c28cee2a056d6f52cbce6e66ff9450f1d712ee4f59761b9b4486fad"
+  },
+  "sha256.h": {
+    "url": "https://raw.githubusercontent.com/B-Con/crypto-algorithms/cfbde48414baacf51fc7c74f275190881f037d32/sha256.h",
+    "sha256": "a946e621775fd8251624e77d19f25407c4b6074ab780027e5797b77c7acf79b5"
+  },
+  "BCon_README.md": {
+    "url": "https://raw.githubusercontent.com/B-Con/crypto-algorithms/cfbde48414baacf51fc7c74f275190881f037d32/README.md",
+    "sha256": "e3e04bbc27f68266c02af3a3ef6cb5e1bd217a3c92f2893b66d9f2220f732460"
+  }
+}
