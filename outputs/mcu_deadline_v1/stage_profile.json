@@ -1,0 +1,185 @@
+{
+  "classification": "Exploratory stage profiling of retained O3 pilot; emulator milliseconds, not physical timing or energy",
+  "rows": [
+    {
+      "topology": "chain",
+      "stages": [
+        {
+          "node": 0,
+          "stage": "actor",
+          "count": 100,
+          "min_ms": 12,
+          "median_ms": 12.0,
+          "max_ms": 13
+        },
+        {
+          "node": 0,
+          "stage": "hmac",
+          "count": 501,
+          "min_ms": 0,
+          "median_ms": 1,
+          "max_ms": 2
+        },
+        {
+          "node": 0,
+          "stage": "verify",
+          "count": 101,
+          "min_ms": 80,
+          "median_ms": 82,
+          "max_ms": 84
+        },
+        {
+          "node": 1,
+          "stage": "actor",
+          "count": 100,
+          "min_ms": 12,
+          "median_ms": 12.0,
+          "max_ms": 13
+        },
+        {
+          "node": 1,
+          "stage": "hmac",
+          "count": 803,
+          "min_ms": 0,
+          "median_ms": 1,
+          "max_ms": 2
+        },
+        {
+          "node": 1,
+          "stage": "verify",
+          "count": 100,
+          "min_ms": 80,
+          "median_ms": 82.0,
+          "max_ms": 84
+        },
+        {
+          "node": 2,
+          "stage": "actor",
+          "count": 100,
+          "min_ms": 12,
+          "median_ms": 12.0,
+          "max_ms": 13
+        },
+        {
+          "node": 2,
+          "stage": "hmac",
+          "count": 800,
+          "min_ms": 0,
+          "median_ms": 1.0,
+          "max_ms": 1
+        },
+        {
+          "node": 2,
+          "stage": "verify",
+          "count": 100,
+          "min_ms": 79,
+          "median_ms": 82.0,
+          "max_ms": 84
+        },
+        {
+          "node": 3,
+          "stage": "hmac",
+          "count": 502,
+          "min_ms": 0,
+          "median_ms": 1.0,
+          "max_ms": 2
+        },
+        {
+          "node": 3,
+          "stage": "sign",
+          "count": 100,
+          "min_ms": 29,
+          "median_ms": 30.0,
+          "max_ms": 30
+        }
+      ],
+      "misses_by_traffic": {
+        "0": 34,
+        "1": 0,
+        "2": 0
+      }
+    },
+    {
+      "topology": "choice",
+      "stages": [
+        {
+          "node": 0,
+          "stage": "actor",
+          "count": 100,
+          "min_ms": 18,
+          "median_ms": 19.0,
+          "max_ms": 19
+        },
+        {
+          "node": 0,
+          "stage": "hmac",
+          "count": 701,
+          "min_ms": 0,
+          "median_ms": 1,
+          "max_ms": 2
+        },
+        {
+          "node": 0,
+          "stage": "verify",
+          "count": 101,
+          "min_ms": 80,
+          "median_ms": 82,
+          "max_ms": 84
+        },
+        {
+          "node": 1,
+          "stage": "actor",
+          "count": 100,
+          "min_ms": 12,
+          "median_ms": 12.0,
+          "max_ms": 13
+        },
+        {
+          "node": 1,
+          "stage": "hmac",
+          "count": 1003,
+          "min_ms": 0,
+          "median_ms": 1,
+          "max_ms": 2
+        },
+        {
+          "node": 1,
+          "stage": "verify",
+          "count": 100,
+          "min_ms": 80,
+          "median_ms": 82.0,
+          "max_ms": 84
+        },
+        {
+          "node": 2,
+          "stage": "hmac",
+          "count": 600,
+          "min_ms": 0,
+          "median_ms": 1.0,
+          "max_ms": 1
+        },
+        {
+          "node": 3,
+          "stage": "hmac",
+          "count": 702,
+          "min_ms": 0,
+          "median_ms": 1.0,
+          "max_ms": 2
+        },
+        {
+          "node": 3,
+          "stage": "sign",
+          "count": 100,
+          "min_ms": 29,
+          "median_ms": 30.0,
+          "max_ms": 30
+        }
+      ],
+      "misses_by_traffic": {
+        "0": 34,
+        "1": 0,
+        "2": 0
+      }
+    }
+  ]
+}

@@ -66,3 +66,29 @@ def test_stale_or_mismatched_archive_rejected(archive,mutation):
             mt=tree.find('simulation/motetype');mt.remove(mt.findall('mote')[-1])
         tree.write(f/'simulation.csc')
     with pytest.raises(ValueError):verify_dataset(dataset,p)
+
+from trace_tools import read_events,causal_audit
+import copy
+
+def test_received_replay_with_wrong_session_cannot_support_credit():
+    root=Path(__file__).resolve().parents[1]
+    events=copy.deepcopy(read_events(root/'outputs/cooja_feedback/geometry_corrected')[1])
+    target=next(x for x in events if x['event']=='feedback' and x['op']=='evidence')
+    kind=2 if target['kind']=='passive' else 3 if target['kind']=='receipt' else 4
+    matches=[]
+    for x in events:
+        if x['event'] not in ('cooja_rx','cooja_passive'):continue
+        wire=bytes.fromhex(x['wire'])
+        if x['_node']==target['_node'] and x.get('peer')==target['peer'] and wire[1]==kind and int.from_bytes(wire[22:26],'big')==target['pid']:matches.append(x['wire'])
+    assert matches
+    for old in set(matches):
+        wire=bytearray.fromhex(old);wire[26:34]=(int.from_bytes(wire[26:34],'big')+100).to_bytes(8,'big');new=wire.hex()
+        for x in events:
+            if x.get('wire')==old:x['wire']=new
+    with pytest.raises(ValueError,match='unsupported or premature'):causal_audit(events)
+
+def test_feedback_credit_for_another_packet_is_rejected():
+    root=Path(__file__).resolve().parents[1]
+    events=copy.deepcopy(read_events(root/'outputs/cooja_feedback/geometry_corrected')[1])
+    target=next(x for x in events if x['event']=='feedback' and x['op']=='evidence');target['pid']=9999
+    with pytest.raises(ValueError,match='unsupported or premature'):causal_audit(events)
