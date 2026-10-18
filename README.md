@@ -1,3 +1,7 @@
+## Current validated manuscript and Cooja results
+
+The consolidated manuscript now includes a 600-run Cooja study with the frozen actor and weighted feedback ledger. Thirty independent seeds cross five arms, two attack settings and two timing settings; all captures are independently audited. A post-warm-up blackhole exposes a failure boundary: delayed delivery is 32.94% with censored feedback and 79.11% with active proofs. The original 750/180/240-run evidence families remain separate. The manuscript has 27 reviewed pages, twelve figures and eleven tables; 118 tests pass. Physical RF/energy, production MCU security, actual coauthor approval and authenticated submission checks remain open. Current details supersede historical progress paragraphs below; see publication/array/README.md.
+
 > Current: [Array manuscript and validation status](docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md). 180 authenticated policy-transfer runs audited; 83 tests pass. Four Renode CC2538 MCUs execute compiled bridge firmware. Strict attention/MLP/greedy controls each deliver 10/10 packets with ten accepted source receipts. Physical RF/current and embedded inference/crypto remain unvalidated.
 
 ## Latest Array package status

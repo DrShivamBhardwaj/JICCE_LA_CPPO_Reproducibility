@@ -1,0 +1,31 @@
+INFO  [main] [Cooja.java:1147] - Loading hardware/cooja_feedback/pilot.csc random seed: null
+> make feedback.cooja TARGET=cooja CONTIKI=/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/build/contiki-feedback
+  CC        feedback.c
+  CC        /Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/build/contiki-feedback/os/contiki-main.c
+  LD        build/cooja/feedback.cooja
+INFO  [main] [LogScriptEngine.java:231] - Script timeout in 30000 ms
+INFO  [sim] [LogScriptEngine.java:320] -  5% completed,  2.4 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 10% completed,  1.7 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 15% completed,  1.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 20% completed,  1.3 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 25% completed,  1.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 30% completed,  1.0 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 35% completed,  0.9 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 40% completed,  0.8 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 45% completed,  0.7 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 50% completed,  0.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 55% completed,  0.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 60% completed,  0.5 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 65% completed,  0.4 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 70% completed,  0.4 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 75% completed,  0.3 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 80% completed,  0.2 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 85% completed,  0.2 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 90% completed,  0.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 95% completed,  0.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:294] - Timeout event @ 30000000
+INFO  [sim] [Simulation.java:450] - Runtime: 1042 ms. Simulated time: 30000 ms. Speedup: 28.790786948176585
+ERROR [main] [Cooja.java:1175] - TEST hardware/cooja_feedback/pilot.csc FAILED
+
+ERROR [main] [Cooja.java:1183] - Failed tests:
+hardware/cooja_feedback/pilot.csc seed: null

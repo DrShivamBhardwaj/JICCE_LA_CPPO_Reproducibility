@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "java": "openjdk 25.0.4.1 2026-08-18\nOpenJDK Runtime Environment Homebrew (build 25.0.4.1)\nOpenJDK 64-Bit Server VM Homebrew (build 25.0.4.1, mixed mode, sharing)",
+  "cooja_jar_sha256": "04d86c9a96190eb1297e9d712eca2894f896312700e1c2d24d97fce53ead9ef7",
+  "packages": {
+    "numpy": "2.5.4",
+    "torch": "2.14.1",
+    "cryptography": "50.0.2",
+    "matplotlib": "3.11.2",
+    "python-docx": "1.2.0",
+    "pdf2image": "1.17.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "workers": 4,
+  "already_completed": 23,
+  "purpose": "Independent OS processes with isolated native build directories; experimental arms/seeds/inputs unchanged",
+  "path_only_makefile_changes": [
+    "absolute vendor/include/Q22 paths",
+    "absolute compatibility-header path"
+  ],
+  "continuation_script_sha256": "8616acbec2c14d5c0a4c8d77b05cd90f4dac813fc8e9b06a41758760683489fd",
+  "interrupted_runs_retained": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "all_declared_runs_independently_audited",
+  "runs": 600,
+  "wall_seconds": 944.07,
+  "auditor": "scripts/audit_cooja_feedback_quantized.py",
+  "auditor_sha256": "52729e97bba8bf9d321b38a2d9c0e3793f28578b1479e6c2df2b25e747404705",
+  "status_scope": "Trace integrity and numerical/reference consistency; packet losses remain measured outcomes"
+}

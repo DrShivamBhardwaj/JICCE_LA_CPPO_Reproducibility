@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "previous_tables_preserved": 10,
+  "previous_figures_preserved": 11,
+  "native_equations_preserved": 10,
+  "cooja_table_rows_verified": 10,
+  "cooja_primary_runs": 600,
+  "independent_seeds": 30,
+  "figure12_matches_audited_export": true,
+  "holm_families_verified": 3,
+  "physical_validation": false,
+  "baseline_sha256": "591daf7753bc5fe62285246c911fe4bef39edeba723a31a3095913d7c6ef5790"
+}

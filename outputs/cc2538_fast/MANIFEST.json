@@ -141,8 +141,8 @@
   },
   {
     "path": "outputs/cc2538_fast/full_validation_status.json",
-    "size": 1699,
-    "sha256": "d858d5e76097640018a013043c716387cfb704272683511bcdc1b9d9eeb013ed"
+    "size": 1827,
+    "sha256": "4e4dd66cb29a7e6324b3ea5b1835ac24eeb0e06ac20364c33cbd40fe89ac049e"
   },
   {
     "path": "outputs/cc2538_fast/hardware_presence.json",

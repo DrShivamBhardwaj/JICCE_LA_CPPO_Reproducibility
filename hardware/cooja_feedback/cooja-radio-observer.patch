@@ -1,0 +1,11 @@
+--- a/arch/platform/cooja/dev/cooja-radio.c
++++ b/arch/platform/cooja/dev/cooja-radio.c
+@@ -336,6 +336,8 @@
+     packetbuf_clear();
+     len = radio_read(packetbuf_dataptr(), PACKETBUF_SIZE);
+     if(len > 0) {
++      extern void app_observe_raw(const void *, unsigned);
++      app_observe_raw(packetbuf_dataptr(),len);
+       packetbuf_set_datalen(len);
+       NETSTACK_MAC.input();
+     }

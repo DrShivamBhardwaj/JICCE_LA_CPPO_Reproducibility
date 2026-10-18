@@ -1,4 +1,4 @@
 A frozen 750-run study isolates feedback replacement effects.
 Authenticated wire state supports a separate 180-run policy transfer study.
 Attention shows no established delivery advantage over matched controls.
-Virtual serial devices expose and correct a receive-time freshness defect.
+Thirty paired Cooja seeds test the frozen actor and weighted feedback ledger.

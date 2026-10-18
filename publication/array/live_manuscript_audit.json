@@ -1,8 +1,8 @@
 {
   "status": "passed",
   "live_table_rows_reconciled": 6,
-  "figures": 11,
-  "tables": 10,
+  "figures": 12,
+  "tables": 11,
   "physical_validation": false,
   "deadline_compliance": false,
   "preceding_nine_tables_unchanged": true,

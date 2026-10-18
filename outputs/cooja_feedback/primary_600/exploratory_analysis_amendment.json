@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-10-18T13:57:38.785651+00:00",
+  "audited_runs_at_amendment": 508,
+  "primary_plan_changed": false,
+  "additional_comparison": "active minus censored_proof, within each of four attack/timing strata",
+  "endpoints": [
+    "delivery",
+    "critical_sink_deadline_failure",
+    "total_tx_state_s"
+  ],
+  "family_size_per_endpoint": 4,
+  "classification": "exploratory post-freeze matched-proof analysis",
+  "reason": "Comparisons of each arm against censored baseline do not directly test the difference between evidence rules when the proof-generation mechanism is matched. Add the direct contrast without treating it as prespecified confirmatory inference.",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 64003,
+  "sign_flip_draws": 100000,
+  "sign_flip_seed": 64004,
+  "simulation_sources_or_inputs_changed": false
+}

@@ -173,7 +173,9 @@ from array_live_integration import apply as integrate_live
 extended_report.update(integrate_live(d,ROOT))
 from array_receipt_latency_revision import apply as integrate_latency
 extended_report.update(integrate_latency(d,ROOT))
-layout_report.update(figures_in_body=11,tables_in_body=10)
+from array_cooja_integration import apply as integrate_cooja
+extended_report.update(integrate_cooja(d,ROOT))
+layout_report.update(figures_in_body=12,tables_in_body=11)
 abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
 assert len(abstract.split())<=250
 dest=out/'Array_Manuscript.docx';d.save(dest)
@@ -183,8 +185,8 @@ assert native==10
 highlights=['A frozen 750-run study isolates feedback replacement effects.',
 'Authenticated wire state supports a separate 180-run policy transfer study.',
 'Attention shows no established delivery advantage over matched controls.',
-'Virtual serial devices expose and correct a receive-time freshness defect.']
+'Thirty paired Cooja seeds test the frozen actor and weighted feedback ledger.']
 assert all(len(x)<=85 for x in highlights)
 (out/'Highlights.txt').write_text('\n'.join(highlights)+'\n')
-(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=11,tables=10,references=24,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
+(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=12,tables=11,references=25,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
 print(dest)

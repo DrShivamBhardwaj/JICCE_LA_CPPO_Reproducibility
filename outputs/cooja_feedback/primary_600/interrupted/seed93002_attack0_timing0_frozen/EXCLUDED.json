@@ -1,0 +1,3 @@
+{
+  "reason": "Runner interrupted solely to switch to isolated parallel scheduling before this run was recorded; no outcome-based exclusion. Same configuration is rerun in its canonical directory."
+}

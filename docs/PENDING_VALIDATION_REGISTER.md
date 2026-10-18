@@ -1,31 +1,17 @@
 # Current validation register
 
-This file replaces the earlier duplicated status paragraphs. Historical states remain in Git history. The manuscript is a reproducible simulation benchmark with separately scoped emulation diagnostics; its completed tests do not certify deployment.
+## Completed virtual implementation work
 
-## Completed evidence
+The frozen 600-run Cooja evaluation now executes both the trained Q22 actor and weighted feedback ledger on native motes with real simulated radio receptions and MAC callbacks. All 600 captures passed independent replay, wire verification, feature and policy checks; 61,845 decisions and 143,928 ledger events were verified. The 118-test suite passes. Section 5.9, Table 11, Figure 12, abstract and conclusion integrate the findings. Existing benchmark families and prior failures remain preserved.
 
-- Original 750-run feedback benchmark, separate 180-run authenticated transfer, and separately frozen 240-run factorial analysis remain preserved.
-- Bounded ledger, battery cutoff, sleep/wake, clock-envelope, isolated Cortex-M3 actor/crypto and native bridge checks are executed within their stated boundaries.
-- Four-node live MCU routing/authentication: public-fixture chain and multiple-choice runs each deliver ten packets and return ten source-verified receipts; fifty decisions match the host reference.
-- Private provisioning and rolling source replay: hundred-packet chain and choice runs each deliver all hundred packets and receipts, with five hundred matching decisions in total. All six negative controls per run pass, including stale sessions and reprovisioning rejection. The persistent host allocator passes sequential, concurrent and exhaustion tests.
-- Latest manuscript: Section 5.8 and Table 10 integrate the live results. Exact document counts and rendered-page checks are in publication/array/document_checks.json. The corresponding author's supplied metadata, no-funding and no-interest statements are retained.
+The post-warm-up blackhole condition exposes a substantive limitation: delayed delivery is 32.94% for censored feedback versus 79.11% for active proofs. This cannot be labeled a successful universal replacement. Proof-matched comparisons, fixed topology, public keys, nominal telemetry, scheduling assumptions, retained watches and roughly 1 ms freshness quantization are documented.
 
-## Observed failures and scope boundaries
+## Actual remaining requirements
 
-Current receipt validation (18 October 2026): Q22 inference and cached signing keys reduce original signed-receipt deadline misses from 134/200 to 68/200. The experimental source-only HMAC receipt meets 200/200 tested deadlines (chain 61–63 ms; choice 49–50 ms); deferred Ed25519 proofs still miss 68/200 original deadlines. These are distinct endpoints, not a repaired original signed deadline. Both new profiles deliver all 200 packets and verify all 200 deferred proofs. ACK plus Ed25519 remains the forwarding-credit gate. Extra private receipt traffic has no measured energy benefit. Tested stack guards remain intact under the 32 KiB linker budget; this is not a worst-case bound. Physical RF/energy, protected MCU key storage and persistent MCU sessions remain unvalidated. The attached-hardware inventory found no matching board/instrument. Coauthor consent and authenticated portal checks require genuine author actions; no approval or submission is inferred.
+1. Physical board startup, RF/interference and calibrated current/voltage measurements require actual compatible boards and instruments. No physical measurements were obtained.
+2. Production security needs board-specific protected storage, authenticated provisioning, device-persistent anti-replay state and relevant physical tests. Emulator/session and software crypto checks do not certify these.
+3. The original signed-receipt deadline remains unmet in the retained MCU pilot: 68/200 misses after Q22 optimization. Fast private receipts are a distinct endpoint.
+4. Actual final-version coauthor approvals, contribution roles and exclusivity/overlap confirmations are not supplied by templates.
+5. Authenticated Array portal requirements and its assembled submission PDF remain unchecked. The latest official guide retrieval returned 403 and the browser homepage was unavailable. No upload, agreement, submission or payment occurred.
 
-Four-node sequential streams do not establish network-size scaling, queue-overload stability, worst-case stack, calibrated timing, protected MCU key storage or reboot-persistent MCU sessions. Host allocation and trusted UART provisioning address the emulator fixture only. Beacon energy/queue inputs are nominal, and scheduling is test-triggered. These are explicit scope exclusions, not completed deployment checks.
-
-## Work requiring unavailable hardware or author actions
-
-Physical board startup/clock/peripheral validation, RF/interference measurements and calibrated energy acquisition require actual compatible boards and instruments. No such measurements are fabricated. Acquisition requirements and a trace-integrity/energy-integration script are prepared in hardware/cc2538_live/PHYSICAL_ACQUISITION.md.
-
-Individual coauthor approvals, contribution roles, exclusivity/related-work declarations, authenticated Array portal checks and final submission approval remain author actions. The official guide again returned HTTP 403 during the latest access check. No author consent, signature, message, portal submission or payment is inferred or performed.
-
-## Machine-readable full-validation gate
-
-Run `python scripts/audit_remaining_validation.py --output outputs/cc2538_fast/full_validation_status.json`. Exit code 2 deliberately means the full requested scope is incomplete. Private MAC success cannot pass the signed-receipt criterion. External evidence needs actual acquisition/author review; caller-supplied status flags cannot certify it.
-
-## Cooja extension
-
-Nine separate native Cooja transport diagnostics delivered 900/900 packets and signed receipts with modeled radio loss and CSMA retries. This simplified public-key fixture omits the trained policy and passive-credit mechanism; it does not complete physical RF/energy, production security or MCU-cycle timing validation. See hardware/cooja_receipt_transport/README.md and publication/array/Cooja_Transport_Validation_Addendum.md.
+Use scripts/audit_remaining_validation.py for the retained full-validation gate; it deliberately does not infer external approvals or physical evidence. See hardware/cooja_feedback/README.md and publication/array/Cooja_Feedback_Evaluation.md for the completed virtual study. Further algorithm redesign would be a new experimental intervention requiring a new frozen comparison, not a relabeling of these results.

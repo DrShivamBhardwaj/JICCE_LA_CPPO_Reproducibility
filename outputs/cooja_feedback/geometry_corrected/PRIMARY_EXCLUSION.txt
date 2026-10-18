@@ -1,0 +1,1 @@
+Valid geometry-corrected seed-1 diagnostic and regression fixture; excluded from primary seed family

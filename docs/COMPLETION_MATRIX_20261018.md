@@ -1,29 +1,20 @@
-# Completion matrix
+# Current completion matrix
 
-Current evidence on 18 October 2026 supersedes historical progress paragraphs. Historical fixtures, failures and statistical families are retained.
-
-| Work | Status and boundary |
+| Work | Verified state |
 |---|---|
-| Frozen feedback comparison | Complete: 750 runs, thirty held-out fixtures; no unique censoring/attention superiority established |
-| Authenticated host-policy transfer | Complete: separate 180-run study; no attention superiority established |
-| Factorial proof/evidence control | Complete: separate 240-run study; original Holm family unchanged |
-| Bounded state, power and duty tests | Executed: optional ledger, native cutoff, primitive sleep and 27 routing diagnostics; no sustained-service guarantee |
-| Clock and isolated Cortex-M3 checks | Executed: 675 envelope cases; actor/HMAC/Ed25519 harness; no physical timing/energy result |
-| Live MCU routing/authentication | Complete within a four-node pilot: 20 public-fixture packets/receipts, 50 matching decisions |
-| Private emulator provisioning | Executed: random per-run keys, locked provisioning, host-persisted boot allocation and stale-session rejection; not MCU NVM or deployment provisioning |
-| Longer sequential MCU streams | Executed: 200/200 packets and verified receipts; 500 matching decisions across two runs; not a statistical reliability estimate |
-| Deadline targets | Original signed target still not met: Q22 reduces 134/200 misses to 68/200; separate fast private receipt has 0/200 misses |
-| Manuscript and supporting documentation | Section 5.8/Table 10 integrated; latest layout/count verification in publication/array/document_checks.json |
-| Physical RF/energy and board startup | Not executed; requires actual boards, board-specific port and calibrated instrument |
-| Production/scaling guarantees | Not claimed: worst-case stack, overload, protected MCU keys, persistent MCU sessions and full-scale deployment unvalidated |
-| Author and portal actions | Coauthor approvals, contribution/exclusivity confirmations and authenticated submission checks remain open |
+| Original feedback benchmark | 750 runs; frozen statistics retained |
+| Authenticated policy transfer | Separate 180-run study; no established attention superiority |
+| Factorial evidence/proof study | Separate 240-run study; original correction family retained |
+| Four-node live MCU pilot | Inference, authentication and signed receipts executed in Renode |
+| MCU latency optimization | Signed misses 134/200 to 68/200; separate fast private endpoint 0/200 misses |
+| Simplified Cooja transport | Nine runs, 900/900 deliveries/receipts; not the trained-policy fixture |
+| Full Cooja feedback/policy comparison | Complete: 600 runs, 30 independent seeds, 36,000 offered packets; all captures audited |
+| Cooja interpretation | Post-warm-up blackhole transfer failure reported: delayed delivery censored 32.94%, active 79.11% |
+| Statistical families | Prespecified 16-contrast family per endpoint; separate post-freeze exploratory matched-proof family of four |
+| Manuscript | 27 reviewed pages, 12 figures, 11 tables, 25 references, ten preserved native equations |
+| Regression checks | 118 passed |
+| Physical RF/energy | Not measured; native Cooja/Energest cannot certify it |
+| Production MCU security | Protected keys, physical provisioning and persistent device state unvalidated |
+| Author approval and portal | Actual coauthor approvals and authenticated submission checks remain open |
 
-The manuscript can accurately describe simulation and emulation evidence without claiming physical validation. Scientific scope limitations and author attestations cannot be replaced by additional synthetic results.
-
-## Latest receipt profiles
-
-Current receipt validation (18 October 2026): Q22 inference and cached signing keys reduce original signed-receipt deadline misses from 134/200 to 68/200. The experimental source-only HMAC receipt meets 200/200 tested deadlines (chain 61–63 ms; choice 49–50 ms); deferred Ed25519 proofs still miss 68/200 original deadlines. These are distinct endpoints, not a repaired original signed deadline. Both new profiles deliver all 200 packets and verify all 200 deferred proofs. ACK plus Ed25519 remains the forwarding-credit gate. Extra private receipt traffic has no measured energy benefit. Tested stack guards remain intact under the 32 KiB linker budget; this is not a worst-case bound. Physical RF/energy, protected MCU key storage and persistent MCU sessions remain unvalidated. The attached-hardware inventory found no matching board/instrument. Coauthor consent and authenticated portal checks require genuine author actions; no approval or submission is inferred.
-
-## Cooja extension
-
-Nine separate native Cooja transport diagnostics delivered 900/900 packets and signed receipts with modeled radio loss and CSMA retries. This simplified public-key fixture omits the trained policy and passive-credit mechanism; it does not complete physical RF/energy, production security or MCU-cycle timing validation. See hardware/cooja_receipt_transport/README.md and publication/array/Cooja_Transport_Validation_Addendum.md.
+The Cooja failure is an experimental result, not an unfinished run. No universal replacement, neural-policy superiority, deployment readiness or physical validation is claimed.

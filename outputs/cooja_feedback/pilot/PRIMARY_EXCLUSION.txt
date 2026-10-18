@@ -1,0 +1,1 @@
+Only one mote configured; timeout; no primary acceptance

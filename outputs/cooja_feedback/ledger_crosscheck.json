@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "cases": [
+    "pre_ACK_passive",
+    "ACK_gate",
+    "expiry",
+    "late_upgrade",
+    "deduplication",
+    "failed_first_hop",
+    "active_proof_only",
+    "frozen_counts"
+  ],
+  "modes": [
+    {
+      "mode": 0,
+      "counts": [
+        1.9000001,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "mode": 1,
+      "counts": [
+        1.0,
+        1.89999998,
+        1.0,
+        1.79999995
+      ]
+    },
+    {
+      "mode": 2,
+      "counts": [
+        1.45000005,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "mode": 3,
+      "counts": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

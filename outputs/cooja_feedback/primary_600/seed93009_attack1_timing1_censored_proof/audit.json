@@ -1,0 +1,84 @@
+{
+  "status": "independent_audit_passed",
+  "config": {
+    "mode": 0,
+    "proof": 1,
+    "attack": 1,
+    "timing": 1
+  },
+  "offered": 60,
+  "delivered": 19,
+  "source_receipts": 19,
+  "delivery": 0.31666666666666665,
+  "critical_sink_deadline_failure": 1.0,
+  "source_missing_or_late": 53,
+  "policy_decisions": 79,
+  "multiple_choices": 60,
+  "max_feature_error": 5.960464477539063e-08,
+  "max_logit_error": 1.7881393432617188e-06,
+  "feedback_events_replayed": 218,
+  "passive_frames_observed": 103,
+  "transmitted_application_frames": {
+    "1": 597,
+    "2": 79,
+    "4": 19,
+    "3": 38
+  },
+  "transmitted_application_bytes": 48282,
+  "total_tx_state_s": 7.187215999999999,
+  "radio_state_seconds": [
+    {
+      "node": 1,
+      "tx_s": 1.212928,
+      "listen_s": 25.286072
+    },
+    {
+      "node": 2,
+      "tx_s": 0.839024,
+      "listen_s": 25.659976
+    },
+    {
+      "node": 0,
+      "tx_s": 2.755632,
+      "listen_s": 23.743368
+    },
+    {
+      "node": 3,
+      "tx_s": 2.379632,
+      "listen_s": 24.119368
+    }
+  ],
+  "actual_mac_transmissions": 1478,
+  "mac_failures": 99,
+  "rejects": {
+    "no_fresh_progress": 1
+  },
+  "source_receipt_delays_ms": [
+    653,
+    482,
+    369,
+    490,
+    424,
+    499,
+    561,
+    527,
+    367,
+    349,
+    348,
+    359,
+    418,
+    348,
+    314,
+    407,
+    314,
+    315,
+    447
+  ],
+  "physical_energy_measured": false,
+  "checkpoint_sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+  "log_sha256": "66f9d7969f0d5b2c86db64fcb4de958ab95a3a6f581719d24e45913b666119a4",
+  "seed": 93009,
+  "arm": "censored_proof",
+  "attack": 1,
+  "timing": 1
+}

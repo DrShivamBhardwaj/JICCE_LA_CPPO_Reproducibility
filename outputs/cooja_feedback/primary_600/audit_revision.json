@@ -1,0 +1,9 @@
+{
+  "original_auditor_sha256": "950572433073d9fa7dac31e5160b1d11a82c7a8faa82878cab12e87f6862a10d",
+  "corrected_auditor_sha256": "52729e97bba8bf9d321b38a2d9c0e3793f28578b1479e6c2df2b25e747404705",
+  "reason": "Original Python checker added 1 microsecond to freshness eligibility. Port uses unsigned integer age after float32 timestamp multiplication/truncation. At now=16800 and stored stamp=16.049999237060547 the port age is 751 ms; tolerance incorrectly included this candidate. Corrected checker reproduces the actual declared representation.",
+  "simulation_sources_changed": false,
+  "captures_changed": false,
+  "statistical_plan_changed": false,
+  "boundary_limitation": "Float timestamp representation and truncation can exclude a beacon about 1 ms earlier than its ideal integer acquisition timestamp. Reported as a port limitation."
+}

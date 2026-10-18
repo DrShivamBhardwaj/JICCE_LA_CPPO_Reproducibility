@@ -35,9 +35,11 @@ def assess(root):
        'reason':'Authenticated portal requirements and final assembled submission PDF not independently checked.'}]
     # These hard-false checks are deliberate: this gate must be extended with reviewed
     # real evidence, rather than accepting a caller-controlled completed=true flag.
+    extension=root/'outputs/cooja_feedback/primary_600/analysis.json'
+    virtual=json.loads(extension.read_text()) if extension.exists() else None
     return {'status':'complete' if all(x['complete'] for x in checks) else 'incomplete',
       'full_validation_complete':all(x['complete'] for x in checks),
-      'profiles':profiles,'checks':checks,
+      'profiles':profiles,'checks':checks,'completed_cooja_extension':{'runs':virtual['runs'],'policy_decisions_verified':virtual['policy_decisions'],'physical_validation':False} if virtual and virtual.get('status')=='passed_paired_seed_analysis' else None,
       'scope':'Retained emulation diagnostics only; no external approval or physical certification inferred.',
       'summary_sha256':hashlib.sha256((root/'outputs/cc2538_fast/receipt_profiles_summary.json').read_bytes()).hexdigest()}
 

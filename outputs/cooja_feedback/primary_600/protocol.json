@@ -1,0 +1,134 @@
+{
+  "scope": "Separate four-node authenticated Cooja policy transfer; no physical validation",
+  "seeds": [
+    93001,
+    93002,
+    93003,
+    93004,
+    93005,
+    93006,
+    93007,
+    93008,
+    93009,
+    93010,
+    93011,
+    93012,
+    93013,
+    93014,
+    93015,
+    93016,
+    93017,
+    93018,
+    93019,
+    93020,
+    93021,
+    93022,
+    93023,
+    93024,
+    93025,
+    93026,
+    93027,
+    93028,
+    93029,
+    93030
+  ],
+  "arms": {
+    "censored": [
+      0,
+      0
+    ],
+    "active": [
+      1,
+      1
+    ],
+    "naive": [
+      2,
+      0
+    ],
+    "frozen": [
+      3,
+      0
+    ],
+    "censored_proof": [
+      0,
+      1
+    ]
+  },
+  "attacks": [
+    0,
+    1
+  ],
+  "timings": [
+    0,
+    1
+  ],
+  "packets": 60,
+  "interval_s": 0.3,
+  "positions": [
+    [
+      0,
+      0
+    ],
+    [
+      45,
+      15
+    ],
+    [
+      45,
+      -15
+    ],
+    [
+      90,
+      0
+    ]
+  ],
+  "blackhole_node": 1,
+  "blackhole_pid_start": 20,
+  "rx_probability": 1.0,
+  "transmit_range_m": 50,
+  "interference_range_m": 100,
+  "feedback_expiry_ms": 150,
+  "pending_retention_ms": 2000,
+  "keys": "public test fixtures",
+  "own_energy_queue": "nominal 1 and 0",
+  "compute_delay_assumptions_ms": {
+    "outbound_data": 14,
+    "outbound_other": 1,
+    "received_public_receipt": 81,
+    "sink_received_data": 31,
+    "other_received": 1
+  },
+  "compute_delay_scope": "Per-packet scheduling delays, not serial CPU service or measured cycle/power model",
+  "feature_mapping": "authenticated local cache with weighted FeedbackLedger alpha/beta; frozen checkpoint, no retraining",
+  "statistical_plan": {
+    "unit": "independent simulation seed",
+    "primary": "sink delivery fraction",
+    "secondary": [
+      "critical sink deadline failures",
+      "sum of modeled transmit-state seconds"
+    ],
+    "contrasts": "each of active, naive, frozen, censored_proof minus censored within each attack/timing stratum",
+    "families": "16 Holm-adjusted paired contrasts per endpoint; separate families clearly labeled",
+    "ci": "paired seed bootstrap, 20000 draws, fixed RNG 64001",
+    "test": "two-sided paired sign-flip randomization, 100000 draws, fixed RNG 64002; zero differences p=1"
+  },
+  "sources_sha256": {
+    "scripts/run_cooja_feedback.py": "b47d189d26bc8e00a46e8abda957049c1e99bb2203b68bc1d5a28896d648f28e",
+    "scripts/audit_cooja_feedback.py": "950572433073d9fa7dac31e5160b1d11a82c7a8faa82878cab12e87f6862a10d",
+    "scripts/prepare_cooja_feedback.py": "d02dd4af317156a331f775b2db6eb20d91933e20f2726d3e933ff923dbed5e2d",
+    "scripts/check_cooja_feedback_ledger.py": "0c41a7fcfefae94d6574cf5c4f5cab68a4d5d8bf499b6417547323e6b6edaf6a",
+    "hardware/cooja_feedback/pilot.csc": "803c95905072477c39be138d41a1df44910cfd1af65e0bdb3da0492c9331294d",
+    "hardware/cooja_feedback/Makefile": "a19bfb8122b16561bc9e9ef2ca2c6e3bf6af07dae9c092172722efce239ceab8",
+    "hardware/cooja_feedback/cooja-radio-observer.patch": "ff4f63172235c7c52b0dec24ff9c1f4f6e2229abaf196662197b17616e0fa25b",
+    "hardware/cooja_feedback/feedback.c": "6e40a8c1e5d4f2d75ba8749ab0f67a3b5aaad57d7e2e5e519fbbfb603d687bf2",
+    "hardware/cooja_feedback/local_feedback.h": "45dba773cc2a37b14026b3003ce8f3a7b56a2b68bbada8bd6f26a101e6e8162e",
+    "hardware/cooja_feedback/feedback_ledger.h": "a55862511dd8b08f844a0964202df930e0fa44f72ef1a9b20f49bf37bbe0d791",
+    "hardware/cooja_feedback/project-conf.h": "45d74b37e394760e42e1b748b2fa56677b23cba6afe315432c80c582657eadb1",
+    "hardware/cc2538_q22/actor.h": "af759cb7aa43f40a9f74f2fe6dfe709517b94875b0761e0535456ae8d6e9a6f6",
+    "hardware/cc2538_q22/q22_weights.h": "9769543cca0d1578d80f7cf2271fb0fcdd807452e9742841911f327a03583151",
+    "build/contiki-feedback/arch/platform/cooja/dev/cooja-radio.c": "33f7bf8f1b822c94239f092f598486c09c7e1d9fa12ccb17ba938b806f0d8e4d"
+  },
+  "checkpoint_sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+  "contiki_commit": "4ccd1a3b9e767f168d12ec3df187fe6b7dc736b5",
+  "cooja_commit": "fabff3ee41eeeb6f3de7bd11f7c9cdf0a7d7dfc4"
+}

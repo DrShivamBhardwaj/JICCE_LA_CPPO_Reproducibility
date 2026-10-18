@@ -6,7 +6,9 @@ Please consider “A Reproducible Benchmark of Receipt Assisted Passive Feedback
 
 The prespecified 750-run study uses 30 new fixtures. Under blackholes, delivery improves by 4.67 percentage points relative to active proofs (paired 95% interval 2.36–6.97; Holm-adjusted p=0.0161). Matched controls do not establish a unique censoring or attention advantage. A separate 180-run authenticated transfer study likewise establishes no attention superiority. A separately frozen 240-run factorial extension identifies a proof-traffic delivery penalty under always-on listening, with severe low-duty limitations.
 
-A four-node emulated MCU pilot now integrates inference, hop authentication and signed receipts. Q22 inference reduces original signed-receipt deadline misses from 134/200 to 68/200. A separate private source–sink MAC receipt meets the tested source deadlines while retaining deferred Ed25519 proofs; it changes the endpoint and adds traffic. We make no physical RF, measured energy, protected hardware key-storage or deployment-readiness claim.
+A separate 600-run Cooja study now executes the frozen actor and weighted feedback ledger under matched proof-generation controls. It exposes a post-warm-up blackhole failure: with scheduled processing, active proofs deliver 79.11% versus 32.94% for censored feedback. This counterexample limits the original replacement result rather than supporting universal superiority.
+
+A four-node emulated MCU pilot also integrates inference, hop authentication and signed receipts. Q22 inference reduces original signed-receipt deadline misses from 134/200 to 68/200. A separate private source–sink MAC receipt meets the tested source deadlines while retaining deferred Ed25519 proofs; it changes the endpoint and adds traffic. We make no physical RF, measured energy, protected hardware key-storage or deployment-readiness claim.
 
 Code, checkpoints, raw traces, negative results, firmware and audits are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility.
 

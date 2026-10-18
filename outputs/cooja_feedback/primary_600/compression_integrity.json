@@ -1,0 +1,5 @@
+{
+  "status": "passed_lossless_roundtrip",
+  "files": 1202,
+  "raw_packet_log_hashes": "audit.json log_sha256 values refer to expanded original bytes"
+}

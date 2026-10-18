@@ -45,6 +45,11 @@
       "reason": "Authenticated portal requirements and final assembled submission PDF not independently checked."
     }
   ],
+  "completed_cooja_extension": {
+    "runs": 600,
+    "policy_decisions_verified": 61845,
+    "physical_validation": false
+  },
   "scope": "Retained emulation diagnostics only; no external approval or physical certification inferred.",
   "summary_sha256": "3b2fe96ab2fa0a9428e56d03afcec5d94e85a27d7eae8a3d26b24ef899a75473"
 }
