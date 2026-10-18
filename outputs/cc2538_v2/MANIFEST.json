@@ -1,0 +1,207 @@
+[
+  {
+    "path": "hardware/cc2538_live/PRIVATE_PROVISIONING.md",
+    "size": 3034,
+    "sha256": "8d57bbeeb6dec159e9630e8dc4bd9716c334ab287e695c9b0156875e5f3373e7"
+  },
+  {
+    "path": "hardware/cc2538_live/local_v2.h",
+    "size": 15224,
+    "sha256": "87a3d5d14a3a85f8a3143bc44cd7a6f4db0c6eda47ad2a8c518808ee7603ea41"
+  },
+  {
+    "path": "hardware/cc2538_live/session_allocator.py",
+    "size": 722,
+    "sha256": "f4587f417a51c174634dd3ceb343e75c07858b2ccb35b15a3516c4308332ba7c"
+  },
+  {
+    "path": "outputs/cc2538_v2/build.json",
+    "size": 1722,
+    "sha256": "8e3f69166cfecaaddcc1a50419ee273c7ee02f04353867a74937d8b77e4edae9"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_10/network.resc",
+    "size": 2856,
+    "sha256": "b164957a8bfb1b47d041160236ae0f530340e291e554c1fe31cfd562cf330bc9"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_10/renode.log",
+    "size": 4886,
+    "sha256": "fdcd4802268e9d6f3b610afa1e29677adf491421f7516151877b8445699020ae"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_10/uart_0.jsonl",
+    "size": 25603,
+    "sha256": "c698dadb24efb1af80b43f4cbe119043ee7d00749cc5f556b2545eb004f939e6"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_10/uart_1.jsonl",
+    "size": 35894,
+    "sha256": "9b548edabb6fa489fe4703549578f9296bf4ad616f6b3d78a8b5a0f128db82ef"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_10/uart_2.jsonl",
+    "size": 35018,
+    "sha256": "b41008b97fb92c422913567e00eb13f0456ecab24048894529dc251160a38cef"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_10/uart_3.jsonl",
+    "size": 11085,
+    "sha256": "81ab9632d4dcf5f9530e9a11c191858fc401f7c93bbb7c63be3b4ef2c7daa1c0"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_10/verification.json",
+    "size": 3060,
+    "sha256": "cfaff90d8f0ade08cb469f529d81c86690073462db5861d027701a95b060b6c4"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/audit.json",
+    "size": 10355,
+    "sha256": "ffbacb01ddae29b0141f4efae1a919a1f633dd1b4b2c78f6c36fe57994ae7d43"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/network.resc",
+    "size": 2860,
+    "sha256": "8fdbfa784ad19e5740ae6462e97fdf159129b2cafca5b8247bdcae2db42d0c36"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/renode.log",
+    "size": 5445,
+    "sha256": "e6fbed757743b893cff93d475248448eb0872b44bf747f9928ea481cb5bdeff7"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/uart_0.jsonl",
+    "size": 250595,
+    "sha256": "f4c31aebdbc59a2b404d7a43cd958460050d2f3972b08e2179ede9a26abda0c4"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/uart_1.jsonl",
+    "size": 349643,
+    "sha256": "3df02f7c33b0b27db2323caf053b9d4d0f1c62d6ea9222f76d99364898c29dd8"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/uart_2.jsonl",
+    "size": 348768,
+    "sha256": "d6f8f3cbcd1795ef206090370a4c98aef521904fc1f48b27fa2b7831a5ada526"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/uart_3.jsonl",
+    "size": 106519,
+    "sha256": "3f74f0ed79392319133d3ce770010096685c461210719cbdafcbc1d3191abd41"
+  },
+  {
+    "path": "outputs/cc2538_v2/chain_100/verification.json",
+    "size": 10355,
+    "sha256": "ffbacb01ddae29b0141f4efae1a919a1f633dd1b4b2c78f6c36fe57994ae7d43"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/audit.json",
+    "size": 10260,
+    "sha256": "522e10b480a12c3c61fab542a16c6682dbd1e61ea60a129f64049210bad6de8c"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/network.resc",
+    "size": 2865,
+    "sha256": "4b177a7d7add2f2b3a8f791a59cc231fd75303bac97e9903003d66936438dacc"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/renode.log",
+    "size": 5446,
+    "sha256": "a403e7c660f645ea992e6ad198bd7097d3d80796980864f41f30c1580ce7f4e1"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/uart_0.jsonl",
+    "size": 292913,
+    "sha256": "9d0a21c07d6a90311ba26cf8be25f8beed8086b28378f9924fd46ecce259bea7"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/uart_1.jsonl",
+    "size": 391782,
+    "sha256": "b545fc7535b843cce822403bc401ea6826b15b795de012727acaf3c0416c39de"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/uart_2.jsonl",
+    "size": 126788,
+    "sha256": "427229e6669c52fced9549a03e2f0c6f93001f15cc788ae89d0083ce488def40"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/uart_3.jsonl",
+    "size": 148678,
+    "sha256": "7f5fced29d603ba9d480e203c43bd188e2746ffb03171a2cd4d21198eeb6cee0"
+  },
+  {
+    "path": "outputs/cc2538_v2/choice_100/verification.json",
+    "size": 10260,
+    "sha256": "522e10b480a12c3c61fab542a16c6682dbd1e61ea60a129f64049210bad6de8c"
+  },
+  {
+    "path": "outputs/cc2538_v2/elf_report.txt",
+    "size": 2664,
+    "sha256": "ca24504cc4db4822284ab7be7641d34e6f270f4cbdddf3b35f226901c1853534"
+  },
+  {
+    "path": "outputs/cc2538_v2/firmware.c",
+    "size": 22659,
+    "sha256": "1b838e7e843719cc948181f50019db70771f471489569ae574ce2ae0924f1118"
+  },
+  {
+    "path": "outputs/cc2538_v2/firmware.elf",
+    "size": 801720,
+    "sha256": "faa5d9a055c1b20ff4a5e96f047d5277147eb6f9777acd96a82d2935b857303d"
+  },
+  {
+    "path": "outputs/cc2538_v2/python_regression.txt",
+    "size": 180,
+    "sha256": "418be9ab27b688fd87e619b615c74a536033e07f2a9378617030c0954b3bc340"
+  },
+  {
+    "path": "outputs/cc2538_v2/session_allocator_checks.json",
+    "size": 255,
+    "sha256": "575f30dfbf77f0e556a547b4750182e0f098e1a96d8d656848f13adcaefc5620"
+  },
+  {
+    "path": "outputs/cc2538_v2/size.txt",
+    "size": 120,
+    "sha256": "cdae7c2bd959b6a2b7f76d287debdcf1f29ed1173d65d8ca0beaa7c1e2854b15"
+  },
+  {
+    "path": "outputs/cc2538_v2/summary.json",
+    "size": 1456,
+    "sha256": "92023fae1f155cf2b1fcc54fe50923401fbdf1e0d179bb5d9759c97fc48f063b"
+  },
+  {
+    "path": "outputs/cc2538_v2/summary_stdout.txt",
+    "size": 1048,
+    "sha256": "d11a47a22f5ad4826f15e20619f3331caedd7198b18d82e4513872b6fc53a7a1"
+  },
+  {
+    "path": "scripts/audit_cc2538_v2.py",
+    "size": 5987,
+    "sha256": "282cfdf7dead029dad5a03e06c4805bb9e7340beff3a03793a82a0911bf5fdae"
+  },
+  {
+    "path": "scripts/build_cc2538_v2.py",
+    "size": 3147,
+    "sha256": "2344fc8a79b95f0e7afe9e37c8bebca5017f8947e031785f3fa899cf6263c754"
+  },
+  {
+    "path": "scripts/check_cc2538_sessions.py",
+    "size": 1191,
+    "sha256": "babbe18648d8377f87037510daadf99386177e10aa994604424512277cf5af6c"
+  },
+  {
+    "path": "scripts/prepare_cc2538_v2.py",
+    "size": 3340,
+    "sha256": "fc3e4482e508775912410c178124fff9c1635d99e4beb2ce31519e0576159d9d"
+  },
+  {
+    "path": "scripts/run_cc2538_v2.py",
+    "size": 8172,
+    "sha256": "9110dcbdf56486d068390aa1ac59d8781a403da056acccde3423567cad70ca43"
+  },
+  {
+    "path": "scripts/summarise_cc2538_v2.py",
+    "size": 2050,
+    "sha256": "fcd46851dd69b095859772fe846820311cf576fe55aacb6ed9903aca4126cd15"
+  }
+]

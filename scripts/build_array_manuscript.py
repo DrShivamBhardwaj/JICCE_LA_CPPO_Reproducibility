@@ -169,7 +169,9 @@ from polish_array_editorial import apply as polish_editorial
 polish_editorial(d,ROOT)
 from array_postfreeze_integration import apply as integrate_postfreeze
 extended_report=integrate_postfreeze(d,ROOT)
-layout_report.update(figures_in_body=11,tables_in_body=9)
+from array_live_integration import apply as integrate_live
+extended_report.update(integrate_live(d,ROOT))
+layout_report.update(figures_in_body=11,tables_in_body=10)
 abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
 assert len(abstract.split())<=250
 dest=out/'Array_Manuscript.docx';d.save(dest)
@@ -182,5 +184,5 @@ highlights=['A frozen 750-run study isolates feedback replacement effects.',
 'Virtual serial devices expose and correct a receive-time freshness defect.']
 assert all(len(x)<=85 for x in highlights)
 (out/'Highlights.txt').write_text('\n'.join(highlights)+'\n')
-(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=11,tables=9,references=24,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
+(out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=11,tables=10,references=24,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))
 print(dest)

@@ -1,59 +1,24 @@
-# Array submission review — 18 October 2026
+# Array submission checklist
 
-Status: technical package prepared; author confirmations and authenticated portal checks remain open. No submission or communication has been sent.
+Current status: manuscript preparation and validation are being reconciled with the live MCU extension. This checklist records package checks; it does not attest coauthor consent or certify an authenticated journal submission.
 
-## Public requirements checked
+## Package review
 
-| Requirement | Source and access | Package check |
-|---|---|---|
-| Abstract no more than 250 words | Array Guide for Authors, current publisher-indexed text | 232 words in the extended manuscript |
-| Highlights: 3–5 items; up to 85 characters each | Array indexed guide plus Elsevier author support | Four separate editable highlights, maximum 75 characters |
-| Single anonymized review | Array current publisher-indexed guide | Author-bearing manuscript provided |
-| Disclose generative AI use | Array current publisher-indexed guide | Separate disclosure immediately before references; assistance with code/plots is disclosed |
-| Competing-interest file | Elsevier Editorial Manager new-experience help | Separate draft prepared; each author must confirm the content |
-| Source manuscript, figures and data availability | Prepared package; portal-dependent file types still require inspection | DOCX/PDF, editable figures and repository available |
+- Three-author order: Shivam Bhardwaj, Abhishek Kumar Pandey, Abhinandan Tripathi. Shivam is corresponding author, Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India. The supplied Bennett University and Buddha Institute of Technology details are retained.
+- No funding and no competing interests were confirmed by the corresponding author. Separate statements are prepared; no signature or individual coauthor approval is fabricated.
+- Preserve ten native equations, eleven figures and twenty-four references. The live extension adds Table 10. Exact abstract/page counts and visual verification are recorded in publication/array/document_checks.json after rendering.
+- Main files: publication/array/Array_Manuscript.docx and .pdf. Highlights, funding, interests, AI/data statements and draft cover letter are separate files.
+- Figures 1–8: publication/array/figures/. Figures 9–10: publication/array/review_figures/. Figure 11: publication/array/postfreeze_figures/. The archive contains all eleven; older counts in historical commits are superseded.
+- Live MCU data are separate from the original 750-run, 180-run and factorial studies. Report receipt deadline failures and nominal telemetry; do not label emulated times or modeled energy as physical measurements.
 
-Direct requests to the full Array Guide for Authors returned HTTP 403. Indexed publisher text verified the specific rows above; it does not establish every journal requirement. The Elsevier help page describes the new submission experience conditionally and does not establish which portal flow Array currently uses. The authenticated Array portal has not been inspected. Graphical-abstract requirements, any supplementary forms, article-type options, final PDF approval and file-role mappings are not certified.
+## Journal access check on 18 October 2026
 
-## Author confirmations required before submission
+The direct official Guide for Authors request again returned HTTP 403. Search results did not establish the current complete guide. Earlier indexed checks are historical, not renewed certification. The package retains a <=250-word abstract target and four short highlights, but current article types, review model, graphical abstract, file roles, supplementary forms, APC/waiver quotation and final PDF approval must be checked in the authenticated Array portal.
 
-- Confirm all three author names, order, affiliations, postal address and contact emails in the manuscript. Confirmed order: Shivam Bhardwaj, Dr. Abhishek Kumar Pandey, Dr. Abhinandan Tripathi. Shivam is Assistant Professor at United Institute of Management, Prayagraj, and corresponding author. Coauthor affiliations/emails were subsequently supplied and incorporated. Abhishek Kumar Pandey is at Bennett University; Abhinandan Tripathi is at Buddha Institute of Technology.
-- Each author confirms contributions and approves the final manuscript and submission.
-- No funding and no competing interests were confirmed by the corresponding author on 16 October 2026; final separate files are prepared. No signature is added.
-- Confirm no concurrent journal consideration, and disclose related publications/preprints or overlapping manuscripts. The prior JICCE rejection is known; status of other submissions is not inferred.
-- Confirm rights/permissions and responsibility for AI-assisted content, code, figures and references.
-- Obtain the portal's payable APC/waiver quotation and author agreement before payment or acceptance of terms. No payment authorization is implied.
+Official guide: https://www.sciencedirect.com/journal/array/publish/guide-for-authors
 
-## Upload mapping
+## Required author and portal actions
 
-| Item | File |
-|---|---|
-| Main source | publication/array/Array_Manuscript.docx |
-| Review copy | publication/array/Array_Manuscript.pdf |
-| Highlights | publication/array/Highlights.txt |
-| Competing interests | publication/array/Declaration_of_interests.txt |
-| Funding/contributions/AI/data statements | publication/array/Author_declarations_REVIEW.txt — compare against author-confirmed manuscript |
-| Editor letter | publication/array/Cover_letter_DRAFT.txt — final author review required |
-| Figures 1–8 | publication/array/figures/ — current artwork, not historical redesigned figures |
-| Figures 9–10 | publication/array/review_figures/ |
-| All ten figures | publication/array/Array_Figures_PNG_PDF_SVG.zip |
-| Code, traces, firmware, virtual tests | GitHub repository; use a pinned release commit |
+Each coauthor must approve the final manuscript, contribution statement, metadata and submission. Confirm exclusivity and disclose related publications/preprints or overlapping manuscripts. The previous JICCE rejection is known; no other manuscript's status is inferred. Verify rights/permissions and responsibility for AI-assisted code, text and figures. Inspect the portal's current requirements, review the assembled PDF and approve any agreement or payable quotation. No submission, message, signature or payment has been made.
 
-## Official sources
-
-- https://www.sciencedirect.com/journal/array/publish/guide-for-authors
-- https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript
-- https://www.elsevier.support/publishing/answer/author-guide-to-editorial-managers-new-submission-experience
-- https://www.elsevier.com/subject/next/guide-for-authors
-
-The remaining author statements are factual attestations. They cannot be completed by substituting a simulation or by automatically ticking portal boxes.
-
-Funding statement: publication/array/Funding_statement.txt. Author metadata: publication/array/author_metadata.json. Former author names and their emails/roles have been removed from the active manuscript.
-
-## Recheck on 18 October 2026
-
-The main draft contains the original 22 pages, ten equations, ten figures, seven tables and 22 references. The 198-word abstract supersedes the earlier 215-word checklist entry. Artwork locations were reconciled against the repository tree. Direct access to the publisher guide again returned HTTP 403; current full requirements and authenticated file-role mappings remain unverified. No submission has been made. The manuscript source for this check is commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288.
-
-## Extended manuscript update
-
-Sections 5.6–5.7 integrate the separately audited extension. The current abstract has 232 words, with 11 figures, nine tables and 24 references. Figures 1–8 remain in publication/array/figures/, Figures 9–10 in publication/array/review_figures/, and Figure 11 in publication/array/postfreeze_figures/. The regenerated figure archive contains all eleven. Page count and final visual-QA status are recorded in publication/array/document_checks.json. These updates do not certify live portal requirements.
+Physical validation is required for physical RF/energy claims; those claims are not made in this benchmark. Missing hardware must not be replaced by invented measurements or treated as evidence of journal acceptance.

@@ -17,3 +17,5 @@ Before sending this letter, the corresponding author must confirm final coauthor
 Sincerely,
 Shivam Bhardwaj
 Corresponding author
+
+The updated manuscript also reports a four-node emulated live packet path with MCU-local policy inference, authentication and signed receipts. Two longer private-provisioning diagnostics deliver all 200 offered packets and verified source receipts, with 500 decisions matching the frozen host actor. Their 134 missed receipt deadlines are retained as a negative execution result. Neither these diagnostics nor the isolated instruction harness establish physical RF/energy validation or deployment readiness. All authors must approve this draft and its declarations before submission.

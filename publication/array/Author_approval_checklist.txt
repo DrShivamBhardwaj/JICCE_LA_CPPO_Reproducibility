@@ -1,0 +1,16 @@
+Final author review checklist — no approvals recorded by this checklist
+
+Manuscript: A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks
+Author order: Shivam Bhardwaj; Abhishek Kumar Pandey; Abhinandan Tripathi.
+Corresponding author: Shivam Bhardwaj, shibambhardwaj@gmail.com.
+
+Each author must review and confirm:
+[ ] Final text, figures, tables, affiliations and contact details.
+[ ] Their actual contribution roles; none are assigned automatically.
+[ ] Funding and competing-interest statements already supplied by the corresponding author.
+[ ] Exclusivity and disclosure of overlapping manuscripts, publications and preprints.
+[ ] Responsibility for AI-assisted text, code, plots, citations and retained experimental evidence.
+[ ] Simulation/emulation boundaries, receipt deadline failures and absence of physical RF/energy results.
+[ ] Final assembled portal PDF and submission declarations.
+
+The corresponding author should retain the actual confirmations separately. Empty boxes are not consent, signatures or submission authorization. No messages have been sent.

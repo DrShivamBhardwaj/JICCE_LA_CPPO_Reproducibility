@@ -1,6 +1,6 @@
 # Post-freeze validation addendum
 
-This addendum reports new implementation and experimental evidence. Its evidence is integrated into Sections 5.6–5.7 of the active 24-page manuscript; the original 22-page manuscript is preserved at commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288. Its results are separate from the original 750-run test family and 180-run authenticated transfer study.
+This addendum reports new implementation and experimental evidence. Its evidence is integrated into Sections 5.6–5.7 of the active manuscript; the original 22-page manuscript is preserved at commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288. Its results are separate from the original 750-run test family and 180-run authenticated transfer study.
 
 ## Clock handling
 
@@ -60,3 +60,7 @@ Physical RF, board initialization, measured current, physical timing, whole-firm
 ## High novelty opportunities
 
 The factorial experiment now separates the effect of proof generation from the declared evidence rule within each contrast. The next deployment study should integrate the tested actor and crypto into the radio firmware, evaluate clock bounds and rendezvous costs, and obtain physical-board traces. New tests should preserve this distinction between algorithm execution, radio integration and field validation.
+
+## Live MCU integration
+
+Section 5.8 and Table 10 now integrate the four-node live MCU routing/authentication pilots: twenty public-fixture packets and two longer hundred-packet private-provisioning diagnostics. The latter deliver 200/200 packets and source-verified receipts with 500 matching decisions, but miss 134/200 receipt deadlines. Host-persisted boot allocation and trusted emulator-UART provisioning do not establish protected MCU storage, physical firmware operation or measured energy. Current manuscript: 25 visually checked pages, 237-word abstract, eleven figures, ten tables, twenty-four references and ten preserved native equations. See hardware/cc2538_live/PRIVATE_PROVISIONING.md for private audit boundaries.

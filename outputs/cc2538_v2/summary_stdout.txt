@@ -1,0 +1,50 @@
+[
+  {
+    "topology": "chain",
+    "offered": 100,
+    "delivered": 100,
+    "verified_source_receipts": 100,
+    "decisions": 300,
+    "multiple_choices": 0,
+    "max_feature_error": 1.043081283569336e-07,
+    "max_logit_error": 2.980232238769531e-07,
+    "receipt_delay_ms": [
+      1134,
+      1142
+    ],
+    "deadline_misses": 67,
+    "authenticated_wire_records": 1200,
+    "rejected_controls": [
+      "sink_signature",
+      "reprovision",
+      "replay",
+      "tag",
+      "session",
+      "source_tag"
+    ]
+  },
+  {
+    "topology": "choice",
+    "offered": 100,
+    "delivered": 100,
+    "verified_source_receipts": 100,
+    "decisions": 200,
+    "multiple_choices": 100,
+    "max_feature_error": 5.960464477539063e-08,
+    "max_logit_error": 2.384185791015625e-07,
+    "receipt_delay_ms": [
+      925,
+      931
+    ],
+    "deadline_misses": 67,
+    "authenticated_wire_records": 1400,
+    "rejected_controls": [
+      "sink_signature",
+      "reprovision",
+      "replay",
+      "tag",
+      "session",
+      "source_tag"
+    ]
+  }
+]

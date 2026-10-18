@@ -1,40 +1,21 @@
-# Completion matrix after executed virtual extension
+# Completion matrix
 
-Updated 18 October 2026. Original manuscript evidence and the extension are separately retained.
+Current evidence on 18 October 2026 supersedes historical progress paragraphs. Historical fixtures, failures and statistical families are retained.
 
-| Item | Current completion | Evidence boundary |
-|---|---|---|
-| Low-q credit partition artifact | Corrected and regression-tested in opt-in bounded ledger | Frozen baseline unchanged; alternative rule remains heuristic |
-| Ledger retirement/capacity | Implemented and stress-tested | This bounds ledger state, not all simulator or firmware memory |
-| Packet reordering | 64-identity window tested | Older unseen identities are rejected; session management is external |
-| Freshness under declared clock envelope | 675 offset/drift combinations tested | Not clock synchronization or measured oscillator calibration; stale window widens |
-| Battery power-gating | Executed at ns-3 PHY boundary with zero post-cut transmissions in retained runs | Modeled current, not physical current |
-| Periodic sleep/wake | Executed with busy-state deferral and PHY residence accounting | Primitive, synchronized schedule; no rendezvous/MAC deployment guarantee |
-| 60 s routing extension | 27 runs reconciled with nine trace streams and 2,727 energy identities | Three fixtures per cell; sensors still exhaust energy |
-| Proof-traffic attribution | 240 separately frozen factorial runs, 30 new fixtures, 30-test Holm family | Different backend/rules from original study; does not retrospectively decompose its entire gain |
-| Full Python/native bridge regression | 107 tests passed | Recorded Mac/ns-3.47 environment; not a fresh ns-3.44 reproduction |
-| Cortex-M3 actor/crypto execution | Compiled C and actual emulated instruction execution passed | Isolated QEMU harness, not integrated CC2538 radio firmware |
-| Target numerical comparison | 16 decisions and 128 logits checked against frozen PyTorch actor | Eight retained observations plus eight permutation controls; limited input coverage |
-| Target memory observation | Linker budgets and observed 3,080-byte stack watermark recorded | No full protocol buffers/RTOS; not worst-case stack proof |
-| Data, logs, source and figures | Retained with hashes and reproducible scripts | New addendum accompanies the original manuscript |
-| Word/PDF integration of this extension | Complete: Sections 5.6–5.7, Figure 11 and Tables 8–9 added; all 24 pages visually verified | Original statistical families preserved; see document_checks.json for delivery QA |
-| Integrated on-MCU authenticated radio routing | Still open | Isolated actor/crypto and CC2538 bridge must be integrated and jointly tested |
-| Physical boards, RF, current and timing | Still open | Requires real apparatus and measurements |
-| Coauthor approvals/contributions/exclusivity | Still open | Requires actual author statements |
-| Authenticated journal-portal checks/submission | Still open | No submission or payment made |
+| Work | Status and boundary |
+|---|---|
+| Frozen feedback comparison | Complete: 750 runs, thirty held-out fixtures; no unique censoring/attention superiority established |
+| Authenticated host-policy transfer | Complete: separate 180-run study; no attention superiority established |
+| Factorial proof/evidence control | Complete: separate 240-run study; original Holm family unchanged |
+| Bounded state, power and duty tests | Executed: optional ledger, native cutoff, primitive sleep and 27 routing diagnostics; no sustained-service guarantee |
+| Clock and isolated Cortex-M3 checks | Executed: 675 envelope cases; actor/HMAC/Ed25519 harness; no physical timing/energy result |
+| Live MCU routing/authentication | Complete within a four-node pilot: 20 public-fixture packets/receipts, 50 matching decisions |
+| Private emulator provisioning | Executed: random per-run keys, locked provisioning, host-persisted boot allocation and stale-session rejection; not MCU NVM or deployment provisioning |
+| Longer sequential MCU streams | Executed: 200/200 packets and verified receipts; 500 matching decisions across two runs; not a statistical reliability estimate |
+| Deadline targets | Not met: 14/20 public and 134/200 longer-run receipt deadlines missed; explicitly reported |
+| Manuscript and supporting documentation | Section 5.8/Table 10 integrated; latest layout/count verification in publication/array/document_checks.json |
+| Physical RF/energy and board startup | Not executed; requires actual boards, board-specific port and calibrated instrument |
+| Production/scaling guarantees | Not claimed: worst-case stack, overload, protected MCU keys, persistent MCU sessions and full-scale deployment unvalidated |
+| Author and portal actions | Coauthor approvals, contribution/exclusivity confirmations and authenticated submission checks remain open |
 
-## Critical vulnerabilities and limitations
-
-The study still fails absolute deadline compliance under the stress/deployment conditions. Physical and full-firmware validation cannot be replaced by separately passing isolated tests. The stale-acceptance tolerance is a security tradeoff, and nominal duty fractions differ from actual residence because busy MAC work delays sleep. These boundaries remain explicit in the addendum.
-
-## High novelty opportunities
-
-The executed factorial design now supplies a traffic-control contrast missing from the original benchmark. Full-target integration can build on the tested C actor and crypto code without treating emulator success as physical evidence.
-
-## CC2538 combined-image extension
-
-See `hardware/renode_cc2538/BOOT_SELFTEST.md` and `outputs/cc2538_boot_selftest/execution.json` for boot actor/crypto and radio coexistence evidence. This extension does not close the live MCU routing/authentication or physical validation items. The manuscript has not been expanded with an autonomous CC2538 routing claim.
-
-## Live packet integration supersedes the boot-only boundary
-
-The four-node live pilot now passes two ten-packet topologies: twenty sink deliveries and twenty verified source receipts, fifty matching MCU actor decisions, complete feature reconstruction and four authenticated rejection controls per topology. See `docs/CC2538_LIVE_VALIDATION_20261018.md`. This closes the small emulated live-integration pilot, not the physical/production validation item. Fourteen of twenty emulated receipt deadlines were missed. No physical RF/energy result exists; acquisition tooling is prepared.
+The manuscript can accurately describe simulation and emulation evidence without claiming physical validation. Scientific scope limitations and author attestations cannot be replaced by additional synthetic results.

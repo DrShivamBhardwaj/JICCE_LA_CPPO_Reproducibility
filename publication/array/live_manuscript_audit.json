@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "live_table_rows_reconciled": 4,
+  "figures": 11,
+  "tables": 10,
+  "physical_validation": false,
+  "deadline_compliance": false,
+  "preceding_nine_tables_unchanged": true,
+  "ten_native_equations_unchanged": true,
+  "preceding_eleven_images_unchanged": true,
+  "baseline_sha256": "15424fb31bd696301f02ff84e0c4e0c983174a2fec5a4e77e4a90b6c3bb277e8"
+}

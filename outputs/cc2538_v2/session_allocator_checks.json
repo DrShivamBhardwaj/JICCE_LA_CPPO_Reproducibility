@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "sequential_restart_allocations_disjoint": true,
+  "concurrent_reservations": 12,
+  "unique_concurrent_sessions": 48,
+  "overflow_rejected": true,
+  "scope": "Host file allocator only. MCU NVM persistence remains unvalidated."
+}

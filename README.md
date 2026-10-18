@@ -1,5 +1,10 @@
 > Current: [Array manuscript and validation status](docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md). 180 authenticated policy-transfer runs audited; 83 tests pass. Four Renode CC2538 MCUs execute compiled bridge firmware. Strict attention/MLP/greedy controls each deliver 10/10 packets with ten accepted source receipts. Physical RF/current and embedded inference/crypto remain unvalidated.
 
+## Latest Array package status
+
+The active draft integrates live MCU routing/authentication in Section 5.8 and Table 10: 25 pages, 237-word abstract, ten native equations, eleven figures, ten tables and twenty-four references. Two hundred-packet private-provisioning diagnostics deliver 200/200 packets and verified receipts with 500 matching decisions, while 134 receipt deadlines are missed. Host-persisted boot allocation is not MCU NVM. No physical RF/energy or deployment-readiness claim is made. See docs/COMPLETION_MATRIX_20261018.md and hardware/cc2538_live/PRIVATE_PROVISIONING.md. Earlier experimental stages below retain their original scopes.
+
+
 > New: [distributed authenticated transport](docs/DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
 
 > Current manuscript: [focused redesign](publication/redesigned/JICCE_Redesigned_Manuscript.docx) and [PDF](publication/redesigned/JICCE_Redesigned_Manuscript.pdf), with six vector figures, five tables, ten native equations and an [interactive architecture](publication/redesigned/interactive_architecture.html) (download and open locally). The [new implementation audit](docs/IMPLEMENTATION_REVIEW_2026_10_16.md) reconstructs all 750 endpoints and exposes source-only QoS state, shared route history, unbounded watch retention and listening-dominated energy. Frozen outcomes are unchanged.
