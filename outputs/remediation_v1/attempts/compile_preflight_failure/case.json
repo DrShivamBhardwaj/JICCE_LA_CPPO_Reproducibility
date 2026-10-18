@@ -1,0 +1,34 @@
+{
+  "block": 0,
+  "checkpoint": 41001,
+  "onset": 10,
+  "rx_probability": 0.9,
+  "radio": 0,
+  "seed": 95001,
+  "permutation": 0,
+  "physical_attacker": 0,
+  "attacker": 0,
+  "timing": 0,
+  "arm": "censored",
+  "mode": 0,
+  "proof": 0,
+  "positions": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      45.693483670046206,
+      14.355573567498508
+    ],
+    [
+      44.91429296979833,
+      -14.048684591124044
+    ],
+    [
+      90.0,
+      0.0
+    ]
+  ],
+  "case_id": "technical_0"
+}

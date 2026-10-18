@@ -6,7 +6,14 @@ R=Path(__file__).resolve().parents[2];D=Path(__file__).resolve().parent;OUT=R/'o
 
 def verify():
     p=json.loads((D/'protocol.json').read_text())
-    for name,sha in p['source_sha256'].items():
+    expected=dict(p['source_sha256'])
+    amendments=D/'amendments.json'
+    if amendments.exists():
+        for amendment in json.loads(amendments.read_text()):
+            for name,change in amendment['files'].items():
+                if expected[name]!=change['before']:raise ValueError('Amendment chain mismatch: '+name)
+                expected[name]=change['after']
+    for name,sha in expected.items():
         if hashlib.sha256((R/name).read_bytes()).hexdigest()!=sha:raise ValueError('Frozen source changed: '+name)
     if len(p['cases'])!=p['expected_runs'] or len({c['case_id'] for c in p['cases']})!=p['expected_runs']:raise ValueError('case coverage')
     return p

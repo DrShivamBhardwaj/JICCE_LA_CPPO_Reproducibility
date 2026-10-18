@@ -299,9 +299,13 @@
     "size": 3157,
     "sha256": "e02019acca8446206ee9f079947f51db0b886b92ea4e0ca968bb365fc807ef31"
   },
+  "experiments/remediation_v1/amendments.json": {
+    "size": 1539,
+    "sha256": "fcdfbf78d75fd3c24f79c0cbddcc3a460c163d47125c681ca1b8dcc3128e2549"
+  },
   "experiments/remediation_v1/analyze.py": {
-    "size": 3293,
-    "sha256": "2dd6d9ae35216baa87ba4ea00f445099ed7767a1a99bca0967c5a3ffec215b5f"
+    "size": 3441,
+    "sha256": "b011e9b68e7406be5ad77315aad392a4109a40bb02d746047b6e659961550d27"
   },
   "experiments/remediation_v1/audit.py": {
     "size": 1772,
@@ -320,20 +324,20 @@
     "sha256": "6358d9d0512a0917ca13b5ea613c4edb27bf6d0c231ea4907041e4daee8fb127"
   },
   "experiments/remediation_v1/prepare.py": {
-    "size": 4382,
-    "sha256": "9f9a75749ca82a147caa62a7262b71c3e6745b03c008108124f00381751737aa"
+    "size": 5459,
+    "sha256": "fc27a74fe724ae78952df4a1433005d17c5ebbe963986c1f9b303bc401d1ed2b"
   },
   "experiments/remediation_v1/protocol.json": {
     "size": 932660,
     "sha256": "024e2141799c71891a00ed61b2f6247493e4e8846cc4b6764f751b46549a1000"
   },
   "experiments/remediation_v1/run.py": {
-    "size": 5246,
-    "sha256": "35c0a792a79d8b3669a4716162aa0ab02f2613669af4e2cb87cd00ccfaf10b54"
+    "size": 5608,
+    "sha256": "96f59b1265e8b930a9ef8d7559fb58f60cf5673305dd769d33c265da5a09953c"
   },
   "experiments/remediation_v1/trace_tools.py": {
-    "size": 5787,
-    "sha256": "98f5c3e812af4cdd7a181aec98d4e5274ffde0fe2837d303ebac3dbf0c8841c1"
+    "size": 6931,
+    "sha256": "8d5d23002bff869b2f8728dacc247ec6d564830a0b8d9c1c1d4ba5ee4d562e70"
   },
   "hardware/BOARD_AND_ANDROID_GUIDE.md": {
     "size": 3418,
@@ -15398,6 +15402,26 @@
   "outputs/powered_feedback/60s_87001_duty1.0/trace_87003.jsonl.gz": {
     "size": 7883,
     "sha256": "e067f70cecf47967da4a9b42480b96ae3d78f67211ec507a599a2587824487ad"
+  },
+  "outputs/remediation_v1/attempts/compile_preflight_failure/FAILURE.json": {
+    "size": 78,
+    "sha256": "8a10477089a37c0afafa3a0faf7c2a94247ceba5d979d7df784fcf654f998532"
+  },
+  "outputs/remediation_v1/attempts/compile_preflight_failure/PROVENANCE.json": {
+    "size": 441,
+    "sha256": "5d62ed610553147fcbb694bb576b6b06c9aa8e0cd6c6e7e71d55536ac9a2a04b"
+  },
+  "outputs/remediation_v1/attempts/compile_preflight_failure/case.json": {
+    "size": 483,
+    "sha256": "74e73947e61445ab8c9699cb8f4d8ff5b07d6d00a516bf7b42c9743c30de0eb7"
+  },
+  "outputs/remediation_v1/attempts/compile_preflight_failure/console.log": {
+    "size": 7328,
+    "sha256": "93d41fad2815a567534e92e09bf761eb7799b7b4d02ca5f4f9c407a2afd67039"
+  },
+  "outputs/remediation_v1/attempts/compile_preflight_failure/simulation.csc": {
+    "size": 4169,
+    "sha256": "311ac49571afd1664e46df2c7758a337faf14194375ac087f1f32f9a5ae1d9b8"
   },
   "outputs/renode_boards/attention_20261016/build.log": {
     "size": 0,

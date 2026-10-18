@@ -81,5 +81,20 @@ def run_metrics(events,onset=20,attacker=1):
     critical=[p for p in offered if p%3==0];missing=sum(p not in sink for p in critical);late=sum(p in sink and sink[p]-offered[p]>90 for p in critical)
     post=[p for p in offered if p>=onset];postchoices=[v for v in choices if v['pid']>=onset]
     safe=next((v['pid']-onset for v in postchoices if v['peer']!=attacker),None)
+    bypid={v['pid']:v for v in choices};sustained=None;confirmed_ms=None
+    for pid in range(onset,58):
+        if all(j in bypid and bypid[j]['peer']!=attacker for j in [pid,pid+1,pid+2]):
+            sustained=pid-onset;confirmed_ms=bypid[pid+2]['now_ms']-offered[onset];break
+    first_rx={};sink_rx={}
+    for event in events:
+        if event['event']!='cooja_rx':continue
+        kind,identity=packet_identity(event['wire'])
+        if kind!=2:continue
+        pid=identity[2]
+        if event['_node']==3:sink_rx.setdefault(pid,event['now_ms'])
+        elif event['peer']==0:first_rx.setdefault(pid,event['now_ms'])
+    processing=[sink[pid]-sink_rx[pid] for pid in sink if pid in sink_rx]
+    firsthop=[first_rx[pid]-offered[pid] for pid in sink if pid in first_rx]
+    secondhop=[sink_rx[pid]-first_rx[pid] for pid in sink if pid in first_rx and pid in sink_rx]
     delivery_delays=[sink[p]-offered[p] for p in sorted(sink)];receipt_delays=[receipt[p]-offered[p] for p in sorted(receipt)]
-    return dict(offered=len(offered),delivered=len(sink),critical_offered=len(critical),critical_undelivered=missing,critical_delivered_late=late,critical_failure=(missing+late)/len(critical),sink_delay_ms=delivery_delays,source_signed_receipt_delay_ms=receipt_delays,post_attack_offered=len(post),post_attack_delivered=sum(p in sink for p in post),post_attack_losses=sum(p not in sink for p in post),first_safe_choice_packet_offset=safe,first_safe_choice_observed=safe is not None,source_relay_switches=sum(x['peer']!=y['peer'] for x,y in zip(choices,choices[1:])),source_attacker_choices_post=sum(v['peer']==attacker for v in postchoices),adaptation_scope='First safe selection after onset, not sustained recovery; null means right-censored within the offered-packet window')
+    return dict(offered=len(offered),delivered=len(sink),critical_offered=len(critical),critical_undelivered=missing,critical_delivered_late=late,critical_failure=(missing+late)/len(critical),sink_delay_ms=delivery_delays,source_signed_receipt_delay_ms=receipt_delays,post_attack_offered=len(post),post_attack_delivered=sum(p in sink for p in post),post_attack_losses=sum(p not in sink for p in post),first_safe_choice_packet_offset=safe,first_safe_choice_observed=safe is not None,source_relay_switches=sum(x['peer']!=y['peer'] for x,y in zip(choices,choices[1:])),source_attacker_choices_post=sum(v['peer']==attacker for v in postchoices),sustained_safe_choice_start_offset=sustained,sustained_safe_choice_confirmation_ms=confirmed_ms,recovered_within_20_opportunities=sustained is not None and sustained+2<20,sink_processing_wait_ms=processing,offer_to_firsthop_rx_ms=firsthop,firsthop_to_sink_rx_ms=secondhop,adaptation_scope='First safe selection after onset, not sustained recovery; null means right-censored within the offered-packet window')

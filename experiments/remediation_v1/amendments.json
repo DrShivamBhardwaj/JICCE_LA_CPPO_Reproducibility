@@ -1,0 +1,27 @@
+[
+  {
+    "classification": "Pre-primary-outcome technical amendment",
+    "prior_freeze_commit": "b24418008b318aa4a082e0a666c4a2196b5c994c",
+    "prior_run_id": 39148260726,
+    "reason": "Excluded technical preflight failed C compilation under GCC -Werror misleading indentation; no new radio outcomes acquired. Add braces preserving scope. Complete implementation of already-prespecified three-consecutive-safe-choice metric and descriptive latency decomposition. Treatment design, seeds, sample size, primary endpoint and statistical families unchanged.",
+    "scientific_design_unchanged": true,
+    "files": {
+      "experiments/remediation_v1/prepare.py": {
+        "before": "9f9a75749ca82a147caa62a7262b71c3e6745b03c008108124f00381751737aa",
+        "after": "fc27a74fe724ae78952df4a1433005d17c5ebbe963986c1f9b303bc401d1ed2b"
+      },
+      "experiments/remediation_v1/trace_tools.py": {
+        "before": "98f5c3e812af4cdd7a181aec98d4e5274ffde0fe2837d303ebac3dbf0c8841c1",
+        "after": "8d5d23002bff869b2f8728dacc247ec6d564830a0b8d9c1c1d4ba5ee4d562e70"
+      },
+      "experiments/remediation_v1/run.py": {
+        "before": "35c0a792a79d8b3669a4716162aa0ab02f2613669af4e2cb87cd00ccfaf10b54",
+        "after": "96f59b1265e8b930a9ef8d7559fb58f60cf5673305dd769d33c265da5a09953c"
+      },
+      "experiments/remediation_v1/analyze.py": {
+        "before": "2dd6d9ae35216baa87ba4ea00f445099ed7767a1a99bca0967c5a3ffec215b5f",
+        "after": "b011e9b68e7406be5ad77315aad392a4109a40bb02d746047b6e659961550d27"
+      }
+    }
+  }
+]

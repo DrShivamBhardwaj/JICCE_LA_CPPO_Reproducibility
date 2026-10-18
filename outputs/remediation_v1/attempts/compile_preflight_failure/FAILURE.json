@@ -1,0 +1,4 @@
+{
+  "status": "failed_retained",
+  "reason": "RuntimeError('Cooja exit 1')"
+}

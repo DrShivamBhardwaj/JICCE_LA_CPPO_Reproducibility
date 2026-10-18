@@ -1,0 +1,10 @@
+{
+  "workflow_run": 39148260726,
+  "job": 117736456038,
+  "artifact": 12144237119,
+  "artifact_sha256": "b480bea52768e0f2ab03a80d5790904f30a8f720faee2b186dff2d4d81d0fee0",
+  "source_commit": "b24418008b318aa4a082e0a666c4a2196b5c994c",
+  "status": "excluded_technical_compile_failure",
+  "new_radio_cases_executed": 0,
+  "reason": "GCC -Werror misleading indentation; statements are reformatted in a recorded pre-primary-outcome amendment"
+}

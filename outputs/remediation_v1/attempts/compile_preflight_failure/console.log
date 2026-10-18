@@ -1,0 +1,55 @@
+INFO  [main] [Cooja.java:1147] - Loading /home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/outputs/remediation_v1/preflight/technical_0/simulation.csc random seed: null
+> make feedback.cooja TARGET=cooja CONTIKI=/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki
+mkdir -p build/cooja/obj/.deps
+gcc -DCONTIKI=1 -DCONTIKI_TARGET_COOJA=1 -DCONTIKI_TARGET_STRING=\"cooja\" -DPROJECT_CONF_PATH=\"project-conf.h\" -pthread -fPIC -include /home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/hardware/cooja_receipt_transport/native-compat.h -Wall -Werror -DMAC_CONF_WITH_CSMA=1 -DNETSTACK_CONF_WITH_NULLNET=1 -DROUTING_CONF_NULLROUTING=1  -I. -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/hardware/cortex_m3_validation/vendor -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/hardware/cortex_m3_validation/include -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/arch/platform/cooja/. -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/arch/platform/cooja/dev -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/arch/platform/cooja/sys -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/arch/platform/cooja/cfs -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/arch -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/sys -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/lib -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/dev -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/net -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/net/routing -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/net/mac -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/net/mac/framer -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/storage -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/services -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/net/mac/csma -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/net/nullnet -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/os/net/routing/nullrouting  -I/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki -MT build/cooja/obj/feedback.o -MMD -MP -MF build/cooja/obj/.deps/feedback.c.d -c feedback.c -o build/cooja/obj/feedback.o
+In file included from feedback.c:13:
+actor.h: In function 'qtanh':
+actor.h:7:2: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+    7 |  if(x<=-8*QONE)return -QONE;if(x>=8*QONE)return QONE;
+      |  ^~
+actor.h:7:29: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    7 |  if(x<=-8*QONE)return -QONE;if(x>=8*QONE)return QONE;
+      |                             ^~
+In file included from feedback.c:30:
+local_feedback.h: In function 'feedback_ack':
+local_feedback.h:50:2: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   50 |  if(!watches[i].used)return;watches[i].acked=ok!=0;
+      |  ^~
+local_feedback.h:50:29: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   50 |  if(!watches[i].used)return;watches[i].acked=ok!=0;
+      |                             ^~~~~~~
+local_feedback.h: In function 'feedback_evidence':
+local_feedback.h:58:3: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   58 |   if(strength>watches[i].seen)watches[i].seen=strength;feedback_credit(i);feedback_log("evidence",i,kind,1);return;
+      |   ^~
+local_feedback.h:58:56: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   58 |   if(strength>watches[i].seen)watches[i].seen=strength;feedback_credit(i);feedback_log("evidence",i,kind,1);return;
+      |                                                        ^~~~~~~~~~~~~~~
+local_feedback.h: In function 'settle_live':
+local_feedback.h:90:2: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   90 |  if(pending_live[i].settled)return;unsigned c=pending_live[i].traffic;float elapsed=(milliseconds-pending_live[i].created)*.001f;
+      |  ^~
+local_feedback.h:90:36: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   90 |  if(pending_live[i].settled)return;unsigned c=pending_live[i].traffic;float elapsed=(milliseconds-pending_live[i].created)*.001f;
+      |                                    ^~~~~~~~
+feedback.c: In function 'app_observe_raw':
+feedback.c:56:2: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   56 |  if(!configured||!local_enabled)return;frame802154_t f;
+      |  ^~
+feedback.c:56:40: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   56 |  if(!configured||!local_enabled)return;frame802154_t f;
+      |                                        ^~~~~~~~~~~~~
+feedback.c:66:2: error: this 'for' clause does not guard... [-Werror=misleading-indentation]
+   66 |  for(unsigned k=0;k<64;k++)block[k]^=0x36^0x5c;sha256_init(&c);sha256_update(&c,block,64);sha256_update(&c,inner,32);sha256_final(&c,tag);
+      |  ^~~
+feedback.c:66:48: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   66 |  for(unsigned k=0;k<64;k++)block[k]^=0x36^0x5c;sha256_init(&c);sha256_update(&c,block,64);sha256_update(&c,inner,32);sha256_final(&c,tag);
+      |                                                ^~~~~~~~~~~
+cc1: all warnings being treated as errors
+make: *** [/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/remediation_v1/contiki/Makefile.include:565: build/cooja/obj/feedback.o] Error 1
+Compilation process returned error code 2
+ERROR [main] [Cooja.java:1154] - Failed to load simulation: Compilation failed
+ERROR [main] [Cooja.java:1160] - TEST /home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/outputs/remediation_v1/preflight/technical_0/simulation.csc FAILED
+
+ERROR [main] [Cooja.java:1183] - Failed tests:
+/home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/outputs/remediation_v1/preflight/technical_0/simulation.csc seed: null

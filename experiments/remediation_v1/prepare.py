@@ -42,3 +42,17 @@ def project(folder,case,weights):
     (folder/'feedback_ledger.h').write_text(ledger)
     make=(base/'Makefile').read_text().replace('$(CURDIR)/../cooja_receipt_transport/native-compat.h',str(R/'hardware/cooja_receipt_transport/native-compat.h')).replace('PROJECTDIRS += ../cortex_m3_validation/vendor ../cortex_m3_validation/include ../cc2538_q22','PROJECTDIRS += '+str(R/'hardware/cortex_m3_validation/vendor')+' '+str(R/'hardware/cortex_m3_validation/include'))
     (folder/'Makefile').write_text(make)
+
+    # Braces preserve statement scope while satisfying GCC -Wmisleading-indentation.
+    formatting = {
+        'if(x<=-8*QONE)return -QONE;if(x>=8*QONE)return QONE;': 'if(x<=-8*QONE){return -QONE;}if(x>=8*QONE){return QONE;}',
+        'if(!watches[i].used)return;watches[i].acked=ok!=0;': 'if(!watches[i].used){return;}watches[i].acked=ok!=0;',
+        'if(strength>watches[i].seen)watches[i].seen=strength;feedback_credit(i);': 'if(strength>watches[i].seen){watches[i].seen=strength;}feedback_credit(i);',
+        'if(pending_live[i].settled)return;unsigned c=': 'if(pending_live[i].settled){return;}unsigned c=',
+        'if(!configured||!local_enabled)return;frame802154_t f;': 'if(!configured||!local_enabled){return;}frame802154_t f;',
+        'for(unsigned k=0;k<64;k++)block[k]^=0x36^0x5c;sha256_init': 'for(unsigned k=0;k<64;k++){block[k]^=0x36^0x5c;}sha256_init',
+    }
+    for file in list(folder.glob('*.c'))+list(folder.glob('*.h')):
+        text=file.read_text()
+        for old,new in formatting.items():text=text.replace(old,new)
+        file.write_text(text)

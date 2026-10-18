@@ -16,7 +16,7 @@ def main():
         folder=O/'runs'/c['case_id'];a=json.loads((folder/'audit.json').read_text())
         if a['status']!='independent_audit_passed' or a['antecedent_provenance']['status']!='passed_antecedent_event_checks':raise ValueError('audit acceptance')
         reports[c['case_id']]=a
-        m=a['metrics'];groups.append(c|dict(delivery=a['delivery'],post_delivery=m['post_attack_delivered']/m['post_attack_offered'],critical_failure=m['critical_failure'],tx_seconds=a['total_tx_state_s'],critical_undelivered=m['critical_undelivered'],critical_delivered_late=m['critical_delivered_late'],post_losses=m['post_attack_losses'],source_switches=m['source_relay_switches'],first_safe_choice_packet_offset=m['first_safe_choice_packet_offset']))
+        m=a['metrics'];groups.append(c|dict(delivery=a['delivery'],post_delivery=m['post_attack_delivered']/m['post_attack_offered'],critical_failure=m['critical_failure'],tx_seconds=a['total_tx_state_s'],critical_undelivered=m['critical_undelivered'],critical_delivered_late=m['critical_delivered_late'],post_losses=m['post_attack_losses'],source_switches=m['source_relay_switches'],first_safe_choice_packet_offset=m['first_safe_choice_packet_offset'],sustained_safe_choice_start_offset=m['sustained_safe_choice_start_offset'],recovered_within_20_opportunities=m['recovered_within_20_opportunities']))
     rows=[];rng=np.random.default_rng(951019);signs=np.array(list(itertools.product([-1,1],repeat=12)),dtype=np.int8)
     for endpoint in ['post_delivery','critical_failure','tx_seconds']:
         family=[]
