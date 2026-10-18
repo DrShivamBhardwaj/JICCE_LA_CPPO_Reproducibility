@@ -27,6 +27,6 @@ Frozen authenticated-transfer source: 5f06b9213e73206aad11ec8f3a96079a17011a20
 
 Exclusivity and related work: Confirm that this manuscript is not under consideration elsewhere. Identify overlapping publications, submissions or preprints. Prior JICCE manuscript JICCE-26-0057 was rejected with resubmission encouraged; no acceptance or transfer is implied.
 
-Ethics: This study reports simulation and firmware emulation. No human or animal experiment is reported. Physical radio/current measurements and embedded inference/crypto execution have not been performed.
+Ethics: This study reports simulation and firmware emulation. No human or animal experiment is reported. Physical radio/current measurements and integrated CC2538 inference/crypto execution have not been performed. A separate isolated Cortex-M3 instruction harness now executes the actor and cryptographic algorithms; it is not a physical-board or integrated radio validation.
 
 Approval status: The corresponding author confirmed the metadata/declarations listed above. Final coauthor approval, contribution roles, exclusivity and portal declarations remain unconfirmed. No signatures or coauthor consent are fabricated.

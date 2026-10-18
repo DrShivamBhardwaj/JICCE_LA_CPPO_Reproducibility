@@ -6,6 +6,8 @@ Please consider “A Reproducible Benchmark of Receipt Assisted Passive Feedback
 
 The prespecified 750-run study uses 30 new fixtures and matched feedback controls. Under blackholes, delivery improves by 4.67 percentage points relative to active proofs (paired 95% interval 2.36–6.97; Holm-adjusted p=0.0161). The controls do not establish a unique censoring or attention advantage. A separate 180-run authenticated transfer study likewise finds no established attention superiority. Compiled radio-interface firmware also runs on four emulated Cortex-M3 boards; routing inference and cryptography remain on the host. We make no physical hardware, measured battery-energy or absolute deadline-compliance claim.
 
+A separately frozen 240-run factorial extension holds the evidence rule fixed while toggling proof generation. In the always-on censored control, proof traffic reduces delivery by 6.11 percentage points (Holm-adjusted p=0.00349). A separate Cortex-M3 instruction harness verifies actor decisions, HMAC-SHA256 and Ed25519; it does not integrate these functions with the CC2538 radio bridge. Low-duty and energy-depletion results remain explicit limitations.
+
 Code, frozen checkpoints, protocols, raw traces, earlier negative results, firmware and audit scripts are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility.
 
 The work was substantially redesigned following rejection of JICCE-26-0057, “Energy-Efficient and Secure Routing for IoT-Based WSNs Using Remora Optimization and Deep Intrusion Detection.” The present manuscript replaces the earlier framing with a controlled feedback study and authenticated implementation evidence; it does not retain an unsupported live intrusion-detection claim.

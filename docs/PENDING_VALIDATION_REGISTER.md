@@ -40,3 +40,9 @@ The Mac was subsequently reconnected. See POSTFREEZE_VALIDATION_20261018.md and 
 ## Superseding execution record
 
 The latest state is docs/COMPLETION_MATRIX_20261018.md and publication/array/Postfreeze_Validation_Addendum.md. New executed evidence includes optional clock-envelope handling, native battery gating and sleep/wake tests, 27 routing diagnostics, a separately frozen 240-run factorial experiment and isolated Cortex-M3 actor/crypto execution. These close specific virtual checks, not integrated CC2538 firmware, physical measurements, author approvals or portal submission. Earlier rows describe requirements and must be read with this completion matrix.
+
+Final manuscript integration is complete: 24 rendered and visually checked pages, 232-word abstract, 11 figures, nine tables, 24 references and ten preserved native equations. The latest completion matrix supersedes earlier pending manuscript-integration wording.
+
+## Superseding execution record
+
+The latest state is docs/COMPLETION_MATRIX_20261018.md and publication/array/Postfreeze_Validation_Addendum.md. New executed evidence includes optional clock-envelope handling, native battery gating and sleep/wake tests, 27 routing diagnostics, a separately frozen 240-run factorial experiment and isolated Cortex-M3 actor/crypto execution. These close specific virtual checks, not integrated CC2538 firmware, physical measurements, author approvals or portal submission. Earlier rows describe requirements and must be read with this completion matrix.

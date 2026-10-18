@@ -1,6 +1,6 @@
 # Post-freeze validation addendum
 
-This addendum reports new implementation and experimental evidence. It accompanies, and does not silently replace, the 22-page manuscript at commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288. Its results are separate from the original 750-run test family and 180-run authenticated transfer study.
+This addendum reports new implementation and experimental evidence. Its evidence is integrated into Sections 5.6–5.7 of the active 24-page manuscript; the original 22-page manuscript is preserved at commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288. Its results are separate from the original 750-run test family and 180-run authenticated transfer study.
 
 ## Clock handling
 

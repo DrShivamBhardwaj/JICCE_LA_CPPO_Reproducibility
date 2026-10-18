@@ -17,7 +17,7 @@ Updated 18 October 2026. Original manuscript evidence and the extension are sepa
 | Target numerical comparison | 16 decisions and 128 logits checked against frozen PyTorch actor | Eight retained observations plus eight permutation controls; limited input coverage |
 | Target memory observation | Linker budgets and observed 3,080-byte stack watermark recorded | No full protocol buffers/RTOS; not worst-case stack proof |
 | Data, logs, source and figures | Retained with hashes and reproducible scripts | New addendum accompanies the original manuscript |
-| Original Word/PDF integration of this extension | Not performed in this execution pass | Use Postfreeze_Validation_Addendum.md for the new results; do not mistake old Word/PDF for the extended paper |
+| Word/PDF integration of this extension | Complete: Sections 5.6–5.7, Figure 11 and Tables 8–9 added; all 24 pages visually verified | Original statistical families preserved; see document_checks.json for delivery QA |
 | Integrated on-MCU authenticated radio routing | Still open | Isolated actor/crypto and CC2538 bridge must be integrated and jointly tested |
 | Physical boards, RF, current and timing | Still open | Requires real apparatus and measurements |
 | Coauthor approvals/contributions/exclusivity | Still open | Requires actual author statements |

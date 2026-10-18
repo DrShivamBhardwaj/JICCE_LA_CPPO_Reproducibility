@@ -1,3 +1,7 @@
+# Current extension status on 18 October 2026
+
+The active extended manuscript contains a 232-word abstract, 11 figures, nine tables and 24 references. Sections 5.6–5.7 add the separately audited 240-run factorial study, power/sleep diagnostics and isolated Cortex-M3 actor/crypto execution. See docs/COMPLETION_MATRIX_20261018.md and publication/array/document_checks.json for current status. Physical measurements, integrated CC2538 firmware and author/portal approvals remain open. The earlier dated status below describes the earlier package.
+
 # Array target and virtual validation
 
 ## Journal assessment

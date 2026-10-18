@@ -4,8 +4,9 @@
   "commit_hashes_and_fixture_ids_preserved": true,
   "native_equations_byte_identical": 10,
   "tables_byte_identical": 7,
-  "figure_images_byte_identical": 9,
-  "figure_images_revised": 1,
+  "figure_images_byte_identical": 10,
+  "figure_images_added": 1,
+  "figure_images_revised": 0,
   "algorithm_numbered_lines": 17,
   "algorithm_indent_levels": 3,
   "editorial_paragraphs": 36

@@ -6,7 +6,7 @@ Status: technical package prepared; author confirmations and authenticated porta
 
 | Requirement | Source and access | Package check |
 |---|---|---|
-| Abstract no more than 250 words | Array Guide for Authors, current publisher-indexed text | 198 words in committed manuscript |
+| Abstract no more than 250 words | Array Guide for Authors, current publisher-indexed text | 232 words in the extended manuscript |
 | Highlights: 3–5 items; up to 85 characters each | Array indexed guide plus Elsevier author support | Four separate editable highlights, maximum 75 characters |
 | Single anonymized review | Array current publisher-indexed guide | Author-bearing manuscript provided |
 | Disclose generative AI use | Array current publisher-indexed guide | Separate disclosure immediately before references; assistance with code/plots is disclosed |
@@ -52,4 +52,8 @@ Funding statement: publication/array/Funding_statement.txt. Author metadata: pub
 
 ## Recheck on 18 October 2026
 
-The main draft contains 22 pages, ten equations, ten figures, seven tables and 22 references. The 198-word abstract supersedes the earlier 215-word checklist entry. Artwork locations were reconciled against the repository tree. Direct access to the publisher guide again returned HTTP 403; current full requirements and authenticated file-role mappings remain unverified. No submission has been made. The manuscript source for this check is commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288.
+The main draft contains the original 22 pages, ten equations, ten figures, seven tables and 22 references. The 198-word abstract supersedes the earlier 215-word checklist entry. Artwork locations were reconciled against the repository tree. Direct access to the publisher guide again returned HTTP 403; current full requirements and authenticated file-role mappings remain unverified. No submission has been made. The manuscript source for this check is commit 6442d2f9caa0ac9ddf1978c3f8ed3b34fdb9b288.
+
+## Extended manuscript update
+
+Sections 5.6–5.7 integrate the separately audited extension. The current abstract has 232 words, with 11 figures, nine tables and 24 references. Figures 1–8 remain in publication/array/figures/, Figures 9–10 in publication/array/review_figures/, and Figure 11 in publication/array/postfreeze_figures/. The regenerated figure archive contains all eleven. Page count and final visual-QA status are recorded in publication/array/document_checks.json. These updates do not certify live portal requirements.
