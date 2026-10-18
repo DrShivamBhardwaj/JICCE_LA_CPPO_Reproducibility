@@ -8,3 +8,8 @@ validation_execution.log
 hardware/private_keys/
 *.private.json
 *.used
+
+# Complete raw Cooja captures/images are distributed in the run-tagged release.
+/outputs/remediation_v1/runs/
+/outputs/remediation_v1/preflight/
+/outputs/remediation_v1/archive_diagnostics/native/

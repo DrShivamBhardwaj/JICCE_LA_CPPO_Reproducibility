@@ -1,6 +1,6 @@
 """Check new exhibits against completed data and preserve the retained manuscript."""
 from pathlib import Path
-import argparse,json,hashlib,zipfile
+import argparse,json,hashlib,zipfile,re
 from lxml import etree
 from docx import Document
 from array_remediation_integration import primary_rows,TITLE
@@ -21,11 +21,19 @@ def main():
     edits=json.loads((P/'remediation_edits.json').read_text());mapping={e['before']:e['after'] for e in edits['replacements']};texts=[p.text for p in new.paragraphs]
     for p in old.paragraphs:
         if p.text:assert mapping.get(p.text,p.text) in texts,'Unmapped change: '+p.text[:120]
+    indentation=0
+    for p in old.paragraphs:
+        if re.match(r'^\d{2}\.',p.text):
+            matching=next(q for q in new.paragraphs if q.text==p.text)
+            old_pr=etree.tostring(p._p.pPr) if p._p.pPr is not None else None
+            new_pr=etree.tostring(matching._p.pPr) if matching._p.pPr is not None else None
+            assert old_pr==new_pr,'Algorithm indentation changed'
+            indentation+=1
     for t in edits['added_paragraphs']:
         if t:assert t in texts
     analysis=json.loads((R/'outputs/remediation_v1/analysis.json').read_text())
     assert table(new.tables[-1])[1:]==primary_rows(analysis)
     assert TITLE in texts and len(new.inline_shapes)==14
-    result={'status':'passed','original_tables_preserved':11,'native_equations_preserved':10,'original_images_preserved':12,'new_images_verified':2,'primary_contrasts_reconciled':6,'baseline_sha256':sha(args.baseline.read_bytes()),'final_docx_sha256':sha((P/'Array_Manuscript.docx').read_bytes()),'physical_validation':False,'original_signed_deadline_complete':False}
+    result={'status':'passed','algorithm_steps_with_preserved_indentation':indentation,'original_tables_preserved':11,'native_equations_preserved':10,'original_images_preserved':12,'new_images_verified':2,'primary_contrasts_reconciled':6,'baseline_sha256':sha(args.baseline.read_bytes()),'final_docx_sha256':sha((P/'Array_Manuscript.docx').read_bytes()),'physical_validation':False,'original_signed_deadline_complete':False}
     (P/'remediation_manuscript_audit.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 if __name__=='__main__':main()

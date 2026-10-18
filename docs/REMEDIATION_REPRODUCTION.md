@@ -35,7 +35,7 @@ python scripts/profile_mcu_remediation.py
 python scripts/plot_remediation_evidence.py
 ```
 
-The final three reporting commands require their corresponding completed captures. No command should label partial execution as the completed factorial. Capture/image hashes bind the output to the case list; they are not physical provenance or protection against coordinated archive replacement.
+The final three reporting commands require their corresponding completed captures. No command should label partial execution as the completed factorial. Per-case audit acceptance checks completeness and reconstruction, not perfect packet delivery: attack-induced losses and late deliveries remain outcomes, and do not satisfy the separate original deadline gate. Capture/image hashes bind the output to the case list; they are not physical provenance or protection against coordinated archive replacement.
 
 ## Document reproduction
 

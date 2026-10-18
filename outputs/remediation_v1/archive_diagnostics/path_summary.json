@@ -3,6 +3,9 @@
   "feedback_rows": 143928,
   "matched_decisions": 11927,
   "logits_differ": 7023,
+  "multichoice_decisions": 7107,
+  "frozen_exact_top_ties": 120,
+  "censored_exact_top_ties": 120,
   "max_valid_logit_difference": 0.15596652030944824,
   "risk_columns": "Implemented heuristic with .75 scaling and 1.645 multiplier; not calibrated uncertainty",
   "physical_validation": false

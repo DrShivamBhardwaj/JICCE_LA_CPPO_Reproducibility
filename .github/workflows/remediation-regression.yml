@@ -3,7 +3,11 @@ on:
   push:
     paths:
       - '.github/workflows/remediation-regression.yml'
-      - 'tests/test_remediation_endpoints.py'
+      - 'tests/**'
+      - 'src/**'
+      - 'scripts/audit_remaining_validation.py'
+      - 'scripts/verify_remediation_archive.py'
+      - 'experiments/remediation_v1/**'
   workflow_dispatch:
 permissions:
   contents: read

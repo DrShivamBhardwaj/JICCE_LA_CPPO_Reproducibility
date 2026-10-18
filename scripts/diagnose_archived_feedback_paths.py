@@ -17,12 +17,13 @@ def main():
     result=[]
     for (seed,attack,timing,arm),a in paired.items():
         if arm!='censored':continue
-        b=paired[(seed,attack,timing,'frozen')];changed=0;maximum=0.;margins=[]
+        b=paired[(seed,attack,timing,'frozen')];changed=0;maximum=0.;margins=[];multi=0;frozen_ties=0;censored_ties=0
         for key in a.keys()&b.keys():
             x,y=a[key],b[key];assert x['ids']==y['ids'];n=len(x['ids']);lx=np.array(struct.unpack('!8f',bytes.fromhex(x['logits_hex'])))[:n];ly=np.array(struct.unpack('!8f',bytes.fromhex(y['logits_hex'])))[:n];delta=float(np.max(abs(lx-ly)));changed+=delta>0;maximum=max(maximum,delta)
-            if n>1:margins.append(float(np.sort(lx)[-1]-np.sort(lx)[-2]))
-        result.append(dict(seed=seed,attack=attack,timing=timing,matched=len(a.keys()&b.keys()),logits_differ=changed,max_valid_logit_difference=maximum,minimum_observed_multichoice_margin=min(margins) if margins else None))
+            if n>1:
+                margin=float(np.sort(lx)[-1]-np.sort(lx)[-2]);margins.append(margin);multi+=1;frozen_ties+=np.sort(ly)[-1]==np.sort(ly)[-2];censored_ties+=margin==0
+        result.append(dict(seed=seed,attack=attack,timing=timing,matched=len(a.keys()&b.keys()),logits_differ=changed,multichoice_decisions=multi,frozen_exact_top_ties=int(frozen_ties),censored_exact_top_ties=int(censored_ties),max_valid_logit_difference=maximum,minimum_observed_multichoice_margin=min(margins) if margins else None))
     (out/'effective_count_trajectories.csv.gz').write_bytes(gzip.compress(stream.getvalue().encode(),mtime=0));(out/'natural_logit_pairs.json').write_text(json.dumps(result,indent=2)+'\n')
-    summary={'classification':'Exploratory paired recorded-logit analysis; no intervention or new radio run','feedback_rows':count,'matched_decisions':sum(x['matched'] for x in result),'logits_differ':sum(x['logits_differ'] for x in result),'max_valid_logit_difference':max(x['max_valid_logit_difference'] for x in result),'risk_columns':'Implemented heuristic with .75 scaling and 1.645 multiplier; not calibrated uncertainty','physical_validation':False}
+    summary={'classification':'Exploratory paired recorded-logit analysis; no intervention or new radio run','feedback_rows':count,'matched_decisions':sum(x['matched'] for x in result),'logits_differ':sum(x['logits_differ'] for x in result),'multichoice_decisions':sum(x['multichoice_decisions'] for x in result),'frozen_exact_top_ties':sum(x['frozen_exact_top_ties'] for x in result),'censored_exact_top_ties':sum(x['censored_exact_top_ties'] for x in result),'max_valid_logit_difference':max(x['max_valid_logit_difference'] for x in result),'risk_columns':'Implemented heuristic with .75 scaling and 1.645 multiplier; not calibrated uncertainty','physical_validation':False}
     (out/'path_summary.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()

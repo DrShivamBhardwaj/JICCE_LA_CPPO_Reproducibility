@@ -1,0 +1,122 @@
+{
+  "classification": "Deterministic pre-outcome geometry/code audit, not radio performance",
+  "source_progress_range_unclipped": [
+    1.105806811778737,
+    1.1449158680408715
+  ],
+  "all_source_progress_coordinates_clip_to_one": true,
+  "extra_positive_progress_relay_edge_possible": true,
+  "blocks": [
+    {
+      "block": 0,
+      "relay_to_relay_distance_m": 28.41494359820249,
+      "sink_distance_difference_m": 0.6496586718855255,
+      "unclipped_source_progress": [
+        1.142785968868279,
+        1.1256896880291862
+      ]
+    },
+    {
+      "block": 1,
+      "relay_to_relay_distance_m": 29.65312699471596,
+      "sink_distance_difference_m": 0.5255741304968709,
+      "unclipped_source_progress": [
+        1.1117917136818376,
+        1.1256226118528079
+      ]
+    },
+    {
+      "block": 2,
+      "relay_to_relay_distance_m": 29.37026185251627,
+      "sink_distance_difference_m": 0.5156515656919183,
+      "unclipped_source_progress": [
+        1.1254589815801095,
+        1.1118892035355854
+      ]
+    },
+    {
+      "block": 3,
+      "relay_to_relay_distance_m": 30.344536122610222,
+      "sink_distance_difference_m": 0.39347158155250384,
+      "unclipped_source_progress": [
+        1.112492318100876,
+        1.122846833404889
+      ]
+    },
+    {
+      "block": 4,
+      "relay_to_relay_distance_m": 30.779793502769817,
+      "sink_distance_difference_m": 0.31373703420627663,
+      "unclipped_source_progress": [
+        1.1120968962339746,
+        1.120353133976245
+      ]
+    },
+    {
+      "block": 5,
+      "relay_to_relay_distance_m": 31.283603022272754,
+      "sink_distance_difference_m": 1.1190219639955856,
+      "unclipped_source_progress": [
+        1.1352547581996735,
+        1.105806811778737
+      ]
+    },
+    {
+      "block": 6,
+      "relay_to_relay_distance_m": 30.186344462482133,
+      "sink_distance_difference_m": 1.4386322053224774,
+      "unclipped_source_progress": [
+        1.107057125795543,
+        1.1449158680408715
+      ]
+    },
+    {
+      "block": 7,
+      "relay_to_relay_distance_m": 28.989717231056,
+      "sink_distance_difference_m": 0.44574877311542593,
+      "unclipped_source_progress": [
+        1.1250311954640877,
+        1.1133009645926293
+      ]
+    },
+    {
+      "block": 8,
+      "relay_to_relay_distance_m": 31.58290195226245,
+      "sink_distance_difference_m": 0.9284244119198419,
+      "unclipped_source_progress": [
+        1.1348514219125085,
+        1.110419200546197
+      ]
+    },
+    {
+      "block": 9,
+      "relay_to_relay_distance_m": 28.560926267073032,
+      "sink_distance_difference_m": 0.702641098066735,
+      "unclipped_source_progress": [
+        1.1445490903101057,
+        1.1260585350978232
+      ]
+    },
+    {
+      "block": 10,
+      "relay_to_relay_distance_m": 28.209907691286165,
+      "sink_distance_difference_m": 0.6890987718213566,
+      "unclipped_source_progress": [
+        1.1400577740565625,
+        1.1219235958507374
+      ]
+    },
+    {
+      "block": 11,
+      "relay_to_relay_distance_m": 29.704497627574874,
+      "sink_distance_difference_m": 0.8697211693181544,
+      "unclipped_source_progress": [
+        1.1199402075959712,
+        1.1428276067885543
+      ]
+    }
+  ],
+  "normalization_m": 38,
+  "original_benchmark_normalization_m": 50,
+  "physical_validation": false
+}
