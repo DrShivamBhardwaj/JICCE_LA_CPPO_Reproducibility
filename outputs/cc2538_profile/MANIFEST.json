@@ -1,0 +1,52 @@
+[
+  {
+    "path": "outputs/cc2538_profile/build.json",
+    "size": 1744,
+    "sha256": "5a518868a269de3b7ab7e7e0dfe71abffd7be667070204d2edbd5e4d7d23e5e8"
+  },
+  {
+    "path": "outputs/cc2538_profile/chain_3/network.resc",
+    "size": 2892,
+    "sha256": "90014caca96c8b53b0d6ff8b58386ccd91c186491339665169f246d8f4512bd9"
+  },
+  {
+    "path": "outputs/cc2538_profile/chain_3/renode.log",
+    "size": 5448,
+    "sha256": "217f4b0e248a9c2e93a9c983a2379854d0a11a4014fa5020e2ee176176ce76a3"
+  },
+  {
+    "path": "outputs/cc2538_profile/chain_3/uart_0.jsonl",
+    "size": 9606,
+    "sha256": "5a942f1838407be7737fb07f27a54440ad3ec96cd78bd9efc1827b6b4669d981"
+  },
+  {
+    "path": "outputs/cc2538_profile/chain_3/uart_1.jsonl",
+    "size": 13617,
+    "sha256": "526fec5805195b6040c3b361f9df1b204b8dcc9eaddbfa4c3c9270b90df5abe0"
+  },
+  {
+    "path": "outputs/cc2538_profile/chain_3/uart_2.jsonl",
+    "size": 12554,
+    "sha256": "b3c0347ca89983ed69d4614e860616cefb961f4fda8c9bbf6252abca9a6752c6"
+  },
+  {
+    "path": "outputs/cc2538_profile/chain_3/uart_3.jsonl",
+    "size": 5126,
+    "sha256": "2bc89ec843467ca8a62ad3e12d2a441c9ec1fd87ea3eccd6da92dc2a7cea4045"
+  },
+  {
+    "path": "outputs/cc2538_profile/chain_3/verification.json",
+    "size": 2494,
+    "sha256": "f40394a902eeb53067eaf662a2787fa2d1f893be3c7b33dfb5fce240e45eaf2a"
+  },
+  {
+    "path": "outputs/cc2538_profile/firmware.c",
+    "size": 23211,
+    "sha256": "10afaa6a7e6def11dd409121d8cb7d917867111818a2d267f0c685c2dca5e411"
+  },
+  {
+    "path": "outputs/cc2538_profile/firmware.elf",
+    "size": 803768,
+    "sha256": "96b1bb522d1b92df22a25faa85be604806b7b188a79be97fdec00c901332e0a0"
+  }
+]

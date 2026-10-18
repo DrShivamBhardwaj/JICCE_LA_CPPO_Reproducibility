@@ -16,8 +16,8 @@
   },
   {
     "path": "outputs/cc2538_v2/build.json",
-    "size": 1722,
-    "sha256": "8e3f69166cfecaaddcc1a50419ee273c7ee02f04353867a74937d8b77e4edae9"
+    "size": 1734,
+    "sha256": "089f7503d46c9e176047920aa69fbc1e141733f8ca0a6a6565c5e6728b9aafc3"
   },
   {
     "path": "outputs/cc2538_v2/chain_10/network.resc",
@@ -181,8 +181,8 @@
   },
   {
     "path": "scripts/build_cc2538_v2.py",
-    "size": 3147,
-    "sha256": "2344fc8a79b95f0e7afe9e37c8bebca5017f8947e031785f3fa899cf6263c754"
+    "size": 3159,
+    "sha256": "0bdbb5b3e22cc38a538429424c99280f2c54a9fef16c1994ef3cd54c6b6c1211"
   },
   {
     "path": "scripts/check_cc2538_sessions.py",
@@ -191,8 +191,8 @@
   },
   {
     "path": "scripts/prepare_cc2538_v2.py",
-    "size": 3340,
-    "sha256": "fc3e4482e508775912410c178124fff9c1635d99e4beb2ce31519e0576159d9d"
+    "size": 3541,
+    "sha256": "4a07bb3cdfe4e17fca4747a3f6a9d80ad0cd2adae0b3ecd486e04cb15c442db7"
   },
   {
     "path": "scripts/run_cc2538_v2.py",

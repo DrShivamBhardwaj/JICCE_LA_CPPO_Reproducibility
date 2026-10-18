@@ -2,7 +2,7 @@
 
 ## Latest Array package status
 
-The active draft integrates live MCU routing/authentication in Section 5.8 and Table 10: 25 pages, 237-word abstract, ten native equations, eleven figures, ten tables and twenty-four references. Two hundred-packet private-provisioning diagnostics deliver 200/200 packets and verified receipts with 500 matching decisions, while 134 receipt deadlines are missed. Host-persisted boot allocation is not MCU NVM. No physical RF/energy or deployment-readiness claim is made. See docs/COMPLETION_MATRIX_20261018.md and hardware/cc2538_live/PRIVATE_PROVISIONING.md. Earlier experimental stages below retain their original scopes.
+The active draft integrates live MCU routing/authentication in Section 5.8 and Table 10: 25 pages, 242-word abstract, ten native equations, eleven figures, ten tables and twenty-four references. Two hundred-packet private-provisioning diagnostics deliver 200/200 packets and verified receipts with 500 matching decisions, while 134 receipt deadlines are missed. Host-persisted boot allocation is not MCU NVM. No physical RF/energy or deployment-readiness claim is made. See docs/COMPLETION_MATRIX_20261018.md and hardware/cc2538_live/PRIVATE_PROVISIONING.md. Earlier experimental stages below retain their original scopes.
 
 
 > New: [distributed authenticated transport](docs/DISTRIBUTED_AUTH_STATUS.md) and hardware test harness; 30 separate chain fixtures, 68 tests passed. Real Chromium rendering now verified. The new transport uses greedy routing; physical validation and attention-policy evaluation on this transport remain pending.
@@ -102,3 +102,9 @@ provided. A statistical benefit does not establish absolute QoS feasibility.
 ## Compiled virtual boards (16 October 2026)
 
 Four Renode CC2538 Cortex-M3 boards now execute compiled radio-interface firmware. Greedy, MLP and attention host-policy controls each delivered 10/10 packets and passed five firmware/radio probes. The capture audit verifies MCU UART provenance and public sink signatures. [Reproduce the virtual MCU experiment](hardware/renode_cc2538/README.md). This is emulation: host inference/crypto, deterministic radio reachability, no calibrated power or physical hardware claim. [Board and Android options](hardware/BOARD_AND_ANDROID_GUIDE.md).
+
+## Current receipt endpoint validation
+
+Current receipt validation (18 October 2026): Q22 inference and cached signing keys reduce original signed-receipt deadline misses from 134/200 to 68/200. The experimental source-only HMAC receipt meets 200/200 tested deadlines (chain 61–63 ms; choice 49–50 ms); deferred Ed25519 proofs still miss 68/200 original deadlines. These are distinct endpoints, not a repaired original signed deadline. Both new profiles deliver all 200 packets and verify all 200 deferred proofs. ACK plus Ed25519 remains the forwarding-credit gate. Extra private receipt traffic has no measured energy benefit. Tested stack guards remain intact under the 32 KiB linker budget; this is not a worst-case bound. Physical RF/energy, protected MCU key storage and persistent MCU sessions remain unvalidated. The attached-hardware inventory found no matching board/instrument. Coauthor consent and authenticated portal checks require genuine author actions; no approval or submission is inferred.
+
+See `docs/RECEIPT_DEADLINE_RESOLUTION.md` and `hardware/cc2538_q22/README.md` for reproduction and scope.

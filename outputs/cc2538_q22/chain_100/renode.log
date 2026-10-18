@@ -1,0 +1,66 @@
+[16:59:30.4055] [INFO] Loaded monitor commands from: /Users/shivambhardwaj/Research/renode-1.17-arm64/Renode.app/Contents/MacOS/scripts/monitor.py
+[16:59:30.4261] [INFO] Including script(s): /Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cc2538_q22/chain_100/network.resc
+[16:59:30.5358] [INFO] System bus created.
+[16:59:30.7550] [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+[16:59:30.9468] [INFO] sysbus: Loading block of 64 bytes length at 0x200000.
+[16:59:30.9487] [INFO] sysbus: Loading block of 385872 bytes length at 0x200040.
+[16:59:30.9489] [INFO] sysbus: Loading block of 8 bytes length at 0x25E390.
+[16:59:30.9489] [INFO] sysbus: Loading block of 3889 bytes length at 0x20000008.
+[16:59:31.2545] [INFO] System bus created.
+[16:59:31.3024] [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+[16:59:31.3277] [INFO] node1/sysbus: Loading block of 64 bytes length at 0x200000.
+[16:59:31.3278] [INFO] node1/sysbus: Loading block of 385872 bytes length at 0x200040.
+[16:59:31.3279] [INFO] node1/sysbus: Loading block of 8 bytes length at 0x25E390.
+[16:59:31.3279] [INFO] node1/sysbus: Loading block of 3889 bytes length at 0x20000008.
+[16:59:31.3372] [INFO] System bus created.
+[16:59:31.3681] [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+[16:59:31.3914] [INFO] node2/sysbus: Loading block of 64 bytes length at 0x200000.
+[16:59:31.3914] [INFO] node2/sysbus: Loading block of 385872 bytes length at 0x200040.
+[16:59:31.3916] [INFO] node2/sysbus: Loading block of 8 bytes length at 0x25E390.
+[16:59:31.3916] [INFO] node2/sysbus: Loading block of 3889 bytes length at 0x20000008.
+[16:59:31.3982] [INFO] System bus created.
+[16:59:31.4315] [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+[16:59:31.4528] [INFO] node3/sysbus: Loading block of 64 bytes length at 0x200000.
+[16:59:31.4529] [INFO] node3/sysbus: Loading block of 385872 bytes length at 0x200040.
+[16:59:31.4530] [INFO] node3/sysbus: Loading block of 8 bytes length at 0x25E390.
+[16:59:31.4530] [INFO] node3/sysbus: Loading block of 3889 bytes length at 0x20000008.
+[16:59:31.4642] [INFO] node0/cpu: Setting initial values: PC = 0x20005D, SP = 0x20008000.
+[16:59:31.4651] [INFO] node0: Machine started.
+[16:59:31.4654] [INFO] node1/cpu: Setting initial values: PC = 0x20005D, SP = 0x20008000.
+[16:59:31.4659] [INFO] node1: Machine started.
+[16:59:31.4659] [INFO] node2/cpu: Setting initial values: PC = 0x20005D, SP = 0x20008000.
+[16:59:31.4662] [INFO] node2: Machine started.
+[16:59:31.4662] [INFO] node3/cpu: Setting initial values: PC = 0x20005D, SP = 0x20008000.
+[16:59:31.4664] [INFO] node3: Machine started.
+[17:00:29.0004] [INFO] node0: Machine paused.
+[17:00:29.0008] [INFO] node1: Machine paused.
+[17:00:29.0009] [INFO] node2: Machine paused.
+[17:00:29.0010] [INFO] node3: Machine paused.
+[17:00:29.0016] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (54): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[17:00:29.0016] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (54): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[17:00:29.0017] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (54): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[17:00:29.0018] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (54): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[17:00:29.0761] [INFO] node0: Disposed.
+[17:00:29.0835] [INFO] node1: Disposed.
+[17:00:29.0911] [INFO] node2: Disposed.
+[17:00:29.1022] [INFO] node3: Disposed.

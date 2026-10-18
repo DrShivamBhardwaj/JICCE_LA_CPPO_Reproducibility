@@ -171,6 +171,8 @@ from array_postfreeze_integration import apply as integrate_postfreeze
 extended_report=integrate_postfreeze(d,ROOT)
 from array_live_integration import apply as integrate_live
 extended_report.update(integrate_live(d,ROOT))
+from array_receipt_latency_revision import apply as integrate_latency
+extended_report.update(integrate_latency(d,ROOT))
 layout_report.update(figures_in_body=11,tables_in_body=10)
 abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
 assert len(abstract.split())<=250

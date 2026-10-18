@@ -28,5 +28,6 @@ s=s.replace('if(find(s,"local_start")){if(local_enabled)', 'if(find(s,"local_sta
 s=s.replace('/* Four-node emulated live-path pilot. Public test keys only. */','/* Four-node emulated pilot with trusted UART provisioning. No production-board claim. */')
 (r/'hardware/cc2538_live/local_v2.h').write_text(s)
 p=r/'scripts/build_cc2538_live.py';s=p.read_text().replace("out=r/'outputs/cc2538_live'", "out=r/'outputs/cc2538_v2'").replace("'hardware/cc2538_live/local.h'","'hardware/cc2538_live/local_v2.h'").replace("'-Oz','-g'","'-O2','-fno-unroll-loops','-g'")
+s=s.replace("scope='Four-node live-path emulation pilot; public test keys; no physical validation'","scope='Four-node emulated live routing with private runtime provisioning; no physical validation'")
 s=s.replace('public keys and nominal telemetry only','trusted UART provisioning and nominal telemetry')
 (r/'scripts/build_cc2538_v2.py').write_text(s)

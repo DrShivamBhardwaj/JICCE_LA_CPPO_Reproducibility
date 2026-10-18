@@ -31,5 +31,5 @@
   ],
   "elf_sha256": "faa5d9a055c1b20ff4a5e96f047d5277147eb6f9777acd96a82d2935b857303d",
   "source_sha256": "1b838e7e843719cc948181f50019db70771f471489569ae574ce2ae0924f1118",
-  "scope": "Four-node live-path emulation pilot; public test keys; no physical validation"
+  "scope": "Four-node emulated live routing with private runtime provisioning; no physical validation"
 }

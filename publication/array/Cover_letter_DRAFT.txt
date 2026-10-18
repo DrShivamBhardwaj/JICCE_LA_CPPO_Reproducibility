@@ -1,21 +1,19 @@
-DRAFT FOR AUTHOR REVIEW — verify author declarations before submission.
+DRAFT — requires final author approval before sending.
 
 Dear Editors of Array,
 
-Please consider “A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks.” The study examines whether receipt-assisted passive feedback can replace an active-proof mechanism and whether frozen routing policies can execute with authenticated, byte-serialized local state.
+Please consider “A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks.” The contribution is a controlled benchmark of ACK-gated censored passive feedback against active proofs and matched controls, together with transparent frozen-policy transfer and emulated MCU execution.
 
-The prespecified 750-run study uses 30 new fixtures and matched feedback controls. Under blackholes, delivery improves by 4.67 percentage points relative to active proofs (paired 95% interval 2.36–6.97; Holm-adjusted p=0.0161). The controls do not establish a unique censoring or attention advantage. A separate 180-run authenticated transfer study likewise finds no established attention superiority. Compiled radio-interface firmware also runs on four emulated Cortex-M3 boards; routing inference and cryptography remain on the host. We make no physical hardware, measured battery-energy or absolute deadline-compliance claim.
+The prespecified 750-run study uses 30 new fixtures. Under blackholes, delivery improves by 4.67 percentage points relative to active proofs (paired 95% interval 2.36–6.97; Holm-adjusted p=0.0161). Matched controls do not establish a unique censoring or attention advantage. A separate 180-run authenticated transfer study likewise establishes no attention superiority. A separately frozen 240-run factorial extension identifies a proof-traffic delivery penalty under always-on listening, with severe low-duty limitations.
 
-A separately frozen 240-run factorial extension holds the evidence rule fixed while toggling proof generation. In the always-on censored control, proof traffic reduces delivery by 6.11 percentage points (Holm-adjusted p=0.00349). A separate Cortex-M3 instruction harness verifies actor decisions, HMAC-SHA256 and Ed25519; it does not integrate these functions with the CC2538 radio bridge. Low-duty and energy-depletion results remain explicit limitations.
+A four-node emulated MCU pilot now integrates inference, hop authentication and signed receipts. Q22 inference reduces original signed-receipt deadline misses from 134/200 to 68/200. A separate private source–sink MAC receipt meets the tested source deadlines while retaining deferred Ed25519 proofs; it changes the endpoint and adds traffic. We make no physical RF, measured energy, protected hardware key-storage or deployment-readiness claim.
 
-Code, frozen checkpoints, protocols, raw traces, earlier negative results, firmware and audit scripts are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility.
+Code, checkpoints, raw traces, negative results, firmware and audits are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility.
 
-The work was substantially redesigned following rejection of JICCE-26-0057, “Energy-Efficient and Secure Routing for IoT-Based WSNs Using Remora Optimization and Deep Intrusion Detection.” The present manuscript replaces the earlier framing with a controlled feedback study and authenticated implementation evidence; it does not retain an unsupported live intrusion-detection claim.
+The manuscript was substantially redesigned following rejection of JICCE-26-0057. The present controlled feedback study replaces the earlier optimization/intrusion-detection framing and does not claim validated live intrusion detection.
 
-Before sending this letter, the corresponding author must confirm final coauthor approval, exclusivity, overlapping work, contribution roles. The corresponding author has confirmed no funding and no competing interests. These confirmations are not supplied by this draft.
+The corresponding author has supplied no-funding and no-competing-interest declarations. Final coauthor approval, contributions, exclusivity, related-work declarations and authenticated portal requirements remain to be confirmed by the authors. This draft does not certify them.
 
 Sincerely,
 Shivam Bhardwaj
 Corresponding author
-
-The updated manuscript also reports a four-node emulated live packet path with MCU-local policy inference, authentication and signed receipts. Two longer private-provisioning diagnostics deliver all 200 offered packets and verified source receipts, with 500 decisions matching the frozen host actor. Their 134 missed receipt deadlines are retained as a negative execution result. Neither these diagnostics nor the isolated instruction harness establish physical RF/energy validation or deployment readiness. All authors must approve this draft and its declarations before submission.

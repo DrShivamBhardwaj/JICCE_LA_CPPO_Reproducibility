@@ -1,0 +1,15 @@
+{
+  "status": "passed_native_reference",
+  "checkpoint_sha256": "25d6418482ac7318e9f73656aefe95c68fefeb3e1266c084f5993bf59c72ecf8",
+  "parameters": 44161,
+  "fractional_bits": 22,
+  "tanh_lut_points": 8193,
+  "input_bound": 32,
+  "dot_accumulator_bound": 54318602373265728,
+  "reference_decisions": 500,
+  "max_logit_error": 2.0265579223632812e-06,
+  "tolerance": 0.0001,
+  "nonfinite_and_out_of_range_rejections": 4,
+  "empty_mask_rejected": true,
+  "scope": "Fixed-point approximation on retained observations; not exhaustive action equivalence or MCU timing validation"
+}

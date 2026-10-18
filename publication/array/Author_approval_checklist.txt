@@ -14,3 +14,5 @@ Each author must review and confirm:
 [ ] Final assembled portal PDF and submission declarations.
 
 The corresponding author should retain the actual confirmations separately. Empty boxes are not consent, signatures or submission authorization. No messages have been sent.
+
+[ ] All authors reviewed the separate private-MAC and public-signature receipt endpoints, retained signed-deadline failures, added traffic, Q22 input limits and unvalidated physical/production security claims. No consent is inferred from implementation checks.

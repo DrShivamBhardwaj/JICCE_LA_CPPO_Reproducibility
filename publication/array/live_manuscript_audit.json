@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "live_table_rows_reconciled": 4,
+  "live_table_rows_reconciled": 6,
   "figures": 11,
   "tables": 10,
   "physical_validation": false,

@@ -1,0 +1,569 @@
+{
+  "elf_sha256": "6231de7bb1b371bf230b7324acd8e4d105e8ac94a3cd731e8869df311e3d92df",
+  "status": "passed",
+  "physical_validation": false,
+  "host_routing": false,
+  "host_packet_crypto": false,
+  "nominal_energy_fraction": 1,
+  "operational_keys": false,
+  "private_fixture_file": "/Users/shivambhardwaj/Research/wsn-private-validation/cc2538_q22_chain_100_3cfc64ca.private.json",
+  "sessions": [
+    271566902061755,
+    271566902061756,
+    271566902061757,
+    271566902061758
+  ],
+  "sink_public": "9af702bb5fb03d86bea9dac598f40e91d8f798b2a16e70a16e9b39070ea998b4",
+  "provisioning": "per-run random keys; trusted emulator UART; persistent host boot allocator; not MCU NVM",
+  "private_key_commitments": {
+    "0:1": "0cd360c8fbe42994b998001bb164a2d0bdc6548d2fc08bcae22aedbf21ffa4b2",
+    "0:2": "a5b3bddfa1a803a7c9fa12b0e002d716b47d2061b369f0185aced998dc40d6fb",
+    "0:3": "801e5456b1b498c628390850d4b931479290644fa2e843ca17f65deea2df7e71",
+    "1:2": "bc96dec40044bef464134260bfa5f7f0ae04e19fb3d9fbf82612f6c33cf7f6d0",
+    "1:3": "29186b6aac88211b6ac09ff9ed51c08c64f2aa4cf1f0cdb5d81edc2fe24ef017",
+    "2:3": "f865966d149926add9d970f498a729cbe531927dc1ea42b670ebb68af40b774c"
+  },
+  "topology": "chain",
+  "coordinates": [
+    [
+      0,
+      0
+    ],
+    [
+      30,
+      0
+    ],
+    [
+      60,
+      0
+    ],
+    [
+      90,
+      0
+    ]
+  ],
+  "emulated_receipt_delays": [
+    {
+      "pid": 0,
+      "traffic": 0,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 1,
+      "traffic": 1,
+      "receipt_delay_ms": 332
+    },
+    {
+      "pid": 2,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 3,
+      "traffic": 0,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 4,
+      "traffic": 1,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 5,
+      "traffic": 2,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 6,
+      "traffic": 0,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 7,
+      "traffic": 1,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 8,
+      "traffic": 2,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 9,
+      "traffic": 0,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 10,
+      "traffic": 1,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 11,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 12,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 13,
+      "traffic": 1,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 14,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 15,
+      "traffic": 0,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 16,
+      "traffic": 1,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 17,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 18,
+      "traffic": 0,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 19,
+      "traffic": 1,
+      "receipt_delay_ms": 331
+    },
+    {
+      "pid": 20,
+      "traffic": 2,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 21,
+      "traffic": 0,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 22,
+      "traffic": 1,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 23,
+      "traffic": 2,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 24,
+      "traffic": 0,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 25,
+      "traffic": 1,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 26,
+      "traffic": 2,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 27,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 28,
+      "traffic": 1,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 29,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 30,
+      "traffic": 0,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 31,
+      "traffic": 1,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 32,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 33,
+      "traffic": 0,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 34,
+      "traffic": 1,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 35,
+      "traffic": 2,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 36,
+      "traffic": 0,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 37,
+      "traffic": 1,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 38,
+      "traffic": 2,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 39,
+      "traffic": 0,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 40,
+      "traffic": 1,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 41,
+      "traffic": 2,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 42,
+      "traffic": 0,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 43,
+      "traffic": 1,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 44,
+      "traffic": 2,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 45,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 46,
+      "traffic": 1,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 47,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 48,
+      "traffic": 0,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 49,
+      "traffic": 1,
+      "receipt_delay_ms": 332
+    },
+    {
+      "pid": 50,
+      "traffic": 2,
+      "receipt_delay_ms": 332
+    },
+    {
+      "pid": 51,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 52,
+      "traffic": 1,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 53,
+      "traffic": 2,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 54,
+      "traffic": 0,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 55,
+      "traffic": 1,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 56,
+      "traffic": 2,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 57,
+      "traffic": 0,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 58,
+      "traffic": 1,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 59,
+      "traffic": 2,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 60,
+      "traffic": 0,
+      "receipt_delay_ms": 332
+    },
+    {
+      "pid": 61,
+      "traffic": 1,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 62,
+      "traffic": 2,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 63,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 64,
+      "traffic": 1,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 65,
+      "traffic": 2,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 66,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 67,
+      "traffic": 1,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 68,
+      "traffic": 2,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 69,
+      "traffic": 0,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 70,
+      "traffic": 1,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 71,
+      "traffic": 2,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 72,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 73,
+      "traffic": 1,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 74,
+      "traffic": 2,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 75,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 76,
+      "traffic": 1,
+      "receipt_delay_ms": 339
+    },
+    {
+      "pid": 77,
+      "traffic": 2,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 78,
+      "traffic": 0,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 79,
+      "traffic": 1,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 80,
+      "traffic": 2,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 81,
+      "traffic": 0,
+      "receipt_delay_ms": 333
+    },
+    {
+      "pid": 82,
+      "traffic": 1,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 83,
+      "traffic": 2,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 84,
+      "traffic": 0,
+      "receipt_delay_ms": 332
+    },
+    {
+      "pid": 85,
+      "traffic": 1,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 86,
+      "traffic": 2,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 87,
+      "traffic": 0,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 88,
+      "traffic": 1,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 89,
+      "traffic": 2,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 90,
+      "traffic": 0,
+      "receipt_delay_ms": 334
+    },
+    {
+      "pid": 91,
+      "traffic": 1,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 92,
+      "traffic": 2,
+      "receipt_delay_ms": 336
+    },
+    {
+      "pid": 93,
+      "traffic": 0,
+      "receipt_delay_ms": 331
+    },
+    {
+      "pid": 94,
+      "traffic": 1,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 95,
+      "traffic": 2,
+      "receipt_delay_ms": 337
+    },
+    {
+      "pid": 96,
+      "traffic": 0,
+      "receipt_delay_ms": 338
+    },
+    {
+      "pid": 97,
+      "traffic": 1,
+      "receipt_delay_ms": 335
+    },
+    {
+      "pid": 98,
+      "traffic": 2,
+      "receipt_delay_ms": 332
+    },
+    {
+      "pid": 99,
+      "traffic": 0,
+      "receipt_delay_ms": 335
+    }
+  ],
+  "timing_scope": "Renode 1 MHz SysTick; not physical timing",
+  "expected_packets": 100,
+  "unique_sink_deliveries": 100,
+  "unique_source_verified_receipts": 100,
+  "mcu_policy_decisions": 300,
+  "multiple_choice_decisions": 0,
+  "all_next_hops_match_frozen_host_actor": true,
+  "actor_arithmetic": "Q22 approximation; 8193-point tanh LUT; bounded input cube \u00b132",
+  "max_logit_error": 1.9073486328125e-06,
+  "max_feature_error": 5.960464477539063e-08,
+  "host_negative_control_sealing": true,
+  "independently_authenticated_wire_records": 1200,
+  "rejection_controls": [
+    "sink_signature",
+    "reprovision",
+    "replay",
+    "tag",
+    "session",
+    "provision_key_mismatch",
+    "source_tag"
+  ],
+  "scope": "Four-node emulated live routing/authentication pilot; explicit packet count acceptance. Host-allocated rotating boot sessions and private emulation provisioning; no physical RF/energy, MCU-persistent sessions or complete 104-node protocol equivalence or statistical performance claim."
+}

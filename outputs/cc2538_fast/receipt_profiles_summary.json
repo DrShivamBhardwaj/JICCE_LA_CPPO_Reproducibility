@@ -1,0 +1,299 @@
+{
+  "status": "passed_scoped_comparison",
+  "rows": [
+    {
+      "profile": "cc2538_v2",
+      "topology": "chain",
+      "offered": 100,
+      "delivered": 100,
+      "ed25519_receipts": 100,
+      "signed_delay_ms": [
+        1134,
+        1142
+      ],
+      "signed_deadline_misses": 67,
+      "decisions": 300,
+      "max_logit_error": 2.980232238769531e-07,
+      "max_feature_error": 1.043081283569336e-07,
+      "controls": [
+        "sink_signature",
+        "reprovision",
+        "replay",
+        "tag",
+        "session",
+        "source_tag"
+      ]
+    },
+    {
+      "profile": "cc2538_v2",
+      "topology": "choice",
+      "offered": 100,
+      "delivered": 100,
+      "ed25519_receipts": 100,
+      "signed_delay_ms": [
+        925,
+        931
+      ],
+      "signed_deadline_misses": 67,
+      "decisions": 200,
+      "max_logit_error": 2.384185791015625e-07,
+      "max_feature_error": 5.960464477539063e-08,
+      "controls": [
+        "sink_signature",
+        "reprovision",
+        "replay",
+        "tag",
+        "session",
+        "source_tag"
+      ]
+    },
+    {
+      "profile": "cc2538_q22",
+      "topology": "chain",
+      "offered": 100,
+      "delivered": 100,
+      "ed25519_receipts": 100,
+      "signed_delay_ms": [
+        331,
+        339
+      ],
+      "signed_deadline_misses": 34,
+      "decisions": 300,
+      "max_logit_error": 1.9073486328125e-06,
+      "max_feature_error": 5.960464477539063e-08,
+      "controls": [
+        "sink_signature",
+        "reprovision",
+        "replay",
+        "tag",
+        "session",
+        "provision_key_mismatch",
+        "source_tag"
+      ]
+    },
+    {
+      "profile": "cc2538_q22",
+      "topology": "choice",
+      "offered": 100,
+      "delivered": 100,
+      "ed25519_receipts": 100,
+      "signed_delay_ms": [
+        238,
+        245
+      ],
+      "signed_deadline_misses": 34,
+      "decisions": 200,
+      "max_logit_error": 2.0265579223632812e-06,
+      "max_feature_error": 5.960464477539063e-08,
+      "controls": [
+        "sink_signature",
+        "reprovision",
+        "replay",
+        "tag",
+        "session",
+        "provision_key_mismatch",
+        "source_tag"
+      ]
+    },
+    {
+      "profile": "cc2538_fast",
+      "topology": "chain",
+      "offered": 100,
+      "delivered": 100,
+      "ed25519_receipts": 100,
+      "signed_delay_ms": [
+        333,
+        343
+      ],
+      "signed_deadline_misses": 34,
+      "decisions": 300,
+      "max_logit_error": 1.7881393432617188e-06,
+      "max_feature_error": 5.960464477539063e-08,
+      "controls": [
+        "sink_signature",
+        "reprovision",
+        "fast_sink_tag",
+        "replay",
+        "tag",
+        "session",
+        "provision_key_mismatch",
+        "source_tag"
+      ],
+      "fast_delay_ms": [
+        61,
+        63
+      ],
+      "fast_deadline_misses": 0,
+      "observed_stack_bytes": [
+        6624,
+        6280,
+        6280,
+        2876
+      ],
+      "static_ram_bytes": [
+        3968,
+        3968,
+        3968,
+        3968
+      ],
+      "stack_guard_intact": true
+    },
+    {
+      "profile": "cc2538_fast",
+      "topology": "choice",
+      "offered": 100,
+      "delivered": 100,
+      "ed25519_receipts": 100,
+      "signed_delay_ms": [
+        240,
+        247
+      ],
+      "signed_deadline_misses": 34,
+      "decisions": 200,
+      "max_logit_error": 1.7285346984863281e-06,
+      "max_feature_error": 5.960464477539063e-08,
+      "controls": [
+        "sink_signature",
+        "reprovision",
+        "fast_sink_tag",
+        "replay",
+        "tag",
+        "session",
+        "provision_key_mismatch",
+        "source_tag"
+      ],
+      "fast_delay_ms": [
+        49,
+        50
+      ],
+      "fast_deadline_misses": 0,
+      "observed_stack_bytes": [
+        6624,
+        6280,
+        2840,
+        2876
+      ],
+      "static_ram_bytes": [
+        3968,
+        3968,
+        3968,
+        3968
+      ],
+      "stack_guard_intact": true
+    }
+  ],
+  "stage_times": {
+    "cc2538_v2/chain": {},
+    "cc2538_v2/choice": {},
+    "cc2538_q22/chain": {
+      "hmac": {
+        "n": 2606,
+        "min_ms": 0,
+        "mean_ms": 0.8929393706830392,
+        "max_ms": 2
+      },
+      "actor": {
+        "n": 300,
+        "min_ms": 12,
+        "mean_ms": 12.12,
+        "max_ms": 13
+      },
+      "verify": {
+        "n": 301,
+        "min_ms": 79,
+        "mean_ms": 81.38205980066445,
+        "max_ms": 83
+      },
+      "sign": {
+        "n": 100,
+        "min_ms": 29,
+        "mean_ms": 29.47,
+        "max_ms": 30
+      }
+    },
+    "cc2538_q22/choice": {
+      "hmac": {
+        "n": 3006,
+        "min_ms": 0,
+        "mean_ms": 0.8626081170991351,
+        "max_ms": 2
+      },
+      "actor": {
+        "n": 200,
+        "min_ms": 12,
+        "mean_ms": 15.38,
+        "max_ms": 19
+      },
+      "verify": {
+        "n": 201,
+        "min_ms": 80,
+        "mean_ms": 81.50248756218906,
+        "max_ms": 83
+      },
+      "sign": {
+        "n": 100,
+        "min_ms": 29,
+        "mean_ms": 29.53,
+        "max_ms": 30
+      }
+    },
+    "cc2538_fast/chain": {
+      "hmac": {
+        "n": 3408,
+        "min_ms": 0,
+        "mean_ms": 0.8902582159624414,
+        "max_ms": 2
+      },
+      "actor": {
+        "n": 300,
+        "min_ms": 12,
+        "mean_ms": 12.13,
+        "max_ms": 13
+      },
+      "verify": {
+        "n": 301,
+        "min_ms": 79,
+        "mean_ms": 81.49169435215947,
+        "max_ms": 83
+      },
+      "sign": {
+        "n": 100,
+        "min_ms": 29,
+        "mean_ms": 29.4,
+        "max_ms": 30
+      }
+    },
+    "cc2538_fast/choice": {
+      "hmac": {
+        "n": 3608,
+        "min_ms": 0,
+        "mean_ms": 0.8628048780487805,
+        "max_ms": 1
+      },
+      "actor": {
+        "n": 200,
+        "min_ms": 12,
+        "mean_ms": 15.38,
+        "max_ms": 19
+      },
+      "verify": {
+        "n": 201,
+        "min_ms": 80,
+        "mean_ms": 81.34825870646766,
+        "max_ms": 83
+      },
+      "sign": {
+        "n": 100,
+        "min_ms": 29,
+        "mean_ms": 29.39,
+        "max_ms": 30
+      }
+    }
+  },
+  "fast_credit_gate_checked": true,
+  "private_values_absent_from_checked_public_outputs": true,
+  "physical_validation": false,
+  "signed_receipt_deadline_compliance": false,
+  "fast_endpoint_scope": "Observed source/sink MAC deadline only; not the original public-signature deadline and not physical timing",
+  "independent_statistical_replication": false
+}

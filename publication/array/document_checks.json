@@ -1,5 +1,5 @@
 {
-  "abstract_words": 237,
+  "abstract_words": 242,
   "native_equations": 10,
   "figures": 11,
   "tables": 10,
@@ -14,22 +14,10 @@
     "algorithm_in_body": 1
   },
   "rendered_pages": 25,
-  "all_pages_visually_verified": true,
-  "visual_review": "All 25 rendered page images inspected; final three changed pages re-inspected and remaining page images matched the inspected render byte for byte.",
-  "latest_editorial_paragraphs": 36,
-  "postfreeze_scope_edits": 7,
-  "live_scope_edits": 8,
-  "algorithm_numbered_lines": 17,
-  "algorithm_indentation_levels": 3,
-  "python_regression_tests_passed": 107,
-  "factorial_extension_runs": 240,
-  "powered_duty_diagnostic_runs": 27,
-  "clock_envelope_cases": 675,
-  "isolated_cortex_m3_actor_crypto_validated": true,
-  "integrated_cc2538_actor_crypto_validated": true,
-  "integrated_scope": "Four-node emulated pilot only; 20 public-fixture and 200 longer private-provisioning packets; no production-board claim",
-  "private_provisioning_long_stream_packets": 200,
-  "private_provisioning_matching_decisions": 500,
-  "protected_mcu_storage_validated": false,
-  "deadline_compliance": false
+  "visual_review": "All changed final pages visually inspected; unchanged pages match previously reviewed render",
+  "original_signed_deadline_compliance": false,
+  "fast_source_deadline_compliance_observed": true,
+  "fast_endpoint_scope": "Private source-sink MAC; 200 sequential packets; not the original Ed25519 deadline",
+  "production_mcu_security_validated": false,
+  "coauthor_approval_certified": false
 }

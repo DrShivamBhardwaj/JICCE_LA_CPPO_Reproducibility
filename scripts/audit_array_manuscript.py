@@ -42,8 +42,9 @@ revision=json.loads((P/'prose_revision.json').read_text())
 editorial={x['before']:x['after'] for x in json.loads((P/'editorial_changes.json').read_text())}
 postfreeze={x['before']:x['after'] for x in json.loads((P/'postfreeze_edits.json').read_text())}
 live={x['before']:x['after'] for x in json.loads((P/'live_integration_edits.json').read_text())}
+latency={x["before"]:x["after"] for x in json.loads((P/"receipt_latency_edits.json").read_text())}
 def final_text(s):
- t=editorial.get(transform(s),transform(s));u=postfreeze.get(t,t);return live.get(u,u)
+ t=editorial.get(transform(s),transform(s));u=postfreeze.get(t,t);v=live.get(u,u);return latency.get(v,v)
 def citations(s):
  out=[]
  for x in re.findall(r'\[([\d, ]+)\]',s):
@@ -56,7 +57,7 @@ for e in revision['paragraphs']:
  removed=before-after
  assert not removed or (removed=={'30'} and replacement.startswith('Thirty fixtures')),'Numeric evidence removed: '+str(removed)
  for para in e['replacement']:assert final_text(para) in text,'Edited paragraph missing'
-for changed in editorial.values():assert live.get(postfreeze.get(changed,changed),postfreeze.get(changed,changed)) in text,'Final editorial paragraph missing'
+for changed in editorial.values():assert latency.get(live.get(postfreeze.get(changed,changed),postfreeze.get(changed,changed)),live.get(postfreeze.get(changed,changed),postfreeze.get(changed,changed))) in text,'Final editorial paragraph missing'
 for key in ['shibambhardwaj@gmail.com','0009-0005-4554-7397','abhishek.pandey2@bennett.edu.in','0000-0003-3799-9754','abhinandan282@bit.ac.in','No funding was received for this research.','The authors declare no competing interests.']:assert key in text
 assert not any(x in text for x in ['Jitendra Nath Srivastava','Akash Sanghi','Invertis University'])
 abstract=d.paragraphs[next(i for i,p in enumerate(d.paragraphs) if p.text=='Abstract')+1].text;assert len(abstract.split())<=250
