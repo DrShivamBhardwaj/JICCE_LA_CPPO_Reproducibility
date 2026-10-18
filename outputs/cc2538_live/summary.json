@@ -1,0 +1,51 @@
+{
+  "status": "passed_pilot_acceptance",
+  "runs": [
+    {
+      "topology": "chain",
+      "packets": 10,
+      "verified_receipts": 10,
+      "decisions": 30,
+      "multiple_choice_decisions": 0,
+      "max_feature_error": 5.960464477539063e-08,
+      "max_logit_error": 2.384185791015625e-07,
+      "received_local_tx_records": 120,
+      "emulated_receipt_delay_ms": [
+        1119,
+        1128
+      ],
+      "emulated_deadline_misses": 7,
+      "controls": [
+        "sink_signature",
+        "replay",
+        "tag",
+        "source_tag"
+      ]
+    },
+    {
+      "topology": "choice",
+      "packets": 10,
+      "verified_receipts": 10,
+      "decisions": 20,
+      "multiple_choice_decisions": 10,
+      "max_feature_error": 5.960464477539063e-08,
+      "max_logit_error": 2.384185791015625e-07,
+      "received_local_tx_records": 140,
+      "emulated_receipt_delay_ms": [
+        915,
+        922
+      ],
+      "emulated_deadline_misses": 7,
+      "controls": [
+        "sink_signature",
+        "replay",
+        "tag",
+        "source_tag"
+      ]
+    }
+  ],
+  "physical_validation": false,
+  "physical_energy_j": null,
+  "deadline_compliance": false,
+  "scope": "Two small emulated integration runs, not independent statistical replicates or measured hardware"
+}

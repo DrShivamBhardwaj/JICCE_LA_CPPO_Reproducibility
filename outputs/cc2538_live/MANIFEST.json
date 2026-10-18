@@ -1,0 +1,252 @@
+[
+  {
+    "path": "hardware/cc2538_live/PHYSICAL_ACQUISITION.md",
+    "bytes": 2655,
+    "sha256": "f61892dd0b4e43f6aedd70c5e794f72ea8b861fd12bf3f4ab3d194b521b3e484"
+  },
+  {
+    "path": "hardware/cc2538_live/README.md",
+    "bytes": 4175,
+    "sha256": "514966e396569377af54e4103c6990e3b6f3382445c581437c0848a82d0a20b4"
+  },
+  {
+    "path": "hardware/cc2538_live/local.h",
+    "bytes": 13874,
+    "sha256": "1f503189b17b5c69ce7bfda95f04176c4a9f09e3168a841c0e72ebcf49c56c93"
+  },
+  {
+    "path": "outputs/cc2538_live/build.json",
+    "bytes": 1701,
+    "sha256": "6b6ba042d56529ff0a8f99ccd4b44a6e1d6615d2296df14d71d32c6c6d76b829"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/audit.json",
+    "bytes": 2034,
+    "sha256": "2503af69be9c44430c8c6f4b9459e6d7f23c8beb107deaab93578575336471e6"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/audit_stdout.txt",
+    "bytes": 1199,
+    "sha256": "68a6b2b42284800c16221c4cdf76df099d01e2a2c7f5c856b1be829f14ab48fa"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/network.resc",
+    "bytes": 2860,
+    "sha256": "2163399ee0275d2bdfb266d7f038bc17b6440705bd33a8b07de008094b3c724c"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/renode.log",
+    "bytes": 5443,
+    "sha256": "aa1764e3379161c31038f29f5635d43c71910a5cb4ffe6e947ebf02332a639aa"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/uart_0.jsonl",
+    "bytes": 25460,
+    "sha256": "3b658b603b89b8f20f91c9a7da3fbd19a3b42ecbe825c362a124aba7b3a4064d"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/uart_1.jsonl",
+    "bytes": 35537,
+    "sha256": "92dd9a9c03f0e619057d6f780d79977f94cf2ebf2699d899d3c2b56041509f61"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/uart_2.jsonl",
+    "bytes": 34955,
+    "sha256": "7a53eb6dc209e199c69d96594fe690250fe5c4e883ec372414276fe04b35b48e"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/uart_3.jsonl",
+    "bytes": 11023,
+    "sha256": "a61896f868ebce8052037f5540bdffd9d02f893fa2949d59af6dfa7eb514b16b"
+  },
+  {
+    "path": "outputs/cc2538_live/chain/verification.json",
+    "bytes": 2034,
+    "sha256": "2503af69be9c44430c8c6f4b9459e6d7f23c8beb107deaab93578575336471e6"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/audit.json",
+    "bytes": 2027,
+    "sha256": "cafda9c1066569af20d6319f9d326be7e2dd134a1b67446aed9d728c610fc6c7"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/audit_stdout.txt",
+    "bytes": 1202,
+    "sha256": "5e5406a7664ae85b85ab7943747d812ceac00ebb20a276a412585d87c6e29f5f"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/network.resc",
+    "bytes": 2865,
+    "sha256": "c888e6c321a4b2f7166b373bf06ef36a7eb6c0cdc3178d8b16d0bd1a3a94a452"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/renode.log",
+    "bytes": 5444,
+    "sha256": "edf5c7ac1694eed6afe9f4e2b64e9db311dbc4aafb44bfdc2f91f5cdc23404d0"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/uart_0.jsonl",
+    "bytes": 29681,
+    "sha256": "5a48efc1fd6532ca9529f41356bd49594397231c3f76d1615cf98ecae5827a63"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/uart_1.jsonl",
+    "bytes": 39775,
+    "sha256": "9ede0dffaf5dcb6c58f1950f7a42cf0b3f8cea6cf3874ab9157333c6f46ff509"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/uart_2.jsonl",
+    "bytes": 12778,
+    "sha256": "910d23e5ad6e49873684401e0cfc1f790111dfbe4b57152e0fcfba40f106e358"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/uart_3.jsonl",
+    "bytes": 15228,
+    "sha256": "88f83e16712ca299e6b2c5f9f9f714f8bd33084a80be98fe513e9e4b6168ef99"
+  },
+  {
+    "path": "outputs/cc2538_live/choice/verification.json",
+    "bytes": 2027,
+    "sha256": "cafda9c1066569af20d6319f9d326be7e2dd134a1b67446aed9d728c610fc6c7"
+  },
+  {
+    "path": "outputs/cc2538_live/development_masked_kernel_failure/network.resc",
+    "bytes": 2860,
+    "sha256": "51b2c40833897fbd437c75387ff5e8bf7feae975012f59f3f808331e2cd02443"
+  },
+  {
+    "path": "outputs/cc2538_live/development_masked_kernel_failure/renode.log",
+    "bytes": 5443,
+    "sha256": "455360dd95efce4a3b5ca00040a003e89b99759fbe0cb249b538b985cb7aa2f3"
+  },
+  {
+    "path": "outputs/cc2538_live/development_masked_kernel_failure/uart_0.jsonl",
+    "bytes": 1720,
+    "sha256": "78d2750ce460085a2fc24052728293918fb0b960b81d0ce4b0ccfc3767c05e0f"
+  },
+  {
+    "path": "outputs/cc2538_live/development_masked_kernel_failure/uart_1.jsonl",
+    "bytes": 1197,
+    "sha256": "f355d9057df8241fc964aed1612e2518d437feea0ecc0b0712d51aed33c8609d"
+  },
+  {
+    "path": "outputs/cc2538_live/development_masked_kernel_failure/uart_2.jsonl",
+    "bytes": 893,
+    "sha256": "7b57c56159a38a4fe37368a1f8ef07ce05eaa10c893ce9042a822c3f12661759"
+  },
+  {
+    "path": "outputs/cc2538_live/development_masked_kernel_failure/uart_3.jsonl",
+    "bytes": 486,
+    "sha256": "5a2342589a5321d8a0033d1889816246accab0b54336631964a2a3b35e3a651e"
+  },
+  {
+    "path": "outputs/cc2538_live/development_masked_kernel_failure/verification.json",
+    "bytes": 307,
+    "sha256": "406b1bbf43bc3062e92ecfb368b8879ebf32795d0c5b5520d776d529ba46e216"
+  },
+  {
+    "path": "outputs/cc2538_live/elf_report.txt",
+    "bytes": 2664,
+    "sha256": "22a0729b4d46515401d813b1c6e298b58fdfee631802138300b8d3b3d99af8a2"
+  },
+  {
+    "path": "outputs/cc2538_live/firmware.c",
+    "bytes": 21309,
+    "sha256": "62f4f39eb5799658ae95ea905fdf6189cf4915eac40b886ca96257c340612aee"
+  },
+  {
+    "path": "outputs/cc2538_live/firmware.elf",
+    "bytes": 739184,
+    "sha256": "0fccc550d4a42a86ae56e9eb9e24157ea973af3545932cdacecb3641c0532cfd"
+  },
+  {
+    "path": "outputs/cc2538_live/power_analyser_checks.json",
+    "bytes": 275,
+    "sha256": "7d65bda7780f39abf1177f0d609f3bd284b215a7bcfa6fbc217a9715b0157b07"
+  },
+  {
+    "path": "outputs/cc2538_live/python_regression.txt",
+    "bytes": 180,
+    "sha256": "b1e67c9fc1ef1003be6d40965d241f002001ee526c5adc10761f873e44af29db"
+  },
+  {
+    "path": "outputs/cc2538_live/size.txt",
+    "bytes": 122,
+    "sha256": "128ec9a5fe30dd96487c214b7b81363e871a6df71ae34508092ea81fac46922e"
+  },
+  {
+    "path": "outputs/cc2538_live/summary.json",
+    "bytes": 1280,
+    "sha256": "ffc2a78c072ba1a9d50b61ae7fb6656a1b0d61ebe396d60f47f672d4674d0882"
+  },
+  {
+    "path": "outputs/cc2538_live/summary_stdout.txt",
+    "bytes": 937,
+    "sha256": "257f1421e730643e5c34109001c505f7fa8422323744694aeb8d8cd4081f6340"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke/network.resc",
+    "bytes": 2897,
+    "sha256": "451f4f825f22a766d382d5349bd07ad0909f28f1661908c2a75c0b4776f08c96"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke/renode.log",
+    "bytes": 4894,
+    "sha256": "b46ab2bf7ecd1f5f5e1359f792d6e73b347e65a8298a9727f7ffd5bca4bb65f8"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke/uart_0.jsonl",
+    "bytes": 3453,
+    "sha256": "2115c91b75e38a307172bf01962c90e3b289940f527ca820f33fe916715d9feb"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke/uart_1.jsonl",
+    "bytes": 4701,
+    "sha256": "d6284da2051530a929d32f339fc1d6dc27d37f1ab7077138e19cad4a244e0066"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke/uart_2.jsonl",
+    "bytes": 1411,
+    "sha256": "153da576cc6240a5c70976a0f3a71db944eced159c3ebf07678c97a8635d64b1"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke/uart_3.jsonl",
+    "bytes": 1924,
+    "sha256": "1dc1bbf27e19255a64089145fa50d5320029bfd10d3f96d8360592cf113f9fc2"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke/verification.json",
+    "bytes": 1311,
+    "sha256": "4e87b673d09445d6533c95dee26be423c2d3df279191f95a178d42de8796ae3b"
+  },
+  {
+    "path": "outputs/cc2538_live/workflow_smoke_stdout.txt",
+    "bytes": 1311,
+    "sha256": "4e87b673d09445d6533c95dee26be423c2d3df279191f95a178d42de8796ae3b"
+  },
+  {
+    "path": "scripts/analyse_physical_power_trace.py",
+    "bytes": 2412,
+    "sha256": "b02002c5ad6ee19d6585138b178261dd0723ca22e63a9aafb86adf6af68b14f1"
+  },
+  {
+    "path": "scripts/audit_cc2538_live.py",
+    "bytes": 5630,
+    "sha256": "0024a794e7f076cf82cb1b61a5f78f23d47d5bd6ea2ab42d5e24a6817f22785a"
+  },
+  {
+    "path": "scripts/build_cc2538_live.py",
+    "bytes": 3117,
+    "sha256": "41264abbb4dda8b4126e1cf1331780a1c2a55b04dc38a11551a82f7dbe8a5ee1"
+  },
+  {
+    "path": "scripts/run_cc2538_live.py",
+    "bytes": 6034,
+    "sha256": "5b997ba43040fd2aa3e28bb42ebf6b13833f928c867d879a908de62899b7a5b1"
+  },
+  {
+    "path": "scripts/summarise_cc2538_live.py",
+    "bytes": 1259,
+    "sha256": "c8384eaff4f3446c4c3e2d27b4154f23319719f945ef0c4138c6d6f9c0275c9f"
+  }
+]

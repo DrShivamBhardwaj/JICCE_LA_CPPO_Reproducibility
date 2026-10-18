@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 344168	      8	   3661	 347837	  54ebd	outputs/cc2538_live/firmware.elf

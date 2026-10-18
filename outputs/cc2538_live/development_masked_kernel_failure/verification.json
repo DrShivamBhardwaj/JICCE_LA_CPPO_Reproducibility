@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "physical_validation": false,
+  "host_routing": false,
+  "host_packet_crypto": false,
+  "nominal_energy_fraction": 1,
+  "operational_keys": false,
+  "diagnostic": "Unoptimized actor evaluates masked candidates; relay cache expired before forwarding. No_fresh_progress captured."
+}

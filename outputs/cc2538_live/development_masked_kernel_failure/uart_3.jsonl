@@ -1,0 +1,6 @@
+{"event":"ready","node":3}
+{"event":"local_started","node":3,"pid":0,"peer":0}
+{"event":"rx","peer":2,"lqi":100,"wire":"01010002000300000000000003ea00000001001642700000000000003f800000000000000000000080e8cdcd1a27373c0c5ad0172e0580f2411c"}
+{"event":"local_beacon","node":3,"pid":0,"peer":2}
+{"event":"local_tx","peer":2,"wire":"01010003000200000000000003eb00000000001642b40000000000003f800000000000000000000094706cd9d4c3b52dc50e8b614614cd6c2bb3"}
+{"event":"ack","token":10001,"ok":true}

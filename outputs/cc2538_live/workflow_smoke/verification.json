@@ -1,0 +1,53 @@
+{
+  "elf_sha256": "0fccc550d4a42a86ae56e9eb9e24157ea973af3545932cdacecb3641c0532cfd",
+  "status": "passed",
+  "physical_validation": false,
+  "host_routing": false,
+  "host_packet_crypto": false,
+  "nominal_energy_fraction": 1,
+  "operational_keys": false,
+  "topology": "choice",
+  "coordinates": [
+    [
+      0,
+      0
+    ],
+    [
+      45,
+      0
+    ],
+    [
+      45,
+      20
+    ],
+    [
+      90,
+      0
+    ]
+  ],
+  "emulated_receipt_delays": [
+    {
+      "pid": 0,
+      "traffic": 0,
+      "receipt_delay_ms": 916
+    }
+  ],
+  "timing_scope": "Renode 1 MHz SysTick; not physical timing",
+  "expected_packets": 1,
+  "unique_sink_deliveries": 1,
+  "unique_source_verified_receipts": 1,
+  "mcu_policy_decisions": 2,
+  "multiple_choice_decisions": 1,
+  "all_next_hops_match_frozen_host_actor": true,
+  "max_logit_error": 1.7881393432617188e-07,
+  "max_feature_error": 5.960464477539063e-08,
+  "host_negative_control_sealing": true,
+  "independently_authenticated_wire_records": 14,
+  "rejection_controls": [
+    "sink_signature",
+    "replay",
+    "tag",
+    "source_tag"
+  ],
+  "scope": "Four-node emulated live routing/authentication pilot; explicit packet count acceptance. No physical RF/energy, reboot-safe sessions, complete 104-node protocol equivalence or statistical performance claim."
+}

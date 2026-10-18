@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "synthetic_arithmetic_checks": 1,
+  "invalid_trace_rejection_checks": 3,
+  "physical_measurements": 0,
+  "scope": "Unit checks only: constant/linear power integral, nonmonotonic time, nonfinite current and acquisition gap. No board measurements."
+}

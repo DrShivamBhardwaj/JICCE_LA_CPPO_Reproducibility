@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "physical_validation": false,
+  "host_routing": false,
+  "host_packet_crypto": false,
+  "nominal_energy_fraction": 1,
+  "operational_keys": false,
+  "topology": "chain",
+  "coordinates": [
+    [
+      0,
+      0
+    ],
+    [
+      30,
+      0
+    ],
+    [
+      60,
+      0
+    ],
+    [
+      90,
+      0
+    ]
+  ],
+  "emulated_receipt_delays": [
+    {
+      "pid": 0,
+      "traffic": 0,
+      "receipt_delay_ms": 1119
+    },
+    {
+      "pid": 1,
+      "traffic": 1,
+      "receipt_delay_ms": 1128
+    },
+    {
+      "pid": 2,
+      "traffic": 2,
+      "receipt_delay_ms": 1127
+    },
+    {
+      "pid": 3,
+      "traffic": 0,
+      "receipt_delay_ms": 1126
+    },
+    {
+      "pid": 4,
+      "traffic": 1,
+      "receipt_delay_ms": 1125
+    },
+    {
+      "pid": 5,
+      "traffic": 2,
+      "receipt_delay_ms": 1126
+    },
+    {
+      "pid": 6,
+      "traffic": 0,
+      "receipt_delay_ms": 1123
+    },
+    {
+      "pid": 7,
+      "traffic": 1,
+      "receipt_delay_ms": 1125
+    },
+    {
+      "pid": 8,
+      "traffic": 2,
+      "receipt_delay_ms": 1124
+    },
+    {
+      "pid": 9,
+      "traffic": 0,
+      "receipt_delay_ms": 1128
+    }
+  ],
+  "timing_scope": "Renode 1 MHz SysTick; not physical timing",
+  "expected_packets": 10,
+  "unique_sink_deliveries": 10,
+  "unique_source_verified_receipts": 10,
+  "mcu_policy_decisions": 30,
+  "multiple_choice_decisions": 0,
+  "all_next_hops_match_frozen_host_actor": true,
+  "max_logit_error": 2.384185791015625e-07,
+  "max_feature_error": 5.960464477539063e-08,
+  "host_negative_control_sealing": true,
+  "independently_authenticated_wire_records": 120,
+  "rejection_controls": [
+    "sink_signature",
+    "replay",
+    "tag",
+    "source_tag"
+  ],
+  "elf_sha256": "0fccc550d4a42a86ae56e9eb9e24157ea973af3545932cdacecb3641c0532cfd",
+  "scope": "Four-node emulated live routing/authentication pilot; explicit packet count acceptance. No physical RF/energy, reboot-safe sessions, complete 104-node protocol equivalence or statistical performance claim."
+}

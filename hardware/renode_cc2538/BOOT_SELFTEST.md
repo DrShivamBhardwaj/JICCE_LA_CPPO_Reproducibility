@@ -26,3 +26,7 @@ The live packet path does not yet invoke the actor or authenticate packets on th
 ## Recorded result (18 October 2026)
 
 The two-node run passed: 32/32 actor actions matched the reference, all 256 logits were within 1e-5 (maximum absolute error 1.7881393432617188e-7), both HMAC known-answer checks passed, and both Ed25519 signatures were independently verified with corrupt signatures rejected. All five radio/UART probes passed after boot. Linked text/rodata occupies 343,296 bytes and static BSS 2,069 bytes; stack use for this combined image has not been measured. Complete UART captures, ELF, generated C source, build command and execution report are retained under `outputs/cc2538_boot_selftest/`.
+
+## Later live-path extension
+
+The separate four-node live pilot in `hardware/cc2538_live/README.md` now exercises MCU packet routing/authentication. The boot-only capture here remains unchanged. The live pilot has narrower capacity and provisioning assumptions and does not establish physical validation or deadline compliance.

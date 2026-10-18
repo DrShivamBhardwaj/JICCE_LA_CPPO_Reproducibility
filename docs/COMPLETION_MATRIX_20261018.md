@@ -34,3 +34,7 @@ The executed factorial design now supplies a traffic-control contrast missing fr
 ## CC2538 combined-image extension
 
 See `hardware/renode_cc2538/BOOT_SELFTEST.md` and `outputs/cc2538_boot_selftest/execution.json` for boot actor/crypto and radio coexistence evidence. This extension does not close the live MCU routing/authentication or physical validation items. The manuscript has not been expanded with an autonomous CC2538 routing claim.
+
+## Live packet integration supersedes the boot-only boundary
+
+The four-node live pilot now passes two ten-packet topologies: twenty sink deliveries and twenty verified source receipts, fifty matching MCU actor decisions, complete feature reconstruction and four authenticated rejection controls per topology. See `docs/CC2538_LIVE_VALIDATION_20261018.md`. This closes the small emulated live-integration pilot, not the physical/production validation item. Fourteen of twenty emulated receipt deadlines were missed. No physical RF/energy result exists; acquisition tooling is prepared.
