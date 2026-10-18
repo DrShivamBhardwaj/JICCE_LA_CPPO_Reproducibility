@@ -1,4 +1,8 @@
 {
+  ".github/workflows/archive-audited-outputs.yml": {
+    "size": 1411,
+    "sha256": "92aa98da4733a424eb010897863b99126253d9c536dc3e0c2d26713a7ef19125"
+  },
   ".github/workflows/mcu-signed-deadline.yml": {
     "size": 2511,
     "sha256": "e0091ed076ffca14fa198b680106cec32019852531b0e472a7f2bb9bcc82e95b"
@@ -246,6 +250,10 @@
   "docs/REVIEWER_CONCERN_RESOLUTION.md": {
     "size": 1177,
     "sha256": "fc7212feb6e64c250b9aa93d269518a41eee5456362c230b560574074f0a84d4"
+  },
+  "docs/SECURITY_EVIDENCE_MATRIX.md": {
+    "size": 3850,
+    "sha256": "7f3522dfa6710d8af6f823b25010fc9e43a276779d8b638168a332862b55b179"
   },
   "docs/SUBMISSION_STATUS.md": {
     "size": 1157,
@@ -17630,6 +17638,10 @@
   "scripts/prepare_cooja_feedback.py": {
     "size": 3117,
     "sha256": "d02dd4af317156a331f775b2db6eb20d91933e20f2726d3e933ff923dbed5e2d"
+  },
+  "scripts/publication_support/archive_audited_outputs.py": {
+    "size": 1616,
+    "sha256": "9087699539dbde58b00c040f12e3f1f35e53f43fffeb4018402771eab265cba0"
   },
   "scripts/run_af_v3_e1_confirmatory.py": {
     "size": 15306,

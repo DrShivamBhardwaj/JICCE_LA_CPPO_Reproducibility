@@ -1,0 +1,28 @@
+name: Archive audited validation outputs
+on:
+  workflow_run:
+    workflows:
+      - Frozen WSN remediation v1
+      - Frozen MCU signed deadline O3 pilot
+    types: [completed]
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and manifest completed audited outputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          SOURCE_COMMIT: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          mkdir -p build/audited-release
+          gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" --dir build/audited-release
+          python scripts/publication_support/archive_audited_outputs.py --root build/audited-release --run-id "$RUN_ID" --source-commit "$SOURCE_COMMIT" --notes build/RELEASE_NOTES.md
+          tar -czf build/audited-validation-outputs.tar.gz -C build/audited-release .
+          gh release create "validation-run-$RUN_ID" build/audited-validation-outputs.tar.gz --repo "$GITHUB_REPOSITORY" --target "$SOURCE_COMMIT" --title "Audited validation outputs for run $RUN_ID" --notes-file build/RELEASE_NOTES.md
