@@ -1,12 +1,17 @@
 """Manifest an already audited workflow artifact for durable GitHub release storage."""
 from pathlib import Path
-import argparse,json,hashlib
+import argparse,json,hashlib,sys
 p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--run-id',required=True);p.add_argument('--source-commit',required=True);p.add_argument('--notes',type=Path,required=True);a=p.parse_args()
 reports=[]
 for file in a.root.rglob('analysis.json'):
     d=json.loads(file.read_text())
     if d.get('status') in ['completed_block_factorial_analysis','completed_compiler_only_pilot']:reports.append(d)
 if len(reports)!=1:raise SystemExit('Require exactly one completed audited experimental analysis')
+if reports[0]['status']=='completed_block_factorial_analysis':
+    sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+    from verify_remediation_archive import verify_dataset
+    dataset=next(file.parent for file in a.root.rglob('analysis.json') if json.loads(file.read_text()).get('status')=='completed_block_factorial_analysis')
+    (a.root/'RELEASE_INTEGRITY.json').write_text(json.dumps(verify_dataset(dataset),indent=2)+'\n')
 d=reports[0]
 files={str(f.relative_to(a.root)):{'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in sorted(a.root.rglob('*')) if f.is_file()}
 (a.root/'ARCHIVE_MANIFEST.json').write_text(json.dumps({'workflow_run':a.run_id,'source_commit':a.source_commit,'files':files,'physical_validation':False},indent=2)+'\n')

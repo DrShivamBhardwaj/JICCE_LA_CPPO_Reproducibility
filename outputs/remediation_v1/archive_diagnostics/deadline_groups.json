@@ -1,0 +1,222 @@
+[
+  {
+    "attack": 0,
+    "timing": 0,
+    "arm": "censored",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 11,
+    "critical_delivered_late": 211,
+    "sink_delay_ms_median": 71.0,
+    "source_signed_receipt_delay_ms_median": 150.0
+  },
+  {
+    "attack": 0,
+    "timing": 0,
+    "arm": "frozen",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 11,
+    "critical_delivered_late": 211,
+    "sink_delay_ms_median": 71.0,
+    "source_signed_receipt_delay_ms_median": 150.0
+  },
+  {
+    "attack": 0,
+    "timing": 0,
+    "arm": "naive",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 8,
+    "critical_delivered_late": 206,
+    "sink_delay_ms_median": 71.0,
+    "source_signed_receipt_delay_ms_median": 151.0
+  },
+  {
+    "attack": 0,
+    "timing": 0,
+    "arm": "active",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 10,
+    "critical_delivered_late": 221,
+    "sink_delay_ms_median": 73.0,
+    "source_signed_receipt_delay_ms_median": 187.0
+  },
+  {
+    "attack": 0,
+    "timing": 0,
+    "arm": "censored_proof",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 8,
+    "critical_delivered_late": 201,
+    "sink_delay_ms_median": 71.0,
+    "source_signed_receipt_delay_ms_median": 184.0
+  },
+  {
+    "attack": 0,
+    "timing": 1,
+    "arm": "censored",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 7,
+    "critical_delivered_late": 563,
+    "sink_delay_ms_median": 131.0,
+    "source_signed_receipt_delay_ms_median": 382.0
+  },
+  {
+    "attack": 0,
+    "timing": 1,
+    "arm": "frozen",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 7,
+    "critical_delivered_late": 563,
+    "sink_delay_ms_median": 131.0,
+    "source_signed_receipt_delay_ms_median": 382.0
+  },
+  {
+    "attack": 0,
+    "timing": 1,
+    "arm": "naive",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 8,
+    "critical_delivered_late": 563,
+    "sink_delay_ms_median": 130.0,
+    "source_signed_receipt_delay_ms_median": 379.0
+  },
+  {
+    "attack": 0,
+    "timing": 1,
+    "arm": "active",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 3,
+    "critical_delivered_late": 562,
+    "sink_delay_ms_median": 131.0,
+    "source_signed_receipt_delay_ms_median": 386.0
+  },
+  {
+    "attack": 0,
+    "timing": 1,
+    "arm": "censored_proof",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 5,
+    "critical_delivered_late": 562,
+    "sink_delay_ms_median": 133.0,
+    "source_signed_receipt_delay_ms_median": 389.0
+  },
+  {
+    "attack": 1,
+    "timing": 0,
+    "arm": "censored",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 392,
+    "critical_delivered_late": 77,
+    "sink_delay_ms_median": 72.0,
+    "source_signed_receipt_delay_ms_median": 156.0
+  },
+  {
+    "attack": 1,
+    "timing": 0,
+    "arm": "frozen",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 392,
+    "critical_delivered_late": 77,
+    "sink_delay_ms_median": 72.0,
+    "source_signed_receipt_delay_ms_median": 156.0
+  },
+  {
+    "attack": 1,
+    "timing": 0,
+    "arm": "naive",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 309,
+    "critical_delivered_late": 109,
+    "sink_delay_ms_median": 74.0,
+    "source_signed_receipt_delay_ms_median": 158.0
+  },
+  {
+    "attack": 1,
+    "timing": 0,
+    "arm": "active",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 171,
+    "critical_delivered_late": 169,
+    "sink_delay_ms_median": 74.0,
+    "source_signed_receipt_delay_ms_median": 188.0
+  },
+  {
+    "attack": 1,
+    "timing": 0,
+    "arm": "censored_proof",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 391,
+    "critical_delivered_late": 80,
+    "sink_delay_ms_median": 75.0,
+    "source_signed_receipt_delay_ms_median": 188.0
+  },
+  {
+    "attack": 1,
+    "timing": 1,
+    "arm": "censored",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 391,
+    "critical_delivered_late": 198,
+    "sink_delay_ms_median": 132.0,
+    "source_signed_receipt_delay_ms_median": 383.0
+  },
+  {
+    "attack": 1,
+    "timing": 1,
+    "arm": "frozen",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 391,
+    "critical_delivered_late": 198,
+    "sink_delay_ms_median": 132.0,
+    "source_signed_receipt_delay_ms_median": 383.0
+  },
+  {
+    "attack": 1,
+    "timing": 1,
+    "arm": "naive",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 272,
+    "critical_delivered_late": 308,
+    "sink_delay_ms_median": 131.0,
+    "source_signed_receipt_delay_ms_median": 380.0
+  },
+  {
+    "attack": 1,
+    "timing": 1,
+    "arm": "active",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 128,
+    "critical_delivered_late": 448,
+    "sink_delay_ms_median": 130.0,
+    "source_signed_receipt_delay_ms_median": 383.0
+  },
+  {
+    "attack": 1,
+    "timing": 1,
+    "arm": "censored_proof",
+    "runs": 30,
+    "critical_offered": 600,
+    "critical_undelivered": 391,
+    "critical_delivered_late": 194,
+    "sink_delay_ms_median": 134.0,
+    "source_signed_receipt_delay_ms_median": 389.0
+  }
+]
