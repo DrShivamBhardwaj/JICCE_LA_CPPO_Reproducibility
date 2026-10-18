@@ -1,0 +1,26 @@
+ACTOR 00000000 00000000 3d41bc6e 3d378105 bd0bd9a4 ce6e6b28 ce6e6b28 ce6e6b28 ce6e6b28 ce6e6b28 
+ACTOR 00000001 00000000 3d8e4ac7 bb4da438 bd8a4cb4 bd95f52a bd9bae56 bdde47f9 bdde3606 bdf75a0e 
+ACTOR 00000002 00000000 3f1dce09 bdad3c64 bdc8aa62 bdf50dac bdf8519f bdf28c72 be0908f8 be0c776c 
+ACTOR 00000003 00000000 3f3d84a7 3d629cfa 3d29a1fb 3c8b16d2 3ca36676 3c1bc0be 383ed200 bceaa0ed 
+ACTOR 00000004 00000000 bd0618c2 bd1d4123 bd28d458 bd97fd37 bd97f7a7 bdb18cab bdbd38bd bdc102b0 
+ACTOR 00000005 00000000 3f3c8140 3c72dcfc 3c574c26 3bba0750 bb774730 bd04c622 bd1a2cc1 bd32cb2e 
+ACTOR 00000006 00000000 3f13159a be109e07 be26199b be27acba be24ea42 be2ea442 be341d70 be376b9d 
+ACTOR 00000007 00000000 3d629aa4 3d3fa1cd 3cb09c5f 3c308b6a bac8cdb0 bd269d64 bd351d4e bda74eba 
+ACTOR 00000008 00000000 3d41bc6e 3d378105 bd0bd9a4 ce6e6b28 ce6e6b28 ce6e6b28 ce6e6b28 ce6e6b28 
+ACTOR 00000009 00000001 bdf75a0e 3d8e4ac7 bb4da438 bd8a4cb4 bd95f52a bd9bae56 bdde47f9 bdde3606 
+ACTOR 0000000a 00000002 be0908f8 be0c776c 3f1dce09 bdad3c64 bdc8aa62 bdf50dac bdf8519f bdf28c72 
+ACTOR 0000000b 00000003 3c1bc0be 383ed200 bceaa0ed 3f3d84a7 3d629cfa 3d29a1fb 3c8b16d2 3ca36676 
+ACTOR 0000000c 00000004 bd97f7a7 bdb18cab bdbd38bd bdc102b0 bd0618c2 bd1d4123 bd28d458 bd97fd37 
+ACTOR 0000000d 00000005 3bba0750 bb774730 bd04c622 bd1a2cc1 bd32cb2e 3f3c8140 3c72dcfc 3c574c26 
+ACTOR 0000000e 00000006 be26199b be27acba be24ea42 be2ea442 be341d70 be376b9d 3f13159a be109e07 
+ACTOR 0000000f 00000007 3d3fa1cd 3cb09c5f 3c308b6a bac8cdb0 bd269d64 bd351d4e bda74eba 3d629aa4 
+HMAC b0344c61d8db38535ca8afceaf0bf12b881dc200c9833da726e9376c2e32cff7
+ED25519 00000000 ffffffff 
+SIGNATURE 2bb91f3bf05dfcf902e143182d15a47f21f2d0ed2bafe26f54a2452258fcd5f2d5003df967dbda9b8a149611b1293b73ff4b958f761567510eafd0ec0d677f0f
+DONE 00000000 
+{"event":"ready","node":0}
+{"event":"telemetry","energy_fraction":1.0,"queue":0,"provenance":"emulated_no_power_model"}
+{"event":"ack","token":9001,"ok":true}
+{"event":"ack","token":9002,"ok":false}
+{"event":"ack","token":9003,"ok":false}
+{"event":"ack","token":9004,"ok":false}

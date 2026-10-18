@@ -1,0 +1,20 @@
+[12:12:54.9212] [INFO] Loaded monitor commands from: /Users/shivambhardwaj/Research/renode-1.17-arm64/Renode.app/Contents/MacOS/scripts/monitor.py
+[12:12:54.9433] [INFO] Including script(s): /Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cc2538_boot_selftest/boot.resc
+[12:12:55.0575] [INFO] System bus created.
+[12:12:55.2985] [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+[12:12:55.4806] [INFO] sysbus: Loading block of 64 bytes length at 0x200000.
+[12:12:55.4826] [INFO] sysbus: Loading block of 343232 bytes length at 0x200040.
+[12:12:55.4826] [INFO] sysbus: Loading block of 2069 bytes length at 0x20000000.
+[12:12:55.7570] [INFO] System bus created.
+[12:12:55.8067] [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+[12:12:55.8314] [INFO] node1/sysbus: Loading block of 64 bytes length at 0x200000.
+[12:12:55.8315] [INFO] node1/sysbus: Loading block of 343232 bytes length at 0x200040.
+[12:12:55.8315] [INFO] node1/sysbus: Loading block of 2069 bytes length at 0x20000000.
+[12:12:55.8437] [INFO] node0/cpu: Setting initial values: PC = 0x200055, SP = 0x20008000.
+[12:12:55.8447] [INFO] node0: Machine started.
+[12:12:55.8450] [INFO] node1/cpu: Setting initial values: PC = 0x200055, SP = 0x20008000.
+[12:12:55.8455] [INFO] node1: Machine started.
+[12:13:20.2589] [INFO] node0: Machine paused.
+[12:13:20.2590] [INFO] node1: Machine paused.
+[12:13:20.2961] [INFO] node0: Disposed.
+[12:13:20.3059] [INFO] node1: Disposed.

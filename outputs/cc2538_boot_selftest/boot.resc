@@ -1,0 +1,27 @@
+emulation CreateIEEE802_15_4Medium "wireless"
+wireless SetRangeWirelessFunction 40
+mach create "node0"
+using sysbus
+machine LoadPlatformDescription @/Users/shivambhardwaj/Research/renode-1.17-arm64/Renode.app/Contents/MacOS/platforms/cpus/cc2538.repl
+sysbus LoadELF @/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cc2538_boot_selftest/firmware.elf
+sysbus WriteDoubleWord `sysbus GetSymbolAddress "node_id"` 0
+cpu VectorTableOffset 0x200000
+emulation CreateServerSocketTerminal 50618 "term0" false
+connector Connect sysbus.uart0 term0
+sysbus.uart0 CreateFileBackend @/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cc2538_boot_selftest/uart_0.txt true
+connector Connect sysbus.radio wireless
+wireless SetPosition sysbus.radio 0 0 0
+mach clear
+mach create "node1"
+using sysbus
+machine LoadPlatformDescription @/Users/shivambhardwaj/Research/renode-1.17-arm64/Renode.app/Contents/MacOS/platforms/cpus/cc2538.repl
+sysbus LoadELF @/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cc2538_boot_selftest/firmware.elf
+sysbus WriteDoubleWord `sysbus GetSymbolAddress "node_id"` 1
+cpu VectorTableOffset 0x200000
+emulation CreateServerSocketTerminal 50619 "term1" false
+connector Connect sysbus.uart0 term1
+sysbus.uart0 CreateFileBackend @/Users/shivambhardwaj/Research/WSN_Array_Validation_20261018/outputs/cc2538_boot_selftest/uart_1.txt true
+connector Connect sysbus.radio wireless
+wireless SetPosition sysbus.radio 30 0 0
+mach clear
+start

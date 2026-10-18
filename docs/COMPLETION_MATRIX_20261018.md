@@ -30,3 +30,7 @@ The study still fails absolute deadline compliance under the stress/deployment c
 ## High novelty opportunities
 
 The executed factorial design now supplies a traffic-control contrast missing from the original benchmark. Full-target integration can build on the tested C actor and crypto code without treating emulator success as physical evidence.
+
+## CC2538 combined-image extension
+
+See `hardware/renode_cc2538/BOOT_SELFTEST.md` and `outputs/cc2538_boot_selftest/execution.json` for boot actor/crypto and radio coexistence evidence. This extension does not close the live MCU routing/authentication or physical validation items. The manuscript has not been expanded with an autonomous CC2538 routing claim.

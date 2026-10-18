@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 343296	      0	   2069	 345365	  54515	outputs/cc2538_boot_selftest/firmware.elf
