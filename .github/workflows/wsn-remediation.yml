@@ -1,0 +1,47 @@
+name: Frozen WSN remediation v1
+on:
+  push:
+    paths:
+      - '.github/workflows/wsn-remediation.yml'
+      - 'experiments/remediation_v1/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Install analysis dependencies
+        run: |
+          python -m pip install numpy cryptography matplotlib pytest
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          mkdir -p outputs/remediation_v1
+          python -m pip freeze > outputs/remediation_v1/python_environment.txt
+      - name: Verify frozen source and test controls
+        run: |
+          python experiments/remediation_v1/run.py --verify-only
+          PYTHONPATH=src python -m pytest -q tests/test_remediation_v1.py
+      - name: Diagnose archived captures
+        run: python experiments/remediation_v1/diagnostics.py --output outputs/remediation_v1/archive_diagnostics
+      - name: Build isolated Cooja environment
+        run: bash experiments/remediation_v1/bootstrap.sh
+      - name: Execute excluded technical preflight then frozen evaluation
+        run: python experiments/remediation_v1/run.py --execute --workers 2
+      - name: Analyze completed evaluation
+        run: python experiments/remediation_v1/analyze.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wsn-remediation-v1-${{ github.sha }}
+          path: outputs/remediation_v1/
+          if-no-files-found: error
+          retention-days: 30

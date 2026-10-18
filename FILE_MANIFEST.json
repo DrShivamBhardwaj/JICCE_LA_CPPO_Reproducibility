@@ -1,4 +1,8 @@
 {
+  ".github/workflows/wsn-remediation.yml": {
+    "size": 1791,
+    "sha256": "eacde7c2f62bec1d05b510f9db7a54c6aa6562daeb5d134b12fff98790e99d63"
+  },
   ".gitignore": {
     "size": 132,
     "sha256": "e18eff263ca118b98dd8b99e3a000e9e1db7cbf97cc734b6d6a1dc7afddd5d86"
@@ -290,6 +294,46 @@
   "experiments/AF_V3_E1_CONFIRMATORY_PROTOCOL.md": {
     "size": 6357,
     "sha256": "1a024ec63e86363863ad04ee64448ce50c8d727947b87c27da63e3cd8ea5348b"
+  },
+  "experiments/remediation_v1/README.md": {
+    "size": 3157,
+    "sha256": "e02019acca8446206ee9f079947f51db0b886b92ea4e0ca968bb365fc807ef31"
+  },
+  "experiments/remediation_v1/analyze.py": {
+    "size": 3293,
+    "sha256": "2dd6d9ae35216baa87ba4ea00f445099ed7767a1a99bca0967c5a3ffec215b5f"
+  },
+  "experiments/remediation_v1/audit.py": {
+    "size": 1772,
+    "sha256": "86c7d2b1a2829caab5f5c0290e0ea87b57f99aa1143518ab9d5d40d62038b401"
+  },
+  "experiments/remediation_v1/bootstrap.sh": {
+    "size": 677,
+    "sha256": "118e629b4e224c16315ad4524f579389c0e3172d76b4c9489a0e5b30a55e2f27"
+  },
+  "experiments/remediation_v1/design.py": {
+    "size": 5854,
+    "sha256": "d30eb4c4ffdfbaf4ed9bd8d95a222045eb4562de43ec37584c02751af0d88d08"
+  },
+  "experiments/remediation_v1/diagnostics.py": {
+    "size": 6753,
+    "sha256": "6358d9d0512a0917ca13b5ea613c4edb27bf6d0c231ea4907041e4daee8fb127"
+  },
+  "experiments/remediation_v1/prepare.py": {
+    "size": 4382,
+    "sha256": "9f9a75749ca82a147caa62a7262b71c3e6745b03c008108124f00381751737aa"
+  },
+  "experiments/remediation_v1/protocol.json": {
+    "size": 932660,
+    "sha256": "024e2141799c71891a00ed61b2f6247493e4e8846cc4b6764f751b46549a1000"
+  },
+  "experiments/remediation_v1/run.py": {
+    "size": 5246,
+    "sha256": "35c0a792a79d8b3669a4716162aa0ab02f2613669af4e2cb87cd00ccfaf10b54"
+  },
+  "experiments/remediation_v1/trace_tools.py": {
+    "size": 5787,
+    "sha256": "98f5c3e812af4cdd7a181aec98d4e5274ffde0fe2837d303ebac3dbf0c8841c1"
   },
   "hardware/BOARD_AND_ANDROID_GUIDE.md": {
     "size": 3418,
@@ -17914,6 +17958,10 @@
   "tests/test_remaining_validation.py": {
     "size": 1400,
     "sha256": "31bda098741505e3c37818b882297a31088dcc9b1571407110f3ede8888acee3"
+  },
+  "tests/test_remediation_v1.py": {
+    "size": 3265,
+    "sha256": "4a960bb6c8638ef363d978a8f9774c2992ef616f99b6c477185965beafcad05c"
   },
   "tests/test_renode_audit.py": {
     "size": 3699,
