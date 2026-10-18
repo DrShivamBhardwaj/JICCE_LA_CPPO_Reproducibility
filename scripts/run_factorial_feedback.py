@@ -27,7 +27,7 @@ def main():
    for setting in protocol['settings']:
     for arm in protocol['arms']:
      cfg=yaml.safe_load((ROOT/'configs/af_v3_final.yaml').read_text());cfg['seed']=seed;cfg['attack']['malicious_ratio']=0;env=PacketRoutingEnv(cfg);n=env.net.n
-     xy=np.vstack([env.net.positions,env.net.sink]).astype(np.float64);builder=TelemetryBuilder(xy,[.09,.35,1.5]);policy='capacity_mlp' if arm=='capacity_mlp_censored' else 'attention';cp=ROOT/f'outputs/jicce_validation/checkpoints/{policy}_{41001+(0 if args.pilot else seed-88001)}.pt';weights=torch.load(cp,weights_only=True,map_location='cpu')
+     xy=np.vstack([env.net.positions,env.net.sink]).astype(np.float64);builder=TelemetryBuilder(xy,[.09,.35,1.5]);policy='capacity_mlp' if arm=='capacity_mlp_censored' else 'attention';cp=ROOT/f'outputs/jicce_validation/checkpoints/{policy}_{41001+(0 if args.pilot else seed-89001)}.pt';weights=torch.load(cp,weights_only=True,map_location='cpu')
      model=LocalAttentionActorCritic(13,10,8,hidden=cfg['rl']['hidden'],n_costs=env.n_costs) if policy=='attention' else MaskedActorCritic(93,8,hidden=weights['encoder.0.weight'].shape[0],n_costs=env.n_costs);model.load_state_dict(weights);model.eval()
      proof_on=arm.endswith('with_proof');lib.bridge_options(proof_on,setting['reference_loss_db']);flat=xy.ravel();lib.bridge_init(n+1,flat.ctypes.data_as(C.POINTER(C.c_double)),seed,50.)
      for sensor in range(n):lib.bridge_power_budget(sensor,.5)
@@ -76,7 +76,7 @@ def main():
           delivered[pid]=e.time-generated[pid];lib.bridge_receipt(n,e.peer,pid)
         elif e.node not in faults:route(e.node,pid,e.peer)
        elif e.kind==2:
-        ledger.evidence(e.node,e.peer,pid,'proof',now)
+        pass # Proof frames consume traffic but never enter the evidence ledger.
        elif e.kind==7:
         ledger.evidence(e.node,e.peer,pid,'passive',now)
        elif e.kind==3:
