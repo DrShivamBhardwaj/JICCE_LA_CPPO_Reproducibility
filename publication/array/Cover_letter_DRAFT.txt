@@ -2,7 +2,7 @@ DRAFT — requires final author approval before sending.
 
 Dear Editors of Array,
 
-Please consider “A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks.” The contribution is a controlled benchmark of ACK-gated censored passive feedback against active proofs and matched controls, together with transparent frozen-policy transfer and emulated MCU execution.
+Please consider “Failure Boundaries of Censored Passive Feedback in Authenticated Wireless Sensor Routing.” The central contribution is a controlled characterization of conditional feedback performance and an exposed adaptation limitation after relay behavior changes. The paper retains matched controls, negative policy comparisons and explicit transport and execution boundaries. It does not estimate a universal failure threshold or introduce a new learning algorithm.
 
 The prespecified 750-run study uses 30 new fixtures. Under blackholes, delivery improves by 4.67 percentage points relative to active proofs (paired 95% interval 2.36–6.97; Holm-adjusted p=0.0161). Matched controls do not establish a unique censoring or attention advantage. A separate 180-run authenticated transfer study likewise establishes no attention superiority. A separately frozen 240-run factorial extension identifies a proof-traffic delivery penalty under always-on listening, with severe low-duty limitations.
 

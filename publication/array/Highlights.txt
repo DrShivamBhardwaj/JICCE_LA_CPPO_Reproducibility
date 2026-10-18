@@ -1,4 +1,4 @@
-A frozen 750-run study isolates feedback replacement effects.
-Authenticated wire state supports a separate 180-run policy transfer study.
-Attention shows no established delivery advantage over matched controls.
-Thirty paired Cooja seeds test the frozen actor and weighted feedback ledger.
+Feedback gains in 750 runs do not generalize to every tested transport.
+Cooja exposes failure after a cooperative relay changes behavior.
+Proof generation alone does not restore censored-arm delivery in that setting.
+Matched controls do not establish attention superiority.

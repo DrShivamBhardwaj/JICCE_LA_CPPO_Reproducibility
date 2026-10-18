@@ -2,15 +2,14 @@
 from pathlib import Path
 import json,csv,hashlib,argparse,gzip
 import numpy as np
+from cooja_input_integrity import verify_run_inputs
 r=Path(__file__).resolve().parents[1];parser=argparse.ArgumentParser();parser.add_argument('--experiment',type=Path,default=r/'outputs/cooja_feedback/primary_600');args=parser.parse_args();out=args.experiment;protocol=json.loads((out/'protocol.json').read_text());runs=json.loads((out/'runs.json').read_text());assert len(runs)==600
 assert (out/'audit_complete.json').exists();reports=[]
 for x in runs:
  folder=r/x['folder'];d=json.loads((folder/'audit.json').read_text());assert d['status']=='independent_audit_passed'
  assert d['config']=={k:x[k] for k in ['mode','proof','attack','timing']}
- log=folder/'COOJA.testlog'
- if log.exists():first=log.open().readline()
- else:
-  with gzip.open(folder/'COOJA.testlog.gz','rt') as stream:first=stream.readline()
+ raw=verify_run_inputs(folder,d,x)
+ first=raw.decode().splitlines()[0]
  assert int(first.split(':',1)[1])==x['seed'],'Recorded simulator seed mismatch'
  d.update(seed=x['seed'],arm=x['arm'],attack=x['attack'],timing=x['timing']);reports.append(d)
 assert len({(d['seed'],d['arm'],d['attack'],d['timing']) for d in reports})==600

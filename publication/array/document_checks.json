@@ -1,5 +1,5 @@
 {
-  "abstract_words": 237,
+  "abstract_words": 219,
   "native_equations": 10,
   "figures": 12,
   "tables": 11,
@@ -13,20 +13,12 @@
     "tables_in_body": 11,
     "algorithm_in_body": 1
   },
-  "rendered_pages": 27,
+  "rendered_pages": 28,
   "all_pages_visually_verified": true,
-  "visual_review": "Changed final pages 1, 2 and 22\u201327 inspected; pages 3\u201321 pixel-identical to previously reviewed render",
+  "visual_review": "All 28 final page PNGs inspected at 100 dpi in this revision",
   "visually_reviewed_changed_pages": [
     1,
     2,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "unchanged_previously_reviewed_pages": [
     3,
     4,
     5,
@@ -45,8 +37,16 @@
     18,
     19,
     20,
-    21
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
   ],
+  "unchanged_previously_reviewed_pages": [],
   "python_regression_tests_passed": 118,
   "cooja_primary_runs": 600,
   "cooja_independent_seeds": 30,
@@ -57,5 +57,11 @@
   "original_signed_deadline_compliance": false,
   "production_mcu_security_validated": false,
   "coauthor_approval_certified": false,
-  "authenticated_portal_checked": false
+  "authenticated_portal_checked": false,
+  "failure_boundary_revision": true,
+  "failure_boundary_regression_tests_passed": 3,
+  "full_suite_rerun_this_revision": false,
+  "current_revision_targeted_tests_passed": 8,
+  "analysis_input_hashes_reverified": 600,
+  "analysis_json_byte_identical": true
 }

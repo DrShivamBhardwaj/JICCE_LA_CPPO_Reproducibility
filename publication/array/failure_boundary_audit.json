@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "classification": "editorial interpretation, no new experiment",
+  "all_11_tables_unchanged": true,
+  "all_12_images_unchanged": true,
+  "all_10_equations_unchanged": true,
+  "unmapped_paragraph_changes": 0,
+  "cooja_headline_values_reconciled": true,
+  "abstract_words": 219,
+  "physical_validation": false
+}

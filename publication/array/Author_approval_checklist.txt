@@ -1,6 +1,6 @@
 Final author review checklist — no approvals recorded by this checklist
 
-Manuscript: A Reproducible Benchmark of Receipt Assisted Passive Feedback and Authenticated Routing in Wireless Sensor Networks
+Manuscript: Failure Boundaries of Censored Passive Feedback in Authenticated Wireless Sensor Routing
 Author order: Shivam Bhardwaj; Abhishek Kumar Pandey; Abhinandan Tripathi.
 Corresponding author: Shivam Bhardwaj, shibambhardwaj@gmail.com.
 

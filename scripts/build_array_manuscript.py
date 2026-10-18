@@ -175,6 +175,8 @@ from array_receipt_latency_revision import apply as integrate_latency
 extended_report.update(integrate_latency(d,ROOT))
 from array_cooja_integration import apply as integrate_cooja
 extended_report.update(integrate_cooja(d,ROOT))
+from array_failure_boundary_revision import apply as integrate_boundary
+extended_report.update(integrate_boundary(d,ROOT))
 layout_report.update(figures_in_body=12,tables_in_body=11)
 abstract=next(p.text for i,p in enumerate(d.paragraphs) if i>0 and d.paragraphs[i-1].text=='Abstract')
 assert len(abstract.split())<=250
@@ -182,10 +184,10 @@ dest=out/'Array_Manuscript.docx';d.save(dest)
 with zipfile.ZipFile(dest) as z:native=z.read('word/document.xml').count(b'<m:oMath>')
 assert native==10
 (out/'Array_Manuscript.md').write_text('\n\n'.join(p.text for p in d.paragraphs))
-highlights=['A frozen 750-run study isolates feedback replacement effects.',
+highlights=['Feedback gains in 750 runs do not generalize to every tested transport.',
 'Authenticated wire state supports a separate 180-run policy transfer study.',
 'Attention shows no established delivery advantage over matched controls.',
-'Thirty paired Cooja seeds test the frozen actor and weighted feedback ledger.']
+'Cooja exposes failure after a cooperative relay changes behavior.']
 assert all(len(x)<=85 for x in highlights)
 (out/'Highlights.txt').write_text('\n'.join(highlights)+'\n')
 (out/'document_checks.json').write_text(json.dumps(dict(abstract_words=len(abstract.split()),native_equations=native,figures=12,tables=11,references=25,virtual_validation=True,physical_validation=False,submission_certified=False,revised_prose_paragraphs=revised_paragraphs,inline_exhibits=layout_report),indent=2))

@@ -5,6 +5,7 @@ from lxml import etree
 from docx import Document
 from docx.oxml.ns import qn
 from array_peer_review_revision import transform
+from array_failure_boundary_revision import transform_text
 R=Path(__file__).resolve().parents[1];P=R/'publication/array';d=Document(P/'Array_Manuscript.docx');base=Document(R/'publication/redesigned/JICCE_Redesigned_Manuscript.docx')
 old=base._element.xpath('//m:oMath');new=d._element.xpath('//m:oMath')
 assert len(old)==len(new)==10
@@ -45,7 +46,7 @@ live={x['before']:x['after'] for x in json.loads((P/'live_integration_edits.json
 latency={x["before"]:x["after"] for x in json.loads((P/"receipt_latency_edits.json").read_text())}
 cooja={x['before']:x['after'] for x in json.loads((P/'cooja_integration_edits.json').read_text())}
 def after_editorial(s):
- u=postfreeze.get(s,s);v=live.get(u,u);w=latency.get(v,v);return cooja.get(w,w)
+ u=postfreeze.get(s,s);v=live.get(u,u);w=latency.get(v,v);return transform_text(cooja.get(w,w))
 def final_text(s):
  return after_editorial(editorial.get(transform(s),transform(s)))
 def citations(s):
