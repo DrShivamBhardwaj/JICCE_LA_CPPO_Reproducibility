@@ -1,0 +1,25 @@
+{
+  "status": "passed_public_signature_and_source_frame_recheck",
+  "rows": [
+    {
+      "topology": "chain_100",
+      "sink_signatures_verified": 100,
+      "source_receipts_matched_to_received_signatures": 100,
+      "signature_mutations_rejected": 100,
+      "public_key": "e3b789db30ce4f55f4fdc4f99a853acc05bdd490b02d23920928a077a9dcce48",
+      "verification_sha256": "56c6dce62906f94727b6515cbcff91895cadf4c62393fef00c0fddf0ad3c52cb"
+    },
+    {
+      "topology": "choice_100",
+      "sink_signatures_verified": 100,
+      "source_receipts_matched_to_received_signatures": 100,
+      "signature_mutations_rejected": 100,
+      "public_key": "3fd21a65dba5580016e699150c4b0adb7c2ede313e223776242e791704553d6b",
+      "verification_sha256": "9c0243e21556c5f0853ccee08b8064b0a29ac15c76580a801681d334e82ce168"
+    }
+  ],
+  "private_hop_tags_reverified": false,
+  "production_security_validated": false,
+  "physical_validation": false,
+  "scope": "Independent public-key/signature and recorded source-receipt linkage check. Private hop secrets are not exported; no physical provenance, protected-storage, provisioning or secure-boot claim."
+}

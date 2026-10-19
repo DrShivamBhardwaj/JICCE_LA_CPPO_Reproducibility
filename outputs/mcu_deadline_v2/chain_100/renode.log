@@ -1,0 +1,62 @@
+[00:04:54.6247] [INFO] Loaded monitor commands from: /home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/build/mcu_deadline_v2/renode_1.17.0-portable/scripts/monitor.py
+[00:04:54.6600] [INFO] Including script(s): /home/runner/work/JICCE_LA_CPPO_Reproducibility/JICCE_LA_CPPO_Reproducibility/outputs/mcu_deadline_v2/chain_100/network.resc
+[00:04:54.8760] [INFO] System bus created.
+[00:04:55.6229] [INFO] sysbus: Loading block of 64 bytes length at 0x200000.
+[00:04:55.6267] [INFO] sysbus: Loading block of 403000 bytes length at 0x200040.
+[00:04:55.6268] [INFO] sysbus: Loading block of 8 bytes length at 0x262678.
+[00:04:55.6268] [INFO] sysbus: Loading block of 3888 bytes length at 0x20000008.
+[00:04:56.1564] [INFO] System bus created.
+[00:04:56.2522] [INFO] node1/sysbus: Loading block of 64 bytes length at 0x200000.
+[00:04:56.2523] [INFO] node1/sysbus: Loading block of 403000 bytes length at 0x200040.
+[00:04:56.2523] [INFO] node1/sysbus: Loading block of 8 bytes length at 0x262678.
+[00:04:56.2523] [INFO] node1/sysbus: Loading block of 3888 bytes length at 0x20000008.
+[00:04:56.2632] [INFO] System bus created.
+[00:04:56.3487] [INFO] node2/sysbus: Loading block of 64 bytes length at 0x200000.
+[00:04:56.3488] [INFO] node2/sysbus: Loading block of 403000 bytes length at 0x200040.
+[00:04:56.3488] [INFO] node2/sysbus: Loading block of 8 bytes length at 0x262678.
+[00:04:56.3489] [INFO] node2/sysbus: Loading block of 3888 bytes length at 0x20000008.
+[00:04:56.3587] [INFO] System bus created.
+[00:04:56.4626] [INFO] node3/sysbus: Loading block of 64 bytes length at 0x200000.
+[00:04:56.4627] [INFO] node3/sysbus: Loading block of 403000 bytes length at 0x200040.
+[00:04:56.4628] [INFO] node3/sysbus: Loading block of 8 bytes length at 0x262678.
+[00:04:56.4628] [INFO] node3/sysbus: Loading block of 3888 bytes length at 0x20000008.
+[00:04:56.4789] [INFO] node0/cpu: Setting initial values: PC = 0x213925, SP = 0x20008000.
+[00:04:56.4809] [INFO] node0: Machine started.
+[00:04:56.4814] [INFO] node1/cpu: Setting initial values: PC = 0x213925, SP = 0x20008000.
+[00:04:56.4827] [INFO] node1: Machine started.
+[00:04:56.4829] [INFO] node2/cpu: Setting initial values: PC = 0x213925, SP = 0x20008000.
+[00:04:56.4836] [INFO] node2: Machine started.
+[00:04:56.4838] [INFO] node3/cpu: Setting initial values: PC = 0x213925, SP = 0x20008000.
+[00:04:56.4885] [INFO] node3: Machine started.
+[00:06:01.5573] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[00:06:01.5577] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[00:06:01.5578] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[00:06:01.5606] [INFO] Got exception when reading from socket: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+     ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       --- End of inner exception stack trace ---
+       at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+       at Antmicro.Renode.Utilities.SocketServerProvider.ReaderThreadBody(Stream stream)
+[00:06:01.5661] [INFO] node0: Machine paused.
+[00:06:01.5662] [INFO] node1: Machine paused.
+[00:06:01.5663] [INFO] node2: Machine paused.
+[00:06:01.5663] [INFO] node3: Machine paused.
+[00:06:01.6031] [INFO] node0: Disposed.
+[00:06:01.6120] [INFO] node1: Disposed.
+[00:06:01.6212] [INFO] node2: Disposed.
+[00:06:01.6352] [INFO] node3: Disposed.

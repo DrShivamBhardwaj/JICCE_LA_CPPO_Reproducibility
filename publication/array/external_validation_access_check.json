@@ -3,7 +3,7 @@
   "official_guide_url": "https://www.sciencedirect.com/journal/array/publish/guide-for-authors",
   "official_guide_observation": "403 Forbidden through web retrieval",
   "official_homepage_url": "https://www.sciencedirect.com/journal/array",
-  "browser_observation": "Site Unavailable — Unable to access this site",
+  "browser_observation": "Site Unavailable \u2014 Unable to access this site",
   "authenticated_portal_checked": false,
   "submission_created": false,
   "files_uploaded": false,
@@ -14,10 +14,10 @@
   "review_package_commit": "2132d4e0e79cfccd5df84e558d8951b5addb3fe1",
   "manuscript_pdf_sha256": "6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44",
   "renewed_official_web_check": {
-    "checked_at_utc": "2026-10-18T23:33:04.090412+00:00",
+    "checked_at_utc": "2026-10-19T00:04:53.471781+00:00",
     "array_guide_result": "403 Forbidden; complete current journal-specific guide unavailable",
     "general_highlights_source": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript",
-    "general_highlights_verified": "3–5 items, at most 85 characters each; separate editable source file, unless journal guide says otherwise",
+    "general_highlights_verified": "3\u20135 items, at most 85 characters each; separate editable source file, unless journal guide says otherwise",
     "general_author_agreement_source": "https://www.elsevier.support/publishing/answer/what-are-conflict-of-interest-statements-funding-source-declarations-author-agreementsdeclarations-and-permission-notes",
     "scope": "General Elsevier support is accessible. This does not certify Array-specific requirements or authenticated portal checks.",
     "general_submission_preparation_source": "https://www.elsevier.support/publishing/answer/how-do-i-prepare-my-files-for-submission-in-editorial-manager",
@@ -28,7 +28,20 @@
     "status": "Offline",
     "physical_hardware_inventory_accessible": false,
     "scope": "Offline status does not prove what hardware exists; it blocks inspection or measurement through this connection.",
-    "checked_at_utc": "2026-10-18T23:33:04.090427+00:00",
-    "last_seen_observation": "7h ago"
+    "checked_at_utc": "2026-10-19T00:04:53.471781+00:00",
+    "last_seen_observation": "8h ago"
+  },
+  "latest_followup_check": {
+    "checked_at_utc": "2026-10-19T00:04:53.471781+00:00",
+    "starting_commit": "86dde525a081dc76b98f1417329e4f26cb4768bb",
+    "official_guide_result": "403 Forbidden",
+    "desktop_result": "Offline; last seen 8h ago",
+    "physical_measurements_acquired": false,
+    "production_security_validated": false,
+    "coauthor_messages_sent": false,
+    "authenticated_portal_checked": false,
+    "submission_created": false,
+    "browser_homepage_observation": "Site Unavailable \u2014 Unable to access this site",
+    "browser_checked_at_utc": "2026-10-19T00:07:31.928658+00:00"
   }
 }

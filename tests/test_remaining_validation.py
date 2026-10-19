@@ -24,3 +24,15 @@ def test_missing_topology_rejected(tmp_path):
 def test_partial_delivery_rejected(tmp_path):
     f,rows=fixture_root(tmp_path);rows[-1]['delivered']=99;f.write_text(json.dumps(dict(rows=rows)))
     with pytest.raises(ValueError,match='acceptance'):m.assess(tmp_path)
+
+def test_lto_pass_flag_cannot_override_observed_packet_deadline(tmp_path):
+    fixture_root(tmp_path)
+    folder=tmp_path/'outputs/mcu_deadline_v2';folder.mkdir()
+    rows=[dict(topology=t,offered=100,delivered=100,signed_receipts=100,signed_deadline_misses=0) for t in ['chain','choice']]
+    (folder/'analysis.json').write_text(json.dumps(dict(status='completed_compiler_only_pilot',rows=rows,original_signed_deadline_complete=True)))
+    for t in ['chain','choice']:
+        capture=folder/(t+'_100');capture.mkdir()
+        # Synthetic unit fixture: every critical packet is actually late.
+        packets=[dict(pid=i,traffic=0,receipt_delay_ms=100) for i in range(100)]
+        (capture/'verification.json').write_text(json.dumps(dict(status='passed',unique_sink_deliveries=100,unique_source_verified_receipts=100,emulated_receipt_delays=packets)))
+    with pytest.raises(ValueError,match='deadline summary mismatch'):m.assess(tmp_path)

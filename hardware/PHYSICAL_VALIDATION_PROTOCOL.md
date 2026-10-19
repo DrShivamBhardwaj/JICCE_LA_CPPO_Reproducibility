@@ -4,7 +4,7 @@ This protocol prepares the remaining validation; it is not a result.
 
 ## Embedded execution gate
 
-The current CC2538 C image contains the radio/UART bridge only. Attention/MLP and HMAC/Ed25519 execute in Python host processes. Moving them to an MCU requires a separate firmware implementation and evaluation, not relabeling the bridge. Freeze the selected checkpoint and feature mapping, record RAM/flash usage, compare all feasible-choice logits/actions against host reference vectors, reject altered/replayed/wrong-session frames and verify standard HMAC/Ed25519 known-answer vectors. Then run the complete routed transport using that firmware. Standalone math or crypto known-answer tests alone do not validate integrated routing.
+The historical CC2538 bridge-only image used host routing and cryptography. The later Q22/O3 image executes routing, actor inference, HMAC and Ed25519 inside the emulated MCU, with private runtime provisioning; see `outputs/mcu_deadline_v1`. This integrated emulator result is not a physical-board firmware port or a production-security certificate. A physical port must preserve the tested feature mapping and endpoint and replace emulator-specific initialization and radio interfaces with the actual board drivers. Freeze the selected checkpoint and feature mapping, record RAM/flash usage, compare all feasible-choice logits/actions against host reference vectors, reject altered/replayed/wrong-session frames and verify standard HMAC/Ed25519 known-answer vectors. Then run the complete routed transport using that firmware. Standalone math or crypto known-answer tests alone do not validate integrated routing.
 
 ## Physical RF gate
 

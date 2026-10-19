@@ -187,6 +187,10 @@
     "size": 5928,
     "sha256": "69bd795e56048757f23bf211d4593593e5ce8243b9e5f4e68bec7bf55e75d1c9"
   },
+  "docs/EXTERNAL_GATE_HANDOFF.md": {
+    "size": 5509,
+    "sha256": "c0701bfeb01848af1a71a6f7561d4b9ef287e76a9ffc9d3f9eebe422927db906"
+  },
   "docs/FEEDBACK_FAILURE_BOUNDARY.md": {
     "size": 2676,
     "sha256": "d57e225f41f6440dbc9ca176137d6dd7d6433cad359b6726e4c5ca2aa5c0056a"
@@ -256,8 +260,8 @@
     "sha256": "77b7c1c2ed0719f26b8c3ead555f30066894e7d28d4a618aaff25f7af3c76b4b"
   },
   "docs/REMEDIATION_COMPLETION_REPORT.md": {
-    "size": 11934,
-    "sha256": "1919aaef226ed9330b1ec03feac3255e09b1ea3683e1d539ade6bcc9439eab27"
+    "size": 12910,
+    "sha256": "2b514b6ca9ecaf8fefe35e11def21cd4985ea92d2b51041e83370b50bed2eed3"
   },
   "docs/REMEDIATION_CONCERN_MATRIX.csv": {
     "size": 5392,
@@ -416,8 +420,8 @@
     "sha256": "79f3e0553e8f411187e2272f3b00cd7b08afbc7a7aa16df2bd3af8d99f6143d8"
   },
   "hardware/PHYSICAL_VALIDATION_PROTOCOL.md": {
-    "size": 2179,
-    "sha256": "b67e6213bd2e242683048dd0353f487bc2d7e9975b9d060205ca4092e0b60139"
+    "size": 2458,
+    "sha256": "1e87d66020206793fff47f286cdb990b27acee619498bee44a00006db1190af4"
   },
   "hardware/README.md": {
     "size": 5352,
@@ -15115,6 +15119,10 @@
     "size": 10402,
     "sha256": "9c0243e21556c5f0853ccee08b8064b0a29ac15c76580a801681d334e82ce168"
   },
+  "outputs/mcu_deadline_v1/critical_path_accounting.json": {
+    "size": 72590,
+    "sha256": "b5f1c6a07f576462273ee4f0a9d5ae8ae2730370d20a1616e7a5a8bf4b4e7f84"
+  },
   "outputs/mcu_deadline_v1/emulator_archive_sha256.txt": {
     "size": 102,
     "sha256": "26b01ad299c2959eceec82ce04f9e4ca970efa762ae2a00742106d99b9ee0af8"
@@ -15127,6 +15135,10 @@
     "size": 789508,
     "sha256": "83623db4c5c4f22be6c67141a10862f6b097e08d5064f4eeac555ee9d98c8ba4"
   },
+  "outputs/mcu_deadline_v1/public_endpoint_recheck.json": {
+    "size": 1146,
+    "sha256": "90c3d83d4a843af5ef6b3301eed00ddb0ec612983d8c2d7cf799a8e2088903ae"
+  },
   "outputs/mcu_deadline_v1/public_signature_recheck.json": {
     "size": 208,
     "sha256": "c2b80ccd3b7bfe61aff0441259818db62a2035f8b8b9d14510c098cebb4858f8"
@@ -15138,6 +15150,102 @@
   "outputs/mcu_deadline_v1/stage_profile.json": {
     "size": 3808,
     "sha256": "4f04a3513c3766b25a912644152bb5950396b106916c9fe44f09c5617484f4dc"
+  },
+  "outputs/mcu_deadline_v2/PROVENANCE.json": {
+    "size": 749,
+    "sha256": "23eda09cfe725e86c0ca8bdb15dedd3eb696a19e0bd14d969f702fd9804db6d4"
+  },
+  "outputs/mcu_deadline_v2/analysis.json": {
+    "size": 1511,
+    "sha256": "e4b17a6dfafd4e65b64b406e04dc58ac21d564bc914c6b4a056a1c8e7dd2bb11"
+  },
+  "outputs/mcu_deadline_v2/build.json": {
+    "size": 2011,
+    "sha256": "e1b7cb88b105038a453f15e4c4a3dfd2cdc7b78df74ee2ebc2d9e2caa2549891"
+  },
+  "outputs/mcu_deadline_v2/chain_100/network.resc": {
+    "size": 3236,
+    "sha256": "c9d30920e28a64e9604063a53bcecb7c92db2b4e5662b85b3945752c402ad01c"
+  },
+  "outputs/mcu_deadline_v2/chain_100/renode.log": {
+    "size": 4996,
+    "sha256": "5223a4fcb8a87d4a06b650c402f323fca09252c4c85e2b144fae1a90ac444968"
+  },
+  "outputs/mcu_deadline_v2/chain_100/uart_0.jsonl": {
+    "size": 294342,
+    "sha256": "ee3839802ad4635e905d53b17699f5fcc2c187d452d01c34804f68ba68c7ea3f"
+  },
+  "outputs/mcu_deadline_v2/chain_100/uart_1.jsonl": {
+    "size": 412010,
+    "sha256": "5937e88c5b230334e4bba3f262b9711078f91b842aa275a093c3a9efb7eb723f"
+  },
+  "outputs/mcu_deadline_v2/chain_100/uart_2.jsonl": {
+    "size": 410946,
+    "sha256": "6e46955b2cc25ca763f6ed7ba853493f0aa132c2b2098f57d7c678f847f3c258"
+  },
+  "outputs/mcu_deadline_v2/chain_100/uart_3.jsonl": {
+    "size": 143924,
+    "sha256": "601e7e35eb981d9867083d08e8e41df0d2ca66cc265e232e75b538b040d70075"
+  },
+  "outputs/mcu_deadline_v2/chain_100/verification.json": {
+    "size": 10394,
+    "sha256": "34d951e047689cad27d9c01ac0ff8adbe1a5e8f1c9f9da5987f60054f72ecc23"
+  },
+  "outputs/mcu_deadline_v2/choice_100/network.resc": {
+    "size": 3241,
+    "sha256": "6ada270b6e63a831b02b57909a20f05c2a5b8827e7c42b5e8e09f9c7dbc9aa93"
+  },
+  "outputs/mcu_deadline_v2/choice_100/renode.log": {
+    "size": 4997,
+    "sha256": "0f4bd99302aa7bb2d423d1c9f454022d4bcef3c064c82efefad70ca22e50767c"
+  },
+  "outputs/mcu_deadline_v2/choice_100/uart_0.jsonl": {
+    "size": 349174,
+    "sha256": "4025caefef3673eb16ad6ab32cc57fa072f8986279c2ca6035354502b88f2102"
+  },
+  "outputs/mcu_deadline_v2/choice_100/uart_1.jsonl": {
+    "size": 466575,
+    "sha256": "ac67a7fc991a23deb15d09821662106c8468cc0e08f1a696b28a6f2d18bb5053"
+  },
+  "outputs/mcu_deadline_v2/choice_100/uart_2.jsonl": {
+    "size": 163907,
+    "sha256": "73ba56a3a3245681cacb77d541d710e280dabfd554ac1d621722678a93934c72"
+  },
+  "outputs/mcu_deadline_v2/choice_100/uart_3.jsonl": {
+    "size": 198475,
+    "sha256": "4d6f1d2e36144fc9505250f40307a86448a4e61d62df4c2fa197f8e40618d929"
+  },
+  "outputs/mcu_deadline_v2/choice_100/verification.json": {
+    "size": 10399,
+    "sha256": "ce2d0af558f85f56635bb4dfe8afedc2ee4b833d4b5f380ed9e05ee9465e7556"
+  },
+  "outputs/mcu_deadline_v2/completion_gate.json": {
+    "size": 2264,
+    "sha256": "e76bca6d7916f3f042f0340689867309b539638520fa368f6a05318d8290d477"
+  },
+  "outputs/mcu_deadline_v2/critical_path_accounting.json": {
+    "size": 72590,
+    "sha256": "e56d26d975a1a9f711f6c33e8a63f9e0272fd3b012740c6c5c726c416251e950"
+  },
+  "outputs/mcu_deadline_v2/emulator_archive_sha256.txt": {
+    "size": 102,
+    "sha256": "99c6e62f6b335e7d610cb0ea496b42b3e1b99aa5e542720d1452cfab0daa752e"
+  },
+  "outputs/mcu_deadline_v2/firmware.c": {
+    "size": 22275,
+    "sha256": "2bf08f63e57be0e738d624007f1ccaf724dc16f4b5202af31c97664e3c192f92"
+  },
+  "outputs/mcu_deadline_v2/firmware.elf": {
+    "size": 850188,
+    "sha256": "68ac24d39f87a19c18b2d4603d6cf755ed812b07313d827017563d507910bb74"
+  },
+  "outputs/mcu_deadline_v2/public_endpoint_recheck.json": {
+    "size": 1146,
+    "sha256": "2ee7de611a877713c231fa31a0d7e80d3d430697b7d36b323294dc77b394fff2"
+  },
+  "outputs/mcu_deadline_v2/python_environment.txt": {
+    "size": 251,
+    "sha256": "2a2f259b3fd3b5766b5ea7f955eaeb98c38d9cef706ceef08c9a32c0077b2c0d"
   },
   "outputs/ns3_censored/SHA256SUMS": {
     "size": 6567,
@@ -17052,8 +17160,8 @@
     "sha256": "ad61b26149ee1bb3f114c919fc27200a980ed98fcd638e5cbff8f32c68072900"
   },
   "publication/array/README.md": {
-    "size": 1692,
-    "sha256": "2465ff203273779640ff2d3c6196fcfe08658612820ab115ca212169eecb33dd"
+    "size": 2071,
+    "sha256": "3b3463a5c2684bbe1d04d15d7e40335760fb1a00e394d1acc92459bc9c077304"
   },
   "publication/array/Remediation_Control_Supplement.md": {
     "size": 2167,
@@ -17061,7 +17169,7 @@
   },
   "publication/array/SHA256SUMS": {
     "size": 10029,
-    "sha256": "83262ac02d37a9adbcf975078f4b9299556db33bb6a3ce215261c91721ac0bf9"
+    "sha256": "651940d92a3932ae05ac131da37add356aab1912c7e20e81a3e9de6591c8e342"
   },
   "publication/array/author_metadata.json": {
     "size": 1807,
@@ -17104,8 +17212,8 @@
     "sha256": "940786a3d722cdb3e786109f8d134896f6007eb9f1c2bea5f8cfe086fa324366"
   },
   "publication/array/external_validation_access_check.json": {
-    "size": 2514,
-    "sha256": "283a8d1e66616913d6173c683c623a0396bdbb2fb37102c197fd4c82a28c85d2"
+    "size": 3133,
+    "sha256": "9ce3edb35cf2a66f647b50a9c203064ebd5020c36e0ab0b12960bedb3617a4b3"
   },
   "publication/array/failure_boundary_audit.json": {
     "size": 336,
@@ -17808,8 +17916,8 @@
     "sha256": "0c41f7a0f7ead59129baf9ee379b25f6acdbbcb77ae79f6f3cc7e1e01890c762"
   },
   "scripts/audit_remaining_validation.py": {
-    "size": 4486,
-    "sha256": "0728d6912075eda8827ea293a28fb582b5357fc526144dc29fbecd503becd5be"
+    "size": 6197,
+    "sha256": "951593e4d3e65e033fe2e83ca7b595b653e831670f477df08f8bcd0cff42d1c1"
   },
   "scripts/audit_renode_boards.py": {
     "size": 7803,
@@ -17935,6 +18043,10 @@
     "size": 3498,
     "sha256": "0db0b8f0823ed4100321f7d63bd04ae7d4a7ebba4278d00061365d49c9af5912"
   },
+  "scripts/diagnose_signed_critical_path.py": {
+    "size": 4341,
+    "sha256": "c8c6558b09534752201d290980bc73910301a90303b1751268610f1c63aba5e2"
+  },
   "scripts/export_cc2538_q22.py": {
     "size": 4056,
     "sha256": "33c8a08f86e25344268aec64c7bb49f362f6c81c2d8b86604b7a3478f01c5eaa"
@@ -18022,6 +18134,10 @@
   "scripts/publication_support/archive_audited_outputs.py": {
     "size": 2061,
     "sha256": "0f4b2a68887156437e3b1505349d3db145a9c2185846f6b63bc0357677ae1c9f"
+  },
+  "scripts/recheck_public_mcu_receipts.py": {
+    "size": 3439,
+    "sha256": "84e4ecdd3da3e3ab1bbf8b029ba4bb5ab47bc7d9b42be04b7b40c288c688357a"
   },
   "scripts/run_af_v3_e1_confirmatory.py": {
     "size": 15306,
@@ -18416,8 +18532,8 @@
     "sha256": "79b5dcb70824aeef9f1133af853e7895e0a263829609cc779f95268883d11e1e"
   },
   "tests/test_remaining_validation.py": {
-    "size": 1400,
-    "sha256": "31bda098741505e3c37818b882297a31088dcc9b1571407110f3ede8888acee3"
+    "size": 2343,
+    "sha256": "21982ae41e7c2e1ff13f37be078cce07e49dafca08691afd80b57ec3af63e7a3"
   },
   "tests/test_remediation_endpoints.py": {
     "size": 6058,
@@ -18430,5 +18546,9 @@
   "tests/test_renode_audit.py": {
     "size": 3699,
     "sha256": "0a13c08b91d832d637daa49f9c9902559aa98fc1e2c9da51c9dd8cf6c4c99b2d"
+  },
+  "tests/test_signed_path_accounting.py": {
+    "size": 1705,
+    "sha256": "a9441058ec7cffb92e316d96477f91d3684ef54c97e01bc7a3e340583ead80f3"
   }
 }

@@ -27,9 +27,31 @@ def assess(root):
         if pilot.get('status')!='completed_compiler_only_pilot' or len(pilot['rows'])!=2 or any(x['offered']!=100 or x['delivered']!=100 or x['signed_receipts']!=100 for x in pilot['rows']):
             raise ValueError('Incomplete O3 diagnostic')
         pilot={'runs':2,'offered':200,'signed_deadline_misses':sum(x['signed_deadline_misses'] for x in pilot['rows']),'physical_validation':False,'scope':'Compiler-only sequential functional diagnostic; no new deadline endpoint'}
+    lto_path=root/'outputs/mcu_deadline_v2/analysis.json'
+    lto=None
+    if lto_path.exists():
+        value=json.loads(lto_path.read_text())
+        if (value.get('status')!='completed_compiler_only_pilot' or len(value.get('rows',[]))!=2
+            or {row['topology'] for row in value['rows']}!={'chain','choice'}
+            or any(row['offered']!=100 or row['delivered']!=100 or row['signed_receipts']!=100 for row in value['rows'])):
+            raise ValueError('Incomplete LTO diagnostic')
+        # Derive deadline failures from retained packet records, not a caller's pass flag.
+        misses=0
+        for row in value['rows']:
+            verification=json.loads((lto_path.parent/(row['topology']+'_100')/'verification.json').read_text())
+            packets=verification['emulated_receipt_delays']
+            if (verification['status']!='passed' or len(packets)!=100 or len({p['pid'] for p in packets})!=100
+                or verification['unique_sink_deliveries']!=100 or verification['unique_source_verified_receipts']!=100):
+                raise ValueError('Incomplete LTO packet acceptance')
+            derived=sum(p['receipt_delay_ms']>[90,350,1500][p['traffic']] for p in packets)
+            if derived!=row['signed_deadline_misses']:raise ValueError('LTO deadline summary mismatch')
+            misses+=derived
+        lto={'runs':2,'offered':200,'signed_deadline_misses':misses,'physical_validation':False,
+             'scope':'Fixed LTO and default loop optimization; unchanged signed endpoint and deadlines'}
+    selected=lto or pilot or profiles['cc2538_q22']
     checks=[
-      {'id':'original_signed_deadline','complete':profiles['cc2538_q22']['signed_deadline_misses']==0,
-       'evidence':'outputs/cc2538_fast/receipt_profiles_summary.json',
+      {'id':'original_signed_deadline','complete':selected['signed_deadline_misses']==0,
+       'evidence':'outputs/mcu_deadline_v2/analysis.json' if lto else ('outputs/mcu_deadline_v1/analysis.json' if pilot else 'outputs/cc2538_fast/receipt_profiles_summary.json'),
        'reason':'Original signed endpoint; private source MAC is a separate endpoint.'},
       {'id':'physical_rf_energy','complete':False,
        'evidence':'outputs/cc2538_fast/hardware_presence.json',
@@ -46,7 +68,7 @@ def assess(root):
     virtual=json.loads(extension.read_text()) if extension.exists() else None
     return {'status':'complete' if all(x['complete'] for x in checks) else 'incomplete',
       'full_validation_complete':all(x['complete'] for x in checks),
-      'profiles':profiles,'completed_mcu_o3':pilot,'checks':checks,'completed_cooja_extension':{'runs':virtual['runs'],'policy_decisions_verified':virtual['policy_decisions'],'physical_validation':False} if virtual and virtual.get('status')=='passed_paired_seed_analysis' else None,
+      'profiles':profiles,'completed_mcu_o3':pilot,'completed_mcu_lto':lto,'checks':checks,'completed_cooja_extension':{'runs':virtual['runs'],'policy_decisions_verified':virtual['policy_decisions'],'physical_validation':False} if virtual and virtual.get('status')=='passed_paired_seed_analysis' else None,
       'scope':'Retained emulation diagnostics only; no external approval or physical certification inferred.',
       'summary_sha256':hashlib.sha256((root/'outputs/cc2538_fast/receipt_profiles_summary.json').read_bytes()).hexdigest()}
 

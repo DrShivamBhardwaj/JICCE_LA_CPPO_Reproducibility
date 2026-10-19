@@ -7,3 +7,7 @@ The new matched arms share ACK gating, expiry, positive-credit and late-positive
 The O3 emulator profile still misses 68/200 original signed deadlines. Physical RF/current, production MCU security, actual final author approvals and authenticated portal checks remain incomplete. This is an evidence-backed review package, not a submission certificate.
 
 See [the concern matrix](../../docs/REMEDIATION_COMPLETION_REPORT.md), [reproduction commands](../../docs/REMEDIATION_REPRODUCTION.md), `remediation_manuscript_audit.json`, `remediation_visual_review.json` and `document_checks.json`. Durable raw archives and their hashes are identified in `outputs/remediation_v1/raw_archive.json`. Descriptive benign and factor-level summaries are in Remediation_Control_Supplement.md. Figures are data-derived PNG/PDF/SVG exports. Original tables, images and equations remain preserved; no generated hardware photography or synthetic results are included.
+
+### Additional fixed LTO diagnostic (2026-10-19)
+
+See [external-gate follow-up](../../docs/EXTERNAL_GATE_HANDOFF.md): 200/200 delivered and source-signed receipts, still 68/200 deadline misses. New raw evidence is in `outputs/mcu_deadline_v2`; the pinned Word/PDF are unchanged. The supplement adds a failed optimization, not a physical-validation or deployment-security claim.
