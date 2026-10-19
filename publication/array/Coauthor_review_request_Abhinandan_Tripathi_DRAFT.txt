@@ -6,10 +6,10 @@ Dear Dr. Abhinandan Tripathi,
 
 Please review “Controlled Feedback Comparisons and Adaptation Limits in Authenticated Wireless Sensor Routing” and its proposed submission to Array.
 
-Exact manuscript commit: c9977c9cd8c44791d7abc727208e4b63c8362500
-PDF SHA-256: 234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13
-Word SHA-256: 5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c
-PDF: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/c9977c9cd8c44791d7abc727208e4b63c8362500/publication/array/Array_Manuscript.pdf
+Exact manuscript commit: 1638d75a685163bf7883d8b970d4c09ae79da7fa
+PDF SHA-256: 5c52531a87779f1971d229fa88ee1fba44fdd9cac53aec89cf479a5052893e8a
+Word SHA-256: bf6bac148d9a47951fb7f4f73572c3b168c16902ddd1f253bef1e486d79dac27
+PDF: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/1638d75a685163bf7883d8b970d4c09ae79da7fa/publication/array/Array_Manuscript.pdf
 
 The revision adds a separately frozen 1,440-run matched-factorial Cooja study, counterbalanced relay identities and attacker positions, direct diagnostics of the censored–frozen equality, and unsuccessful O3 and LTO compiler deadline optimizations. The current version also adds a retrospective radio-state/current-ratio sensitivity analysis of all 600 historical Cooja runs. Historical studies and failures remain separate. Physical RF/current and production device security remain unvalidated; original signed-receipt deadlines still have 68/200 misses. The manuscript does not claim a universal switching threshold or neural-policy superiority.
 

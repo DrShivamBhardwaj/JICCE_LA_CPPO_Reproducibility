@@ -17149,7 +17149,7 @@
   },
   "publication/array/Approval_evidence_register_TEMPLATE.json": {
     "size": 1425,
-    "sha256": "fdf612f251851f3e9dc33403960c0ae6926f98caba7085cb043312a01d660a51"
+    "sha256": "b0c4f55f61397d1ac02999bc6b9ba5cf00bf606f6266c6e993b4ba3e79827c1b"
   },
   "publication/array/Array_Figures_PNG_PDF_SVG.zip": {
     "size": 7372479,
@@ -17177,15 +17177,15 @@
   },
   "publication/array/Author_permission_register.json": {
     "size": 3788,
-    "sha256": "707d367a0cb0e674050e607e67c93d2f10f8c7ad7c8d4f4fd1d2e6db106c5e4c"
+    "sha256": "dd78a957a1ea1615324b109c76d4810b843e6c968c132be45922aba9d1a5eabc"
   },
   "publication/array/Coauthor_review_request_Abhinandan_Tripathi_DRAFT.txt": {
     "size": 2056,
-    "sha256": "2502e0d452ca42e27d72274d6aa4c57297dc707c59425f10af423c25bbe09950"
+    "sha256": "f9b756bf3123ee6ad93e3116b0f88fa82d68f7a59cfa60847710a0db6af3d159"
   },
   "publication/array/Coauthor_review_request_Abhishek_Kumar_Pandey_DRAFT.txt": {
     "size": 2066,
-    "sha256": "ec9911fd6e294459e1bdbcbbad7cf25242724f52ce7d45c5c5c23dacac609d55"
+    "sha256": "8077dec7732477cc4463143a2bc965f0dfe6631636b431009027c8f80f2cb3c2"
   },
   "publication/array/Cooja_Feedback_Evaluation.md": {
     "size": 6319,
@@ -17241,7 +17241,7 @@
   },
   "publication/array/SHA256SUMS": {
     "size": 11971,
-    "sha256": "d5ff9807e02a061fdb03616cfb83d0f008c45e9f8d910c760087336452348aa0"
+    "sha256": "b7114c1c8feb7f64ce5bdeb470920fc714808ebbc504713a04247b05768bd601"
   },
   "publication/array/VIRTUAL_SCOPE_COMPLETION_REPORT.json": {
     "size": 1137,
@@ -17253,7 +17253,7 @@
   },
   "publication/array/author_review_version.json": {
     "size": 402,
-    "sha256": "96e989ffffdfb5241b08a3b7205fd69117f1a39c7256cfc696f3fccc800f7712"
+    "sha256": "4d77223be22afce4e061eaf3b85c1653b810910f59467c220fe73e6c9586f09a"
   },
   "publication/array/cooja_figures/fig12_cooja_paired_delivery.pdf": {
     "size": 21032,
@@ -17288,8 +17288,8 @@
     "sha256": "940786a3d722cdb3e786109f8d134896f6007eb9f1c2bea5f8cfe086fa324366"
   },
   "publication/array/external_validation_access_check.json": {
-    "size": 4237,
-    "sha256": "7f1c511811e4b927bf27823d24f66e0c77ecc849200f8da94a4508dceacded43"
+    "size": 4228,
+    "sha256": "72975a05f3f9320cc02ce2eac3a8f48be7537e97131556b448b03d9b00c50543"
   },
   "publication/array/failure_boundary_audit.json": {
     "size": 336,
