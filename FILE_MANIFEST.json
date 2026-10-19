@@ -260,8 +260,8 @@
     "sha256": "77b7c1c2ed0719f26b8c3ead555f30066894e7d28d4a618aaff25f7af3c76b4b"
   },
   "docs/REMEDIATION_COMPLETION_REPORT.md": {
-    "size": 12910,
-    "sha256": "2b514b6ca9ecaf8fefe35e11def21cd4985ea92d2b51041e83370b50bed2eed3"
+    "size": 13826,
+    "sha256": "34a49bd2ab3137d202d9a3566bd889734fa340e35747b9664f8e50848efa02e4"
   },
   "docs/REMEDIATION_CONCERN_MATRIX.csv": {
     "size": 5392,
@@ -334,6 +334,18 @@
   "experiments/AF_V3_E1_CONFIRMATORY_PROTOCOL.md": {
     "size": 6357,
     "sha256": "1a024ec63e86363863ad04ee64448ce50c8d727947b87c27da63e3cd8ea5348b"
+  },
+  "experiments/cooja_radio_energy_v1/analyze.py": {
+    "size": 4587,
+    "sha256": "300f58af688aacff6a25595f15932f814e7b3fed4e11d4a6edc44121ec904702"
+  },
+  "experiments/cooja_radio_energy_v1/plan.json": {
+    "size": 1421,
+    "sha256": "48166772735b418b48d1842405e359749de60708c2f17d53d61e6843e596413e"
+  },
+  "experiments/cooja_radio_energy_v1/plot.py": {
+    "size": 2256,
+    "sha256": "53ea20b6908d9139885b8bc43124489b4ad323eada1585bfebaf9e0aec8c036f"
   },
   "experiments/mcu_deadline_v1/README.md": {
     "size": 1851,
@@ -13939,6 +13951,46 @@
     "size": 509,
     "sha256": "5a1cbabf642c57b52629de02b86a729a38129243d4fe5d80b14e63b2385d73ea"
   },
+  "outputs/cooja_radio_energy_v1/README.md": {
+    "size": 2450,
+    "sha256": "cac7f57946c98a15aa8bd0af5b1d959258557ee84709ef73f082a3b77fc664c2"
+  },
+  "outputs/cooja_radio_energy_v1/analysis.json": {
+    "size": 10472,
+    "sha256": "468192cf0be8845124299be4eadcddc7c4403b64b29b5065b8a69a5c2d094ead"
+  },
+  "outputs/cooja_radio_energy_v1/assumed_current_sensitivity.pdf": {
+    "size": 18886,
+    "sha256": "108ec00c3f229b20ec70110d2dac17eb4857d79be536b86298754c191fc73f9f"
+  },
+  "outputs/cooja_radio_energy_v1/assumed_current_sensitivity.png": {
+    "size": 188069,
+    "sha256": "62d98b236a72ac39070fc30dff1ba2d94bd1e8eb4290a8b2044a086ee0833de1"
+  },
+  "outputs/cooja_radio_energy_v1/assumed_current_sensitivity.svg": {
+    "size": 33055,
+    "sha256": "e22cc7734dd814d1b1ce31ead1ec60f3ce2b78812271fff7fd3f1b63540a36ce"
+  },
+  "outputs/cooja_radio_energy_v1/capture_hashes.json": {
+    "size": 139683,
+    "sha256": "22ffdd5ecd0749f3d262d3b03c9e41f6cb8d06c45db4e9635b81108585a6fc02"
+  },
+  "outputs/cooja_radio_energy_v1/radio_delivery.pdf": {
+    "size": 19212,
+    "sha256": "b6d8ac19b5478d3d8829b93f584048866628d8be7ecf8e1d7d6b232b0c848a23"
+  },
+  "outputs/cooja_radio_energy_v1/radio_delivery.png": {
+    "size": 164818,
+    "sha256": "08224d09a292d5a3b771ceb00573a8e875440b613ffc4c5db7e1b0a4392df3f5"
+  },
+  "outputs/cooja_radio_energy_v1/radio_delivery.svg": {
+    "size": 47443,
+    "sha256": "92e58cf6e99d62fb85c0c65d745021cb25d93f2a70e17081ed53877337700ec8"
+  },
+  "outputs/cooja_radio_energy_v1/run_metrics.csv": {
+    "size": 110953,
+    "sha256": "18d1b736d1ddfad14e7278f2e93187974ea95dd5fed9d7d0976fe4171257fb39"
+  },
   "outputs/cooja_receipt_transport/MANIFEST.json": {
     "size": 9273,
     "sha256": "79c245c65eb73a3e5b11019fbc77da56f997968b740f036555e9ca1af60dc6f1"
@@ -17115,6 +17167,10 @@
     "size": 2936,
     "sha256": "1807ea40b7157eeca12ba4b9f96e545b7d16f57e7216e790c62631ec76c95f56"
   },
+  "publication/array/Author_permission_register.json": {
+    "size": 2691,
+    "sha256": "aaac3a35c1ff597902fbb58905877a2d9389df94f134df28ad41dc277ecc4b13"
+  },
   "publication/array/Coauthor_review_request_Abhinandan_Tripathi_DRAFT.txt": {
     "size": 1814,
     "sha256": "fef66a5128e4b49afb9a29a2ea62676ca094a5bbb1db229f8ee74caaf45b5ab7"
@@ -17126,6 +17182,10 @@
   "publication/array/Cooja_Feedback_Evaluation.md": {
     "size": 6319,
     "sha256": "e369e294f3e603a055a720d2dcddb46a21b77e5fc40535822fc9b242cdc73327"
+  },
+  "publication/array/Cooja_Radio_Energy_Supplement.md": {
+    "size": 2450,
+    "sha256": "cac7f57946c98a15aa8bd0af5b1d959258557ee84709ef73f082a3b77fc664c2"
   },
   "publication/array/Cooja_Transport_Validation_Addendum.md": {
     "size": 4362,
@@ -17160,16 +17220,16 @@
     "sha256": "ad61b26149ee1bb3f114c919fc27200a980ed98fcd638e5cbff8f32c68072900"
   },
   "publication/array/README.md": {
-    "size": 2071,
-    "sha256": "3b3463a5c2684bbe1d04d15d7e40335760fb1a00e394d1acc92459bc9c077304"
+    "size": 2768,
+    "sha256": "7fbf462c1ee6e2cbf26a868b9b3a0f2c9be9d50136830304bfbeb411aa974a53"
   },
   "publication/array/Remediation_Control_Supplement.md": {
     "size": 2167,
     "sha256": "0ba5150851e5723fc1984165ce5675e8396b0e5e028a4513f282e6c7135f1904"
   },
   "publication/array/SHA256SUMS": {
-    "size": 10029,
-    "sha256": "651940d92a3932ae05ac131da37add356aab1912c7e20e81a3e9de6591c8e342"
+    "size": 10262,
+    "sha256": "6487d4727ce6f64128057d4b47ac3571cfb26d4ed2d6e90cc716d2bf782a3efd"
   },
   "publication/array/author_metadata.json": {
     "size": 1807,
@@ -17212,8 +17272,8 @@
     "sha256": "940786a3d722cdb3e786109f8d134896f6007eb9f1c2bea5f8cfe086fa324366"
   },
   "publication/array/external_validation_access_check.json": {
-    "size": 3133,
-    "sha256": "9ce3edb35cf2a66f647b50a9c203064ebd5020c36e0ab0b12960bedb3617a4b3"
+    "size": 3795,
+    "sha256": "548decd9c3c7f7dbd06ba34077684afef26ad850ee7506a23f7557832a4fea7c"
   },
   "publication/array/failure_boundary_audit.json": {
     "size": 336,

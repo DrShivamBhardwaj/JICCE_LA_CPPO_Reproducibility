@@ -1,0 +1,2402 @@
+{
+  "seed93001_attack0_timing0_active": {
+    "decompressed_log_sha256": "c5d6b97d179b866155c4867b85de2630d32dddd9fb5f61b705b9807402360756",
+    "audit_sha256": "f49a9c9b07106a002878692869083a6871a71846f686a04b8e9bce547a4db830"
+  },
+  "seed93001_attack0_timing0_censored": {
+    "decompressed_log_sha256": "2d985f36e940624084ce7bfdd7d00e897d872722492bcc721ca930f1fced4c10",
+    "audit_sha256": "4225013e648cf6f3cc78c2399dd3dd7a8667e5c4c21aca323af33416750891ce"
+  },
+  "seed93001_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "c2249f5878e6da1dd8c468684131f1bc0bfc857095d4222ce8eeefc2475cd054",
+    "audit_sha256": "db7485d95070c439ceaefcec389063b7ca09389898e5a0dea01f00ed919a830f"
+  },
+  "seed93001_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "c061af2562b444205e999125d29aff95ebb14d4ad3389e97b32cb5bdfaec961d",
+    "audit_sha256": "78532dfde90b429f602e005d5809b5b193191b03de10419223be5059810f71dd"
+  },
+  "seed93001_attack0_timing0_naive": {
+    "decompressed_log_sha256": "9e8b735fccc5b351045c880c8bdc1d4bd83d48b5c7f20291e7a61dcc1de08a6f",
+    "audit_sha256": "bcba54eeeedd185b9f70aaa9d38beca183e3631ae490fafc87d2a5323c3d1a18"
+  },
+  "seed93001_attack0_timing1_active": {
+    "decompressed_log_sha256": "516053444e9e6a7901652c1e41d33e4e743229e0c8ad7f2425e6507de29fec6a",
+    "audit_sha256": "e82e4362c530d1ed2c7663d52a22193a05cf20ce69dafc41e1af9b5f0092ff08"
+  },
+  "seed93001_attack0_timing1_censored": {
+    "decompressed_log_sha256": "f13305b93bc9deb6488ea7742072741619491331da5a170a7eed7a67f5043e41",
+    "audit_sha256": "be3273b383d4f58b45ff254a20fe5cbf41c485d01c14564702e6bc1b92731565"
+  },
+  "seed93001_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "5310af9c3665760905c509a023e78e8471cc5ff30d31cdd0dd5824701d7d0ddd",
+    "audit_sha256": "5a52145e664b5af9fed63609775a6a6aa8abce293152a27c823d9d6f33814ff1"
+  },
+  "seed93001_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "982dbf9ddec6088d06bf4937f734a42c798efd8aa60b336c43de7f4ed2f089c1",
+    "audit_sha256": "3d4fd57b9e24d119e987d91de2f8bdedff53f89614927c15896608cc06bf4928"
+  },
+  "seed93001_attack0_timing1_naive": {
+    "decompressed_log_sha256": "850fbd8c23f00e969e71bde4f21ae966f1a2eb958c6deb18942764e09b8662ea",
+    "audit_sha256": "cfa82c235a747fa83e657190c65868cfb9e203a650e3bb17e0dde6771e2d1881"
+  },
+  "seed93001_attack1_timing0_active": {
+    "decompressed_log_sha256": "5e8252b65e623bde90936820844896acf9472a930c5391bd5762609f091758a2",
+    "audit_sha256": "a03fa3a3421595a720cfffe577964ddf9c5662336554e77f14ce5da976ccc7cf"
+  },
+  "seed93001_attack1_timing0_censored": {
+    "decompressed_log_sha256": "43b6f59144d2892444d09d2f0a986cfaf6efe539916000d0a0e0e6ecb7ce80f5",
+    "audit_sha256": "f88b96caaf4be35bfbf411cdee0ee988e2d72c51cc6516f75db89d8bb4334dee"
+  },
+  "seed93001_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "1245e1ea22f60ad0df6778018c9f162af3c18f9500968340abf9ad35ede46e33",
+    "audit_sha256": "048e76812d2a4917f142fbf291315de2b850faf293f2af2bed3a0137f12575e2"
+  },
+  "seed93001_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "3baa581b23d93d099480215445496d9163623fd20629f5e075b98d7b9541dcbb",
+    "audit_sha256": "a658dc76b4772789ecf80778201873b76b3da727765fa708df3fc6916031f4f2"
+  },
+  "seed93001_attack1_timing0_naive": {
+    "decompressed_log_sha256": "dc251049f0cbabb6e5c894d9be6de5503bd0fa223d15f764930af9909138ae25",
+    "audit_sha256": "133fecbd926e1c5633e46b44fe77c37f64a699ab54abc619501a28daf4845107"
+  },
+  "seed93001_attack1_timing1_active": {
+    "decompressed_log_sha256": "cc97be3e0b5376181dce2d2b34b04e2af385ada95dc958a4dbe631d0e6cea234",
+    "audit_sha256": "d39d35706762f9960f2023e4f984b3358180edab2674d7c97d6f9054d140345c"
+  },
+  "seed93001_attack1_timing1_censored": {
+    "decompressed_log_sha256": "64119fb2ce3ce2a13df6d0507c4a9013434609e7ec66f1856a29bab68c69ae94",
+    "audit_sha256": "db88959a11f193987393c07ca75a8ca9512d735f0dc6a71df662a9211879222a"
+  },
+  "seed93001_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "eea3cb660629ad63bed28f6b30704bfdbda84e9a841174307a335bb3347230e0",
+    "audit_sha256": "dff02ed02b9d301fa78ee442bbe7e410b90418aed270a5e272c46269c2a5d507"
+  },
+  "seed93001_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "5fda9c87fadd699551b46f766825dbe8242e39c0efa6c6f6cb86a929d91d06ea",
+    "audit_sha256": "04f133e5ecd9543a5632232f9b16576a3c6fe438023931448cbd8e3c8be0a83a"
+  },
+  "seed93001_attack1_timing1_naive": {
+    "decompressed_log_sha256": "b266b908706970e2be81b366b1425143c290a94e072237310bfab84831878b82",
+    "audit_sha256": "5453d975a1f2c08455e499e4ee03a3dce6a7b1a420d7c9150534a3a39097df59"
+  },
+  "seed93002_attack0_timing0_active": {
+    "decompressed_log_sha256": "00d13816235e5eaed5d78c45f22a7ba086fe0365ac4bb62f4b8e7d2ded121d84",
+    "audit_sha256": "5b6a0b60b631edc463de3409941124974516acbd792fd5f5b06856a7ebd06e2a"
+  },
+  "seed93002_attack0_timing0_censored": {
+    "decompressed_log_sha256": "d8d073a4eb010eff4f2d0abe2063a5dc8e186cd0a5fcf9a88b6231fbf9d13167",
+    "audit_sha256": "ad3d0138022695158c7a56b06e24775ba234a135bb16ba30365604b6f4222d7e"
+  },
+  "seed93002_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "424e9f14d6708c8ae07b1a120fe85679a63201d6a741aba675b790417cf64a4a",
+    "audit_sha256": "293988ade8955f6f24b0f950ee996daaa42c875abed30124a320ddbb98b34f97"
+  },
+  "seed93002_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "5998028dd4d4fe13f9a68e7a74319b948615ab0ad36c6d1f59dbc40966cb2efe",
+    "audit_sha256": "6924160bda99981a9c4276843dcc8acff1b564c6fd51cb9e8148d42a53d1dd02"
+  },
+  "seed93002_attack0_timing0_naive": {
+    "decompressed_log_sha256": "a789df0e87d2bca8b6a97acefd31163f8f8de2d10247bba53f713050ab4d7be3",
+    "audit_sha256": "5dbd8cbe4850bc69cc27ab73e7b10f784b1194cd9a2c124d4fbed1782d2a6f06"
+  },
+  "seed93002_attack0_timing1_active": {
+    "decompressed_log_sha256": "016b1e4825e69f7eed49e88c602ace6b348f1033e3ec7fe65a8371501fb98d14",
+    "audit_sha256": "41346ae9d1ceedc1f05fbb32a14508958403d75b608c77d66f42b02d78a30d68"
+  },
+  "seed93002_attack0_timing1_censored": {
+    "decompressed_log_sha256": "ec4dfcee6f590cb6cba78eae70a948f80013502644ed078a696c96bdf206588b",
+    "audit_sha256": "756c598996b6b1c3b5fd07b86192f9a08d8ca5f98fb0c61dacba397a49a3c38f"
+  },
+  "seed93002_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "66e42000ca858cd6275cf6f4ee58081c3b84cb9408d6a23278356d48b2631491",
+    "audit_sha256": "f2d151543e45dd7b045b65d6800f667bd30a1bc6e13a9783b41c02a7794b4b20"
+  },
+  "seed93002_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "3ac2c874855fa906114b3880217bcac209791ad02d73bfc77917e2c79eb3886a",
+    "audit_sha256": "067b74286d138eab646328ead54974e0e3d5f07cd7d1e82f552a2c72baeee033"
+  },
+  "seed93002_attack0_timing1_naive": {
+    "decompressed_log_sha256": "0796ba810e15e46e2599c244c574c11e6525d3ba4bb289bb9ceb9db821e2960b",
+    "audit_sha256": "331758f8086193af842145e86753489e18711690fc317267d9f8d82c333f611e"
+  },
+  "seed93002_attack1_timing0_active": {
+    "decompressed_log_sha256": "d70ccd3ee4ae6baea211080073df3bb6e33a3ba8543229804b9e2b439d8b21a8",
+    "audit_sha256": "7970c2c8e89b212b48b2617e9be26b2ba7389def68f206fbfe4d5cd222846bcf"
+  },
+  "seed93002_attack1_timing0_censored": {
+    "decompressed_log_sha256": "02b585948c8a0fd88e6b34cff121b7e9d9bd795b883936a248f0f2d73ea70f00",
+    "audit_sha256": "421eaf6eed1d02b803d0564ba6a4130cf55b72d5c3425feca53f2e6627d99e45"
+  },
+  "seed93002_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "ce18df6f216230fae672f1d17085300a6c3e28a436e05bcf87f05a51622403bf",
+    "audit_sha256": "5e6ed0de4e7a4c26c73bddbfb5add2edb49804feed8e73c2e4b7f32d1c31bab8"
+  },
+  "seed93002_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "2923d209fc042a3c7bb79998a3a6a6c43eb4821ed612ebe61627f342de4089b1",
+    "audit_sha256": "0008f72d6d2061faee005f5000e21338dab12efcf9b17df291b87811e1890319"
+  },
+  "seed93002_attack1_timing0_naive": {
+    "decompressed_log_sha256": "86bd5131d69bba6642268c87ef3ca09fc1700cac50d4f5ed08b15a73f7ed0325",
+    "audit_sha256": "8aee38e44dad0b4ad2411dd14570bc6c5f16d0788bef82a1954d84f0538b382b"
+  },
+  "seed93002_attack1_timing1_active": {
+    "decompressed_log_sha256": "d6f86c9b81a1c2aa97609036605fedb8a977c02ce7b9fd03edfab34bd1803cce",
+    "audit_sha256": "7a88cb698bfba00844970960502f59bc4efcc5dfc8b9ce785dc015d39505cb23"
+  },
+  "seed93002_attack1_timing1_censored": {
+    "decompressed_log_sha256": "e464e6763249a844422f8197d4613fe9cf0e626c7b19a4b5a282168cf4e5ae5e",
+    "audit_sha256": "27811990f8af8a82dfa8e0ecaacbc0a4913e09ca48d38c7f8d20cf79e8509c9a"
+  },
+  "seed93002_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "9b9e10df6cf0b5a5fd33bdab26b14ad592e4c134c64244b6ea77707211d9b7ff",
+    "audit_sha256": "9f18f626892818a4243af66b35973444e932b2c1fb51905656ebddcd745c41e4"
+  },
+  "seed93002_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "dc08a55f91b271495efb4c17ff596d2d6eb66cef51d1968b9373cecb312ddbc2",
+    "audit_sha256": "941ad6be3e8fd6d360671370276ed49e926a7391160e236a87bc0034304d0e7e"
+  },
+  "seed93002_attack1_timing1_naive": {
+    "decompressed_log_sha256": "9cf95a471beb463a4fb048484bb5371d79687285f6817ad8de886de590f66cfd",
+    "audit_sha256": "8be736a81758ac7955849771a558f801c4111fd309c899ac72839a9f212994ad"
+  },
+  "seed93003_attack0_timing0_active": {
+    "decompressed_log_sha256": "ec020b81e60f77b55f75fe2f66615880bf17c2a129e01a13305431aacd2d8ac7",
+    "audit_sha256": "37ecdbb27e06cf98a484a2e43b4b709d0290362a70f44414ce2745611c49e489"
+  },
+  "seed93003_attack0_timing0_censored": {
+    "decompressed_log_sha256": "cb131a4de0c2e55edfd3b865d74103fac841ff1f86df1dad66dc92fa7fe9d3b5",
+    "audit_sha256": "2e67a7f569bac3495932fab4cb49957054b786a20f10279b33065547712bbbc9"
+  },
+  "seed93003_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "918d1de5e7e61a5b1cdaec3826a64222f89a0a528d0ae38c5ac61d359f0fe0b5",
+    "audit_sha256": "cb3cab9141e71fd6e3b13adcb276550fbe253884b58543b49367606e9b12fe2d"
+  },
+  "seed93003_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "ecea98a0e12a26c5ba26ef84a2c2a6b81be9c344040702337cfe833bcbec70ad",
+    "audit_sha256": "2a86668998e64b26aadc8738c2ac0288be63e38850e4c2a026010e58823199b4"
+  },
+  "seed93003_attack0_timing0_naive": {
+    "decompressed_log_sha256": "402bf539f7d5888cbf3abe4a97e499bd1ee262916be3bdc86fd5feefbde2711f",
+    "audit_sha256": "83c643d1ad3943cd18dbe5989d35d7586a2a87cc3a2d9f6303d9b7f64ee129a1"
+  },
+  "seed93003_attack0_timing1_active": {
+    "decompressed_log_sha256": "d2fa6c7b6c25bbdc45dd6a3d7c4506db9affc98fe49faeba45bc80497a972f55",
+    "audit_sha256": "8f9a15167189dbbef1b84859b7a56ad6e9a85282e8e0f3cc95a7414ce8705aca"
+  },
+  "seed93003_attack0_timing1_censored": {
+    "decompressed_log_sha256": "46c7cd4936e7aba221f6730ffd75572cfaada3ad0fc6bd261d5e31ea0976d2b0",
+    "audit_sha256": "4307c6ee04d553e1cc8ea2fdc0083a876012e0f8d5cb3f3b23097bcf663a4b67"
+  },
+  "seed93003_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "eadea7e8d4c237aec89eb8677b018a9d978e26f131c405311ac732fc16a4311b",
+    "audit_sha256": "8290e47d9c12ee3f569712150ec06f62921f6244283926025449ce5a085b8532"
+  },
+  "seed93003_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "43cff1ebba753d6317c3b6fb163604a269e565bc300a04c668b8f7c65e80433e",
+    "audit_sha256": "96b958214d8fcbfc3f7de94d31860856a99e1243d4325ec3fabc3886fbd58a47"
+  },
+  "seed93003_attack0_timing1_naive": {
+    "decompressed_log_sha256": "ae83fd0444068f9241043ac4ca19d7d7acf3a24f27240c2761f04d72c659014a",
+    "audit_sha256": "2635e989733e7639d05e7d6cc427e7065f7c86cf5bef1d2650c0312e74562e91"
+  },
+  "seed93003_attack1_timing0_active": {
+    "decompressed_log_sha256": "41422d9645ea1fe66a410ca9bb9afe66dfc9d0f5a08fbb3ec2d361c22df5df29",
+    "audit_sha256": "d3978fffdb4745d93bec16904a6af7a77d8ef38c03797a45784be947af0c3777"
+  },
+  "seed93003_attack1_timing0_censored": {
+    "decompressed_log_sha256": "cbd42d74a6c7c77dee296907176283a5b69649a90c6c6247dba977fa5f139908",
+    "audit_sha256": "efbdf0b2d866da9a1177bb7df794b16e2197caba08697b6948fbb325758279dd"
+  },
+  "seed93003_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "5d8acf20723a995bf6a6ca26d61860e8c73949ebbbcd1903d4282c89654ca8f8",
+    "audit_sha256": "16d9cb8e9409e750d84f98edf0ebb57dd3610a3682b832a07ccab789837bd37d"
+  },
+  "seed93003_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "f0ba7a200e1aa1f6e7be88095364b5ac9b8215db82aab9b40b51445819bdc658",
+    "audit_sha256": "16c849731f58a6d4e21cb45214eb0fad5cba898a6803446d3872bb08a14951f8"
+  },
+  "seed93003_attack1_timing0_naive": {
+    "decompressed_log_sha256": "e291acc1d843a9c2f8635aae89751207de1302b4e80fbe0b0cd7615886645462",
+    "audit_sha256": "9220b0cef9419c48f89154cb35b30ed80010386e0ec001617ed560e05989f706"
+  },
+  "seed93003_attack1_timing1_active": {
+    "decompressed_log_sha256": "387c76b94fdfc8a891301e5f75ae552365bf83afe23a3c23fec97953b02fa277",
+    "audit_sha256": "1d44b81496eb3b5523ec4360960c4225e1450e439c2a314108d038077ba56fd4"
+  },
+  "seed93003_attack1_timing1_censored": {
+    "decompressed_log_sha256": "a390c766a6bf77ab9bd6760c319aa63f2b96c1be2734bdc601ea4c87d8074e66",
+    "audit_sha256": "24dbf5097898f3cc7f6e18835080ebd51787f1e619e935ff198691702e76dcc9"
+  },
+  "seed93003_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "0d90a6f9731f63de308349dab2997df275eb1a017c6ad7ca1e2684351924a107",
+    "audit_sha256": "e41d88186ca96ebf3f28690697bd6705aa2289a63a97f3667312a6d8cb7597f0"
+  },
+  "seed93003_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "c34ef7123142ed9a652e5c94cee34d432c3d52565ed02f4cbc4fc8e917914e8b",
+    "audit_sha256": "48c05c57e0c662fc6fe5724f64ba30763df17041f82af63bc494e037ba44331f"
+  },
+  "seed93003_attack1_timing1_naive": {
+    "decompressed_log_sha256": "57698d58073dc79888cf33b7d87dd59c609bd4cab8323c34f5c69bd59b566578",
+    "audit_sha256": "7e61e79cae747bc76fa2181ac6822a89b745d2442f09d761a56abae6c4e3552e"
+  },
+  "seed93004_attack0_timing0_active": {
+    "decompressed_log_sha256": "f3132e651c4c8fa3d5e7a2dde04a7a86f880040258563fb0ddc68dd586004403",
+    "audit_sha256": "f08e778692b6be658962d7015a35cf6b082de4e2c4a0dee16affba245f65dc51"
+  },
+  "seed93004_attack0_timing0_censored": {
+    "decompressed_log_sha256": "250e8221bf54cb0db9382055ad2d717a56d37e149a81bced944cc875df4b8ceb",
+    "audit_sha256": "45c375bd4e6917631b2bf1170411e00a887b3877257078519f1778fb680f24da"
+  },
+  "seed93004_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "6a67fd97462208306e6edaa84567767a0de1d6ff1d2df7f29a1fac469bdf5bb5",
+    "audit_sha256": "5bd1acc6df56f2f1709082c49083cc7aa7e7fd8155a539b398340e5cc50ef4f0"
+  },
+  "seed93004_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "9971b917cfcc11e283a6267e119ef0d3ef80266ad1c9522a181a1bd9f156ca2a",
+    "audit_sha256": "7ee682510d164a601622972d27eb9fc85482b2321748c2be1a8d4080b9e5e80f"
+  },
+  "seed93004_attack0_timing0_naive": {
+    "decompressed_log_sha256": "73d45ce880f0d01cca728e439528da0fa5a68adbf5fe6e47b7b35df7b1126461",
+    "audit_sha256": "d27cd2ed0005b394b0f5f1654582a13096051319d3c3099bc90e50d032c47470"
+  },
+  "seed93004_attack0_timing1_active": {
+    "decompressed_log_sha256": "4977f740f5b3a01e2e78047cd1f9231c3f15faf230cd4bd2b13b6f877c532eeb",
+    "audit_sha256": "48bc8ce38e73ccbd2bbd9c5ac25e3ac84ee1953cd7c50444a63cd4c7df35b22d"
+  },
+  "seed93004_attack0_timing1_censored": {
+    "decompressed_log_sha256": "732010b736f0a94307542c599f164677dbb8f625c451cb0336e9adb06a0ef422",
+    "audit_sha256": "8fe684f4ce1070d203636169e98f3a3d03527c8b99149dc2690b3cf09fbfc564"
+  },
+  "seed93004_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "ca5d3c55470abda1da9d07b9bc6c59371e42d17b686a7f7177c8df5101b1a9fe",
+    "audit_sha256": "e1649713883786ed700b32f03a33c997b90af42b16a2d5678607868dcdd1713d"
+  },
+  "seed93004_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "73ad0366abfb387e72f482aac3db671995663212b90e09d97e0bca588e2d9fd4",
+    "audit_sha256": "0b22ac3d8f187f63a25cd7bd77e941c6e9f4a2803f691263e2ec6145b1a02c3d"
+  },
+  "seed93004_attack0_timing1_naive": {
+    "decompressed_log_sha256": "239bd1fd5d41d49d032d6f425f3246c0419c85ec05f6d3d48ecb62af3473987a",
+    "audit_sha256": "b4806fa09a981563c267451f2783390e0336b1f600346fe572bcc462415b7bc3"
+  },
+  "seed93004_attack1_timing0_active": {
+    "decompressed_log_sha256": "fe711e4d2b49fd331c8914d9e58116811cbd331959824c4f1da261dbad0d6de8",
+    "audit_sha256": "fd1ceb8582f9922840653ee1eb997cc38f003aa7cf51ca1032bae279ca80c30e"
+  },
+  "seed93004_attack1_timing0_censored": {
+    "decompressed_log_sha256": "fcc681320ab989ab3bdb4a580136a9a15a9c9dedecc6cc332211d4967f50a53d",
+    "audit_sha256": "cac4bbb372e818fc6b171bed92a73fce0cb14a3e1b7544b701317c38f2b813f3"
+  },
+  "seed93004_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "ee636eac211d943b6f25e6d9391b7c397ba80b5cb3550c34e2e802c1d570e592",
+    "audit_sha256": "ba3696650e7879add39c4993a5f9faf6dc1a63fe9a0467e7d2483a6bfa6c23b6"
+  },
+  "seed93004_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "dd777895395e48a9ce001dc7467a45192a1f339b53a5b69b5dc01e5e4996d267",
+    "audit_sha256": "d26a30cd5da7f8e2f033d865e70a702145bdcfbdf8b291ca824a1a0eb590dc27"
+  },
+  "seed93004_attack1_timing0_naive": {
+    "decompressed_log_sha256": "322e6ebcc63d23e5927abb3d0830e68cf129386074411f53c372c6004c5ae633",
+    "audit_sha256": "4a84254dc4dfad62d0ba74e75c792fff4c0094fc56164922f8f93321622ac1b2"
+  },
+  "seed93004_attack1_timing1_active": {
+    "decompressed_log_sha256": "cbbf6c4bb4a78a1bf7e2599386730fb9c814d0f6f94d19c3770f75e6d5d422e5",
+    "audit_sha256": "47df48e5c85b725e57ef526516284740e289dd583da1059b9a631728bba5af77"
+  },
+  "seed93004_attack1_timing1_censored": {
+    "decompressed_log_sha256": "7ed3c2c509c7bb4903fa08ec200b6b75f34f2494c7da527f4c8f8364a509ff7b",
+    "audit_sha256": "f1b301ba7af92879a27913e48f12808e53b4bf217365a3b04bff141af47befd6"
+  },
+  "seed93004_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "46e3fa68c9c76e1252c002c2ab479891fc2f1fb5564668cbdaa01f7284edc88b",
+    "audit_sha256": "5efca3f5887956885c31ed7cb9fde72fe411ef5c8cf248c25c871ed3be1b1f10"
+  },
+  "seed93004_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "60ffe4b57fe838cdd12396fb7b0283047a6db440736912b710420a208731fcf6",
+    "audit_sha256": "9cc371841fe89fc50ebb125222216ecd21c775b7dd42d29384787c0b6c3ee900"
+  },
+  "seed93004_attack1_timing1_naive": {
+    "decompressed_log_sha256": "186242fdbafcd0365d7b27a47d418c9607f1fdb76419425951e39a3e59a40840",
+    "audit_sha256": "8a390bd1c99777689a9155bbb2e6302dfd60c294b3daccc87f75169809371354"
+  },
+  "seed93005_attack0_timing0_active": {
+    "decompressed_log_sha256": "59c8b27b5d1f8ff7be00d80274a2076c13ed8eed5e21b17ddc1fa0c3fb4ea78e",
+    "audit_sha256": "edef9cbfb81f0524f02c530eb8ac309d433f90539307b9695330fe7bd1bd608b"
+  },
+  "seed93005_attack0_timing0_censored": {
+    "decompressed_log_sha256": "8d32d1027cb5af70a5ce3e63524d85a6f09289071810cafbb3f3ffc1e15d5eec",
+    "audit_sha256": "96b14f97cdb603b87ad08abb57f0758e4cf54ad26332a450f6e0fa26c0c20394"
+  },
+  "seed93005_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "9724ac4fe3d6c8607ab743f63a6d9363978dc8af5d97b8faf22e283b60a50ef9",
+    "audit_sha256": "fd3bbc965a4fc8168270e56cf7e33c366805fe7e6a715352f14965baf137d18c"
+  },
+  "seed93005_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "2294eba780ba1a1e0109f1e2ad6ea66d71afbda36a409a22fc8b339fdee9ffde",
+    "audit_sha256": "c5e6464c3dd4e0907ca651d77a0dbd8188ddace03771a8154a5b04f6c7a6e70e"
+  },
+  "seed93005_attack0_timing0_naive": {
+    "decompressed_log_sha256": "3c23387246154ad9657f10ed18cad84f25c12931e41b0ba5f5889d90186beddc",
+    "audit_sha256": "dbc1f867f18a263f09d6d880a942e7edbb41e1c2f00831a865dc908e4f7700ef"
+  },
+  "seed93005_attack0_timing1_active": {
+    "decompressed_log_sha256": "59194e77e5ca9ae1c77e01871e95166a5f87c783f843757f4c247848f563cebb",
+    "audit_sha256": "266c1ae4dcf6b1dec889272cd1e422b98c83418d82ca9606d271d4ab6406e9ee"
+  },
+  "seed93005_attack0_timing1_censored": {
+    "decompressed_log_sha256": "b17ddbdb26fe3d5c77653cccff6d5d8cf4c83631b14e898abd1e1c4ecd70e8f6",
+    "audit_sha256": "f83ca0313e076526ae731c9a5ef4b4f09e88a6ae487f07a50e036988050bd5be"
+  },
+  "seed93005_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "391575be9e96d05f69ea539e1d34ad788be1f5a200c0a165da2db149360db33d",
+    "audit_sha256": "3ad1b0a4549e88e2bcae4a092fbf26ad4ab537df481ed39f99c2eef2842dfe5b"
+  },
+  "seed93005_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "aefeafe90e827767ce53d2e271f971fafc196a5aa62308627863e46eba11136e",
+    "audit_sha256": "ae2d225dfe83c8db91942c00ec3ce4dafdd3985c3ed6281219a09297969e4b4a"
+  },
+  "seed93005_attack0_timing1_naive": {
+    "decompressed_log_sha256": "ee8f025d24b7f76d803eb260ee0a23d0dd85486ae8662144e9bd9e481761f987",
+    "audit_sha256": "744697b0127db422e53728027133069aed62d7ff1d319f6b3ad5e41f0194fd02"
+  },
+  "seed93005_attack1_timing0_active": {
+    "decompressed_log_sha256": "26e3727eae212f39c75dad0d830885489e5fd6ef761620011c4fc79e1d86b594",
+    "audit_sha256": "38f5f4c3d4c7923c8ba2447f1f91a49ab9256987141539b4e6b05691dcc5a3bd"
+  },
+  "seed93005_attack1_timing0_censored": {
+    "decompressed_log_sha256": "601fd01d6dd9e4f8f3bc1a724f89141eaf5f25b2fc7cf47d593ee0bb9c01d82f",
+    "audit_sha256": "1074d222bfcc45fedacaf9095bc6bcae81c0070002fd466039978e56a220bacc"
+  },
+  "seed93005_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "2c85699608947ccdee040da6eaeda386fc5a2ebfe9d957f24a8992d9cf9579ca",
+    "audit_sha256": "7ef6a8162ba920b300b9b24a1774415507fd741db22f57737de0aca63850d3e5"
+  },
+  "seed93005_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "d48608517f3afb34b1763d13fa4aba1cf70512d137211539f7226bbf77554126",
+    "audit_sha256": "1c1717d1e7919a1cf1fb50ecae8670c8ad5f890e2089e1975ebc2a2fdaac3022"
+  },
+  "seed93005_attack1_timing0_naive": {
+    "decompressed_log_sha256": "8d8b19ac97d901da1a3813532682c69c0f74f65254b0160d055d19d638a0bb2e",
+    "audit_sha256": "ab39f9f4efa3d212ae73335d7c954c886c758d76d1efa5e081e37fbd35e075d9"
+  },
+  "seed93005_attack1_timing1_active": {
+    "decompressed_log_sha256": "a1c1c0f0ce631c939cd794243e050a7136b8fce4c6befd440072b64531664790",
+    "audit_sha256": "761563012286b8811ee5a14463e76eb14dc4229d30d1ae7b7ed2fa72bf6e137a"
+  },
+  "seed93005_attack1_timing1_censored": {
+    "decompressed_log_sha256": "e174e9ffe815ceedc1f0216ad10e6e0adfd9c08786e360941007e2d118ea2816",
+    "audit_sha256": "094d107595a3c0a189bf27a67e1c77ebb085f7a4a43288bc2259bb0cad22c1ca"
+  },
+  "seed93005_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "85a4bf7237d027b3d9bc2f12e53a72ee09124269251d1d989a766d0ecb583261",
+    "audit_sha256": "71a5950ad2ee7885afd46148ac9a8288e90834a50e512409edba3b8b35f0552d"
+  },
+  "seed93005_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "ab1654a073217d098f1fe3f05f30e1230b25439afdb251a4e6b55aefe25686d4",
+    "audit_sha256": "0456aa3d45836e872d5aa18bb6d5964d304aa1444d32377b668c69834a378347"
+  },
+  "seed93005_attack1_timing1_naive": {
+    "decompressed_log_sha256": "58eebd1001888138170a775d49520a3091cde5a2fb85851c2cc3571edfc772ea",
+    "audit_sha256": "2f218e5f33c71d8f5924438a3e6b9a48f5fcde649542310522a79bd39d5f613f"
+  },
+  "seed93006_attack0_timing0_active": {
+    "decompressed_log_sha256": "7586d5af667ca00948ecca210651e2e80c17d15770f1deedd47e95986182f003",
+    "audit_sha256": "3cf06d22f15c4ecefbd70640d2684017f79712b66ea45ed4ea4478980059a273"
+  },
+  "seed93006_attack0_timing0_censored": {
+    "decompressed_log_sha256": "e91091c605ef3d10722ea850672f2416890a51ac8b0e8ecde1ade1b337d45402",
+    "audit_sha256": "ed860e92be59b768d8d92344f3ec62b824d2b3403593944d16054cfd5f3884ed"
+  },
+  "seed93006_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "7ba5c28cf4b48ae42f5e3e82d6c0711c835e35efd30fcbb05c1d3630832720d2",
+    "audit_sha256": "17a97be12db623b36de8fd0312bf40305f2539f603cd32aa2612fca026c2ebbc"
+  },
+  "seed93006_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "76a5d9e29a14dab6559a6a57f84abd4aee0a21cdea82d89c8dff06431b445342",
+    "audit_sha256": "175cc199ffe06a6b15ab98ba2f5ed739d1d52bff7209985296cab791c919df66"
+  },
+  "seed93006_attack0_timing0_naive": {
+    "decompressed_log_sha256": "f320c536465afec543d38a10e99b5813a0e45d9acf703ef62a53c93ffd8fb836",
+    "audit_sha256": "1c40790bea87f7620695b35e33485879b0b415bc6edef8d8173ceece1f2b5b43"
+  },
+  "seed93006_attack0_timing1_active": {
+    "decompressed_log_sha256": "5a13aed4e4e6809d49b19636cc944e3d29473046966555de876d8371d6fda3a4",
+    "audit_sha256": "d7093943dac8d3e749ba655f82e3bb320c084cd48958b31e8e60e3b2d8ec2193"
+  },
+  "seed93006_attack0_timing1_censored": {
+    "decompressed_log_sha256": "d5b4202a1a597206936f62e73afdccc13aede154f026ccf36705c7af29a43979",
+    "audit_sha256": "f51df5198d46fd1c921fbb1d062b8e9aff25e171802f2d312ad5431fd22fadd7"
+  },
+  "seed93006_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "c06233c6d53ebcf483b1cb95e11da733358c2637c4765d5c2b92038d519f965c",
+    "audit_sha256": "28574721a24728101fecbf2e2e4e7ddfa8ec484f326800d4d8b7578d23690334"
+  },
+  "seed93006_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "130e957524a3ac3afad52de18c43504da5eb548873d95df0777387712ad1811b",
+    "audit_sha256": "95bb46abf9058f8dea2ebdf6e290484b37c35d16ce0ed68b1d6148eca232c327"
+  },
+  "seed93006_attack0_timing1_naive": {
+    "decompressed_log_sha256": "dddda7a8c0869ce1555656e2ce1c22bd6f8a480c00dda60a956c422ec28fb1b0",
+    "audit_sha256": "2e29c5b548569e7b9171bcdd1081e9be1c723beb7e9e8c3dd11a2a589e4e10cb"
+  },
+  "seed93006_attack1_timing0_active": {
+    "decompressed_log_sha256": "12a6c3fb26afd0b35f1bb435cb56322383bb5f938f9a155284802157348aea5a",
+    "audit_sha256": "c6a457aea453e33d3a8c377d9f61392823203743a783db8d619f2dccc44bc87c"
+  },
+  "seed93006_attack1_timing0_censored": {
+    "decompressed_log_sha256": "807d7640f5c3f32626211b1f3e81d220c590a49536abab5d948300a573fcbe69",
+    "audit_sha256": "f555947c6dee10d6f97f7e1e47feeeb00ba7882f8780eb230bfd27c1842f7a68"
+  },
+  "seed93006_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "cac82f2abdbfacd807127d2be19401238f48dee68b80ea2b16e6985b11e6b0b9",
+    "audit_sha256": "49f224ba6098576d92ad2289a4d1873bf556865a47f879d4081545fa0b2a10ad"
+  },
+  "seed93006_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "06fd008d2b1c714e8ba22b9f89c25bb62160bce0df769d95d7d383d3f90356ad",
+    "audit_sha256": "907a80388f9e79c5e3d2c95ea6e0ce406b7227a980303f7d170b7c7366abc2e0"
+  },
+  "seed93006_attack1_timing0_naive": {
+    "decompressed_log_sha256": "cd9fe47361ed4f2ced29aa8e41381c7ba84e5aa6811f8a324f9bce069520d8bb",
+    "audit_sha256": "d94224caa60bed2e410e0a0ae49125ee2d768ae9641e6805e5ac41ca9e29226a"
+  },
+  "seed93006_attack1_timing1_active": {
+    "decompressed_log_sha256": "a14275dadb55b4dec41914b02e5d60787318964ab41d4573f84b35ee06942d81",
+    "audit_sha256": "2e6d9bd4f48b310b6e815b944a32ad283a7b10f8ff8289b3199c61942d4cb723"
+  },
+  "seed93006_attack1_timing1_censored": {
+    "decompressed_log_sha256": "1375369356f1a9b3af3d199df7d81f481730a42972d9039141aea84c68676e91",
+    "audit_sha256": "742c9c747717c5c54596e186d09b4d665820f1a493cde1fcd2458c61ae2ba764"
+  },
+  "seed93006_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "ea2709944cfb4ff265952a536e6fc1bcbecfba0507343a2d374165b8b5b9968d",
+    "audit_sha256": "0a96bbfc15b3d8fc13512879a32120f2b364bfee7188d89f0a9d0f53f95127f8"
+  },
+  "seed93006_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "07baa2bb1bee72246861bfbbe261c240d7a84d1da2aa6e543709d78457bfbac4",
+    "audit_sha256": "ecaf7c60d92fd9cf469247dfc2a0ded47bfd00a7dfd8ce41eddeb66a37d23d91"
+  },
+  "seed93006_attack1_timing1_naive": {
+    "decompressed_log_sha256": "be70ef264eb91b51052b1188ac1599d33c28e37731d55ce0890af2f7656c19ff",
+    "audit_sha256": "684238bf44a4e66059b2652dba7c16744db34b7848492654b7f2c1c86b3f53d4"
+  },
+  "seed93007_attack0_timing0_active": {
+    "decompressed_log_sha256": "ed4da29d08244c2993160d9208cf58aa2864325e6c1578702cd105f1dbf1afd4",
+    "audit_sha256": "f06cd2e0a3a0aea25305eb11ef23907cb5c84ad05826a776ab3d0e667faab4c3"
+  },
+  "seed93007_attack0_timing0_censored": {
+    "decompressed_log_sha256": "caef26aa58617c3d2c71dfbcf6f0b83775ec29afc1e68d8b45d81aa1cf1bee89",
+    "audit_sha256": "45002db06b87404aa795dae5b2169ddc5f2f5ec0a437af2bd45070836eb65c1d"
+  },
+  "seed93007_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "f81a93f1351341b8f481a8066cf3dee5195ce98f3af4b5686d6d6faee4f857a4",
+    "audit_sha256": "b51a2c387c2c6d61fa5ddfa2447c98ec8045591c0e101f6d0f9a95cfa7f1da43"
+  },
+  "seed93007_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "964f2b78a21c4990d89c9d62ce22c6157067f6cdb2ea544629afe14ccac22007",
+    "audit_sha256": "2ce63de18fa4b2522e117600507a89767fb83dda56ee79b12c4d1551118ad685"
+  },
+  "seed93007_attack0_timing0_naive": {
+    "decompressed_log_sha256": "2439d5b652d0826d90fc49daacddbe68b90ad3f29b05b1494ffd3355f2868ec1",
+    "audit_sha256": "d6ef00a23bd95eee9c724085fc9b4548076c32fda398cfaeeb4401efd36306b1"
+  },
+  "seed93007_attack0_timing1_active": {
+    "decompressed_log_sha256": "516ad701434cfe37d8baac680e32419abd76019b898717a5e99c87f158667599",
+    "audit_sha256": "ebd90472436fe2c519846295be13892843b1bf86429b8554c6fcf83fe9849285"
+  },
+  "seed93007_attack0_timing1_censored": {
+    "decompressed_log_sha256": "825de6da4908615d338fc8b73aa7545dd2750262c1cebe2aca090d251d1b7ff2",
+    "audit_sha256": "7eb9619e12093e8ae5ab52cf1f0652c8625e2f3cb6346d1b08ffa6d0cabcc18c"
+  },
+  "seed93007_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "66d4f4327ce36d5609150771c67fbcff4349f74e839f2cc5e5fc4d61432674b1",
+    "audit_sha256": "d2d6933a6e47eb902c3568f429d12c3c91588674a4ff04ec67a7fb4992728138"
+  },
+  "seed93007_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "b84c3d8311295d0b20a80b96f1117660b3af03af41db6c4c4582975a9da351d9",
+    "audit_sha256": "9cd73a4c7569a63d74962f296b664872c736c881e0f455af99a95f094d153f58"
+  },
+  "seed93007_attack0_timing1_naive": {
+    "decompressed_log_sha256": "5707c053cb5e73de9277fd3e52b734057cc5e71b852291a98d81a88e07748dfd",
+    "audit_sha256": "ee22f91ebba1d322d6d1a2aef95173772c61e763b9e364b6e4a98fae163a0c75"
+  },
+  "seed93007_attack1_timing0_active": {
+    "decompressed_log_sha256": "a0c5dbcec4023fd1232132fa43791fee60b6ffca824c73f1f24f7a99a2d52bd3",
+    "audit_sha256": "07ac3002a0e6b3c0ab8e18e1eaa2f32cf4bb3f0c434df28f5038874c25d179a1"
+  },
+  "seed93007_attack1_timing0_censored": {
+    "decompressed_log_sha256": "aa853d6da7b54182756997684f723bd61c0b3c945a3aedb19fb5ab172adbe277",
+    "audit_sha256": "f4f907439c5331f62f07cd81b6c84093469d5a646d15a65ce33629d98f4fd43f"
+  },
+  "seed93007_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "8551ec7890d9264215ef487e10203591591d44ea86b7ccac64aedcc9c0ff0f2d",
+    "audit_sha256": "47122058bc0e6d1ee0b663026e397688ccf4e2285532aca3e7760588caca3ae2"
+  },
+  "seed93007_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "26238fba907bf2906f15ac0e05284a4f0b77ed01bc921976d816a6f2096a8592",
+    "audit_sha256": "5a46ba01bfc1cbe6d082fc7ae85073a91693a8ee1ea54b9ce9425ea0f792ffc2"
+  },
+  "seed93007_attack1_timing0_naive": {
+    "decompressed_log_sha256": "83dbdf7a3bf05ec3a38689721563ab49949b931327c002fbac455e9674a68bd2",
+    "audit_sha256": "43659a09304d7aca595e94eb0c1541b98b85bc417fa5777e9510f637f26741b4"
+  },
+  "seed93007_attack1_timing1_active": {
+    "decompressed_log_sha256": "fe638ae7c67a7e2f83d2cd5ac47364acaf1012b7024b7a1508eef82a62e45963",
+    "audit_sha256": "1a0a722e2be599ebd26bb3817637e346f093374e7a08686bc4d723a847e122bb"
+  },
+  "seed93007_attack1_timing1_censored": {
+    "decompressed_log_sha256": "bff5ae489492ac938e76bd09e47e2d017ce3eb1771a5b119bee5cba42bcfbaee",
+    "audit_sha256": "e467d7b982d7c284948c09164d5286545ec90bc656b27c7cdd1c67bc41eaeedb"
+  },
+  "seed93007_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "b7e7c24ce8b93476f24c9e5ab24be198eb03a7b463acecf977be293e7731447b",
+    "audit_sha256": "c7cf6fc0f744b2ff1ec1b0473350dff6289de6d61519769478cad7bdf49b836e"
+  },
+  "seed93007_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "7def5bbea423fd6bd19aae4beffc8414cefc5ade6f14ec88145acf1ee1f53f2e",
+    "audit_sha256": "e03bdec9181636a69908dbab71827768fe49233eecf30d169be178851145f551"
+  },
+  "seed93007_attack1_timing1_naive": {
+    "decompressed_log_sha256": "67cf2073d42b877e6530c21e1a29bc17852a0de8ee045e5a182986283bab10a1",
+    "audit_sha256": "a380d4d4b9d57a7f499af8b7951a093cf6a379ac7a3575898f32f8f91b33a210"
+  },
+  "seed93008_attack0_timing0_active": {
+    "decompressed_log_sha256": "8cb03d3cd1f752a42bba60c3ed290a11dd9044f15b84176251eff18f5eb6edb1",
+    "audit_sha256": "f5b655d439b68b5a6faffda3df892c8f7ee39bfbdc94483a32eab3564a9d25a3"
+  },
+  "seed93008_attack0_timing0_censored": {
+    "decompressed_log_sha256": "3dc174162010cf37234db2d3b377ee2b1169e61358635b8bfbae9d69500d372d",
+    "audit_sha256": "5f0decd23d43608b35d8fd677f26f6b43d69455c5ef3d9719cfc6bffd553d362"
+  },
+  "seed93008_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "21a545d9ad3af4e390e662ae975ad48ea191434ec3fb37e7a71dd2e6efa4299e",
+    "audit_sha256": "ce42a8cb306767ead869b0ca4627cb3c6b6e22c387ffe78a6b0d74b943a08bcc"
+  },
+  "seed93008_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "551597b59056613da9c85f770552cc73c2e53c0a59c9ba3cff6f19bbe88aa1bf",
+    "audit_sha256": "27d526a30d86841471f0448576d4044f35387a7479cd13ae5ce0c9cf8ff14b7a"
+  },
+  "seed93008_attack0_timing0_naive": {
+    "decompressed_log_sha256": "c9f0da52ea0a14fa47b0ba3708810f253a6fd154046a443965589eec27b50a64",
+    "audit_sha256": "598e9e8aeb235552666d4ef17e6a9faafd3c572b4852ba59cb04bed30fcf9469"
+  },
+  "seed93008_attack0_timing1_active": {
+    "decompressed_log_sha256": "c12427db34df5ce03189cede4b6e2f3af59e822cc827bbfbc710f98959ca5a45",
+    "audit_sha256": "6b8427eb730b2c809d02a4850c0f642d8b66a65515f030909526cdf82bf04df3"
+  },
+  "seed93008_attack0_timing1_censored": {
+    "decompressed_log_sha256": "849b223d34aaee354507cb5adf4d7f2152c7a555ddf3d6e67862e5bf01276927",
+    "audit_sha256": "630c2d252c96c8e1d3a770143c023abbd98b701abb22db973031c6e893c1f63d"
+  },
+  "seed93008_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "8a1ef12a6d2d3c93e37d902a3d86326713f93ba6d59186b19240d74f604abbec",
+    "audit_sha256": "837122eff57f186e35c90440f4a7d7efe4c519a0e19d571af6d16e637dee6fda"
+  },
+  "seed93008_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "9d5861b59775aa1957adaacb6e5b966530613eca60fa9491902ce76e497adad5",
+    "audit_sha256": "256e747b96ec710fc4bb9dc05b211db3d2fb497af5abf62a164c2bf91a485387"
+  },
+  "seed93008_attack0_timing1_naive": {
+    "decompressed_log_sha256": "9620f7457e8223d70af2575ca5c54263aace6cf6f56b1fb088f233bb26512b31",
+    "audit_sha256": "41680a547e947315b0204bf47004fa53d556e92ed2ff2dd7cb85865fc1166e30"
+  },
+  "seed93008_attack1_timing0_active": {
+    "decompressed_log_sha256": "d576c71a31d20467244a5d64dcd495f52aeb75af3b7ea7384efb59b2f6008d9f",
+    "audit_sha256": "d9a5139721165a1fe8fb268ab61ab20aa69e2ef95d2e936abcb61ce4299ffc50"
+  },
+  "seed93008_attack1_timing0_censored": {
+    "decompressed_log_sha256": "9f23d82d9c4540393943779fe639955f1fdd63c5337f0683b9c388094022fff3",
+    "audit_sha256": "1821b45e10acf8a2154ca8a2c946e493a68680638779fc611589432f4f4a36bc"
+  },
+  "seed93008_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "8080ad583ab184732374e99ab5f2f9eadf12dac2afb25bcef84acec64ab4e25a",
+    "audit_sha256": "21fc0e1be9be2d2b4f2c4c57d1c63e5c52f427f0594c657e40d53d212a5c2635"
+  },
+  "seed93008_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "92276d460da0f081a72b87f170699ca1e99576cc5faffed1cd1277cfd7728a86",
+    "audit_sha256": "9cd565efbc1fe73e608684ef08695346085bd9d8a3ebb5e221eee15f109488dd"
+  },
+  "seed93008_attack1_timing0_naive": {
+    "decompressed_log_sha256": "0de75306c4c868cf1d3252bd0eba8397dd71633850c7790f7c1734437e1732ab",
+    "audit_sha256": "f04ce0e5973775422d8b497c47e97e0e52441a1135607e94d89e211f31923f20"
+  },
+  "seed93008_attack1_timing1_active": {
+    "decompressed_log_sha256": "a0de66aa4683403886a7faffe4d1f4bdcc2713cc39ec1c945d8700bd55373111",
+    "audit_sha256": "a1e5aa9f424ada53a9824311e3a1818361f2ef34e9799c7e7a9a2e025964082a"
+  },
+  "seed93008_attack1_timing1_censored": {
+    "decompressed_log_sha256": "d96a1faece17c4ee5bb6f5b375a0d0f16831012b453140ee4da16997a96abd0b",
+    "audit_sha256": "6d62606543f1b9993dec183d06d37acedf78c5d690edb110166d5ac066d3d5e3"
+  },
+  "seed93008_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "299e1e2e010796cc34f13a7ea2e6023bf39c3b7bd6a3decc7aaa95d6086d1db5",
+    "audit_sha256": "8e70ff3782de51953aec8e397e52004d7e1d4e2539dbc14defab81bda09e1488"
+  },
+  "seed93008_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "3e4d27d949389d13b8d708ef2711a29755aff59d02966c5e98211901e9cfa002",
+    "audit_sha256": "db2147584ce964445dfbb022d87415bf2939fef8dcd3e23700fd7a573def5370"
+  },
+  "seed93008_attack1_timing1_naive": {
+    "decompressed_log_sha256": "e556a6b558e30a634e707570588c724018e0fbf7c1404b18f80c450b26c5dc38",
+    "audit_sha256": "481764650d7cf843e99d0138a88de019c126046998877eac1a9f7f1a067618d3"
+  },
+  "seed93009_attack0_timing0_active": {
+    "decompressed_log_sha256": "1515e50fb916a6a8c84caf841bc2d5f30f051373107f89c2155633166189d2f8",
+    "audit_sha256": "aaf3719d84ede8279127dda7b90cab85c95a98c44c1cb3d38d0f26d2128e09bc"
+  },
+  "seed93009_attack0_timing0_censored": {
+    "decompressed_log_sha256": "4899384a0424ca4e813beab9a085b0fe56f2247d0191021adaee09be33ee4158",
+    "audit_sha256": "36790f857fb3400154b73cac824c8b5c91526e79c1dc86a0b6002c860feca2e4"
+  },
+  "seed93009_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "55894a3a59c49a6821a52278eaf85048819794334fdc5aa2d332e54d4dfd2cc4",
+    "audit_sha256": "8c33b64091eb8440f9a6f4781436248c1de6d9a7ace57c9a7233cd0f7db4fabd"
+  },
+  "seed93009_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "5270a4b4cf95fa125ece9c1a5d657cc68cd27f5819a5e33fc95a203a39ce0b75",
+    "audit_sha256": "877884964a3d03890c08f174085b9d7b089f8a7a2d52259a66bc8c88dcf77030"
+  },
+  "seed93009_attack0_timing0_naive": {
+    "decompressed_log_sha256": "75e3ce683563fac6e5cb0e9b16d196bce792b89c24c9f15a617e687777477739",
+    "audit_sha256": "b4488401a5d5236c548f99b9fa2fdb17b7cce3f9d45375207957c8444c4b24fd"
+  },
+  "seed93009_attack0_timing1_active": {
+    "decompressed_log_sha256": "cbd7c60a9848a56cdbfee936769dcb0a12ceedd87c0b4f8bea67e8ceb5fc6b00",
+    "audit_sha256": "8f54165a9eb91f10474d173cad159ab6daf929421bfc5aac5ed7753acc6caf26"
+  },
+  "seed93009_attack0_timing1_censored": {
+    "decompressed_log_sha256": "721c52613ca388aa2781e63924c8d83a4bfef480a1afc91d22c89f86fc374c46",
+    "audit_sha256": "7e43beee0ca4e61ccce336cbdbc68358bd064ac2598f4447345bae7fdf2ece6c"
+  },
+  "seed93009_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "20ca05b2dc633a2222683c6be7a7f5316343e7821d1a8841702957889532c62d",
+    "audit_sha256": "a0c97668e5ef80245c7b87c2c67917c51bedd01aa55e8767f1ef4fe63b785c5d"
+  },
+  "seed93009_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "4fbcd1d631bbacf1c7209f3da238f47c15b0adc8c9f5d21923385d7a4e89f354",
+    "audit_sha256": "36308b69372aee3edea67c9df19a9ee91d4e188e1e5f17c801b6ccde8015a783"
+  },
+  "seed93009_attack0_timing1_naive": {
+    "decompressed_log_sha256": "e83717ef1ef644895701d0b14331cd620df185aaac0d340ac02512b4680b8569",
+    "audit_sha256": "5942ae9e285851d181a3bf912d11b0e4262a43af0f8f3e962eb977d5d8a778b2"
+  },
+  "seed93009_attack1_timing0_active": {
+    "decompressed_log_sha256": "d7e655dc4debdd6eec99736af4e55ad6bb5e5daf132ac48c3331c3b487a3a204",
+    "audit_sha256": "29b3f3536cf251cc819ae491c540b4609fef0d043af0a230a6a1190ce230b1a9"
+  },
+  "seed93009_attack1_timing0_censored": {
+    "decompressed_log_sha256": "d28f10bba8f09935f791795bdc1423af0e09cd9c6612a4f2d8d8cb3c7a9eb477",
+    "audit_sha256": "49efafc591bd6855725bf7cffafe98d4f69633973a41bdac4a9b9cc6846d8399"
+  },
+  "seed93009_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "06aece3599da3537b1f7e49b1e742ef07bf5a0c33bf2cb0c062d694ec93edb6f",
+    "audit_sha256": "c71f6702761375ee968681813edaf1a14c27d4c339181fee09e7840c6e92f8f4"
+  },
+  "seed93009_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "1159f4ad9faf9b79b39700f0740abe0375a0347e31582e449863dc412d470edb",
+    "audit_sha256": "ca7d3cf29ba0a43e9f5a07db9bdd913310de867690921c4804ec97149429243e"
+  },
+  "seed93009_attack1_timing0_naive": {
+    "decompressed_log_sha256": "25789eab47684560212a7ebd090f68573c600d12672182560fb32edc5d400642",
+    "audit_sha256": "5540ee4d71a65b8fc7eaad66250ba67419420628563c0c193077f17f7182bc9c"
+  },
+  "seed93009_attack1_timing1_active": {
+    "decompressed_log_sha256": "58b5cb18f5abd35f8c87910c780782f1e6c3820d9a81eb7e90fbecfbcead4a3b",
+    "audit_sha256": "01d5ee24d91d359df2adfc20fd778e9dcc793e13a761bd034c38a9271f875bb5"
+  },
+  "seed93009_attack1_timing1_censored": {
+    "decompressed_log_sha256": "2d8910a039fafd5832f997069acc64f1806c6c5f18d54e53adadfe2c8a75e80b",
+    "audit_sha256": "2ccbb9164fc4449ae2111e28d977117548b3313fb443925ed3b10b13752f324f"
+  },
+  "seed93009_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "66f9d7969f0d5b2c86db64fcb4de958ab95a3a6f581719d24e45913b666119a4",
+    "audit_sha256": "8eb16472a9aa1d6c9f46f95ea1b5d1d1e9637a2e0fbbab75555e93d3d5ad307b"
+  },
+  "seed93009_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "bd34f7c26d34297f7c4e0669eedfec832fc6929addcb7bfd09d309cd22d8b108",
+    "audit_sha256": "39c21d3c018ebe0713968bb22fb96cc113ccd6c8599febe268852c6503597fbf"
+  },
+  "seed93009_attack1_timing1_naive": {
+    "decompressed_log_sha256": "39cb2140d56cd74812c0f3ef575bee4d9292d468e28a26648d5d799a5e02382b",
+    "audit_sha256": "c7d452cd74183273f2612751e96cb4a10fb1788e881acc1463931992568c6209"
+  },
+  "seed93010_attack0_timing0_active": {
+    "decompressed_log_sha256": "99e4d2615a5f6ac87f2b3fd86447aa50b3d12f4b0fe5c3d630a5da3e13bd992b",
+    "audit_sha256": "f0ac270020631b437b839dc55924cb1da8d2bb9b4e041fa0ac1be7039fd5c262"
+  },
+  "seed93010_attack0_timing0_censored": {
+    "decompressed_log_sha256": "000c57dbc31bf4b62afdc3678bf741be8a3053242e770f6a1a92eb3c3aa25662",
+    "audit_sha256": "1ab9cfef58b463112e5001dfe8933d8b32da11e6b17abde29b706d38fc277954"
+  },
+  "seed93010_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "4dc99cdff757d18c33757aaf1ade8409718a491b4ccaf194fd572cc6cc665322",
+    "audit_sha256": "042a426dd0dd1a8c546409e35e9211fbef169b686f36f71115466a63c178368c"
+  },
+  "seed93010_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "89ae0dd1b17d13d85ebd2d828a9bdb1d3831426a9d15c9eb2dbf8f58ff77a16f",
+    "audit_sha256": "a734a60d21f7bc03d6b7ee89a06276dd1c00f410f23039cc9e193220b3fbe5fe"
+  },
+  "seed93010_attack0_timing0_naive": {
+    "decompressed_log_sha256": "43bbb745fb1be885e689081d792dc99e6cb46bf953cd42e6f9c7c65be35bf6f3",
+    "audit_sha256": "bc0adf3e0a228a6289271363a4c7b6867dbf5b22dafb03262a8c31285dc7c042"
+  },
+  "seed93010_attack0_timing1_active": {
+    "decompressed_log_sha256": "9c8e19334931f2061a89c88fd715aded28a573ff028e01e6475337f69ecf6007",
+    "audit_sha256": "0c8983c404a0a091edd1b7e534c93dba66fa299b97ca739b0f43d8c797b8337f"
+  },
+  "seed93010_attack0_timing1_censored": {
+    "decompressed_log_sha256": "b495d0fd2cb6aef8e83135adb24c78eb26da3bcf8444ed388fe633f5e0257b9c",
+    "audit_sha256": "8473096358f3baa383c2cae270ab8634beb48665a9f398b8eaadae16174c0eb4"
+  },
+  "seed93010_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "a95cd8dbc1edacccae3b19b8b2ddfe0a8e85401203c16fb10f01cfc39794d6ee",
+    "audit_sha256": "711b6b709b449eed45dd0a412296c39cc4e2bd5fcd72a9621c8fb232d16dadd9"
+  },
+  "seed93010_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "81bdaa162f406db2f5741a200e00276be213dc5daee9149a55de0f3504c90597",
+    "audit_sha256": "79743f7e3efaa8500b6b399bd29a85182fd70c31a4aa4f6d06cb2a4ecc413cc3"
+  },
+  "seed93010_attack0_timing1_naive": {
+    "decompressed_log_sha256": "77b33abcb1de2aa4bb7e2923f696cd3f8908dfcd378ba150141dbfe07cd067a6",
+    "audit_sha256": "c92e7c8ef94a31b747d32e1efbf7bc8c0ef95ea23e59ec37701b87b954025138"
+  },
+  "seed93010_attack1_timing0_active": {
+    "decompressed_log_sha256": "361cde55dce7e6e20858050f6cffc151a49b3c457d9a28437006c4c65e117f95",
+    "audit_sha256": "cfab0a582f3dd53db321885a4324e74a79106766e6fdf6eee65c5af19784ca38"
+  },
+  "seed93010_attack1_timing0_censored": {
+    "decompressed_log_sha256": "2310e44be737fc0327576e3678740cd5492a314b14ff539c1035f1e72fd66fc2",
+    "audit_sha256": "de4417cc7c3b99f422fa20c9cdbcc24f1e0425f0e456ee8604622d5892a6d170"
+  },
+  "seed93010_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "9280993c928d0114cb035f039ee081c8374908137066fdd7323afb03a15f30cb",
+    "audit_sha256": "9c8385aa4fcd8c2992415f3c777e7fc6ace57bb1ddc0e71f8b2f5b8dcec15a1f"
+  },
+  "seed93010_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "adebdaeccfe33833e15e081ac9d0445cbb2c89799da77c43cdd2d2d1156ea545",
+    "audit_sha256": "5ce9d92bd4bd7b6c18cac2ec7b6e8bb60816a9b5352b2ed76ea0a1687e848fb6"
+  },
+  "seed93010_attack1_timing0_naive": {
+    "decompressed_log_sha256": "b0cca9077654dc6d98c2b6fbcc59883bb7384f72eaa49568c465a2bd3ae3c5c8",
+    "audit_sha256": "e5b6b3b952228aa9dac171bd69ef0d98ed7e831d40ed79fbe11de39edffa3ffe"
+  },
+  "seed93010_attack1_timing1_active": {
+    "decompressed_log_sha256": "e2b6cc822898c44d02eeb47f9925bd6bf8627fab8ca75dc73814794736c96d2e",
+    "audit_sha256": "1b9b076e8935a4e71c9800ea59811edcd189733fc4d85ffd5862bcc57f744c3f"
+  },
+  "seed93010_attack1_timing1_censored": {
+    "decompressed_log_sha256": "fbde5282de3a4487122cdfd5ede3167dd37f77c31d7ce9da94f932a690ec0203",
+    "audit_sha256": "70dc65437ad4687570296271e77351c3fe42691aa8095c25a1cfea26138c86f3"
+  },
+  "seed93010_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "8e8152fae302273cbe19eb775b416ba4515fe9f3a2359ecc97917114b50bbf14",
+    "audit_sha256": "8036edfae948b9c17972a3b83b9cfdb8338dac5ee320e5696c9f3e70a4040a0d"
+  },
+  "seed93010_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "2b481a2ac4f9118b298a05c34e8c0eadb9affd90a49047298f9f79b7fb5aead9",
+    "audit_sha256": "cbcc10115607ec6f8507b5aae4ab72323a73f108a5c77eb4158a6bd12aa4b39e"
+  },
+  "seed93010_attack1_timing1_naive": {
+    "decompressed_log_sha256": "2b9e496d172a0d8d46c26c5acd2d25781e3e3f9664d218e6dcd0563a1916d1ff",
+    "audit_sha256": "dcd5f20d8029d6403ec27a08b4213e2ca31d41dcda925c09e9045d75a871d6d3"
+  },
+  "seed93011_attack0_timing0_active": {
+    "decompressed_log_sha256": "3df2263f717d918910047c8d660622bbce741273f053402ed6c119f5941d401f",
+    "audit_sha256": "e7174f33a94e84550a09c073ea0d1a2528b752734a39923efe38c026f54e4090"
+  },
+  "seed93011_attack0_timing0_censored": {
+    "decompressed_log_sha256": "7961c9bf64f65612e46cb1be713cb5e1108c7bd5bdf382b3a4db3861fc241dfe",
+    "audit_sha256": "dbf8b021269e976d68e6ab18c8b0f5e2c355b4535b8472482200fbd1bb198634"
+  },
+  "seed93011_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "76de7dfd2e028aa7195b79b99759692439ea6c53bf35ede8531513218fefea55",
+    "audit_sha256": "01348e8dc13e2e6fa968cfe65b287e00c87d73e184f434234977b3d0662c371a"
+  },
+  "seed93011_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "8d33bc1cffb3cee01d4d119cdbf76c9409d40ec65c5ed850219094e60f8c6630",
+    "audit_sha256": "5805974cd2d026c835880567bc2072e65e51b964ab12e4c7c625dfe63d865753"
+  },
+  "seed93011_attack0_timing0_naive": {
+    "decompressed_log_sha256": "f785652f146779d1d106838c31ddf237579d2a960e5db3a02630637f657de95f",
+    "audit_sha256": "531d5d4b1ba6e4a4e6942476fc9708b2b6479c2f9179d072c9242cf1184af378"
+  },
+  "seed93011_attack0_timing1_active": {
+    "decompressed_log_sha256": "ce27f72a4b3831d29e67db911390d5671a764dde13c5a712e0475683cb43d26d",
+    "audit_sha256": "a417bf43ed9c8525058f0135e012eaefdffd676f5a3b7eb0dab70a56e8d12e08"
+  },
+  "seed93011_attack0_timing1_censored": {
+    "decompressed_log_sha256": "3465763680de0bee532ae595df3e7f434b8451ea3e7ccbf607b632f38f563347",
+    "audit_sha256": "299a6b5be8b8c4ccc9cccaa8657f9f8844487f870c77b000f39a021bb3cac335"
+  },
+  "seed93011_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "d367448344e96f6cb028f87c7ed166869dc270e3b4d923acb3ee8039e1700360",
+    "audit_sha256": "32c242eb52ccad101412de31b95240c9316a751593849f41669c2f597245c437"
+  },
+  "seed93011_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "2dfb0555e04768e80d354a53c7fed98a909e0ba261a254c95988cd3c76ca0a55",
+    "audit_sha256": "ff282f40a42228ead17dd1b2e0c0a44ac76cb11adadfe6a3b6e8b79743b2fad5"
+  },
+  "seed93011_attack0_timing1_naive": {
+    "decompressed_log_sha256": "cb5b13c00410b9430a2b3d4859d36773d638b69c1e0d45072ec854313bee0116",
+    "audit_sha256": "cc758717846d4f8e7f356a59a68f2c2ffc9e9f205d6e5cd5e4f79bf05c10afe9"
+  },
+  "seed93011_attack1_timing0_active": {
+    "decompressed_log_sha256": "bcd24af8e542dfde3afcc12f8fdadea562ff5c608e16675b1ab2cfdeeb4a7c04",
+    "audit_sha256": "2766fd2e8e7669b49d85c19c0729e2e569f1e217288bf361c9038d607ffcc848"
+  },
+  "seed93011_attack1_timing0_censored": {
+    "decompressed_log_sha256": "87660fd9281805d93232e44b16764fb5882f897003df84f60cf2d83ab76d79b8",
+    "audit_sha256": "268b4697fce3daf5b1dfcc72075bdbae5a27f1538e8bb12fb84c83684d683534"
+  },
+  "seed93011_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "59fc173fbd4869580b0382c84ea452b61f4ae551000ad99364f439b520cc7a45",
+    "audit_sha256": "fa763b8c781e71488c99ebc77e0438b7f48004615bf24df191812d04f7892b11"
+  },
+  "seed93011_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "6ff4b55ce63267a00bdb169699aaed71ba1237884210e3f3d54d71073c04d9b0",
+    "audit_sha256": "66c45910f21e8f5a3814e7f14664b79188076b0561490f130f8f34b673a423b0"
+  },
+  "seed93011_attack1_timing0_naive": {
+    "decompressed_log_sha256": "895a59a17990244f874158de3c5cfc1996c4e0567d11a695d70019ddd76eb46b",
+    "audit_sha256": "1b19ba6207c1969d395f6df9628c97f720abb944f8e111b9e7967bbf5387aecb"
+  },
+  "seed93011_attack1_timing1_active": {
+    "decompressed_log_sha256": "dacbc3959b5142919041b9a825c07fe03e7cb64398ea7c689a73274537d7761e",
+    "audit_sha256": "8f04d5bcb1e485c0ced3ead5e5a091499755a888170f0eb7b36816abed1cf1fd"
+  },
+  "seed93011_attack1_timing1_censored": {
+    "decompressed_log_sha256": "cdc5062e59abb58fdb66a3073412d8b5cdef725f864cbb351756ebaabfc22ee9",
+    "audit_sha256": "8e121718cc588ba583e9a88bbd5e4283a3d05251f8477e44f628fb1e2dae1fa3"
+  },
+  "seed93011_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "47a18e2d9cb894e46270466b2a3a9f350fec9c3bfdbd421a8f48b4bca20ff5fe",
+    "audit_sha256": "fafeed1c962968de580a6349b3e95c507c6142b0015807ebf8fb1d243e943d82"
+  },
+  "seed93011_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "a1a6fde46d51366471a9e510efe9320101ea6529c4675dc9360f2aadac5d03e4",
+    "audit_sha256": "6eb7aab54a554ddd6b94bb0f2d193e92a8ca3dc09ab6383b83d62d3b3767ef19"
+  },
+  "seed93011_attack1_timing1_naive": {
+    "decompressed_log_sha256": "d425cce7d6c28dd08c2a417f6b9b1984566ce0b552f299fcce5ac7aa8aefe817",
+    "audit_sha256": "2d65282364ee783e51ec21025b42b7e44c10e48fb0e04980c513cb460f50e34c"
+  },
+  "seed93012_attack0_timing0_active": {
+    "decompressed_log_sha256": "610641ade3de89895752c55d6660ff3a8f6436cd2bb7d6d0e6e4cbeaecc9ded9",
+    "audit_sha256": "0b289f7d7067dce1e9613a57b74d6dcbde917e34d6f9ca1bb4f17bff13f295b3"
+  },
+  "seed93012_attack0_timing0_censored": {
+    "decompressed_log_sha256": "6c591c73a50014b28341d359ab6432a3ba969cd0e49d48cda97bad9f90c834a1",
+    "audit_sha256": "f6fc2db954de50c559018b31a235127d20758f26974c5a8a69c553663ee407e1"
+  },
+  "seed93012_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "44076194eafcbb3313f7825bb9fd01585d3a3027891cf29462e3b68d3e93975a",
+    "audit_sha256": "da8bdadb078a74846c23cb7637357d8b0c92a71c98492a525567b4950ef1105f"
+  },
+  "seed93012_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "1e804054d0d3dae990969e0a4a924d823f6940ee56e984853a4a83164611ab06",
+    "audit_sha256": "00455f14cf13bcb5c8f833addce05c94a3cd7039039c485e113111ad9c2372c0"
+  },
+  "seed93012_attack0_timing0_naive": {
+    "decompressed_log_sha256": "a23e36c350206f5ce0d6ec17441a5bdfb991dcc000809f46333e7bed9c024309",
+    "audit_sha256": "dba85c4dc720b4a108570b6e98c0dc1b9b62d6e8c23f3aa2bdc3a610fc2a21fe"
+  },
+  "seed93012_attack0_timing1_active": {
+    "decompressed_log_sha256": "a7f42879894c703a0d45aaf0c71ebff9d0c8470587bdc58a67503ac33446f6f4",
+    "audit_sha256": "19c71f250bf4f0ce5ffa9c4e8115ab286d5d86d03d0f7a9cba300e4de569cf26"
+  },
+  "seed93012_attack0_timing1_censored": {
+    "decompressed_log_sha256": "e139bf30517a485fe04e40e0749a5b41f8889ee6d1e4e07e8d30237dd7b1c21d",
+    "audit_sha256": "9dd15db8bc916466d2555e2d6047a7ae81aa1f6ac993b233ec3e83c9472ef06a"
+  },
+  "seed93012_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "cf0878e851e5fcb2cb0185dee9a73ba63517368008ef6cd9760358cb994c8d4d",
+    "audit_sha256": "89353993de772b1ccc10e2d04bd667238c61857eb1b199c0a243e24bb67e16ac"
+  },
+  "seed93012_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "a0f06bf1f9147bfa9d0cbe0970bc65a3d03d3ec70a7a00f8a91e043bd5318825",
+    "audit_sha256": "42c01a778d9d1f4d5632c0483590f084648be4e1a429bb2ca2e5a01192004cbf"
+  },
+  "seed93012_attack0_timing1_naive": {
+    "decompressed_log_sha256": "e294b03860edddc4ec7f6633427c3a8ed628f4ff324f546afbce5fece6728210",
+    "audit_sha256": "9e25896b261b5467fd396d9c21c26fb7e09c660363fb23c5b6de675cff7d5f2d"
+  },
+  "seed93012_attack1_timing0_active": {
+    "decompressed_log_sha256": "0e8c17c6560f76cdb06531a7994348c80bba19b29310b8abf40e3e0b23fcd5fe",
+    "audit_sha256": "0a09e48536bbda9e3040446971df245b3075d1bbacba2f3e813448cd1c3b3cfd"
+  },
+  "seed93012_attack1_timing0_censored": {
+    "decompressed_log_sha256": "181171e424975cba02cdce5503aa4051f3fcb5b9b6ba425f44951c90bdfab9c3",
+    "audit_sha256": "94bffcdd614076121bd608708da3eb493ca17a5b191f1b4213c024d950b620e1"
+  },
+  "seed93012_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "1bfddd173a75b7d455dd757046475160fdcde0b704ad5038b3f0969d92746d7e",
+    "audit_sha256": "7500ea28fa6e9c2976f7fd3b275e89114b8ac7a6ec3fea9a3a6f25fd9d6f6e23"
+  },
+  "seed93012_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "388eb537fc5f6ca41638dec28b5f1192cb44a629f01b4d9bda623f15527c1ecb",
+    "audit_sha256": "febe137300cd8d307b58619dd3043ffaf8af13fcbba68194cd0bae55eae4721c"
+  },
+  "seed93012_attack1_timing0_naive": {
+    "decompressed_log_sha256": "0de936bc3104b85894ca0d3c64b39a4163a17ee60dfbc937d466c20a9cea63fb",
+    "audit_sha256": "93365702cde1d9b07c66c19c58a2f8e6302c00d7566b2615fa56aae720909ff2"
+  },
+  "seed93012_attack1_timing1_active": {
+    "decompressed_log_sha256": "05fa950e1e072e82f655dd9f7049dac954fbf6f6cd64bee01ea549c2c4e8aedc",
+    "audit_sha256": "c786332bf5dd657055d848fd128442c1ff4b0c8775e61721f1663de8e9ce4837"
+  },
+  "seed93012_attack1_timing1_censored": {
+    "decompressed_log_sha256": "f7ea45632e7e4250082ecd377de6a59dd662804c7fe03291656ba3d1a7cf80ad",
+    "audit_sha256": "a6eea631fd9ebf8596a49b7a7a3e1438c43d582475e0b8adc371367e8b18c08d"
+  },
+  "seed93012_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "912428e2182b095a20a162e668c7c9f325ab46af344014bfa11617f10a7e1625",
+    "audit_sha256": "6385f4e2698ebb7489e0ae99afdeaa7822f4c006aea7aae9ff9cbce5afad70ad"
+  },
+  "seed93012_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "0449794d4c4ada3501c550d45d0e142742d78e0781a73810a27c5bdd7a6c3513",
+    "audit_sha256": "cc8a215e33dde349b909907c85131dd383fa6c04a3286be97d5cc61c6b1fbe6b"
+  },
+  "seed93012_attack1_timing1_naive": {
+    "decompressed_log_sha256": "783d9079f34736fecbb133edb467308b6ab332bd49046bf34bbcc392f3a4992a",
+    "audit_sha256": "b37c60dadd45b7cff3b03b50f68f3823268c7cb8d51e239f94f273fb4e7d4771"
+  },
+  "seed93013_attack0_timing0_active": {
+    "decompressed_log_sha256": "f0ca23114743b62bdbcda109e4a84e67891cf6e048ce36655a73bbf0b2aa5b1f",
+    "audit_sha256": "2e68ea4db89fd6636655ba98f85644d0ec1f6283ad5694eb14155aa2e1a98433"
+  },
+  "seed93013_attack0_timing0_censored": {
+    "decompressed_log_sha256": "8d07c3db276da6515bdccba745aab8a4685cd89513c7728a9c8cc14b209f94bb",
+    "audit_sha256": "d49969285823421392a87917e8539adbd1fef7178620863b7c68add6a6824144"
+  },
+  "seed93013_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "a4b78e925146d3d0518035db2cb0f6234ec435376992d5a2bfbbdc28a289c2ff",
+    "audit_sha256": "c2044a3efefc9ab7f2c107ed502c0b8c12e6d21524e3662c5e286ef3691b994d"
+  },
+  "seed93013_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "49515cc42b6d43347c18b4b9bddec5c4bc10fa197ea6629607653187f3cf43bc",
+    "audit_sha256": "933ef6881a6c28bf4ecd9d61849c4c6c23372f5432a972fe9bee9c65223a52b4"
+  },
+  "seed93013_attack0_timing0_naive": {
+    "decompressed_log_sha256": "04d15360d5516f45cf082f362e6003bf6ecaca2d58fdeb270121d382bc3a140f",
+    "audit_sha256": "a31f0d699548b6410446fc8e472903c1b4608d1f00f990ec6025ffc769254083"
+  },
+  "seed93013_attack0_timing1_active": {
+    "decompressed_log_sha256": "c34c51a912c07f088921a502f0557814253a422f09cf0f2aa27946ff90650884",
+    "audit_sha256": "06da1025fa6ce389987e5171cfbf4bca77210c33c9d2c1d26eed9c3144459e35"
+  },
+  "seed93013_attack0_timing1_censored": {
+    "decompressed_log_sha256": "d5611b4b80770c2b96139526ffb03e13f4127d442f506ba8446dc292f8ac07a0",
+    "audit_sha256": "40a1e7bffcd5813229182cc8aef3766a5bdabc22819160280b83814eb05ca622"
+  },
+  "seed93013_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "1af787438e721836c243f93cdfb02fbb0c1ced8269d10a357f0583859a94a2c2",
+    "audit_sha256": "e86f72318b2fe1a3d97815d6b513021947e39d9108c40dfb9ad0decc52a72957"
+  },
+  "seed93013_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "8b5080e098b882956498c2cfe1bd38437a007fc04c47f5596b4df69310f47890",
+    "audit_sha256": "ae7875d4e0caa3c84749d4ce3bb11cd01e80787f71e4f121163a37a5381bd4e3"
+  },
+  "seed93013_attack0_timing1_naive": {
+    "decompressed_log_sha256": "fd3ea501f8b6f1fffc79aca38a7b36ea338fd64880372547b7dac10eb8dd58f7",
+    "audit_sha256": "b7032f06b965c1732395618ed3c7e559bb2a8eefd5fc2f47c993092c6bf091f5"
+  },
+  "seed93013_attack1_timing0_active": {
+    "decompressed_log_sha256": "50ba6cc5a17cec8052a86898e4dcc5f845646acf3689f73518a318f6ecff90cb",
+    "audit_sha256": "41289b9b346069c4b6a1f1cc5224995a0a25cd7b0df6095febc869cebc7d8638"
+  },
+  "seed93013_attack1_timing0_censored": {
+    "decompressed_log_sha256": "dfbe5ecb9447ff54ff0481148b0eba423f0cd8fabb0c2d9943bb57640d195ead",
+    "audit_sha256": "a8cb53ed6c04d4638007823c51b881c612ca6e2c2c1d0bd144203f9d76db6308"
+  },
+  "seed93013_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "9273df038d6105cd82f47689154fb679fe363587ff63532ad197fa6e37703d66",
+    "audit_sha256": "46a1b70c99e6ac2f987db599258a974aaf8510cdf7926b6ae7f4a74837c8dda8"
+  },
+  "seed93013_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "3cc3ebc8d8dd954762fb4b6d715e73521f1af983588e89a81270d4366ae0b9b0",
+    "audit_sha256": "b9d86bbd7504552d1e040703ed0bbe931440e00db97059cbb699ec96fc6e7cdf"
+  },
+  "seed93013_attack1_timing0_naive": {
+    "decompressed_log_sha256": "ba04083d2fb27fde6d1103ebba1134a475e6e96b76c66ce519cd457b847225af",
+    "audit_sha256": "1dc759186e43edc3c60143e75543bd969bc3460fa6bdd72caf625b10be8ced1f"
+  },
+  "seed93013_attack1_timing1_active": {
+    "decompressed_log_sha256": "f30c876dc55230f8524db6993c3e4676795d5319cbf7730247a07277f00f1910",
+    "audit_sha256": "ecb04833eac59e7c63170b6c5b92743b4cd9cfdda0cb82e3fa97f4571d63a27b"
+  },
+  "seed93013_attack1_timing1_censored": {
+    "decompressed_log_sha256": "4817b75bc66c54778c613794b6e4d0a39cafc0dbfb8c0d4e87a3d7e3752b59e0",
+    "audit_sha256": "2a197708910af66f5ac3d1cd1767e4b47d34e657604f9df1207bdcc4c566711c"
+  },
+  "seed93013_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "7d60fe0bec2ab5a0ab22c391e6d1d31ca615f79c3eaaeef506e77e4fac4f013b",
+    "audit_sha256": "b160727fa8358ec11d51b3ce145955354426c7da5180413c28ae0e92023f863c"
+  },
+  "seed93013_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "0e5a8494b2bd7c12ff1e6eb1fc4edcf3bee26d619608a0e4f6535f33b02a1433",
+    "audit_sha256": "959dd1543ae6a7849c763c58a67c7eda6924a98834223545a1aa92e747f5f441"
+  },
+  "seed93013_attack1_timing1_naive": {
+    "decompressed_log_sha256": "75260c713a5f0b33f7bfbfdc697991107644b828d80a0cb74591cd0c77c61a83",
+    "audit_sha256": "517a38fc6e33b5ce4e1e0394e0754741ebf8b59f350dbeebdc676be7e7420d2f"
+  },
+  "seed93014_attack0_timing0_active": {
+    "decompressed_log_sha256": "e6e9b5232a58bce08d140701d63157ce9cb5396028d150c03ac4dd6377b26d1c",
+    "audit_sha256": "26ed476cf8bac3c66514c5a86e49d1741da9b7f3fb5507ca36738bc6da51b58d"
+  },
+  "seed93014_attack0_timing0_censored": {
+    "decompressed_log_sha256": "7eb8e944fb8f38715d34cf568fcd03b1b17e0ba23f5c32ff1e5a595e9dd6486a",
+    "audit_sha256": "f945ddc2776ee9cf0a69d370c8d938c5dfaf404633984f38c0ebc8cf529a9cb5"
+  },
+  "seed93014_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "e4e6c833a4026b98f83719c4b4124eaeaa96f7a2b1ff5820cfca67e89b9d480f",
+    "audit_sha256": "35ed75514620f3244396f8930aad7ec39d3226a6a0824e847766cc1867a487b1"
+  },
+  "seed93014_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "4d85d74d7c88f5b20d0c917bb487c53bf9f3861a1ca1e218ac8143c2eeea5c90",
+    "audit_sha256": "f6581d81b7f9380adace67132908c0125b6bf96219d26073424878b6fc859cc0"
+  },
+  "seed93014_attack0_timing0_naive": {
+    "decompressed_log_sha256": "8ab04edb06efbc12a0cbc5fcaf8d6a02fbd26ed4b2cae45813420fb47c11cc35",
+    "audit_sha256": "b1166a606b07510744e1c0450a5bde57495b253b2267a8cc11aaac9faead36c2"
+  },
+  "seed93014_attack0_timing1_active": {
+    "decompressed_log_sha256": "04b4f4a6cf7b98b8d47363f4041bcce30e8b25ee2c5888fc89c9dae967f09864",
+    "audit_sha256": "673720b537d67381c50ea7ffa7c79bf621d1bdd8bcf46e195d025d08d94d37f4"
+  },
+  "seed93014_attack0_timing1_censored": {
+    "decompressed_log_sha256": "1f4185c586794c247455f200fe7a28ee0f9ff4170cf9b80507161ea60aca4314",
+    "audit_sha256": "7de535b35cb58b7073337b65ec4f552ddcb64e51e276d2a642af3c2d543a78df"
+  },
+  "seed93014_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "424a58ed95ad58ea4f06275de21aeab3360ef1e0b43d77f405de83c0706b8392",
+    "audit_sha256": "3c5aafe7c70753a9b07f73dbe4b2fb76710f11d79570a3e93f7d3406c9261a66"
+  },
+  "seed93014_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "802c4ea7995cd67ba9118fc2f717fa60a4b0698bbdd027d021cafb330717622f",
+    "audit_sha256": "0b8926f2b4ac0fc4187b4b759add79a24ae41918e7f75ccee77f70a458ad8b68"
+  },
+  "seed93014_attack0_timing1_naive": {
+    "decompressed_log_sha256": "0237d6b011726a3c040a71e227ea2bfd7eed6168aae68c80996aedb034b0dd2d",
+    "audit_sha256": "b169c7c180c353b29c2189f914291d2fdfa5277d3e4b443c93bd5307bc48bd0a"
+  },
+  "seed93014_attack1_timing0_active": {
+    "decompressed_log_sha256": "849d3e4a6288d3a9f90ccc881ae5ae550e7efecf4ec960982cc3b02cf8b5f2df",
+    "audit_sha256": "d8d2082b5f33dd6be8a9958bd0beaa9fa223a92b1cef9f4508ff8542682426f6"
+  },
+  "seed93014_attack1_timing0_censored": {
+    "decompressed_log_sha256": "3ccc4967eb46b79b6d78e0dbf2c0afc9819bf726bb53ef01bb40cf46b8a0dfee",
+    "audit_sha256": "18b38005cb075f2c54f0259a40602e502ac5f31888750dd6614883623effdddb"
+  },
+  "seed93014_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "b41e1fe371698a5b4d57911c3f3dfea590504c200d070ceb93c9403edba1ca48",
+    "audit_sha256": "361e71bb6e28f683010f16bccc943309346391ed009ada8067a8b8a1d5cd773c"
+  },
+  "seed93014_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "f5a05756f452e529fd5ed3b40bbd3290747b013e1a6cc82afd317fc7185930a1",
+    "audit_sha256": "b7e77fc5f9f74b91f6d4036308dc51b3cbf84256de42f5d849552bdc1dd58e0e"
+  },
+  "seed93014_attack1_timing0_naive": {
+    "decompressed_log_sha256": "c4bd7e0ce927dc057635b6bceb4f85bd452ca1007e57866989907636de48a395",
+    "audit_sha256": "8a5273d26105ea629ae8a4244e64f4753e750d97589f149270a811a2103a163a"
+  },
+  "seed93014_attack1_timing1_active": {
+    "decompressed_log_sha256": "f109244b200d46f83e04c11565c41bbb4d13a7ee054057741b2d6261d4668f0c",
+    "audit_sha256": "f1b4c3c19c46198b127568091b08805efcf900f87938d9fad28f1078f3907209"
+  },
+  "seed93014_attack1_timing1_censored": {
+    "decompressed_log_sha256": "fef9a5c275d40e0cc00c3f4dc500c6ad1d50fea544d7703b7a22a4d9e7fae869",
+    "audit_sha256": "47a6362ffac59134efdd49a2f5b7cb1b7571d68dee5f4f5e8c72f2a1adcf5bfb"
+  },
+  "seed93014_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "0a571258ce1c67d2c22b1a933b8643fcf38f48fbe8f77e74438896420cb252ae",
+    "audit_sha256": "9eacec5e107217a2f93c1ac40855bf05d671bffd8d2b81cbb59125c8b99bb645"
+  },
+  "seed93014_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "6d91691e561be9a23972b99fbe8c0bbe030cd1007f89155a8b8c7a997c10beb4",
+    "audit_sha256": "73ac48bf92a16f3387ede3118d491c4841a35a4f6b9f0ded24c8c7df741ae0b4"
+  },
+  "seed93014_attack1_timing1_naive": {
+    "decompressed_log_sha256": "abf1f36170e274768f7ea46a9d1791ee9e2a29594f8d994f38a6e952fc64bfaa",
+    "audit_sha256": "6ab2992a4500b92438752be9cc6d96100bfd6cf840f762b7f6138f392067697d"
+  },
+  "seed93015_attack0_timing0_active": {
+    "decompressed_log_sha256": "2f4e7d3305a94cf90071a15dede89bcf4d724788a66822d5c081a17c492b67fe",
+    "audit_sha256": "aa6250b9688450ea18f35fda339d8f102fb4925d4c857881b24d83edbaa8d30c"
+  },
+  "seed93015_attack0_timing0_censored": {
+    "decompressed_log_sha256": "93007f4a81583a36b30ccc3c317495413a04bd81415f51819cab0bcaae36a053",
+    "audit_sha256": "83bdb0f1e3e88913a5d94addd3ebe11ba158ff6c7219b238c25046a0e310a142"
+  },
+  "seed93015_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "27e46a824b2958434a7944bd158e9d63f884ebd3a025af5ee59e08052ead36fa",
+    "audit_sha256": "9f798ab4020b6822b738258e17875eac0072ffaaed9883e7f456326330e70e19"
+  },
+  "seed93015_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "5f1be004a1610cef7b10ce01dd65786ce830a320a09dce32670aaff72d93e58f",
+    "audit_sha256": "1656eebf6af5725e44b1f396027b42afe3ffb10895b689c1250b1954db536a66"
+  },
+  "seed93015_attack0_timing0_naive": {
+    "decompressed_log_sha256": "ca5fff6a848e142471b68f1454650f16d19a60998c0a5c126fde01a2a2674588",
+    "audit_sha256": "252274b1265f4cdcbbe7b0d4702c0caf0f7af28b9bee1ad61737564bafbcb685"
+  },
+  "seed93015_attack0_timing1_active": {
+    "decompressed_log_sha256": "17fe692a26be07b2ffd0eafd02b2b9d07a5c55fde1a8a6a75147117c80028bc3",
+    "audit_sha256": "7ce0f0b9893c5809c7b410a470326dd6c3c1d942dee7e84bec03223904fb2684"
+  },
+  "seed93015_attack0_timing1_censored": {
+    "decompressed_log_sha256": "ac303d0a609c06dd2088a38ca5bc95e6ffb8f4cca74b0756274d4d8797d95594",
+    "audit_sha256": "e4aba8a59a963b7172778cf583d0e7a899983bf19a176e971ab2392c0aff67e0"
+  },
+  "seed93015_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "e1c3bc117c5ac5b9740119c7d26d66fcebf119de09846d4b4ef4bcd52939f6fa",
+    "audit_sha256": "e2613e1b7306507e50ed43df1f98da35519ee137ab12a2bfc6cf78139d7a681e"
+  },
+  "seed93015_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "bd5349991f571b89a5b845b8d5c7f3f8ee55474dd83384997cfce4e422e07a34",
+    "audit_sha256": "f7234045279e3972e7ac838fdb08a6e5c2bc642277b5bcdfddaa7e29fa13b083"
+  },
+  "seed93015_attack0_timing1_naive": {
+    "decompressed_log_sha256": "7e5b06408e75e208db9a8b5af9723708b90adb354eab08575035dbccda3d1b80",
+    "audit_sha256": "082c0ac4f3fc99a3bc23e413ab6abc264221a1f4857cf35a66756e1c77fae00e"
+  },
+  "seed93015_attack1_timing0_active": {
+    "decompressed_log_sha256": "1037c094b566abee4771e1495a864fa957d8f60bf4bd8be6661adf7dcbcbca4e",
+    "audit_sha256": "e1f8909141bab37f128e0ad3c144ffcc3208d9c8f1226ede753d5097b2d7f6b9"
+  },
+  "seed93015_attack1_timing0_censored": {
+    "decompressed_log_sha256": "793e11f4d3b7f7e9314add8782a4508d65bd3daea4512e446ba2a6e68a812449",
+    "audit_sha256": "25b0b708ba7628a7c98722ff667316edc3dafa389afd0a98273d0833fbaf288a"
+  },
+  "seed93015_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "ce97ba181ec3a4b11fe3a61e6bdb4a2a088b87e4d6c0cef74d55dd86efc9a868",
+    "audit_sha256": "95568500114fb6103328dcd429b34761f8574db38b9931bf6287881e69099225"
+  },
+  "seed93015_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "4e285ac26f649f244e28560e241123b0b667da9d94904fe34fdde59ed50ad086",
+    "audit_sha256": "667da18a7a0ecdf04cc22e288af6beb6b8f7150027031676b669b7578237172b"
+  },
+  "seed93015_attack1_timing0_naive": {
+    "decompressed_log_sha256": "afb5692cb67a89ee054b880ed030b52d43a1035b87cff3f0e51a0c2d8f13ea4a",
+    "audit_sha256": "426075d2ceac1ca34328a256da865a264e9f74773c27f1daad86e670941656ad"
+  },
+  "seed93015_attack1_timing1_active": {
+    "decompressed_log_sha256": "825a23116c8227a1517e06e8b8d643e63647540c72507d2170f18fe1333c6373",
+    "audit_sha256": "e0b9bb6b29c7714b22e84a4cac761e0e60b3ede1d1ca4526d7857571ea1bef6c"
+  },
+  "seed93015_attack1_timing1_censored": {
+    "decompressed_log_sha256": "20dfae7bb8803ef473777828fd8aef59fe4440e653c9a1e260596987e1873718",
+    "audit_sha256": "d792e1c3a132f85d94adab134d628dbcaa2f8ff5e3c2a885135594325cfff418"
+  },
+  "seed93015_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "f1e5c0065dca5b3dbd4c472ac3ab517113bd89dd0f730bdc403b16c666e51ff0",
+    "audit_sha256": "66b66293bea5722e9917af5947464349efccaf0c8629494a33cfd3cfe9165145"
+  },
+  "seed93015_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "d3ffa806f8ef859a581f6e259bbea35f35510006935c8b508b17d09a2ac049a9",
+    "audit_sha256": "d4ca76de481d64ff70389cecb022dd6039f0f1fc2871de8ff8d033968f6b3edb"
+  },
+  "seed93015_attack1_timing1_naive": {
+    "decompressed_log_sha256": "6e4ad5c5f970b4c4901047d0132e5fe70e8ab43c8cf6723da8d1fb16ebefde13",
+    "audit_sha256": "ffd18f05998ef609b80516d8a41dead975010641f8d866cf627039d37d347ac3"
+  },
+  "seed93016_attack0_timing0_active": {
+    "decompressed_log_sha256": "da1200fa0bfb4577bdc783a2c254339ad6ddf21a1356a91d235269543c893bd7",
+    "audit_sha256": "bcc5a9353f3e60696d6f4896566db5f4c3928417fbd383fbf048914de2c1a986"
+  },
+  "seed93016_attack0_timing0_censored": {
+    "decompressed_log_sha256": "9f93980c0b67d7fc475f6a470e1863d253ddf65180b8420ffb625fc7a3d6c5bd",
+    "audit_sha256": "5472b2a0305ec1c398e56ffbf1ed57ee71e7bdd0d90230a637bdf42da27ed220"
+  },
+  "seed93016_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "719fc18672f89dfde73099a38a9e1b4411c72bbf02fc8cf18b805c8f2f411361",
+    "audit_sha256": "ea35405f57d1e8799231fe44846aac8ebc89716441994c6e0d901ee0869c1b32"
+  },
+  "seed93016_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "ab996dba7281b294548c73b4edf40c89cf25b99c5f5076d8e30f8f9b3a81222f",
+    "audit_sha256": "927d0e5ae428ba52ff4be89140f1ec2be27272022423d8fd9c19a2fb818a05bc"
+  },
+  "seed93016_attack0_timing0_naive": {
+    "decompressed_log_sha256": "d3f51f7f7c7ada2f892ecbc3579da85ceb2f3ebc28a431c477796e7f1b19cd86",
+    "audit_sha256": "af8c43372268815df6bb817444cd78954161b1d2a859cf3041a8424fe61259ca"
+  },
+  "seed93016_attack0_timing1_active": {
+    "decompressed_log_sha256": "77d232bd17e5bdfffce6031ac641e4f4b788288eee127743a266c6136fce5f44",
+    "audit_sha256": "fbc3941e7894b2d2f5289995f3b7cd627b12801ade965a701b73536b42901dcb"
+  },
+  "seed93016_attack0_timing1_censored": {
+    "decompressed_log_sha256": "22e0cae2440d5b5889c104c2ad6d64529beafe86c1640ebf9f0b575828745197",
+    "audit_sha256": "012f4b40ae6a55b0d51dd7b08bc1b49e0bef35d5334d8edd0dda4e8f2c4d5690"
+  },
+  "seed93016_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "5d234e79ed299bd3d8e676575e1a1663e034e78ddcfa8453cc99e3080128d981",
+    "audit_sha256": "a2a5879fcb7d91bd7331206e66f841e6401bc19343cbd62a21ba43eceac49e7b"
+  },
+  "seed93016_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "bcde6d74b7c3ac34cccb4508626a34d81b3c90dcd9ec800b72cbaee6dee00fad",
+    "audit_sha256": "c03ac611f67fa6431d8e252feb5190eed9839d2bb8c92c9c3b8d088def6b5dd5"
+  },
+  "seed93016_attack0_timing1_naive": {
+    "decompressed_log_sha256": "71134fcb1f6d7b79bcc1c2a93a3c7ec47eca67d66c82775d1fe5c23b6bef2e33",
+    "audit_sha256": "02abd61dc3d034e908bc2ddeac4edf091f3932bc1af58c53eb960da07c55aa2a"
+  },
+  "seed93016_attack1_timing0_active": {
+    "decompressed_log_sha256": "4dc5c67efd07fd76f01b9091fe3ac9a5f9a0a1b8aff80989d24c83ab58b804ed",
+    "audit_sha256": "8e53520fbd0a34b217dd1d327ec33ac798d51c45541c139757612fd6b9f0da29"
+  },
+  "seed93016_attack1_timing0_censored": {
+    "decompressed_log_sha256": "786c515ea64fbc9e155a70cb4701b61517fb69f5397c2f7f76ac2603efd4934e",
+    "audit_sha256": "b8ba207001ede443d994c8ce29b75aaf4b2793baaa6d1af84b276f67e9238941"
+  },
+  "seed93016_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "14ded6d06db5ba5abde0169269862ef88c72f669fb05c6628e0937c0455ac74b",
+    "audit_sha256": "63ab78ddb7b75ed731c9a0ac05239774c965fe491ede0cd1d6fcc70b3d821ca0"
+  },
+  "seed93016_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "03418d70026a6ede574662f83587a04510e2791d8deb4282af02da1d35694e6f",
+    "audit_sha256": "749a861715177156a3226f46c6028d5cb66f3d6051ec5377d2796c450d68712e"
+  },
+  "seed93016_attack1_timing0_naive": {
+    "decompressed_log_sha256": "e8d2b860e0ea0882ba2c9856f18c967640c973e2c521c2db8837f44394a78c42",
+    "audit_sha256": "6284b3ed4d52b50e582a41c13b6cffce397cf25743ee20522ce5bfebac6db547"
+  },
+  "seed93016_attack1_timing1_active": {
+    "decompressed_log_sha256": "390725fbd6e0906f7d1f7ff1b0e10501264fac61e2265ea8446ec23961f19e6b",
+    "audit_sha256": "eddd4a37f4c8f8b866f4a9dda0a8bdbc4fb1d948d41c41db1eb87af73baa730d"
+  },
+  "seed93016_attack1_timing1_censored": {
+    "decompressed_log_sha256": "c3ec88a35c7b5e7acfa737832a919f635aef92fc80614a2b7a9ae1a5416344b0",
+    "audit_sha256": "7615268eb70f45aa729945ffb971b63a1a7e086b3160be29f8401d6f5fe72e85"
+  },
+  "seed93016_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "c12995e97ba4e7775241c2948cb55632c10aa8ef35007b87691ecd609703c6d6",
+    "audit_sha256": "a42501a3f2f0f4851a08bcef7ef4689efbee89f6f3a6eb27d4d81ef7dc7c7c33"
+  },
+  "seed93016_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "1a6461074930e7fe30b0071919558149d40074429f9dc8a3eb67d3a5ee56f04d",
+    "audit_sha256": "9b1832e2d4a72fe1fe18d47faad806c254d080cc5cea56875f2e35f5c0fe6fc2"
+  },
+  "seed93016_attack1_timing1_naive": {
+    "decompressed_log_sha256": "4a433c2d0ea0614f1922bfd2b8c113e99739d3e5666485c0461bc6602f3e08c3",
+    "audit_sha256": "18b0ef9ea16da9f8268dec9a41341e4431b8053200a4a3422c77eaabd6d1997d"
+  },
+  "seed93017_attack0_timing0_active": {
+    "decompressed_log_sha256": "6a2f205682b63045876d66282f9156392a67b51a279b84673f7495ca803456c7",
+    "audit_sha256": "a458813f964fe217a1276eda5d92bb6162696a6bb6551f0fb16dbd35c3493905"
+  },
+  "seed93017_attack0_timing0_censored": {
+    "decompressed_log_sha256": "284577b77a4ab414e7855462412f1816bd29662e638eca9828b58e363162d1d2",
+    "audit_sha256": "f53243bc5cf4e741773712af3720ace3a22ffbee0abadbd89eab5cc4de616c84"
+  },
+  "seed93017_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "76e0585595a4c3b209638472dfc98acbe136641451befeb75ee7dabb1ba3dbe6",
+    "audit_sha256": "c7c361fc7873bf35b92375690526dc723efcd9e31a8ebf417d603c84ca1dd5db"
+  },
+  "seed93017_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "8ca5e9b8cf5e38245a8952d440304e65a1437e954691f3b0d1dc47c244332ac5",
+    "audit_sha256": "d4a4f8ff856104385fb50627f54e951311bab732dfc90915f3c790ab30bdf82b"
+  },
+  "seed93017_attack0_timing0_naive": {
+    "decompressed_log_sha256": "afbc19c0ca902ac03015311c4c1dd31ebc5a222a796e595a3b474bd568522598",
+    "audit_sha256": "e6b82e52d3947bebd33a883aebaca964070ffeec12608e2f8ac38553852c01e5"
+  },
+  "seed93017_attack0_timing1_active": {
+    "decompressed_log_sha256": "55243667405d1ca0b93323ca4790954965e1c9dcd2bb65c9665d595abacb3c11",
+    "audit_sha256": "c3ecd461c4e85cfdd2ee2cb4b51ad747502c58a06b49f089ca2d4bb091f219dd"
+  },
+  "seed93017_attack0_timing1_censored": {
+    "decompressed_log_sha256": "44af52605734ade69d36a30ac4e7d0209da6d92a291affb07e95db5fe7106a83",
+    "audit_sha256": "edc65ef2ae5940981fe9ae219dca11d98ac52a113aab976e5164d9084b5e98dc"
+  },
+  "seed93017_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "da4ce459c0d4309ff8e462f4606a917c85d8f4391756042c356cfb47c3e78435",
+    "audit_sha256": "ae179c4e7fda448f802d6155d3aae19fd82ea8ff90c2cc251fc464203b606483"
+  },
+  "seed93017_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "99fd61b01f792be08f3b63170b79dcfd9fa2bf91218b2ed895530fe4318599bf",
+    "audit_sha256": "d3e2c395cba9dc0c15cb818b60f9be6fb9edad7d4130d1f06166cd67c6663830"
+  },
+  "seed93017_attack0_timing1_naive": {
+    "decompressed_log_sha256": "3a2740aa67ad3b644e7f47388897fc90578a5521f1c98c177a1ff85d3eae27a0",
+    "audit_sha256": "a3d377457146d5b8348ab4a409981d43bb815b4828c6334a997fd845dd03b560"
+  },
+  "seed93017_attack1_timing0_active": {
+    "decompressed_log_sha256": "eb3657573365ab0a5aafc7c9aa11de6153f8595a58e608c92f0283a14cbc68b1",
+    "audit_sha256": "c59a5ee752e32c49c88a6bb352801479a4f4a47ee1584cd046197a111728ff7c"
+  },
+  "seed93017_attack1_timing0_censored": {
+    "decompressed_log_sha256": "6fca6c4b7ae3ee74a2cb5a16b12c0fb7261eae2b9f5f71afeb5a34b72173bdd0",
+    "audit_sha256": "5607748255ad4be6851747c684a916b264f1371c29fa0aa828868b704cdf6851"
+  },
+  "seed93017_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "05148a485300f030089577b86c61bc21db8cf8d9e2be35d5fb5c341dcb8560d5",
+    "audit_sha256": "2a60a9091feefd074aa5abd5b5052b112d3223f2ec1d9f404cbfbd7edca5b1f8"
+  },
+  "seed93017_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "2c338ea0e84dec4288c15fdb211bf3070e1ffedfbacb490926af8c9ec7eefa1b",
+    "audit_sha256": "da63f97f36fe2cf640c638a1a5827f31381884e98edccdfb0dd97f05bd710f36"
+  },
+  "seed93017_attack1_timing0_naive": {
+    "decompressed_log_sha256": "ebe8c1371ecf00fb2e1a0d4e4b6a9174b0a8d26023a1201a41c494d4b6fbe46e",
+    "audit_sha256": "dd5124d87678ce7b8d7f9e6738dd9979d923fb39b2e7b1608ed409ed4dc924b4"
+  },
+  "seed93017_attack1_timing1_active": {
+    "decompressed_log_sha256": "21c1ca99a0747a46772ea788ec5c72f42f3461e6681e91014d3b343b2c27b2b1",
+    "audit_sha256": "187469e1dff9b4177a227fe708761f5cfc9ea1af3bad6327b5faa7c9369c61e8"
+  },
+  "seed93017_attack1_timing1_censored": {
+    "decompressed_log_sha256": "649032e2629bd23e244c4c69ce4e17dd71e624ce18b3baa7f0697429d4d35fd7",
+    "audit_sha256": "4971d0f0d000dfc9f6c83c89ffd2f17f9d1ba59b6350517e271a76d9bf0a5bb9"
+  },
+  "seed93017_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "04693efe48dd7adb675683f78eda012b761678bbdd4d03461713b688617b35f7",
+    "audit_sha256": "f8ec8d55f2ccdeb0051f16900604e66ed59b2903841e8a02ab4507dba4c277f2"
+  },
+  "seed93017_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "cc12d9b66dd8bfe83b87187b2e30a2de44b4e2c157b96285b13eb06725c9d98a",
+    "audit_sha256": "f1f6585d7701d2f49ce7afef64a318a9981679b0f4c386e409e4d507d80e29c4"
+  },
+  "seed93017_attack1_timing1_naive": {
+    "decompressed_log_sha256": "63c6befa7d0bbc3d6a21e71049266d48a0bc9b55c9f8399d1790936d6386c42e",
+    "audit_sha256": "ccc7050db7538b549f310253fdbd23ac0da92cdb66cfa1a3ab55608da793ca72"
+  },
+  "seed93018_attack0_timing0_active": {
+    "decompressed_log_sha256": "973d8d7b69cf122860a1d87f18c53eb9ac3fa374bd47df06899baeafa8fc1d0e",
+    "audit_sha256": "e5ca6bf59f8971f08094e024d68b88bd97b3b93efd3fb04e66d502a3916f85ea"
+  },
+  "seed93018_attack0_timing0_censored": {
+    "decompressed_log_sha256": "d90c5a6e3cbe07ca62f9e7e8f305573b3ce96cc10f7bf3170316f09db5a02ce0",
+    "audit_sha256": "6dd44776e1cf1fcedbd8804ff85337ee49285ae96719956d5ac2222fa590cf37"
+  },
+  "seed93018_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "459fa8595da3738d3e27fe3fa99ca27220bfd7f6e75fd8077de1b71f72ce62f3",
+    "audit_sha256": "4ff65771e84944f5916191d808378c2747306829808c4bb583f7be58f76ffa07"
+  },
+  "seed93018_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "78278b764a766b9378617bcd2d9de6e6dae689150e803db4c1968ce9a4758ca9",
+    "audit_sha256": "6559743fdc095593824655a441a02c7052c24a171f34abf9181628e68d294296"
+  },
+  "seed93018_attack0_timing0_naive": {
+    "decompressed_log_sha256": "d52d33208817c7ed878593782e2a5cf97242387d1ea1e291f149849b90142ac5",
+    "audit_sha256": "e746af0605ce5c96659c7cb7690fa96ad93793662362833569fb96fd789011cc"
+  },
+  "seed93018_attack0_timing1_active": {
+    "decompressed_log_sha256": "afbc636a02f56eab9c461035e07a4d07cfeaf12665bc0cd8c8b88a263a5ae5b8",
+    "audit_sha256": "a9d68f3e122902bf6f661056b27ab8fcc4015e6c433bb7edbb32ced50afebdb6"
+  },
+  "seed93018_attack0_timing1_censored": {
+    "decompressed_log_sha256": "e7590a1351fcbc8db51d9932cb9fea15b6771059fbadbacbbc7f00d3b1a067dc",
+    "audit_sha256": "b079801453000ac2c0854649d8de2ca71a59d70e40855e70235aebcec0d966ca"
+  },
+  "seed93018_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "a5d14272b9853817f9087df619b45c0b736c43f22c332bc7286cf0e33e3b5cb4",
+    "audit_sha256": "6246a3fdc00d0cf6159af161e25828ec50572e5ffa822b323ba750678e51f76b"
+  },
+  "seed93018_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "f7eed67d00199686a80e2ddd6db2444db9d63903448fcc056140517b08aa5ef1",
+    "audit_sha256": "0f6451c6e79691810bb45070ec6c257bb0952f49757b33f43e2fed1a669b2781"
+  },
+  "seed93018_attack0_timing1_naive": {
+    "decompressed_log_sha256": "87c7fc9f8065f62c8022f7dd58b08b1425e288cc2e3a2b46f7cbeb4a2bee767d",
+    "audit_sha256": "bc3403fbe456c0ce2a522606353078fe8e74bd5e033d765996b01065b89fd239"
+  },
+  "seed93018_attack1_timing0_active": {
+    "decompressed_log_sha256": "a6525ad3f58a5a0c57c6f3ec618d5b7bc4f20f4407beb051b2cf9779630637e7",
+    "audit_sha256": "c2b638d53e97eee984b5d40e634ee279d3600e14cf2c6dc9b36eef947fb9429a"
+  },
+  "seed93018_attack1_timing0_censored": {
+    "decompressed_log_sha256": "2de44696e2310a15b552c9cbf2c0767d8c5dbe166a7da191e4b7d073475bfd85",
+    "audit_sha256": "425f08eeb1afc26f46d32a8cdf71d42607a65ee857786f2ff9dd23f03f4f13a9"
+  },
+  "seed93018_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "ff61b977e480649fe757c9015f645a1274324a95c1f10569d1b10ba13f24dd42",
+    "audit_sha256": "88fbd6bda45a640c62d2325537692073fdc06d7a432c8e318949fd4142c2328e"
+  },
+  "seed93018_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "07e9092d7f449239a71834a6a9a916a9666aa3e1efdbb1c44112b655d160a224",
+    "audit_sha256": "9e63d1a0b1232025f4485e4ce685e4782848a1b8bbeff4a9fb5afe5678e3fbae"
+  },
+  "seed93018_attack1_timing0_naive": {
+    "decompressed_log_sha256": "8ce61c85591e3b991947e6edd255bea4f66f4628dbd5ff02a813275de47f1646",
+    "audit_sha256": "7a85a75e02d6befc1ac9607cdbba39634d8d469596816c036ec091a9d2680432"
+  },
+  "seed93018_attack1_timing1_active": {
+    "decompressed_log_sha256": "ad58ac378a5e8f410c8fabaac151dc789cd95cc58a0e12f20980402b5be2f16b",
+    "audit_sha256": "61b94d9008bf7d4bd00e250952f8157120e8775e7c99ead81a4fa21fddc4c615"
+  },
+  "seed93018_attack1_timing1_censored": {
+    "decompressed_log_sha256": "50de46fa1e6cd0b737e2cb4d68055ad63319085cce923c88b909d4c634dbfcb9",
+    "audit_sha256": "7b9606bc99de7d0bf0288e31d2e9e987c94251e6c9dfc38eabfed394bcabaa50"
+  },
+  "seed93018_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "d687d39ab38411f459fcf0caf615fa94002b04f0864e292d576bf49ec77503ee",
+    "audit_sha256": "8df37bd1f335aaca47f360af2a73009133f5001d26b3e1e9718d483545b7bed7"
+  },
+  "seed93018_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "7ab63bd1db82a35e805a4a6cd6654c5c4c0e6f4ba583723a8a1ec004b2aa4b38",
+    "audit_sha256": "922ced9998387cadfc5f3083c0143bbf54a8dc4a0e8e05f2ca5e583a852c0a4c"
+  },
+  "seed93018_attack1_timing1_naive": {
+    "decompressed_log_sha256": "d80ca0a985891121b2333c75aceb2c38f45fcf3d16d05f8685a355694e35de01",
+    "audit_sha256": "2b4f0dbb4d0c2955abdc7bfdbdde5605d1ab6ebb28a293970ecc5aed5aeeef31"
+  },
+  "seed93019_attack0_timing0_active": {
+    "decompressed_log_sha256": "a44de91b521915166013880a11d7be531fd0b2079eabe3a81a4642a828609ca6",
+    "audit_sha256": "b61f6f2980dd25348a497c07f06cdde94541b162a3682699ef8aaeabaec16c27"
+  },
+  "seed93019_attack0_timing0_censored": {
+    "decompressed_log_sha256": "e8f5b8993b42bef3b466abce08dd35c5a66d5932a887cd7ee6f293cfd672e420",
+    "audit_sha256": "d63a855305cad4995906b3a0ed06cafda847d21941ad23e6eca5bc1c3ec64010"
+  },
+  "seed93019_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "ac90573d1a790d5aab084fe55f93aba2bcaae56f8bb82a084745a53bef127918",
+    "audit_sha256": "5b4ed24bf8ea71df3c2866ae8f7db37dc5e5318543eae04c22e293516f141ad2"
+  },
+  "seed93019_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "278a67f303ace9ac7bbe3a5f284fe85787d7b81365c809ef7d00e07fb4eb68c7",
+    "audit_sha256": "eec00a2052f6f8216ff3d8f17098815e86907bc3cf760b30600def7a52235678"
+  },
+  "seed93019_attack0_timing0_naive": {
+    "decompressed_log_sha256": "a4191c9f3ca4df4d655537208f5a4d0acdb0b521307afa7876cee0cbbabbb77f",
+    "audit_sha256": "8e711fb41d182b06fcb8a3d728747313df5315b60b3c90dd0a3716d50d0e6009"
+  },
+  "seed93019_attack0_timing1_active": {
+    "decompressed_log_sha256": "99c2f72c56c338b174ee2a324dafa9f26c2b89c72618cac30a55bf94631a5949",
+    "audit_sha256": "a35068b5d79f5145865b96fb073528756f9e18ca6d9c920e1820cbc3145d7a0f"
+  },
+  "seed93019_attack0_timing1_censored": {
+    "decompressed_log_sha256": "77fc809bf2eeb1126e7d572650b8e4f1b11f90b673944097ff43d5d9e52fd8ed",
+    "audit_sha256": "61e8692e7d22e9a5cd1adb5a10692317eeb2592f68508485b7d46acedc83f234"
+  },
+  "seed93019_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "45fb8f0f8af537934e41dd5539d0d29f79f0ae46d7661631c0f07aeef2742685",
+    "audit_sha256": "a1df096704f8c668512f591445157ccac12018281d82a3cb97e5bb8a7b288845"
+  },
+  "seed93019_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "693b8672c2448ae138b43ec43592e47ddaa3640b78f7d802479541adad016694",
+    "audit_sha256": "f5ca38dfde3c032df412fd5cea1b98ab378cf800ce1c354412c358fcf18c7270"
+  },
+  "seed93019_attack0_timing1_naive": {
+    "decompressed_log_sha256": "73f3d0068ed8f4f626e0bd000964825186b2f5349fdc5b3d5d02aa93e491b33a",
+    "audit_sha256": "8b683e074131758a209fb0a37e23877acfbacae5f552f2d6f5d6804af37d22ee"
+  },
+  "seed93019_attack1_timing0_active": {
+    "decompressed_log_sha256": "6d698b157cf176b7b2e4bf18a330c269161f52892cc5ee856eeca2fca50bbbaf",
+    "audit_sha256": "50a330a3885418fc220eaa1cf828c79902be8afa512021acec5e9f2c0e6671a2"
+  },
+  "seed93019_attack1_timing0_censored": {
+    "decompressed_log_sha256": "b0bd5bce1fe76889a1bffbf70d5e6b8affee2da210c81e8c11797ff0af9aae1b",
+    "audit_sha256": "936e2a12b21a27ad0a96ee8da0dc1e6c89443196a5e470e084cf983ea41a5cc1"
+  },
+  "seed93019_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "5489ca80d6e8cd7e982bab33c37e031d57c96460127f9020c5a2069e99fc6b6d",
+    "audit_sha256": "e898011214e3b1a9ec78061fefd8d08afad65a927f59f5ac0e34fa9667cdf46f"
+  },
+  "seed93019_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "5a190bb79a3f0b0ef0706e7db62af473167fc0eee164c57078ec8108c4787640",
+    "audit_sha256": "11c8acc20aed537152782d05c482811c62c47d6dd1c60ef57c308e482f0e398c"
+  },
+  "seed93019_attack1_timing0_naive": {
+    "decompressed_log_sha256": "a76535d4e9e143fee9dcae1d8dedeba6b9dc54130ee85109ef7e033296f6d77c",
+    "audit_sha256": "21e37c5a3b23857048cca7f7491c63ae0d1cb210c1d5bb45196bd9adcc534e32"
+  },
+  "seed93019_attack1_timing1_active": {
+    "decompressed_log_sha256": "a7122976b85faf606e9f6430820f4d8314b84f583bc42b16c8c978ff4276f805",
+    "audit_sha256": "11ff426e4ea6d74385b7b1432e898acc52a778626c32eb3415b844a38df74d44"
+  },
+  "seed93019_attack1_timing1_censored": {
+    "decompressed_log_sha256": "f2ae1d5fdcbbac2ab2a01311cabe0e7e3d52cb060ecf5432c9f74efe0a0a55cf",
+    "audit_sha256": "f02c795ffa3a0f4584e9298eeee19678e81d0717d9a8484521325df47fb17f08"
+  },
+  "seed93019_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "7529f0feb52dd1ec08abaf9319c44a5428468737916fa798325366a0ce59c1ae",
+    "audit_sha256": "90b7fe83cea241aa5f735670550fb4a439ef7d0acbb5ae5901bb24ea11b40788"
+  },
+  "seed93019_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "47b382ec68a9346daa872b5bd8dcea7fd23cc24dc9e909097bc7e028a404ac33",
+    "audit_sha256": "a71bd7b0d3219499d08011e9f94454bce45f3bb1f1da5d0d34b60d67b3a3d4cd"
+  },
+  "seed93019_attack1_timing1_naive": {
+    "decompressed_log_sha256": "aa33d0a937e0f295b4dc34236dc0440072576587258fa36e289c4c3e052fd735",
+    "audit_sha256": "efcaf248daf410c5748b94a0c5811e2c60ef352d39d6650971d5ebbafd6b6b8d"
+  },
+  "seed93020_attack0_timing0_active": {
+    "decompressed_log_sha256": "b3b330b96a2e59c96bfdc2050b9d9180551c9ab1f14519f0e3ddd5caf42f4103",
+    "audit_sha256": "55461c7b98203b06572b64a9876322399bf753c4391817089ace2cdabb244d45"
+  },
+  "seed93020_attack0_timing0_censored": {
+    "decompressed_log_sha256": "63a49782838f2ca99345059be150cb0ab65bb90b49ec0386032219fb45d98ae7",
+    "audit_sha256": "db76295bb5e7bf1e68faf60d36eb31cf9321f4e30501667eb51faf56f9dbdebe"
+  },
+  "seed93020_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "288cb241e8d59aa998e64d372a632b8c5e2b3891808f1250625087ff6fd7b318",
+    "audit_sha256": "77c9aef7ebf4800ec54ea4a7e063f77dc68673984bdecfedc41ae3fd4213f3e9"
+  },
+  "seed93020_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "d26dd52692db07319d3dbde3e489a355fd2864358c56d81cf1caf8ea80149a49",
+    "audit_sha256": "9c6e3b87b034e66f195d95f4f9d851fd30e1be9d8698f8056305b05935464027"
+  },
+  "seed93020_attack0_timing0_naive": {
+    "decompressed_log_sha256": "87278b36ec21f624e33cd76e977c9586e436161d616357c09899497bb03cf846",
+    "audit_sha256": "dc14a6d9117108cc7ec0aeddcf2464f09439c11cd6b44fa84a1743abe680ae8c"
+  },
+  "seed93020_attack0_timing1_active": {
+    "decompressed_log_sha256": "1285977dbec55a90cc6636e9f740d475584fa0c8446c9b2aca4c64f5fe5b4185",
+    "audit_sha256": "849913c21e687bb7f123b441d96cbfec35aa0a9b79f16b39250606f319de8c72"
+  },
+  "seed93020_attack0_timing1_censored": {
+    "decompressed_log_sha256": "7d7a8487fb522251771f2645bf3b6bf107b5f630f9fd2cb994432ca07bcdae23",
+    "audit_sha256": "7c3ba3b386d3a899ce7534307500c1f5cbddc3c99183cf12be18346cda90c807"
+  },
+  "seed93020_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "535abdf524ce127ffa48e87f0ae8683cf6273471cb1bfbe3a39a33da90d16564",
+    "audit_sha256": "e76b920c906d8aec6aae652a6e502c0b192c7eb515bf2b19ef386b0ed8be15d6"
+  },
+  "seed93020_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "3a5842356c793d9d529eb38437d0e3f0f56fc4d808a6e8149ef36e0840f0a609",
+    "audit_sha256": "3461ec41fec54a2b4d7eb872f51c674e0f29fcc40c999ac7f15fa58c06ff6a68"
+  },
+  "seed93020_attack0_timing1_naive": {
+    "decompressed_log_sha256": "d0d901cc2594a57baac4c4bbaef54c3940f1b97e2ddecf4fe560c0065b4f31e7",
+    "audit_sha256": "5b8ff90c55f64a405c46e25750440eae0db5590dd573b450a6f8aa538032cdef"
+  },
+  "seed93020_attack1_timing0_active": {
+    "decompressed_log_sha256": "af3178cd6eb992829205d084cbb35d91cd7f756ee7bdc2b2382a5675cb665d41",
+    "audit_sha256": "50c0f0935fc4c47670a235e9534ba9bd8bfe32e18c289a52dcc0d18daafc5db6"
+  },
+  "seed93020_attack1_timing0_censored": {
+    "decompressed_log_sha256": "8b0e49ef409dfaf99fabac5872db285f2c042b84c57eefedd33a0173ae3689ad",
+    "audit_sha256": "57125b0a9ea933bd5f17d14afe35b43ee8e98baf33c673a341e6d7d75568df31"
+  },
+  "seed93020_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "d7f2dc328cd569b741826ab6d0a4a7b61b1714965eb41026631751f322ad59c3",
+    "audit_sha256": "d4b2d8c8d04fe053c372e4575feded50f662e4cf2c624d63b708e3d309eb253a"
+  },
+  "seed93020_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "54b6b69434e721bbf283f56b6c39c44f32a155d0b591d6f502825b86f6cc8d0a",
+    "audit_sha256": "bea470d5a579f1fc667f291ed90e13ef65db701a3d5edb61357ae808c4135167"
+  },
+  "seed93020_attack1_timing0_naive": {
+    "decompressed_log_sha256": "993d9dbe139d3842c4d9856f06407651209ce3c34bc342916886f8e4c81a1a56",
+    "audit_sha256": "72ce8b1d894572c31c92815f46b094c8b95bbce1a235f76b6008aea6d04b8870"
+  },
+  "seed93020_attack1_timing1_active": {
+    "decompressed_log_sha256": "9e66ef006b3a616d4e15b1197f19856260eddca1a7ebcd0e85a196c6351782e6",
+    "audit_sha256": "395077d653cc5987dd7a7e1fb0a208e88ee1a95a053cc4bca6ad003c923efc71"
+  },
+  "seed93020_attack1_timing1_censored": {
+    "decompressed_log_sha256": "39aafa62b8d5c39e0bf0b30c4baff87fbcf41affc63eb14c774c734c4dcf49d0",
+    "audit_sha256": "fc69546bee679e2bb2ac05afda33b25057a1dff9f30d36ace127cc4582c78473"
+  },
+  "seed93020_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "ef095cbf11d51e16f6ccdcf42400679540b78e88fda507cacaa8241441ee4c9c",
+    "audit_sha256": "7f64162569d07599769cb99ebd4736f2b1a9d02118f69b65ec2f35f9bc2e369f"
+  },
+  "seed93020_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "e7e38f69b42f3dd42f6788cb94a9aa3537f4fed460b88771cedc80851e969639",
+    "audit_sha256": "6ec343b8a371707fe86c93924c7e5293a5f74065acc9e950bdd8f7d2278da382"
+  },
+  "seed93020_attack1_timing1_naive": {
+    "decompressed_log_sha256": "a4c3ceb4ce8313eb9b08638c7119de951140b7bb96958c08920a7554340dec19",
+    "audit_sha256": "6d86a3e6c3f4e44b2374e91cf2860f6a5720684a8965a23a2219027bd0dc2ece"
+  },
+  "seed93021_attack0_timing0_active": {
+    "decompressed_log_sha256": "89573fdc6a80474842e2999ef1f23bb9d0ddf7ea8124348c6a5032551984d46a",
+    "audit_sha256": "b1d6d0b3b309243ea1a8153224a6ba867c66c6d2854147e9c3a99f0957592e49"
+  },
+  "seed93021_attack0_timing0_censored": {
+    "decompressed_log_sha256": "9c27911916389404bcd5043935cf5ab262ce7907ac55f479e25b3cf65b4f723f",
+    "audit_sha256": "b27e5597c8df095479f2561b177ead96cfedebd8662ea3eb9dc3fd4e275c18c9"
+  },
+  "seed93021_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "e7fdfc2bff108ea716073ddd7d75757be2caf465ce9f88db5e908f1d74c862ec",
+    "audit_sha256": "5e068c7c18c9af72b9b34429444913e6ceea515d6dfd06083d5d3204719931ba"
+  },
+  "seed93021_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "71ba86f5c47ae05ecb6eff9c2af76398d02977d72cc1d9dd43ef1a52deacdca5",
+    "audit_sha256": "05454a370220c5accde66684aca4ae75e3b4ca4c7fc9e8d75709653b262702c7"
+  },
+  "seed93021_attack0_timing0_naive": {
+    "decompressed_log_sha256": "f6ad992ddddd748b37cfcc363692a8af0bc8ed6a1e8da4d98d8cd350af15f298",
+    "audit_sha256": "a2cd5ae73e1ee0f6abda0a8efbf87339f926992cff8146b7b0a36d0f716e5d28"
+  },
+  "seed93021_attack0_timing1_active": {
+    "decompressed_log_sha256": "a442af6685a46675d0c0ecc06c617eefc46312bfd3382a267d9d4993292ea239",
+    "audit_sha256": "e7d07ecf270ee705c707d7f3f3a13529aa1ac4f3a0f6104f2fe2fd6a84fee0b8"
+  },
+  "seed93021_attack0_timing1_censored": {
+    "decompressed_log_sha256": "7c024e796cf7c81fa6bdac1db3d0cfa8e66556d3abd939244cfbf7997719ec88",
+    "audit_sha256": "49e88f8ff6ea16e29316e826b5b1df45ff238d7aa36f1a2ff96e5a4ca0affb85"
+  },
+  "seed93021_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "f141f06e0d5edd71a3b6f21c1c96728ab24f127bd02836596a46565c87aad827",
+    "audit_sha256": "e43671881fad77cce74c0682eedbc5bd9a47eab45dbdf7a183f528137ce6bf1f"
+  },
+  "seed93021_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "976a6442f4f3576fa9a1147a5297dbcf345d56c0f17e394afa00edc7be725222",
+    "audit_sha256": "922f982ca5f01170913c125f64632ed52a8b88bf11b1d7921c0b595ecb78dceb"
+  },
+  "seed93021_attack0_timing1_naive": {
+    "decompressed_log_sha256": "ec2fa7ce88bec723a749cb5e8cd91057d1447a96e2dc544dbe4f9ff440349457",
+    "audit_sha256": "73c2004fb477c2f10a3512d045def047f1a870d1e4ad4d6cbf9bf8a4e2499d2f"
+  },
+  "seed93021_attack1_timing0_active": {
+    "decompressed_log_sha256": "ab442844999562b326cd95fe303a1770358812f1ced69f2c9544f5a3c5547f22",
+    "audit_sha256": "6c06e3b2d7c7fb5b4ec6eb89ef21e093cef3ffa747351d58c83f2d72259940e1"
+  },
+  "seed93021_attack1_timing0_censored": {
+    "decompressed_log_sha256": "d2d4ed4ab29c33618ce444b9606510dd8a47ae06a8b16d60ca7b53e5cb0f5a31",
+    "audit_sha256": "dc2795e0d874408ff9cf6f3519e1d9456aa6f654990df21581274600d8171a09"
+  },
+  "seed93021_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "74de7a5ca194054355a163944e63103f9870e1023572c86bc50aa858cee650d3",
+    "audit_sha256": "bbde8ae23e58e68ebd53af6972fceba3c684f2c16f570ffd9a094ace6c840e92"
+  },
+  "seed93021_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "2b41c571dd834cd42ba29d90e18b530145d8009fae15328d0f424225f569819f",
+    "audit_sha256": "e4d1e78bbf8786f19ff0af983fd5d143c6c31ffd575a03b28867f446f1ab94b4"
+  },
+  "seed93021_attack1_timing0_naive": {
+    "decompressed_log_sha256": "fff35656579c703d4763fb6196dcc53500e3e1430cb44dd58830186d515d8e85",
+    "audit_sha256": "e54a9d49de54b2a693304f388839fde51a5bb3fa2c009571a996760b067f9099"
+  },
+  "seed93021_attack1_timing1_active": {
+    "decompressed_log_sha256": "6e6afdc2595e4bdccf955014908303847237c917fc0ad7c6e480f7ceaf2ff0d9",
+    "audit_sha256": "cb404f778f22b31d8509cb27c0bddc0d55acc342f20be4dcf830bd5c40ac5b94"
+  },
+  "seed93021_attack1_timing1_censored": {
+    "decompressed_log_sha256": "194430f17e40b8a4a6c30c3d67b318ac8ed261ec82ad16ec3176c7eb9aa1b7b5",
+    "audit_sha256": "e1b0d3e9f0496ba7d36a50d0a6515f1983563b0bcb65e5e66671ddd0103640c3"
+  },
+  "seed93021_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "83db990e57f4b90d7f0288eac8f5be782f63029a08da35f6474e9700d483c2de",
+    "audit_sha256": "2191c76243e2389a9eca2d08417e16b3df1d404dee5e2f2e5620fd5c8e6e48e8"
+  },
+  "seed93021_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "545f99110bcc807b368591e680c172b5ba155215264835673884d3ff8566ebf4",
+    "audit_sha256": "8943e59f168448def099adb147d0a8868993a6c68486d24bba3d4466661b1ff1"
+  },
+  "seed93021_attack1_timing1_naive": {
+    "decompressed_log_sha256": "9b352cc9f850b23d6b3a58290c4ff53cff9afb84e9ef4fed07068f9870e72753",
+    "audit_sha256": "23632869a37937ebe31185613a157c6a3d56ea47f9bf8057f4310ed7d3c8b5bf"
+  },
+  "seed93022_attack0_timing0_active": {
+    "decompressed_log_sha256": "7cf7d8f2df6928e4bdb895add0fcf099dadb5ca1097e40460b2f0b82599e836e",
+    "audit_sha256": "b86506bf0f1fcb2352a2e47dd37ea7be7ec59b08df9d88330fb3678680ef9437"
+  },
+  "seed93022_attack0_timing0_censored": {
+    "decompressed_log_sha256": "e24986ed8c952eeb5cd645c4dd5a6e1d1ad80df48b4ad687f09f1475523d4959",
+    "audit_sha256": "bac6829433313862bdff319d550d30ad40a45e3e8c4bcea6951116191d48ca91"
+  },
+  "seed93022_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "ab1785385036d2dd08dc75350956142ce5987bd95ad14c841050ac160d1a7c7f",
+    "audit_sha256": "d8e7b8240932ca804eae60ef80d7d4d5a8e3d6eabeda9aa82c88790db46c7c7e"
+  },
+  "seed93022_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "f90512f4e6c53c5de59b533b2f0f89442ee2f1022838aef6066c994763382a17",
+    "audit_sha256": "b92a30f9e570a3a4e0c44e247fa9ad8eefc9ed9e0c4b32c959550027d241c7e7"
+  },
+  "seed93022_attack0_timing0_naive": {
+    "decompressed_log_sha256": "8f23d10272628f6a2b6dd82884b04e55924de11018ef0f573a3e4ee100fd8167",
+    "audit_sha256": "02240cb5db7c69394c2bc42a91e2056a95db2018025836bf4db12960b686fc0a"
+  },
+  "seed93022_attack0_timing1_active": {
+    "decompressed_log_sha256": "95ae300cefa5f62b589ef307ec23f0c11c3906d44f721270241165778fbcb47c",
+    "audit_sha256": "614ef5602eefcbce7465df4f9aae8aad5d03170f9b3e710a54414ac1adcc737d"
+  },
+  "seed93022_attack0_timing1_censored": {
+    "decompressed_log_sha256": "76c8e24af6ded361c6231cd5da9608b41c724ddd610222625598fd582200390c",
+    "audit_sha256": "ac0872b4555363ec4cb4e31423235ffe4e5f130709afcfed301ab385d5c2fae2"
+  },
+  "seed93022_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "976cd9eae5de8920398be6c4a68643f3d735c3ec574e87760df91453125f7a22",
+    "audit_sha256": "0c6133bddce1066c050574065d3069c3feffd287e27af910cef409bb0f6d80e2"
+  },
+  "seed93022_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "09c05e14370d201f5298de89361d27b088481fee15a841df94d828985b706e75",
+    "audit_sha256": "aa0ee548afe10f1110a2b35c960287a6789a5f2d532cb19912b56e07028a7601"
+  },
+  "seed93022_attack0_timing1_naive": {
+    "decompressed_log_sha256": "5b3008e272010f1f7323b0e72c9263fedaa347884524275917d26775346d720d",
+    "audit_sha256": "36dc310dd744c724de95a906b9293dfaa3e04e64aaee93125e7495c0e4176cb6"
+  },
+  "seed93022_attack1_timing0_active": {
+    "decompressed_log_sha256": "f5d5f42bcd3173ea22ed892bce8773ab14a6c08a9a93e10214bad32289e73cd5",
+    "audit_sha256": "faead256d08644677654a628aa528786337382f8cf4da1aa23df8b3407478df6"
+  },
+  "seed93022_attack1_timing0_censored": {
+    "decompressed_log_sha256": "f6e7a97429a2aed4d50257db77d7c938e040acccf69ea392fa506c75a1c92f13",
+    "audit_sha256": "05c6f3ac3855cf1d6dd06d1a3d08834d9e3207ab68a9e836ccedb43ac67f07df"
+  },
+  "seed93022_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "f84f7dd710f565e97d6270cf77d75ceef901df91bf58c4b866965430ff63524b",
+    "audit_sha256": "7407dc39b5af2ac86b1c599e7cea016fb3911807bc102abc657bd82e4468d709"
+  },
+  "seed93022_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "a31717e5db8b33bc3d7016e873e4534a9b08194ef40c02b753e9166366e3e65b",
+    "audit_sha256": "d7aeab8498f02392a11c7ea04c66bff5992d9e3d0a0eb85399ddaf8a124d798d"
+  },
+  "seed93022_attack1_timing0_naive": {
+    "decompressed_log_sha256": "98862e11ca9476f5d15dd090021b8e52dce3107c7702beb6267b6d4f50eade66",
+    "audit_sha256": "ec9b150f52692450135df647495dcb66a5953e183e401be4317d8d36b964ee6f"
+  },
+  "seed93022_attack1_timing1_active": {
+    "decompressed_log_sha256": "c69a44de94f1a7a1537709396c46d83d01c39ff66387cd90cc5abd05091671f9",
+    "audit_sha256": "679fab5fafc35934502adff8668ffeadfc79bdd050772ad17f310d8759939a64"
+  },
+  "seed93022_attack1_timing1_censored": {
+    "decompressed_log_sha256": "87e70ddaad4acd1bd8f7e1a232f03c8f6eac0d8b981c1569561d611771e2ec28",
+    "audit_sha256": "b6c8e72ea63d5d7680cffa7f56124c08c18a65ae74f032c6812c9ffb5daf46a4"
+  },
+  "seed93022_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "e22c8ed0fec65bbc5d0fef5273ba409ff411a001afa60aa0c5a39a800830c677",
+    "audit_sha256": "629444bac9960dbf927fbf740bebebdc4e67212cab6403dda03f60c3acdb7764"
+  },
+  "seed93022_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "60188f974a389e31691d765af9a4043c5bbf9838e71454dd4b0b9e77330cf72d",
+    "audit_sha256": "d5832cad66facd3ad7971e2f2127f0d2facd395c0ffe339176f31458f33ff82e"
+  },
+  "seed93022_attack1_timing1_naive": {
+    "decompressed_log_sha256": "d04b686c248fb516b0c8787db7697b4b5df20cc6e04c5bc01a4f5dfa064c75af",
+    "audit_sha256": "686fa9205b3322019f5847f0fbe96bec34ec72178b11f373bf1e58d1c3fb2619"
+  },
+  "seed93023_attack0_timing0_active": {
+    "decompressed_log_sha256": "464049007096e84791c1cde044d2fb172d970328745ef2483406ae0f76a81409",
+    "audit_sha256": "6042f44ddf57bc6fc766a95fce97e904c632c92dba724d0830ec6908975da901"
+  },
+  "seed93023_attack0_timing0_censored": {
+    "decompressed_log_sha256": "c239119d01e728354b444872bd38df8ddb680425cd6f18a5d79e447397b8815e",
+    "audit_sha256": "b302edd5074bd4b7a91646ee59dec91b86cb42db8c458b0b1417be02d4178bf2"
+  },
+  "seed93023_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "cf947c984888493941770a4cd62780fbba324343a741d2a1900212faf7ac4655",
+    "audit_sha256": "2622e00c7db88952abf99f879bcb83b3bca55d81636924ac70e670c0cda54184"
+  },
+  "seed93023_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "5bd4327ede5f76f50ee3eebaff6d484fa51e9516c9dff996157021f5a1f0e5a7",
+    "audit_sha256": "554f3ecc7c5ef5248e60e76b07990d73e7b06dc106fbac684ea776104496bafa"
+  },
+  "seed93023_attack0_timing0_naive": {
+    "decompressed_log_sha256": "e17a96282a51ed5085adaeee4e487a5856eabf5bd0bb28edd431ed902d531a73",
+    "audit_sha256": "e48ee88962f72cf47bad9ee6e44308ce9bc1f09d8112b2f7076b38b4190a529a"
+  },
+  "seed93023_attack0_timing1_active": {
+    "decompressed_log_sha256": "cb53f2d95952a8469bcee6345f061f672225c29f31d14f24acfa48dd8fb0be4f",
+    "audit_sha256": "4ddb8b76662bb11acc551bc6b2a3f5694106551bc874e74caeea94ab5367bd46"
+  },
+  "seed93023_attack0_timing1_censored": {
+    "decompressed_log_sha256": "e48eca84e2a80a240f1fc7867b2615acf89372476b6b025ae60ee15ecc108f97",
+    "audit_sha256": "2f2c4871d85f7f2b8998d3d79aa503ab65e3eed03f637f72ac9fafaf7f0e1de9"
+  },
+  "seed93023_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "a3386de442ce036fe89d42f384d6130ddd8fa4fdaadc2625bc214ec54171f8e5",
+    "audit_sha256": "8179a6ca7a075c8743ab0ec0752834eec7b0ef8491671fc80e6f96495782fe97"
+  },
+  "seed93023_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "fd54786478414879e663b2182fdb13086782e503442116c4cf3c04985c4e8db4",
+    "audit_sha256": "d77234eaaef3f8f72d1857f95ca00fd213aa5036efe4496b497c0f94392cb752"
+  },
+  "seed93023_attack0_timing1_naive": {
+    "decompressed_log_sha256": "244674f9b9658b54cc4838c7dae267b82c52d3b52c3364a7b60ca11703e47573",
+    "audit_sha256": "d3f0193cbcf178629c10500248659a7ac0b2bbd3259337670967e31de28ee5dc"
+  },
+  "seed93023_attack1_timing0_active": {
+    "decompressed_log_sha256": "b933273c77d8924c5201826f7d323fb70c3afc22b08e71e8f351b64fd16aa3d0",
+    "audit_sha256": "3ca5cc157f79b3ff83ee93824f024f0fbe4ae29915007ee84a1d90bea19f827f"
+  },
+  "seed93023_attack1_timing0_censored": {
+    "decompressed_log_sha256": "2a8eded33d0e6a1c2fde9901f4559a3b3bafa5901a8dc471f2798c95ac1cf413",
+    "audit_sha256": "1151108704494fbd6dbcf32e4d4b4dbf3312ff631fd0ae27ea5c847d2f59be4b"
+  },
+  "seed93023_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "49cf5ce5778f2c2446931ea9f18ace2729312a8c62ffd0ee07b9e11ba211ac41",
+    "audit_sha256": "f39d1e7c78119faa41352bb4a914215d841a4d9e3d83739db34707ef5516577e"
+  },
+  "seed93023_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "a74b1b105d7e640dc5df27a119633b3745d9867c63cdf78ddccc63c9ed6002c3",
+    "audit_sha256": "9f132fb8491b5e312b4c3bce42321354f7dedfa2de89e7b764dc9a2240bbc830"
+  },
+  "seed93023_attack1_timing0_naive": {
+    "decompressed_log_sha256": "53feecb08feee04711bcfa0033c081931c0f314f9568e01cb8df6baee3847c7c",
+    "audit_sha256": "7a41ca01f2581493e2ea1d00cb92efcb756e32cf5dfd6e4bd5267ca6f4909307"
+  },
+  "seed93023_attack1_timing1_active": {
+    "decompressed_log_sha256": "88d8e8dd4e88b374ffbba7061909ce71068bc1b0f0437f1a37134ec6e94bbab4",
+    "audit_sha256": "ec13acb36337d9c43836a339b6bbe74c89ede189db67ebff25d59c8521de551f"
+  },
+  "seed93023_attack1_timing1_censored": {
+    "decompressed_log_sha256": "49bb0c5462f6ff4f777de1eae63b64b5552b14e5b514b837bbfb83ce6128443a",
+    "audit_sha256": "89ba586ab3893b231158d5eb5017391d73158ce52d0763bc17a0101370b3ebf7"
+  },
+  "seed93023_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "fe38add308fe97ae2ae033a6714a86fbe8f7dd56547a9fa981b2fdacbd78141b",
+    "audit_sha256": "ed46e51fb0382ac29ab8ce010e8d166649c97d0681109339c8110276fff0121e"
+  },
+  "seed93023_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "1bddfc9efd34e5bed3653c90050c4c73f804e6c9d78c85487b6e2e0bf6abcec6",
+    "audit_sha256": "c1f9b3f349fc13e13d62c13827ea9e076d5a140052c72ec6046b54a8c5641dd2"
+  },
+  "seed93023_attack1_timing1_naive": {
+    "decompressed_log_sha256": "ecef2faab085f9959ed31ecedac6c0152d4c92b49fa9cb8123643d24be06e191",
+    "audit_sha256": "4d8b572c24bb835a3d35d28cd148192f5ac5b2b34005685ca7139a899ebfc693"
+  },
+  "seed93024_attack0_timing0_active": {
+    "decompressed_log_sha256": "9bdd590b1573ff36ed236d3bcf68a128313ef01cf46a4eb6ada55d3e57af8b62",
+    "audit_sha256": "fc87ab55d97c77f88e8255cc47b77bfa0c05cf38279207552aa0f6d5c1552f18"
+  },
+  "seed93024_attack0_timing0_censored": {
+    "decompressed_log_sha256": "05e3d6cd5bda9c9bdb3b780e0d8fa03228cc959c42f4040e9ccd9cf4dcb6763d",
+    "audit_sha256": "94f021fe5f50833814a2ce1a2f33543858f8813a92b9b673090dc2605b36c554"
+  },
+  "seed93024_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "807c0879fc1e0afcf56969611577dd0c69c2a1ef62f94516323bbf454af062cd",
+    "audit_sha256": "54f0b02444e45ab0a909d3cf5540a89b24b6d8d5704d62ff462722cfa9debb95"
+  },
+  "seed93024_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "ac0788a1823f2916af8fa731f3d960367b56cbb336824bc3ba1de2c7d7bb3d56",
+    "audit_sha256": "0904734045cdaabe74a1ca379dc35220f14bc3eb1f458258c20764958e73c1e4"
+  },
+  "seed93024_attack0_timing0_naive": {
+    "decompressed_log_sha256": "7bab2b759124cbba6aec5931d356c637de217b2ad6b9a1eb712e688e364589f5",
+    "audit_sha256": "8a046eed425e7fecdb35c46834d85a22f0ebb23c635c16c721ef12ceffe5fad0"
+  },
+  "seed93024_attack0_timing1_active": {
+    "decompressed_log_sha256": "93e6b2c1bd0140fd068db224feadf5c94f1e7bfb91718d3ef53ea8c9188e6608",
+    "audit_sha256": "9045f7776a83e9bc0445786c4543d9684c544c1fdc3b0b92aa8bb3d4dd5a9078"
+  },
+  "seed93024_attack0_timing1_censored": {
+    "decompressed_log_sha256": "4b180f30bd878f3854fff7b26aedfd8d318c91f157da439240450f2fde66c647",
+    "audit_sha256": "4f37926efbc8c0b0720edfa02214b50617164ac120a727c3d519ff51f82288af"
+  },
+  "seed93024_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "da22ad834cfced1e9fa8fe6affaf9f77a466917db90b42b6043cda2692e76a73",
+    "audit_sha256": "1b0327e7a7c221b80c769801ee3e4c0bd1f682a25ea2abdcdf974d233476cf6f"
+  },
+  "seed93024_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "8801ee94005c4cfeafc51fb4de3f73fe5a60a33547f80b4dab3d05f656804e99",
+    "audit_sha256": "2d2591fe511e5a28aff0b2eb4e7bc10a7344477552f6e5e72df89ff6035093ed"
+  },
+  "seed93024_attack0_timing1_naive": {
+    "decompressed_log_sha256": "b4e555b9cf41d07dc6b030ca5985623195a52afd5f5c2900304479b42da2cd5a",
+    "audit_sha256": "72ed35b45e0e38e011577cf67d725a899fc3359f32d8e87db8bcdbe2828655de"
+  },
+  "seed93024_attack1_timing0_active": {
+    "decompressed_log_sha256": "b820104122bf566ffd7ddca91da72ffc175c500ac4f0c935e2ad32a3f9cb519d",
+    "audit_sha256": "b854d1d53946a7e69087952e0bf24fcded1b713cb39172b52e0681156b234b72"
+  },
+  "seed93024_attack1_timing0_censored": {
+    "decompressed_log_sha256": "e5c8de0d7e9f217d85b6ef9945d4ff915fb8243a29dc9aab1eb345f012c4d3ff",
+    "audit_sha256": "7a915a9e5645c238778e9c612d45329b75e625c9a13a1704ebf7238472ff9e80"
+  },
+  "seed93024_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "70c0466d682b3c78f24cc62e10903dbc1532b484c683430f38f183af74a8594c",
+    "audit_sha256": "018ac62cdc35aba1a012b63ae4a47038089e48509fadd6c6298b1a87448acc6a"
+  },
+  "seed93024_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "370cd16b1d497143287089359d294a24c623b17aa64d79a2287911ad0f6e7ba5",
+    "audit_sha256": "0d77689ba6a5498f0d1f2559d795dac183a39b82839a11c811a8e3665895de7d"
+  },
+  "seed93024_attack1_timing0_naive": {
+    "decompressed_log_sha256": "a675e0e2251cbb36cd67f8d9950d4e1e8795e6abf3c6f754a4ab94299decf772",
+    "audit_sha256": "01691f5321e64f7d5ad41ad22c342a9c9510b43641f0bc8f930a6fd39bc5e585"
+  },
+  "seed93024_attack1_timing1_active": {
+    "decompressed_log_sha256": "4dda7dfb66e614c302f2fcf25253643e6f0b9180cfb9b91e1dd400ad837eaade",
+    "audit_sha256": "4be539798635e96c38e7c34de688959e2b7c7258a7f6cbff2cf5f2ffb2a94320"
+  },
+  "seed93024_attack1_timing1_censored": {
+    "decompressed_log_sha256": "5056b1c73585929555926299e3b545493d2e7996dd0b50f686b36ee34f08984c",
+    "audit_sha256": "067abb428df70335cc3978e5ce45c460eb41a725fa872ef049aa2ad1910f7eca"
+  },
+  "seed93024_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "dde1a4552e0e63a31f7176db6772f5c4891b1a97163c2c448bf62bd7a12b4165",
+    "audit_sha256": "72a5e8821a1420721d3d89b716746a8737b5afc17911001708c659042bab7414"
+  },
+  "seed93024_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "07341984977cd470d451cd741075d97ffc00c69d336492e7a5df8d741249e810",
+    "audit_sha256": "44cbe3e8cf139af16a380beee6ea19fd5a053d0bbb43bb851c23bef3f515c94a"
+  },
+  "seed93024_attack1_timing1_naive": {
+    "decompressed_log_sha256": "e62e4872238c8cd9a2ca1cd5b9a78d145bf38315dde0d454b3ea1698307ffc0c",
+    "audit_sha256": "e062a13333ed940c0496b20974c2958cd15ceff2ab0c2adc34ee825d3f9550a7"
+  },
+  "seed93025_attack0_timing0_active": {
+    "decompressed_log_sha256": "c629ce2d53cbb3d71e8cc5bb706a46b93414234712d38ef7b979afa922866669",
+    "audit_sha256": "5429f166e4d402c6b271bea1f462fc5bcc117f584bf5be2f8ab981fba86d7529"
+  },
+  "seed93025_attack0_timing0_censored": {
+    "decompressed_log_sha256": "70ddbadf5a79e2f2eb5bb712400c63da001f8310812e968ae5c1628ac12379f0",
+    "audit_sha256": "7536ce82a4d900b23729bb08024a4f5e4f78d32fb22286090a71b6906d8cc94a"
+  },
+  "seed93025_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "a244ac972b32a7dcfbeed1b83b2e5b834053605d3ece2382dd8ed0fcfb32ca80",
+    "audit_sha256": "608544247eeeaeb4b2542af356a90d433696226d7425d95d68f88c82d4d0cf8f"
+  },
+  "seed93025_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "869795160279c4711f5e3d40b50dc59f93f8557b35a02913244207c1673c5d3f",
+    "audit_sha256": "a13248e5f5922617ff20a76ebc74333aaa9aae01af1664943e686d02d6b94e44"
+  },
+  "seed93025_attack0_timing0_naive": {
+    "decompressed_log_sha256": "d3deafdd394aad2d88d2fdac8a84f493763c1620a7054d9e5ad3277481f85023",
+    "audit_sha256": "d380e31b11743f4a31c881863ce91e430ea63eb1f34fd46f40e0417d90c7bd91"
+  },
+  "seed93025_attack0_timing1_active": {
+    "decompressed_log_sha256": "44280d9f0f898780c8daef409758ee9e7ac7eff22cfb10a569fcdb83e81b046b",
+    "audit_sha256": "f0ade09d3798176c42139e47a31d7d67621b1c13ecc90b33472b22ba9ecd693f"
+  },
+  "seed93025_attack0_timing1_censored": {
+    "decompressed_log_sha256": "a5bf6a5cafa04a492f0acb5391289b45817190fd3399a025460570338f81ac86",
+    "audit_sha256": "7c7c1dd27b13f5ca86fc698d2078791e4487f62dd134b2c3bc50db85766b994d"
+  },
+  "seed93025_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "52ad73b1287bc27b9eaae63486c5d797a108a3a587ca8dce013e4c9a46d25f8d",
+    "audit_sha256": "a817a336c01bd85a1566b4da7346fce98af34dd1c4dde02c9f546118f1a57fd5"
+  },
+  "seed93025_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "5448e34b483214f8ed605546ce779ee978a2c415abf3a1792348d3be8906188b",
+    "audit_sha256": "d5145675cc12d9950b90f4aaee6bd38b62d0bcec924457d22dc7ccac657d31f5"
+  },
+  "seed93025_attack0_timing1_naive": {
+    "decompressed_log_sha256": "84e7c3042566a0dda1600f4e02a0da26b4cfcccfb93ef42a435310942bf3adf9",
+    "audit_sha256": "36fd67b7a7682fc569dd308f8beba38a2b7284aeb8ed239ad2002708c589dad3"
+  },
+  "seed93025_attack1_timing0_active": {
+    "decompressed_log_sha256": "0c61428d84b4eff558ee2eaa850076234abb7ebc0e082871940675f929bcfe17",
+    "audit_sha256": "16895443f194c70c0c2c781c5ba92194120758c346e6fb26acb6008af433f789"
+  },
+  "seed93025_attack1_timing0_censored": {
+    "decompressed_log_sha256": "5c1d8669b5837459b6085610609829fd28d0e7657f5593e712c78e3d861f6559",
+    "audit_sha256": "7de820cef6cb005fe8bf52df2daa3c50ee1ec2c5ecb12fe26e824f262a7c0631"
+  },
+  "seed93025_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "06099ec5b54f9aea01590a8b989df41fbc6f5572cf663e2125e8643b3fea357e",
+    "audit_sha256": "92638eeb9d4d23bf2f727900d5a129f12277ef155d47406a935bf4438487f7d4"
+  },
+  "seed93025_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "65091ddbca86e64c266c52a418f8938f55385a9b5b01170e389c5b2c5900cb70",
+    "audit_sha256": "b28673be3286d1a51e0c2eea93ba1a1f68c3e3d4aeb0ba3b900b1ceb8bad10b6"
+  },
+  "seed93025_attack1_timing0_naive": {
+    "decompressed_log_sha256": "dd370ab0976abda367e5edf0b9977d09465429724b2af2bf6d1a31c937ac0ad5",
+    "audit_sha256": "fe251a7146c6d281b6ce44a944c933159d617f0ae45b43aa0d5ae1da6c00c38d"
+  },
+  "seed93025_attack1_timing1_active": {
+    "decompressed_log_sha256": "c8fd141fd7b0263578dd5f17d73698a56b2bd5dfdddbc8dc980e84601f691261",
+    "audit_sha256": "957fb961b375bca42fd0ed63bd3dce2dc21ad93d74c5b76468baacb9182daa41"
+  },
+  "seed93025_attack1_timing1_censored": {
+    "decompressed_log_sha256": "8bff35dd03808ed1fb00d89890ed567632015d1c3df5b70768ba1f604f6e3e4d",
+    "audit_sha256": "472ef0e8f46ee6dfffeea0e2c3d7ee303319172abd15352619d4aba699afc41d"
+  },
+  "seed93025_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "e753e1af124fe01ca194f48254c724d62abe50387da6efd0572addb41d266dfa",
+    "audit_sha256": "a3b63d150b4f2ccf07464730671dc0142558cb649e7f5463e5a2262719eeeeb3"
+  },
+  "seed93025_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "960e43828edde97870d5132d7322556aa2b7e589c5b5b5d482e122927befb242",
+    "audit_sha256": "45b68951b2981e3d1adb753a432e2d99f9693f2325cda15d2c4fd1bc9b82055a"
+  },
+  "seed93025_attack1_timing1_naive": {
+    "decompressed_log_sha256": "00216e7ef31712fa9c7148060537e61c5693554ba1efd6ea3e1841cbe48264f1",
+    "audit_sha256": "d6a5a499e8a545ea9a7ca75386ec2bfecf48b184cde1d478ca092e8a1b00a6ea"
+  },
+  "seed93026_attack0_timing0_active": {
+    "decompressed_log_sha256": "6400f8f79739d2b27ba8c6b8b255ec3b2527d1601e3825ba17811d8111bf16da",
+    "audit_sha256": "d735a424325b49b15cca767ce052f2b65876f23e2ef410b5d2eca3bbb1ca9bec"
+  },
+  "seed93026_attack0_timing0_censored": {
+    "decompressed_log_sha256": "78abff952c84f2763b883d55e6bda9682e803b9ea90b0f7c2a9cf5510a85fc89",
+    "audit_sha256": "7a17e5a582c582add389a574a8a08e05ad6f86bef870050635893bb07e917f96"
+  },
+  "seed93026_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "b530ab0ea2d4bfa91b74ba5d0db9db676303983c5a6d6b8d9643117570953088",
+    "audit_sha256": "1a54dadf78bcdfc9bafab3c1f3032c54ec148a2f3805f0a917522d7bbfb84cf2"
+  },
+  "seed93026_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "6f560ca9c58e51f061f71c4a02212cc698bfa3ee1a9bc4bab05f9f4b0e1f6da1",
+    "audit_sha256": "bef3dc86b0d0d2fda00d9fb652647e25d12dc5d70bd8f453048d0bcb080ea79b"
+  },
+  "seed93026_attack0_timing0_naive": {
+    "decompressed_log_sha256": "c124bf7886c428f64bbe6c468602f1533532b6a899113146207391e52254bb1e",
+    "audit_sha256": "95dc99bca2e42c645de09271bc736f81e20c518f04e8668931daf5f536b4f206"
+  },
+  "seed93026_attack0_timing1_active": {
+    "decompressed_log_sha256": "2a9e818977c0172e44287e5f7cb88f82172ee6889814f41d3ea21811eb3c657e",
+    "audit_sha256": "6b99e763a3ad3ca524ba273b8a9fcedb2004fd377ee48d8eb1ad1230295a8a7d"
+  },
+  "seed93026_attack0_timing1_censored": {
+    "decompressed_log_sha256": "37d77da9a4ff367010eb94af4b6cdcacd8c081321b39ac88f7da626f3a0add96",
+    "audit_sha256": "5358afb6632bf1bf024122efe2df0e46d0c23ca4a5dedde743908356c0440eb4"
+  },
+  "seed93026_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "881fee849a578ffcd6783547d73b55e5b016ba611cdf10ff2148c261cc55611c",
+    "audit_sha256": "04028548c98fd96f57c80ba9e531bdaf95d19377075c32bf2678968a11ee16f4"
+  },
+  "seed93026_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "7840e3cd1ad4312225ece6fa53c2675e831d51151b392d0471504e6c7f7bcd33",
+    "audit_sha256": "1127e30adfe778c3e7c00cc0bf0ef68773917ffba7550609465afe7d265960d4"
+  },
+  "seed93026_attack0_timing1_naive": {
+    "decompressed_log_sha256": "fc86cddd5444dd43c93284dfb6954669272b2ee681a413ab86c4860a7301fc95",
+    "audit_sha256": "b40baaab01f92cdec7c165d8133d8cbe001ad1237e6da82a3d06d5ce903ec96e"
+  },
+  "seed93026_attack1_timing0_active": {
+    "decompressed_log_sha256": "a60220f04a5f3f8be1842cb270ac3cea6087be8ff5450f8b8c7409b52be4e5fa",
+    "audit_sha256": "e9ed3806ae8049c99582d4b6bcaa3bc49f58daec8eb77585b798c37917f5bf1f"
+  },
+  "seed93026_attack1_timing0_censored": {
+    "decompressed_log_sha256": "c2e7ce9923c788e9fa73034f1d884e187aee3d0a540f59b90b69e93536b3bcac",
+    "audit_sha256": "d08d927297fed8343d35b1bfbd39aca88cee0bd495bcd08b43dea6b01f2d3c2f"
+  },
+  "seed93026_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "ae58f1eaed8c25006c2fbb6046c4fbf97925e6e879a7b06ced31e52cfb34b981",
+    "audit_sha256": "f9f6f1deec53bf30081c155083b1314e0f18d32aded08e4f0e07371b3de551dd"
+  },
+  "seed93026_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "e4494846d0c634b89f1fd3f112cbbf818b18563fe6261ee88c67f6a0bf2d6b0b",
+    "audit_sha256": "63b450e6ec008d30d764c6c967cee25c43a30a3bbfd2f5edb1df5d19f28cc166"
+  },
+  "seed93026_attack1_timing0_naive": {
+    "decompressed_log_sha256": "51d19720198cd027292a7b4f79d0e2ffad4a0c2ef99e5785ae5570b095c9a949",
+    "audit_sha256": "4eaf7bbcc9cedbc8fe8a2e9b202e1ef23a7a37b5463a61f8cdf36ed49a1b0e50"
+  },
+  "seed93026_attack1_timing1_active": {
+    "decompressed_log_sha256": "32c8d9404b5ca24701fc563c71eaa60dec32628d61ead6c16f4862f2c3b6dab7",
+    "audit_sha256": "209e590a804428648889fdf7650dcffbaec4f73b8ef7434dea6e267bc99b089e"
+  },
+  "seed93026_attack1_timing1_censored": {
+    "decompressed_log_sha256": "7748e32ff4d7aca606ceaeb3698d60d06a7b46cfd73a949dd64a9bee164ba05f",
+    "audit_sha256": "853529ecf2e75a6af0c467a16453c57752cffcf61e3190915257b30ea50bc516"
+  },
+  "seed93026_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "a46bff6c5067a6e3bff872de2b1cc1dc67e764372e8dffa7612a6bdf6726f86b",
+    "audit_sha256": "74f5e382931e625b1c0d708715f97f2d0117c03787203347d21a415631ec63bf"
+  },
+  "seed93026_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "d484219dd9552c56bfa96ae4e524dbf7d2413ca5fec25823ce6cc8e43753d58c",
+    "audit_sha256": "57c4b37ecd12afbe15f3b19bc490b4521dd898d3bd1c53d324a582e749bb3af4"
+  },
+  "seed93026_attack1_timing1_naive": {
+    "decompressed_log_sha256": "27dcb339852c37c11c734c7ae6dc88b3b198e3d70712b242c76a5b35b52f7f17",
+    "audit_sha256": "b05684412132e62aa7add7ebcb77155c23945df5ec6546331b84ec915c966e87"
+  },
+  "seed93027_attack0_timing0_active": {
+    "decompressed_log_sha256": "c0b9a8406ff3c359857b1068927d13d3b509c3ff20a84b08ede7a8551302373d",
+    "audit_sha256": "d7537590bcd4b2dacedc5bf9a83ba48e181dc2f2cdbf6eaedea8792ae5e9c98a"
+  },
+  "seed93027_attack0_timing0_censored": {
+    "decompressed_log_sha256": "a713f739096c58b372bfcc889f2e2cbfa702b883ea0408b42a56f2aa368180c6",
+    "audit_sha256": "5e6c58873751cb9479304972df7e76f45c04ccefc778fbee0b9411538b39bb7a"
+  },
+  "seed93027_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "fea0a9cedd2fa49a77788f889d1dfd7e1dc29b9dda8bcf8d44cb0157980e432a",
+    "audit_sha256": "0ae81f3af2b04bebada4536ae5c1362ef852d8b54b1584fdb4fd6fad92120c14"
+  },
+  "seed93027_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "1c6e8e26d2d3197243e0ec404e87cf863daaf016d17a78b447e426789779786d",
+    "audit_sha256": "f952c0ed64efbb84d1ca9f9b7447b99d2861feecf5dc1dfa146333886e858aa6"
+  },
+  "seed93027_attack0_timing0_naive": {
+    "decompressed_log_sha256": "ead2150d96ec409897c6b4eb500338cfaf0fce369295fbe7159c53ceb2a61083",
+    "audit_sha256": "01db6d41fd2f3fa4be9fb98409861876e59941d69bd2713bf9ea324186228044"
+  },
+  "seed93027_attack0_timing1_active": {
+    "decompressed_log_sha256": "196e81a22169693a3e82bd24279a0d11a27f7940d8f55567d39bc65aa1520088",
+    "audit_sha256": "5c9e4416df9b4578f79c2390c77178b5558b89f794e09bfe5eee688396a83fc6"
+  },
+  "seed93027_attack0_timing1_censored": {
+    "decompressed_log_sha256": "c8cc29eb78d348afed0b3a93ef0830885dfc6430f905eeb4df94b11d7d5a0b20",
+    "audit_sha256": "1eb2b6efbffe7074a394a7063ed44bc19358e6fb45d5bd3310ee8b4740859d74"
+  },
+  "seed93027_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "90e021b6e7124e76d6ef53e23660bcbe170060226fe91e964a1198a80e74ea6c",
+    "audit_sha256": "8cfc61afb3dfd6d96f62387dde9717c5b73c1e189ac075bcea409b3aab070766"
+  },
+  "seed93027_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "c0fe8bf8255a5eb121c7bb144df5338c622fb8c6669bdeb06f58ad717a21618c",
+    "audit_sha256": "0cd1b607146d32d98e812873c47386a5d7c5e31edb792b61281a120b619bff58"
+  },
+  "seed93027_attack0_timing1_naive": {
+    "decompressed_log_sha256": "6ad0713994c9e340e65ae612b6c3f1ea2d773774f5721b974c019074f7a069dd",
+    "audit_sha256": "0a9d31c955010b87b88d807b548db99bc844b97536a6e2e944c45ba21f2577c6"
+  },
+  "seed93027_attack1_timing0_active": {
+    "decompressed_log_sha256": "c2046cde231dcccee530cad2b442a0487d26de386065c662d81c6d9f55193bf0",
+    "audit_sha256": "5ffc06468e468829f628b131df1846f5ae38482d898bb5859607a45c77b0ad17"
+  },
+  "seed93027_attack1_timing0_censored": {
+    "decompressed_log_sha256": "a0a9e75335876e1afa88f58b22892c7175637c02b5625260508fc8594384c409",
+    "audit_sha256": "e10603d26d923af03cf495caad393d0954c1d8df4224a358370566a5f8a18ae6"
+  },
+  "seed93027_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "b5638e188cd38f040d03c3a7f3f9e87d56d152f64af34878a1c422355872335b",
+    "audit_sha256": "7c1ecaba1eabedaeb8665551f0ae4573a0c1cd8ce07f4dafd31e453be4056644"
+  },
+  "seed93027_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "4a12c7ea56d6d36a850ceffe0878148e7579b0126437535e0107ceb10272c03a",
+    "audit_sha256": "bbe8cae95c3224821b2a4a26677e330f859b1425c2784da78297383cad8889de"
+  },
+  "seed93027_attack1_timing0_naive": {
+    "decompressed_log_sha256": "84f3448e94b6012eaa3884f32741876ceb5ec89ec8afa1a83efde865d5a292d9",
+    "audit_sha256": "1cb6f4d11011e45e9599b9c90a671967abda95b73387fb8c21282e0e07f6524b"
+  },
+  "seed93027_attack1_timing1_active": {
+    "decompressed_log_sha256": "a32e8e480f9cf282aa1d888a9a337040250884d7b13f0db61ff0a08059e4f98b",
+    "audit_sha256": "7f2d93a205cf01e71bc3ff583237686cbb9b8a84e050378cc057516eae5dfbeb"
+  },
+  "seed93027_attack1_timing1_censored": {
+    "decompressed_log_sha256": "96e7e73aee085f0e1d1c027cd5e96651b393afa5ece8b703f19c557c23286e5e",
+    "audit_sha256": "c46513fc3792455ce126bc8273fc21aec896dd4c066695c678d196f59a63a468"
+  },
+  "seed93027_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "e88a8d4c71674ec4e3314156f3c81265c911c3162d43fd8bebd686f1b0e7df74",
+    "audit_sha256": "1318206884b79bba143910afaeaa3cf5f372a427601ce853173a7faecf44f6a0"
+  },
+  "seed93027_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "84aec8658a35733e7c847ff0e1af2b4cd62229d712d65079954f32654653e735",
+    "audit_sha256": "b5ab19f3aff281831d791954fe1d4706fb37aad2da8c95b720d7c6f4360a36fa"
+  },
+  "seed93027_attack1_timing1_naive": {
+    "decompressed_log_sha256": "51e481362545c34ce82c4d8e6ed080d195e991a2fd037833d0ed0aac0525e80c",
+    "audit_sha256": "24a0f558f12895504140512bbccd71161009ba91d34062c0361f7dd90251e6e3"
+  },
+  "seed93028_attack0_timing0_active": {
+    "decompressed_log_sha256": "2f8ba1dee21c50d9b098c1260cf8117fed142d4f8fc9d7778ee396e9fba409dc",
+    "audit_sha256": "97f71af1f654522b937e9965db22949dead427f44630c5a6ec3048825b27aa25"
+  },
+  "seed93028_attack0_timing0_censored": {
+    "decompressed_log_sha256": "eae7b3abc3c4be07fa4d2aa3653bce11b9ce031a09996c07f485edbd184d9940",
+    "audit_sha256": "a7a1f0981f4d507bb032a40e05472bf505ff3e3200c657d9f94f227be81dc99e"
+  },
+  "seed93028_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "1beb9d0df0045d70d87b876f68fe8aca66738d9bd76437bca8ff581a7622daaf",
+    "audit_sha256": "de2072c24d3e7b8066381d5613f013a47247f1cc532d8ff88ea6a69781c626a5"
+  },
+  "seed93028_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "b0cdc57e1f33b6d8ebc84398f6d96f79017b7fc46dccfa5c2f37037495f681f3",
+    "audit_sha256": "6e0b2dbb9eb71f8333f924fdd2f7d74f8ab21742e20d914094c7a6255c3f9af5"
+  },
+  "seed93028_attack0_timing0_naive": {
+    "decompressed_log_sha256": "c3c4b7d7f205f81432780d0a7570979a0f03289ad4a8bb22aee559790cc7f48b",
+    "audit_sha256": "c4fb7ed5057ebec56d1fe87a21ad838299d93e16e7898bbc4f8d033ef4109626"
+  },
+  "seed93028_attack0_timing1_active": {
+    "decompressed_log_sha256": "5eb52c93550f2409e39eacd4fd8b2311beb0c370fba9e8e256e9e43ea354cc27",
+    "audit_sha256": "abb55d57f16746b683bd36b238012cb3537fb0127cf3e22ce68e6ad884f167e9"
+  },
+  "seed93028_attack0_timing1_censored": {
+    "decompressed_log_sha256": "5cdc66b55562a7a2c2d387c7823165abf69afab2978a1bdd92950fe10d1c5265",
+    "audit_sha256": "e133f2255a5247fd3fbabeac7bff38badbc57c3c166f83d157b622d26b6c7a4c"
+  },
+  "seed93028_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "4c5f6e988bba5aba3f0956eb5d4fd6331c99df0d29af7d1193027da3dbb12fa3",
+    "audit_sha256": "a583fc9284ceaf05d5d54361555d229c5b8bcba9504934953b38f63812870de8"
+  },
+  "seed93028_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "6c6fa42d16e915c43bf629ed0a47a07e2f9fe4acd10e9069c95f9e1b0c621792",
+    "audit_sha256": "09412b1eb0e56e619117b28ce1e1167bad9bd32ebe9af5d4ea1f202093d1ca7f"
+  },
+  "seed93028_attack0_timing1_naive": {
+    "decompressed_log_sha256": "b405a728514a278c3ba6b66c67c519d390c48bc55a853f08912e7a88d50f4931",
+    "audit_sha256": "8d7d5d37089d0d927285f9357b8b6ad707df81593a9df1b9266b1c98db5b2a11"
+  },
+  "seed93028_attack1_timing0_active": {
+    "decompressed_log_sha256": "1218f83b732cc567b15d7ee1c7104ff305923c414648d0b5abe79c8e569d8383",
+    "audit_sha256": "088a01a08b90d0ec46f4c230dc74c1a2185d78000840004473a550c02decf634"
+  },
+  "seed93028_attack1_timing0_censored": {
+    "decompressed_log_sha256": "2295d4f8f1c8732ff51f5011d72cde42435b0d1840f50886fb7401d08d231887",
+    "audit_sha256": "613a742aa91f3af266569b23daa853e27b6de17ce5de2e8e7b8108ab262e4d98"
+  },
+  "seed93028_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "87e682fbf622d1030f2376db116fe72d6ebfd1c0f64f04019f56ffd0457edb06",
+    "audit_sha256": "c5adf500d265e3b1f33baf9c675f2170536ac1b7f3fb483e2c0a543136c4c736"
+  },
+  "seed93028_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "fd894a1325d3fceec839e66a8c81e27bfc54bb4c2bd6d10b371a525dc16fc62a",
+    "audit_sha256": "bf2a74376cc327e4c983803b356d02afb96b64dca0908438c9c1407d15c26d77"
+  },
+  "seed93028_attack1_timing0_naive": {
+    "decompressed_log_sha256": "53ee4d8d332cc395aa23be720e5cdc46bc38976f7e381fac00f4c30272443676",
+    "audit_sha256": "a4856ed6c0c6c0cec0e2a34b55bec2fa1cb87a432610542d586ef4d17c4325bd"
+  },
+  "seed93028_attack1_timing1_active": {
+    "decompressed_log_sha256": "fe9d774be91703b7a5d344b7b35cf19a3d2075ed0b13877a27811eb4dcc2ad67",
+    "audit_sha256": "b6333cdf23e3aef75b01ed0375a93837a210455c91d27807baf5f9c2fe5cf3d1"
+  },
+  "seed93028_attack1_timing1_censored": {
+    "decompressed_log_sha256": "076e9e4853c2e381600633938f30545cf3781902b6fcc3d360b6dd7067838b67",
+    "audit_sha256": "c1cbf9abff07587b606c6c829b046493679c23d5fd83fd0f185a35f3d6c1c1f2"
+  },
+  "seed93028_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "60223cad85be9786c1ebac6e6d2d3f6bcb6c78a6c607a7ee1b6acf13cc8a64bb",
+    "audit_sha256": "e7957153ff0cdf0151e7203ab29f129c0eee4d733bdad2ede4f687ecfee7ca6a"
+  },
+  "seed93028_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "59ce071d85e05f8fcbc63784ea251cb76d18ebfcfc834ae9a9ad859d4c83c9b1",
+    "audit_sha256": "56160bf59bfeb420ebcb3cce0794c85c25f26830c3aee2f4a50a3ce033223fe4"
+  },
+  "seed93028_attack1_timing1_naive": {
+    "decompressed_log_sha256": "f5a4b7576b04449139faee5ae4f89a1be46cd7dc7419bd8e10355bbaef0fd5a6",
+    "audit_sha256": "09ece2cace0d2c3dc197bbb05d18ab6e20b943316bfcb5803b64f3feec527f2c"
+  },
+  "seed93029_attack0_timing0_active": {
+    "decompressed_log_sha256": "b7992dac21323cfc790cb4ac5f5a7de83787759ccaf468b644ba7038c1a759f4",
+    "audit_sha256": "e510f26d6faf9e3273c9991bb487e981598990f189a3617d55fd9d26de26d5ef"
+  },
+  "seed93029_attack0_timing0_censored": {
+    "decompressed_log_sha256": "214359e7dd06846e0270a4f6f0eb56e46d2216a19203da8a8d5256ef75c6d9a1",
+    "audit_sha256": "7cad3a2509264742a3c9b3fcac4c3d0254698f8ffaa9db9e137f11c74344bbad"
+  },
+  "seed93029_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "e1207e5ad755ec9b638a1be63aeecc4b954c7a0b0e4cc01eb25f6060e46c04f7",
+    "audit_sha256": "14a3e504204627bd7811076b85aa346ce85f7bd19ebee03b3489935ce8dc5205"
+  },
+  "seed93029_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "7d2a0deaa2028781509b63df6e6443ada565d95920381194002fd9caeec1ea75",
+    "audit_sha256": "ce763d84856c9f12859b254760eac1761bfb7165e9088013b2f66a74ce263274"
+  },
+  "seed93029_attack0_timing0_naive": {
+    "decompressed_log_sha256": "2ece69681a01ba71d152fabd1f63deebf83be7a2bd590eb97d0e3326dd527b4f",
+    "audit_sha256": "5a5837c000dc59bcfa7519d05f0a0dba0616645af02d466c876e31ee80a17364"
+  },
+  "seed93029_attack0_timing1_active": {
+    "decompressed_log_sha256": "3aefc2fc504f438a94202039a9e8e63d382d05b82753a06a61dc4ada8bbd3cb7",
+    "audit_sha256": "2e131bd6cf96ff714e18d6152b0db9302e08d76d437f753a2243c47878fe74e6"
+  },
+  "seed93029_attack0_timing1_censored": {
+    "decompressed_log_sha256": "840e20d3e5959aaa7f66031963f8c57c6500baa1f95ada259e24d6894264b00d",
+    "audit_sha256": "f6bca7a2713bebef503c01def50870ae445b4051e726943f3958cbe6cd512b6b"
+  },
+  "seed93029_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "52a89ba62c36e88624409e5980d09c7a0cf6fa8e43c93742097ee979ca39dd0d",
+    "audit_sha256": "4a313b556db71bad91aa8d964b49224c0c3e27151f152d6b2f63dcb27b20b8cf"
+  },
+  "seed93029_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "d84037ce1b10fe2118e6b018b5ab00d5d9406da3982155da599933500cf04738",
+    "audit_sha256": "517ec71d9c03637cb2755452aba76f19cc6ff3e576a885f5f461a45ea6b3d974"
+  },
+  "seed93029_attack0_timing1_naive": {
+    "decompressed_log_sha256": "a87efe371b77a1657a10da658392fc8269a39a89d21719b219b3b3288de3ab78",
+    "audit_sha256": "44fea7dea7276a991234f853a468d4e9086e26b68ec0520c34d991b5c642748b"
+  },
+  "seed93029_attack1_timing0_active": {
+    "decompressed_log_sha256": "9edfe6e88a072a881a8d960a47750370265b3fb66706dadcdefea8c03f259fa4",
+    "audit_sha256": "49a6e78b00b8f2299f7f6b9e3d796104ceb7aa42b5f4a60b947eb71e97d18682"
+  },
+  "seed93029_attack1_timing0_censored": {
+    "decompressed_log_sha256": "5d8ae76cb2d9e94ed5a259e376a3ac534fe0af30a2d4b775f0fa44677b9bb60e",
+    "audit_sha256": "6c41084f0080cfe865d88267e00ead4e1188ab0c0dcf038c4156f4299ca40247"
+  },
+  "seed93029_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "1d4892fee415bd8708dd7d372de911386da1dfc2a38be2ca3d56c033e15a328c",
+    "audit_sha256": "fece29066411bd780093ecd1fa452a585e84b894f67cf378af0a1ec5bf7f46a3"
+  },
+  "seed93029_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "55c7041554c5a2c667a2aa5042c6ba44f9c0f6bc7795e73f9c23d56cb60291b8",
+    "audit_sha256": "7197993e128a4429338cf906af2a561aaef711bcb397822312f4ca76ed7848fb"
+  },
+  "seed93029_attack1_timing0_naive": {
+    "decompressed_log_sha256": "afae8e6f65fa8dc0bbb4308b647d6c879f2931369a061bfac6c8dfe9362c57b5",
+    "audit_sha256": "3e1b046eb9b11807531fd2f736badf006fcfe3bf69870c909fad44a726767b96"
+  },
+  "seed93029_attack1_timing1_active": {
+    "decompressed_log_sha256": "5e24c1ed471518e74409ae6ed0448a8c5104443b8ba6f00cb4c2512c74f96e16",
+    "audit_sha256": "297b385f0581955b77bd5fc39a05284f2d401e8e1d8522bd0650804ded20541f"
+  },
+  "seed93029_attack1_timing1_censored": {
+    "decompressed_log_sha256": "357726c56a8807894c6fa1a15ba99b83213bf1f8d0100cbc783e1d99cdb88467",
+    "audit_sha256": "276d1028ecf4f0fdc04a40510f3b3be75d3e978de20a661195f6d8dacba751f9"
+  },
+  "seed93029_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "5481bb0bab8f3505f8fd7edb122a67db48e8ef96fe88fba88a127f43f5126e91",
+    "audit_sha256": "db462c90b7b9fe15f0943f83850e2cf0bc0da660d32da111b8f86bcc77776616"
+  },
+  "seed93029_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "534d3663d99693383e4956b46b810b38e3646bc3deecbe005d7a115311f92757",
+    "audit_sha256": "e9592e55a861c302013082d7feb5ebc576ddf892582e52aa45eddddd352bc486"
+  },
+  "seed93029_attack1_timing1_naive": {
+    "decompressed_log_sha256": "f274e710a90c7d2fd003448e5cfc5c9286843bfa4c914a5c018a0e57c9daa26c",
+    "audit_sha256": "0508258c4b5eef2ec909ffbe7ddcb06da3bdce910632125d18415aa9bba26954"
+  },
+  "seed93030_attack0_timing0_active": {
+    "decompressed_log_sha256": "d649cb3818e9e623ba4fe6d7966e07e302f5b6e98e411de34b0072ede5a5e82d",
+    "audit_sha256": "f3d6172db2d4f2b17bf730a7f886496c228b25e0bac8189f07705a61c3534a9e"
+  },
+  "seed93030_attack0_timing0_censored": {
+    "decompressed_log_sha256": "09892cbed10d8a316b8054be16ddc44b88478d5476146086d7b948047725e6a3",
+    "audit_sha256": "a84ef23c8cd48fea5c941d031af87f63548ada012653003c3cec9e5fe6b7e7be"
+  },
+  "seed93030_attack0_timing0_censored_proof": {
+    "decompressed_log_sha256": "6c7e922e720f6cf7fc7a9d49dfa8ab8d8e5f134d613a0c0f41042f221a02e5aa",
+    "audit_sha256": "1912567334375a9d19a4275780f74fb89cdd0966e9cc9798ae58c4c0721d92ae"
+  },
+  "seed93030_attack0_timing0_frozen": {
+    "decompressed_log_sha256": "b26653d5310c75e4e5452904aa38e46b17f225300ca62575ccf89595ee54c921",
+    "audit_sha256": "392fd9f655e5c0c5b08fdf1bb6d6df72fb0b8a8ac6b0901061fe3233122172ca"
+  },
+  "seed93030_attack0_timing0_naive": {
+    "decompressed_log_sha256": "75d38915d412e677c07e8f56ed2293b78c0d8cbfe28b1836132ba9f002903dfe",
+    "audit_sha256": "35d8e685ec880e31734e9f818180e16ea000da955d60058444e3104dd0f96a06"
+  },
+  "seed93030_attack0_timing1_active": {
+    "decompressed_log_sha256": "a99189bc8ab2ffb7026d59ae76366b0abef3e50b82437594cc6748cc5ede1f8a",
+    "audit_sha256": "3df057ec9623683ebffcb01605865ccab61b4ad57ed0db99f53de2d12c73e52b"
+  },
+  "seed93030_attack0_timing1_censored": {
+    "decompressed_log_sha256": "b6e91166ce3931f35e67ee877719eec708034d119dfc899e950aa6efbab829fd",
+    "audit_sha256": "6aeceec9ee6777dbef3a552ed9b35376058ba4c5412387b2d30348a4be3df7a6"
+  },
+  "seed93030_attack0_timing1_censored_proof": {
+    "decompressed_log_sha256": "7be640b2264fb0ec83ba5b39cb12014006cb15ac308f03ca1b2dfb92162f770c",
+    "audit_sha256": "34739b4e31c23fe7a8a4ddfbbf4ee10bc2bbd29925ad48ad93bed2b935f42445"
+  },
+  "seed93030_attack0_timing1_frozen": {
+    "decompressed_log_sha256": "d394a47d80aba792e3bde3cfb9c6f9f971882880e0b4cb4aea44a525d2e9dbb7",
+    "audit_sha256": "5a9a15fc73b93e46c25d72a984b94aa1008647c238c08b732e87645fdcf38899"
+  },
+  "seed93030_attack0_timing1_naive": {
+    "decompressed_log_sha256": "62e53ff88743deaea6f73e2a4e5e4ee952f04934475608a3fe0697624e9210e2",
+    "audit_sha256": "258c22a72aca90710ceb1efbd64fe4858757e83ed96d69ba24fd411e71c3146d"
+  },
+  "seed93030_attack1_timing0_active": {
+    "decompressed_log_sha256": "1d6e7a403ffdfe08b6357368de9279f1a27785ab9ce675df1119b823690db230",
+    "audit_sha256": "6a143ce137338600e68e3b683567106236f77b937fa5f866943153c8821ad2f2"
+  },
+  "seed93030_attack1_timing0_censored": {
+    "decompressed_log_sha256": "c802e2a7ff218007948e167087e9d3f779fbeeec69a6f442aabf0096fa8fe4a1",
+    "audit_sha256": "fe76a2505ee75380601df50640a3c6e0361fd8de3750e215080dc1727bd06acd"
+  },
+  "seed93030_attack1_timing0_censored_proof": {
+    "decompressed_log_sha256": "d5495a104cad18eae6710c6f0e53f427c83edfd593ba7fd94ac023030b7dd558",
+    "audit_sha256": "32727cfb97c643c091c812949a0e4d3867313214c7314ef77ff30b45a75558ca"
+  },
+  "seed93030_attack1_timing0_frozen": {
+    "decompressed_log_sha256": "c3b3e2d9f4f734a7917a3657434be73e9e32758e1428b5088e2406b6b34a54d8",
+    "audit_sha256": "0752a461f526c55734c87abdbced3c0569c20c806896e9466109dbffa21183be"
+  },
+  "seed93030_attack1_timing0_naive": {
+    "decompressed_log_sha256": "b02acbbd05acc6808f05c913c5feaefb91ccbbc33c9d67e9a6bd3de22bbbe587",
+    "audit_sha256": "43794297d8e21d1335ffd61898e1b88ce94314bd1398d133330299c58dd985f3"
+  },
+  "seed93030_attack1_timing1_active": {
+    "decompressed_log_sha256": "19c7df6a07f9b58a32db3a71d0bf4fcb8283afd3d69c57d66e2ed2cee0ed1233",
+    "audit_sha256": "04c509b33b537c9059e242509b4a5f230f404dd980c1d8a299791347576cbca0"
+  },
+  "seed93030_attack1_timing1_censored": {
+    "decompressed_log_sha256": "c604c9f096df3d1279f846a7e0b5bbabf190b5fcef430deb292821754675862e",
+    "audit_sha256": "59a1c928b822e5b854cf636fcd1a5a47fa4f3f963542801ecf7b5adcfda3adc9"
+  },
+  "seed93030_attack1_timing1_censored_proof": {
+    "decompressed_log_sha256": "b0847a15ad478d31812b1356d1c2acb5867870c349bbffe42d2f8d01b3cf74a1",
+    "audit_sha256": "e0b1a29dd8d879d4bae02280ff3d75705d68880bf65aaab27bbb6809474af478"
+  },
+  "seed93030_attack1_timing1_frozen": {
+    "decompressed_log_sha256": "c4895548cf4e3731114a84589c38b4d28b55a0a472aa9939f04a030a4fa01576",
+    "audit_sha256": "bfb658508ea2b163bbd3c945135f1fff2489e760c6b24b0592309472a069ccb3"
+  },
+  "seed93030_attack1_timing1_naive": {
+    "decompressed_log_sha256": "71b74b329e4d8b8d2aeddb5f5907d59614b5ac102da3991f3393468aa6745c72",
+    "audit_sha256": "1f475ee888e0cb2eccff3853e037f213e99e51c7338fc03097a6f2cf1005b49f"
+  }
+}

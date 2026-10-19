@@ -75,3 +75,9 @@ Benign means and checkpoint/onset/channel-stratified block effects are available
 ## 2026-10-19 endpoint-preserving follow-up
 
 A separately frozen LTO/default-loop-optimization pilot completed at source `b52842496dc625ad30ff95bdefad4c107366080e`, run `39179074994`. All 200 packets and source-verified Ed25519 receipts passed functional acceptance, with 500 matching actor decisions and seven retained negative-control categories per topology. Original deadlines still miss 68/200; chain receipt delays are 299–308 ms and choice 213–220 ms. This unsuccessful compiler optimization is retained separately from O3. Public signatures, received-source linkage and one-bit signature rejection were independently checked on both profiles. See [execution and external gate handoff](EXTERNAL_GATE_HANDOFF.md) and `outputs/mcu_deadline_v2`. No physical measurements, production security certification, author consent or authenticated submission completion is claimed. The previously pinned Word/PDF remain unchanged; this is an additional diagnostic supplement.
+
+## 2026-10-19 Cooja and permission update
+
+All 600 retained historical Cooja runs (30 seeds per stratum), 2,400 node-final records and 36,000 offered packets were rechecked from hash-bound raw captures. RF delivery, TX/listen airtime and an explicitly assumed current-ratio sensitivity are provided in `outputs/cooja_radio_energy_v1`. No new simulation runs or physical measurements are claimed. This family remains separate from the matched factorial study.
+
+Shivam Bhardwaj reports that he holds publication permission from Abhishek Kumar Pandey and Abhinandan Tripathi; his own approval is also recorded. See `publication/array/Author_permission_register.json`. Direct correspondence was not inspected; contribution roles, overlap/exclusivity and other unprovided declarations remain unasserted. Prior statements that no permissions were reported describe the earlier check. No requests or submission were sent.

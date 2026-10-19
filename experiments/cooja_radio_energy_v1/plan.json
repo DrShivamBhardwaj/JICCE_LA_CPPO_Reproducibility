@@ -1,0 +1,11 @@
+{
+  "classification": "Exploratory retrospective reanalysis of the complete retained 600-run Cooja family; no newly executed simulations",
+  "starting_commit": "82880baa7e7d86ee6668f11b8f6131fef7240ab4",
+  "dataset": "outputs/cooja_feedback/primary_600",
+  "coverage": "All 30 seeds x 2 attack settings x 2 timing settings x 5 arms; no outcome-based selection",
+  "acceptance": "Every decompressed log must match its archived audit SHA-256; four distinct final nodes; raw radio state sums must conserve accounted CPU+LPM time; state totals and offered/delivered/receipts must match archived audits",
+  "endpoints": ["sink delivery fraction", "source receipt fraction", "summed node transmit seconds", "summed node listen seconds", "radio TX fraction", "radio-only normalized energy coefficient"],
+  "current_sensitivity": "Assumed dimensionless TX/listen current ratios 0.5, 1, 2, 3; coefficient = listen_seconds + ratio * tx_seconds; actual joules require voltage and measured currents",
+  "statistics": "Descriptive run means across 30 seeds per stratum; no new hypothesis tests, intervals, equivalence or hardware claims; packets are not independent replicates",
+  "boundaries": "Always-on native Cooja radio-state accounting, fixed four-node topology and checkpoint, public fixture keys; no calibrated RF propagation/current, MCU compute energy, physical timing, battery lifetime or production security validation"
+}

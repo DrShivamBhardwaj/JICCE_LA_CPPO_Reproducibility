@@ -11,3 +11,9 @@ See [the concern matrix](../../docs/REMEDIATION_COMPLETION_REPORT.md), [reproduc
 ### Additional fixed LTO diagnostic (2026-10-19)
 
 See [external-gate follow-up](../../docs/EXTERNAL_GATE_HANDOFF.md): 200/200 delivered and source-signed receipts, still 68/200 deadline misses. New raw evidence is in `outputs/mcu_deadline_v2`; the pinned Word/PDF are unchanged. The supplement adds a failed optimization, not a physical-validation or deployment-security claim.
+
+### Cooja radio/current-model supplement and author permissions
+
+`Cooja_Radio_Energy_Supplement.md` reports an exploratory reanalysis of all 600 retained historical runs, with checked raw state-time accounting and model-based current sensitivity. Source, data and PNG/PDF/SVG figures are in `experiments/cooja_radio_energy_v1` and `outputs/cooja_radio_energy_v1`. It is not physical RF/current measurement. The pinned Word/PDF remain unchanged.
+
+`Author_permission_register.json` records Shivam Bhardwaj’s 2026-10-19 statement that he holds permission from both coauthors. This is corresponding-author-reported permission; no direct coauthor correspondence or extra declarations were inferred.

@@ -43,5 +43,24 @@
     "submission_created": false,
     "browser_homepage_observation": "Site Unavailable \u2014 Unable to access this site",
     "browser_checked_at_utc": "2026-10-19T00:07:31.928658+00:00"
+  },
+  "reported_author_permissions": {
+    "reported_at": "2026-10-19T06:23:20+05:30",
+    "reporting_author": "Shivam Bhardwaj",
+    "authors": [
+      "Shivam Bhardwaj",
+      "Abhishek Kumar Pandey",
+      "Abhinandan Tripathi"
+    ],
+    "basis": "Corresponding-author statement in conversation",
+    "direct_correspondence_independently_verified": false,
+    "register": "publication/array/Author_permission_register.json"
+  },
+  "cooja_radio_state_followup": {
+    "runs_rechecked": 600,
+    "node_final_records": 2400,
+    "new_simulations_executed": 0,
+    "physical_current_measured": false,
+    "report": "outputs/cooja_radio_energy_v1/analysis.json"
   }
 }
