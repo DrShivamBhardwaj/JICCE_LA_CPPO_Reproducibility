@@ -1,0 +1,11 @@
+{
+  "status": "passed_full_regression",
+  "run_id": 39184498716,
+  "job_id": 117843944132,
+  "source_commit": "c9977c9cd8c44791d7abc727208e4b63c8362500",
+  "tests_passed": 145,
+  "subtests_passed": 4,
+  "duration_s": 8.36,
+  "job_log_sha256": "d11bec7881a620ee93e4a134fe52e4a1216d307f918900fc1958b491293b814b",
+  "scope": "Full Python suite and pinned native bridge build; no physical measurements or production security certification"
+}

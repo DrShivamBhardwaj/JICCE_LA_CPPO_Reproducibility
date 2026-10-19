@@ -21,5 +21,16 @@
   "coauthor_permission_basis": "Corresponding-author attestation",
   "no_messages_or_submission_sent": true,
   "docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
-  "pdf_sha256": "234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13"
+  "pdf_sha256": "234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13",
+  "final_regression": {
+    "status": "passed_full_regression",
+    "run_id": 39184498716,
+    "job_id": 117843944132,
+    "source_commit": "c9977c9cd8c44791d7abc727208e4b63c8362500",
+    "tests_passed": 145,
+    "subtests_passed": 4,
+    "duration_s": 8.36,
+    "job_log_sha256": "d11bec7881a620ee93e4a134fe52e4a1216d307f918900fc1958b491293b814b",
+    "scope": "Full Python suite and pinned native bridge build; no physical measurements or production security certification"
+  }
 }

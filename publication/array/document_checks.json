@@ -13,9 +13,9 @@
   },
   "all_pages_visually_verified": true,
   "visual_review": "Changed pages inspected; unchanged pages checked for pixel identity against reviewed baseline",
-  "python_regression_tests_passed": 142,
-  "regression_source_commit": "bc2f9a19bd26778f55aa4e2d209ccc5374b27e05",
-  "full_suite_rerun_this_revision": false,
+  "python_regression_tests_passed": 145,
+  "regression_source_commit": "c9977c9cd8c44791d7abc727208e4b63c8362500",
+  "full_suite_rerun_this_revision": true,
   "remediation_runs": 1440,
   "independent_geometry_blocks": 12,
   "policy_checkpoints": 3,
@@ -40,5 +40,7 @@
   "author_permissions_reported_by_corresponding_author": true,
   "coauthor_approval_independently_certified": false,
   "lto_signed_deadline_misses": 68,
-  "cooja_radio_reanalysis_runs": 600
+  "cooja_radio_reanalysis_runs": 600,
+  "regression_subtests_passed": 4,
+  "regression_run_id": 39184498716
 }
