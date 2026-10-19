@@ -3,6 +3,10 @@
     "size": 1411,
     "sha256": "92aa98da4733a424eb010897863b99126253d9c536dc3e0c2d26713a7ef19125"
   },
+  ".github/workflows/mcu-signed-deadline-lto.yml": {
+    "size": 2516,
+    "sha256": "166039af6d1304d3700460dbe0d26ae97ead7fe9f89983de2afbe5d841af2b15"
+  },
   ".github/workflows/mcu-signed-deadline.yml": {
     "size": 2511,
     "sha256": "e0091ed076ffca14fa198b680106cec32019852531b0e472a7f2bb9bcc82e95b"
@@ -346,6 +350,22 @@
   "experiments/mcu_deadline_v1/summarize.py": {
     "size": 2123,
     "sha256": "4011738aa24a40d5b4fe7cb4b9249a5a977f9047d03be67767e5a0f812b05ac0"
+  },
+  "experiments/mcu_deadline_v2/README.md": {
+    "size": 703,
+    "sha256": "9a2b6d81c38952c5515c75a068907712280e71396b83b94a1dff581be158d6a7"
+  },
+  "experiments/mcu_deadline_v2/prepare.py": {
+    "size": 1767,
+    "sha256": "acffadd05c1187d55ff91abd5d202fac51855b3a76f3262217c1846cb8afd8e8"
+  },
+  "experiments/mcu_deadline_v2/protocol.json": {
+    "size": 4568,
+    "sha256": "76a588f51e8d343aa82968b14494990e2b8b31eac314d5fd13af18a05a73259b"
+  },
+  "experiments/mcu_deadline_v2/summarize.py": {
+    "size": 2182,
+    "sha256": "c450612035cb84bcb0c575fe02ee3d4aab8dfac74579d89c9db738c756bec5e0"
   },
   "experiments/remediation_v1/README.md": {
     "size": 3157,

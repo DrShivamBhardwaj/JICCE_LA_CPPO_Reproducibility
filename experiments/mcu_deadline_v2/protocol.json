@@ -1,0 +1,52 @@
+{
+  "classification": "Prospective fixed compiler diagnostic selected after observing O3 failure; exploratory optimization, not confirmatory performance comparison",
+  "starting_commit": "86dde525a081dc76b98f1417329e4f26cb4768bb",
+  "optimization": "O3 plus -flto; remove -fno-unroll-loops to allow compiler default; no fast-math; unchanged FP contraction",
+  "topologies": [
+    "chain",
+    "choice"
+  ],
+  "packets_per_topology": 100,
+  "deadlines_ms": [
+    90,
+    350,
+    1500
+  ],
+  "functional_acceptance": "All offered IDs delivered with source-verified Ed25519 receipts and retained authenticated negative controls",
+  "deadline_acceptance": "Zero misses of unchanged source-observed signed deadline; fast private receipts are not counted",
+  "keys": "Fresh per-run keys outside public outputs, ephemeral CI private fixture files; no production storage claim",
+  "timing": "Unchanged retained firmware SysTick and Renode CC2538 model; no physical measurement",
+  "source_sha256": {
+    "scripts/build_cc2538_q22.py": "a0fc1476efd4a44ac76fa956ff47b16e9438e20b83ebfc3b715419fabc3d7940",
+    "scripts/run_cc2538_q22.py": "8c1b3de91de736723b8165f88adfa1497bbb7b42d7884d028c4950f486c291a4",
+    "scripts/audit_cc2538_q22.py": "47a3a5a7547dfef6ef792c5d695b46c510feb493c38085a66429e989304fe113",
+    "hardware/cc2538_q22/actor.h": "af759cb7aa43f40a9f74f2fe6dfe709517b94875b0761e0535456ae8d6e9a6f6",
+    "hardware/cc2538_q22/local.h": "0db3391e56fd58ecd53bb389795b428418b9e7c7c08a7beb6e2b66376809bae2",
+    "hardware/cc2538_q22/q22_weights.h": "9769543cca0d1578d80f7cf2271fb0fcdd807452e9742841911f327a03583151",
+    "hardware/cc2538_live/session_allocator.py": "f4587f417a51c174634dd3ceb343e75c07858b2ccb35b15a3516c4308332ba7c",
+    "hardware/cortex_m3_validation/vendor/monocypher.c": "57eb914fc88136119bd41655cccb8c250048bf54d470540625186f8ab16f64be",
+    "hardware/cortex_m3_validation/vendor/monocypher-ed25519.c": "60fce3578fb00b00da96490653d993c4cb427b1e1be38183285c66e04d22cc18",
+    "hardware/cortex_m3_validation/vendor/monocypher-ed25519.h": "abc4fad381879f5c29176ebe014b9189956b3dfe0a3e36459b6990bc57212380",
+    "hardware/cortex_m3_validation/vendor/monocypher.h": "c494da712122da7ff679fdcf318a5317e84972b6c950fe9d896212947797facd",
+    "hardware/cortex_m3_validation/vendor/provenance.json": "812f2625d79e7895e91b341271591210576631dc46b2d09f82f45d9eef018936",
+    "hardware/cortex_m3_validation/vendor/sha256.c": "4cbc93d30c28cee2a056d6f52cbce6e66ff9450f1d712ee4f59761b9b4486fad",
+    "hardware/cortex_m3_validation/vendor/sha256.h": "a946e621775fd8251624e77d19f25407c4b6074ab780027e5797b77c7acf79b5",
+    "hardware/cortex_m3_validation/vendor/LICENCE.md": "5f8360e4c06ddcc584bdb4b210c6af824c4bb301e6a9a521869b6d90795ca4b3",
+    "hardware/cortex_m3_validation/vendor/BCon_README.md": "e3e04bbc27f68266c02af3a3ef6cb5e1bd217a3c92f2893b66d9f2220f732460",
+    "hardware/cortex_m3_validation/include/stdlib.h": "f2051054d2a186d55b826975bf41be36cd7043ea00a9fc3d85e23a8ebe0ad870",
+    "hardware/cortex_m3_validation/include/memory.h": "5ea19d1282e036eda717c455dc6d5e62ef741fd42f4991b1b75412357373c629",
+    "hardware/cortex_m3_validation/generated/actor_vectors.h": "21b28a593850f72404553f67ec87aade6dbe1f21d26b33bc07ba5d95497218e0",
+    "hardware/cortex_m3_validation/generated/reference.json": "2093a0641fa185f5529a4bfa5d1da7dd64c4c2f983980c522719f20506af2927",
+    "hardware/renode_cc2538/README.md": "e036f0069a0f2c6d463ea28cfc552fec7c1dadfc93e12f5c0f99e1bd7aaa102d",
+    "hardware/renode_cc2538/bridge.c": "f8d9b2ab0d61691852288a991b5ac90a39aecdac63b368a1c4b9738d3cd78272",
+    "hardware/renode_cc2538/BOOT_SELFTEST.md": "b68b1b8fc28922cfe5222b85f2ab9d38806254a8e8107c556095fa981a983a3f",
+    "hardware/renode_cc2538/link.ld": "f4ed05345069c2f0b0693efbf5bd0ea526d191d7af150d4d82c072e66615e5ea",
+    "hardware/cortex_m3_validation/harness.c": "2fd1c8ffe5ecfbe1b40476ede44d6c7b98904cc938903ec41d9b354582ba00f2",
+    "experiments/mcu_deadline_v2/prepare.py": "acffadd05c1187d55ff91abd5d202fac51855b3a76f3262217c1846cb8afd8e8",
+    "experiments/mcu_deadline_v2/summarize.py": "c450612035cb84bcb0c575fe02ee3d4aab8dfac74579d89c9db738c756bec5e0",
+    ".github/workflows/mcu-signed-deadline-lto.yml": "166039af6d1304d3700460dbe0d26ae97ead7fe9f89983de2afbe5d841af2b15"
+  },
+  "renode_archive_sha256": "4ba7c68b59e2447f188ef4b4b112fcccd2802582c460beedceb63b84e5605a5f",
+  "frozen_at_utc": "2026-10-19T00:03:09.540271+00:00",
+  "stopping_rule": "One complete build and one 100-packet run per topology; retain failures; no outcome-based retuning in this protocol"
+}

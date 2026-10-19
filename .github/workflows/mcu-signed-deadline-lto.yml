@@ -1,0 +1,49 @@
+name: Frozen MCU signed deadline LTO pilot
+on:
+  push:
+    paths:
+      - '.github/workflows/mcu-signed-deadline-lto.yml'
+      - 'experiments/mcu_deadline_v2/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies and official emulator
+        run: |
+          echo "WSN_PRIVATE_ROOT=$RUNNER_TEMP/wsn-private-validation" >> "$GITHUB_ENV"
+          python -m pip install numpy cryptography ziglang==0.15.1
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          mkdir -p build/mcu_deadline_v2 outputs/mcu_deadline_v2
+          curl -L --fail https://github.com/renode/renode/releases/download/v1.17.0/renode-1.17.0.linux-portable.tar.gz -o build/mcu_deadline_v2/renode.tar.gz
+          sha256sum build/mcu_deadline_v2/renode.tar.gz > outputs/mcu_deadline_v2/emulator_archive_sha256.txt
+          echo "4ba7c68b59e2447f188ef4b4b112fcccd2802582c460beedceb63b84e5605a5f  build/mcu_deadline_v2/renode.tar.gz" | sha256sum -c -
+          tar -xzf build/mcu_deadline_v2/renode.tar.gz -C build/mcu_deadline_v2
+          python -m pip freeze > outputs/mcu_deadline_v2/python_environment.txt
+      - name: Prepare frozen compiler-only variant
+        run: |
+          python experiments/mcu_deadline_v2/prepare.py
+          ZIG_PACKAGE_DIR=$(python -c 'import pathlib,ziglang; print(pathlib.Path(ziglang.__file__).parent)')
+          export PATH="$ZIG_PACKAGE_DIR:$PATH"
+          python build/mcu_deadline_v2/build_generated.py
+      - name: Execute unchanged signed receipt acceptance
+        run: |
+          RENODE_EXECUTABLE=$(find build/mcu_deadline_v2 -maxdepth 3 -type f -name renode | head -1)
+          test -n "$RENODE_EXECUTABLE"
+          python build/mcu_deadline_v2/run_generated.py --renode "$RENODE_EXECUTABLE" --topology chain --packets 100 --output outputs/mcu_deadline_v2/chain_100
+          python build/mcu_deadline_v2/run_generated.py --renode "$RENODE_EXECUTABLE" --topology choice --packets 100 --output outputs/mcu_deadline_v2/choice_100
+          python experiments/mcu_deadline_v2/summarize.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mcu-deadline-v2-${{ github.sha }}
+          path: outputs/mcu_deadline_v2/
+          if-no-files-found: error
+          retention-days: 30
