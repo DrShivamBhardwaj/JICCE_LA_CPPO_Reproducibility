@@ -14,7 +14,7 @@
   "review_package_commit": "2132d4e0e79cfccd5df84e558d8951b5addb3fe1",
   "manuscript_pdf_sha256": "6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44",
   "renewed_official_web_check": {
-    "checked_at_utc": "2026-10-19T00:04:53.471781+00:00",
+    "checked_at_utc": "2026-10-19T01:09:47.406281+00:00",
     "array_guide_result": "403 Forbidden; complete current journal-specific guide unavailable",
     "general_highlights_source": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript",
     "general_highlights_verified": "3\u20135 items, at most 85 characters each; separate editable source file, unless journal guide says otherwise",
@@ -28,8 +28,8 @@
     "status": "Offline",
     "physical_hardware_inventory_accessible": false,
     "scope": "Offline status does not prove what hardware exists; it blocks inspection or measurement through this connection.",
-    "checked_at_utc": "2026-10-19T00:04:53.471781+00:00",
-    "last_seen_observation": "8h ago"
+    "checked_at_utc": "2026-10-19T01:09:47.406296+00:00",
+    "last_seen_observation": "9h ago"
   },
   "latest_followup_check": {
     "checked_at_utc": "2026-10-19T00:04:53.471781+00:00",
@@ -62,5 +62,12 @@
     "new_simulations_executed": 0,
     "physical_current_measured": false,
     "report": "outputs/cooja_radio_energy_v1/analysis.json"
+  },
+  "author_declarations_reported": {
+    "equal_contribution": true,
+    "no_competing_interests": true,
+    "no_funding": true,
+    "source": "Corresponding author",
+    "exclusive_submission_or_overlap_not_inferred": true
   }
 }

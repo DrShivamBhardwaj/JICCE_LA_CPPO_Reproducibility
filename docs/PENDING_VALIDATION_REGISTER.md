@@ -1,7 +1,9 @@
-# Current validation and submission status
+# Current manuscript and validation status
 
-The paper contains 32 visually inspected pages, a 215-word abstract, fourteen figures, twelve tables, twenty-five references and ten preserved native equations. A new separately frozen 1,440-run matched Cooja study counterbalances relay identity and physical attacker position across twelve perturbed geometries and three retained checkpoints. Its factorial analysis is separate from the retained 750/180/240/600 families.
+The current manuscript contains 34 reviewed pages, a 217-word abstract, 16 figures, 13 tables, 25 references and 10 preserved native equations. Section 5.12 integrates the separately frozen LTO failure and the exploratory reanalysis of all 600 retained historical Cooja runs. Original experimental and statistical families remain separate.
 
-The combined CC2538 emulator image executes routing, inference, hop authentication and signed receipts. Earlier host-only bridge descriptions refer to historical stages. O3 preserves 68/200 signed deadline misses; private-MAC receipts are a distinct endpoint. No physical RF/current, protected production key storage, authenticated physical provisioning, firmware authenticity or reset-safe MCU session validation has been acquired. Actual final coauthor consent and authenticated portal checks remain outstanding.
+The corresponding author reports permission from all three authors and supplies equal-contribution, no-funding and no-competing-interest statements. These statements are recorded with their provenance; direct coauthor correspondence and unspecified CRediT roles are not invented.
 
-The canonical concern-by-concern record is [REMEDIATION_COMPLETION_REPORT.md](REMEDIATION_COMPLETION_REPORT.md). That file distinguishes resolved research work, unvalidated implementation, scientific limits and external/human blockers, with the exact next evidence needed. Historical stage reports and raw failures remain preserved. No message or submission was sent.
+O3 and LTO each retain 68/200 signed deadline misses. Physical RF/current and production MCU security remain unvalidated. The linked desktop is offline and official Array guide access returns 403; authenticated portal requirements remain unchecked. Exclusivity and overlap declarations have not been supplied. No submission or coauthor message was sent.
+
+See [the completion record](REMEDIATION_COMPLETION_REPORT.md). Physical measurements cannot be replaced by native Cooja state counters or assumed current ratios.

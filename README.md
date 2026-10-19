@@ -1,8 +1,12 @@
-## Current remediation and manuscript
+## Current manuscript and validation
 
-The paper contains 32 visually inspected pages, a 215-word abstract, fourteen figures, twelve tables, twenty-five references and ten preserved native equations. A new separately frozen 1,440-run matched Cooja study counterbalances relay identity and physical attacker position across twelve perturbed geometries and three retained checkpoints. Its factorial analysis is separate from the retained 750/180/240/600 families. Full regression evidence and exact source revisions are retained under `outputs/remediation_regression`. The original signed deadline still has 68/200 misses after compiler-only O3 execution. Physical measurements, production security, actual author approvals and authenticated submission remain open.
+The current manuscript contains 34 reviewed pages, a 217-word abstract, 16 figures, 13 tables, 25 references and 10 preserved native equations. Section 5.12 integrates the separately frozen LTO failure and the exploratory reanalysis of all 600 retained historical Cooja runs. Original experimental and statistical families remain separate.
 
-See [the completion matrix](docs/REMEDIATION_COMPLETION_REPORT.md), [reproduction instructions](docs/REMEDIATION_REPRODUCTION.md) and [the paper package](publication/array/README.md). Historical stage descriptions below retain their original scope and are superseded by this current evidence summary.
+The corresponding author reports permission from all three authors and supplies equal-contribution, no-funding and no-competing-interest statements. These statements are recorded with their provenance; direct coauthor correspondence and unspecified CRediT roles are not invented.
+
+O3 and LTO each retain 68/200 signed deadline misses. Physical RF/current and production MCU security remain unvalidated. The linked desktop is offline and official Array guide access returns 403; authenticated portal requirements remain unchecked. Exclusivity and overlap declarations have not been supplied. No submission or coauthor message was sent.
+
+See [the manuscript package](publication/array/README.md).
 
 > Historical transport stage: [Array manuscript and validation status](docs/ARRAY_TARGET_AND_VIRTUAL_STATUS.md). 180 authenticated policy-transfer runs audited; 83 tests pass. Four Renode CC2538 MCUs execute compiled bridge firmware. Strict attention/MLP/greedy controls each deliver 10/10 packets with ten accepted source receipts. Physical RF/current and embedded inference/crypto remain unvalidated.
 

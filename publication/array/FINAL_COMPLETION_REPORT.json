@@ -1,0 +1,25 @@
+{
+  "status": "completed_available_manuscript_and_declaration_work",
+  "resolved": [
+    "Equal contribution and no competing interests added",
+    "LTO and Cooja evidence integrated",
+    "34-page Word/PDF rendered and reviewed",
+    "16 figures and 13 tables reconciled"
+  ],
+  "implemented_but_unvalidated": [
+    "Production board key protection, provisioning, firmware authenticity and reset-safe sessions"
+  ],
+  "scientific_limitation": [
+    "Original signed endpoint remains 68/200 late after O3 and LTO",
+    "Always-on Cooja current sensitivity is a model, not physical energy"
+  ],
+  "blocked": [
+    "Physical RF/current acquisition: no accessible boards/instruments; desktop offline",
+    "Authenticated Array checks: guide 403; no accessible authenticated portal",
+    "Exclusivity/overlap declaration not supplied"
+  ],
+  "coauthor_permission_basis": "Corresponding-author attestation",
+  "no_messages_or_submission_sent": true,
+  "docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
+  "pdf_sha256": "234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13"
+}

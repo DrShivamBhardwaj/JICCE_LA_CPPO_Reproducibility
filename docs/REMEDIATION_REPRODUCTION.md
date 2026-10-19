@@ -61,3 +61,7 @@ python scripts/verify_remediation_archive.py --dataset outputs/remediation_v1 --
 ```
 
 Do not execute the runner over retained case directories. Use a new worktree for a new execution. The additional exposure-stratified summary is explicitly exploratory and is reproduced with `python scripts/summarize_remediation_exposure.py`. It changes no primary contrast or inclusion rule.
+
+## Final manuscript follow-up
+
+Run `python scripts/integrate_final_followup.py` against the retained C65 baseline specified in that script; it writes only the current manuscript and exhibits. Run `python scripts/audit_array_manuscript.py` and `python scripts/audit_array_remediation.py --baseline PATH_TO_F9_BASELINE.docx`. Render using the documents renderer and inspect changed pages. Run `python scripts/finalize_followup_package.py` only after recording actual visual review for the current hashes. Historical `finalize_remediation_package.py` rejects this newer layout to prevent stale counts from replacing it.

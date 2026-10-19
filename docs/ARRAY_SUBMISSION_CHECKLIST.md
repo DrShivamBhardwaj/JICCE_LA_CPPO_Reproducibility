@@ -2,7 +2,7 @@
 
 ## Prepared package
 
-The revised Word/PDF contain a 215-word abstract, fourteen figures, twelve tables, twenty-five references and ten native equations. All 32 pages have been visually reviewed; preservation checks retain the eleven historical tables, twelve historical images and seventeen algorithm steps. Highlights are provided as an editable Word file and text, with four items of at most 85 characters. Source figures are data-derived PNG/PDF/SVG exports.
+The current manuscript contains 34 reviewed pages, a 217-word abstract, 16 figures, 13 tables, 25 references and 10 preserved native equations. Section 5.12 integrates the separately frozen LTO failure and the exploratory reanalysis of all 600 retained historical Cooja runs. Original experimental and statistical families remain separate. Source figures are data-derived PNG/PDF/SVG exports.
 
 Author order is Shivam Bhardwaj, Abhishek Kumar Pandey and Abhinandan Tripathi. Shivam is corresponding author and Assistant Professor, Department of Computer Applications (MCA), United Institute of Management, Prayagraj, Uttar Pradesh, India. The supplied Bennett University and Buddha Institute of Technology metadata remain in the manuscript. No-funding and no-competing-interest statements were supplied by the corresponding author; they do not substitute for final author approval.
 
@@ -23,6 +23,12 @@ Official guide: https://www.sciencedirect.com/journal/array/publish/guide-for-au
 
 ## Required human / authenticated actions
 
-Each author must review the pinned final version and confirm consent, actual contribution roles, disclosures and exclusivity/overlap. The previous JICCE rejection is disclosed; no other submission status is inferred. Review AI-use responsibility and any rights/permissions. An authorized authenticated portal session must inspect the current requirements and assembled submission PDF before any agreement, submission or payment. No message, upload, acceptance of declarations, submission or payment has occurred.
+Each author must review the pinned final version and confirm consent, the supplied equal-contribution statement, disclosures and exclusivity/overlap. The previous JICCE rejection is disclosed; no other submission status is inferred. Review AI-use responsibility and any rights/permissions. An authorized authenticated portal session must inspect the current requirements and assembled submission PDF before any agreement, submission or payment. No message, upload, acceptance of declarations, submission or payment has occurred.
 
 Physical RF/current and production-security claims remain unsupported. The original signed deadline still has 68/200 misses after O3. Simulation and emulation do not satisfy those gates. See REMEDIATION_COMPLETION_REPORT.md and publication/array/external_validation_access_check.json for exact evidence and next actions.
+
+## Latest author declarations and integrated manuscript
+
+The corresponding author reports permission from all three authors and supplies equal-contribution, no-funding and no-competing-interest statements. These statements are recorded with their provenance; direct coauthor correspondence and unspecified CRediT roles are not invented.
+
+O3 and LTO each retain 68/200 signed deadline misses. Physical RF/current and production MCU security remain unvalidated. The linked desktop is offline and official Array guide access returns 403; authenticated portal requirements remain unchecked. Exclusivity and overlap declarations have not been supplied. No submission or coauthor message was sent.

@@ -53,5 +53,16 @@
   "reported_at": "2026-10-19T06:23:20+05:30",
   "reporting_author": "Shivam Bhardwaj",
   "evidence_type": "Corresponding-author attestation in this conversation; direct coauthor correspondence not independently inspected",
-  "statement": "Corresponding author states that Abhishek Kumar Pandey and Abhinandan Tripathi have given permission; own approval was supplied in the preceding message."
+  "statement": "Corresponding author states that Abhishek Kumar Pandey and Abhinandan Tripathi have given permission; own approval was supplied in the preceding message.",
+  "author_supplied_declarations": {
+    "equal_contribution": true,
+    "statement": "Shivam Bhardwaj, Abhishek Kumar Pandey and Abhinandan Tripathi contributed equally to this work.",
+    "competing_interests": "The authors declare no competing interests.",
+    "funding": "No funding was received for this research.",
+    "equal_contribution_and_interests_reported_at": "2026-10-19T06:35:35+05:30",
+    "source": "Corresponding-author statements in this conversation",
+    "exclusive_submission_confirmed": null,
+    "overlap_disclosure_confirmed": null,
+    "role_specific_credit_assignments": null
+  }
 }

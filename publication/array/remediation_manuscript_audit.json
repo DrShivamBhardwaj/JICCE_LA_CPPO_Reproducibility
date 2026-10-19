@@ -4,10 +4,10 @@
   "original_tables_preserved": 11,
   "native_equations_preserved": 10,
   "original_images_preserved": 12,
-  "new_images_verified": 2,
+  "new_images_verified": 4,
   "primary_contrasts_reconciled": 6,
   "baseline_sha256": "fb6dee9cf743b177ca857a217b4fd4346200d0c13ca99f68049d64e35e41040c",
-  "final_docx_sha256": "0b9565876c54f65633782e56e444b00fc9e602fd38349965a4523a1c505b931a",
+  "final_docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
   "physical_validation": false,
   "original_signed_deadline_complete": false
 }

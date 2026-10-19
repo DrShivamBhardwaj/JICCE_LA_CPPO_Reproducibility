@@ -59,7 +59,7 @@ def assess(root):
       {'id':'production_mcu_security','complete':False,
        'reason':'Protected key storage, persistent device sessions, physical provisioning and board-specific security tests not validated.'},
       {'id':'coauthor_approvals','complete':False,
-       'reason':'Actual final-version approvals and contribution/exclusivity confirmations not supplied; unchecked templates are not consent.'},
+       'reason':'Corresponding-author permissions and equal-contribution/no-competing-interest statements are recorded in Author_permission_register.json. Independent exact-version confirmations and exclusivity/overlap declarations are not asserted.'},
       {'id':'authenticated_submission','complete':False,
        'reason':'Authenticated portal requirements and final assembled submission PDF not independently checked.'}]
     # These hard-false checks are deliberate: this gate must be extended with reviewed

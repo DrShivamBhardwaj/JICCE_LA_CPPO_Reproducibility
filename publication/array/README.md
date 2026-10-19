@@ -1,19 +1,9 @@
-# Array review package
+# Array manuscript review package
 
-The paper contains 32 visually inspected pages, a 215-word abstract, fourteen figures, twelve tables, twenty-five references and ten preserved native equations. A new separately frozen 1,440-run matched Cooja study counterbalances relay identity and physical attacker position across twelve perturbed geometries and three retained checkpoints. Its factorial analysis is separate from the retained 750/180/240/600 families.
+The current manuscript contains 34 reviewed pages, a 217-word abstract, 16 figures, 13 tables, 25 references and 10 preserved native equations. Section 5.12 integrates the separately frozen LTO failure and the exploratory reanalysis of all 600 retained historical Cooja runs. Original experimental and statistical families remain separate.
 
-The new matched arms share ACK gating, expiry, positive-credit and late-positive handling; only missing-evidence penalties and proof generation vary. The active reference retains separate semantics. Recorded logits change in 7,023 of 11,927 archived matched decisions without changing the selected relay; offline interventions establish sensitivity, not closed-loop performance.
+The corresponding author reports permission from all three authors and supplies equal-contribution, no-funding and no-competing-interest statements. These statements are recorded with their provenance; direct coauthor correspondence and unspecified CRediT roles are not invented.
 
-The O3 emulator profile still misses 68/200 original signed deadlines. Physical RF/current, production MCU security, actual final author approvals and authenticated portal checks remain incomplete. This is an evidence-backed review package, not a submission certificate.
+O3 and LTO each retain 68/200 signed deadline misses. Physical RF/current and production MCU security remain unvalidated. The linked desktop is offline and official Array guide access returns 403; authenticated portal requirements remain unchecked. Exclusivity and overlap declarations have not been supplied. No submission or coauthor message was sent.
 
-See [the concern matrix](../../docs/REMEDIATION_COMPLETION_REPORT.md), [reproduction commands](../../docs/REMEDIATION_REPRODUCTION.md), `remediation_manuscript_audit.json`, `remediation_visual_review.json` and `document_checks.json`. Durable raw archives and their hashes are identified in `outputs/remediation_v1/raw_archive.json`. Descriptive benign and factor-level summaries are in Remediation_Control_Supplement.md. Figures are data-derived PNG/PDF/SVG exports. Original tables, images and equations remain preserved; no generated hardware photography or synthetic results are included.
-
-### Additional fixed LTO diagnostic (2026-10-19)
-
-See [external-gate follow-up](../../docs/EXTERNAL_GATE_HANDOFF.md): 200/200 delivered and source-signed receipts, still 68/200 deadline misses. New raw evidence is in `outputs/mcu_deadline_v2`; the pinned Word/PDF are unchanged. The supplement adds a failed optimization, not a physical-validation or deployment-security claim.
-
-### Cooja radio/current-model supplement and author permissions
-
-`Cooja_Radio_Energy_Supplement.md` reports an exploratory reanalysis of all 600 retained historical runs, with checked raw state-time accounting and model-based current sensitivity. Source, data and PNG/PDF/SVG figures are in `experiments/cooja_radio_energy_v1` and `outputs/cooja_radio_energy_v1`. It is not physical RF/current measurement. The pinned Word/PDF remain unchanged.
-
-`Author_permission_register.json` records Shivam Bhardwaj’s 2026-10-19 statement that he holds permission from both coauthors. This is corresponding-author-reported permission; no direct coauthor correspondence or extra declarations were inferred.
+Files: `Array_Manuscript.docx`, `Array_Manuscript.pdf`, editable highlights, the cover-letter draft and `Array_Figures_PNG_PDF_SVG.zip` (48 exports). Reproduce the follow-up with `scripts/integrate_final_followup.py`, the document renderer, both manuscript audits and `scripts/finalize_followup_package.py` after actual visual review. Raw compiler evidence is under `outputs/mcu_deadline_v2`; radio-state evidence is under `outputs/cooja_radio_energy_v1`. See `followup_integration_audit.json`, `followup_visual_review.json`, `document_checks.json` and `docs/REMEDIATION_COMPLETION_REPORT.md`.

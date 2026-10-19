@@ -6,11 +6,11 @@ Please consider “Controlled Feedback Comparisons and Adaptation Limits in Auth
 
 A separately frozen 1,440-run Cooja factorial study holds ACK gating, expiry, positive credit and late-positive handling constant across four arms. Twelve perturbed geometries include three retained checkpoints, node-ID permutations, both physical attacker positions and benign controls. Post-onset delivery uses geometry-block inference and a prespecified six-contrast Holm family. The active-proof implementation remains a separate reference, and the original 750/180/240/600 studies remain unpooled.
 
-Exploratory reconstruction finds risk and logit changes without relay changes in the historical censored–frozen pairs; controlled offline interventions establish actor sensitivity without claiming radio improvement. A compiler-only O3 MCU pilot still misses 68/200 original signed deadlines. Physical RF/current, protected device keys and reset-safe production state remain unvalidated.
+Exploratory reconstruction finds risk and logit changes without relay changes in the historical censored–frozen pairs; controlled offline interventions establish actor sensitivity without claiming radio improvement. O3 and LTO MCU compiler profiles each retain 68/200 original signed deadline misses. A retrospective check of all 600 historical Cooja captures adds radio-state and assumed-current sensitivity analysis; it does not supply physical measurements. Physical RF/current, protected device keys and reset-safe production state remain unvalidated.
 
 Code, frozen protocols, captures, checkpoints, statistical scripts and negative results are available at https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility. The manuscript was substantially redesigned after rejection of JICCE-26-0057; it does not retain the earlier intrusion-classification framing.
 
-The corresponding author supplied no-funding and no-competing-interest statements. Final author consent, contribution roles, exclusivity/overlap disclosures and authenticated submission declarations are not certified by this draft.
+The corresponding author supplied no-funding and no-competing-interest statements. The corresponding author reports permission from all three authors and declares equal contribution. Exclusivity/overlap disclosures and authenticated submission declarations remain unconfirmed.
 
 Sincerely,
 Shivam Bhardwaj

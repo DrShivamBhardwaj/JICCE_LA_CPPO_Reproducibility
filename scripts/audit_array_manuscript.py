@@ -11,7 +11,8 @@ old=base._element.xpath('//m:oMath');new=d._element.xpath('//m:oMath')
 assert len(old)==len(new)==10
 assert [etree.tostring(e) for e in old]==[etree.tostring(e) for e in new],'Native equations changed'
 remediated=(P/'remediation_edits.json').exists()
-expected_figures=14 if remediated else 12;expected_tables=12 if remediated else 11
+followup=(P/'followup_edits.json').exists()
+expected_figures=16 if followup else (14 if remediated else 12);expected_tables=13 if followup else (12 if remediated else 11)
 assert len(d.inline_shapes)==expected_figures and len(d.tables)==expected_tables
 for a,b in zip(base.tables,d.tables[:5]):
  assert [[c.text for c in row.cells] for row in a.rows]==[[c.text for c in row.cells] for row in b.rows],'Frozen table values changed'
@@ -48,8 +49,9 @@ live={x['before']:x['after'] for x in json.loads((P/'live_integration_edits.json
 latency={x["before"]:x["after"] for x in json.loads((P/"receipt_latency_edits.json").read_text())}
 cooja={x['before']:x['after'] for x in json.loads((P/'cooja_integration_edits.json').read_text())}
 remediation={x['before']:x['after'] for x in json.loads((P/'remediation_edits.json').read_text())['replacements']} if remediated else {}
+followup_mapping={x['before']:x['after'] for x in json.loads((P/'followup_edits.json').read_text())} if followup else {}
 def after_editorial(s):
- u=postfreeze.get(s,s);v=live.get(u,u);w=latency.get(v,v);result=transform_text(cooja.get(w,w));return '\n'.join(remediation.get(part,part) for part in result.split('\n'))
+ u=postfreeze.get(s,s);v=live.get(u,u);w=latency.get(v,v);result=transform_text(cooja.get(w,w));return '\n'.join(followup_mapping.get(remediation.get(part,part),remediation.get(part,part)) for part in result.split('\n'))
 def final_text(s):
  return after_editorial(editorial.get(transform(s),transform(s)))
 def citations(s):
@@ -70,7 +72,7 @@ assert not any(x in text for x in ['Jitendra Nath Srivastava','Akash Sanghi','In
 abstract=d.paragraphs[next(i for i,p in enumerate(d.paragraphs) if p.text=='Abstract')+1].text;assert len(abstract.split())<=250
 with zipfile.ZipFile(P/'Array_Manuscript.docx') as z:
  embedded={hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')}
- exports={hashlib.sha256(p.read_bytes()).hexdigest() for folder in (['figures','review_figures','postfreeze_figures','cooja_figures']+(['remediation_figures'] if remediated else [])) for p in (P/folder).glob('fig*.png')}
+ exports={hashlib.sha256(p.read_bytes()).hexdigest() for folder in (['figures','review_figures','postfreeze_figures','cooja_figures']+(['remediation_figures'] if remediated else [])+(['followup_figures'] if followup else [])) for p in (P/folder).glob('fig*.png')}
  assert embedded==exports and len(embedded)==expected_figures
 result=dict(status='passed',prose_paragraphs_edited=len(revision['paragraphs']),native_equations_unchanged=10,frozen_tables_unchanged=5,transfer_table_reconciled=True,figures_embedded=expected_figures,tables_inline=expected_tables,references=25,abstract_words=len(abstract.split()),citations_preserved=True,numeric_tokens_preserved_except_thirty_word_conversion=True,all_exhibits_before_references=True,images_match_verified_exports=True,physical_validation=False)
 (P/'manuscript_audit.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

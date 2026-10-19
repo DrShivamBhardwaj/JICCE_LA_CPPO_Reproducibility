@@ -1,0 +1,15 @@
+{
+  "status": "passed_content_preservation_checks",
+  "baseline_commit": "c65cab682aef45c0a680e33716fa82ea2bdd48eb",
+  "baseline_docx_sha256": "0b9565876c54f65633782e56e444b00fc9e602fd38349965a4523a1c505b931a",
+  "docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
+  "native_math_objects_preserved": 10,
+  "old_tables_preserved": 12,
+  "figures": 16,
+  "tables": 13,
+  "lto_misses": 68,
+  "radio_runs_reanalyzed": 600,
+  "physical_validation": false,
+  "equal_contribution_source": "Corresponding-author statement 2026-10-19T06:35:35+05:30",
+  "competing_interest_statement": "No competing interests; supplied by corresponding author"
+}

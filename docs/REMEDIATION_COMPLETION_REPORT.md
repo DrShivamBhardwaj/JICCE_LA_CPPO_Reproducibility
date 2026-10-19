@@ -81,3 +81,11 @@ A separately frozen LTO/default-loop-optimization pilot completed at source `b52
 All 600 retained historical Cooja runs (30 seeds per stratum), 2,400 node-final records and 36,000 offered packets were rechecked from hash-bound raw captures. RF delivery, TX/listen airtime and an explicitly assumed current-ratio sensitivity are provided in `outputs/cooja_radio_energy_v1`. No new simulation runs or physical measurements are claimed. This family remains separate from the matched factorial study.
 
 Shivam Bhardwaj reports that he holds publication permission from Abhishek Kumar Pandey and Abhinandan Tripathi; his own approval is also recorded. See `publication/array/Author_permission_register.json`. Direct correspondence was not inspected; contribution roles, overlap/exclusivity and other unprovided declarations remain unasserted. Prior statements that no permissions were reported describe the earlier check. No requests or submission were sent.
+
+## Final integrated package and supplied declarations
+
+The current manuscript contains 34 reviewed pages, a 217-word abstract, 16 figures, 13 tables, 25 references and 10 preserved native equations. Section 5.12 integrates the separately frozen LTO failure and the exploratory reanalysis of all 600 retained historical Cooja runs. Original experimental and statistical families remain separate.
+
+The corresponding author reports permission from all three authors and supplies equal-contribution, no-funding and no-competing-interest statements. These statements are recorded with their provenance; direct coauthor correspondence and unspecified CRediT roles are not invented.
+
+O3 and LTO each retain 68/200 signed deadline misses. Physical RF/current and production MCU security remain unvalidated. The linked desktop is offline and official Array guide access returns 403; authenticated portal requirements remain unchecked. Exclusivity and overlap declarations have not been supplied. No submission or coauthor message was sent.

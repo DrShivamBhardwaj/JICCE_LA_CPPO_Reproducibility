@@ -9,18 +9,20 @@ def sha(b):return hashlib.sha256(b).hexdigest()
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--baseline',type=Path,required=True);args=ap.parse_args()
     old=Document(args.baseline);new=Document(P/'Array_Manuscript.docx')
-    assert len(old.tables)==11 and len(new.tables)==12
+    followup=(P/'followup_edits.json').exists()
+    followup_mapping={x['before']:x['after'] for x in json.loads((P/'followup_edits.json').read_text())} if followup else {}
+    assert len(old.tables)==11 and len(new.tables)==(13 if followup else 12)
     table=lambda t:[[c.text for c in row.cells] for row in t.rows]
     assert [table(t) for t in old.tables]==[table(t) for t in new.tables[:11]]
     math=lambda d:[etree.tostring(e,method='c14n') for e in d._element.xpath('//m:oMath')]
     assert len(math(old))==10 and math(old)==math(new)
     with zipfile.ZipFile(args.baseline) as z:before={sha(z.read(n)) for n in z.namelist() if n.startswith('word/media/')}
     with zipfile.ZipFile(P/'Array_Manuscript.docx') as z:after={sha(z.read(n)) for n in z.namelist() if n.startswith('word/media/')}
-    added={sha(p.read_bytes()) for p in (P/'remediation_figures').glob('fig*.png')}
-    assert len(before)==12 and len(after)==14 and before<=after and after-before==added
+    added={sha(p.read_bytes()) for folder in ['remediation_figures']+(['followup_figures'] if followup else []) for p in (P/folder).glob('fig*.png')}
+    assert len(before)==12 and len(after)==(16 if followup else 14) and before<=after and after-before==added
     edits=json.loads((P/'remediation_edits.json').read_text());mapping={e['before']:e['after'] for e in edits['replacements']};texts=[p.text for p in new.paragraphs]
     for p in old.paragraphs:
-        if p.text:assert mapping.get(p.text,p.text) in texts,'Unmapped change: '+p.text[:120]
+        if p.text:assert followup_mapping.get(mapping.get(p.text,p.text),mapping.get(p.text,p.text)) in texts,'Unmapped change: '+p.text[:120]
     indentation=0
     for p in old.paragraphs:
         if re.match(r'^\d{2}\.',p.text):
@@ -30,10 +32,10 @@ def main():
             assert old_pr==new_pr,'Algorithm indentation changed'
             indentation+=1
     for t in edits['added_paragraphs']:
-        if t:assert t in texts
+        if t:assert followup_mapping.get(t,t) in texts
     analysis=json.loads((R/'outputs/remediation_v1/analysis.json').read_text())
-    assert table(new.tables[-1])[1:]==primary_rows(analysis)
-    assert TITLE in texts and len(new.inline_shapes)==14
-    result={'status':'passed','algorithm_steps_with_preserved_indentation':indentation,'original_tables_preserved':11,'native_equations_preserved':10,'original_images_preserved':12,'new_images_verified':2,'primary_contrasts_reconciled':6,'baseline_sha256':sha(args.baseline.read_bytes()),'final_docx_sha256':sha((P/'Array_Manuscript.docx').read_bytes()),'physical_validation':False,'original_signed_deadline_complete':False}
+    assert table(new.tables[11])[1:]==primary_rows(analysis)
+    assert TITLE in texts and len(new.inline_shapes)==(16 if followup else 14)
+    result={'status':'passed','algorithm_steps_with_preserved_indentation':indentation,'original_tables_preserved':11,'native_equations_preserved':10,'original_images_preserved':12,'new_images_verified':4 if followup else 2,'primary_contrasts_reconciled':6,'baseline_sha256':sha(args.baseline.read_bytes()),'final_docx_sha256':sha((P/'Array_Manuscript.docx').read_bytes()),'physical_validation':False,'original_signed_deadline_complete':False}
     (P/'remediation_manuscript_audit.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 if __name__=='__main__':main()

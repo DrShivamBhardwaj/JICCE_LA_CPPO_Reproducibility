@@ -8,6 +8,7 @@ HIGHLIGHTS=['Matched feedback rules separate missing-evidence penalties from pro
 'Recorded risk changes alter logits without changing archived relay choices.',
 'Compiler optimization leaves 68 of 200 signed-receipt deadlines unmet.']
 def main():
+    if (P/'followup_edits.json').exists():raise ValueError('Follow-up manuscript requires scripts/finalize_followup_package.py; historical fixed counts must not overwrite the current package')
     review=json.loads((P/'remediation_visual_review.json').read_text());audit=json.loads((P/'remediation_manuscript_audit.json').read_text());a=json.loads((R/'outputs/remediation_v1/analysis.json').read_text())
     assert review['status']=='passed_page_by_page_review' and audit['status']=='passed' and a['runs']==1440
     current_docx=hashlib.sha256((P/'Array_Manuscript.docx').read_bytes()).hexdigest();current_pdf=hashlib.sha256((P/'Array_Manuscript.pdf').read_bytes()).hexdigest()
