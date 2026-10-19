@@ -65,3 +65,7 @@ Do not execute the runner over retained case directories. Use a new worktree for
 ## Final manuscript follow-up
 
 Run `python scripts/integrate_final_followup.py` against the retained C65 baseline specified in that script; it writes only the current manuscript and exhibits. Run `python scripts/audit_array_manuscript.py` and `python scripts/audit_array_remediation.py --baseline PATH_TO_F9_BASELINE.docx`. Render using the documents renderer and inspect changed pages. Run `python scripts/finalize_followup_package.py` only after recording actual visual review for the current hashes. Historical `finalize_remediation_package.py` rejects this newer layout to prevent stale counts from replacing it.
+
+## Selected virtual-scope revision
+
+Run `python scripts/apply_virtual_scope.py` from the retained 5d199b3 source baseline specified by the script. Run both manuscript audits, render and inspect the Word/PDF, then run `python scripts/finalize_virtual_scope.py` with the current reviewed hashes. No simulations, timing criteria or historical statistical families are changed. The original full-hardware gate remains distinct and incomplete; `VIRTUAL_SCOPE_COMPLETION_REPORT.json` checks artifact consistency only.

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "source_commit": "5d199b30209affa9d1fe67d54b070ad97f710b40",
+  "baseline_docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
+  "final_docx_sha256": "bf6bac148d9a47951fb7f4f73572c3b168c16902ddd1f253bef1e486d79dac27",
+  "changed_paragraphs": 3,
+  "tables_preserved": 13,
+  "figures_preserved": 16,
+  "native_equations_preserved": 10,
+  "deadline_acceptance_changed": false,
+  "physical_validation_claimed": false,
+  "production_security_claimed": false,
+  "user_authorized_scope": "Option 1 simulation/emulation benchmark, 2026-10-19T07:24:15+05:30"
+}

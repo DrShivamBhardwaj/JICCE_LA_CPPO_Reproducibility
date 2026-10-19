@@ -1,0 +1,29 @@
+{
+  "status": "review_package_consistent_with_declared_virtual_scope",
+  "scope_authorized_at": "2026-10-19T07:24:15+05:30",
+  "artifact_checks_passed": true,
+  "scope": "Simulation/emulation benchmark",
+  "original_signed_deadline_gate_passed": false,
+  "signed_deadline_misses": 68,
+  "deadline_ms": [
+    90,
+    350,
+    1500
+  ],
+  "acceptance_criteria_changed": false,
+  "new_experiments_executed": 0,
+  "physical_validation_completed": false,
+  "production_security_validated": false,
+  "outside_declared_scope": [
+    "Physical RF/current measurement",
+    "Production-board security certification"
+  ],
+  "remaining_submission_actions": [
+    "Authenticated Array requirements and portal PDF",
+    "Exclusivity and overlap confirmation",
+    "Exact-version final author review"
+  ],
+  "manuscript_docx_sha256": "bf6bac148d9a47951fb7f4f73572c3b168c16902ddd1f253bef1e486d79dac27",
+  "manuscript_pdf_sha256": "5c52531a87779f1971d229fa88ee1fba44fdd9cac53aec89cf479a5052893e8a",
+  "interpretation": "Consistency of the review artifacts does not certify physical validation, real-time compliance, journal acceptance or submission."
+}

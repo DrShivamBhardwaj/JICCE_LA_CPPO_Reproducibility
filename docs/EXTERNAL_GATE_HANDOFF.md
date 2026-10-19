@@ -1,3 +1,7 @@
+# Historical broader-validation handoff
+
+The author selected a simulation/emulation benchmark on 2026-10-19. Physical RF/current and production-board security below are future deployment-validation requirements, outside the current paper scope; neither is certified. Current review status is in publication/array/VIRTUAL_SCOPE_COMPLETION_REPORT.json.
+
 # Remaining gates: evidence needed to execute
 
 Follow-up starts at commit `86dde525a081dc76b98f1417329e4f26cb4768bb`.

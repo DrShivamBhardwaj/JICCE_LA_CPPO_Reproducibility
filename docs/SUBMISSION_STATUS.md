@@ -1,9 +1,11 @@
-# Current manuscript and validation status
+# Current virtual benchmark scope
 
-The current manuscript contains 34 reviewed pages, a 217-word abstract, 16 figures, 13 tables, 25 references and 10 preserved native equations. Section 5.12 integrates the separately frozen LTO failure and the exploratory reanalysis of all 600 retained historical Cooja runs. Original experimental and statistical families remain separate.
+The paper is a simulation/emulation benchmark with 34 reviewed pages, a 222-word abstract, 16 figures, 13 tables, 25 references and 10 native equations. It combines controlled feedback comparisons, frozen-policy transfer diagnostics, compiled-MCU emulation and explicit negative deadline outcomes. No new experiments or altered acceptance criteria accompany this scope clarification.
 
-The corresponding author reports permission from all three authors and supplies equal-contribution, no-funding and no-competing-interest statements. These statements are recorded with their provenance; direct coauthor correspondence and unspecified CRediT roles are not invented.
+Physical RF/current acquisition and production-board security are outside the selected research scope and have not been validated. They are not completed hardware gates. The original signed endpoint still misses 68/200 deadlines in each O3/LTO diagnostic; deadlines and endpoint remain unchanged. These failures are retained results, not a passed real-time compliance claim. Native Cooja radio states and assumed current ratios are not physical energy measurements.
 
-O3 and LTO each retain 68/200 signed deadline misses. Physical RF/current and production MCU security remain unvalidated. The linked desktop is offline and official Array guide access returns 403; authenticated portal requirements remain unchecked. Exclusivity and overlap declarations have not been supplied. No submission or coauthor message was sent.
+Equal contribution, no funding and no competing interests are supplied by the corresponding author. Publication permissions are recorded as corresponding-author-reported. Exact-version independent coauthor confirmation and exclusivity/overlap declarations are not inferred.
 
-See [the completion record](REMEDIATION_COMPLETION_REPORT.md). Physical measurements cannot be replaced by native Cooja state counters or assumed current ratios.
+This package is ready for author review within its declared virtual scope. Array-specific authenticated portal checks, required final declarations and the portal-generated review PDF remain unchecked; no submission or message has been sent. The official guide previously returned 403. This is not a submission or acceptance certificate.
+
+Earlier records retain the original broader physical-validation request. They must not be read as completed hardware evidence or as mandatory hardware work within this selected paper scope.

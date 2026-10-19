@@ -7,7 +7,7 @@
   "new_images_verified": 4,
   "primary_contrasts_reconciled": 6,
   "baseline_sha256": "fb6dee9cf743b177ca857a217b4fd4346200d0c13ca99f68049d64e35e41040c",
-  "final_docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
+  "final_docx_sha256": "bf6bac148d9a47951fb7f4f73572c3b168c16902ddd1f253bef1e486d79dac27",
   "physical_validation": false,
   "original_signed_deadline_complete": false
 }

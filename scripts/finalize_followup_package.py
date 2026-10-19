@@ -3,6 +3,7 @@ from pathlib import Path
 import json,hashlib,csv,re,zipfile
 from docx import Document
 R=Path(__file__).resolve().parents[1];P=R/'publication/array'
+if (P/'virtual_scope_edits.json').exists():raise ValueError('Use scripts/finalize_virtual_scope.py for the selected simulation/emulation scope')
 sha=lambda f:hashlib.sha256(f.read_bytes()).hexdigest()
 review=json.loads((P/'followup_visual_review.json').read_text());audit=json.loads((P/'remediation_manuscript_audit.json').read_text());d=Document(P/'Array_Manuscript.docx')
 assert review['status']=='passed_page_by_page_review' and review['docx_sha256']==sha(P/'Array_Manuscript.docx') and review['pdf_sha256']==sha(P/'Array_Manuscript.pdf') and audit['final_docx_sha256']==review['docx_sha256']

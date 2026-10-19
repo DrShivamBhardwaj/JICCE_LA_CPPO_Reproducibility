@@ -1,36 +1,29 @@
 {
-  "status": "completed_available_manuscript_and_declaration_work",
-  "resolved": [
-    "Equal contribution and no competing interests added",
-    "LTO and Cooja evidence integrated",
-    "34-page Word/PDF rendered and reviewed",
-    "16 figures and 13 tables reconciled"
+  "status": "review_package_consistent_with_declared_virtual_scope",
+  "scope_authorized_at": "2026-10-19T07:24:15+05:30",
+  "artifact_checks_passed": true,
+  "scope": "Simulation/emulation benchmark",
+  "original_signed_deadline_gate_passed": false,
+  "signed_deadline_misses": 68,
+  "deadline_ms": [
+    90,
+    350,
+    1500
   ],
-  "implemented_but_unvalidated": [
-    "Production board key protection, provisioning, firmware authenticity and reset-safe sessions"
+  "acceptance_criteria_changed": false,
+  "new_experiments_executed": 0,
+  "physical_validation_completed": false,
+  "production_security_validated": false,
+  "outside_declared_scope": [
+    "Physical RF/current measurement",
+    "Production-board security certification"
   ],
-  "scientific_limitation": [
-    "Original signed endpoint remains 68/200 late after O3 and LTO",
-    "Always-on Cooja current sensitivity is a model, not physical energy"
+  "remaining_submission_actions": [
+    "Authenticated Array requirements and portal PDF",
+    "Exclusivity and overlap confirmation",
+    "Exact-version final author review"
   ],
-  "blocked": [
-    "Physical RF/current acquisition: no accessible boards/instruments; desktop offline",
-    "Authenticated Array checks: guide 403; no accessible authenticated portal",
-    "Exclusivity/overlap declaration not supplied"
-  ],
-  "coauthor_permission_basis": "Corresponding-author attestation",
-  "no_messages_or_submission_sent": true,
-  "docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
-  "pdf_sha256": "234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13",
-  "final_regression": {
-    "status": "passed_full_regression",
-    "run_id": 39184498716,
-    "job_id": 117843944132,
-    "source_commit": "c9977c9cd8c44791d7abc727208e4b63c8362500",
-    "tests_passed": 145,
-    "subtests_passed": 4,
-    "duration_s": 8.36,
-    "job_log_sha256": "d11bec7881a620ee93e4a134fe52e4a1216d307f918900fc1958b491293b814b",
-    "scope": "Full Python suite and pinned native bridge build; no physical measurements or production security certification"
-  }
+  "manuscript_docx_sha256": "bf6bac148d9a47951fb7f4f73572c3b168c16902ddd1f253bef1e486d79dac27",
+  "manuscript_pdf_sha256": "5c52531a87779f1971d229fa88ee1fba44fdd9cac53aec89cf479a5052893e8a",
+  "interpretation": "Consistency of the review artifacts does not certify physical validation, real-time compliance, journal acceptance or submission."
 }

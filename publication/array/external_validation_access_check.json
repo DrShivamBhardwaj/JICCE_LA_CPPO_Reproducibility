@@ -3,21 +3,21 @@
   "official_guide_url": "https://www.sciencedirect.com/journal/array/publish/guide-for-authors",
   "official_guide_observation": "403 Forbidden through web retrieval",
   "official_homepage_url": "https://www.sciencedirect.com/journal/array",
-  "browser_observation": "Site Unavailable — Unable to access this site",
+  "browser_observation": "Site Unavailable \u2014 Unable to access this site",
   "authenticated_portal_checked": false,
   "submission_created": false,
   "files_uploaded": false,
   "author_declarations_accepted": false,
   "coauthor_messages_sent": false,
   "physical_measurements_acquired": false,
-  "next_required": "Actual hardware/instrument access, actual author confirmations, and an accessible authenticated official submission workflow.",
+  "next_required": "For submission: authenticated Array checks, final version review and exclusivity/overlap declarations. Physical measurements and production-board security are outside the selected paper scope and remain unvalidated.",
   "review_package_commit": "c9977c9cd8c44791d7abc727208e4b63c8362500",
   "manuscript_pdf_sha256": "234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13",
   "renewed_official_web_check": {
     "checked_at_utc": "2026-10-19T01:09:47.406281+00:00",
     "array_guide_result": "403 Forbidden; complete current journal-specific guide unavailable",
     "general_highlights_source": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript",
-    "general_highlights_verified": "3–5 items, at most 85 characters each; separate editable source file, unless journal guide says otherwise",
+    "general_highlights_verified": "3\u20135 items, at most 85 characters each; separate editable source file, unless journal guide says otherwise",
     "general_author_agreement_source": "https://www.elsevier.support/publishing/answer/what-are-conflict-of-interest-statements-funding-source-declarations-author-agreementsdeclarations-and-permission-notes",
     "scope": "General Elsevier support is accessible. This does not certify Array-specific requirements or authenticated portal checks.",
     "general_submission_preparation_source": "https://www.elsevier.support/publishing/answer/how-do-i-prepare-my-files-for-submission-in-editorial-manager",
@@ -41,7 +41,7 @@
     "coauthor_messages_sent": false,
     "authenticated_portal_checked": false,
     "submission_created": false,
-    "browser_homepage_observation": "Site Unavailable — Unable to access this site",
+    "browser_homepage_observation": "Site Unavailable \u2014 Unable to access this site",
     "browser_checked_at_utc": "2026-10-19T00:07:31.928658+00:00"
   },
   "reported_author_permissions": {
@@ -69,5 +69,7 @@
     "no_funding": true,
     "source": "Corresponding author",
     "exclusive_submission_or_overlap_not_inferred": true
-  }
+  },
+  "selected_paper_scope": "Simulation/emulation benchmark",
+  "scope_selection_authorized_at": "2026-10-19T07:24:15+05:30"
 }

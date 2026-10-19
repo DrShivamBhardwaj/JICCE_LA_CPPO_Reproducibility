@@ -1,7 +1,7 @@
 {
   "pages": 34,
   "rendered_pages": 34,
-  "abstract_words": 217,
+  "abstract_words": 222,
   "figures": 16,
   "tables": 13,
   "references": 25,
@@ -15,7 +15,7 @@
   "visual_review": "Changed pages inspected; unchanged pages checked for pixel identity against reviewed baseline",
   "python_regression_tests_passed": 145,
   "regression_source_commit": "c9977c9cd8c44791d7abc727208e4b63c8362500",
-  "full_suite_rerun_this_revision": true,
+  "full_suite_rerun_this_revision": false,
   "remediation_runs": 1440,
   "independent_geometry_blocks": 12,
   "policy_checkpoints": 3,
@@ -32,8 +32,8 @@
   "authenticated_portal_checked": false,
   "submission_certified": false,
   "full_validation_complete": false,
-  "pdf_sha256": "234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13",
-  "docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
+  "pdf_sha256": "5c52531a87779f1971d229fa88ee1fba44fdd9cac53aec89cf479a5052893e8a",
+  "docx_sha256": "bf6bac148d9a47951fb7f4f73572c3b168c16902ddd1f253bef1e486d79dac27",
   "previous_full_suite_passed": 142,
   "equal_contribution_declared": true,
   "no_competing_interests_declared": true,
@@ -42,5 +42,9 @@
   "lto_signed_deadline_misses": 68,
   "cooja_radio_reanalysis_runs": 600,
   "regression_subtests_passed": 4,
-  "regression_run_id": 39184498716
+  "regression_run_id": 39184498716,
+  "selected_scope": "simulation/emulation benchmark",
+  "scope_artifact_checks_passed": true,
+  "scope_only_prose_change_after_regression": true,
+  "implementation_unchanged_since_passed_145_test_regression": true
 }

@@ -67,5 +67,8 @@
   },
   "prior_package_pdf_sha256": "6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44",
   "manuscript_docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
-  "current_version_review_basis": "Permissions reported by corresponding author; independent exact-version coauthor review not asserted"
+  "current_version_review_basis": "Permissions reported by corresponding author; independent exact-version coauthor review not asserted",
+  "selected_paper_scope": "Simulation/emulation benchmark",
+  "scope_authorized_by": "Shivam Bhardwaj",
+  "scope_authorized_at": "2026-10-19T07:24:15+05:30"
 }
