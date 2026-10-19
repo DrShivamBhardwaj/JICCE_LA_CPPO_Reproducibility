@@ -1,6 +1,6 @@
 {
-  "manuscript_pdf_sha256": "6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44",
-  "repository_commit": "2132d4e0e79cfccd5df84e558d8951b5addb3fe1",
+  "manuscript_pdf_sha256": "234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13",
+  "repository_commit": "c9977c9cd8c44791d7abc727208e4b63c8362500",
   "status": "all_author_permissions_reported_by_corresponding_author",
   "authors": [
     {
@@ -64,5 +64,8 @@
     "exclusive_submission_confirmed": null,
     "overlap_disclosure_confirmed": null,
     "role_specific_credit_assignments": null
-  }
+  },
+  "prior_package_pdf_sha256": "6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44",
+  "manuscript_docx_sha256": "5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c",
+  "current_version_review_basis": "Permissions reported by corresponding author; independent exact-version coauthor review not asserted"
 }

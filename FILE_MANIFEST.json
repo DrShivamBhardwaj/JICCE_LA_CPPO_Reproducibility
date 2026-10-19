@@ -17140,8 +17140,8 @@
     "sha256": "a5d17634cfd514e731bb9c13880cd520df0265ea0ebf71adce2721f317ab76aa"
   },
   "publication/array/Approval_evidence_register_TEMPLATE.json": {
-    "size": 1370,
-    "sha256": "ee5d2e991112480e5b0edaef83b835b30140b514fe2e450e393de5117694a428"
+    "size": 1425,
+    "sha256": "fdf612f251851f3e9dc33403960c0ae6926f98caba7085cb043312a01d660a51"
   },
   "publication/array/Array_Figures_PNG_PDF_SVG.zip": {
     "size": 7372479,
@@ -17168,16 +17168,16 @@
     "sha256": "1807ea40b7157eeca12ba4b9f96e545b7d16f57e7216e790c62631ec76c95f56"
   },
   "publication/array/Author_permission_register.json": {
-    "size": 3298,
-    "sha256": "0f0d8dd0203bde4627a9b7ddc3197f1cd021561785e06634cf6864e0bbb135f6"
+    "size": 3630,
+    "sha256": "941646105045c8092d6b15de50b64427770e871172d8226b1db45ff153c1acb7"
   },
   "publication/array/Coauthor_review_request_Abhinandan_Tripathi_DRAFT.txt": {
-    "size": 1814,
-    "sha256": "fef66a5128e4b49afb9a29a2ea62676ca094a5bbb1db229f8ee74caaf45b5ab7"
+    "size": 2056,
+    "sha256": "2502e0d452ca42e27d72274d6aa4c57297dc707c59425f10af423c25bbe09950"
   },
   "publication/array/Coauthor_review_request_Abhishek_Kumar_Pandey_DRAFT.txt": {
-    "size": 1824,
-    "sha256": "3aebf3847b36168d8173ac55337335f331df2a94a5b4c6832559e690e4cac436"
+    "size": 2066,
+    "sha256": "ec9911fd6e294459e1bdbcbbad7cf25242724f52ce7d45c5c5c23dacac609d55"
   },
   "publication/array/Cooja_Feedback_Evaluation.md": {
     "size": 6319,
@@ -17233,15 +17233,15 @@
   },
   "publication/array/SHA256SUMS": {
     "size": 11502,
-    "sha256": "d00dfe502dd9dde52160ece23fa3ca469e76f8a0036df84290c21791ba62507e"
+    "sha256": "086aa5ae1ed1a5e329d3cee184c09be4dfd25e729f0283849ed61e4a6afd2522"
   },
   "publication/array/author_metadata.json": {
     "size": 1807,
     "sha256": "be00af88028fb43d7a55c4d8d9834143268fd3aab36fd6be4080ec9ae4b077e7"
   },
   "publication/array/author_review_version.json": {
-    "size": 347,
-    "sha256": "2ba9c0853b1cf4f9f67c0fee7065eea171c93f415300c4cdf42a7d8f1fee9d1a"
+    "size": 402,
+    "sha256": "96e989ffffdfb5241b08a3b7205fd69117f1a39c7256cfc696f3fccc800f7712"
   },
   "publication/array/cooja_figures/fig12_cooja_paired_delivery.pdf": {
     "size": 21032,
@@ -17276,8 +17276,8 @@
     "sha256": "940786a3d722cdb3e786109f8d134896f6007eb9f1c2bea5f8cfe086fa324366"
   },
   "publication/array/external_validation_access_check.json": {
-    "size": 4023,
-    "sha256": "c78ddc248ab9fb4ad70d294f9a83701d71e8bafdd3c7afe9d83bccde4b007146"
+    "size": 4014,
+    "sha256": "4105d2326ab51cddc76b2dc695726c507156b8af1b0a799c4796f4dc2446b155"
   },
   "publication/array/failure_boundary_audit.json": {
     "size": 336,

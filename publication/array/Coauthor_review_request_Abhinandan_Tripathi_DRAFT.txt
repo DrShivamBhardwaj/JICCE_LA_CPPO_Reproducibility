@@ -6,14 +6,14 @@ Dear Dr. Abhinandan Tripathi,
 
 Please review “Controlled Feedback Comparisons and Adaptation Limits in Authenticated Wireless Sensor Routing” and its proposed submission to Array.
 
-Exact manuscript commit: 2132d4e0e79cfccd5df84e558d8951b5addb3fe1
-PDF SHA-256: 6f26cdc0d6b5f375cdc5a7434f7db45f3f0f5680a1f70b050278677329bcce44
-Word SHA-256: 0b9565876c54f65633782e56e444b00fc9e602fd38349965a4523a1c505b931a
-PDF: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/2132d4e0e79cfccd5df84e558d8951b5addb3fe1/publication/array/Array_Manuscript.pdf
+Exact manuscript commit: c9977c9cd8c44791d7abc727208e4b63c8362500
+PDF SHA-256: 234556e38fef89a9650526dc829f963e106fb8b5348c7654806f33f204e74e13
+Word SHA-256: 5d5c66316ce5b58670e05f1dc39d295ced6f2c0790802f3ff8ce45e41b9ccb9c
+PDF: https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/blob/c9977c9cd8c44791d7abc727208e4b63c8362500/publication/array/Array_Manuscript.pdf
 
-The revision adds a separately frozen 1,440-run matched-factorial Cooja study, counterbalanced relay identities and attacker positions, direct diagnostics of the censored–frozen equality, and an unsuccessful compiler-only O3 deadline optimization. Historical studies and failures remain separate. Physical RF/current and production device security remain unvalidated; original signed-receipt deadlines still have 68/200 misses. The manuscript does not claim a universal switching threshold or neural-policy superiority.
+The revision adds a separately frozen 1,440-run matched-factorial Cooja study, counterbalanced relay identities and attacker positions, direct diagnostics of the censored–frozen equality, and unsuccessful O3 and LTO compiler deadline optimizations. The current version also adds a retrospective radio-state/current-ratio sensitivity analysis of all 600 historical Cooja runs. Historical studies and failures remain separate. Physical RF/current and production device security remain unvalidated; original signed-receipt deadlines still have 68/200 misses. The manuscript does not claim a universal switching threshold or neural-policy superiority.
 
-Please confirm your metadata and actual contribution roles. Explicitly approve this exact version or specify changes, and confirm funding/competing-interest disclosures, exclusivity and any related or overlapping manuscripts/preprints. Review the AI-use declaration and responsibility for the data, code and figures. Approval must identify this version; substantive later changes require renewed review.
+The corresponding author has reported your permission and declared equal contribution, no funding and no competing interests. Please review that statement and your metadata. Explicitly approve this exact version or specify changes, and confirm funding/competing-interest disclosures, exclusivity and any related or overlapping manuscripts/preprints. Review the AI-use declaration and responsibility for the data, code and figures. Approval must identify this version; substantive later changes require renewed review.
 
 No submission has been made. No response, consent, signature or contribution is inferred by this draft.
 
