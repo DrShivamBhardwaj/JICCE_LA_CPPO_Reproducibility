@@ -80,7 +80,7 @@ def generate_blocks():
             "block": block,
             "geometry_stratum": stratum,
             "checkpoint": CHECKPOINTS[block % len(CHECKPOINTS)],
-            "permutation": block % 2,
+            "permutation": (block // 2) % 2,
             "physical_positions": positions,
             "progress_unclipped": [progress(source, a), progress(source, b)],
             "link_distances_m": {
