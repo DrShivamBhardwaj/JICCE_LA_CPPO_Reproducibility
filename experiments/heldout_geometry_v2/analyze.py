@@ -7,11 +7,14 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from pathlib import Path
 import numpy as np
 from design import generate_cases, validate_plan, validate_source_blobs
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "experiments" / "remediation_v1"))
+from trace_tools import read_events
 OUTPUT = ROOT / "outputs" / "heldout_geometry_v2"
 ARMS = ("censored", "censored_proof", "negative", "negative_proof")
 ENDPOINTS = ("post_delivery", "critical_failure", "tx_seconds")
@@ -62,6 +65,12 @@ def load_verified_cases(cases):
             raise ValueError(f"Antecedent audit failed: {case['case_id']}")
         if a.get("config") != {"mode": case["mode"], "proof": case["proof"], "attack": int(case["attacker"] != 0), "timing": case["timing"]}:
             raise ValueError(f"Case condition mismatch: {case['case_id']}")
+        raw, events = read_events(OUTPUT / "runs" / case["case_id"])
+        if hashlib.sha256(raw).hexdigest() != a.get("log_sha256"):
+            raise ValueError(f"Capture hash mismatch: {case['case_id']}")
+        choices_before_onset = [v for v in events if v["event"] == "local_decision" and v["_node"] == 0 and v["pid"] < case["onset"]]
+        previously_attacker = (choices_before_onset[-1]["peer"] == case["attacker"]) if choices_before_onset and case["physical_attacker"] else None
+        benign_negative_expiries = (sum(v["event"] == "feedback" and v["_node"] == 0 and v["op"] == "expire" and v["seen"] <= 0 for v in events) if case["physical_attacker"] == 0 and case["mode"] == 2 else None)
         m = a["metrics"]
         if m["offered"] != 60 or m["post_attack_offered"] != 60 - case["onset"]:
             raise ValueError(f"Packet opportunities mismatch: {case['case_id']}")
@@ -72,8 +81,10 @@ def load_verified_cases(cases):
             "tx_seconds": a["total_tx_state_s"],
             "post_attack_delivered": m["post_attack_delivered"],
             "post_attack_offered": m["post_attack_offered"],
-            "previously_attacker": None,
+            "previously_attacker": previously_attacker,
+            "benign_negative_expiries": benign_negative_expiries,
             "avoidance_within_20": m["recovered_within_20_opportunities"],
+            "avoidance_right_censored": m["sustained_safe_choice_start_offset"] is None,
         })
     return rows
 
@@ -115,6 +126,7 @@ def analyze(rows):
                     "mean_delivery": float(np.mean([r["post_delivery"] for r in sample])),
                     "mean_critical_failure": float(np.mean([r["critical_failure"] for r in sample])),
                     "mean_tx_seconds": float(np.mean([r["tx_seconds"] for r in sample])),
+                    "mean_source_failure_increments": float(np.mean([r["benign_negative_expiries"] for r in sample])) if arm.startswith("negative") else None,
                 })
     strata = []
     for category in ("clipped", "unclipped"):
@@ -123,9 +135,22 @@ def analyze(rows):
             means = {arm: float(np.mean([r["post_delivery"] for r in subset if r["arm"] == arm])) for arm in ARMS}
             strata.append({"category": category, "timing": timing, "geometry_blocks": 15,
                            "arm_means": means, "descriptive_effects": factorial_effect(means)})
+    exposure = []
+    for timing in (0, 1):
+        for arm in ARMS:
+            attacked = [r for r in rows if r["timing"] == timing and r["arm"] == arm and r["physical_attacker"] > 0]
+            previously = [r for r in attacked if r["previously_attacker"] is True]
+            if not previously:
+                raise ValueError("No attacker-exposed choices in complete study")
+            exposure.append({"timing": timing, "arm": arm, "attacked_cases": len(attacked),
+                             "previously_attacker_cases": len(previously),
+                             "safe_three_choices_within_20": sum(r["avoidance_within_20"] for r in previously),
+                             "right_censored_cases": sum(r["avoidance_right_censored"] for r in previously),
+                             "scope": "Descriptive exposure-stratified avoidance, not authenticated end-to-end recovery"})
     return {"status": "analysed_only_after_full_audit", "new_runs": len(rows),
             "geometry_blocks": 30, "contrast_families": results,
             "benign_controls": benign, "clipping_strata_exploratory": strata,
+            "exposure_stratified_avoidance": exposure,
             "primary_inference_scope": "Independent geometry block; conditional sign-symmetry Monte Carlo test, not randomized assignment",
             "limitations": "No real MCU timing, production security, calibrated RF, physical current or fully independent holdout choice.",
             "physical_validation": False}
