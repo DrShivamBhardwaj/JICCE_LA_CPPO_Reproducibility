@@ -1,0 +1,96 @@
+name: Preserve held-out raw archive as permanent release
+on:
+  push:
+    branches:
+      - research/geometry-holdout-v2-20261020
+    paths:
+      - '.github/workflows/preserve-heldout-v2-release.yml'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: preserve-heldout-v2-run-39415272645
+  cancel-in-progress: false
+jobs:
+  preserve-audited-capture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 85
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: heldout-v2-raw-run-39415272645
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download all audited Cooja raw captures
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 39415272645
+          name: heldout-v2-full-2880-e6491a888684434087af0e8de18b9d1ea22ad06d
+          github-token: ${{ github.token }}
+          path: archived-2880
+      - name: Verify archived cases and protocol
+        run: |
+          python - <<'PY'
+          import json,hashlib,pathlib
+          p=pathlib.Path('archived-2880')
+          a=json.loads((p/'analysis.json').read_text())
+          q=pathlib.Path('experiments/heldout_geometry_v2/protocol.json')
+          assert a['status']=='analysed_only_after_full_audit' and a['new_runs']==2880 and a['geometry_blocks']==30
+          assert a['protocol_sha256']==hashlib.sha256(q.read_bytes()).hexdigest()
+          assert json.loads((p/'execution_complete.json').read_text())['cases']==2880
+          files=sorted((p/'runs').glob('*/audit.json'))
+          assert len(files)==2880,len(files)
+          for f in files:
+            d=json.loads(f.read_text())
+            assert d['status']=='independent_audit_passed',f
+            assert (f.parent/'COOJA.testlog.gz').is_file() or (f.parent/'COOJA.testlog').is_file(),f
+          print('PERMANENT_BACKUP_INPUT_VERIFIED 2880 complete captures')
+          PY
+      - name: Create checksum-protected lossless archive
+        run: |
+          mkdir -p release-assets
+          tar -I 'zstd -T0 -3' -cf release-assets/heldout-v2-raw-2880.tar.zst -C archived-2880 .
+          cd release-assets
+          sha256sum heldout-v2-raw-2880.tar.zst > COMPLETE_ARCHIVE.sha256
+          split -b 900M -d -a 3 heldout-v2-raw-2880.tar.zst heldout-v2-raw-2880.tar.zst.part-
+          sha256sum heldout-v2-raw-2880.tar.zst.part-* > PARTS.sha256
+          cat > RESTORE.txt <<'EOF'
+          Complete 2880-run archive; source workflow 39415272645.
+          Download all .part-* files and the two checksum files from this release.
+          sha256sum -c PARTS.sha256
+          cat heldout-v2-raw-2880.tar.zst.part-* > heldout-v2-raw-2880.tar.zst
+          sha256sum -c COMPLETE_ARCHIVE.sha256
+          mkdir restored
+          tar -I zstd -xf heldout-v2-raw-2880.tar.zst -C restored
+          Raw simulation logs are not measurements from physical RF hardware.
+          EOF
+          rm heldout-v2-raw-2880.tar.zst
+          ls -lh
+      - name: Upload versioned GitHub Release assets
+        run: |
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --target "$GITHUB_SHA" --title "Audited held-out Cooja raw archive: 2880 runs" --notes "Permanent, checksum-protected complete simulation log backup for 30 independent geometry blocks, 2880 cases; source workflow 39415272645. Download all numbered parts, verify SHA256, and restore using RESTORE.txt. Repository owner can delete release; keep independent backups as needed."
+          fi
+          gh release upload "$TAG" release-assets/heldout-v2-raw-2880.tar.zst.part-* release-assets/PARTS.sha256 release-assets/COMPLETE_ARCHIVE.sha256 release-assets/RESTORE.txt --clobber
+          gh release view "$TAG" --json url,assets > release-assets/release-verified.json
+          python - <<'PY'
+          import json,pathlib
+          d=json.loads(pathlib.Path('release-assets/release-verified.json').read_text())
+          names=[x['name'] for x in d['assets']]
+          assert all(x in names for x in ['PARTS.sha256','COMPLETE_ARCHIVE.sha256','RESTORE.txt'])
+          assert any(x.startswith('heldout-v2-raw-2880.tar.zst.part-') for x in names)
+          print('VERIFIED_PERMANENT_RELEASE',d['url'])
+          print('ASSETS',names)
+          PY
+      - name: Retain backup receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: heldout-v2-raw-preservation-receipt
+          path: |
+            release-assets/PARTS.sha256
+            release-assets/COMPLETE_ARCHIVE.sha256
+            release-assets/RESTORE.txt
+            release-assets/release-verified.json
+          if-no-files-found: warn
+          retention-days: 90

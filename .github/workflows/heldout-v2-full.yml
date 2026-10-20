@@ -1,0 +1,60 @@
+name: Held-out geometry v2 full study
+on:
+  push:
+    branches:
+      - research/geometry-holdout-v2-20261020
+    paths:
+      - '.github/workflows/heldout-v2-full.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: heldout-v2-complete-2880
+  cancel-in-progress: false
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    steps:
+      - name: Checkout frozen prospective source
+        uses: actions/checkout@v4
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Java 25 for pinned Cooja
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Install reproducible analysis stack
+        run: |
+          python -m pip install numpy cryptography pytest
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          mkdir -p outputs/heldout_geometry_v2
+          python -m pip freeze > outputs/heldout_geometry_v2/python_environment.txt
+          git rev-parse HEAD > outputs/heldout_geometry_v2/source_commit.txt
+      - name: Pre-outcome integrity and inference checks
+        run: |
+          python experiments/heldout_geometry_v2/design.py --check --export outputs/heldout_geometry_v2/case_manifest.json
+          python experiments/heldout_geometry_v2/run.py --verify-only
+          python -m pytest -q tests/test_heldout_geometry_v2.py tests/test_heldout_statistics_v2.py
+      - name: Build pinned official Contiki and Cooja environment
+        run: bash experiments/remediation_v1/bootstrap.sh
+      - name: Execute and audit all 2880 frozen cases without exclusions
+        run: |
+          set -o pipefail
+          python -u experiments/heldout_geometry_v2/run.py --execute --workers 3 2>&1 | tee outputs/heldout_geometry_v2/execution_console.log
+      - name: Fully audited block-level analysis only on complete archive
+        run: |
+          set -o pipefail
+          python -u experiments/heldout_geometry_v2/analyze.py 2>&1 | tee outputs/heldout_geometry_v2/analysis_console.log
+      - name: Publish research outputs, including retained failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: heldout-v2-full-2880-${{ github.sha }}
+          path: outputs/heldout_geometry_v2/
+          compression-level: 1
+          if-no-files-found: error
+          retention-days: 30

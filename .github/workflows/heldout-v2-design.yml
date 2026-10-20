@@ -1,0 +1,37 @@
+name: Held-out geometry v2 design verification
+on:
+  push:
+    branches:
+      - research/geometry-holdout-v2-20261020
+    paths:
+      - '.github/workflows/heldout-v2-design.yml'
+      - 'experiments/heldout_geometry_v2/**'
+      - 'tests/test_heldout_geometry_v2.py'
+      - 'tests/test_heldout_statistics_v2.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  geometry-design-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install cheap test dependencies
+        run: python -m pip install pytest numpy
+      - name: Verify frozen source blobs and 2880 prospective case settings
+        run: |
+          python experiments/heldout_geometry_v2/design.py --check --export outputs/heldout_geometry_v2/case_manifest.json
+          python experiments/heldout_geometry_v2/run.py --verify-only
+          python -m compileall -q experiments/heldout_geometry_v2
+          python -m pytest -q tests/test_heldout_geometry_v2.py tests/test_heldout_statistics_v2.py
+      - name: Upload UNEXECUTED case manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: heldout-v2-design-only-${{ github.sha }}
+          path: outputs/heldout_geometry_v2/case_manifest.json
+          if-no-files-found: error
+          retention-days: 30
