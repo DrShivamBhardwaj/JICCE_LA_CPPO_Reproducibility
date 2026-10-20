@@ -1,0 +1,202 @@
+[
+  {
+    "number": 1,
+    "title": "RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks",
+    "year": 2012,
+    "doi": "10.17487/RFC6550",
+    "first_author": "Winter",
+    "source_url": "https://www.rfc-editor.org/info/rfc6550"
+  },
+  {
+    "number": 2,
+    "title": "A high-throughput path metric for multi-hop wireless routing",
+    "year": 2003,
+    "doi": "10.1145/938985.939000",
+    "first_author": "De Couto",
+    "source_url": "https://doi.org/10.1145/938985.939000"
+  },
+  {
+    "number": 3,
+    "title": "Collection tree protocol",
+    "year": 2009,
+    "doi": "10.1145/1644038.1644040",
+    "first_author": "Gnawali",
+    "source_url": "https://doi.org/10.1145/1644038.1644040"
+  },
+  {
+    "number": 4,
+    "title": "Mitigating routing misbehavior in mobile ad hoc networks",
+    "year": 2000,
+    "doi": "10.1145/345910.345955",
+    "first_author": "Marti",
+    "source_url": "https://doi.org/10.1145/345910.345955"
+  },
+  {
+    "number": 5,
+    "title": "An acknowledgment-based approach for the detection of routing misbehavior in MANETs",
+    "year": 2007,
+    "doi": "10.1109/TMC.2007.1036",
+    "first_author": "Liu",
+    "source_url": "https://doi.org/10.1109/TMC.2007.1036"
+  },
+  {
+    "number": 6,
+    "title": "Trust-aware routing mechanism through an edge node for IoT-enabled sensor networks",
+    "year": 2022,
+    "doi": "10.3390/s22207820",
+    "first_author": "Saleh",
+    "source_url": "https://doi.org/10.3390/s22207820"
+  },
+  {
+    "number": 7,
+    "title": "PathGuard: Trustworthy routing for sustainable and secure IoT-WSN networks",
+    "year": 2024,
+    "doi": "10.1007/s11277-024-11289-8",
+    "first_author": "Kumar",
+    "source_url": "https://doi.org/10.1007/s11277-024-11289-8"
+  },
+  {
+    "number": 8,
+    "title": "Machine learning based dynamic trust estimation framework for securing wireless sensor networks",
+    "year": 2025,
+    "doi": "10.1038/s41598-025-19768-z",
+    "first_author": "Goswami",
+    "source_url": "https://doi.org/10.1038/s41598-025-19768-z"
+  },
+  {
+    "number": 9,
+    "title": "A failure risk-aware multi-hop routing protocol in LPWANs using deep Q-network",
+    "year": 2025,
+    "doi": "10.3390/s25144416",
+    "first_author": "Tao",
+    "source_url": "https://doi.org/10.3390/s25144416"
+  },
+  {
+    "number": 10,
+    "title": "RLFS-OR: Reinforcement learning-based forwarder selection for opportunistic routing in wireless sensor networks",
+    "year": 2026,
+    "doi": "10.3390/electronics15050910",
+    "first_author": "Lata",
+    "source_url": "https://doi.org/10.3390/electronics15050910"
+  },
+  {
+    "number": 11,
+    "title": "Trust-gated reinforcement learning-based secure routing for wireless sensor networks",
+    "year": 2026,
+    "doi": "10.47852/bonviewJCCE62029141",
+    "first_author": "Zheng",
+    "source_url": "https://doi.org/10.47852/bonviewJCCE62029141"
+  },
+  {
+    "number": 12,
+    "title": "Adaptive deep reinforcement learning–based secure routing for wireless sensor networks",
+    "year": 2026,
+    "doi": "10.1038/s41598-026-62519-x",
+    "first_author": "Gupta",
+    "source_url": "https://doi.org/10.1038/s41598-026-62519-x"
+  },
+  {
+    "number": 13,
+    "title": "IEEE 802.15.4: Low-Rate Wireless Personal Area Network (LR-WPAN)",
+    "year": null,
+    "doi": null,
+    "first_author": "ns-3 Project",
+    "source_url": "https://www.nsnam.org/docs/release/3.44/models/ns-3-model-library.pdf"
+  },
+  {
+    "number": 14,
+    "title": "Deep sets",
+    "year": 2017,
+    "doi": null,
+    "first_author": "Zaheer",
+    "source_url": "https://papers.nips.cc/paper/6931-deep-sets"
+  },
+  {
+    "number": 15,
+    "title": "Proximal policy optimization algorithms",
+    "year": 2017,
+    "doi": "10.48550/arXiv.1707.06347",
+    "first_author": "Schulman",
+    "source_url": "https://arxiv.org/abs/1707.06347"
+  },
+  {
+    "number": 16,
+    "title": "High-dimensional continuous control using generalized advantage estimation",
+    "year": 2016,
+    "doi": null,
+    "first_author": "Schulman",
+    "source_url": "https://arxiv.org/abs/1506.02438"
+  },
+  {
+    "number": 17,
+    "title": "Constrained policy optimization",
+    "year": 2017,
+    "doi": null,
+    "first_author": "Achiam",
+    "source_url": "https://proceedings.mlr.press/v70/achiam17a.html"
+  },
+  {
+    "number": 18,
+    "title": "Stochastic network optimization with application to communication and queueing systems",
+    "year": 2010,
+    "doi": "10.2200/S00271ED1V01Y201006CNT007",
+    "first_author": "Neely",
+    "source_url": "https://doi.org/10.2200/S00271ED1V01Y201006CNT007"
+  },
+  {
+    "number": 19,
+    "title": "A simple sequentially rejective multiple test procedure",
+    "year": 1979,
+    "doi": null,
+    "first_author": "Holm",
+    "source_url": "https://www.jstor.org/stable/4615733"
+  },
+  {
+    "number": 20,
+    "title": "HMAC: Keyed-hashing for message authentication",
+    "year": 1997,
+    "doi": "10.17487/RFC2104",
+    "first_author": "Krawczyk",
+    "source_url": "https://www.rfc-editor.org/info/rfc2104"
+  },
+  {
+    "number": 21,
+    "title": "Edwards-curve digital signature algorithm (EdDSA)",
+    "year": 2017,
+    "doi": "10.17487/RFC8032",
+    "first_author": "Josefsson",
+    "source_url": "https://www.rfc-editor.org/info/rfc8032"
+  },
+  {
+    "number": 22,
+    "title": "CC2538 Powerful Wireless Microcontroller System-On-Chip",
+    "year": null,
+    "doi": null,
+    "first_author": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/ds/symlink/cc2538.pdf"
+  },
+  {
+    "number": 23,
+    "title": "Monocypher",
+    "year": 2026,
+    "doi": null,
+    "first_author": "Vaillant",
+    "source_url": "https://monocypher.org/changelog"
+  },
+  {
+    "number": 24,
+    "title": "Arm MPS2 and MPS3 boards",
+    "year": null,
+    "doi": null,
+    "first_author": "QEMU Project",
+    "source_url": "https://www.qemu.org/docs/master/system/arm/mps2.html"
+  },
+  {
+    "number": 25,
+    "title": "Cross-level sensor network simulation with COOJA",
+    "year": 2006,
+    "doi": "10.1109/LCN.2006.322172",
+    "first_author": "Österlind",
+    "source_url": "https://doi.org/10.1109/LCN.2006.322172"
+  }
+]
