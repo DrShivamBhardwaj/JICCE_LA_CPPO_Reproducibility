@@ -51,4 +51,4 @@ python experiments/heldout_geometry_v2/analyze.py
 
 **Completion rule:** every declared case must have a passing original Cooja independent audit and antecedent-event check. Failures and lost packets are retained; no partial archive may be analysed. Signed-deadline compliance, physical RF/current and device security cannot be inferred.
 
-GitHub Actions performs outcome-free design tests and, if configured, a separate technical pilot. It **does not automatically launch the 2,880-run experiment** or silently overwrite original artifacts.
+The initial GitHub Actions workflows performed outcome-free design checks and a separate technical pilot. An explicitly approved, separate full-execution workflow subsequently completed all 2,880 cases (link above). Neither workflow overwrote historical artifacts; the original frozen design and protocol remain available for pre-outcome comparison.
