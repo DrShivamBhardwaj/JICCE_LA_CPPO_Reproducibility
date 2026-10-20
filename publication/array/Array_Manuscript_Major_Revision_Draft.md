@@ -79,7 +79,7 @@ Effects use percentage points and equal geometry-block weight; packets are not i
 
 ![Matched feedback effects](remediation_figures/fig14_matched_feedback_effects.svg)
 
-Fig. 2. Matched feedback effects.
+Fig. 2. Geometry-block delivery effects with pointwise intervals and Holm-adjusted p-values.
 
 3.2 Attacker avoidance under a fixed observation rule
 
@@ -391,7 +391,7 @@ Five probes check the uncalibrated telemetry label, exact 114-byte delivery with
 
 The full attention actor–critic stores 63,368 FP32 parameters, or 253,472 bytes (247.53 KiB). That count includes critic parameters that an actor-only implementation could omit. For comparison, the CC2538SF53 variant provides 512 KB flash and 32 KB RAM [22]. Flash-resident weights need not all occupy SRAM, but flash capacity alone says nothing about activation buffers, stack and protocol memory. An embedded build, linker map and peak-memory measurement are needed before claiming feasibility. The host-controlled firmware in this fixture handles UART parsing, frame bounds, radio FIFO access and MAC acknowledgments; it executes neither neural inference nor HMAC/Ed25519.
 
-Renode's deterministic range medium differs from the ns-3 physical-layer model used for statistical evaluation. Energy telemetry is explicitly labeled emulated_no_power_model: the fraction is fixed, while queue telemetry counts pending MCU ACK records. It provides no battery measurement. The chain offers one feasible next hop at each relay, so it tests integration rather than policy selection or reliability. Deadline debts remain nonzero. The emulation does not validate physical clock and pin initialization, physical RF behavior, calibrated current consumption. Section 7.8 adds a separate live MCU policy/crypto pilot; this earlier host-driven fixture is unchanged.
+Renode's deterministic range medium differs from the ns-3 physical-layer model used for statistical evaluation. Energy telemetry is explicitly labeled emulated_no_power_model: the fraction is fixed, while queue telemetry counts pending MCU ACK records. It provides no battery measurement. The chain offers one feasible next hop at each relay, so it tests integration rather than policy selection or reliability. Deadline debts remain nonzero. The emulation does not validate physical clock and pin initialization, RF behavior, or calibrated current consumption. Section 7.8 adds a separate live MCU policy/crypto pilot; this earlier host-driven fixture is unchanged.
 
 7.5 Post review stress and sensitivity diagnostics
 
@@ -513,7 +513,7 @@ A separate exploratory reanalysis checks all 600 retained historical Cooja runs:
 
 ![Delivery and transmit airtime](followup_figures/fig15_radio_delivery.svg)
 
-Fig. 16. Delivery and transmit airtime.
+Fig. 16. Historical 30-seed delivery means and transmit airtime; descriptive, without intervals.
 
 For a common supply voltage V (volts) and constant listen current IL (amperes) across nodes, the radio-only model is Eradio = V IL (TL + r TTX), where TL and TTX are summed node state durations in seconds and r = ITX/IL is dimensionless. Fig. 17 varies the assumed ratio over 0.5, 1, 2 and 3. The plotted relative values require no assumed absolute current or voltage. At r = 1, every arm has equal radio energy over the always-on accounting window; rankings can reverse across this point. CPU, cryptography, sensing, regulator and host consumption are excluded. These are conditional model calculations, not measured currents, joules or battery lifetimes. Coincident plot markers indicate equal means.
 
@@ -521,7 +521,7 @@ For a common supply voltage V (volts) and constant listen current IL (amperes) a
 
 ![Assumed radio current sensitivity](followup_figures/fig16_assumed_current_sensitivity.svg)
 
-Fig. 17. Assumed radio current sensitivity.
+Fig. 17. Radio-state accounting under assumed current ratios; not measured energy.
 
 The evaluated scope ends at radio simulation and compiled-MCU emulation. Physical RF/current acquisition, protected device keys, authenticated physical provisioning, firmware authenticity and reset-safe MCU persistence are outside that scope and have not been validated. The benchmark records virtual endpoint behavior, including deadline failures; it does not certify deployment readiness. Native Cooja scheduling assumptions provide neither a serial CPU model nor physical calibration.
 
