@@ -7,6 +7,7 @@ on:
       - '.github/workflows/heldout-v2-design.yml'
       - 'experiments/heldout_geometry_v2/**'
       - 'tests/test_heldout_geometry_v2.py'
+      - 'tests/test_heldout_statistics_v2.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -20,13 +21,13 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install cheap test dependencies
-        run: python -m pip install pytest
+        run: python -m pip install pytest numpy
       - name: Verify frozen source blobs and 2880 prospective case settings
         run: |
           python experiments/heldout_geometry_v2/design.py --check --export outputs/heldout_geometry_v2/case_manifest.json
           python experiments/heldout_geometry_v2/run.py --verify-only
           python -m compileall -q experiments/heldout_geometry_v2
-          python -m pytest -q tests/test_heldout_geometry_v2.py
+          python -m pytest -q tests/test_heldout_geometry_v2.py tests/test_heldout_statistics_v2.py
       - name: Upload UNEXECUTED case manifest
         uses: actions/upload-artifact@v4
         with:
