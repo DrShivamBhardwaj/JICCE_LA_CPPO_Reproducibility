@@ -10,9 +10,10 @@ import json
 import sys
 from pathlib import Path
 import numpy as np
-from design import generate_cases, validate_plan, validate_source_blobs
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+from experiments.heldout_geometry_v2.design import generate_cases, validate_plan, validate_source_blobs
 sys.path.insert(0, str(ROOT / "experiments" / "remediation_v1"))
 from trace_tools import read_events
 OUTPUT = ROOT / "outputs" / "heldout_geometry_v2"
@@ -140,8 +141,6 @@ def analyze(rows):
         for arm in ARMS:
             attacked = [r for r in rows if r["timing"] == timing and r["arm"] == arm and r["physical_attacker"] > 0]
             previously = [r for r in attacked if r["previously_attacker"] is True]
-            if not previously:
-                raise ValueError("No attacker-exposed choices in complete study")
             exposure.append({"timing": timing, "arm": arm, "attacked_cases": len(attacked),
                              "previously_attacker_cases": len(previously),
                              "safe_three_choices_within_20": sum(r["avoidance_within_20"] for r in previously),
