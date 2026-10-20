@@ -1,0 +1,20 @@
+name: Bibliography DOI checks
+on:
+  push:
+    branches: [research/geometry-holdout-v2-20261020]
+    paths: ['.github/workflows/reference-audit.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: python references/audit_25.py --output outputs/reference_audit_25
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bibliography-verification
+          path: outputs/reference_audit_25/
+          if-no-files-found: warn
