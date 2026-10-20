@@ -142,8 +142,9 @@ def validate_plan(plan):
         raise ValueError("wrong independent geometry/stratum coverage")
     if plan["design_seed"] != SEED or plan["expected_runs"] != len(cases):
         raise ValueError("design/protocol mismatch")
-    if plan["blocks"] != blocks:
-        raise ValueError("frozen geometry differs from generator")
+    digest = hashlib.sha256(json.dumps(blocks, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+    if plan["blocks_sha256"] != digest:
+        raise ValueError("frozen geometry digest differs from generator")
     if plan["factor_levels"] != {
         "onset": list(ONSETS), "rx_probability": list(RX_PROBABILITIES),
         "timing": list(TIMINGS), "physical_attacker": list(PHYSICAL_ATTACKERS),
