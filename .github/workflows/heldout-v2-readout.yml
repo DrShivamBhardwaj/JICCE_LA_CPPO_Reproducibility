@@ -1,0 +1,69 @@
+name: Held-out v2 results readout
+on:
+  push:
+    branches:
+      - research/geometry-holdout-v2-20261020
+    paths:
+      - '.github/workflows/heldout-v2-readout.yml'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  readout:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - name: Checkout frozen analysis code
+        uses: actions/checkout@v4
+      - name: Download completed and audited 2880-case artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: heldout-v2-full-2880-e6491a888684434087af0e8de18b9d1ea22ad06d
+          run-id: 39415272645
+          github-token: ${{ github.token }}
+          path: archived
+      - name: Extract small verified results summary and mark evidence source
+        run: |
+          python - <<'PY'
+          import json, pathlib, hashlib
+          a=json.loads(pathlib.Path("archived/analysis.json").read_text())
+          p=json.loads(pathlib.Path("experiments/heldout_geometry_v2/protocol.json").read_text())
+          assert a["status"]=="analysed_only_after_full_audit"
+          assert a["new_runs"]==p["expected_runs"]==2880
+          assert a["geometry_blocks"]==p["independent_geometry_blocks"]==30
+          assert a["protocol_sha256"]==hashlib.sha256(pathlib.Path("experiments/heldout_geometry_v2/protocol.json").read_bytes()).hexdigest()
+          assert len(a["contrast_families"])==18
+          summary={
+              "status":"verified_completed_archive_readout",
+              "source_workflow_run":39415272645,
+              "source_commit":"e6491a888684434087af0e8de18b9d1ea22ad06d",
+              "analysis_sha256":hashlib.sha256(pathlib.Path("archived/analysis.json").read_bytes()).hexdigest(),
+              "protocol_sha256":a["protocol_sha256"],
+              "new_runs":a["new_runs"],
+              "independent_geometry_blocks":a["geometry_blocks"],
+              "primary_post_delivery": [r for r in a["contrast_families"] if r["endpoint"]=="post_delivery"],
+              "critical_failure": [r for r in a["contrast_families"] if r["endpoint"]=="critical_failure"],
+              "tx_seconds": [r for r in a["contrast_families"] if r["endpoint"]=="tx_seconds"],
+              "benign_controls":a["benign_controls"],
+              "clipping_strata_exploratory":a["clipping_strata_exploratory"],
+              "exposure_stratified_avoidance":a["exposure_stratified_avoidance"],
+              "physical_validation":a["physical_validation"],
+          }
+          pathlib.Path("summary.json").write_text(json.dumps(summary,indent=2)+"\n")
+          for key in ("primary_post_delivery","critical_failure","tx_seconds"):
+              print("OUTCOME",key)
+              for r in summary[key]:
+                  print("  timing",r["timing"],r["contrast"],"diff",round(r["mean_difference"],7),"CI",[round(x,7) for x in r["ci95"]],"pHolm",round(r["p_holm"],7))
+          print("BENIGN CONTROLS",json.dumps(summary["benign_controls"]))
+          print("CLIPPING STRATA",json.dumps(summary["clipping_strata_exploratory"]))
+          print("EXPOSURE",json.dumps(summary["exposure_stratified_avoidance"]))
+          print("ANALYSIS_SHA256",summary["analysis_sha256"])
+          PY
+      - name: Upload compact verified summary only
+        uses: actions/upload-artifact@v4
+        with:
+          name: heldout-v2-verified-statistical-readout
+          path: summary.json
+          if-no-files-found: error
+          retention-days: 60
