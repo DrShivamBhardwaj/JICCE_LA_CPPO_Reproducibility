@@ -1,4 +1,8 @@
-# Held-out geometry validation v2 — frozen design, not executed results
+# Held-out geometry validation v2 — frozen design and completed 2,880-case evaluation
+
+> **Execution status (20 October 2026): Completed.** The title and preregistered `protocol.json` status below are intentionally retained as frozen, *pre-outcome* historical snapshots, not the current execution status. All 2,880 planned Cooja cases passed independent run audits, with analysis performed only after complete capture verification. Main experimental workflow: [39415272645](https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/actions/runs/39415272645); full execution commit: `e6491a888684434087af0e8de18b9d1ea22ad06d`. Archived analysis SHA-256: `25e1862d9865f5bcec986d1b743b4463ad96f62271af799ce751ad838fa1a710`. All raw logs and audits are preserved with SHA-256 manifests in [permanent release heldout-v2-raw-run-39415272645](https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/releases/tag/heldout-v2-raw-run-39415272645). Archived statistical results: [readout run 39446585227](https://github.com/DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility/actions/runs/39446585227). The original 1,440-case dataset and inference family remain unchanged. Neither Cooja nor emulation establishes physical RF/current validation or MCU signed-receipt deadline compliance.
+
+
 
 Research purpose: test whether the archived 1,440-case matched-feedback result transfers beyond its tightly perturbed geometry family, and distinguish honest loss-induced negative feedback from deliberately dropped packets. This is a **new** prospective study informed by archived observations, not an independent pre-discovery replication or a replacement for existing evidence.
 
