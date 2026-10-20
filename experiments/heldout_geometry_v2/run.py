@@ -19,8 +19,9 @@ ROOT = HERE.parents[1]
 BASE = ROOT / "experiments" / "remediation_v1"
 BUILD = ROOT / "build" / "remediation_v1"
 OUTPUT = ROOT / "outputs" / "heldout_geometry_v2"
+sys.path.insert(0, str(ROOT))
+from experiments.heldout_geometry_v2.design import generate_cases, validate_plan, validate_source_blobs
 sys.path.insert(0, str(BASE))
-from design import generate_cases, validate_plan, validate_source_blobs
 
 
 def frozen_engine():
