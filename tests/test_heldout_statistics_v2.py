@@ -44,6 +44,6 @@ def test_signflip_cluster_bootstrap_is_deterministic_for_constant_effect():
 
 
 def test_incomplete_archive_is_never_mistaken_for_new_result():
-    cases = generate_cases()[:2]
+    cases = [{**c, "case_id": f"never_collected_test_fixture_{i}"} for i, c in enumerate(generate_cases()[:2])]
     with pytest.raises(RuntimeError, match="INCOMPLETE"):
         load_verified_cases(cases)
