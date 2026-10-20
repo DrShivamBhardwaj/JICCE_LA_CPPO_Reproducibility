@@ -1,0 +1,41 @@
+name: Held-out v2 Cooja technical smoke
+on:
+  push:
+    branches:
+      - research/geometry-holdout-v2-20261020
+    paths:
+      - '.github/workflows/heldout-v2-smoke.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  three-excluded-preflights:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Install simulation dependencies
+        run: |
+          python -m pip install numpy cryptography
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Confirm frozen protocol and engine inputs
+        run: python experiments/heldout_geometry_v2/run.py --verify-only
+      - name: Build pinned Cooja and Contiki environment
+        run: bash experiments/remediation_v1/bootstrap.sh
+      - name: Run THREE EXCLUDED technical preflight cases
+        run: python experiments/heldout_geometry_v2/run.py --smoke
+      - name: Archive smoke and any failure evidence
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: heldout-v2-technical-preflight-${{ github.sha }}
+          path: outputs/heldout_geometry_v2/
+          if-no-files-found: warn
+          retention-days: 30
