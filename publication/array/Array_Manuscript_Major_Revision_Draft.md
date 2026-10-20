@@ -53,6 +53,8 @@ Four arms cross a missing-evidence failure increment with proof generation. Algo
 
 Proof generation changes control airtime and scheduled processing, but proof frames do not directly credit the four factorial ledgers. The negative-update coefficient estimates the impact of penalizing missing evidence under a fixed positive-credit rule. The proof coefficient includes its downstream traffic and routing consequences. The legacy active reference changes additional evidence semantics and is not a fifth factorial cell.
 
+![Matched intervention and observation path vector source: matched_study_architecturesvg](matched_study_architecture.svg)
+
 Fig. 1. Matched intervention and observation path (vector source: matched_study_architecture.svg).
 
 2.2 Frozen blocks, endpoints and statistical unit
@@ -74,6 +76,8 @@ Table 2. Matched delivery effects.
 Two of the six primary delivery contrasts remained significant after Holm adjustment: negative updates under native and scheduled processing. The remaining contrasts do not establish equivalence or the absence of a practically relevant effect.
 
 Effects use percentage points and equal geometry-block weight; packets are not independent replicates. Native means no added compute delay, not calibrated zero MCU processing cost. The intervention estimates include downstream routing and traffic consequences. The active reference is not part of the matched factorial family, and its additional comparisons remain exploratory. All source captures, compressed native images, case settings and checkpoint identities are rebound by hash before this manuscript integration; historical statistical families remain unchanged. Per-case audit acceptance denotes complete and consistent reconstruction, not perfect delivery or satisfaction of a service deadline; loss and lateness remain measured outcomes.
+
+![Matched feedback effects](remediation_figures/fig14_matched_feedback_effects.svg)
 
 Fig. 2. Matched feedback effects.
 
@@ -177,6 +181,8 @@ Only sources update these debts, on receipt or a 1.5 s expiry; intermediate rela
 
 
 
+![Frozen benchmark architecture](figures/fig1_architecture.svg)
+
 Fig. 3. Frozen benchmark architecture.
 
 Algorithm 1 gives the censored-passive event procedure; Table 4 specifies the other arms. Figure 4 shows the ACK gate and strongest-evidence lifecycle. Radio callback controls check reception of a two-hop forwarding observation, absence of reception at an out-of-range observer and absence of proof frames in the passive arm. They test callback paths rather than authentication or intrusion-classification accuracy.
@@ -223,6 +229,8 @@ Output: next-hop requests, observer evidence and source-service debts.
 
 
 
+![ACK-gated evidence lifecycle](figures/fig2_algorithm_flow.svg)
+
 Fig. 4. ACK-gated evidence lifecycle.
 
 5. Historical evaluation design
@@ -236,6 +244,8 @@ The four-second horizon isolates a burst and its feedback. Positions are availab
 Thirty fixtures crossed with five settings and five feedback/policy arms yield 750 runs and 45,000 offered source packets. No run is excluded. Within a fixture, arms share topology, traffic classes, offered packets and blackhole identities. Their event schedules can diverge, so matching seeds does not guarantee identical radio draws at every event. Statistical pairing therefore applies to the complete fixture and checkpoint. Packets are not independent replicates, and the sampled geometries come from one stationary placement family with a central sink.
 
 
+
+![Frozen evaluation stages](figures/fig3_evaluation_flow.svg)
 
 Fig. 5. Frozen evaluation stages.
 
@@ -285,6 +295,8 @@ Under blackholes, censored passive attention delivered 75.94% of offered packets
 
 
 
+![Delivery effects across settings](figures/fig4_delivery_effects.svg)
+
 Fig. 6. Delivery effects across settings.
 
 Table 5 reports the remaining blackhole contrasts. Delivery differed by −0.17 points against naive passive, +0.06 points against frozen prior and +0.44 points against the capacity-matched MLP. None was significant after correction. The active-proof comparison consequently does not establish a unique benefit of censoring, evidence updating or attention. The declared margins also do not establish equivalence outside the tested conditions.
@@ -294,6 +306,8 @@ Table 5. Blackhole paired effects
 Values are censored passive minus comparator; intervals are unadjusted paired 95% intervals. p values are Holm adjusted over the original 60 tests. Negative critical-violation and energy-per-byte differences favor censored passive. These are differences, not absolute arm means.
 
 
+
+![Blackhole observations and effects](figures/fig5_blackhole_estimation.svg)
 
 Fig. 7. Blackhole observations and effects.
 
@@ -306,6 +320,8 @@ Duty cycling changes the cost of passive observation. As an accounting example, 
 Figure 8 separates total energy, energy per delivered byte and PHY transmission count. Censored passive generates an average 60.57 fewer PHY transmissions per blackhole run than active proofs. All passive and frozen-prior arms request zero forwarding proofs, compared with 3,369 requests across the active arm's 150 runs. Beacons and reverse receipts remain in every arm. In the assumed always-listening model, receive/listen current exceeds transmit current; reducing transmissions therefore need not reduce energy over a fixed window. More delivered bytes explain the lower energy-per-byte ratio.
 
 
+
+![Modeled radio-energy attribution](figures/fig6_energy_attribution.svg)
 
 Fig. 8. Modeled radio-energy attribution.
 
@@ -331,6 +347,8 @@ The authenticated branch uses the message path in Fig. 9. Coordinates, modeled r
 
 
 
+![Authenticated state and virtual interfaces](figures/fig7_authenticated_virtual.svg)
+
 Fig. 9. Authenticated state and virtual interfaces.
 
 Pairwise keys cannot authenticate a transmission between two other nodes, so the authenticated branch in Fig. 9 assigns no credit to third-party overhearing. Unlike Eq. (3), positive forwarding evidence requires a verified sink receipt and a successful local MAC acknowledgment; missing receipts remain censored. The frozen policies therefore encounter a changed observation model rather than an exact replication of the original ledger. Each node retains at most 128 records, with a 2 s expiry. Keys and sessions are provisioned out of band. Protected key storage, online key exchange and verification of telemetry truthfulness after key compromise remain outside the implementation.
@@ -352,6 +370,8 @@ Table 7. Authenticated policy transfer.
 Means over 30 fixtures per condition and policy. Receipt rates count source-verified sink receipts. Critical failure includes undelivered critical packets. Energy covers modeled radio residence, not board or host CPU energy.
 
 
+
+![Frozen policy transfer and paired effects](figures/fig8_policy_transfer.svg)
 
 Fig. 10. Frozen policy transfer and paired effects.
 
@@ -385,11 +405,15 @@ Delivery and critical-failure entries are means across three fixtures; debt is t
 
 
 
+![Executed 300 s stress trajectories](review_figures/fig9_long_horizon.svg)
+
 Fig. 11. Executed 300 s stress trajectories.
 
 Figure 12 examines Eq. (1) on three further fixtures, 85001–85003, paired with checkpoints 41001–41003. Each coefficient is changed alone by −20% or +20%; the unchanged setting and ten perturbations give 33 four-second blackhole runs. All 30 perturbed fixture-level delivery contrasts are exactly zero in these runs. This limited result does not establish insensitivity in denser candidate sets or outside the tested range. These are local sensitivity observations, not a tuning procedure or a confidence interval. No checkpoint is retrained and no setting is selected from these results.
 
 
+
+![Executed coefficient sensitivity contrasts](review_figures/fig10_weight_sensitivity.svg)
 
 Fig. 12. Executed coefficient sensitivity contrasts.
 
@@ -404,6 +428,8 @@ With always-on listening, adding proofs reduces censored-mode delivery by 6.11 p
 Table 9. Factorial arm means.
 
 
+
+![Proof-traffic delivery effects](postfreeze_figures/fig11_factorial_delivery.svg)
 
 Fig. 13. Proof-traffic delivery effects.
 
@@ -455,6 +481,8 @@ The four-node geometry, one source, fixed nominal energy/queue/LQI telemetry, pu
 
 
 
+![Paired Cooja delivery effects](cooja_figures/fig12_cooja_paired_delivery.svg)
+
 Fig. 14. Paired Cooja delivery effects.
 
 7.10 Archive diagnostics
@@ -466,6 +494,8 @@ A deterministic grid intervenes on one candidate’s two risk coordinates at a t
 For benign censored runs with scheduled delays, 600 critical packets include thirty timely deliveries, 563 delivered-but-late packets and seven undelivered packets. The median sink application delay is 131 ms and source signed-receipt delay 382 ms over their respective received packets across all classes. Thus, most critical failures are lateness rather than loss. Sink arrival, application processing and reverse receipt timing remain distinct endpoints; high delivery does not establish the original 90 ms service target. Antecedent-event checks pass on all 600 archived runs, binding emitted feedback to prior received frames, processing readiness, own MAC outcomes and packet identities. They complement wire/ledger/policy audits rather than proving an independent RF model.
 
 
+
+![Feedback and deadline diagnostics](remediation_figures/fig13_feedback_diagnostics.svg)
 
 Fig. 15. Feedback and deadline diagnostics.
 
@@ -481,11 +511,15 @@ A separate exploratory reanalysis checks all 600 retained historical Cooja runs:
 
 
 
+![Delivery and transmit airtime](followup_figures/fig15_radio_delivery.svg)
+
 Fig. 16. Delivery and transmit airtime.
 
 For a common supply voltage V (volts) and constant listen current IL (amperes) across nodes, the radio-only model is Eradio = V IL (TL + r TTX), where TL and TTX are summed node state durations in seconds and r = ITX/IL is dimensionless. Fig. 17 varies the assumed ratio over 0.5, 1, 2 and 3. The plotted relative values require no assumed absolute current or voltage. At r = 1, every arm has equal radio energy over the always-on accounting window; rankings can reverse across this point. CPU, cryptography, sensing, regulator and host consumption are excluded. These are conditional model calculations, not measured currents, joules or battery lifetimes. Coincident plot markers indicate equal means.
 
 
+
+![Assumed radio current sensitivity](followup_figures/fig16_assumed_current_sensitivity.svg)
 
 Fig. 17. Assumed radio current sensitivity.
 
