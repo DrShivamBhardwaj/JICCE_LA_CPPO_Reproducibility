@@ -1,0 +1,69 @@
+{
+  "status": "prospective_unexecuted",
+  "version": "heldout_geometry_v2",
+  "frozen_from_repository_commit": "ba1411f26c3ecd68b3a220dc990f4ddb6c36a830",
+  "design_seed": 261020,
+  "expected_runs": 2880,
+  "independent_geometry_blocks": 30,
+  "blocks_sha256": "001051154a9f1f4091a54cc4f23b855cf4b98834f480a8557cb923ca98ae8274",
+  "factor_levels": {
+    "onset": [
+      10,
+      30
+    ],
+    "rx_probability": [
+      0.8,
+      1
+    ],
+    "timing": [
+      0,
+      1
+    ],
+    "physical_attacker": [
+      0,
+      1,
+      2
+    ],
+    "arm": [
+      "censored",
+      "censored_proof",
+      "negative",
+      "negative_proof"
+    ]
+  },
+  "base_git_blob_sha1": {
+    "experiments/remediation_v1/run.py": "3531b24dba69465c39b24800af3162f7bb872ecc",
+    "experiments/remediation_v1/prepare.py": "0058e84e4bb9d031d163f0f1b5d877111bd812e7",
+    "experiments/remediation_v1/audit.py": "a46aeae55a416bfcc25671e2a003a702cdda216d",
+    "experiments/remediation_v1/trace_tools.py": "ea9578c9d29bd57fbc22e9af94443a1045c4aec0",
+    "hardware/cooja_feedback/feedback.c": "13cd05bd2c609ef5f6158995323bf396dc7da9ce",
+    "hardware/cooja_feedback/local_feedback.h": "7bd49fd96205c61cedd3eab20842513f61021bfd",
+    "hardware/cooja_feedback/feedback_ledger.h": "a072991ce645e2e57475ed74d8f294cd235f5733",
+    "hardware/cooja_feedback/pilot.csc": "d1571e2b22ba28fdd39cf1b3f8188813461c28c2",
+    "hardware/cc2538_q22/actor.h": "969934be25cf07f55b2c56d9a20d8996d0c32156",
+    "outputs/jicce_validation/checkpoints/attention_41001.pt": "79fdd55a80ac637affbde2ec69ce0c04fa190a86",
+    "outputs/jicce_validation/checkpoints/attention_41002.pt": "05ffe3869656936a3eb4ad1b6d007e76565a8342",
+    "outputs/jicce_validation/checkpoints/attention_41003.pt": "eed21d6db1946b89747958a464e8e85f14d30d82"
+  },
+  "study_principles": {
+    "primary_estimand": "Attacked-run post-onset unique sink delivery fraction, equal weight across onset and radio/channel and physical attacker position within each geometry; source and sink delivery only; 30 geometry block means",
+    "primary_contrasts": [
+      "negative_main",
+      "proof_main",
+      "interaction"
+    ],
+    "factorial": "All onset, RX, timing, attack-position and four matched arms crossed within each geometry. Relay label permutation alternates across blocks, balanced 8/7 per clipping stratum.",
+    "geometry": "15 clipped / 15 unclipped source-progress geometries, 50 m UDGM transmission range, <=48.5m required hop distances, fixed sink (90,0), no direct source-sink link",
+    "critical_failure": "All offered packets: critical sink loss or lateness. Not signed receipt deadline.",
+    "negative_control": "Benign/no-attacker runs at RX 0.8 and 1.0; estimate unintended negative feedback penalties descriptively. No inference that RX loss is congestion.",
+    "secondary_outcomes": [
+      "critical_failure",
+      "tx_seconds",
+      "benign delivery",
+      "exposure-stratified three-safe-choice recovery"
+    ],
+    "inference": "Two-sided Monte Carlo sign-flip for paired 30 geometry effects, 200000 random assignments with reproducible seed; conditional on sign symmetry, not treatment randomization; 20000 geometry bootstrap pointwise CI; separate Holm 6-test family per endpoint.",
+    "scope": "New Cooja study NOT YET EXECUTED. Earlier 1440-run study unchanged. Q22 actor/checkpoints frozen; no retraining. No physical radio/current or MCU timing/provisioned security claims.",
+    "constraints": "No post-outcome selection, no dropping technical failures, full case-audit requirement; state launch costs before extensive cloud execution."
+  }
+}
