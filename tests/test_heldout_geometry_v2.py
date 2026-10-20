@@ -7,8 +7,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "experiments" / "heldout_geometry_v2"))
-from design import (
+sys.path.insert(0, str(ROOT))
+from experiments.heldout_geometry_v2.design import (
     ARMS, SINK, generate_blocks, generate_cases, geometry_quality,
     progress, validate_plan,
 )
