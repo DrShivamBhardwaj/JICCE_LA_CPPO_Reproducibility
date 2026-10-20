@@ -1,0 +1,30 @@
+name: Array editorial source transfer
+on:
+  push:
+    branches:
+      - editorial/array-matched-primary-20261020
+    paths:
+      - '.github/workflows/array-source-transfer.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  archive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify native manuscript
+        run: |
+          test -s publication/array/Array_Manuscript.docx
+          test -s publication/array/Array_Manuscript.pdf
+          sha256sum publication/array/Array_Manuscript.docx publication/array/Array_Manuscript.pdf
+          ls -lh publication/array/Array_Manuscript.*
+      - uses: actions/upload-artifact@v4
+        with:
+          name: array-native-source-${{ github.sha }}
+          path: |
+            publication/array/Array_Manuscript.docx
+            publication/array/Array_Manuscript.pdf
+          if-no-files-found: error
+          retention-days: 7
