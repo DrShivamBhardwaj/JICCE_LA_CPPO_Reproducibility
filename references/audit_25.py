@@ -19,7 +19,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 REFS = ROOT / "references" / "array_25_expected.json"
 UA = "Manuscript-Reference-Verifier/1.0 (academic bibliography verification)"
 TIMEOUT = 18
