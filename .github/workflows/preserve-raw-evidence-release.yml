@@ -1,0 +1,55 @@
+name: Preserve complete raw evidence as private release assets
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  preserve:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download original 1440 cases
+        uses: actions/download-artifact@v4
+        with:
+          repository: DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility
+          run-id: 40799421030
+          github-token: ${{ github.token }}
+          name: wsn-remediation-v1-9f631508f3dadef7cd457475245a6d540aa4132f
+          path: staging/original_1440
+      - name: Download independently evaluated 1920 cases
+        uses: actions/download-artifact@v4
+        with:
+          repository: DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility
+          run-id: 40817271111
+          github-token: ${{ github.token }}
+          name: wsn-generalization-v2-008a14d5f8077b1a92c850319b6d4fc43cae7d72
+          path: staging/followup_1920
+      - name: Pack archives and generate checksums
+        run: |
+          set -eu
+          cd staging
+          zip -q -r -0 ../original_1440_raw_archive.zip original_1440
+          zip -q -r -0 ../followup_1920_raw_archive.zip followup_1920
+          cd ..
+          sha256sum original_1440_raw_archive.zip followup_1920_raw_archive.zip > SHA256SUMS.txt
+          python - <<'PY'
+          import pathlib,json,hashlib
+          out={}
+          for key,p in [('original_1440','staging/original_1440'),('followup_1920','staging/followup_1920')]:
+            a=pathlib.Path(p)
+            out[key]={'folders':sum(x.is_dir() for x in a.rglob('*')),'files':sum(x.is_file() for x in a.rglob('*')),
+                      'analysis_present':(a/'analysis.json').is_file(),'execution_complete_present':(a/'execution_complete.json').is_file()}
+            assert out[key]['analysis_present'] and out[key]['execution_complete_present']
+          pathlib.Path('ARCHIVE_MANIFEST.json').write_text(json.dumps(out,indent=2)+'\n')
+          print(json.dumps(out,indent=2))
+          PY
+      - name: Create durable private release, upload assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=raw-evidence-2026-10-29
+          gh release create "$tag" --target "$GITHUB_SHA" --title 'Raw Cooja evidence — 3360 runs' --notes 'Private archival copies of original 1440-run and subsequent 1920-run Cooja experiment records. See independent audit workflows 40816387535 and 40832091625. Four-node simulation evidence only, not physical RF validation. Release assets do not have GitHub Actions artifact expiry.' || gh release view "$tag"
+          gh release upload "$tag" original_1440_raw_archive.zip followup_1920_raw_archive.zip SHA256SUMS.txt ARCHIVE_MANIFEST.json --clobber
+          gh release view "$tag" --json assets --jq '.assets[]|[.name,.size,.state]|@tsv'
