@@ -1,0 +1,79 @@
+name: Independent 1920-case generalization raw archive audit
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download completed v2 artifact
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 40817271111
+          repository: DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility
+          github-token: ${{ github.token }}
+          name: wsn-generalization-v2-008a14d5f8077b1a92c850319b6d4fc43cae7d72
+          path: outputs/generalization_v2
+      - name: Verify every case capture and paired analysis
+        run: |
+          python - <<'PY'
+          import json,gzip,hashlib,pathlib,xml.etree.ElementTree as ET,struct,re
+          root=pathlib.Path('outputs/generalization_v2')
+          protocol=pathlib.Path('experiments/generalization_v2/protocol.json')
+          p=json.loads(protocol.read_text())
+          analysis=json.loads((root/'analysis.json').read_text())
+          complete=json.loads((root/'execution_complete.json').read_text())
+          h=hashlib.sha256(protocol.read_bytes()).hexdigest()
+          assert len(p['cases'])==p['expected_runs']==1920
+          assert complete['cases']==analysis['runs']==1920
+          assert analysis['protocol_sha256']==h
+          assert len({c['case_id'] for c in p['cases']})==1920
+          assert {x.name for x in (root/'runs').iterdir() if x.is_dir()}=={c['case_id'] for c in p['cases']}
+          n_events=0
+          for c in p['cases']:
+              folder=root/'runs'/c['case_id']
+              assert json.loads((folder/'case.json').read_text())==c
+              a=json.loads((folder/'audit.json').read_text())
+              assert a['status']=='independent_audit_passed' and a['antecedent_provenance']['status']=='passed_antecedent_event_checks'
+              raw=gzip.decompress((folder/'COOJA.testlog.gz').read_bytes())
+              image=gzip.decompress((folder/'native_mote.so.gz').read_bytes())
+              assert hashlib.sha256(raw).hexdigest()==a['log_sha256']
+              assert hashlib.sha256(image).hexdigest()==a['native_image_sha256']
+              assert int(raw.decode().splitlines()[0].split(':',1)[1])==c['seed']
+              for line in raw.decode().splitlines():
+                  m=re.match(r'^(\d+) node-(\d+) (\{.*\})$',line)
+                  if not m:continue
+                  n_events+=1
+                  e=json.loads(m[3]); node=int(m[2])-1
+                  if e.get('event')=='app_blackhole': assert c['attacker'] and node==c['attacker'] and e['pid']>=c['onset']
+                  if e.get('event')=='cooja_rx':
+                      w=bytes.fromhex(e['wire'])
+                      if w[1]==1:
+                          x,y=struct.unpack('!2f',w[20:28]);exp=c['positions'][e['peer']]
+                          assert max(abs(x-exp[0]),abs(y-exp[1]))<1e-5
+              expected={'mode':c['mode'],'proof':c['proof'],'attack':int(c['attacker']!=0),'timing':c['timing']}
+              assert a['config']==expected
+              tree=ET.parse(folder/'simulation.csc')
+              sim=tree.find('simulation')
+              assert int(sim.findtext('randomseed'))==c['seed']
+              assert float(sim.findtext('radiomedium/success_ratio_rx'))==c['rx_probability']
+              motes=sim.find('motetype').findall('mote')
+              assert len(motes)==4
+              for mote,xy in zip(motes,c['positions']):
+                  pos=mote.find('interface_config/pos')
+                  assert [float(pos.get('x')),float(pos.get('y'))]==xy
+          report={'status':'passed_fresh_1920_raw_archive_integrity','runs':1920,'independent_geometry_blocks':24,'events_parsed':n_events,'logs_sha256_verified':1920,'native_images_sha256_verified':1920,'case_files_verified':1920,'simulation_configs_verified':1920,'antecedent_audit_status_checked':1920,'protocol_sha256':h,'physical_validation':False,'scope':'Captured bytes/metadata and recorded antecedent audit acceptance; does not replay cryptographic audit or prove RF hardware equivalence','source_run':40817271111}
+          pathlib.Path('generalization_v2_independent_integrity.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: generalization-v2-independent-audit
+          path: generalization_v2_independent_integrity.json
+          if-no-files-found: warn
+          retention-days: 90
