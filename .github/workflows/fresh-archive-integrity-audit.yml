@@ -1,0 +1,48 @@
+name: Independent fresh archive integrity audit
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download complete fresh Cooja artifact
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 40799421030
+          repository: DrShivamBhardwaj/JICCE_LA_CPPO_Reproducibility
+          github-token: ${{ github.token }}
+          name: wsn-remediation-v1-9f631508f3dadef7cd457475245a6d540aa4132f
+          path: outputs/remediation_v1
+      - name: Verify all 1440 fresh captures against frozen protocol and hashes
+        run: |
+          python scripts/verify_remediation_archive.py --dataset outputs/remediation_v1 --output fresh_archive_integrity_independent.json
+          python - <<'PY'
+          import json, pathlib, hashlib
+          root=pathlib.Path('outputs/remediation_v1')
+          x=json.loads(pathlib.Path('fresh_archive_integrity_independent.json').read_text())
+          assert x['status']=='passed_complete_archive_integrity' and x['cases']==1440
+          logs=list(root.glob('runs/*/COOJA.testlog.gz'))
+          images=list(root.glob('runs/*/native_mote.so.gz'))
+          audits=list(root.glob('runs/*/audit.json'))
+          assert len(logs)==len(images)==len(audits)==1440,(len(logs),len(images),len(audits))
+          x['fresh_log_files']=len(logs)
+          x['fresh_native_images']=len(images)
+          x['fresh_audits']=len(audits)
+          x['run_id']=40799421030
+          x['source_commit']='9f631508f3dadef7cd457475245a6d540aa4132f'
+          pathlib.Path('fresh_archive_integrity_independent.json').write_text(json.dumps(x,indent=2)+'\n')
+          print(json.dumps(x,indent=2))
+          PY
+      - name: Upload independent audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fresh-archive-integrity-audit
+          path: fresh_archive_integrity_independent.json
+          if-no-files-found: warn
+          retention-days: 90
