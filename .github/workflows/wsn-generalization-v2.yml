@@ -1,0 +1,42 @@
+name: Generalization v2 24-geometry evaluation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Install analysis dependencies
+        run: |
+          python -m pip install numpy cryptography matplotlib pytest
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          mkdir -p outputs/generalization_v2
+          python -m pip freeze > outputs/generalization_v2/python_environment.txt
+      - name: Verify new frozen design
+        run: |
+          python experiments/generalization_v2/run.py --verify-only
+          PYTHONPATH=src python -m pytest -q tests/test_remediation_v1.py
+      - name: Build isolated Cooja
+        run: bash experiments/generalization_v2/bootstrap.sh
+      - name: Run excluded technical preflight and 1920 frozen cases
+        run: python experiments/generalization_v2/run.py --execute --workers 2
+      - name: Analyze geometry-clustered outcomes
+        run: python experiments/generalization_v2/analyze.py
+      - name: Archive outputs and failure diagnostics
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wsn-generalization-v2-${{ github.sha }}
+          path: outputs/generalization_v2/
+          if-no-files-found: error
+          retention-days: 90
