@@ -22,3 +22,8 @@ Commands, from the repository root:
     python experiments/remediation_v1/analyze.py
 
 The bootstrap requires a supported Java 25 installation and normal native C build tools. Python needs numpy, torch and cryptography; the workflow records exact installed versions. Native Cooja computes no Cortex-M3 cycles, and scheduling assumptions remain overlapping per-packet delays. No physical energy, production security, author consent or submission completion follows from this study.
+
+
+## Re-execution request — 2026-10-29
+
+The existing GitHub Actions workflow was retriggered by this documentation-only commit to rerun the frozen experiment protocol and artifact checks. This note changes no protocol, seed, model, threshold, reported result, or acceptance criterion. Successful completion must be assessed from the corresponding GitHub Actions logs and uploaded artifacts; the request alone is not evidence that the 1,440 runs have passed.
